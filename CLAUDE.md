@@ -1,4 +1,4 @@
-# NRDS - Nederlandse Richtlijn Digitale Systemen
+# NeRDS - Nederlandse Richtlijn Digitale Systemen
 
 ## Key Commands
 - `uv pip install -r requirements.txt` - Install dependencies

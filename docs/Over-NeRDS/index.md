@@ -7,7 +7,7 @@ hide:
 
 # Over de Nederlandse Richtlijn Digitale Systemen
 
-De Nederlandse Richtlijn Digitale Systemen (NRDS, spreek uit als _de /nɛrts/_) is een set standaarden, principes en
+De Nederlandse Richtlijn Digitale Systemen (NeRDS, spreek uit als _de /nɛrts/_) is een set standaarden, principes en
 praktische hulpmiddelen (tools) voor het
 verantwoord ontwikkelen, inkopen en gebruiken van digitale systemen binnen de Nederlandse overheid.
 
@@ -59,7 +59,7 @@ Gebruik deze richtlijn als:
 
 ## Versie 0.1
 
-Versie 0.1 is de eerste versie van de Nederlandse Richtlijn Digitale Systemen (NRDS).
+Versie 0.1 is de eerste versie van de Nederlandse Richtlijn Digitale Systemen (NeRDS).
 Deze versie verscheen op 21 maart 2025.
 
 In deze eerste versie ligt de nadruk op het opzetten van een raamwerk waarop we verder kunnen bouwen.

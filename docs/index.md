@@ -13,13 +13,13 @@ hide:
     <span class="version-container">
       <span class="version-label">Versie 0.1</span>
       <div class="hover-info">
-        <p>Deze richtlijn is in ontwikkeling. Alle versies ontstaan op een open manier. <a href="Over-NRDS/CONTRIBUTING/">Iedereen mag bijdragen aan de verbetering.</a></p>
+        <p>Deze richtlijn is in ontwikkeling. Alle versies ontstaan op een open manier. <a href="Over-NeRDS/CONTRIBUTING/">Iedereen mag bijdragen aan de verbetering.</a></p>
       </div>
     </span>
     </div>
 </div>
 
-<a href="Over-NRDS/" class="button md-button--secondary">Over de Nederlandse Richtlijn Digitale Systemen</a>
+<a href="Over-NeRDS/" class="button md-button--secondary">Over de Nederlandse Richtlijn Digitale Systemen</a>
 
 <div class="float-container">
 
@@ -28,7 +28,7 @@ hide:
     <div class="float-box">
     <h3><b>Aan de slag</b></h3>
     <ul>
-      <li><a href="Over-NRDS/digitale-systemen/">Begrijp digitale systemen</a></li>
+      <li><a href="Over-NeRDS/digitale-systemen/">Begrijp digitale systemen</a></li>
       <li><a href="levenscyclus/">De levenscyclus van digitale systemen</a></li>
       <li><a href="onderwerpen/governance/">Governance en verantwoordelijkheid</a></li>
       <li><a href="rollen/">Rollen en verantwoordelijkheden</a></li>

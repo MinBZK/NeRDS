@@ -3,7 +3,7 @@
 # Nederlandse Richtlijn Digitale Systemen
 
 Het [Ministerie van Binnenlandse Zaken en Koninkrijksrelaties](https://github.com/MinBZK) ontwikkelt de Nederlandse
-Richtlijn Digitale Systemen (NRDS) op een open manier via Github.
+Richtlijn Digitale Systemen (NeRDS) op een open manier via Github.
 De Nederlandse Richtlijn Digitale Systemen is Een set standaarden, principes en praktische hulpmiddelen (tools) voor het
 verantwoord ontwikkelen, inkopen en gebruiken van digitale systemen binnen de Nederlandse overheid.
 
@@ -15,7 +15,7 @@ Deze bestanden worden inzichtelijk gemaakt met behulp van [MkDocs](https://www.m
 en [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
 De Nederlandse Richtlijn Digitale Systemen kun je bekijken op
-[https://minbzk.github.io/NRDS](https://minbzk.github.io/NRDS/).
+[https://minbzk.github.io/NeRDS](https://minbzk.github.io/NeRDS/).
 
 ## Hoe kun je bijdragen?
 
@@ -59,5 +59,5 @@ In deze versie werken de navigatie broodkruimels niet.
 
 ## Vragen?
 
-Maak een [Issue](https://github.com/MinBZK/NRDS/issues) aan op GitHub. Of stuur een e-mail naar
+Maak een [Issue](https://github.com/MinBZK/NeRDS/issues) aan op GitHub. Of stuur een e-mail naar
 [bano@minbzk.nl](mailto:bano@minbzk.nl).

@@ -29,7 +29,7 @@ jobs:
 
       - name: Add url
         run: |
-          echo "site_url: https://minbzk.github.io/NRDS/pr-preview/pr-${{github.event.number}}" >> mkdocs.yml
+          echo "site_url: https://minbzk.github.io/NeRDS/pr-preview/pr-${{github.event.number}}" >> mkdocs.yml
 
       - uses: actions/setup-python@v5
         if: github.event.action != 'closed'
@@ -55,7 +55,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: github.event.action != 'closed'
         with:
-          name: NRDSWebsite-${{github.event.number}}
+          name: NeRDSWebsite-${{github.event.number}}
           path: ./site/
 
       - name: Deploy preview

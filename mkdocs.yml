@@ -32,8 +32,8 @@ theme:
 nav:
   - Home:
       - index.md
-  - Over NRDS:
-      - Over-NRDS/index.md
+  - Over NeRDS:
+      - Over-NeRDS/index.md
 
 # Extra opties
 markdown_extensions:
@@ -64,7 +64,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/MinBZK/NRDS
+      link: https://github.com/MinBZK/NeRDS
 
 extra_css:
   - stylesheets/navigation.css
@@ -100,6 +100,6 @@ plugins:
 #    - src/overrides/hooks/lists.py
 
 # Link naar GitHub repo
-repo_url: https://github.com/MinBZK/NRDS
-site_url: https://minbzk.github.io/NRDS/
+repo_url: https://github.com/MinBZK/NeRDS
+site_url: https://minbzk.github.io/NeRDS/
 edit_uri: edit/main/docs/

@@ -1,5 +1,5 @@
 ---
-title: Bijdragen aan NRDS
+title: Bijdragen aan NeRDS
 
 ---
 
@@ -31,7 +31,7 @@ We kijken uit naar alle bijdragen! 🎉
 
 ## Code of Conduct
 Dit project en iedereen die eraan deelneemt, valt onder de
-[Code of Conduct](https://github.com/MinBZK/NRDS?tab=coc-ov-file#readme).
+[Code of Conduct](https://github.com/MinBZK/NeRDS?tab=coc-ov-file#readme).
 Door deel te nemen, wordt van je verwacht dat je je aan deze code houdt. Meld onacceptabel gedrag
 aan **[bano@minbzk.nl](mailto:bano@minbzk.nl)**.
 
@@ -39,9 +39,9 @@ aan **[bano@minbzk.nl](mailto:bano@minbzk.nl)**.
 
 ### Maak een issue aan
 
-Voordat je een [Issues](https://github.com/MinBZK/NRDS/issues) gaat aanmaken, kan je bekijken of jouw vraag al tussen de bestaande [Issues](https://github.com/MinBZK/NRDS/issues) staat. Wellicht staat er al een issue tussen die jou vraag kan beantwoorden.
+Voordat je een [Issues](https://github.com/MinBZK/NeRDS/issues) gaat aanmaken, kan je bekijken of jouw vraag al tussen de bestaande [Issues](https://github.com/MinBZK/NeRDS/issues) staat. Wellicht staat er al een issue tussen die jou vraag kan beantwoorden.
 
-Als je jouw vraag nog steeds wilt stellen, kan je een [Issue](https://github.com/MinBZK/NRDS/issues) aanmaken.
+Als je jouw vraag nog steeds wilt stellen, kan je een [Issue](https://github.com/MinBZK/NeRDS/issues) aanmaken.
 
 1. Gebruik daarvoor de knop new issue.
 2. Schrijf je vraag of opmerking is en geef een heldere toelichting.
@@ -59,11 +59,11 @@ Er zijn verschillende manieren waarop je kan bijdragen. Zie hieronder de mogelij
 > Wanneer je bijdraagt aan dit project, moet je ermee akkoord gaan dat je 100% van de inhoud hebt geschreven, dat je de benodigde rechten op de inhoud hebt en dat de inhoud die je bijdraagt mag worden geleverd onder de Code of Conduct.
 
 ## Ik wil een fout of bug melden
-Heb je een foutje gevonden in de Nederlandse Richtlijn Digitale Systemen? Dan kan je deze melden door een [Issue](https://github.com/MinBZK/NRDS/issues) aan te maken.
+Heb je een foutje gevonden in de Nederlandse Richtlijn Digitale Systemen? Dan kan je deze melden door een [Issue](https://github.com/MinBZK/NeRDS/issues) aan te maken.
 
-Voordat je een [Issues](https://github.com/MinBZK/NRDS/issues) gaat aanmaken, kan je bekijken of jouw gevonden fout al tussen de bestaande [Issues](https://github.com/MinBZK/NRDS/issues) staat.
+Voordat je een [Issues](https://github.com/MinBZK/NeRDS/issues) gaat aanmaken, kan je bekijken of jouw gevonden fout al tussen de bestaande [Issues](https://github.com/MinBZK/NeRDS/issues) staat.
 
-Als je de gevonden fout nog steeds wilt melden, kan je een [Issue](https://github.com/MinBZK/NRDS/issues) aanmaken.
+Als je de gevonden fout nog steeds wilt melden, kan je een [Issue](https://github.com/MinBZK/NeRDS/issues) aanmaken.
 
 1. Gebruik daarvoor de knop new issue.
 2. Beschrijf de fout duidelijk en geef een heldere toelichting. Voeg waar mogelijk een screenshot toe.
@@ -72,17 +72,17 @@ Als je de gevonden fout nog steeds wilt melden, kan je een [Issue](https://githu
 ## Ik wil een verbetering voorstellen
 Heb je een suggestie of wil je een verbetering voorstellen? Dat kan gaan om een compleet nieuwe functionaliteit van de site of om kleine verbeteringen. Het volgen van onderstaande instructie helpt het team van de Nederlandse Richtlijn Digitale Systemen om je suggestie te begrijpen en gerelateerde suggesties te vinden.
 
-Je kan een suggestie doen door een [Issue](https://github.com/MinBZK/NRDS/issues) aan te maken of door een Pull Request te maken.
+Je kan een suggestie doen door een [Issue](https://github.com/MinBZK/NeRDS/issues) aan te maken of door een Pull Request te maken.
 
 ### Voordat je een suggestie gaat maken
 
-- Voordat je een suggestie gaat maken, kan je bekijken of jouw suggestie al tussen de bestaande [Issues](https://github.com/MinBZK/NRDS/issues) staat. Wellicht bestaat er al een issue die jouw suggestie beschrijft, en zijn we er al mee bezig.
+- Voordat je een suggestie gaat maken, kan je bekijken of jouw suggestie al tussen de bestaande [Issues](https://github.com/MinBZK/NeRDS/issues) staat. Wellicht bestaat er al een issue die jouw suggestie beschrijft, en zijn we er al mee bezig.
 - Zoek uit of jouw idee past binnen het doel en de scope van het project. Wat zijn de voordelen van deze functionaliteit of toevoeging? Het is aan jou om het team van de Nederlandse Richtlijn Digitale Systemen en de community te overtuigen dat dit een nuttige toevoeging is aan de Nederlandse Richtlijn Digitale Systemen. Houd in gedachten dat we functioanliteiten willen die nuttig zijn
 voor de meerderheid van onze gebruikers en niet slechts voor een kleine groep.
 
 ### Een issue aanmaken
 
-Als je jouw suggestie nog steeds wilt doen, kan je een [Issue](https://github.com/MinBZK/NRDS/issues) aanmaken.
+Als je jouw suggestie nog steeds wilt doen, kan je een [Issue](https://github.com/MinBZK/NeRDS/issues) aanmaken.
 
 1. Gebruik daarvoor de knop new issue.
 2. Beschrijf duidelijk jouw suggestie en geef een heldere toelichting en onderbouwing waarom dit een goede toevoeging zal zijn aan de Nederlandse Richtlijn Digitale Systemen
@@ -101,16 +101,16 @@ Het team van Nederlandse Richtlijn Digitale Systemen bekijkt daarna jouw aanpass
 > ### Preview van een pull-request
 > We maken gebruik van de tool [pr-preview-action](https://github.com/rossjrw/pr-preview-action) om automatisch previews te maken van een pull-request.
 Dit maakt het mogelijk om de wijzigingen die zijn gedaan in een pull-request al te bekijken in de uiteindelijke omgeving.
-> Wanneer er een pull-request gedaan wordt via een fork, leidt dit helaas tot een error, zie [Issue #79](https://github.com/MinBZK/NRDS/issues/79). Dit blokkeert de pull-request niet.
+> Wanneer er een pull-request gedaan wordt via een fork, leidt dit helaas tot een error, zie [Issue #79](https://github.com/MinBZK/NeRDS/issues/79). Dit blokkeert de pull-request niet.
 
 ## Hoe we werken op Github
 We werken met [Markdown](https://www.markdownguide.org/basic-syntax/) bestanden.
 Dit is bestandsformaat voor platte tekstbestanden en wordt door veel verschillende tools ondersteund. Dit maakt het eenvoudig om versiebeheer op de Nederlandse Richtlijn Digitale Systemen toe te passen.
 
-Daarnaast maken gebruik van [mkdocs](https://www.mkdocs.org/) en [material for mkdocs](https://squidfunk.github.io/mkdocs-material/) om de informatie op een interactieve wijze inzichtelijk te maken op de website van [de Nederlandse Richtlijn Digitale Systemen](https://minbzk.github.io/NRDS/).
+Daarnaast maken gebruik van [mkdocs](https://www.mkdocs.org/) en [material for mkdocs](https://squidfunk.github.io/mkdocs-material/) om de informatie op een interactieve wijze inzichtelijk te maken op de website van [de Nederlandse Richtlijn Digitale Systemen](https://minbzk.github.io/NeRDS/).
 
 ### Wil je een nieuwe pagina aanmaken?
-In het [mkdocs.yml](https://github.com/MinBZK/NRDS/blob/main/mkdocs.yml) bestand staan de settings voor deze website.
+In het [mkdocs.yml](https://github.com/MinBZK/NeRDS/blob/main/mkdocs.yml) bestand staan de settings voor deze website.
 In principe hoef je hier niets aan aan te passen, maar als je een nieuwe pagina wilt aanmaken kan het nodig zijn om hier een aanpassing in te doen.
 Onderdeel van deze settings is namelijk de navigatie voor de site (welke pagina's zijn zichtbaar, en welke pagina's vallen daaronder). Dit staat in de nav: sectie.
-Indien je een nieuwe pagina wilt toevoegen, is het vaak nodig deze wijziging ook door te voeren in het [mkdocs.yml](https://github.com/MinBZK/NRDS/blob/main/mkdocs.yml) bestand.
+Indien je een nieuwe pagina wilt toevoegen, is het vaak nodig deze wijziging ook door te voeren in het [mkdocs.yml](https://github.com/MinBZK/NeRDS/blob/main/mkdocs.yml) bestand.
