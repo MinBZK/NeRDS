@@ -1,5 +1,15 @@
 name: Publish mkdocs via GitHub Pages
 
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - '*'
+  pull_request:
+    branches:
+      - main
+
 jobs:
   deploy-main:
     name: deploy main
