@@ -29,17 +29,11 @@ theme:
         logo: fontawesome/solid/house
         annotation: fontawesome/solid/circle-info
 
-#nav:
-#    - Basiskennis:
-#         - overnerds/index.md
-#    - Onderwerpen:
-#        # - Overzicht: onderwerpen/index.md
-#        - ... | onderwerpen/*.md
-#    - Rollen:
-#        - ... | rollen/*.md
-#    - Voldoen aan wetten en regels:
-#        - Overzicht: voldoen-aan-wetten-en-regels/index.md
-
+nav:
+    - Home:
+        - /
+    - Over NRDS:
+         - Over-NRDS/index.md
 
 # Extra opties
 markdown_extensions:
