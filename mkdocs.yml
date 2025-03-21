@@ -3,68 +3,68 @@ site_name: Nederlandse Richtlijn Digitale Systemen 0.1
 site_description: De Nederlandse Richtlijn Digitale Systemen van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
 
 theme:
-    name: material
-    custom_dir: src/overrides
-    language: nl
-    palette:
-        primary: custom
-    logo: assets/logo.svg
-    favicon: assets/favicon.ico
-    font: false
-    features:
-        - navigation.indexes
-        - navigation.tabs
-        - navigation.tabs.sticky
-        - navigation.top
-        - navigation.tracking
-        - navigation.instant
-        - navigation.footer
-        - navigation.prune
-        - navigation.path
-        - search.highlight
-        - search.suggest
-        - content.tooltips
-        - content.tabs.link
-    icon:
-        logo: fontawesome/solid/house
-        annotation: fontawesome/solid/circle-info
+  name: material
+  custom_dir: src/overrides
+  language: nl
+  palette:
+    primary: custom
+  logo: assets/logo.svg
+  favicon: assets/favicon.ico
+  font: false
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - navigation.instant
+    - navigation.footer
+    - navigation.prune
+    - navigation.path
+    - search.highlight
+    - search.suggest
+    - content.tooltips
+    - content.tabs.link
+  icon:
+    logo: fontawesome/solid/house
+    annotation: fontawesome/solid/circle-info
 
 nav:
-    - Home:
-        - /
-    - Over NRDS:
-         - Over-NRDS/index.md
+  - Home:
+      - index.md
+  - Over NRDS:
+      - Over-NRDS/index.md
 
 # Extra opties
 markdown_extensions:
-    - pymdownx.tabbed:
-        alternate_style: true
-    - pymdownx.superfences:
-        custom_fences:
-            - name: mermaid
-              class: mermaid
-              format: !!python/name:pymdownx.superfences.fence_code_format
-    - pymdownx.details
-    - admonition
-    - attr_list
-    - abbr
-    - md_in_html
-    - footnotes
-    - toc:
-        toc_depth: 3
-    - pymdownx.tasklist:
-        custom_checkbox: true
-        clickable_checkbox: true
-    - pymdownx.emoji:
-        emoji_index: !!python/name:material.extensions.emoji.twemoji
-        emoji_generator: !!python/name:material.extensions.emoji.to_svg
-    - pymdownx.blocks.html
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - admonition
+  - attr_list
+  - abbr
+  - md_in_html
+  - footnotes
+  - toc:
+      toc_depth: 3
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.blocks.html
 
 # Extra opties voor footer
 extra:
-    social:
-        - icon: fontawesome/brands/github
-          link: https://github.com/MinBZK/NRDS
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MinBZK/NRDS
 
 extra_css:
   - stylesheets/navigation.css
@@ -86,14 +86,14 @@ extra_javascript:
   - javascripts/modal.js
 
 plugins:
-    - glightbox
-    - search
-    - git-revision-date-localized:
-        enable_creation_date: true
-        timezone: Europe/Amsterdam
-        locale: nl
-    - awesome-pages:
-        collapse_single_pages: true
+  - glightbox
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      timezone: Europe/Amsterdam
+      locale: nl
+  - awesome-pages:
+      collapse_single_pages: true
 
 #hooks:
 #    - src/overrides/hooks/tags.py
