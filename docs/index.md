@@ -19,7 +19,7 @@ hide:
     </div>
 </div>
 
-<a href="overnerds/over-nerds/" class="button md-button--secondary">Over de Nederlandse Richtlijn Digitale Systemen</a>
+<a href="Over-NRDS/" class="button md-button--secondary">Over de Nederlandse Richtlijn Digitale Systemen</a>
 
 <div class="float-container">
 
