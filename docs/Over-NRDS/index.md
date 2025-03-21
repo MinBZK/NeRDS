@@ -1,6 +1,8 @@
 ---
 title: Over de Nederlandse Richtlijn Digitale Systemen
 summary: De Nederlandse Richtlijn Digitale Systemen is een open source website van het Ministerie van Binnenlandse Zaken.
+hide:
+    - navigation
 ---
 
 # Over de Nederlandse Richtlijn Digitale Systemen
