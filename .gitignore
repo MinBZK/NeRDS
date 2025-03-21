@@ -1,0 +1,14 @@
+# build files
+site
+.venv/
+
+#  python cache
+**/__pycache__/**
+
+# IDE files
+.idea/
+
+
+
+.Rproj.user
+/tmp-site/

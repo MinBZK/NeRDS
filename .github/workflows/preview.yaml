@@ -1,0 +1,63 @@
+name: Deploy PR preview
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+concurrency: preview-${{ github.ref }}
+
+jobs:
+  deploy:
+    name: deploy PR
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: get tag
+        id: get_commit_hash
+        run: |
+          echo "commit_hash=$(git describe --tags)" >> "$GITHUB_OUTPUT"
+
+      - name: inject version
+        run: |
+          sed -i 's/development/${{ steps.get_commit_hash.outputs.commit_hash }}/g' docs/version.md
+
+      - name: Add url
+        run: |
+          echo "site_url: https://minbzk.github.io/NRDS/pr-preview/pr-${{github.event.number}}" >> mkdocs.yml
+
+      - uses: actions/setup-python@v5
+        if: github.event.action != 'closed'
+        with:
+          python-version: '3.12'
+
+      - name: Install uv
+        if: github.event.action != 'closed'
+        run: |
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          echo "$HOME/.uv/bin" >> $GITHUB_PATH
+
+      - name: install dependencies
+        if: github.event.action != 'closed'
+        run: uv pip install -r requirements-prod.txt
+
+      - name: build preview
+        if: github.event.action != 'closed'
+        run: uv run mkdocs build
+
+      - uses: actions/upload-artifact@v4
+        if: github.event.action != 'closed'
+        with:
+          name: NRDSWebsite-${{github.event.number}}
+          path: ./site/
+
+      - name: Deploy preview
+        if: github.event.pull_request.head.repo.full_name == github.repository && github.actor != 'dependabot[bot]'
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./site/
