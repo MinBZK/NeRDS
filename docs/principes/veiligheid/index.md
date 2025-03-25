@@ -54,7 +54,7 @@ Beveiliging is een fundamenteel aspect van digitale systemen. Het gaat niet alle
 6. **Monitoring en detectie**: Detecteer en reageer snel op beveiligingsincidenten
 7. **Gebruikersbewustzijn**: Train gebruikers in veilig gedrag
 
-Deze principes sluiten aan bij andere NeRDS-principes zoals [Maak privacy integraal](../privacy/), [Gebruik open standaarden](../open-standaarden/) en [Maak beter gebruik van data](../data/).
+Deze principes sluiten aan bij andere NeRDS-principes zoals [Maak privacy integraal](../privacy/index.md), [Gebruik open standaarden](../open-standaarden/index.md) en [Maak beter gebruik van data](../data/index.md).
 
 ## Implementatie van beveiligingsmaatregelen
 

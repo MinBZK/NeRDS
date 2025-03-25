@@ -24,10 +24,10 @@ Burgers hebben rechten op:
 ## Waarom privacy integraal maken
 
 - **Wettelijke verplichting**: Voldoe aan de Algemene Verordening Gegevensbescherming (AVG) en andere privacywetgeving
-- **Vertrouwen opbouwen**: Burgers vertrouwen systemen die hun privacy respecteren (zie [Definieer gebruikersbehoeften](../gebruikersbehoeften/))
-- **Risicovermindering**: Voorkom datalekken en privacyschendingen (zie [Maak dingen veilig](../veiligheid/))
+- **Vertrouwen opbouwen**: Burgers vertrouwen systemen die hun privacy respecteren (zie [Definieer gebruikersbehoeften](../gebruikersbehoeften/index.md))
+- **Risicovermindering**: Voorkom datalekken en privacyschendingen (zie [Maak dingen veilig](../veiligheid/index.md))
 - **Ethische verantwoordelijkheid**: Respecteer de rechten en waardigheid van individuen
-- **Goede dienstverlening**: Privacy-vriendelijke systemen zijn vaak gebruiksvriendelijker (zie [Voldoe aan de servicestandaard](../servicestandaard/))
+- **Goede dienstverlening**: Privacy-vriendelijke systemen zijn vaak gebruiksvriendelijker (zie [Voldoe aan de servicestandaard](../servicestandaard/index.md))
 
 ## Aanbevolen impactbeoordelingsvragen
 

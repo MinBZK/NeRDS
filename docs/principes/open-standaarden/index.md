@@ -16,14 +16,14 @@ Open standaarden zijn specificaties voor het uitvoeren van specifieke taken of f
 
 ## Voordelen van open standaarden
 
-- **Tijd en geld besparen**: Hergebruik bestaande middelen in plaats van opnieuw te ontwikkelen (zie [Deel, hergebruik en werk samen](../samenwerking/))
-- **Interoperabiliteit**: Systemen kunnen naadloos met elkaar communiceren (zie [Integreer en pas technologie aan](../integratie/))
+- **Tijd en geld besparen**: Hergebruik bestaande middelen in plaats van opnieuw te ontwikkelen (zie [Deel, hergebruik en werk samen](../samenwerking/index.md))
+- **Interoperabiliteit**: Systemen kunnen naadloos met elkaar communiceren (zie [Integreer en pas technologie aan](../integratie/index.md))
 - **Vermijd vendor lock-in**: Voorkomt afhankelijkheid van specifieke leveranciers of technologieën
 - **Compatibiliteit**: Bevordert samenwerking met belanghebbenden
 - **Kosteneffectiviteit**: Vermindert de kosten op de lange termijn
-- **Duurzaamheid**: Verlengt de levensduur van systemen en gegevens (zie [Maak je technologie duurzaam](../duurzaamheid/))
+- **Duurzaamheid**: Verlengt de levensduur van systemen en gegevens (zie [Maak je technologie duurzaam](../duurzaamheid/index.md))
 - **Innovatie**: Maakt het gemakkelijker om nieuwe diensten te ontwikkelen en te integreren
-- **Toegankelijkheid**: Zorgt ervoor dat informatie breed beschikbaar is (zie [Maak dingen toegankelijk en inclusief](../toegankelijkheid/))
+- **Toegankelijkheid**: Zorgt ervoor dat informatie breed beschikbaar is (zie [Maak dingen toegankelijk en inclusief](../toegankelijkheid/index.md))
 
 ## Technologie bouwen met open standaarden
 

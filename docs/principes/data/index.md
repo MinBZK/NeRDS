@@ -21,9 +21,9 @@ Data is een waardevolle hulpbron die, wanneer effectief beheerd en gebruikt, kan
 1. **Datakwaliteit**: Zorg voor accurate, volledige en actuele gegevens
 2. **Datagovernance**: Definieer duidelijke verantwoordelijkheden en beleid
 3. **Data-architectuur**: Ontwikkel een coherente structuur voor gegevensbeheer
-4. **Datadeling**: Bevorder het veilig en verantwoord delen van gegevens (zie [Deel, hergebruik en werk samen](../samenwerking/))
-5. **Datastandaardisatie**: Gebruik consistente formaten en definities (zie [Gebruik open standaarden](../open-standaarden/))
-6. **Data-ethiek**: Respecteer privacy en voorkom onethisch gebruik (zie [Maak privacy integraal](../privacy/))
+4. **Datadeling**: Bevorder het veilig en verantwoord delen van gegevens (zie [Deel, hergebruik en werk samen](../samenwerking/index.md))
+5. **Datastandaardisatie**: Gebruik consistente formaten en definities (zie [Gebruik open standaarden](../open-standaarden/index.md))
+6. **Data-ethiek**: Respecteer privacy en voorkom onethisch gebruik (zie [Maak privacy integraal](../privacy/index.md))
 7. **Datavaardigheden**: Bevorder datageletterdheid in de organisatie
 
 ## Praktische implementatiestappen

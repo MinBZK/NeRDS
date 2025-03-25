@@ -18,12 +18,12 @@ Door samen te werken, kennis te delen en oplossingen te hergebruiken, kunnen ove
 
 ## Wat kan worden gedeeld en hergebruikt
 
-- **Broncode**: Open source software specifiek voor de overheid (zie [Wees open en gebruik open source](../open-source/))
+- **Broncode**: Open source software specifiek voor de overheid (zie [Wees open en gebruik open source](../open-source/index.md))
 - **Componenten**: Herbruikbare technische bouwstenen
 - **Architectuurpatronen**: Beproefde ontwerpmodellen
-- **API's**: Interfaces voor gegevensuitwisseling (zie [Integreer en pas technologie aan](../integratie/))
-- **Datasets**: Gegevens die nuttig zijn voor meerdere organisaties (zie [Maak beter gebruik van data](../data/))
-- **Contracten en aanbestedingen**: Sjablonen en frameworks (zie [Definieer je inkoopstrategie](../inkoop/))
+- **API's**: Interfaces voor gegevensuitwisseling (zie [Integreer en pas technologie aan](../integratie/index.md))
+- **Datasets**: Gegevens die nuttig zijn voor meerdere organisaties (zie [Maak beter gebruik van data](../data/index.md))
+- **Contracten en aanbestedingen**: Sjablonen en frameworks (zie [Definieer je inkoopstrategie](../inkoop/index.md))
 - **Kennis en documentatie**: Best practices, handleidingen en richtlijnen
 - **Methodologieën**: Processen en werkwijzen
 
