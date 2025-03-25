@@ -32,8 +32,24 @@ theme:
 nav:
   - Home:
       - index.md
+  - Principes:
+      - Overzicht: principes/index.md
+      - 1. Gebruikersbehoeften: principes/gebruikersbehoeften/index.md
+      - 2. Toegankelijkheid: principes/toegankelijkheid/index.md
+      - 3. Open Source: principes/open-source/index.md
+      - 4. Open Standaarden: principes/open-standaarden/index.md
+      - 5. Cloud Eerst: principes/cloud-eerst/index.md
+      - 6. Veiligheid: principes/veiligheid/index.md
+      - 7. Privacy: principes/privacy/index.md
+      - 8. Samenwerking: principes/samenwerking/index.md
+      - 9. Integratie: principes/integratie/index.md
+      - 10. Data: principes/data/index.md
+      - 11. Inkoopstrategie: principes/inkoop/index.md
+      - 12. Duurzaamheid: principes/duurzaamheid/index.md
+      - 13. Servicestandaard: principes/servicestandaard/index.md
   - Over NeRDS:
       - Over-NeRDS/index.md
+      - Bijdragen: Over-NeRDS/CONTRIBUTING.md
 
 # Extra opties
 markdown_extensions:
