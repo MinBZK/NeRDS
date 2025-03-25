@@ -1,8 +1,14 @@
 name: Publish mkdocs via GitHub Pages
+
 on:
   push:
+    branches:
+      - main
     tags:
-      - v*
+      - '*'
+  pull_request:
+    branches:
+      - main
 
 jobs:
   deploy-main:
@@ -34,6 +40,8 @@ jobs:
           echo "$HOME/.uv/bin" >> $GITHUB_PATH
 
       - name: install dependencies
-        run: uv pip install -r requirements-prod.txt
+        run: |
+          uv venv
+          uv pip install -r requirements.txt
 
       - run: uv run mkdocs gh-deploy --force
