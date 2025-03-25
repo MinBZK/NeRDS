@@ -89,4 +89,11 @@ Deze principes sluiten aan bij andere NeRDS-principes zoals [Maak privacy integr
 - OWASP Top 10 voor webapplicatiebeveiliging
 - Privacy by Design principes
 
+## Expertisebronnen en hulpmiddelen
+
+- [Nationaal Cyber Security Centrum (NCSC)](https://www.ncsc.nl/) - Centrale kennisautoriteit voor cybersecurity in Nederland, met actuele dreigingsinformatie, advisering en ondersteuning
+- [Rijksinspectie Digitale Infrastructuur (RDI)](https://www.rdi.nl/) - Toezichthouder op het gebied van digitale infrastructuur en telecom
+- [Nationaal innovatie centrum privacy-enhancing technologies (NICPET)](https://nicpet.pleio.nl/) - Innovatiecentrum gericht op privacybeschermende technologieën
+- [OpenKAT](https://github.com/minvws/nl-kat-coordination) - Open source security kennisbank en tooling voor automatische testen
+
 Door beveiliging serieus te nemen en het te integreren in alle aspecten van technologieontwikkeling en -gebruik, bescherm je niet alleen gegevens maar ook het vertrouwen van burgers in de digitale overheid.

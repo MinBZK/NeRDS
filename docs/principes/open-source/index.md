@@ -61,4 +61,12 @@ Open source software is software waarvan de broncode vrijelijk beschikbaar is, e
 - Onderhoud de documentatie actief
 - Wees responsief op issues en pull requests
 
+## Hulpbronnen voor open source binnen de overheid
+
+- [Opensourcewerken community](https://developer.overheid.nl/communities/open-source-werken) - Community van het Ministerie van Binnenlandse Zaken voor praktische kennis, een forum om ervaringen te delen en informatie over relevante regelgeving voor open source werken.
+
+- [OSPO-NL Kennisbank](https://ospo-nl.github.io/kennisbank/) - Verzameling van kennis over het opzetten van een Open Source Program Office (OSPO) binnen de Nederlandse overheid, met praktische handleidingen en richtlijnen voor het werken met open source.
+
+- [Instructie Rijksdienst bij aanschaf ICT-diensten of ICT-producten](https://wetten.overheid.nl/BWBR0024717/2008-11-23) - Officiële instructie die voorschrijft dat bij de aanschaf van ICT-diensten of -producten door de Rijksoverheid, open standaarden moeten worden geëist.
+
 Door open en transparant te werken en open source software te omarmen, draag je bij aan een meer transparante, flexibele en verantwoordelijke digitale overheid.

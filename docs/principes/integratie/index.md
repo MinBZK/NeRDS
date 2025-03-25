@@ -61,4 +61,16 @@ Nieuwe technologische oplossingen moeten naadloos integreren met bestaande syste
 - Blijf open standaarden volgen voor langetermijncompatibiliteit
 - Evalueer regelmatig het technologielandschap op efficiëntie en effectiviteit
 
+## Architectuurvisies en standaarden voor integratie
+
+- **[Common Ground](https://commonground.nl/)**: Een nieuwe informatiekundige visie voor moderne gegevensuitwisseling binnen de overheid. Common Ground werkt met herbruikbare componenten en het principe van 'data bij de bron' om silovorming tegen te gaan en flexibele, modulaire IT-oplossingen te realiseren.
+
+- **[Federatieve Service Connectiviteit (FSC)](https://digilab.overheid.nl/projecten/)**: Een standaard voor een API-gateway met federatieve authenticatie. FSC beveiligt de verbindingen tussen partijen via wederzijdse digitale contracten en maakt veilige, gecontroleerde data-uitwisseling mogelijk.
+
+- **[Digikoppeling](https://www.logius.nl/diensten/digikoppeling)**: De standaard voor elektronisch berichtenverkeer tussen overheidsorganisaties. Digikoppeling beschrijft hoe gegevens veilig kunnen worden uitgewisseld, ongeacht het achterliggende systeem.
+
+- **[Haven](https://digilab.overheid.nl/projecten/)**: Een standaard voor platformonafhankelijke cloudhosting, speciaal ontworpen voor het gemakkelijk herbruikbaar maken van applicaties tussen overheidsorganisaties.
+
+- **[NLX](https://nlx.io/)**: Een open source peer-to-peer systeem dat veilige, gedecentraliseerde gegevensuitwisseling tussen organisaties faciliteert, gebaseerd op Common Ground principes.
+
 Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en effectief digitaal landschap creëren dat waarde levert aan gebruikers en organisaties, terwijl het bestaande investeringen respecteert en toekomstige innovatie ondersteunt.
