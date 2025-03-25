@@ -16,14 +16,14 @@ Open standaarden zijn specificaties voor het uitvoeren van specifieke taken of f
 
 ## Voordelen van open standaarden
 
-- **Tijd en geld besparen**: Hergebruik bestaande middelen in plaats van opnieuw te ontwikkelen
-- **Interoperabiliteit**: Systemen kunnen naadloos met elkaar communiceren
+- **Tijd en geld besparen**: Hergebruik bestaande middelen in plaats van opnieuw te ontwikkelen (zie [Deel, hergebruik en werk samen](../samenwerking/index.md))
+- **Interoperabiliteit**: Systemen kunnen naadloos met elkaar communiceren (zie [Integreer en pas technologie aan](../integratie/index.md))
 - **Vermijd vendor lock-in**: Voorkomt afhankelijkheid van specifieke leveranciers of technologieën
 - **Compatibiliteit**: Bevordert samenwerking met belanghebbenden
 - **Kosteneffectiviteit**: Vermindert de kosten op de lange termijn
-- **Duurzaamheid**: Verlengt de levensduur van systemen en gegevens
+- **Duurzaamheid**: Verlengt de levensduur van systemen en gegevens (zie [Maak je technologie duurzaam](../duurzaamheid/index.md))
 - **Innovatie**: Maakt het gemakkelijker om nieuwe diensten te ontwikkelen en te integreren
-- **Toegankelijkheid**: Zorgt ervoor dat informatie breed beschikbaar is
+- **Toegankelijkheid**: Zorgt ervoor dat informatie breed beschikbaar is (zie [Maak dingen toegankelijk en inclusief](../toegankelijkheid/index.md))
 
 ## Technologie bouwen met open standaarden
 
@@ -51,12 +51,49 @@ Open standaarden zijn specificaties voor het uitvoeren van specifieke taken of f
 
 ## Belangrijke open standaarden in overheidscontext
 
-- **Webstandaarden**: HTML, CSS, JSON, XML
-- **API-standaarden**: REST, OpenAPI, OData
-- **Documentformaten**: PDF/A, Open Document Format (ODF)
-- **Datastandaarden**: RDF, CSV, GeoJSON
-- **Authenticatie**: OAuth, SAML, OpenID Connect
-- **Netwerk en beveiliging**: HTTPS, TLS, DNSSEC
+Het [Forum Standaardisatie](https://www.forumstandaardisatie.nl/) adviseert de Nederlandse overheid over het gebruik van open standaarden en beheert de 'pas toe of leg uit'-lijst met verplichte open standaarden voor de publieke sector. Gebruik de [Beslisboom Open Standaarden](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden) om te bepalen welke standaarden in jouw situatie van toepassing zijn.
+
+### Webstandaarden
+- **HTML5/CSS3/JavaScript**: Basis voor moderne webapplicaties
+- **JSON/XML**: Standaard gegevensformaten voor data-uitwisseling
+
+### API-standaarden
+- **[REST API Design Rules](https://publicatie.centrumvoorstandaarden.nl/api/adr/)**: Nederlandse overheidsstandaard voor REST API's
+- **[NL API Strategie](https://docs.geostandaarden.nl/api/API-Strategie/)**: Richtlijnen voor API-ontwikkeling binnen de overheid
+- **OpenAPI**: Specificatieformaat voor RESTful API's
+- **OData**: Open protocol voor data query en manipulatie
+
+### Architectuur en componenten
+- **[Common Ground](https://commonground.nl/)**: Nieuwe informatiekundige visie voor uitwisseling van gegevens
+- **[NORA](https://www.noraonline.nl/)**: Nederlandse Overheid Referentie Architectuur
+- **[Haven](https://digilab.overheid.nl/projecten/)**: Standaard voor platformonafhankelijke cloudhosting, ontworpen voor herbruikbare applicaties
+
+### Documentformaten
+- **PDF/A**: Archiveringsformaat voor documenten
+- **Open Document Format (ODF)**: Open standaard voor kantoordocumenten
+- **[STOP/TPOD](https://www.koopoverheid.nl/standaarden/stop)**: Standaard voor officiële publicaties
+
+### Datastandaarden
+- **[RSGB/RGBZ](https://www.gemmaonline.nl/index.php/RSGB_3.0_in_ontwikkeling)**: Standaarden voor basisgegevens gemeenten
+- **RDF**: Resource Description Framework voor linked data
+- **GeoJSON**: Open standaard voor geografische data
+
+### Identiteit en toegang
+- **[DigiD](https://www.digid.nl/)**: Inlogmethode voor burgers
+- **[eHerkenning](https://www.eherkenning.nl/)**: Inlogmethode voor bedrijven
+- **[Federatieve Toegangsverlening (FTV)](https://digilab.overheid.nl/projecten/)**: Standaard voor autorisatie in federatieve datasystemen
+- **[Federatieve Service Connectiviteit (FSC)](https://digilab.overheid.nl/projecten/)**: API-gateway met federatieve authenticatie en digitale contracten
+
+### Netwerk en beveiliging
+- **HTTPS/TLS**: Beveiligde communicatie
+- **DNSSEC**: Beveiligingsuitbreiding voor DNS
+- **[Digikoppeling](https://www.logius.nl/diensten/digikoppeling)**: Standaarden voor elektronisch berichtenverkeer
+- **[ACME Protocol](https://digilab.overheid.nl/projecten/)**: Automatiseert de uitgifte en vernieuwing van veiligheidscertificaten
+
+### Data-integriteit en transparantie
+- **[Uit Betrouwbare Bron](https://digilab.overheid.nl/projecten/)**: Focus op datakwaliteit in federatieve systemen
+- **[Logboek Dataverwerkingen](https://digilab.overheid.nl/projecten/)**: Vergroot transparantie in overheidsdata door bij te houden wie, wanneer en waarom data muteert
+- **[Synthetische Datageneratie](https://digilab.overheid.nl/projecten/)**: Genereert representatieve testdata via event sourcing
 
 ## Overwegingen bij het kiezen van standaarden
 

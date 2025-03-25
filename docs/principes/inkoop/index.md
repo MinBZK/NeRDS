@@ -17,6 +17,8 @@ Een goed doordachte inkoopstrategie voor technologie zorgt ervoor dat je organis
 - **Strategische afstemming**: Zorg dat aankopen organisatiedoelen ondersteunen
 - **Wet- en regelgeving**: Voldoe aan aanbestedingsregels en andere regelgeving
 
+Zie hiervoor ook [PIANOo's richtlijnen voor Maatschappelijk Verantwoord Inkopen](https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria) voor productgroepen en MVI-criteria die je kunt toepassen bij je inkoopstrategie.
+
 ## Kerncomponenten van een effectieve inkoopstrategie
 
 1. **Behoefteanalyse**: Begrijp gebruikersbehoeften en organisatievereisten

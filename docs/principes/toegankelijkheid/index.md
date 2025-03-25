@@ -58,4 +58,8 @@ Toegankelijkheid gaat over het maken van diensten en systemen die door iedereen 
 - EN 301 549 (Europese norm voor hardware/niet-web software)
 - Digitoegankelijkheid (voorheen 'Webrichtlijnen')
 
+## Hulpbronnen voor toegankelijk ontwerp
+
+- [NL Design System](https://developer.overheid.nl/communities/nl-design-system) - Een samenwerkingsproject dat overheidsspecialisten helpt bij het ontwikkelen van toegankelijke digitale diensten, met richtlijnen, designkits, componenten en technische infrastructuur voor het bouwen van consistente en toegankelijke overheidssites.
+
 Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg je ervoor dat je diensten voor iedereen bruikbaar zijn, ongeacht hun capaciteiten of beperkingen.

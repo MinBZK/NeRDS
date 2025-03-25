@@ -21,9 +21,9 @@ Data is een waardevolle hulpbron die, wanneer effectief beheerd en gebruikt, kan
 1. **Datakwaliteit**: Zorg voor accurate, volledige en actuele gegevens
 2. **Datagovernance**: Definieer duidelijke verantwoordelijkheden en beleid
 3. **Data-architectuur**: Ontwikkel een coherente structuur voor gegevensbeheer
-4. **Datadeling**: Bevorder het veilig en verantwoord delen van gegevens
-5. **Datastandaardisatie**: Gebruik consistente formaten en definities
-6. **Data-ethiek**: Respecteer privacy en voorkom onethisch gebruik
+4. **Datadeling**: Bevorder het veilig en verantwoord delen van gegevens (zie [Deel, hergebruik en werk samen](../samenwerking/index.md))
+5. **Datastandaardisatie**: Gebruik consistente formaten en definities (zie [Gebruik open standaarden](../open-standaarden/index.md))
+6. **Data-ethiek**: Respecteer privacy en voorkom onethisch gebruik (zie [Maak privacy integraal](../privacy/index.md))
 7. **Datavaardigheden**: Bevorder datageletterdheid in de organisatie
 
 ## Praktische implementatiestappen
@@ -63,5 +63,19 @@ Data is een waardevolle hulpbron die, wanneer effectief beheerd en gebruikt, kan
 - Balans tussen innovatie en compliance
 - Voortdurende evaluatie en verbetering van datapraktijken
 - Samenwerking tussen technische teams en domeinexperts
+
+## Standaarden en initiatieven voor effectief datagebruik
+
+- **[Uit Betrouwbare Bron](https://digilab.overheid.nl/projecten/)**: Initiatief gericht op datakwaliteit in federatieve datasystemen, met nadruk op het principe 'data bij de bron'.
+
+- **[Logboek Dataverwerkingen](https://digilab.overheid.nl/projecten/)**: Creëert transparantie in overheidsdata door bij te houden wie data wanneer en waarom verandert.
+
+- **[Synthetische Datageneratie](https://digilab.overheid.nl/projecten/)**: Techniek om representatieve testdata te genereren op basis van event sourcing principes, zodat gevoelige productiedata niet voor testtoepassingen hoeft te worden gebruikt.
+
+- **[Stelsel van Basisregistraties](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/)**: Samenhangend stelsel van hoogwaardige registraties met essentiële overheidsgegevens.
+
+- **[RSGB/RGBZ](https://www.gemmaonline.nl/index.php/RSGB_3.0_in_ontwikkeling)**: Referentiemodellen voor gemeentelijke basis- en zaakgegevens, die zorgen voor consistente definitie en uitwisseling van data.
+
+- **[data.overheid.nl](https://data.overheid.nl/)**: Het open data portaal van de Nederlandse overheid, dat toegang biedt tot datasets van overheidsorganisaties.
 
 Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten leveren, efficiënter werken en de complexe uitdagingen van vandaag en morgen beter aanpakken.

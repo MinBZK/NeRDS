@@ -54,6 +54,8 @@ Beveiliging is een fundamenteel aspect van digitale systemen. Het gaat niet alle
 6. **Monitoring en detectie**: Detecteer en reageer snel op beveiligingsincidenten
 7. **Gebruikersbewustzijn**: Train gebruikers in veilig gedrag
 
+Deze principes sluiten aan bij andere NeRDS-principes zoals [Maak privacy integraal](../privacy/index.md), [Gebruik open standaarden](../open-standaarden/index.md) en [Maak beter gebruik van data](../data/index.md).
+
 ## Implementatie van beveiligingsmaatregelen
 
 - **Risicoanalyse**: Identificeer bedreigingen en kwetsbaarheden
@@ -82,9 +84,16 @@ Beveiliging is een fundamenteel aspect van digitale systemen. Het gaat niet alle
 ## Relevante standaarden en frameworks
 
 - ISO 27001 en ISO 27002
-- Baseline Informatiebeveiliging Overheid (BIO)
+- [Baseline Informatiebeveiliging Overheid (BIO)](https://www.bio-overheid.nl/ico-wizard) - Gebruik de BIO ICO-wizard om te bepalen welke BIO-maatregelen in jouw situatie van toepassing zijn
 - NIST Cybersecurity Framework
 - OWASP Top 10 voor webapplicatiebeveiliging
 - Privacy by Design principes
+
+## Expertisebronnen en hulpmiddelen
+
+- [Nationaal Cyber Security Centrum (NCSC)](https://www.ncsc.nl/) - Centrale kennisautoriteit voor cybersecurity in Nederland, met actuele dreigingsinformatie, advisering en ondersteuning
+- [Rijksinspectie Digitale Infrastructuur (RDI)](https://www.rdi.nl/) - Toezichthouder op het gebied van digitale infrastructuur en telecom
+- [Nationaal innovatie centrum privacy-enhancing technologies (NICPET)](https://nicpet.pleio.nl/) - Innovatiecentrum gericht op privacybeschermende technologieën
+- [OpenKAT](https://github.com/minvws/nl-kat-coordination) - Open source security kennisbank en tooling voor automatische testen
 
 Door beveiliging serieus te nemen en het te integreren in alle aspecten van technologieontwikkeling en -gebruik, bescherm je niet alleen gegevens maar ook het vertrouwen van burgers in de digitale overheid.
