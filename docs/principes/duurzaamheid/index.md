@@ -30,6 +30,7 @@ Duurzame technologie minimaliseert negatieve milieueffecten, optimaliseert energ
 - Beoordeel leveranciers op hun milieubeleid en prestaties
 - Kies voor producten met milieukeurmerken
 - Selecteer leveranciers met terugname- en recyclingprogramma's
+- Raadpleeg [PIANOo's MVI-criteria voor ICT](https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria) voor specifieke richtlijnen bij aanbestedingen
 
 ### 3. Gebruik en beheer
 - Optimaliseer energiegebruik van hardware en software

@@ -84,7 +84,7 @@ Deze principes sluiten aan bij andere NeRDS-principes zoals [Maak privacy integr
 ## Relevante standaarden en frameworks
 
 - ISO 27001 en ISO 27002
-- Baseline Informatiebeveiliging Overheid (BIO)
+- [Baseline Informatiebeveiliging Overheid (BIO)](https://www.bio-overheid.nl/ico-wizard) - Gebruik de BIO ICO-wizard om te bepalen welke BIO-maatregelen in jouw situatie van toepassing zijn
 - NIST Cybersecurity Framework
 - OWASP Top 10 voor webapplicatiebeveiliging
 - Privacy by Design principes
