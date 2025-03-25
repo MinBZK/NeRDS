@@ -13,68 +13,92 @@ hide:
     <span class="version-container">
       <span class="version-label">Versie 0.1</span>
       <div class="hover-info">
-        <p>Deze richtlijn is in ontwikkeling. Alle versies ontstaan op een open manier. <a href="Over-NRDS/CONTRIBUTING/">Iedereen mag bijdragen aan de verbetering.</a></p>
+        <p>Deze richtlijn is in ontwikkeling. Alle versies ontstaan op een open manier. <a href="Over-NeRDS/CONTRIBUTING/">Iedereen mag bijdragen aan de verbetering.</a></p>
       </div>
     </span>
     </div>
 </div>
 
-<a href="overnerds/over-nerds/" class="button md-button--secondary">Over de Nederlandse Richtlijn Digitale Systemen</a>
+<a href="Over-NeRDS/" class="button md-button--secondary">Over de Nederlandse Richtlijn Digitale Systemen</a>
 
-<div class="float-container">
+<div class="grid cards" markdown>
 
- <div class="float-child styled-list">
-    <img src="afbeeldingen/rollen.jpg" alt="Teams en rollen" class="block-image">
-    <div class="float-box">
-    <h3><b>Aan de slag</b></h3>
-    <ul>
-      <li><a href="Over-NRDS/digitale-systemen/">Begrijp digitale systemen</a></li>
-      <li><a href="levenscyclus/">De levenscyclus van digitale systemen</a></li>
-      <li><a href="onderwerpen/governance/">Governance en verantwoordelijkheid</a></li>
-      <li><a href="rollen/">Rollen en verantwoordelijkheden</a></li>
-    </ul>
+- :material-account-search:{ .lg .middle } __1. [Definieer gebruikersbehoeften](principes/gebruikersbehoeften/)__
 
-  </div>
-  </div>
+    ---
 
-  <div class="float-child styled-list">
-    <img src="afbeeldingen/wetten-en-regels.jpg" alt="Wetgeving en compliance" class="block-image">
-    <div class="float-box">
-    <h3><b>Voldoen aan vereisten</b></h3>
-    <ul>
-      <li><a href="voldoen-aan-wetten-en-regels/vereisten/">Wettelijke en ethische vereisten</a></li>
-      <li><a href="voldoen-aan-wetten-en-regels/maatregelen/">Concrete maatregelen en praktijken</a></li>
-      <li><a href="voldoen-aan-wetten-en-regels/hulpmiddelen/">Hulpmiddelen en assessments</a></li>
-    </ul>
+    Begrijp je gebruikers en hun behoeften. Ontwikkel kennis over je gebruikers en wat dat betekent voor je technologieproject.
 
-    </div>
+- :material-human-wheelchair:{ .lg .middle } __2. [Maak dingen toegankelijk en inclusief](principes/toegankelijkheid/)__
 
-  </div>
+    ---
 
- <div class="float-child styled-list">
-    <img src="afbeeldingen/eu.jpeg" alt="Europese regelgeving" class="block-image">
-    <div class="float-box">
-    <h3><b>Europese wetgeving</b></h3>
-    <ul>
-      <li><a href="voldoen-aan-wetten-en-regels/tijdlijn/">Implementatietijdlijn</a></li>
-      <li><a href="voldoen-aan-wetten-en-regels/europa/">Hoofdpunten en verplichtingen</a></li>
-    </ul>
+    Zorg ervoor dat je technologie, infrastructuur en systemen toegankelijk en inclusief zijn voor alle gebruikers.
 
-  </div>
-  </div>
+- :material-source-branch:{ .lg .middle } __3. [Wees open en gebruik open source](principes/open-source/)__
 
-  <div class="float-child styled-list">
-    <img src="afbeeldingen/onderwerpen.jpg" alt="Thematische onderwerpen" class="block-image">
-    <div class="float-box">
-    <h3><b>Verdiepende thema's</b></h3>
-    <ul>
-      <li><a href="onderwerpen/bias-en-non-discriminatie/">Eerlijkheid en non-discriminatie</a></li>
-      <li><a href="onderwerpen/privacy-en-gegevensbescherming/">Privacy en gegevensbescherming</a></li>
-      <li><a href="onderwerpen/transparantie/">Transparantie en uitlegbaarheid</a></li>
-    </ul>
-    <a href="onderwerpen/" class="show-more"><b>Alle thema's bekijken</b></a>
+    ---
 
-  </div>
-  </div>
+    Publiceer je code en gebruik open source software om transparantie, flexibiliteit en verantwoording te verbeteren.
+
+- :material-checkbox-marked-circle-outline:{ .lg .middle } __4. [Gebruik open standaarden](principes/open-standaarden/)__
+
+    ---
+
+    Bouw technologie die open standaarden gebruikt om ervoor te zorgen dat je technologie werkt en communiceert met andere technologie.
+
+- :material-cloud:{ .lg .middle } __5. [Gebruik cloud eerst](principes/cloud-eerst/)__
+
+    ---
+
+    Overweeg eerst publieke cloudoplossingen zoals vermeld in het Cloud First-beleid.
+
+- :material-shield-lock:{ .lg .middle } __6. [Maak dingen veilig](principes/veiligheid/)__
+
+    ---
+
+    Houd systemen en gegevens veilig met het juiste beveiligingsniveau.
+
+- :material-incognito:{ .lg .middle } __7. [Maak privacy integraal](principes/privacy/)__
+
+    ---
+
+    Zorg ervoor dat gebruikersrechten worden beschermd door privacy te integreren als een essentieel onderdeel van je systeem.
+
+- :material-share-variant:{ .lg .middle } __8. [Deel, hergebruik en werk samen](principes/samenwerking/)__
+
+    ---
+
+    Vermijd dubbel werk en onnodige kosten door samen te werken binnen de overheid en door technologie te delen en te hergebruiken.
+
+- :material-puzzle:{ .lg .middle } __9. [Integreer en pas technologie aan](principes/integratie/)__
+
+    ---
+
+    Je technologie moet werken met bestaande technologieën, processen en infrastructuur in je organisatie.
+
+- :material-database:{ .lg .middle } __10. [Maak beter gebruik van data](principes/data/)__
+
+    ---
+
+    Gebruik data effectiever door je technologie, infrastructuur en processen te verbeteren.
+
+- :material-cart:{ .lg .middle } __11. [Definieer je inkoopstrategie](principes/inkoop/)__
+
+    ---
+
+    Je inkoopstrategie moet laten zien dat je commerciële en technologische aspecten hebt overwogen.
+
+- :material-leaf:{ .lg .middle } __12. [Maak je technologie duurzaam](principes/duurzaamheid/)__
+
+    ---
+
+    Verhoog duurzaamheid gedurende de hele levenscyclus van je technologie.
+
+- :material-check-all:{ .lg .middle } __13. [Voldoe aan de servicestandaard](principes/servicestandaard/)__
+
+    ---
+
+    Als je een dienst bouwt als onderdeel van je technologieproject of -programma, moet je ook voldoen aan de Servicestandaard.
 
 </div>
