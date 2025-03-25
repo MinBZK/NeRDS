@@ -32,10 +32,10 @@ Open source software is software waarvan de broncode vrijelijk beschikbaar is, e
 ## Hoe pas je dit toe
 
 1. **Publiceer je code**: Maak de broncode van je software openbaar, tenzij er specifieke redenen zijn om dit niet te doen
-2. **Gebruik open standaarden**: Zorg ervoor dat je systemen kunnen communiceren met andere systemen
+2. **Gebruik open standaarden**: Zorg ervoor dat je systemen kunnen communiceren met andere systemen (zie [Gebruik open standaarden](../open-standaarden/))
 3. **Documenteer grondig**: Maak het voor anderen gemakkelijk om je code te begrijpen en eraan bij te dragen
 4. **Overweeg bestaande oplossingen**: Onderzoek eerst of er al geschikte open source oplossingen bestaan
-5. **Bouw een gemeenschap**: Moedig bijdragen en feedback aan op je projecten
+5. **Bouw een gemeenschap**: Moedig bijdragen en feedback aan op je projecten (zie [Deel, hergebruik en werk samen](../samenwerking/))
 
 ## Overwegingen bij het kiezen van open source technologie
 

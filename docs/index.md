@@ -19,6 +19,19 @@ hide:
     </div>
 </div>
 
+## Wat is de NeRDS?
+
+De Nederlandse Richtlijn Digitale Systemen (NeRDS) is een standaard voor verantwoorde ontwikkeling en implementatie van digitale systemen binnen de Nederlandse overheid. De richtlijn vormt een basis voor het maken van doeltreffende, veilige en gebruikersgerichte technologie.
+
+## Hoe gebruik je de NeRDS?
+
+- Pas de NeRDS toe op alle technologieprojecten en -programma's
+- Overweeg elk principe en stem je project of programma erop af
+- Volg zoveel mogelijk principes zoals praktisch is binnen je context
+- Het meeste voordeel behaal je door je organisatietechnologie en -strategieën af te stemmen op deze richtlijn
+
+De NeRDS-principes werken samen en versterken elkaar. Door ze in samenhang toe te passen, creëer je digitale systemen die niet alleen technisch solide zijn, maar ook voldoen aan de behoeften van gebruikers en bijdragen aan een betere digitale overheid.
+
 <a href="Over-NeRDS/" class="button md-button--secondary">Over de Nederlandse Richtlijn Digitale Systemen</a>
 
 <div class="grid cards" markdown>
