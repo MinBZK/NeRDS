@@ -1,9 +1,9 @@
 ---
-title: "13. Voldoe aan de servicestandaard"
+title: "14. Voldoe aan de servicestandaard"
 summary: Als je een dienst bouwt als onderdeel van je technologieproject of -programma, moet je ook voldoen aan de Servicestandaard.
 ---
 
-# 13. Voldoe aan de servicestandaard
+# 14. Voldoe aan de servicestandaard
 
 De Servicestandaard definieert wat burgers en bedrijven mogen verwachten van overheidsdiensten. Het zorgt ervoor dat digitale diensten gebruiksvriendelijk, toegankelijk en betrouwbaar zijn, ongeacht welke overheidsorganisatie ze aanbiedt.
 

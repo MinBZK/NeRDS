@@ -1,9 +1,9 @@
 ---
-title: "12. Maak je technologie duurzaam"
+title: "13. Maak je technologie duurzaam"
 summary: Verhoog duurzaamheid gedurende de hele levenscyclus van je technologie.
 ---
 
-# 12. Maak je technologie duurzaam
+# 13. Maak je technologie duurzaam
 
 Duurzame technologie minimaliseert negatieve milieueffecten, optimaliseert energieverbruik en draagt bij aan bredere duurzaamheidsdoelstellingen. Door duurzaamheid te integreren in de volledige levenscyclus van technologie, dragen overheidsorganisaties bij aan een groenere toekomst.
 

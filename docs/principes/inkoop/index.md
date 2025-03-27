@@ -1,9 +1,9 @@
 ---
-title: "11. Definieer je inkoopstrategie"
+title: "12. Definieer je inkoopstrategie"
 summary: Je inkoopstrategie moet laten zien dat je commerciële en technologische aspecten hebt overwogen.
 ---
 
-# 11. Definieer je inkoopstrategie
+# 12. Definieer je inkoopstrategie
 
 Een goed doordachte inkoopstrategie voor technologie zorgt ervoor dat je organisatie de juiste oplossingen verwerft tegen de beste waarde, met oog voor zowel huidige behoeften als toekomstige ontwikkelingen.
 

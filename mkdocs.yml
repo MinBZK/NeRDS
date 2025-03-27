@@ -44,9 +44,10 @@ nav:
       - 8. Samenwerking: principes/samenwerking/index.md
       - 9. Integratie: principes/integratie/index.md
       - 10. Data: principes/data/index.md
-      - 11. Inkoopstrategie: principes/inkoop/index.md
-      - 12. Duurzaamheid: principes/duurzaamheid/index.md
-      - 13. Servicestandaard: principes/servicestandaard/index.md
+      - 11. Algoritmen: principes/algoritmen/index.md
+      - 12. Inkoopstrategie: principes/inkoop/index.md
+      - 13. Duurzaamheid: principes/duurzaamheid/index.md
+      - 14. Servicestandaard: principes/servicestandaard/index.md
   - Over NeRDS:
       - Over-NeRDS/index.md
       - Bijdragen: Over-NeRDS/CONTRIBUTING.md
