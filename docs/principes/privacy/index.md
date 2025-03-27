@@ -19,7 +19,7 @@ Privacy is een fundamenteel recht dat vanaf het begin moet worden ingebouwd in d
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
             <h4 >DPIA-model</h4>
             <p >Model voor gegevensbeschermingseffectbeoordeling</p>
-            <a href="https://www.rijksoverheid.nl/documenten/publicaties/2017/09/29/model-gegevensbeschermingseffectbeoordeling-rijksdienst-pia" class="action-button" target="_blank">Downloaden</a>
+            <a href="https://www.autoriteitpersoonsgegevens.nl/nl/onderwerpen/avg-europese-privacywetgeving/data-protection-impact-assessment-dpia" class="action-button" target="_blank">Downloaden</a>
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>

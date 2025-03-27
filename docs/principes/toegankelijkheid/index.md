@@ -19,13 +19,13 @@ Toegankelijkheid gaat over het maken van diensten en systemen die door iedereen 
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
             <h4 >Toegankelijkheidsscan</h4>
             <p >Test uw webpagina's op toegankelijkheid</p>
-            <a href="https://www.toegankelijkheidsverklaring.nl/tools" class="action-button" target="_blank">Scannen</a>
+            <a href="https://www.w3.org/WAI/test-evaluate/tools/list/" class="action-button" target="_blank">Scannen</a>
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
             <h4 >Inclusief Ontwerpen</h4>
             <p >Toolkit voor inclusief ontwerp</p>
-            <button disabled class="action-button">Bekijken</button>
+            <a href="https://toolkitinclusie.gebruikercentraal.nl/" class="action-button" target="_blank">Bekijken</a>
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>

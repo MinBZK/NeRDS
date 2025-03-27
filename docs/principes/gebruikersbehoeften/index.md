@@ -31,7 +31,7 @@ Om digitale systemen te ontwikkelen die effectief zijn, moet je je gebruikers en
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
             <h4 >Onderzoeksrichtlijnen</h4>
             <p >Toolkit voor gebruikersonderzoek</p>
-            <a href="https://www.gebruikersonderzoek.nl/" class="action-button" target="_blank">Bekijken</a>
+            <a href="https://toolkittaal.gebruikercentraal.nl/richtlijnen/" class="action-button" target="_blank">Bekijken</a>
         </div>
     </div>
 </div>

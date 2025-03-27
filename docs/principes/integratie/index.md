@@ -17,9 +17,9 @@ Nieuwe technologische oplossingen moeten naadloos integreren met bestaande syste
     <div class="action-cards">
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >NLX</h4>
+            <h4 >FSC</h4>
             <p >Open source gegevensuitwisselingssysteem</p>
-            <a href="https://nlx.io/" class="action-button" target="_blank">Verkennen</a>
+            <a href="https://fsc-standaard.nl/" class="action-button" target="_blank">Verkennen</a>
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
@@ -31,7 +31,7 @@ Nieuwe technologische oplossingen moeten naadloos integreren met bestaande syste
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
             <h4 >Haven</h4>
             <p >Platformonafhankelijke cloudhosting</p>
-            <a href="https://digilab.overheid.nl/projecten/" class="action-button" target="_blank">Ontdekken</a>
+            <a href="https://haven.commonground.nl/" class="action-button" target="_blank">Ontdekken</a>
         </div>
     </div>
 </div>
@@ -94,12 +94,10 @@ Nieuwe technologische oplossingen moeten naadloos integreren met bestaande syste
 
 - **[Common Ground](https://commonground.nl/)**: Een nieuwe informatiekundige visie voor moderne gegevensuitwisseling binnen de overheid. Common Ground werkt met herbruikbare componenten en het principe van 'data bij de bron' om silovorming tegen te gaan en flexibele, modulaire IT-oplossingen te realiseren.
 
-- **[Federatieve Service Connectiviteit (FSC)](https://digilab.overheid.nl/projecten/)**: Een standaard voor een API-gateway met federatieve authenticatie. FSC beveiligt de verbindingen tussen partijen via wederzijdse digitale contracten en maakt veilige, gecontroleerde data-uitwisseling mogelijk.
+- **[Federatieve Service Connectiviteit (FSC)](https://fsc-standaard.nl/)**: Een standaard voor een API-gateway met federatieve authenticatie. FSC beveiligt de verbindingen tussen partijen via wederzijdse digitale contracten en maakt veilige, gecontroleerde data-uitwisseling mogelijk.
 
 - **[Digikoppeling](https://www.logius.nl/diensten/digikoppeling)**: De standaard voor elektronisch berichtenverkeer tussen overheidsorganisaties. Digikoppeling beschrijft hoe gegevens veilig kunnen worden uitgewisseld, ongeacht het achterliggende systeem.
 
-- **[Haven](https://digilab.overheid.nl/projecten/)**: Een standaard voor platformonafhankelijke cloudhosting, speciaal ontworpen voor het gemakkelijk herbruikbaar maken van applicaties tussen overheidsorganisaties.
-
-- **[NLX](https://nlx.io/)**: Een open source peer-to-peer systeem dat veilige, gedecentraliseerde gegevensuitwisseling tussen organisaties faciliteert, gebaseerd op Common Ground principes.
+- **[Haven](https://haven.commonground.nl/)**: Een standaard voor platformonafhankelijke cloudhosting, speciaal ontworpen voor het gemakkelijk herbruikbaar maken van applicaties tussen overheidsorganisaties.
 
 Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en effectief digitaal landschap creëren dat waarde levert aan gebruikers en organisaties, terwijl het bestaande investeringen respecteert en toekomstige innovatie ondersteunt.

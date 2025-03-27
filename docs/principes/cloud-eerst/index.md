@@ -28,10 +28,16 @@ Een 'cloud eerst'-benadering betekent dat je bij het ontwikkelen of vernieuwen v
             <button disabled class="action-button">Starten</button>
         </div>
         <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <h4 >Haven</h4>
+            <p >Platformonafhankelijke cloudhosting</p>
+            <a href="https://haven.commonground.nl/" class="action-button" target="_blank">Ontdekken</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
             <h4 >Cloud Assessment</h4>
             <p >Beoordeel uw cloudgereedheid</p>
-            <a href="https://www.forumstandaardisatie.nl/thema/cloud" class="action-button" target="_blank">Tool openen</a>
+            <button disabled class="action-button">Binnenkort beschikbaar</button>
         </div>
     </div>
 </div>

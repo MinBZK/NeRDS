@@ -23,9 +23,9 @@ Door samen te werken, kennis te delen en oplossingen te hergebruiken, kunnen ove
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >DigiGov</h4>
-            <p >Platform voor overheidsdienstverlening</p>
-            <a href="https://www.digigov.nl/" class="action-button" target="_blank">Ontdekken</a>
+            <h4 >NL Design System</h4>
+            <p >Samen bouwen aan gebruiksvriendelijke overheidswebsites</p>
+            <a href="https://www.nldesignsystem.nl" class="action-button" target="_blank">Ontdekken</a>
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-concept">concept</span>

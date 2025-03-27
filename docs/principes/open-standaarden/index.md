@@ -19,7 +19,7 @@ Open standaarden zijn gemeenschappelijke regels die gebruikers in staat stellen 
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
             <h4 >Beslisboom</h4>
             <p >Bepaal welke standaarden van toepassing zijn</p>
-            <a href="https://www.forumstandaardisatie.nl/beslisboom" class="action-button" target="_blank">Starten</a>
+            <a href="https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden" class="action-button" target="_blank">Starten</a>
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>

@@ -28,10 +28,10 @@ Beveiliging is een fundamenteel aspect van digitale systemen. Het gaat niet alle
             <a href="https://github.com/minvws/nl-kat-coordination" class="action-button" target="_blank">Gebruiken</a>
         </div>
         <div class="action-card">
-            <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 >Securityscan</h4>
-            <p >Geautomatiseerde veiligheidscheck</p>
-            <button disabled class="action-button">Scannen</button>
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >Internet.nl</h4>
+            <p >Test veiligheid van je website of e-mail</p>
+            <a href="https://internet.nl/" class="action-button" target="_blank">Testen</a>
         </div>
     </div>
 </div>
@@ -124,5 +124,6 @@ Deze principes sluiten aan bij andere NeRDS-principes zoals [Maak privacy integr
 - [Rijksinspectie Digitale Infrastructuur (RDI)](https://www.rdi.nl/) - Toezichthouder op het gebied van digitale infrastructuur en telecom
 - [Nationaal innovatie centrum privacy-enhancing technologies (NICPET)](https://nicpet.pleio.nl/) - Innovatiecentrum gericht op privacybeschermende technologieën
 - [OpenKAT](https://github.com/minvws/nl-kat-coordination) - Open source security kennisbank en tooling voor automatische testen
+- [Internet.nl](https://internet.nl/) - Test of je website en e-mail moderne internetstandaarden gebruiken die helpen om te beschermen tegen phishing en afluisteren
 
 Door beveiliging serieus te nemen en het te integreren in alle aspecten van technologieontwikkeling en -gebruik, bescherm je niet alleen gegevens maar ook het vertrouwen van burgers in de digitale overheid.
