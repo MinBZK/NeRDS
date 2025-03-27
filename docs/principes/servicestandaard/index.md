@@ -14,24 +14,24 @@ De Servicestandaard definieert wat burgers en bedrijven mogen verwachten van ove
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
-        <div class="action-card" style="padding: 0.7rem;">
+    <div class="action-cards">
+        <div class="action-card">
             <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Zelfassessment</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Beoordeel je dienst aan de standaard</p>
-            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Starten</button>
+            <h4 >Zelfassessment</h4>
+            <p >Beoordeel je dienst aan de standaard</p>
+            <button disabled class="action-button">Starten</button>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">NL Design System</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Gebruiksvriendelijke componenten</p>
-            <a href="https://nldesignsystem.nl" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Verkennen</a>
+            <h4 >NL Design System</h4>
+            <p >Gebruiksvriendelijke componenten</p>
+            <a href="https://nldesignsystem.nl" class="action-button" target="_blank">Verkennen</a>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Service Pattern</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Gestandaardiseerde service patronen</p>
-            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Bekijken</button>
+            <h4 >Service Pattern</h4>
+            <p >Gestandaardiseerde service patronen</p>
+            <button disabled class="action-button">Bekijken</button>
         </div>
     </div>
 </div>

@@ -14,24 +14,24 @@ Duurzame technologie minimaliseert negatieve milieueffecten, optimaliseert energ
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
-        <div class="action-card" style="padding: 0.7rem;">
+    <div class="action-cards">
+        <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">ICT MVI-criteria</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Duurzaamheidscriteria voor ICT-inkoop</p>
-            <a href="https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Toepassen</a>
+            <h4 >ICT MVI-criteria</h4>
+            <p >Duurzaamheidscriteria voor ICT-inkoop</p>
+            <a href="https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria" class="action-button" target="_blank">Toepassen</a>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">CO2-calculator</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Bereken de CO2-impact van uw IT</p>
-            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Berekenen</button>
+            <h4 >CO2-calculator</h4>
+            <p >Bereken de CO2-impact van uw IT</p>
+            <button disabled class="action-button">Berekenen</button>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Green Coding</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Best practices voor duurzame software</p>
-            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Verkennen</button>
+            <h4 >Green Coding</h4>
+            <p >Best practices voor duurzame software</p>
+            <button disabled class="action-button">Verkennen</button>
         </div>
     </div>
 </div>

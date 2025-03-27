@@ -660,20 +660,23 @@ background-color: #B2D7EE;
 .action-card h4 {
   margin-top: 0;
   color: #154273;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
+  margin: 0 0 0.3rem 0;
+  padding-right: 3.5rem;
 }
 
 .action-card p {
   flex-grow: 1;
-  margin-bottom: 1rem;
-  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
 }
 
 .action-button {
   background-color: #154273;
   color: white !important;
   text-decoration: none !important;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.7rem;
   border-radius: 0.3rem;
   display: inline-block;
   text-align: center;
@@ -728,6 +731,7 @@ background-color: #B2D7EE;
 
 .action-card {
   position: relative; /* Needed for badge positioning */
+  padding: 0.7rem;
 }
 
 /* Direct aan de slag section styling */
@@ -744,6 +748,27 @@ background-color: #B2D7EE;
   font-size: 1rem;
   color: #154273;
   margin-bottom: 0.8rem;
+}
+
+/* Action cards grid styling */
+.action-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.7rem;
+  margin: 0.7rem 0 0 0;
+}
+
+/* Responsive grid for action cards */
+@media (max-width: 768px) {
+  .action-cards {
+    grid-template-columns: 1fr; /* Force single column on mobile */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .action-cards {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+  }
 }
 
 :root {

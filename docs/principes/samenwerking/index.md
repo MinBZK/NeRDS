@@ -14,24 +14,24 @@ Door samen te werken, kennis te delen en oplossingen te hergebruiken, kunnen ove
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
-        <div class="action-card" style="padding: 0.7rem;">
+    <div class="action-cards">
+        <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Developer Overheid</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Communities voor overheidsontwikkelaars</p>
-            <a href="https://developer.overheid.nl/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Deelnemen</a>
+            <h4 >Developer Overheid</h4>
+            <p >Communities voor overheidsontwikkelaars</p>
+            <a href="https://developer.overheid.nl/" class="action-button" target="_blank">Deelnemen</a>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">DigiGov</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Platform voor overheidsdienstverlening</p>
-            <a href="https://www.digigov.nl/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Ontdekken</a>
+            <h4 >DigiGov</h4>
+            <p >Platform voor overheidsdienstverlening</p>
+            <a href="https://www.digigov.nl/" class="action-button" target="_blank">Ontdekken</a>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">GovHub</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Centrale hub voor overheidscomponenten</p>
-            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Verkennen</button>
+            <h4 >GovHub</h4>
+            <p >Centrale hub voor overheidscomponenten</p>
+            <button disabled class="action-button">Verkennen</button>
         </div>
     </div>
 </div>

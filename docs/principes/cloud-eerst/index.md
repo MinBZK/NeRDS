@@ -14,24 +14,24 @@ Een 'cloud eerst'-benadering betekent dat je bij het ontwikkelen of vernieuwen v
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
-        <div class="action-card" style="padding: 0.7rem;">
+    <div class="action-cards">
+        <div class="action-card">
             <span class="wip-badge wip-badge-gepland">gepland</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Rijkscloud</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Soevereine cloud voor overheidsorganisaties</p>
-            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Aanvragen</button>
+            <h4 >Rijkscloud</h4>
+            <p >Soevereine cloud voor overheidsorganisaties</p>
+            <button disabled class="action-button">Aanvragen</button>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Kubernetes Service</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Beheerde K8s met compliance</p>
-            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Starten</button>
+            <h4 >Kubernetes Service</h4>
+            <p >Beheerde K8s met compliance</p>
+            <button disabled class="action-button">Starten</button>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Cloud Assessment</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Beoordeel uw cloudgereedheid</p>
-            <a href="https://www.forumstandaardisatie.nl/thema/cloud" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Tool openen</a>
+            <h4 >Cloud Assessment</h4>
+            <p >Beoordeel uw cloudgereedheid</p>
+            <a href="https://www.forumstandaardisatie.nl/thema/cloud" class="action-button" target="_blank">Tool openen</a>
         </div>
     </div>
 </div>

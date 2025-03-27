@@ -14,24 +14,24 @@ Om digitale systemen te ontwikkelen die effectief zijn, moet je je gebruikers en
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
-        <div class="action-card" style="padding: 0.7rem;">
+    <div class="action-cards">
+        <div class="action-card">
             <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Gebruikers Panel</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Toegang tot gebruikerspanel van burgers voor onderzoek</p>
-            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Aanvragen</button>
+            <h4 >Gebruikers Panel</h4>
+            <p >Toegang tot gebruikerspanel van burgers voor onderzoek</p>
+            <button disabled class="action-button">Aanvragen</button>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Persona Database</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Gevalideerde overheidsgebruikerspersona's</p>
-            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Verkennen</button>
+            <h4 >Persona Database</h4>
+            <p >Gevalideerde overheidsgebruikerspersona's</p>
+            <button disabled class="action-button">Verkennen</button>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Onderzoeksrichtlijnen</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Toolkit voor gebruikersonderzoek</p>
-            <a href="https://www.gebruikersonderzoek.nl/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Bekijken</a>
+            <h4 >Onderzoeksrichtlijnen</h4>
+            <p >Toolkit voor gebruikersonderzoek</p>
+            <a href="https://www.gebruikersonderzoek.nl/" class="action-button" target="_blank">Bekijken</a>
         </div>
     </div>
 </div>

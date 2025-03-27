@@ -14,24 +14,24 @@ Data is een waardevolle hulpbron die, wanneer effectief beheerd en gebruikt, kan
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
-        <div class="action-card" style="padding: 0.7rem;">
+    <div class="action-cards">
+        <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Open Data</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Het open dataportaal van de overheid</p>
-            <a href="https://data.overheid.nl/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Verkennen</a>
+            <h4 >Open Data</h4>
+            <p >Het open dataportaal van de overheid</p>
+            <a href="https://data.overheid.nl/" class="action-button" target="_blank">Verkennen</a>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Datacheck</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Tool voor datakwaliteitscontrole</p>
-            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Starten</button>
+            <h4 >Datacheck</h4>
+            <p >Tool voor datakwaliteitscontrole</p>
+            <button disabled class="action-button">Starten</button>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Synthetische Data</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Genereer veilige testdata</p>
-            <a href="https://digilab.overheid.nl/projecten/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Leren</a>
+            <h4 >Synthetische Data</h4>
+            <p >Genereer veilige testdata</p>
+            <a href="https://digilab.overheid.nl/projecten/" class="action-button" target="_blank">Leren</a>
         </div>
     </div>
 </div>

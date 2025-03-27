@@ -14,24 +14,24 @@ Open standaarden zijn gemeenschappelijke regels die gebruikers in staat stellen 
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
-        <div class="action-card" style="padding: 0.7rem;">
+    <div class="action-cards">
+        <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Beslisboom</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Bepaal welke standaarden van toepassing zijn</p>
-            <a href="https://www.forumstandaardisatie.nl/beslisboom" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Starten</a>
+            <h4 >Beslisboom</h4>
+            <p >Bepaal welke standaarden van toepassing zijn</p>
+            <a href="https://www.forumstandaardisatie.nl/beslisboom" class="action-button" target="_blank">Starten</a>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">API Standaarden</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Nederlandse API strategie</p>
-            <a href="https://docs.geostandaarden.nl/api/API-Strategie/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Bekijken</a>
+            <h4 >API Standaarden</h4>
+            <p >Nederlandse API strategie</p>
+            <a href="https://docs.geostandaarden.nl/api/API-Strategie/" class="action-button" target="_blank">Bekijken</a>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Standaardenregister</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Centrale standaardendatabase</p>
-            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Zoeken</button>
+            <h4 >Standaardenregister</h4>
+            <p >Centrale standaardendatabase</p>
+            <button disabled class="action-button">Zoeken</button>
         </div>
     </div>
 </div>

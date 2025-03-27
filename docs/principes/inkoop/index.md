@@ -14,24 +14,24 @@ Een goed doordachte inkoopstrategie voor technologie zorgt ervoor dat je organis
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
-        <div class="action-card" style="padding: 0.7rem;">
+    <div class="action-cards">
+        <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">MVI-criteria</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Criteria voor duurzaam inkopen</p>
-            <a href="https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Bekijken</a>
+            <h4 >MVI-criteria</h4>
+            <p >Criteria voor duurzaam inkopen</p>
+            <a href="https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria" class="action-button" target="_blank">Bekijken</a>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">TCO Calculator</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Bereken Total Cost of Ownership</p>
-            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Berekenen</button>
+            <h4 >TCO Calculator</h4>
+            <p >Bereken Total Cost of Ownership</p>
+            <button disabled class="action-button">Berekenen</button>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Inkoopkompas</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Kennisplatform voor ICT-inkoop</p>
-            <a href="https://www.pianoo.nl/nl/sectoren/ict" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Verkennen</a>
+            <h4 >Inkoopkompas</h4>
+            <p >Kennisplatform voor ICT-inkoop</p>
+            <a href="https://www.pianoo.nl/nl/sectoren/ict" class="action-button" target="_blank">Verkennen</a>
         </div>
     </div>
 </div>

@@ -14,24 +14,24 @@ Privacy is een fundamenteel recht dat vanaf het begin moet worden ingebouwd in d
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
-        <div class="action-card" style="padding: 0.7rem;">
+    <div class="action-cards">
+        <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">DPIA-model</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Model voor gegevensbeschermingseffectbeoordeling</p>
-            <a href="https://www.rijksoverheid.nl/documenten/publicaties/2017/09/29/model-gegevensbeschermingseffectbeoordeling-rijksdienst-pia" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Downloaden</a>
+            <h4 >DPIA-model</h4>
+            <p >Model voor gegevensbeschermingseffectbeoordeling</p>
+            <a href="https://www.rijksoverheid.nl/documenten/publicaties/2017/09/29/model-gegevensbeschermingseffectbeoordeling-rijksdienst-pia" class="action-button" target="_blank">Downloaden</a>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">NICPET Tools</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Privacy-bevorderende technologieën</p>
-            <a href="https://nicpet.pleio.nl/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Verkennen</a>
+            <h4 >NICPET Tools</h4>
+            <p >Privacy-bevorderende technologieën</p>
+            <a href="https://nicpet.pleio.nl/" class="action-button" target="_blank">Verkennen</a>
         </div>
-        <div class="action-card" style="padding: 0.7rem;">
+        <div class="action-card">
             <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Privacy Check</h4>
-            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Geautomatiseerde privacycheck</p>
-            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Starten</button>
+            <h4 >Privacy Check</h4>
+            <p >Geautomatiseerde privacycheck</p>
+            <button disabled class="action-button">Starten</button>
         </div>
     </div>
 </div>
