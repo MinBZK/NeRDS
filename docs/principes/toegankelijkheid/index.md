@@ -7,6 +7,35 @@ summary: Zorg ervoor dat je technologie, infrastructuur en systemen toegankelijk
 
 Toegankelijkheid gaat over het maken van diensten en systemen die door iedereen kunnen worden gebruikt, inclusief mensen met handicaps of specifieke behoeften. Dit principe zorgt ervoor dat alle burgers gelijke toegang hebben tot overheidsdiensten.
 
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards">
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >Toegankelijkheidsscan</h4>
+            <p >Test uw webpagina's op toegankelijkheid</p>
+            <a href="https://www.w3.org/WAI/test-evaluate/tools/list/" class="action-button" target="_blank">Scannen</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <h4 >Inclusief Ontwerpen</h4>
+            <p >Toolkit voor inclusief ontwerp</p>
+            <a href="https://toolkitinclusie.gebruikercentraal.nl/" class="action-button" target="_blank">Bekijken</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >NL Design System</h4>
+            <p >Toegankelijke componenten</p>
+            <a href="https://nldesignsystem.nl" class="action-button" target="_blank">Gebruiken</a>
+        </div>
+    </div>
+</div>
+
 ## Waarom toegankelijkheid belangrijk is
 
 - **Wettelijke verplichting**: Overheidsorganisaties zijn wettelijk verplicht om hun digitale diensten toegankelijk te maken

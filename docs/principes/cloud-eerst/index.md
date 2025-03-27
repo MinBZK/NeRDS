@@ -7,6 +7,41 @@ summary: Overweeg eerst publieke cloudoplossingen zoals vermeld in het Cloud Fir
 
 Een 'cloud eerst'-benadering betekent dat je bij het ontwikkelen of vernieuwen van IT-projecten eerst publieke cloudoplossingen overweegt voordat je andere opties onderzoekt. Dit bevordert kostenefficiëntie, flexibiliteit en schaalbaarheid.
 
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards">
+        <div class="action-card">
+            <span class="wip-badge wip-badge-gepland">gepland</span>
+            <h4 >Rijkscloud</h4>
+            <p >Soevereine cloud voor overheidsorganisaties</p>
+            <button disabled class="action-button">Aanvragen</button>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-concept">concept</span>
+            <h4 >Kubernetes Service</h4>
+            <p >Beheerde K8s met compliance</p>
+            <button disabled class="action-button">Starten</button>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <h4 >Haven</h4>
+            <p >Platformonafhankelijke cloudhosting</p>
+            <a href="https://haven.commonground.nl/" class="action-button" target="_blank">Ontdekken</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <h4 >Cloud Assessment</h4>
+            <p >Beoordeel uw cloudgereedheid</p>
+            <button disabled class="action-button">Binnenkort beschikbaar</button>
+        </div>
+    </div>
+</div>
+
 ## Voordelen van cloud-technologie
 
 - **Kostenefficiëntie**: Betaal alleen voor wat je gebruikt, verminder kapitaaluitgaven

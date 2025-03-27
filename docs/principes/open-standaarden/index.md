@@ -7,6 +7,35 @@ summary: Bouw technologie die open standaarden gebruikt om ervoor te zorgen dat 
 
 Open standaarden zijn gemeenschappelijke regels die gebruikers in staat stellen compatibele en consistente producten, processen en diensten te creëren. Ze worden gezamenlijk ontworpen, zijn openbaar beschikbaar en meestal gratis of tegen lage kosten te gebruiken.
 
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards">
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >Beslisboom</h4>
+            <p >Bepaal welke standaarden van toepassing zijn</p>
+            <a href="https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden" class="action-button" target="_blank">Starten</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >API Standaarden</h4>
+            <p >Nederlandse API strategie</p>
+            <a href="https://docs.geostandaarden.nl/api/API-Strategie/" class="action-button" target="_blank">Bekijken</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <h4 >Standaardenregister</h4>
+            <p >Centrale standaardendatabase</p>
+            <button disabled class="action-button">Zoeken</button>
+        </div>
+    </div>
+</div>
+
 ## Wat zijn open standaarden?
 
 Open standaarden zijn specificaties voor het uitvoeren van specifieke taken of functies. Ze zijn:

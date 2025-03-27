@@ -96,19 +96,25 @@ De NeRDS-principes werken samen en versterken elkaar. Door ze in samenhang toe t
 
     Gebruik data effectiever door je technologie, infrastructuur en processen te verbeteren.
 
-- :material-cart:{ .lg .middle } __11. [Definieer je inkoopstrategie](principes/inkoop/index.md)__
+- :material-robot:{ .lg .middle } __11. [Pas algoritmen verantwoord toe](principes/algoritmen/index.md)__
+
+    ---
+
+    Zorg voor transparante, eerlijke en verantwoorde toepassing van algoritmen en AI-systemen.
+
+- :material-cart:{ .lg .middle } __12. [Definieer je inkoopstrategie](principes/inkoop/index.md)__
 
     ---
 
     Je inkoopstrategie moet laten zien dat je commerciële en technologische aspecten hebt overwogen.
 
-- :material-leaf:{ .lg .middle } __12. [Maak je technologie duurzaam](principes/duurzaamheid/index.md)__
+- :material-leaf:{ .lg .middle } __13. [Maak je technologie duurzaam](principes/duurzaamheid/index.md)__
 
     ---
 
     Verhoog duurzaamheid gedurende de hele levenscyclus van je technologie.
 
-- :material-check-all:{ .lg .middle } __13. [Voldoe aan de servicestandaard](principes/servicestandaard/index.md)__
+- :material-check-all:{ .lg .middle } __14. [Voldoe aan de servicestandaard](principes/servicestandaard/index.md)__
 
     ---
 

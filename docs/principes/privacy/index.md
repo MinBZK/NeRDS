@@ -7,6 +7,35 @@ summary: Zorg ervoor dat gebruikersrechten worden beschermd door privacy te inte
 
 Privacy is een fundamenteel recht dat vanaf het begin moet worden ingebouwd in digitale systemen. Door privacy als kerncomponent te integreren, bescherm je niet alleen de rechten van gebruikers, maar bouw je ook vertrouwen op in overheidsdiensten.
 
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards">
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >DPIA-model</h4>
+            <p >Model voor gegevensbeschermingseffectbeoordeling</p>
+            <a href="https://www.autoriteitpersoonsgegevens.nl/nl/onderwerpen/avg-europese-privacywetgeving/data-protection-impact-assessment-dpia" class="action-button" target="_blank">Downloaden</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <h4 >NICPET Tools</h4>
+            <p >Privacy-bevorderende technologieën</p>
+            <a href="https://nicpet.pleio.nl/" class="action-button" target="_blank">Verkennen</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-concept">concept</span>
+            <h4 >Privacy Check</h4>
+            <p >Geautomatiseerde privacycheck</p>
+            <button disabled class="action-button">Starten</button>
+        </div>
+    </div>
+</div>
+
 ## Privacy by Design vereisten
 
 - Integreer privacybescherming vanaf het begin van het ontwerpproces

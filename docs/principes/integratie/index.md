@@ -7,6 +7,35 @@ summary: Je technologie moet werken met bestaande technologieën, processen en i
 
 Nieuwe technologische oplossingen moeten naadloos integreren met bestaande systemen, processen en infrastructuur. Door zorgvuldige integratie verminder je complexiteit, verhoog je acceptatie en maximaliseer je de waarde van zowel nieuwe als bestaande investeringen.
 
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards">
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >FSC</h4>
+            <p >Open source gegevensuitwisselingssysteem</p>
+            <a href="https://fsc-standaard.nl/" class="action-button" target="_blank">Verkennen</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >Common Ground</h4>
+            <p >Visie voor moderne gegevensuitwisseling</p>
+            <a href="https://commonground.nl/" class="action-button" target="_blank">Leren</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <h4 >Haven</h4>
+            <p >Platformonafhankelijke cloudhosting</p>
+            <a href="https://haven.commonground.nl/" class="action-button" target="_blank">Ontdekken</a>
+        </div>
+    </div>
+</div>
+
 ## Waarom integratie belangrijk is
 
 - **Continuïteit**: Voorkom verstoring van kritieke diensten
@@ -65,12 +94,10 @@ Nieuwe technologische oplossingen moeten naadloos integreren met bestaande syste
 
 - **[Common Ground](https://commonground.nl/)**: Een nieuwe informatiekundige visie voor moderne gegevensuitwisseling binnen de overheid. Common Ground werkt met herbruikbare componenten en het principe van 'data bij de bron' om silovorming tegen te gaan en flexibele, modulaire IT-oplossingen te realiseren.
 
-- **[Federatieve Service Connectiviteit (FSC)](https://digilab.overheid.nl/projecten/)**: Een standaard voor een API-gateway met federatieve authenticatie. FSC beveiligt de verbindingen tussen partijen via wederzijdse digitale contracten en maakt veilige, gecontroleerde data-uitwisseling mogelijk.
+- **[Federatieve Service Connectiviteit (FSC)](https://fsc-standaard.nl/)**: Een standaard voor een API-gateway met federatieve authenticatie. FSC beveiligt de verbindingen tussen partijen via wederzijdse digitale contracten en maakt veilige, gecontroleerde data-uitwisseling mogelijk.
 
 - **[Digikoppeling](https://www.logius.nl/diensten/digikoppeling)**: De standaard voor elektronisch berichtenverkeer tussen overheidsorganisaties. Digikoppeling beschrijft hoe gegevens veilig kunnen worden uitgewisseld, ongeacht het achterliggende systeem.
 
-- **[Haven](https://digilab.overheid.nl/projecten/)**: Een standaard voor platformonafhankelijke cloudhosting, speciaal ontworpen voor het gemakkelijk herbruikbaar maken van applicaties tussen overheidsorganisaties.
-
-- **[NLX](https://nlx.io/)**: Een open source peer-to-peer systeem dat veilige, gedecentraliseerde gegevensuitwisseling tussen organisaties faciliteert, gebaseerd op Common Ground principes.
+- **[Haven](https://haven.commonground.nl/)**: Een standaard voor platformonafhankelijke cloudhosting, speciaal ontworpen voor het gemakkelijk herbruikbaar maken van applicaties tussen overheidsorganisaties.
 
 Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en effectief digitaal landschap creëren dat waarde levert aan gebruikers en organisaties, terwijl het bestaande investeringen respecteert en toekomstige innovatie ondersteunt.

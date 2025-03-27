@@ -7,6 +7,35 @@ summary: Publiceer je code en gebruik open source software om transparantie, fle
 
 Open source is een manier van ontwikkelen en distribueren van software waarbij de code kan worden gedownload, gebruikt en aangepast door iedereen. Het delen van code en het gebruik van open source software kan leiden tot betere, veiligere en meer kosteneffectieve oplossingen.
 
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards">
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >Code.gov.nl</h4>
+            <p >Publiceer uw code en vind overheidsprojecten</p>
+            <button disabled class="action-button">Publiceren</button>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >Licentieadvies</h4>
+            <p >EUPL-1.2 voor overheidsprojecten</p>
+            <a href="https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/" class="action-button" target="_blank">Bekijken</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <h4 >OSPO Toolbox</h4>
+            <p >Tools voor Open Source Program Office</p>
+            <a href="https://ospo-nl.github.io/kennisbank/" class="action-button" target="_blank">Verkennen</a>
+        </div>
+    </div>
+</div>
+
 ## Wat is open source?
 
 Open source software is software waarvan de broncode vrijelijk beschikbaar is, en die door iedereen kan worden gebruikt, bestudeerd, aangepast en gedeeld. Dit staat in tegenstelling tot gesloten of propriëtaire software, waarbij de broncode geheim wordt gehouden.
@@ -56,10 +85,22 @@ Open source software is software waarvan de broncode vrijelijk beschikbaar is, e
 ## Wanneer je eigen code open source maakt
 
 - Verwijder gevoelige informatie voordat je code publiceert
-- Kies een geschikte open source licentie
+- Kies een geschikte open source licentie (zie hieronder)
 - Zorg voor een duidelijk contributieproces
 - Onderhoud de documentatie actief
 - Wees responsief op issues en pull requests
+
+## Aanbevolen licentie voor overheidsprojecten
+
+Voor Nederlandse overheidsprojecten wordt de **European Union Public Licence (EUPL v1.2)** aanbevolen. Deze licentie:
+
+- Is specifiek ontwikkeld voor Europese overheidssoftware
+- Is juridisch gevalideerd in alle EU-talen
+- Heeft een "zwak wederkerig" karakter (wijzigingen in de originele code moeten onder dezelfde licentie worden gedeeld)
+- Is compatibel met andere populaire open source licenties
+- Voldoet aan de open source definitie
+
+Bij het publiceren van overheidscode is het raadzaam de EUPL-1.2 te gebruiken, tenzij er specifieke redenen zijn om een andere licentie te kiezen. Raadpleeg de [OSPO-NL kennisbank over OSS-licenties](https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/) voor meer informatie over licentietypes en overwegingen.
 
 ## Hulpbronnen voor open source binnen de overheid
 
