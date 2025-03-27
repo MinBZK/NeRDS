@@ -7,6 +7,35 @@ summary: Je inkoopstrategie moet laten zien dat je commerciële en technologisch
 
 Een goed doordachte inkoopstrategie voor technologie zorgt ervoor dat je organisatie de juiste oplossingen verwerft tegen de beste waarde, met oog voor zowel huidige behoeften als toekomstige ontwikkelingen.
 
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">MVI-criteria</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Criteria voor duurzaam inkopen</p>
+            <a href="https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Bekijken</a>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">TCO Calculator</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Bereken Total Cost of Ownership</p>
+            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Berekenen</button>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Inkoopkompas</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Kennisplatform voor ICT-inkoop</p>
+            <a href="https://www.pianoo.nl/nl/sectoren/ict" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Verkennen</a>
+        </div>
+    </div>
+</div>
+
 ## Waarom een doordachte inkoopstrategie belangrijk is
 
 - **Waarde voor belastinggeld**: Zorg voor kosteneffectieve investeringen

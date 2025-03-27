@@ -7,6 +7,35 @@ summary: Publiceer je code en gebruik open source software om transparantie, fle
 
 Open source is een manier van ontwikkelen en distribueren van software waarbij de code kan worden gedownload, gebruikt en aangepast door iedereen. Het delen van code en het gebruik van open source software kan leiden tot betere, veiligere en meer kosteneffectieve oplossingen.
 
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Code.gov.nl</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Publiceer uw code en vind overheidsprojecten</p>
+            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Publiceren</button>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Licentie kiezer</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Kies de juiste open source licentie</p>
+            <a href="https://choosealicense.com/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Kiezen</a>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">OSPO Toolbox</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Tools voor Open Source Program Office</p>
+            <a href="https://ospo-nl.github.io/kennisbank/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Verkennen</a>
+        </div>
+    </div>
+</div>
+
 ## Wat is open source?
 
 Open source software is software waarvan de broncode vrijelijk beschikbaar is, en die door iedereen kan worden gebruikt, bestudeerd, aangepast en gedeeld. Dit staat in tegenstelling tot gesloten of propriëtaire software, waarbij de broncode geheim wordt gehouden.

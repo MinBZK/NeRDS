@@ -7,6 +7,35 @@ summary: Je technologie moet werken met bestaande technologieën, processen en i
 
 Nieuwe technologische oplossingen moeten naadloos integreren met bestaande systemen, processen en infrastructuur. Door zorgvuldige integratie verminder je complexiteit, verhoog je acceptatie en maximaliseer je de waarde van zowel nieuwe als bestaande investeringen.
 
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">NLX</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Open source gegevensuitwisselingssysteem</p>
+            <a href="https://nlx.io/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Verkennen</a>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Common Ground</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Visie voor moderne gegevensuitwisseling</p>
+            <a href="https://commonground.nl/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Leren</a>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Haven</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Platformonafhankelijke cloudhosting</p>
+            <a href="https://digilab.overheid.nl/projecten/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Ontdekken</a>
+        </div>
+    </div>
+</div>
+
 ## Waarom integratie belangrijk is
 
 - **Continuïteit**: Voorkom verstoring van kritieke diensten

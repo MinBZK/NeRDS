@@ -7,6 +7,35 @@ summary: Zorg ervoor dat je technologie, infrastructuur en systemen toegankelijk
 
 Toegankelijkheid gaat over het maken van diensten en systemen die door iedereen kunnen worden gebruikt, inclusief mensen met handicaps of specifieke behoeften. Dit principe zorgt ervoor dat alle burgers gelijke toegang hebben tot overheidsdiensten.
 
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Toegankelijkheidsscan</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Test uw webpagina's op toegankelijkheid</p>
+            <a href="https://www.toegankelijkheidsverklaring.nl/tools" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Scannen</a>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Inclusief Ontwerpen</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Toolkit voor inclusief ontwerp</p>
+            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Bekijken</button>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">NL Design System</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Toegankelijke componenten</p>
+            <a href="https://nldesignsystem.nl" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Gebruiken</a>
+        </div>
+    </div>
+</div>
+
 ## Waarom toegankelijkheid belangrijk is
 
 - **Wettelijke verplichting**: Overheidsorganisaties zijn wettelijk verplicht om hun digitale diensten toegankelijk te maken

@@ -7,6 +7,35 @@ summary: Overweeg eerst publieke cloudoplossingen zoals vermeld in het Cloud Fir
 
 Een 'cloud eerst'-benadering betekent dat je bij het ontwikkelen of vernieuwen van IT-projecten eerst publieke cloudoplossingen overweegt voordat je andere opties onderzoekt. Dit bevordert kostenefficiëntie, flexibiliteit en schaalbaarheid.
 
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-gepland">gepland</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Rijkscloud</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Soevereine cloud voor overheidsorganisaties</p>
+            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Aanvragen</button>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-concept">concept</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Kubernetes Service</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Beheerde K8s met compliance</p>
+            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Starten</button>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Cloud Assessment</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Beoordeel uw cloudgereedheid</p>
+            <a href="https://www.forumstandaardisatie.nl/thema/cloud" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Tool openen</a>
+        </div>
+    </div>
+</div>
+
 ## Voordelen van cloud-technologie
 
 - **Kostenefficiëntie**: Betaal alleen voor wat je gebruikt, verminder kapitaaluitgaven

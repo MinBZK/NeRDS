@@ -7,6 +7,35 @@ summary: Vermijd dubbel werk en onnodige kosten door samen te werken binnen de o
 
 Door samen te werken, kennis te delen en oplossingen te hergebruiken, kunnen overheidsorganisaties efficiënter werken, kosten besparen en betere diensten leveren aan burgers en bedrijven.
 
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Developer Overheid</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Communities voor overheidsontwikkelaars</p>
+            <a href="https://developer.overheid.nl/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Deelnemen</a>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">DigiGov</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Platform voor overheidsdienstverlening</p>
+            <a href="https://www.digigov.nl/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Ontdekken</a>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-concept">concept</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">GovHub</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Centrale hub voor overheidscomponenten</p>
+            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Verkennen</button>
+        </div>
+    </div>
+</div>
+
 ## Waarom delen en samenwerken belangrijk is
 
 - **Kostenefficiëntie**: Voorkom dat het wiel meerdere keren wordt uitgevonden

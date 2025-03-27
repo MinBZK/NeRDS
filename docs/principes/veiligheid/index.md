@@ -7,6 +7,35 @@ summary: Houd systemen en gegevens veilig met het juiste beveiligingsniveau.
 
 Beveiliging is een fundamenteel aspect van digitale systemen. Het gaat niet alleen om het beschermen tegen aanvallen, maar ook om het waarborgen van de beschikbaarheid, integriteit en vertrouwelijkheid van gegevens en diensten.
 
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">BIO Wizard</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Bepaal verplichte beveiligingsmaatregelen</p>
+            <a href="https://www.bio-overheid.nl/ico-wizard" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Starten</a>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">OpenKAT</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Open source security tooling</p>
+            <a href="https://github.com/minvws/nl-kat-coordination" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Gebruiken</a>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-concept">concept</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Securityscan</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Geautomatiseerde veiligheidscheck</p>
+            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Scannen</button>
+        </div>
+    </div>
+</div>
+
 ## Kernveiligheidsprincipes
 
 1. **Overweeg beveiliging vanaf het begin**:

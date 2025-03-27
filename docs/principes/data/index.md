@@ -7,6 +7,35 @@ summary: Gebruik data effectiever door je technologie, infrastructuur en process
 
 Data is een waardevolle hulpbron die, wanneer effectief beheerd en gebruikt, kan leiden tot betere besluitvorming, efficiëntere diensten en innovatieve oplossingen voor complexe problemen.
 
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Open Data</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Het open dataportaal van de overheid</p>
+            <a href="https://data.overheid.nl/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Verkennen</a>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Datacheck</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Tool voor datakwaliteitscontrole</p>
+            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Starten</button>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-concept">concept</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Synthetische Data</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Genereer veilige testdata</p>
+            <a href="https://digilab.overheid.nl/projecten/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Leren</a>
+        </div>
+    </div>
+</div>
+
 ## Waarom effectief datagebruik belangrijk is
 
 - **Geïnformeerde besluitvorming**: Onderbouw beleid en strategieën met feitelijke gegevens

@@ -7,6 +7,35 @@ summary: Bouw technologie die open standaarden gebruikt om ervoor te zorgen dat 
 
 Open standaarden zijn gemeenschappelijke regels die gebruikers in staat stellen compatibele en consistente producten, processen en diensten te creëren. Ze worden gezamenlijk ontworpen, zijn openbaar beschikbaar en meestal gratis of tegen lage kosten te gebruiken.
 
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards" style="grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin: 0.7rem 0 0 0;">
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Beslisboom</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Bepaal welke standaarden van toepassing zijn</p>
+            <a href="https://www.forumstandaardisatie.nl/beslisboom" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Starten</a>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">API Standaarden</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Nederlandse API strategie</p>
+            <a href="https://docs.geostandaarden.nl/api/API-Strategie/" class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;" target="_blank">Bekijken</a>
+        </div>
+        <div class="action-card" style="padding: 0.7rem;">
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <h4 style="font-size: 0.8rem; margin: 0 0 0.3rem 0; padding-right: 3.5rem;">Standaardenregister</h4>
+            <p style="font-size: 0.7rem; margin-bottom: 0.5rem;">Centrale standaardendatabase</p>
+            <button disabled class="action-button" style="padding: 0.3rem 0.5rem; font-size: 0.7rem;">Zoeken</button>
+        </div>
+    </div>
+</div>
+
 ## Wat zijn open standaarden?
 
 Open standaarden zijn specificaties voor het uitvoeren van specifieke taken of functies. Ze zijn:
