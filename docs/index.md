@@ -60,11 +60,11 @@ De NeRDS-principes werken samen en versterken elkaar. Door ze in samenhang toe t
 
     Bouw technologie die open standaarden gebruikt om ervoor te zorgen dat je technologie werkt en communiceert met andere technologie.
 
-- :material-cloud:{ .lg .middle } __5. [Gebruik cloud eerst](principes/cloud-eerst/index.md)__
+- :material-cloud:{ .lg .middle } __5. [Cloud-gedreven strategie](principes/cloud/index.md)__
 
     ---
 
-    Overweeg eerst publieke cloudoplossingen zoals vermeld in het Cloud First-beleid.
+    Overweeg cloudoplossingen met aandacht voor Europese soevereiniteit en controle over data.
 
 - :material-shield-lock:{ .lg .middle } __6. [Maak dingen veilig](principes/veiligheid/index.md)__
 

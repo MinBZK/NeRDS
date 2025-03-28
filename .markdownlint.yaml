@@ -1,0 +1,27 @@
+---
+# Default state for all rules
+default: true
+
+# Disable line length check (MD013)
+MD013: false
+
+# Allow multiple h1 headings
+MD025: false
+
+# Allow inline HTML
+MD033: false
+
+# Don't require consistent ordered list numbering
+MD029: false
+
+# Allow emphasis with underscore
+MD036: false
+
+# Don't enforce first line in file should be a top level heading
+MD041: false
+
+# Allow heading level increments greater than 1
+MD001: false
+
+# Allow blank lines inside blockquotes
+MD028: false

@@ -49,12 +49,14 @@ Duurzame technologie minimaliseert negatieve milieueffecten, optimaliseert energ
 ## Duurzaamheid in de technologielevenscyclus
 
 ### 1. Planning en ontwerp
+
 - Neem duurzaamheidseisen op in programma's van eisen
 - Overweeg de milieu-impact bij het vergelijken van alternatieven
 - Ontwerp voor energiezuinigheid en lange levensduur
 - Denk na over de end-of-life fase vanaf het begin
 
 ### 2. Inkoop en productie
+
 - Neem duurzaamheidscriteria op in aanbestedingen
 - Beoordeel leveranciers op hun milieubeleid en prestaties
 - Kies voor producten met milieukeurmerken
@@ -62,12 +64,14 @@ Duurzame technologie minimaliseert negatieve milieueffecten, optimaliseert energ
 - Raadpleeg [PIANOo's MVI-criteria voor ICT](https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria) voor specifieke richtlijnen bij aanbestedingen
 
 ### 3. Gebruik en beheer
+
 - Optimaliseer energiegebruik van hardware en software
 - Implementeer energiebesparende instellingen
 - Monitor en rapporteer over energieverbruik
 - Train gebruikers in duurzaam gebruik van technologie
 
 ### 4. Einde levensduur
+
 - Maximaliseer hergebruik van apparatuur
 - Zorg voor verantwoorde recycling
 - Wis gegevens veilig voordat apparatuur wordt afgedankt
