@@ -28,7 +28,7 @@ Nieuwe technologische oplossingen moeten naadloos integreren met bestaande syste
             <a href="https://commonground.nl/" class="action-button" target="_blank">Leren</a>
         </div>
         <div class="action-card">
-            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
             <h4 >Haven</h4>
             <p >Platformonafhankelijke cloudhosting</p>
             <a href="https://haven.commonground.nl/" class="action-button" target="_blank">Ontdekken</a>

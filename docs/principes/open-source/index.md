@@ -16,7 +16,7 @@ Open source is een manier van ontwikkelen en distribueren van software waarbij d
 
     <div class="action-cards">
         <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <span class="wip-badge wip-badge-concept">concept</span>
             <h4 >Code.gov.nl</h4>
             <p >Publiceer uw code en vind overheidsprojecten</p>
             <button disabled class="action-button">Publiceren</button>
