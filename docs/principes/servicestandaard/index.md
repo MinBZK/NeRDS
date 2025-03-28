@@ -48,36 +48,43 @@ De Servicestandaard definieert wat burgers en bedrijven mogen verwachten van ove
 ## Kernelementen van de servicestandaard
 
 ### 1. Begrijp je gebruikers en hun behoeften
+
 - Onderzoek wie je gebruikers zijn en wat ze willen bereiken
 - Valideer aannames met gebruikersonderzoek
 - Blijf gebruikersfeedback verzamelen en verwerken
 
 ### 2. Los hele problemen op
+
 - Richt je op de volledige gebruikersreis, niet alleen het digitale deel
 - Werk over organisatiegrenzen heen
 - Vermijd geïsoleerde oplossingen die niet in de bredere context passen
 
 ### 3. Zorg voor een multidisciplinair team
+
 - Breng verschillende expertises samen (ontwerp, ontwikkeling, beleid, etc.)
 - Zorg voor directe betrokkenheid van alle benodigde disciplines
 - Stimuleer nauwe samenwerking in plaats van sequentiële overdracht
 
 ### 4. Creëer en itereer met gebruikers
+
 - Ontwikkel diensten incrementeel
 - Test vroeg en vaak met echte gebruikers
 - Verbeter continu op basis van feedback en gebruik
 
 ### 5. Zorg voor inclusie
+
 - Maak diensten die voor iedereen toegankelijk zijn
 - Houd rekening met verschillende vaardigheden, apparaten en omstandigheden
 - Bied alternatieven voor gebruikers die de digitale dienst niet kunnen gebruiken
 
 ### 6. Gebruik bewezen methoden en technologieën
+
 - Volg best practices en standaarden
 - Maak gebruik van bestaande, bewezen componenten
 - Vermijd onnodige complexiteit of experimentele technologieën
 
 ### 7. Opereer betrouwbaar en veilig
+
 - Bouw robuuste, betrouwbare diensten
 - Implementeer passende beveiligingsmaatregelen
 - Zorg voor transparantie over datagebruik en privacy

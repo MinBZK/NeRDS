@@ -45,6 +45,7 @@ Privacy is een fundamenteel recht dat vanaf het begin moet worden ingebouwd in d
 ## AVG-nalevingsoverwegingen
 
 Burgers hebben rechten op:
+
 - Toestemming voor gebruik van persoonlijke gegevens
 - Verwijdering van persoonlijke gegevens
 - Beperking van gegevensverwerking
@@ -61,6 +62,7 @@ Burgers hebben rechten op:
 ## Aanbevolen impactbeoordelingsvragen
 
 Evalueer je project door te vragen:
+
 - Verzamel je nieuwe persoonlijke informatie?
 - Worden gegevens gedeeld met nieuwe partijen?
 - Gebruik je technologie die als privacy-indringend kan worden ervaren?

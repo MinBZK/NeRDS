@@ -71,6 +71,7 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
 ## Migratie-overwegingen
 
 Bij verplaatsing naar de cloud, overweeg:
+
 - Databeleid en -behoeften
 - Beveiligingsrisico's en -behoeften
 - Technologische geschiktheid

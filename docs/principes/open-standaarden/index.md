@@ -39,6 +39,7 @@ Open standaarden zijn gemeenschappelijke regels die gebruikers in staat stellen 
 ## Wat zijn open standaarden?
 
 Open standaarden zijn specificaties voor het uitvoeren van specifieke taken of functies. Ze zijn:
+
 - **Open ontwikkeld**: In een open, samenwerkend proces
 - **Publiek beschikbaar**: Gepubliceerd en vrij toegankelijk
 - **Vrij te implementeren**: Door iedereen te gebruiken zonder onredelijke beperkingen
@@ -83,43 +84,51 @@ Open standaarden zijn specificaties voor het uitvoeren van specifieke taken of f
 Het [Forum Standaardisatie](https://www.forumstandaardisatie.nl/) adviseert de Nederlandse overheid over het gebruik van open standaarden en beheert de 'pas toe of leg uit'-lijst met verplichte open standaarden voor de publieke sector. Gebruik de [Beslisboom Open Standaarden](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden) om te bepalen welke standaarden in jouw situatie van toepassing zijn.
 
 ### Webstandaarden
+
 - **HTML5/CSS3/JavaScript**: Basis voor moderne webapplicaties
 - **JSON/XML**: Standaard gegevensformaten voor data-uitwisseling
 
 ### API-standaarden
+
 - **[REST API Design Rules](https://publicatie.centrumvoorstandaarden.nl/api/adr/)**: Nederlandse overheidsstandaard voor REST API's
 - **[NL API Strategie](https://docs.geostandaarden.nl/api/API-Strategie/)**: Richtlijnen voor API-ontwikkeling binnen de overheid
 - **OpenAPI**: Specificatieformaat voor RESTful API's
 - **OData**: Open protocol voor data query en manipulatie
 
 ### Architectuur en componenten
+
 - **[Common Ground](https://commonground.nl/)**: Nieuwe informatiekundige visie voor uitwisseling van gegevens
 - **[NORA](https://www.noraonline.nl/)**: Nederlandse Overheid Referentie Architectuur
 - **[Haven](https://digilab.overheid.nl/projecten/)**: Standaard voor platformonafhankelijke cloudhosting, ontworpen voor herbruikbare applicaties
 
 ### Documentformaten
+
 - **PDF/A**: Archiveringsformaat voor documenten
 - **Open Document Format (ODF)**: Open standaard voor kantoordocumenten
 - **[STOP/TPOD](https://www.koopoverheid.nl/standaarden/stop)**: Standaard voor officiële publicaties
 
 ### Datastandaarden
+
 - **[RSGB/RGBZ](https://www.gemmaonline.nl/index.php/RSGB_3.0_in_ontwikkeling)**: Standaarden voor basisgegevens gemeenten
 - **RDF**: Resource Description Framework voor linked data
 - **GeoJSON**: Open standaard voor geografische data
 
 ### Identiteit en toegang
+
 - **[DigiD](https://www.digid.nl/)**: Inlogmethode voor burgers
 - **[eHerkenning](https://www.eherkenning.nl/)**: Inlogmethode voor bedrijven
 - **[Federatieve Toegangsverlening (FTV)](https://digilab.overheid.nl/projecten/)**: Standaard voor autorisatie in federatieve datasystemen
 - **[Federatieve Service Connectiviteit (FSC)](https://digilab.overheid.nl/projecten/)**: API-gateway met federatieve authenticatie en digitale contracten
 
 ### Netwerk en beveiliging
+
 - **HTTPS/TLS**: Beveiligde communicatie
 - **DNSSEC**: Beveiligingsuitbreiding voor DNS
 - **[Digikoppeling](https://www.logius.nl/diensten/digikoppeling)**: Standaarden voor elektronisch berichtenverkeer
 - **[ACME Protocol](https://digilab.overheid.nl/projecten/)**: Automatiseert de uitgifte en vernieuwing van veiligheidscertificaten
 
 ### Data-integriteit en transparantie
+
 - **[Uit Betrouwbare Bron](https://digilab.overheid.nl/projecten/)**: Focus op datakwaliteit in federatieve systemen
 - **[Logboek Dataverwerkingen](https://digilab.overheid.nl/projecten/)**: Vergroot transparantie in overheidsdata door bij te houden wie, wanneer en waarom data muteert
 - **[Synthetische Datageneratie](https://digilab.overheid.nl/projecten/)**: Genereert representatieve testdata via event sourcing
