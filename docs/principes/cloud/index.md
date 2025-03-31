@@ -34,6 +34,12 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
             <a href="https://haven.commonground.nl/" class="action-button" target="_blank">Ontdekken</a>
         </div>
         <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >Azure Bio-Compliancy</h4>
+            <p >Cloud compliance voor overheidsorganisaties</p>
+            <a href="https://github.com/Azure/Bio-Compliancy" class="action-button" target="_blank">Ontdekken</a>
+        </div>
+        <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
             <h4 >Cloud Assessment</h4>
             <p >Beoordeel uw cloudgereedheid</p>
