@@ -68,18 +68,7 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
                         <label class="form__label" for="organization">Organisatie</label>
                         <select id="organization" name="organization" class="input-select" required>
                             <option value="" disabled selected>Selecteer een organisatie</option>
-                            <option value="minbzk">Ministerie van Binnenlandse Zaken</option>
-                            <option value="minezk">Ministerie van Economische Zaken en Klimaat</option>
-                            <option value="minienw">Ministerie van Infrastructuur en Waterstaat</option>
-                            <option value="minszw">Ministerie van Sociale Zaken en Werkgelegenheid</option>
-                            <option value="minvws">Ministerie van Volksgezondheid, Welzijn en Sport</option>
-                            <option value="belastingdienst">Belastingdienst</option>
-                            <option value="politie">Politie</option>
-                            <option value="rijkswaterstaat">Rijkswaterstaat</option>
-                            <option value="uitvoeringsorganisatie">Uitvoeringsorganisatie</option>
-                            <option value="gemeente">Gemeente</option>
-                            <option value="provincie">Provincie</option>
-                            <option value="overig">Overig</option>
+                            <!-- Organizations will be populated after authentication -->
                         </select>
                     </div>
 

@@ -131,9 +131,50 @@ document.addEventListener('DOMContentLoaded', function() {
             spinner.style.display = 'none';
             spinner.querySelector('.cluster-spinner-text').textContent = 'Kubernetes cluster wordt aangemaakt...';
 
+            // Populate organization dropdown with user's organizations
+            populateUserOrganizations();
+
             // Show form container
             formContainer.style.display = 'block';
         }, 1500);
+    }
+
+    // Populate the organization dropdown with the user's organizations
+    function populateUserOrganizations() {
+        if (organizationSelect) {
+            // Clear existing options except the default one
+            while (organizationSelect.options.length > 1) {
+                organizationSelect.remove(1);
+            }
+
+            // Simulate fetching user's organizations (typically just a few)
+            const userOrganizations = [
+                { value: 'minbzk', text: 'Ministerie van Binnenlandse Zaken' },
+                { value: 'cibg', text: 'CIBG' },
+                { value: 'rijkswaterstaat', text: 'Rijkswaterstaat' }
+            ];
+
+            // Add the user's organizations to the dropdown
+            userOrganizations.forEach(org => {
+                const option = document.createElement('option');
+                option.value = org.value;
+                option.text = org.text;
+                organizationSelect.add(option);
+            });
+
+            // Add visual indication that these are the user's organizations
+            const formRow = organizationSelect.closest('.form__row');
+            if (formRow && !document.getElementById('org-info')) {
+                const infoText = document.createElement('div');
+                infoText.id = 'org-info';
+                infoText.className = 'form-info-text';
+                infoText.textContent = 'Deze organisaties zijn gebaseerd op uw login gegevens';
+                infoText.style.fontSize = '0.8em';
+                infoText.style.color = '#666';
+                infoText.style.marginTop = '4px';
+                formRow.appendChild(infoText);
+            }
+        }
     }
 
     // Function to handle the tier selection
@@ -382,6 +423,21 @@ document.addEventListener('DOMContentLoaded', function() {
             resultContainer.style.display = 'none';
             if (clusterForm) {
                 clusterForm.reset();
+
+                // Reset organization dropdown to default state
+                if (organizationSelect) {
+                    // Clear existing options except the default one
+                    while (organizationSelect.options.length > 1) {
+                        organizationSelect.remove(1);
+                    }
+
+                    // Remove organization info text if it exists
+                    const orgInfo = document.getElementById('org-info');
+                    if (orgInfo) {
+                        orgInfo.remove();
+                    }
+                }
+
                 // Reset dropdowns properly
                 handleTierSelection();
                 updateCostEstimation();
