@@ -148,17 +148,21 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             // Simulate fetching user's organizations (typically just a few)
+            // Including OIN (Organisatie Identificatie Nummer) for each organization
             const userOrganizations = [
-                { value: 'minbzk', text: 'Ministerie van Binnenlandse Zaken' },
-                { value: 'cibg', text: 'CIBG' },
-                { value: 'rijkswaterstaat', text: 'Rijkswaterstaat' }
+                { value: 'minbzk', text: 'Ministerie van Binnenlandse Zaken', oin: '00000001800866472000' },
+                { value: 'cibg', text: 'CIBG', oin: '00000004003214345000' },
+                { value: 'rijkswaterstaat', text: 'Rijkswaterstaat', oin: '00000001800459126000' }
             ];
 
-            // Add the user's organizations to the dropdown
+            // Add the user's organizations to the dropdown with OIN
             userOrganizations.forEach(org => {
                 const option = document.createElement('option');
                 option.value = org.value;
-                option.text = org.text;
+                // Include OIN in dropdown text
+                option.text = `${org.text} (OIN: ${org.oin})`;
+                // Store OIN as a data attribute for later use
+                option.dataset.oin = org.oin;
                 organizationSelect.add(option);
             });
 
@@ -217,7 +221,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         const note = document.createElement('span');
                         note.id = 'multi-az-free-note';
                         note.className = 'form-note';
-                        note.textContent = ' (niet beschikbaar in gratis tier)';
+                        note.textContent = ' (niet beschikbaar in free-tier)';
                         note.style.fontSize = '0.8em';
                         note.style.fontStyle = 'italic';
                         note.style.color = '#666';
@@ -334,15 +338,29 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.getElementById('result-cluster-size').textContent = clusterSize;
                 document.getElementById('result-cluster-version').textContent = clusterVersion;
 
+                // Prettify tier name for display
+                let displayTier = 'Onbekend';
+                if (clusterTier === 'free') {
+                    displayTier = 'Free-tier';
+                } else if (clusterTier === 'basic') {
+                    displayTier = 'Basis (pay-as-you-go)';
+                } else if (clusterTier === 'reserved') {
+                    displayTier = 'Gereserveerde capaciteit';
+                }
+
                 // Generate random cluster ID and endpoint
                 const clusterId = 'k8s-' + Math.random().toString(36).substring(2, 10);
                 document.getElementById('result-cluster-id').textContent = clusterId;
 
-                // Format the organization name for display in the result
+                // Format the organization name and get OIN for display in the result
                 let orgName = 'Onbekend';
+                let orgOin = '';
                 const orgOption = organizationSelect.querySelector(`option[value="${organization}"]`);
                 if (orgOption) {
-                    orgName = orgOption.textContent;
+                    // Get name without the OIN part
+                    orgName = orgOption.textContent.split(' (OIN:')[0];
+                    // Get OIN from the data attribute
+                    orgOin = orgOption.dataset.oin || '';
                 }
 
                 // Add organization name to the result ID format
@@ -374,6 +392,39 @@ document.addEventListener('DOMContentLoaded', function() {
                         orgValue.className = 'cluster-detail-value';
                         orgValue.textContent = orgName;
 
+                        // Create OIN detail row if there is an OIN
+                        if (orgOin) {
+                            // Complete the current row
+                            orgRow.appendChild(orgLabel);
+                            orgRow.appendChild(orgValue);
+
+                            // Insert after cluster name
+                            const clusterNameRow = document.getElementById('result-cluster-name').parentNode;
+                            clusterNameRow.parentNode.insertBefore(orgRow, clusterNameRow.nextSibling);
+
+                            // Create a new row for the OIN
+                            const oinRow = document.createElement('div');
+                            oinRow.className = 'cluster-detail-row';
+
+                            const oinLabel = document.createElement('span');
+                            oinLabel.className = 'cluster-detail-label';
+                            oinLabel.textContent = 'OIN:';
+
+                            const oinValue = document.createElement('span');
+                            oinValue.id = 'result-organization-oin';
+                            oinValue.className = 'cluster-detail-value';
+                            oinValue.textContent = orgOin;
+
+                            oinRow.appendChild(oinLabel);
+                            oinRow.appendChild(oinValue);
+
+                            // Insert after organization row
+                            orgRow.parentNode.insertBefore(oinRow, orgRow.nextSibling);
+
+                            // Return to prevent adding orgRow again below
+                            return;
+                        }
+
                         orgRow.appendChild(orgLabel);
                         orgRow.appendChild(orgValue);
 
@@ -382,6 +433,59 @@ document.addEventListener('DOMContentLoaded', function() {
                         clusterNameRow.parentNode.insertBefore(orgRow, clusterNameRow.nextSibling);
                     } else {
                         document.getElementById('result-organization').textContent = orgName;
+
+                        // Update OIN field if it exists, or create it if it doesn't
+                        if (orgOin) {
+                            if (document.getElementById('result-organization-oin')) {
+                                document.getElementById('result-organization-oin').textContent = orgOin;
+                            } else {
+                                // Create OIN row if it doesn't exist
+                                const orgRow = document.getElementById('result-organization').parentNode;
+
+                                // Create a new row for the OIN
+                                const oinRow = document.createElement('div');
+                                oinRow.className = 'cluster-detail-row';
+
+                                const oinLabel = document.createElement('span');
+                                oinLabel.className = 'cluster-detail-label';
+                                oinLabel.textContent = 'OIN:';
+
+                                const oinValue = document.createElement('span');
+                                oinValue.id = 'result-organization-oin';
+                                oinValue.className = 'cluster-detail-value';
+                                oinValue.textContent = orgOin;
+
+                                oinRow.appendChild(oinLabel);
+                                oinRow.appendChild(oinValue);
+
+                                // Insert after organization row
+                                orgRow.parentNode.insertBefore(oinRow, orgRow.nextSibling);
+                            }
+                        }
+                    }
+
+                    // Create pricing tier detail row if it doesn't exist
+                    if (!document.getElementById('result-cluster-tier')) {
+                        const tierRow = document.createElement('div');
+                        tierRow.className = 'cluster-detail-row';
+
+                        const tierLabel = document.createElement('span');
+                        tierLabel.className = 'cluster-detail-label';
+                        tierLabel.textContent = 'Prijsmodel:';
+
+                        const tierValue = document.createElement('span');
+                        tierValue.id = 'result-cluster-tier';
+                        tierValue.className = 'cluster-detail-value';
+                        tierValue.textContent = displayTier;
+
+                        tierRow.appendChild(tierLabel);
+                        tierRow.appendChild(tierValue);
+
+                        // Insert after size
+                        const sizeRow = document.getElementById('result-cluster-size').parentNode;
+                        sizeRow.parentNode.insertBefore(tierRow, sizeRow.nextSibling);
+                    } else {
+                        document.getElementById('result-cluster-tier').textContent = displayTier;
                     }
 
                     // Create multi-AZ detail row if it doesn't exist
@@ -401,9 +505,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         multiAzRow.appendChild(multiAzLabel);
                         multiAzRow.appendChild(multiAzValue);
 
-                        // Insert after size
-                        const sizeRow = document.getElementById('result-cluster-size').parentNode;
-                        sizeRow.parentNode.insertBefore(multiAzRow, sizeRow.nextSibling);
+                        // Insert after tier row
+                        const tierRow = document.getElementById('result-cluster-tier').parentNode;
+                        tierRow.parentNode.insertBefore(multiAzRow, tierRow.nextSibling);
                     } else {
                         document.getElementById('result-multi-az').textContent = multiAz;
                     }

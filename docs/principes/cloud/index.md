@@ -92,7 +92,7 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
                         <label class="form__label" for="cluster-tier">Prijsmodel</label>
                         <select id="cluster-tier" name="cluster-tier" class="input-select" required>
                             <option value="" disabled selected>Selecteer een prijsmodel</option>
-                            <option value="free">Gratis tier (1 node, beperkte resources, 90 dagen)</option>
+                            <option value="free">Free-tier (1 node, beperkte resources, 90 dagen)</option>
                             <option value="basic">Basis (pay-as-you-go)</option>
                             <option value="reserved">Gereserveerde capaciteit (vooraf betaald)</option>
                         </select>
