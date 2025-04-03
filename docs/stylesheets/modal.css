@@ -400,6 +400,261 @@
     animation-timing-function: ease;
 }
 
+/* Cluster Form Modal */
+.cluster-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: none;
+}
+
+.cluster-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1001;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    display: none;
+}
+
+.cluster-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+.cluster-modal-header h3 {
+    margin: 0;
+    color: #154273;
+}
+
+.close-cluster-modal {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #5a5a5a;
+}
+
+.close-cluster-modal:hover {
+    color: #154273;
+}
+
+/* Spinner */
+.cluster-spinner-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.cluster-spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top: 4px solid #154273;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 1rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.cluster-spinner-text {
+    color: #154273;
+    font-weight: 600;
+}
+
+/* Result section */
+.cluster-result-container {
+    display: none;
+    padding: 1rem;
+    background-color: #f5f7fa;
+    border-radius: 0.3rem;
+    border-left: 4px solid #4caf50;
+}
+
+.cluster-result-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.cluster-result-header h4 {
+    margin: 0;
+    color: #4caf50;
+}
+
+.cluster-result-icon {
+    margin-right: 0.5rem;
+    color: #4caf50;
+}
+
+.cluster-result-details {
+    margin-bottom: 1.5rem;
+}
+
+.cluster-detail-row {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.cluster-detail-label {
+    font-weight: 600;
+    width: 150px;
+    color: #555;
+}
+
+.cluster-detail-value {
+    flex: 1;
+}
+
+.cluster-code-block {
+    background-color: #f0f0f0;
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+    font-family: monospace;
+    font-size: 0.5rem;
+    white-space: pre-wrap;
+    margin-bottom: 1rem;
+    border-left: 3px solid #154273;
+}
+
+.cluster-result-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+/* Authentication styles */
+.auth-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.auth-header h4 {
+    color: #154273;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.auth-header p {
+    color: #666;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.auth-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.auth-button {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    background-color: #f5f7fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.auth-button:hover {
+    background-color: #e9f0f8;
+    border-color: #b2d7ee;
+}
+
+.auth-icon {
+    font-size: 1.2rem;
+    margin-right: 0.8rem;
+}
+
+.auth-text {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Cost estimation styles */
+.cost-estimation-container {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background-color: #f5f7fa;
+    border-radius: 0.3rem;
+    border-left: 4px solid #154273;
+}
+
+.cost-estimation-container h4 {
+    margin: 0 0 0.8rem 0;
+    color: #154273;
+    font-size: 0.9rem;
+}
+
+.cost-details {
+    font-size: 0.85rem;
+}
+
+.cost-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+.cost-label {
+    color: #555;
+}
+
+.cost-value {
+    font-weight: 600;
+    color: #154273;
+}
+
+.cost-info {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.info-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    background-color: #154273;
+    color: white;
+    font-size: 0.7em;
+    margin-right: 0.5em;
+    font-style: normal;
+}
+
 .minbzk-modal > .modal-underlay {
     /* underlay takes up the entire viewport. This is only
 	required if you want to click to dismiss the popup */

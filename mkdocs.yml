@@ -101,6 +101,7 @@ extra_javascript:
   - javascripts/filtering.js
   - javascripts/mermaid.min.js
   - javascripts/modal.js
+  - javascripts/cluster-form.js
 
 plugins:
   - glightbox
