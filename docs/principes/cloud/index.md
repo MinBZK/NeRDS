@@ -65,6 +65,25 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
             <div id="form-container" style="display: none;">
                 <form id="create-cluster-form">
                     <div class="form__row">
+                        <label class="form__label" for="organization">Organisatie</label>
+                        <select id="organization" name="organization" class="input-select" required>
+                            <option value="" disabled selected>Selecteer een organisatie</option>
+                            <option value="minbzk">Ministerie van Binnenlandse Zaken</option>
+                            <option value="minezk">Ministerie van Economische Zaken en Klimaat</option>
+                            <option value="minienw">Ministerie van Infrastructuur en Waterstaat</option>
+                            <option value="minszw">Ministerie van Sociale Zaken en Werkgelegenheid</option>
+                            <option value="minvws">Ministerie van Volksgezondheid, Welzijn en Sport</option>
+                            <option value="belastingdienst">Belastingdienst</option>
+                            <option value="politie">Politie</option>
+                            <option value="rijkswaterstaat">Rijkswaterstaat</option>
+                            <option value="uitvoeringsorganisatie">Uitvoeringsorganisatie</option>
+                            <option value="gemeente">Gemeente</option>
+                            <option value="provincie">Provincie</option>
+                            <option value="overig">Overig</option>
+                        </select>
+                    </div>
+
+                    <div class="form__row">
                         <label class="form__label" for="cluster-name">Naam van het cluster</label>
                         <input type="text" id="cluster-name" name="cluster-name" class="input-text" required placeholder="mijn-k8s-cluster">
                     </div>
@@ -98,6 +117,14 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
                             <option value="medium">Middel (6-20 nodes)</option>
                             <option value="large">Groot (21-50 nodes)</option>
                             <option value="custom">Aangepast</option>
+                        </select>
+                    </div>
+
+                    <div class="form__row">
+                        <label class="form__label" for="multi-az">Multi-AZ Deployment</label>
+                        <select id="multi-az" name="multi-az" class="input-select" required>
+                            <option value="false" selected>Nee (enkele availability zone)</option>
+                            <option value="true">Ja (meerdere availability zones voor hoge beschikbaarheid)</option>
                         </select>
                     </div>
 
