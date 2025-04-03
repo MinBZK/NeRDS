@@ -65,6 +65,14 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
             <div id="form-container" style="display: none;">
                 <form id="create-cluster-form">
                     <div class="form__row">
+                        <label class="form__label" for="organization">Organisatie</label>
+                        <select id="organization" name="organization" class="input-select" required>
+                            <option value="" disabled selected>Selecteer een organisatie</option>
+                            <!-- Organizations will be populated after authentication -->
+                        </select>
+                    </div>
+
+                    <div class="form__row">
                         <label class="form__label" for="cluster-name">Naam van het cluster</label>
                         <input type="text" id="cluster-name" name="cluster-name" class="input-text" required placeholder="mijn-k8s-cluster">
                     </div>
@@ -84,7 +92,7 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
                         <label class="form__label" for="cluster-tier">Prijsmodel</label>
                         <select id="cluster-tier" name="cluster-tier" class="input-select" required>
                             <option value="" disabled selected>Selecteer een prijsmodel</option>
-                            <option value="free">Gratis tier (1 node, beperkte resources, 90 dagen)</option>
+                            <option value="free">Free-tier (1 node, beperkte resources, 90 dagen)</option>
                             <option value="basic">Basis (pay-as-you-go)</option>
                             <option value="reserved">Gereserveerde capaciteit (vooraf betaald)</option>
                         </select>
@@ -98,6 +106,14 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
                             <option value="medium">Middel (6-20 nodes)</option>
                             <option value="large">Groot (21-50 nodes)</option>
                             <option value="custom">Aangepast</option>
+                        </select>
+                    </div>
+
+                    <div class="form__row">
+                        <label class="form__label" for="multi-az">Multi-AZ Deployment</label>
+                        <select id="multi-az" name="multi-az" class="input-select" required>
+                            <option value="false" selected>Nee (enkele availability zone)</option>
+                            <option value="true">Ja (meerdere availability zones voor hoge beschikbaarheid)</option>
                         </select>
                     </div>
 
