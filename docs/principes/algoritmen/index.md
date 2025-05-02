@@ -33,6 +33,12 @@ Algoritmen en AI-systemen hebben een steeds grotere impact op besluitvorming bin
             <p>Register voor risicovolle algoritmen</p>
             <a href="https://amt.prd.apps.digilab.network/" class="action-button" target="_blank">Registreren</a>
         </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4>LLM Benchmark</h4>
+            <p>Benchmark voor taalmodellen (LLMs)</p>
+            <a href="https://github.com/MinBZK/llm-benchmark" class="action-button" target="_blank">Verkennen</a>
+        </div>
     </div>
 </div>
 
