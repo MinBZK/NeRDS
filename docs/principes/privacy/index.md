@@ -22,6 +22,12 @@ Privacy is een fundamenteel recht dat vanaf het begin moet worden ingebouwd in d
             <a href="https://www.autoriteitpersoonsgegevens.nl/nl/onderwerpen/avg-europese-privacywetgeving/data-protection-impact-assessment-dpia" class="action-button" target="_blank">Downloaden</a>
         </div>
         <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >DPIA Formulier</h4>
+            <p >Online formulier voor gegevensbeschermingseffectbeoordeling</p>
+            <a href="https://minbzk.github.io/par-dpia-form/" class="action-button" target="_blank">Starten</a>
+        </div>
+        <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
             <h4 >NICPET Tools</h4>
             <p >Privacy-bevorderende technologieën</p>
