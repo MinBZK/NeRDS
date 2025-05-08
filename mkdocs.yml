@@ -1,5 +1,4 @@
-# Existing mkdocs.yml content
-site_name: Nederlandse Richtlijn Digitale Systemen 0.1
+site_name: "NeRDS: Nederlandse Richtlijn Digitale Systemen 0.1"
 site_description: De Nederlandse Richtlijn Digitale Systemen van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
 
 theme:
@@ -91,7 +90,7 @@ extra_css:
   - stylesheets/all.min.css
   - stylesheets/choices.min.css
   - stylesheets/modal.css
-
+  - stylesheets/landing-page.css
 
 extra_javascript:
   - javascripts/jquery-3.6.0.min.js
@@ -112,10 +111,6 @@ plugins:
       locale: nl
   - awesome-pages:
       collapse_single_pages: true
-
-#hooks:
-#    - src/overrides/hooks/tags.py
-#    - src/overrides/hooks/lists.py
 
 # Link naar GitHub repo
 repo_url: https://github.com/MinBZK/NeRDS
