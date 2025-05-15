@@ -22,6 +22,12 @@ Toegankelijkheid gaat over het maken van diensten en systemen die door iedereen 
             <a href="https://www.w3.org/WAI/test-evaluate/tools/list/" class="action-button" target="_blank">Scannen</a>
         </div>
         <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >Deque Axe</h4>
+            <p >Toegankelijkheidstester voor webapplicaties</p>
+            <a href="https://www.deque.com/axe/" class="action-button" target="_blank">Gebruiken</a>
+        </div>
+        <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
             <h4 >Inclusief Ontwerpen</h4>
             <p >Toolkit voor inclusief ontwerp</p>
@@ -90,5 +96,6 @@ Toegankelijkheid gaat over het maken van diensten en systemen die door iedereen 
 ## Hulpbronnen voor toegankelijk ontwerp
 
 - [NL Design System](https://developer.overheid.nl/communities/nl-design-system) - Een samenwerkingsproject dat overheidsspecialisten helpt bij het ontwikkelen van toegankelijke digitale diensten, met richtlijnen, designkits, componenten en technische infrastructuur voor het bouwen van consistente en toegankelijke overheidssites.
+- [Deque Axe](https://www.deque.com/axe/) - Een verzameling tools voor het testen en verbeteren van toegankelijkheid van webapplicaties. Axe biedt automatische toegankelijkheidstests die ontwikkelaars helpen bij het identificeren en oplossen van toegankelijkheidsproblemen.
 
 Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg je ervoor dat je diensten voor iedereen bruikbaar zijn, ongeacht hun capaciteiten of beperkingen.
