@@ -28,6 +28,12 @@ Door samen te werken, kennis te delen en oplossingen te hergebruiken, kunnen ove
             <a href="https://www.nldesignsystem.nl" class="action-button" target="_blank">Ontdekken</a>
         </div>
         <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4>18F Risicoreductie Gids</h4>
+            <p>Methodiek voor het verminderen van risico's bij overheidstechnologieprojecten</p>
+            <a href="https://guides.18f.gov/derisking-government-tech/" class="action-button" target="_blank">Verkennen</a>
+        </div>
+        <div class="action-card">
             <span class="wip-badge wip-badge-concept">concept</span>
             <h4 >GovHub</h4>
             <p >Centrale hub voor overheidscomponenten</p>
@@ -94,3 +100,44 @@ Door samen te werken, kennis te delen en oplossingen te hergebruiken, kunnen ove
 - Documentbeheersystemen
 
 Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebruiken, kan de overheid efficiënter werken, kosten besparen en consistentere diensten leveren aan burgers en bedrijven.
+
+## 18F Risicoreductie Gids: Ervaringen van de Amerikaanse overheid
+
+De [18F Risicoreductie Gids](https://guides.18f.gov/derisking-government-tech/) is een uitgebreide bron van kennis ontwikkeld door [18F](https://18f.gsa.gov/guides/), een digitaal agentschap binnen de Amerikaanse General Services Administration (GSA). Deze gids bevat praktische handreikingen en methoden om de risico's bij digitale overheidsprojecten te verminderen.
+
+### Belangrijkste concepten
+
+1. **Software selectie**
+   - Afwegingen tussen commerciële off-the-shelf (COTS) software en maatwerksoftware
+   - Wanneer te kiezen voor COTS en wanneer voor maatwerk
+   - Waarom het aanpassen van COTS software voor specifieke behoeften risico's vergroot
+
+2. **Moderne softwareontwikkelmethoden**
+   - Transitie van waterval naar agile en gebruikersgerichte ontwikkeling
+   - Hoe verouderde budgetterings- en toezichtprocessen de waterval-benadering in stand houden
+   - Hoe een gebruikersgerichte, agile aanpak miljoenen kan besparen
+
+3. **Leveranciersbeheer en contractering**
+   - Aanbevelingen en sjablonen voor het plannen en implementeren van moderne softwareontwikkelingsprojecten
+   - Hoe contracten voor agile softwareontwikkeling op te stellen
+   - Wat te zoeken in een kwalitatief hoogwaardig voorstel van een leverancier
+   - Betekenisvolle metrieken voor agile ontwikkeling
+
+4. **Budgettering en toezicht**
+   - Best practices zoals budgetteren voor software als operationele uitgave
+   - Beperken van contractomvang
+   - Iteratief meten van succes
+   - In huis halen van technisch talent
+
+Deze gids is relevant voor Nederlandse overheidsorganisaties omdat veel van de uitdagingen en oplossingen universeel zijn. De methodieken kunnen worden aangepast aan de Nederlandse context, rekening houdend met lokale wet- en regelgeving en cultuur.
+
+### Toepassing in Nederlandse context
+
+Bij het toepassen van inzichten uit de 18F Risicoreductie Gids in de Nederlandse context, overweeg het volgende:
+
+- **Lokale aanpassing**: Pas methodieken aan zodat ze voldoen aan Nederlandse regelgeving en praktijken
+- **Gemeenschappelijk begrip**: Zorg dat alle belanghebbenden dezelfde definities en verwachtingen hebben van agile werkwijzen
+- **Doelgerichte implementatie**: Begin met kleinere projecten om ervaring op te doen en successen te demonstreren
+- **Kennisdeling**: Deel ervaringen met het toepassen van deze methodieken binnen de Nederlandse overheid
+
+De 18F Risicoreductie Gids is een uitstekend voorbeeld van kennisdeling tussen overheden en kan dienen als inspiratie voor het verder ontwikkelen van onze eigen methoden en best practices.

@@ -28,6 +28,12 @@ Toegankelijkheid gaat over het maken van diensten en systemen die door iedereen 
             <a href="https://www.deque.com/axe/" class="action-button" target="_blank">Gebruiken</a>
         </div>
         <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >WCAG-EM Reporter</h4>
+            <p >Tool voor het maken van toegankelijkheidsrapporten</p>
+            <a href="https://gitlab.com/digilab.overheid.nl/ecosystem/wcag-em-reporter" class="action-button" target="_blank">Gebruiken</a>
+        </div>
+        <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
             <h4 >Inclusief Ontwerpen</h4>
             <p >Toolkit voor inclusief ontwerp</p>
@@ -97,5 +103,6 @@ Toegankelijkheid gaat over het maken van diensten en systemen die door iedereen 
 
 - [NL Design System](https://developer.overheid.nl/communities/nl-design-system) - Een samenwerkingsproject dat overheidsspecialisten helpt bij het ontwikkelen van toegankelijke digitale diensten, met richtlijnen, designkits, componenten en technische infrastructuur voor het bouwen van consistente en toegankelijke overheidssites.
 - [Deque Axe](https://www.deque.com/axe/) - Een verzameling tools voor het testen en verbeteren van toegankelijkheid van webapplicaties. Axe biedt automatische toegankelijkheidstests die ontwikkelaars helpen bij het identificeren en oplossen van toegankelijkheidsproblemen.
+- [WCAG-EM Reporter](https://gitlab.com/digilab.overheid.nl/ecosystem/wcag-em-reporter) - Een tool die helpt bij het genereren van toegankelijkheidsrapporten volgens de Website Accessibility Conformance Evaluation Methodology (WCAG-EM). De tool begeleidt gebruikers door het evaluatieproces en genereert een gestructureerd rapport op basis van de ingevoerde gegevens.
 
 Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg je ervoor dat je diensten voor iedereen bruikbaar zijn, ongeacht hun capaciteiten of beperkingen.
