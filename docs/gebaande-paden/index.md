@@ -24,22 +24,23 @@ summary: Praktische routekaarten door de NeRDS principes voor veelvoorkomende sc
       ---
       **Van concept tot live service voor burgers en bedrijven**
 
-  - **Tijdsduur**: 12-16 weken
-  - **Voor**: Service teams, product owners
-  - **Resultaat**: Live service die voldoet aan alle NeRDS principes
+    - **Tijdsduur**: 12-16 weken
+    - **Voor**: Service teams, product owners
+    - **Resultaat**: Live service die voldoet aan alle NeRDS principes
 
       Key milestones: Gebruikersonderzoek → Service Design → Alpha/Beta → Go Live
+  
 
 - :material-refresh:{ .lg .middle } **[Legacy Modernisering](legacy-modernisering/index.md)**
-
+  
       ---
-
+  
       **Bestaande systemen NeRDS-compliant maken**
-
-  - **Tijdsduur**: 6-24 maanden (gefaseerd)
-  - **Voor**: IT-teams met legacy systemen
-  - **Resultaat**: Gemoderniseerd systeem
-
+  
+    - **Tijdsduur**: 6-24 maanden (gefaseerd)
+    - **Voor**: IT-teams met legacy systemen
+    - **Resultaat**: Gemoderniseerd systeem
+  
       Key milestones: Audit → Strategie → Migratie → Decommissioning
 
   - :material-lightning-bolt:{ .lg .middle } **[Snelle Prototype](snelle-prototype/index.md)**
