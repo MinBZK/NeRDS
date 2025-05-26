@@ -277,11 +277,25 @@ function initializeClusterForm() {
 
             // Add size options based on tier
             if (tier === 'free') {
-                // Free tier only has small option
+                // Free tier only has small option - auto-select it
                 const smallOption = document.createElement('option');
                 smallOption.value = 'small';
                 smallOption.text = 'Klein (1 node, beperkte resources)';
+                smallOption.selected = true;
                 clusterSizeSelect.add(smallOption);
+
+                // Add "beperkt" note to the size label for free tier
+                const sizeLabel = clusterSizeSelect.previousElementSibling;
+                if (sizeLabel && !document.getElementById('size-free-note')) {
+                    const note = document.createElement('span');
+                    note.id = 'size-free-note';
+                    note.className = 'form-note';
+                    note.textContent = ' (beperkt)';
+                    note.style.fontSize = '0.8em';
+                    note.style.fontStyle = 'italic';
+                    note.style.color = '#666';
+                    sizeLabel.appendChild(note);
+                }
 
                 // Disable multi-region option for free tier and set to 'false'
                 if (multiAzSelect) {
@@ -327,11 +341,17 @@ function initializeClusterForm() {
                 if (multiAzSelect) {
                     multiAzSelect.disabled = false;
 
-                    // Remove the note if it exists
-                    const note = document.getElementById('multi-az-free-note');
-                    if (note) {
-                        note.remove();
+                    // Remove the multi-region note if it exists
+                    const multiAzNote = document.getElementById('multi-az-free-note');
+                    if (multiAzNote) {
+                        multiAzNote.remove();
                     }
+                }
+
+                // Remove the size restriction note for paid tiers
+                const sizeNote = document.getElementById('size-free-note');
+                if (sizeNote) {
+                    sizeNote.remove();
                 }
             }
         }
