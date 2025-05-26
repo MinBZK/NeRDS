@@ -28,6 +28,12 @@ Open standaarden zijn gemeenschappelijke regels die gebruikers in staat stellen 
             <a href="https://docs.geostandaarden.nl/api/API-Strategie/" class="action-button" target="_blank">Bekijken</a>
         </div>
         <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >Developer Overheid API's</h4>
+            <p >Overzicht van overheids-API's</p>
+            <a href="https://apis.developer.overheid.nl/apis" class="action-button" target="_blank">Ontdekken</a>
+        </div>
+        <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
             <h4 >Standaardenregister</h4>
             <p >Centrale standaardendatabase</p>
