@@ -78,17 +78,6 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
                     </div>
 
                     <div class="form__row">
-                        <label class="form__label" for="cluster-region">Regio</label>
-                        <select id="cluster-region" name="cluster-region" class="input-select" required>
-                            <option value="" disabled selected>Selecteer een regio</option>
-                            <option value="nl-ams">Amsterdam</option>
-                            <option value="nl-rtt">Rotterdam</option>
-                            <option value="nl-gro">Groningen</option>
-                            <option value="nl-hrl">Heerlen</option>
-                        </select>
-                    </div>
-
-                    <div class="form__row">
                         <label class="form__label" for="cluster-tier">Prijsmodel</label>
                         <select id="cluster-tier" name="cluster-tier" class="input-select" required>
                             <option value="" disabled selected>Selecteer een prijsmodel</option>
@@ -99,6 +88,35 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
                     </div>
 
                     <div class="form__row">
+                        <label class="form__label" for="multi-az">Hoge beschikbaarheid</label>
+                        <select id="multi-az" name="multi-az" class="input-select" required>
+                            <option value="false" selected>Enkele regio (standaard)</option>
+                            <option value="true">Multi-regio (hoge beschikbaarheid)</option>
+                        </select>
+                    </div>
+
+                    <div class="form__row">
+                        <label class="form__label" for="cluster-region">Regio(s)</label>
+                        <select id="cluster-region" name="cluster-region" class="input-select" required>
+                            <option value="" disabled selected>Selecteer een regio</option>
+                            <option value="nl-ams">Amsterdam</option>
+                            <option value="nl-rtt">Rotterdam</option>
+                            <option value="nl-gro">Groningen</option>
+                            <option value="nl-hrl">Heerlen</option>
+                        </select>
+                        <div id="secondary-region-row" style="display: none; margin-top: 8px;">
+                            <label class="form__label" for="cluster-region-secondary">Secundaire regio</label>
+                            <select id="cluster-region-secondary" name="cluster-region-secondary" class="input-select">
+                                <option value="" disabled selected>Selecteer secundaire regio</option>
+                                <option value="nl-ams">Amsterdam</option>
+                                <option value="nl-rtt">Rotterdam</option>
+                                <option value="nl-gro">Groningen</option>
+                                <option value="nl-hrl">Heerlen</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form__row">
                         <label class="form__label" for="cluster-size">Grootte</label>
                         <select id="cluster-size" name="cluster-size" class="input-select" required>
                             <option value="" disabled selected>Selecteer een grootte</option>
@@ -106,14 +124,6 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
                             <option value="medium">Middel (6-20 nodes)</option>
                             <option value="large">Groot (21-50 nodes)</option>
                             <option value="custom">Aangepast</option>
-                        </select>
-                    </div>
-
-                    <div class="form__row">
-                        <label class="form__label" for="multi-az">Multi-AZ Deployment</label>
-                        <select id="multi-az" name="multi-az" class="input-select" required>
-                            <option value="false" selected>Nee (enkele availability zone)</option>
-                            <option value="true">Ja (meerdere availability zones voor hoge beschikbaarheid)</option>
                         </select>
                     </div>
 
