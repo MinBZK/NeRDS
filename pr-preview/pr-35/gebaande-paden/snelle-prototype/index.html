@@ -1,0 +1,1455 @@
+
+<!doctype html>
+<html lang="nl" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="De Nederlandse Richtlijn Digitale Systemen van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties">
+      
+      
+      
+        <link rel="canonical" href="https://minbzk.github.io/NeRDS/pr-preview/pr-35/gebaande-paden/snelle-prototype/">
+      
+      
+        <link rel="prev" href="../legacy-modernisering/">
+      
+      
+        <link rel="next" href="../naar-aanbesteding/">
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Snelle Prototype - NeRDS: Nederlandse Richtlijn Digitale Systemen 0.1</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%20512a256%20256%200%201%200%200-512%20256%20256%200%201%200%200%20512m-40-176h24v-64h-24c-13.3%200-24-10.7-24-24s10.7-24%2024-24h48c13.3%200%2024%2010.7%2024%2024v88h8c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-80c-13.3%200-24-10.7-24-24s10.7-24%2024-24m40-208a32%2032%200%201%201%200%2064%2032%2032%200%201%201%200-64%22/%3E%3C/svg%3E');}</style>
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/navigation.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/filters.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/footer.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/all.min.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/choices.min.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/modal.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/landing-page.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#snelle-prototype" class="md-skip">
+          Ga naar inhoud
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="NeRDS: Nederlandse Richtlijn Digitale Systemen 0.1" class="md-header__button md-logo" aria-label="NeRDS: Nederlandse Richtlijn Digitale Systemen 0.1" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NeRDS: Nederlandse Richtlijn Digitale Systemen 0.1
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Snelle Prototype
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Zoeken" placeholder="Zoeken" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Zoeken">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Leegmaken" aria-label="Leegmaken" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Zoeken initialiseren
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/MinBZK/NeRDS" title="Ga naar repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../principes/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Principes
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Gebaande Paden
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Over-NeRDS/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Over NeRDS
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigatie" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="NeRDS: Nederlandse Richtlijn Digitale Systemen 0.1" class="md-nav__button md-logo" aria-label="NeRDS: Nederlandse Richtlijn Digitale Systemen 0.1" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    NeRDS: Nederlandse Richtlijn Digitale Systemen 0.1
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/MinBZK/NeRDS" title="Ga naar repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../.." class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../principes/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Principes
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Gebaande Paden
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Gebaande Paden
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nieuwe-overheidsservice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🏗️ Nieuwe Overheidsservice
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../legacy-modernisering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🔄 Legacy Modernisering
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    ⚡ Snelle Prototype
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    ⚡ Snelle Prototype
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhoudsopgave">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tijdlijn-milestones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tijdlijn &amp; Milestones
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-1-concept-setup-dag-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 1: Concept &amp; Setup (Dag 1)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-2-mvp-design-dag-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 2: MVP Design (Dag 2)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-3-bouwen-testen-dag-3-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 3: Bouwen &amp; Testen (Dag 3-4)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-4-evaluatie-beslissing-dag-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 4: Evaluatie &amp; Beslissing (Dag 5)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templates-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Templates &amp; Tools
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Templates &amp; Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#concept-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concept Template
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tech-stack-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tech Stack Guide
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#development-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Development Guide
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#volgende-stappen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volgende Stappen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Volgende Stappen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bij-go-beslissing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bij Go-Beslissing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bij-no-go-beslissing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bij No-Go-Beslissing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gerelateerde-nerds-principes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gerelateerde NeRDS Principes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../naar-aanbesteding/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🛒 Naar Aanbesteding
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crisis-response/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🚨 Crisis Response
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../Over-NeRDS/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Over NeRDS
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhoudsopgave">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tijdlijn-milestones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tijdlijn &amp; Milestones
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-1-concept-setup-dag-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 1: Concept &amp; Setup (Dag 1)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-2-mvp-design-dag-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 2: MVP Design (Dag 2)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-3-bouwen-testen-dag-3-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 3: Bouwen &amp; Testen (Dag 3-4)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-4-evaluatie-beslissing-dag-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 4: Evaluatie &amp; Beslissing (Dag 5)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templates-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Templates &amp; Tools
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Templates &amp; Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#concept-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concept Template
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tech-stack-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tech Stack Guide
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#development-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Development Guide
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#volgende-stappen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volgende Stappen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Volgende Stappen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bij-go-beslissing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bij Go-Beslissing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bij-no-go-beslissing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bij No-Go-Beslissing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gerelateerde-nerds-principes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gerelateerde NeRDS Principes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="snelle-prototype">⚡ Snelle Prototype</h1>
+<div class="direct-aan-de-slag">
+
+<h3>Snelle Start</h3>
+
+<p>Dit Gebaande Pad helpt je binnen <strong>2-5 dagen</strong> van idee naar werkende proof-of-concept te gaan. Perfect voor validatie van concepten voordat je een volledig project start.</p>
+
+<ul>
+<li><strong>Doelgroep</strong>: Innovation teams, pre-project validatie</li>
+<li><strong>Tijdsduur</strong>: 48 uur tot 5 dagen</li>
+<li><strong>Resultaat</strong>: Werkende proof-of-concept met go/no-go beslissing</li>
+</ul>
+
+</div>
+
+<h2 id="tijdlijn-milestones">Tijdlijn &amp; Milestones</h2>
+<pre class="mermaid"><code>gantt
+    title ⚡ Snelle Prototype - 5 Dagen Sprint
+    dateFormat X
+    axisFormat Dag %d
+
+    section 🎯 Dag 1: Concept &amp; Setup
+    Concept Definitie      :milestone, m1, 0, 0
+    Gebruikersonderzoek    :active, dag1a, 0, 1
+    Tech Stack Keuze       :dag1b, 0, 1
+
+    section 🎨 Dag 2: MVP Design
+    UI/UX Wireframes      :dag2a, 1, 2
+    Architectuur Schets   :dag2b, 1, 2
+
+    section 💻 Dag 3-4: Build &amp; Test
+    Rapid Development     :dag3, 2, 4
+    Gebruikerstests       :dag3b, 3, 4
+
+    section 📊 Dag 5: Evaluatie
+    Demo &amp; Presentatie    :dag5a, 4, 5
+    Go/No-Go Beslissing   :milestone, m2, 4, 5</code></pre>
+<h2 id="fase-1-concept-setup-dag-1">Fase 1: Concept &amp; Setup (Dag 1)</h2>
+<div class="action-cards">
+
+<div class="action-card">
+<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+
+<h4>🎯 Concept Definitie</h4>
+<p>Definieer helder wat je wilt valideren binnen 2 uur.</p>
+
+<p><strong>Deliverable</strong>: Concept doc (1 pagina)<br>
+<strong>NeRDS Principes</strong>: <a href="../../principes/gebruikersbehoeften/">Gebruikersbehoeften</a></p>
+
+<a href="#concept-template" class="action-button">Concept Template</a>
+</div>
+
+<div class="action-card">
+<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+
+<h4>👥 Express Gebruikersonderzoek</h4>
+<p>Minimaal inzicht in doelgroep en use cases.</p>
+
+<p><strong>Deliverable</strong>: User persona's & user stories<br>
+<strong>NeRDS Principes</strong>: <a href="../../principes/gebruikersbehoeften/">Gebruikersbehoeften</a>, <a href="../../principes/toegankelijkheid/">Toegankelijkheid</a></p>
+
+<a href="#gebruikersonderzoek-template" class="action-button">Research Template</a>
+</div>
+
+<div class="action-card">
+<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+
+<h4>⚡ Tech Stack Keuze</h4>
+<p>Kies bekende, snelle tools voor rapid prototyping.</p>
+
+<p><strong>Deliverable</strong>: Tech stack beslissing<br>
+<strong>NeRDS Principes</strong>: <a href="../../principes/open-source/">Open Source</a>, <a href="../../principes/open-standaarden/">Open Standaarden</a></p>
+
+<a href="#tech-stack-guide" class="action-button">Tech Stack Guide</a>
+</div>
+
+</div>
+
+<h2 id="fase-2-mvp-design-dag-2">Fase 2: MVP Design (Dag 2)</h2>
+<div class="action-cards">
+
+<div class="action-card">
+<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+
+<h4>🎨 Minimale UI/UX</h4>
+<p>Wireframes en basic design voor core functionaliteit.</p>
+
+<p><strong>Deliverable</strong>: Wireframes + design system basics<br>
+<strong>NeRDS Principes</strong>: <a href="../../principes/toegankelijkheid/">Toegankelijkheid</a>, <a href="../../principes/gebruikersbehoeften/">Gebruikersbehoeften</a></p>
+
+<a href="#design-template" class="action-button">Design Kit</a>
+</div>
+
+<div class="action-card">
+<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+
+<h4>🏗️ Architectuur Schets</h4>
+<p>Simpele architectuur voor MVP functionaliteit.</p>
+
+<p><strong>Deliverable</strong>: Architectuur diagram<br>
+<strong>NeRDS Principes</strong>: <a href="../../principes/integratie/">Integratie</a>, <a href="../../principes/veiligheid/">Veiligheid</a></p>
+
+<a href="#architectuur-template" class="action-button">Architectuur Template</a>
+</div>
+
+</div>
+
+<h2 id="fase-3-bouwen-testen-dag-3-4">Fase 3: Bouwen &amp; Testen (Dag 3-4)</h2>
+<div class="action-cards">
+
+<div class="action-card">
+<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+
+<h4>💻 Rapid Development</h4>
+<p>Focus op core functionaliteit, geen perfectie.</p>
+
+<p><strong>Deliverable</strong>: Werkende prototype<br>
+<strong>NeRDS Principes</strong>: <a href="../../principes/open-source/">Open Source</a>, <a href="../../principes/veiligheid/">Veiligheid</a></p>
+
+<a href="#development-guide" class="action-button">Dev Guide</a>
+</div>
+
+<div class="action-card">
+<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+
+<h4>🧪 Gebruikerstests</h4>
+<p>Test met echte gebruikers, ook al is het basic.</p>
+
+<p><strong>Deliverable</strong>: Test resultaten & feedback<br>
+<strong>NeRDS Principes</strong>: <a href="../../principes/gebruikersbehoeften/">Gebruikersbehoeften</a>, <a href="../../principes/toegankelijkheid/">Toegankelijkheid</a></p>
+
+<a href="#testing-template" class="action-button">Test Protocol</a>
+</div>
+
+</div>
+
+<h2 id="fase-4-evaluatie-beslissing-dag-5">Fase 4: Evaluatie &amp; Beslissing (Dag 5)</h2>
+<div class="action-cards">
+
+<div class="action-card">
+<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+
+<h4>📊 Demo & Evaluatie</h4>
+<p>Presenteer resultaten aan stakeholders.</p>
+
+<p><strong>Deliverable</strong>: Demo + evaluatierapport<br>
+<strong>NeRDS Principes</strong>: Alle relevante principes</p>
+
+<a href="#demo-template" class="action-button">Demo Template</a>
+</div>
+
+<div class="action-card">
+<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+
+<h4>✅ Go/No-Go Beslissing</h4>
+<p>Concrete aanbeveling voor vervolgstappen.</p>
+
+<p><strong>Deliverable</strong>: Go/No-Go document<br>
+<strong>NeRDS Principes</strong>: <a href="../../principes/inkoop/">Inkoopstrategie</a></p>
+
+<a href="#beslissing-template" class="action-button">Beslissing Framework</a>
+</div>
+
+</div>
+
+<hr />
+<h2 id="templates-tools">Templates &amp; Tools</h2>
+<h3 id="concept-template">Concept Template</h3>
+<div class="highlight"><pre><span></span><code><span class="gh"># Prototype Concept Brief</span>
+
+<span class="gu">## Probleem</span>
+<span class="k">-</span><span class="w"> </span>Wat willen we oplossen?
+<span class="k">-</span><span class="w"> </span>Voor wie?
+<span class="k">-</span><span class="w"> </span>Waarom is dit urgent/belangrijk?
+
+<span class="gu">## Hypothese</span>
+<span class="k">-</span><span class="w"> </span>Wat denken we dat werkt?
+<span class="k">-</span><span class="w"> </span>Welke aanname willen we testen?
+
+<span class="gu">## Success Criteria</span>
+<span class="k">-</span><span class="w"> </span>Hoe meten we succes?
+<span class="k">-</span><span class="w"> </span>Wat is minimale acceptabele uitkomst?
+
+<span class="gu">## Scope</span>
+<span class="k">-</span><span class="w"> </span>Wat doen we WEL in prototype?
+<span class="k">-</span><span class="w"> </span>Wat doen we NIET?
+<span class="k">-</span><span class="w"> </span>Welke compromissen maken we bewust?
+
+<span class="gu">## Risico&#39;s</span>
+<span class="k">-</span><span class="w"> </span>Wat kan fout gaan?
+<span class="k">-</span><span class="w"> </span>Hoe mitigeren we grootste risico&#39;s?
+</code></pre></div>
+<h3 id="tech-stack-guide">Tech Stack Guide</h3>
+<p><strong>Aanbevolen voor Nederlandse Overheid</strong>:</p>
+<ul>
+<li><strong>Frontend</strong>: React/Vue.js + NL Design System</li>
+<li><strong>Backend</strong>: Node.js/Python + PostgreSQL</li>
+<li><strong>Cloud</strong>: Nederlandse/EU providers</li>
+<li><strong>CI/CD</strong>: GitLab/GitHub Actions</li>
+<li><strong>Hosting</strong>: Government Cloud (DigiRealisergang)</li>
+</ul>
+<h3 id="development-guide">Development Guide</h3>
+<p><strong>Focus op</strong>:</p>
+<ul>
+<li>Core functionaliteit eerst</li>
+<li>Minimale veiligheid (HTTPS, input validatie)</li>
+<li>Basic logging voor debugging</li>
+<li>Dummy data waar nodig</li>
+</ul>
+<p><strong>Vermijd</strong>:</p>
+<ul>
+<li>Perfecte styling</li>
+<li>Complexe architectuur</li>
+<li>Productie-klare security</li>
+<li>Uitgebreide documentatie</li>
+</ul>
+<hr />
+<h2 id="volgende-stappen">Volgende Stappen</h2>
+<h3 id="bij-go-beslissing">Bij Go-Beslissing</h3>
+<ol>
+<li><strong>Plan vervolgproject</strong> → <a href="../nieuwe-overheidsservice/">Nieuwe Overheidsservice</a></li>
+<li><strong>Schaal architectuur</strong> → <a href="../legacy-modernisering/">Legacy Modernisering</a></li>
+<li><strong>Start aanbesteding</strong> → <a href="../naar-aanbesteding/">Van Idee naar Aanbesteding</a></li>
+</ol>
+<h3 id="bij-no-go-beslissing">Bij No-Go-Beslissing</h3>
+<ul>
+<li>Documenteer geleerde lessen</li>
+<li>Evalueer alternatieve concepten</li>
+<li>Overweeg nieuwe hypotheses</li>
+</ul>
+<hr />
+<h2 id="gerelateerde-nerds-principes">Gerelateerde NeRDS Principes</h2>
+<div class="grid cards">
+<ul>
+<li><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 12c2.5 0 4.5 2 4.5 4.5 0 .88-.25 1.71-.69 2.4l3.08 3.1L21 23.39l-3.12-3.07c-.69.43-1.51.68-2.38.68-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5m0 2a2.5 2.5 0 0 0-2.5 2.5 2.5 2.5 0 0 0 2.5 2.5 2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5M10 4a4 4 0 0 1 4 4c0 .91-.31 1.75-.82 2.43-.86.32-1.63.83-2.27 1.47L10 12a4 4 0 0 1-4-4 4 4 0 0 1 4-4M2 20v-2c0-2.12 3.31-3.86 7.5-4-.32.78-.5 1.62-.5 2.5 0 1.29.38 2.5 1 3.5z"/></svg></span> <strong><a href="../../principes/gebruikersbehoeften/">Gebruikersbehoeften</a></strong></li>
+</ul>
+<p>Basis voor elk prototype - begin altijd met gebruikersvalidatie</p>
+<ul>
+<li><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.5 4a2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2 2 2 0 0 1 2 2M5 7c-1.11 0-2 .89-2 2v6h2v7h3.61a7 7 0 0 1-2.11-5 7 7 0 0 1 3.5-6.05V9c0-1.11-.89-2-2-2m5 1v8h5.5l2.7 3.6 1.6-1.2-3.3-4.4H15V8m-3 4.23A5 5 0 0 0 8.5 17a5 5 0 0 0 5 5 5 5 0 0 0 5-5h-2a3 3 0 0 1-3 3 3 3 0 0 1-3-3 3 3 0 0 1 1.5-2.59Z"/></svg></span> <strong><a href="../../principes/toegankelijkheid/">Toegankelijkheid</a></strong></li>
+</ul>
+<p>Test ook in prototype fase met diverse gebruikers</p>
+<ul>
+<li><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14c-3.36 0-4.46 1.35-4.82 2.24C9.25 16.7 10 17.76 10 19a3 3 0 0 1-3 3 3 3 0 0 1-3-3c0-1.31.83-2.42 2-2.83V7.83A2.99 2.99 0 0 1 4 5a3 3 0 0 1 3-3 3 3 0 0 1 3 3c0 1.31-.83 2.42-2 2.83v5.29c.88-.65 2.16-1.12 4-1.12 2.67 0 3.56-1.34 3.85-2.23A3.01 3.01 0 0 1 14 7a3 3 0 0 1 3-3 3 3 0 0 1 3 3c0 1.34-.88 2.5-2.09 2.86C17.65 11.29 16.68 14 13 14m-6 4a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1M7 4a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1m10 2a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1"/></svg></span> <strong><a href="../../principes/open-source/">Open Source</a></strong></li>
+</ul>
+<p>Gebruik open tools voor snelle ontwikkeling</p>
+<ul>
+<li><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5zm0 6c1.4 0 2.8 1.1 2.8 2.5V11c.6 0 1.2.6 1.2 1.3v3.5c0 .6-.6 1.2-1.3 1.2H9.2c-.6 0-1.2-.6-1.2-1.3v-3.5c0-.6.6-1.2 1.2-1.2V9.5C9.2 8.1 10.6 7 12 7m0 1.2c-.8 0-1.5.5-1.5 1.3V11h3V9.5c0-.8-.7-1.3-1.5-1.3"/></svg></span> <strong><a href="../../principes/veiligheid/">Veiligheid</a></strong></li>
+</ul>
+<p>Minimale security vanaf dag 1, ook in prototypes</p>
+</div>
+
+
+
+
+
+
+
+  
+    
+  
+  
+    
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Laatst geüpdatet">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="26 mei 2025 16:22:45">26 mei 2025</span>
+  </span>
+
+    
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Gecreëerd">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="26 mei 2025 16:22:45">26 mei 2025</span>
+  </span>
+
+    
+    
+    
+  </aside>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Terug naar boven
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+    <div class="md-footer__inner">
+      <!-- Left Section: Notice Text -->
+      <div class="md-footer__notice">
+        <p>Let op: deze website is in ontwikkeling. De informatie verandert vaak. Wil je <a href="/NeRDS/Over-NeRDS/CONTRIBUTING/">meehelpen?</a></p>
+      </div>
+
+      <!-- Right Section: Links in Columns -->
+      <div class="md-footer__links">
+        <div class="md-footer__column">
+          <a href="/NeRDS/Over-NeRDS/">Over de Nederlandse Richtlijn Digitale Systemen</a>
+          <a href="/NeRDS/Over-NeRDS/CONTRIBUTING/">Meedoen</a>
+          <a href="/NeRDS/Over-NeRDS/CONTRIBUTING/">Contact</a>
+          <a href="#">Privacy</a>
+        </div>
+        <div class="md-footer__column">
+          <a href="https://overheid.nl/">Overheid.nl</a>
+          <a href="https://www.rijksoverheid.nl/">Rijksoverheid.nl</a>
+          <a href="https://www.digitaleoverheid.nl/">Digitale Overheid</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+<div id="modal" class="minbzk-modal display-none">
+  <div class="modal-underlay" onclick="closeModal()"></div>
+  <div class="modal-content-container" id="modal-content-container">
+    <div class="modal-content-close" onclick="closeModal()">&#xd7;</div>
+    <div class="modal-content" id="modal-content">
+  </div>
+  </div>
+</div>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.instant", "navigation.footer", "navigation.prune", "navigation.path", "search.highlight", "search.suggest", "content.tooltips", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.result.more.one": "1 extra overeenkomst op deze pagina", "search.result.more.other": "# extra overeenkomsten op deze pagina", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Ontbreekt", "select.version": "Selecteer versie"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../javascripts/jquery-3.6.0.min.js"></script>
+      
+        <script src="../../javascripts/choices.min.js"></script>
+      
+        <script src="../../javascripts/tablesort.min.js"></script>
+      
+        <script src="../../javascripts/tablesort.js"></script>
+      
+        <script src="../../javascripts/filtering.js"></script>
+      
+        <script src="../../javascripts/mermaid.min.js"></script>
+      
+        <script src="../../javascripts/modal.js"></script>
+      
+        <script src="../../javascripts/cluster-form.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
