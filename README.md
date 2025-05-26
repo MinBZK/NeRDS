@@ -60,4 +60,4 @@ In deze versie werken de navigatie broodkruimels niet.
 ## Vragen?
 
 Maak een [Issue](https://github.com/MinBZK/NeRDS/issues) aan op GitHub. Of stuur een e-mail naar
-[bano@minbzk.nl](mailto:bano@minbzk.nl).
+[bureau.architectuur@minbzk.nl](mailto:bureau.architectuur@minbzk.nl).
