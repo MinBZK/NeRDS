@@ -120,11 +120,10 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
                     <div class="form__row">
                         <label class="form__label" for="cluster-version">Kubernetes versie</label>
                         <select id="cluster-version" name="cluster-version" class="input-select" required>
-                            <option value="" disabled selected>Selecteer een versie</option>
-                            <option value="1.28">Kubernetes 1.28 (nieuwste)</option>
-                            <option value="1.27">Kubernetes 1.27</option>
-                            <option value="1.26">Kubernetes 1.26</option>
-                            <option value="1.25">Kubernetes 1.25</option>
+                            <option value="1.33" selected>Kubernetes 1.33 (nieuwste)</option>
+                            <option value="1.32">Kubernetes 1.32</option>
+                            <option value="1.31">Kubernetes 1.31</option>
+                            <option value="1.30">Kubernetes 1.30</option>
                         </select>
                     </div>
 

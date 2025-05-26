@@ -1,11 +1,25 @@
 // JavaScript for the Kubernetes Cluster Form
-document.addEventListener('DOMContentLoaded', function() {
-    // Get form elements
+// Initialize cluster form functionality
+function initializeClusterForm() {
+    // Check if cluster form elements exist, if not, skip initialization
     const clusterForm = document.getElementById('create-cluster-form');
     const clusterModal = document.getElementById('cluster-modal');
     const closeModalBtn = document.getElementById('close-modal');
     const openModalBtn = document.getElementById('open-cluster-form');
     const modalOverlay = document.getElementById('modal-overlay');
+
+    // Exit early if required elements don't exist (not on cloud page)
+    if (!clusterModal || !openModalBtn) {
+        return;
+    }
+
+    // Prevent duplicate initialization by checking for a flag
+    if (clusterModal.dataset.initialized === 'true') {
+        return;
+    }
+
+    // Mark as initialized
+    clusterModal.dataset.initialized = 'true';
     const authContainer = document.getElementById('auth-container');
     const formContainer = document.getElementById('form-container');
     const resultContainer = document.getElementById('result-container');
@@ -48,7 +62,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const multiAzMultiplier = 1.5;
 
     // If the open button exists, attach click event
-    if (openModalBtn) {
+    if (openModalBtn && !openModalBtn.dataset.listenerAttached) {
+        openModalBtn.dataset.listenerAttached = 'true';
         openModalBtn.addEventListener('click', function() {
             clusterModal.style.display = 'block';
             modalOverlay.style.display = 'block';
@@ -76,12 +91,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // If close button exists, attach click event
-    if (closeModalBtn) {
+    if (closeModalBtn && !closeModalBtn.dataset.listenerAttached) {
+        closeModalBtn.dataset.listenerAttached = 'true';
         closeModalBtn.addEventListener('click', closeModal);
     }
 
     // Close modal when clicking outside
-    if (modalOverlay) {
+    if (modalOverlay && !modalOverlay.dataset.listenerAttached) {
+        modalOverlay.dataset.listenerAttached = 'true';
         modalOverlay.addEventListener('click', function(e) {
             if (e.target === modalOverlay) {
                 closeModal();
@@ -90,26 +107,30 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Auth buttons click handlers
-    if (ssoLoginBtn) {
+    if (ssoLoginBtn && !ssoLoginBtn.dataset.listenerAttached) {
+        ssoLoginBtn.dataset.listenerAttached = 'true';
         ssoLoginBtn.addEventListener('click', function() {
             simulateLogin('SSO Rijksoverheid');
         });
     }
 
-    if (yubikeyLoginBtn) {
+    if (yubikeyLoginBtn && !yubikeyLoginBtn.dataset.listenerAttached) {
+        yubikeyLoginBtn.dataset.listenerAttached = 'true';
         yubikeyLoginBtn.addEventListener('click', function() {
             simulateLogin('YubiKey');
         });
     }
 
-    if (certLoginBtn) {
+    if (certLoginBtn && !certLoginBtn.dataset.listenerAttached) {
+        certLoginBtn.dataset.listenerAttached = 'true';
         certLoginBtn.addEventListener('click', function() {
             simulateLogin('PKIoverheid Certificaat');
         });
     }
 
     // Back to auth button handler
-    if (backToAuthBtn) {
+    if (backToAuthBtn && !backToAuthBtn.dataset.listenerAttached) {
+        backToAuthBtn.dataset.listenerAttached = 'true';
         backToAuthBtn.addEventListener('click', function() {
             authContainer.style.display = 'block';
             formContainer.style.display = 'none';
@@ -289,15 +310,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Add event listeners for cost estimation updates
-    if (clusterSizeSelect) {
+    if (clusterSizeSelect && !clusterSizeSelect.dataset.listenerAttached) {
+        clusterSizeSelect.dataset.listenerAttached = 'true';
         clusterSizeSelect.addEventListener('change', updateCostEstimation);
     }
 
-    if (clusterTierSelect) {
+    if (clusterTierSelect && !clusterTierSelect.dataset.listenerAttached) {
+        clusterTierSelect.dataset.listenerAttached = 'true';
         clusterTierSelect.addEventListener('change', handleTierSelection);
     }
 
-    if (multiAzSelect) {
+    if (multiAzSelect && !multiAzSelect.dataset.listenerAttached) {
+        multiAzSelect.dataset.listenerAttached = 'true';
         multiAzSelect.addEventListener('change', updateCostEstimation);
     }
 
@@ -306,7 +330,8 @@ document.addEventListener('DOMContentLoaded', function() {
     updateCostEstimation();
 
     // Handle form submission
-    if (clusterForm) {
+    if (clusterForm && !clusterForm.dataset.listenerAttached) {
+        clusterForm.dataset.listenerAttached = 'true';
         clusterForm.addEventListener('submit', function(e) {
             e.preventDefault();
 
@@ -520,7 +545,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Reset form button
     const resetBtn = document.getElementById('reset-cluster-form');
-    if (resetBtn) {
+    if (resetBtn && !resetBtn.dataset.listenerAttached) {
+        resetBtn.dataset.listenerAttached = 'true';
         resetBtn.addEventListener('click', function() {
             authContainer.style.display = 'block';
             formContainer.style.display = 'none';
@@ -548,4 +574,14 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
-});
+}
+
+// Initialize on DOMContentLoaded for initial page load
+document.addEventListener('DOMContentLoaded', initializeClusterForm);
+
+// Initialize with MkDocs Material's document subscription for navigation
+if (typeof document$ !== 'undefined') {
+    document$.subscribe(function() {
+        initializeClusterForm();
+    });
+}
