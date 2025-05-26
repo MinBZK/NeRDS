@@ -35,7 +35,7 @@ We kijken uit naar alle bijdragen! 🎉
 Dit project en iedereen die eraan deelneemt, valt onder de
 [Code of Conduct](https://github.com/MinBZK/NeRDS?tab=coc-ov-file#readme).
 Door deel te nemen, wordt van je verwacht dat je je aan deze code houdt. Meld onacceptabel gedrag
-aan **[bano@minbzk.nl](mailto:bano@minbzk.nl)**.
+aan **[bureau.architectuur@minbzk.nl](mailto:bureau.architectuur@minbzk.nl)**.
 
 ## Ik heb een vraag
 
@@ -52,7 +52,7 @@ Als je jouw vraag nog steeds wilt stellen, kan je een [Issue](https://github.com
 
 ### Stel een vraag via mail
 
-Je kan je vragen ook altijd stellen door een mail te sturen naar **[bano@minbzk.nl](mailto:bano@minbzk.nl)**.
+Je kan je vragen ook altijd stellen door een mail te sturen naar **[bureau.architectuur@minbzk.nl](mailto:bureau.architectuur@minbzk.nl)**.
 
 ## Ik wil iets bijdragen
 
