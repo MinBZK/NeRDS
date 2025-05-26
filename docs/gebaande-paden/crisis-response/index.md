@@ -1,9 +1,9 @@
 ---
-title: "Crisis Response Gebaande Pad"
+title: "Crisis Response"
 summary: "Acute beveiligings- of privacyproblemen oplossen in 24-72 uur"
 ---
 
-# 🚨 Crisis Response Gebaande Pad
+# 🚨 Crisis Response
 
 <div class="direct-aan-de-slag">
 

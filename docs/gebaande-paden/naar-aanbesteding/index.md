@@ -1,9 +1,9 @@
 ---
-title: "Van Idee naar Aanbesteding Gebaande Pad"
+title: "Van Idee naar Aanbesteding"
 summary: "Marktconsultatie, RFI/RFP en gunning in 16-24 weken"
 ---
 
-# 🛒 Van Idee naar Aanbesteding Gebaande Pad
+# 🛒 Van Idee naar Aanbesteding
 
 <div class="direct-aan-de-slag">
 

@@ -21,63 +21,62 @@ summary: Praktische routekaarten door de NeRDS principes voor veelvoorkomende sc
 
 - 🏗️ **[Nieuwe Overheidsservice](nieuwe-overheidsservice/index.md)**
 
-    ---
-
-    **Van concept tot live service voor burgers en bedrijven**
+      ---
+      **Van concept tot live service voor burgers en bedrijven**
 
   - **Tijdsduur**: 12-16 weken
   - **Voor**: Service teams, product owners
   - **Resultaat**: Live service die voldoet aan alle NeRDS principes
 
-    Key milestones: Gebruikersonderzoek → Service Design → Alpha/Beta → Go Live
+      Key milestones: Gebruikersonderzoek → Service Design → Alpha/Beta → Go Live
 
 - :material-refresh:{ .lg .middle } **[Legacy Modernisering](legacy-modernisering/index.md)**
 
-    ---
+      ---
 
-    **Bestaande systemen NeRDS-compliant maken**
+      **Bestaande systemen NeRDS-compliant maken**
 
   - **Tijdsduur**: 6-24 maanden (gefaseerd)
   - **Voor**: IT-teams met legacy systemen
   - **Resultaat**: Gemoderniseerd systeem
 
-    Key milestones: Audit → Strategie → Migratie → Decommissioning
+      Key milestones: Audit → Strategie → Migratie → Decommissioning
 
-- :material-lightning-bolt:{ .lg .middle } **[Snelle Prototype](snelle-prototype/index.md)**
+  - :material-lightning-bolt:{ .lg .middle } **[Snelle Prototype](snelle-prototype/index.md)**
 
-    ---
+      ---
 
-    **48 uur tot werkende proof-of-concept**
+      **48 uur tot werkende proof-of-concept**
 
-  - **Tijdsduur**: 2-5 dagen
-  - **Voor**: Innovation teams, pre-project validatie
-  - **Resultaat**: Werkende prototype + go/no-go beslissing
+    - **Tijdsduur**: 2-5 dagen
+    - **Voor**: Innovation teams, pre-project validatie
+    - **Resultaat**: Werkende prototype + go/no-go beslissing
 
-    Key milestones: Concept → MVP → Validatie → Beslissing
+      Key milestones: Concept → MVP → Validatie → Beslissing
 
-- :material-cart:{ .lg .middle } **[Van Idee naar Aanbesteding](naar-aanbesteding/index.md)**
+  - :material-cart:{ .lg .middle } **[Van Idee naar Aanbesteding](naar-aanbesteding/index.md)**
 
-    ---
+      ---
 
-    **Marktconsultatie, RFI/RFP en gunning**
+      **Marktconsultatie, RFI/RFP en gunning**
 
-  - **Tijdsduur**: 16-24 weken
-  - **Voor**: Inkoop teams, projectleiders
-  - **Resultaat**: Gegunde opdracht met NeRDS-compliant leverancier
+    - **Tijdsduur**: 16-24 weken
+    - **Voor**: Inkoop teams, projectleiders
+    - **Resultaat**: Gegunde opdracht met NeRDS-compliant leverancier
 
-    Key milestones: Behoefteanalyse → Marktverkenning → RFP → Gunning
+      Key milestones: Behoefteanalyse → Marktverkenning → RFP → Gunning
 
-- :material-alert:{ .lg .middle } **[Crisis Response](crisis-response/index.md)**
+  - :material-alert:{ .lg .middle } **[Crisis Response](crisis-response/index.md)**
 
-    ---
+      ---
 
-    **Acute beveiligings- of privacyproblemen**
+      **Acute beveiligings- of privacyproblemen**
 
-  - **Tijdsduur**: 24-72 uur kritiek + 2-4 weken follow-up
-  - **Voor**: Incident response teams, CISO's
-  - **Resultaat**: Crisis beveiligd + structurele verbeteringen
+    - **Tijdsduur**: 24-72 uur kritiek + 2-4 weken follow-up
+    - **Voor**: Incident response teams, CISO's
+    - **Resultaat**: Crisis beveiligd + structurele verbeteringen
 
-    Key milestones: Containment → Assessment → Fix → Lessons Learned
+      Key milestones: Containment → Assessment → Fix → Lessons Learned
 
 </div>
 
@@ -237,7 +236,3 @@ We updaten Gebaande Paden regelmatig op basis van real-world gebruik.
 - **Community** → [GitHub Discussions](https://github.com/MinBZK/NeRDS/discussions)
 - **Direct Contact** → Via bijdragen pagina
 - **Expert Consultatie** → Voor complexe situaties
-
----
-
-*Gebaande Paden zijn levende documenten die groeien door jullie ervaring. Help mee om ze nog beter te maken! 🌟*

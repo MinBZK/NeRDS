@@ -1,9 +1,9 @@
 ---
-title: "Legacy Modernisering Gebaande Pad"
+title: "Legacy Modernisering"
 summary: "Bestaande systemen NeRDS-compliant maken in 6-24 maanden gefaseerd"
 ---
 
-# 🔄 Legacy Modernisering Gebaande Pad
+# 🔄 Legacy Modernisering
 
 <div class="direct-aan-de-slag">
 
