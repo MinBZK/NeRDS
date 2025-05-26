@@ -807,3 +807,65 @@ background-color: #B2D7EE;
 .md-header__source a{
   text-decoration: none;
 }
+
+/* Mermaid Diagram Styling for better visibility */
+.mermaid {
+  text-align: center;
+  margin: 1.5rem 0;
+  min-height: 400px;
+  width: 100%;
+}
+
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+  min-height: 400px;
+  font-size: 14px;
+}
+
+/* Gantt chart specific styling */
+.mermaid .section0, .mermaid .section1, .mermaid .section2, .mermaid .section3 {
+  fill: #154273;
+  fill-opacity: 0.8;
+}
+
+.mermaid .crit0, .mermaid .crit1, .mermaid .crit2, .mermaid .crit3 {
+  fill: #ff5722;
+  stroke: #ff5722;
+}
+
+.mermaid .active0, .mermaid .active1, .mermaid .active2, .mermaid .active3 {
+  fill: #316fb3;
+  stroke: #316fb3;
+}
+
+.mermaid .grid .tick {
+  stroke: #e0e0e0;
+  stroke-width: 1px;
+}
+
+.mermaid .grid .tick text {
+  fill: #154273;
+  font-size: 12px;
+}
+
+.mermaid .section {
+  stroke: none;
+  opacity: 0.2;
+}
+
+.mermaid .section0 {
+  fill: rgba(21, 66, 115, 0.3);
+}
+
+.mermaid .section1 {
+  fill: rgba(49, 111, 179, 0.3);
+}
+
+.mermaid .section2 {
+  fill: rgba(177, 213, 236, 0.3);
+}
+
+.mermaid .section3 {
+  fill: rgba(220, 227, 234, 0.3);
+}
