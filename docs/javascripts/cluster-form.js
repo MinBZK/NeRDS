@@ -36,6 +36,9 @@ function initializeClusterForm() {
     const clusterSizeSelect = document.getElementById('cluster-size');
     const clusterTierSelect = document.getElementById('cluster-tier');
     const multiAzSelect = document.getElementById('multi-az');
+    const clusterRegionSelect = document.getElementById('cluster-region');
+    const secondaryRegionRow = document.getElementById('secondary-region-row');
+    const secondaryRegionSelect = document.getElementById('cluster-region-secondary');
     const monthlyCostEl = document.getElementById('monthly-cost');
     const yearlyCostEl = document.getElementById('yearly-cost');
 
@@ -202,6 +205,55 @@ function initializeClusterForm() {
         }
     }
 
+    // Function to handle multi-region selection
+    function handleMultiRegionSelection() {
+        const isMultiRegion = multiAzSelect && multiAzSelect.value === 'true';
+
+        if (secondaryRegionRow) {
+            if (isMultiRegion) {
+                secondaryRegionRow.style.display = 'block';
+                if (secondaryRegionSelect) {
+                    secondaryRegionSelect.required = true;
+                }
+            } else {
+                secondaryRegionRow.style.display = 'none';
+                if (secondaryRegionSelect) {
+                    secondaryRegionSelect.required = false;
+                    secondaryRegionSelect.value = '';
+                }
+            }
+        }
+
+        // Update region dropdown options to prevent selecting same region twice
+        updateRegionOptions();
+        updateCostEstimation();
+    }
+
+    // Function to update region options based on primary selection
+    function updateRegionOptions() {
+        const primaryRegion = clusterRegionSelect ? clusterRegionSelect.value : '';
+
+        if (secondaryRegionSelect && primaryRegion) {
+            // Enable all options first
+            Array.from(secondaryRegionSelect.options).forEach(option => {
+                option.disabled = false;
+                option.style.display = '';
+            });
+
+            // Disable the primary region in secondary dropdown
+            const primaryOption = secondaryRegionSelect.querySelector(`option[value="${primaryRegion}"]`);
+            if (primaryOption) {
+                primaryOption.disabled = true;
+                primaryOption.style.display = 'none';
+            }
+
+            // If secondary region is same as primary, reset it
+            if (secondaryRegionSelect.value === primaryRegion) {
+                secondaryRegionSelect.value = '';
+            }
+        }
+    }
+
     // Function to handle the tier selection
     function handleTierSelection() {
         const tier = clusterTierSelect ? clusterTierSelect.value : '';
@@ -225,18 +277,32 @@ function initializeClusterForm() {
 
             // Add size options based on tier
             if (tier === 'free') {
-                // Free tier only has small option
+                // Free tier only has small option - auto-select it
                 const smallOption = document.createElement('option');
                 smallOption.value = 'small';
                 smallOption.text = 'Klein (1 node, beperkte resources)';
+                smallOption.selected = true;
                 clusterSizeSelect.add(smallOption);
 
-                // Disable multi-AZ option for free tier and set to 'false'
+                // Add "beperkt" note to the size label for free tier
+                const sizeLabel = clusterSizeSelect.previousElementSibling;
+                if (sizeLabel && !document.getElementById('size-free-note')) {
+                    const note = document.createElement('span');
+                    note.id = 'size-free-note';
+                    note.className = 'form-note';
+                    note.textContent = ' (beperkt)';
+                    note.style.fontSize = '0.8em';
+                    note.style.fontStyle = 'italic';
+                    note.style.color = '#666';
+                    sizeLabel.appendChild(note);
+                }
+
+                // Disable multi-region option for free tier and set to 'false'
                 if (multiAzSelect) {
                     multiAzSelect.value = 'false';
                     multiAzSelect.disabled = true;
 
-                    // Add a note to the multi-AZ label if it doesn't exist
+                    // Add a note to the multi-region label if it doesn't exist
                     const multiAzLabel = multiAzSelect.previousElementSibling;
                     if (multiAzLabel && !document.getElementById('multi-az-free-note')) {
                         const note = document.createElement('span');
@@ -248,6 +314,9 @@ function initializeClusterForm() {
                         note.style.color = '#666';
                         multiAzLabel.appendChild(note);
                     }
+
+                    // Hide secondary region when multi-region is disabled
+                    handleMultiRegionSelection();
                 }
             } else {
                 // Add all options for paid tiers
@@ -268,15 +337,21 @@ function initializeClusterForm() {
                     clusterSizeSelect.add(optionElement);
                 });
 
-                // Enable multi-AZ option for paid tiers
+                // Enable multi-region option for paid tiers
                 if (multiAzSelect) {
                     multiAzSelect.disabled = false;
 
-                    // Remove the note if it exists
-                    const note = document.getElementById('multi-az-free-note');
-                    if (note) {
-                        note.remove();
+                    // Remove the multi-region note if it exists
+                    const multiAzNote = document.getElementById('multi-az-free-note');
+                    if (multiAzNote) {
+                        multiAzNote.remove();
                     }
+                }
+
+                // Remove the size restriction note for paid tiers
+                const sizeNote = document.getElementById('size-free-note');
+                if (sizeNote) {
+                    sizeNote.remove();
                 }
             }
         }
@@ -322,11 +397,18 @@ function initializeClusterForm() {
 
     if (multiAzSelect && !multiAzSelect.dataset.listenerAttached) {
         multiAzSelect.dataset.listenerAttached = 'true';
-        multiAzSelect.addEventListener('change', updateCostEstimation);
+        multiAzSelect.addEventListener('change', handleMultiRegionSelection);
     }
 
-    // Initialize tier selection and cost estimation
+    // Add event listener for primary region selection
+    if (clusterRegionSelect && !clusterRegionSelect.dataset.listenerAttached) {
+        clusterRegionSelect.dataset.listenerAttached = 'true';
+        clusterRegionSelect.addEventListener('change', updateRegionOptions);
+    }
+
+    // Initialize tier selection, multi-region logic and cost estimation
     handleTierSelection();
+    handleMultiRegionSelection();
     updateCostEstimation();
 
     // Handle form submission
@@ -340,10 +422,18 @@ function initializeClusterForm() {
             const organization = formData.get('organization');
             const clusterName = formData.get('cluster-name');
             const clusterRegion = formData.get('cluster-region');
+            const secondaryRegion = formData.get('cluster-region-secondary');
             const clusterSize = formData.get('cluster-size');
             const clusterTier = formData.get('cluster-tier');
             const clusterVersion = formData.get('cluster-version');
-            const multiAz = formData.get('multi-az') === 'true' ? 'Ja' : 'Nee';
+            const isMultiRegion = formData.get('multi-az') === 'true';
+            const multiAz = isMultiRegion ? 'Ja' : 'Nee';
+
+            // Build region display string
+            let regionDisplay = clusterRegion;
+            if (isMultiRegion && secondaryRegion) {
+                regionDisplay += ` + ${secondaryRegion}`;
+            }
 
             // Show spinner
             formContainer.style.display = 'none';
@@ -359,7 +449,7 @@ function initializeClusterForm() {
 
                 // Set cluster details in result
                 document.getElementById('result-cluster-name').textContent = clusterName;
-                document.getElementById('result-cluster-region').textContent = clusterRegion;
+                document.getElementById('result-cluster-region').textContent = regionDisplay;
                 document.getElementById('result-cluster-size').textContent = clusterSize;
                 document.getElementById('result-cluster-version').textContent = clusterVersion;
 
@@ -570,6 +660,7 @@ function initializeClusterForm() {
 
                 // Reset dropdowns properly
                 handleTierSelection();
+                handleMultiRegionSelection();
                 updateCostEstimation();
             }
         });
