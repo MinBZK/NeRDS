@@ -108,7 +108,7 @@ function initLandingPage() {
 
 <div class="principles-section">
   <h2>NeRDS Principes</h2>
-  <p class="principles-description">Deze 14 principes van de NeRDS helpen je bij het verantwoord ontwikkelen van digitale systemen.</p>
+  <p class="principles-description">Deze 15 principes van de NeRDS helpen je bij het verantwoord ontwikkelen van digitale systemen.</p>
 </div>
 
 <div class="grid cards" markdown>
@@ -195,6 +195,12 @@ function initLandingPage() {
     ---
 
     Als je een dienst bouwt als onderdeel van je technologieproject of -programma, moet je ook voldoen aan de Servicestandaard.
+
+- :material-file-document:{ .lg .middle } __15. [Documenteer je project effectief](principes/documentatie/index.md)__
+
+    ---
+
+    Kies de juiste documentatietools en -aanpak voor je digitale systemen om kennisoverdracht en samenwerking te verbeteren.
 
 </div>
 
