@@ -67,16 +67,16 @@ Toegankelijkheid gaat over het maken van diensten en systemen die door iedereen 
 ## Bouwen van toegankelijke technologie
 
 1. **Houd rekening met toegankelijkheid in**:
-   - Kantoor- en serverruimtes
-   - Hardwarecompatibiliteit
-   - Softwareselectie
-   - Gebruikersinterfaceontwerp
+    - Kantoor- en serverruimtes
+    - Hardwarecompatibiliteit
+    - Softwareselectie
+    - Gebruikersinterfaceontwerp
 
 2. **Aanbevolen praktijken**:
-   - Volg de webrichtlijnen (WCAG 2.2 AA-standaard minimaal)
-   - Test met hulptechnologieën
-   - Gebruik eenvoudige taal
-   - Zorg voor alternatieve formaten
+    - Volg de webrichtlijnen (WCAG 2.2 AA-standaard minimaal)
+    - Test met hulptechnologieën
+    - Gebruik eenvoudige taal
+    - Zorg voor alternatieve formaten
 
 ## Inkopen van toegankelijke technologie
 

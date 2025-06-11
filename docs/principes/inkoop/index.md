@@ -33,6 +33,12 @@ Een goed doordachte inkoopstrategie voor technologie zorgt ervoor dat je organis
             <p >Kennisplatform voor ICT-inkoop</p>
             <a href="https://www.pianoo.nl/nl/sectoren/ict" class="action-button" target="_blank">Verkennen</a>
         </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >Algoritmekader</h4>
+            <p >Richtlijn voor inkoop van verantwoorde algoritmes</p>
+            <a href="https://minbzk.github.io/Algoritmekader/onderwerpen/publieke-inkoop/" class="action-button" target="_blank">Verkennen</a>
+        </div>
     </div>
 </div>
 
