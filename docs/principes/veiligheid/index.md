@@ -39,20 +39,20 @@ Beveiliging is een fundamenteel aspect van digitale systemen. Het gaat niet alle
 ## Kernveiligheidsprincipes
 
 1. **Overweeg beveiliging vanaf het begin**:
-   - Beoordeel beveiligingsrisico's voordat je aan een technologieprogramma begint
-   - Identificeer potentiële kwetsbaarheden in systemen en gegevens
-   - Bepaal welke beveiligingsexpertise en middelen nodig zijn
+    - Beoordeel beveiligingsrisico's voordat je aan een technologieprogramma begint
+    - Identificeer potentiële kwetsbaarheden in systemen en gegevens
+    - Bepaal welke beveiligingsexpertise en middelen nodig zijn
 
 2. **Implementeer proportionele beveiligingsmaatregelen**:
-   - Bescherm informatietechnologie en digitale diensten
-   - Zorg voor passende toegang tot gebruikersgegevens
-   - Evalueer en update voortdurend beveiligingsprotocollen
+    - Bescherm informatietechnologie en digitale diensten
+    - Zorg voor passende toegang tot gebruikersgegevens
+    - Evalueer en update voortdurend beveiligingsprotocollen
 
 3. **Focus op meerdere beveiligingsdimensies**:
-   - Netwerk- en infrastructuurbeveiliging
-   - Gegevensbeveiliging
-   - Dienstbeveiliging
-   - Cloudbeveiliging
+    - Netwerk- en infrastructuurbeveiliging
+    - Gegevensbeveiliging
+    - Dienstbeveiliging
+    - Cloudbeveiliging
 
 ## Waarom beveiliging essentieel is
 

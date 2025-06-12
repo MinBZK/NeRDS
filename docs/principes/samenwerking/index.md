@@ -108,26 +108,26 @@ De [18F Risicoreductie Gids](https://guides.18f.gov/derisking-government-tech/) 
 ### Belangrijkste concepten
 
 1. **Software selectie**
-   - Afwegingen tussen commerciële off-the-shelf (COTS) software en maatwerksoftware
-   - Wanneer te kiezen voor COTS en wanneer voor maatwerk
-   - Waarom het aanpassen van COTS software voor specifieke behoeften risico's vergroot
+    - Afwegingen tussen commerciële off-the-shelf (COTS) software en maatwerksoftware
+    - Wanneer te kiezen voor COTS en wanneer voor maatwerk
+    - Waarom het aanpassen van COTS software voor specifieke behoeften risico's vergroot
 
 2. **Moderne softwareontwikkelmethoden**
-   - Transitie van waterval naar agile en gebruikersgerichte ontwikkeling
-   - Hoe verouderde budgetterings- en toezichtprocessen de waterval-benadering in stand houden
-   - Hoe een gebruikersgerichte, agile aanpak miljoenen kan besparen
+    - Transitie van waterval naar agile en gebruikersgerichte ontwikkeling
+    - Hoe verouderde budgetterings- en toezichtprocessen de waterval-benadering in stand houden
+    - Hoe een gebruikersgerichte, agile aanpak miljoenen kan besparen
 
 3. **Leveranciersbeheer en contractering**
-   - Aanbevelingen en sjablonen voor het plannen en implementeren van moderne softwareontwikkelingsprojecten
-   - Hoe contracten voor agile softwareontwikkeling op te stellen
-   - Wat te zoeken in een kwalitatief hoogwaardig voorstel van een leverancier
-   - Betekenisvolle metrieken voor agile ontwikkeling
+    - Aanbevelingen en sjablonen voor het plannen en implementeren van moderne softwareontwikkelingsprojecten
+    - Hoe contracten voor agile softwareontwikkeling op te stellen
+    - Wat te zoeken in een kwalitatief hoogwaardig voorstel van een leverancier
+    - Betekenisvolle metrieken voor agile ontwikkeling
 
 4. **Budgettering en toezicht**
-   - Best practices zoals budgetteren voor software als operationele uitgave
-   - Beperken van contractomvang
-   - Iteratief meten van succes
-   - In huis halen van technisch talent
+    - Best practices zoals budgetteren voor software als operationele uitgave
+    - Beperken van contractomvang
+    - Iteratief meten van succes
+    - In huis halen van technisch talent
 
 Deze gids is relevant voor Nederlandse overheidsorganisaties omdat veel van de uitdagingen en oplossingen universeel zijn. De methodieken kunnen worden aangepast aan de Nederlandse context, rekening houdend met lokale wet- en regelgeving en cultuur.
 
