@@ -66,12 +66,12 @@ Beveiliging is een fundamenteel aspect van digitale systemen. Het gaat niet alle
 
 - **Identificeer, bescherm, detecteer, reageer en herstel**: Volg deze cyclus voor beveiligingsincidenten
 - **Gebruik beveiligingscontroles zoals**:
-    - Gegevensversleuteling
-    - Single sign-on
-    - Tweefactorauthenticatie
-    - Specifieke toegangscontrole
-    - Gebruiksmonitoring
-    - Tijdige systeempatching
+  - Gegevensversleuteling
+  - Single sign-on
+  - Tweefactorauthenticatie
+  - Specifieke toegangscontrole
+  - Gebruiksmonitoring
+  - Tijdige systeempatching
 
 ## Kernprincipes voor veilige systemen
 
