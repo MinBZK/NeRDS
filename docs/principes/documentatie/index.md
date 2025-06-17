@@ -190,21 +190,21 @@ Een standaard MkDocs configuratie voor overheidsprojecten:
 Aanbevolen mappenstructuur:
 
     docs/
-├── index.md                 # Project overzicht
-├── architecture/            # Architectuurdocumentatie
-│   ├── overview.md
-│   ├── components.md
-│   └── deployment.md
-├── development/             # Ontwikkelaardocumentatie
-│   ├── setup.md
-│   ├── guidelines.md
-│   └── testing.md
-├── decisions/               # Architecture Decision Records
-│   ├── 001-framework-choice.md
-│   └── template.md
-└── deployment/              # Implementatiedocumentatie
-    ├── environments.md
-    └── procedures.md
+    ├── index.md                 # Project overzicht
+    ├── architecture/            # Architectuurdocumentatie
+    │   ├── overview.md
+    │   ├── components.md
+    │   └── deployment.md
+    ├── development/             # Ontwikkelaardocumentatie
+    │   ├── setup.md
+    │   ├── guidelines.md
+    │   └── testing.md
+    ├── decisions/               # Architecture Decision Records
+    │   ├── 001-framework-choice.md
+    │   └── template.md
+    └── deployment/              # Implementatiedocumentatie
+        ├── environments.md
+        └── procedures.md
 
 ## Implementatie tips
 
