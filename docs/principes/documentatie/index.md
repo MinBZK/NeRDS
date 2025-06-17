@@ -141,56 +141,49 @@ Voor de meeste overheidsprojecten bevelen we **Material for MkDocs** aan als de 
 Een standaard MkDocs configuratie voor overheidsprojecten:
 
     site_name: Project Naam
-site_description: Korte beschrijving van het project
-site_url: <https://jouw-organisatie.github.io/project-naam>
-
-theme:
-  name: material
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-sunny
-        name: Schakel naar donkere modus
-    - scheme: slate
-      toggle:
-        icon: material/weather-night
-        name: Schakel naar lichte modus
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.path
-    - search.highlight
-    - search.share
-    - content.code.copy
-
-plugins:
-
-- search:
-      lang: nl
-- mermaid2
-
-markdown_extensions:
-
-- pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-- pymdownx.tabbed:
-      alternate_style: true
-- admonition
-- pymdownx.details
-- attr_list
-- md_in_html
-
-nav:
-
-- Home: index.md
-- Architectuur: architecture/
-- Ontwikkeling: development/
-- Deployment: deployment/
-- ADRs: decisions/
+    site_description: Korte beschrijving van het project
+    site_url: <https://jouw-organisatie.github.io/project-naam>
+    theme:
+      name: material
+      palette:
+        - scheme: default
+          toggle:
+            icon: material/weather-sunny
+            name: Schakel naar donkere modus
+        - scheme: slate
+          toggle:
+            icon: material/weather-night
+            name: Schakel naar lichte modus
+      features:
+        - navigation.tabs
+        - navigation.sections
+        - navigation.expand
+        - navigation.path
+        - search.highlight
+        - search.share
+        - content.code.copy
+    plugins:
+        - search:
+              lang: nl
+        - mermaid2
+    markdown_extensions:
+        - pymdownx.superfences:
+              custom_fences:
+                   - name: mermaid
+                     class: mermaid
+                     format: !!python/name:pymdownx.superfences.fence_code_format
+        - pymdownx.tabbed:
+              alternate_style: true
+        - admonition
+        - pymdownx.details
+        - attr_list
+        - md_in_html
+    nav:
+        - Home: index.md
+        - Architectuur: architecture/
+        - Ontwikkeling: development/
+        - Deployment: deployment/
+        - ADRs: decisions/
 
 ### Documentatiestructuur
 
