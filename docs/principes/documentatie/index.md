@@ -121,7 +121,7 @@ Goede documentatie is essentieel voor het succesvol ontwikkelen, onderhouden en 
 - Beperkte community buiten standaardisatieorganisaties
 - Minder geschikt voor algemene projectdocumentatie
 
-**Gebruikt door:** Logius standaarden
+**Gebruikt door:** standaarden beheerders (Logius, Geonovum, etc...)
 
 ## Gebaande paden: Material for MkDocs
 
