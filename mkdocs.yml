@@ -47,6 +47,13 @@ nav:
       - 12. Inkoopstrategie: principes/inkoop/index.md
       - 13. Duurzaamheid: principes/duurzaamheid/index.md
       - 14. Servicestandaard: principes/servicestandaard/index.md
+  - Gebaande Paden:
+      - Overzicht: gebaande-paden/index.md
+      - 🏗️ Nieuwe Overheidsservice: gebaande-paden/nieuwe-overheidsservice/index.md
+      - 🔄 Legacy Modernisering: gebaande-paden/legacy-modernisering/index.md
+      - ⚡ Snelle Prototype: gebaande-paden/snelle-prototype/index.md
+      - 🛒 Naar Aanbesteding: gebaande-paden/naar-aanbesteding/index.md
+      - 🚨 Crisis Response: gebaande-paden/crisis-response/index.md
   - Over NeRDS:
       - Over-NeRDS/index.md
       - Bijdragen: Over-NeRDS/CONTRIBUTING.md
