@@ -1,9 +1,9 @@
 ---
-title: "3. Wees open en gebruik open source"
+title: "3. Werk transparant en gebruik open source"
 summary: Publiceer je code en gebruik open source software om transparantie, flexibiliteit en verantwoording te verbeteren.
 ---
 
-# 3. Wees open en gebruik open source
+# 3. Werk transparant en gebruik open source
 
 Open source is een manier van ontwikkelen en distribueren van software waarbij de code kan worden gedownload, gebruikt en aangepast door iedereen. Het delen van code en het gebruik van open source software kan leiden tot betere, veiligere en meer kosteneffectieve oplossingen.
 
@@ -38,7 +38,7 @@ Open source is een manier van ontwikkelen en distribueren van software waarbij d
 
 ## Wat is open source?
 
-Open source software is software waarvan de broncode vrijelijk beschikbaar is, en die door iedereen kan worden gebruikt, bestudeerd, aangepast en gedeeld. Dit staat in tegenstelling tot gesloten of propriëtaire software, waarbij de broncode geheim wordt gehouden.
+Open source is een manier van werken waarbij de makers de broncode, documentatie en ontwerp openbaar beschikbaar stellen onder een opensourcelicentie. Hierdoor kan iedereen de software bekijken, kopiëren, aanpassen of delen. Mensen kunnen voorstellen doen voor verbeteringen of toevoegingen.
 
 ## Voordelen van open source
 

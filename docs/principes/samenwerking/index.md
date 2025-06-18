@@ -53,7 +53,7 @@ Door samen te werken, kennis te delen en oplossingen te hergebruiken, kunnen ove
 
 ## Wat kan worden gedeeld en hergebruikt
 
-- **Broncode**: Open source software specifiek voor de overheid (zie [Wees open en gebruik open source](../open-source/index.md))
+- **Broncode**: Open source software specifiek voor de overheid (zie [Werk transparant en gebruik open source](../open-source/index.md))
 - **Componenten**: Herbruikbare technische bouwstenen
 - **Architectuurpatronen**: Beproefde ontwerpmodellen
 - **API's**: Interfaces voor gegevensuitwisseling (zie [Integreer en pas technologie aan](../integratie/index.md))
