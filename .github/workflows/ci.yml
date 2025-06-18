@@ -1,0 +1,56 @@
+name: Check for broken links
+on:
+  # Run daily at 9:00 AM
+  schedule:
+    - cron: '0 9 * * *'
+  # Run on PRs to main
+  pull_request:
+    branches: [ main ]
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Excluded URLs:
+      # - rijksportaal.overheid-i.nl: Internal government portal
+      # - rijkscloud.nl: Restricted API access
+      # - bio-overheid.nl/ico-wizard: Returns 403 for automated checkers but works for users
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v1.5.4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          # Target specific files and improve the arguments
+          args: >-
+            --verbose
+            --no-progress
+            --exclude-mail
+            --exclude-loopback
+            --exclude "file:///.*/issues.*"
+            --exclude "file:///home/runner/work/.*"
+            --exclude "https://rijksportaal.overheid-i.nl/.*"
+            --exclude "https://rijkscloud.nl/.*"
+            --exclude "https://bio-overheid.nl/ico-wizard"
+            '**/*.yaml'
+            '**/*.md'
+            '**/*.ts'
+            '**/*.vue'
+          # Output file for creating issues
+          output: ./lychee/out.md
+          # Fail if any link is broken
+          fail: true
+
+      # Only create an issue when broken links are found AND running on schedule/manual
+      - name: Create Issue (Only on schedule or manual run)
+        if: ${{ failure() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: Broken links detected
+          content-filepath: ./lychee/out.md
+          labels: broken-links

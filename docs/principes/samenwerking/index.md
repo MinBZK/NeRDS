@@ -28,12 +28,6 @@ Door samen te werken, kennis te delen en oplossingen te hergebruiken, kunnen ove
             <a href="https://www.nldesignsystem.nl" class="action-button" target="_blank">Ontdekken</a>
         </div>
         <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4>18F Risicoreductie Gids</h4>
-            <p>Methodiek voor het verminderen van risico's bij overheidstechnologieprojecten</p>
-            <a href="https://guides.18f.gov/derisking-government-tech/" class="action-button" target="_blank">Verkennen</a>
-        </div>
-        <div class="action-card">
             <span class="wip-badge wip-badge-concept">concept</span>
             <h4 >GovHub</h4>
             <p >Centrale hub voor overheidscomponenten</p>
@@ -101,43 +95,63 @@ Door samen te werken, kennis te delen en oplossingen te hergebruiken, kunnen ove
 
 Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebruiken, kan de overheid efficiënter werken, kosten besparen en consistentere diensten leveren aan burgers en bedrijven.
 
-## 18F Risicoreductie Gids: Ervaringen van de Amerikaanse overheid
+## UK Government Digital Service: Ervaringen van de Britse overheid
 
-De [18F Risicoreductie Gids](https://guides.18f.gov/derisking-government-tech/) is een uitgebreide bron van kennis ontwikkeld door [18F](https://18f.gsa.gov/guides/), een digitaal agentschap binnen de Amerikaanse General Services Administration (GSA). Deze gids bevat praktische handreikingen en methoden om de risico's bij digitale overheidsprojecten te verminderen.
+De [UK Government Digital Service (GDS)](https://www.gov.uk/government/organisations/government-digital-service) is het digitale centrum van de Britse overheid, verantwoordelijk voor het vaststellen, leiden en leveren van de visie voor een moderne digitale overheid. GDS heeft sinds 2011 baanbrekend werk verricht in digitale transformatie en heeft uitgebreide bronnen en richtlijnen ontwikkeld voor het verminderen van risico's bij digitale overheidsprojecten.
+De [UK Government Digital Service (GDS)](https://www.gov.uk/government/organisations/government-digital-service) is het digitale centrum van de Britse overheid, verantwoordelijk voor het vaststellen, leiden en leveren van de visie voor een moderne digitale overheid. GDS heeft sinds 2011 baanbrekend werk verricht in digitale transformatie en heeft uitgebreide bronnen en richtlijnen ontwikkeld voor het verminderen van risico's bij digitale overheidsprojecten.
+De [UK Government Digital Service (GDS)](https://www.gov.uk/government/organisations/government-digital-service) is het digitale centrum van de Britse overheid, verantwoordelijk voor het vaststellen, leiden en leveren van de visie voor een moderne digitale overheid. GDS heeft sinds 2011 baanbrekend werk verricht in digitale transformatie en heeft uitgebreide bronnen en richtlijnen ontwikkeld voor het verminderen van risico's bij digitale overheidsprojecten.
 
 ### Belangrijkste concepten
 
-1. **Software selectie**
-    - Afwegingen tussen commerciële off-the-shelf (COTS) software en maatwerksoftware
-    - Wanneer te kiezen voor COTS en wanneer voor maatwerk
-    - Waarom het aanpassen van COTS software voor specifieke behoeften risico's vergroot
+1. **Digital by Default strategie**
 
-2. **Moderne softwareontwikkelmethoden**
-    - Transitie van waterval naar agile en gebruikersgerichte ontwikkeling
-    - Hoe verouderde budgetterings- en toezichtprocessen de waterval-benadering in stand houden
-    - Hoe een gebruikersgerichte, agile aanpak miljoenen kan besparen
+- Gebruikersbehoeften centraal stellen bij serviceontwerp
+- Digitale services die zo goed zijn dat mensen ze verkiezen boven niet-digitale alternatieven
+- Iteratieve ontwikkeling gebaseerd op gebruikersonderzoek en feedback
 
-3. **Leveranciersbeheer en contractering**
-    - Aanbevelingen en sjablonen voor het plannen en implementeren van moderne softwareontwikkelingsprojecten
-    - Hoe contracten voor agile softwareontwikkeling op te stellen
-    - Wat te zoeken in een kwalitatief hoogwaardig voorstel van een leverancier
-    - Betekenisvolle metrieken voor agile ontwikkeling
+2. **GOV.UK Design System**
 
-4. **Budgettering en toezicht**
-    - Best practices zoals budgetteren voor software als operationele uitgave
-    - Beperken van contractomvang
-    - Iteratief meten van succes
-    - In huis halen van technisch talent
+- Herbruikbare componenten en patronen voor consistente gebruikerservaringen
+- Bewezen toegankelijke en gebruiksvriendelijke ontwerpelementen
+- [Uitgebreide documentatie](https://design-system.service.gov.uk/) voor implementatie
 
-Deze gids is relevant voor Nederlandse overheidsorganisaties omdat veel van de uitdagingen en oplossingen universeel zijn. De methodieken kunnen worden aangepast aan de Nederlandse context, rekening houdend met lokale wet- en regelgeving en cultuur.
+3. **Moderne procurement en leveranciersbeheer**
+
+- Kleinere contracten in plaats van grote, monolithische systemen
+- Multidisciplinaire teams met agile werkwijzen
+- Focus op het aantrekken van diverse leveranciers, inclusief SME's
+
+4. **Gebruikersonderzoek en service design**
+
+- "Start with user needs" als fundamenteel principe
+- Regelmatige gebruikerstests en iteratie
+- Data-gedreven besluitvorming
+
+### GDS Principes en methoden
+
+GDS hanteert bewezen [design principes](https://www.gov.uk/guidance/government-design-principles) die directe toepassing hebben voor Nederlandse overheidsorganisaties:
+
+- **Start met gebruikersbehoeften**: Begrijp werkelijke problemen voordat je oplossingen bouwt
+- **Doe minder**: Focus op kernfunctionaliteit in plaats van "nice-to-have" features
+- **Ontwerp met data**: Gebruik analytics en gebruikersonderzoek voor beslissingen
+- **Maak het toegankelijk**: Zorg dat services werken voor iedereen
+- **Itereer en verbeter regelmatig**: Lanceer snel en verbeter voortdurend
 
 ### Toepassing in Nederlandse context
 
-Bij het toepassen van inzichten uit de 18F Risicoreductie Gids in de Nederlandse context, overweeg het volgende:
+Bij het toepassen van GDS-inzichten in de Nederlandse context, overweeg het volgende:
+Bij het toepassen van GDS-inzichten in de Nederlandse context, overweeg het volgende:
 
-- **Lokale aanpassing**: Pas methodieken aan zodat ze voldoen aan Nederlandse regelgeving en praktijken
-- **Gemeenschappelijk begrip**: Zorg dat alle belanghebbenden dezelfde definities en verwachtingen hebben van agile werkwijzen
-- **Doelgerichte implementatie**: Begin met kleinere projecten om ervaring op te doen en successen te demonstreren
-- **Kennisdeling**: Deel ervaringen met het toepassen van deze methodieken binnen de Nederlandse overheid
+- **Europese samenwerking**: Deel ervaringen en best practices binnen de EU
+- **Lokale wetgeving**: Pas methodieken aan voor Nederlandse privacy- en toegankelijkheidswetten
+- **Gemeenschappelijke standaarden**: Gebruik het [GOV.UK Design System](https://design-system.service.gov.uk/) als inspiratie voor Nederlandse design patterns
+- **Kennisuitwisseling**: Leer van GDS's openbare documentatie en [blog](https://gds.blog.gov.uk/)
 
-De 18F Risicoreductie Gids is een uitstekend voorbeeld van kennisdeling tussen overheden en kan dienen als inspiratie voor het verder ontwikkelen van onze eigen methoden en best practices.
+### Relevante GDS bronnen
+
+- **[Government Design Principles](https://www.gov.uk/guidance/government-design-principles)**: Fundamentele principes voor overheidsservices
+- **[Service Manual](https://www.gov.uk/service-manual)**: Praktische gids voor het bouwen van digitale services
+- **[Technology Code of Practice](https://www.gov.uk/guidance/the-technology-code-of-practice)**: Richtlijnen voor technologiekeuzes
+- **[GDS Blog](https://gds.blog.gov.uk/)**: Actuele inzichten en casestudies
+
+GDS heeft bewezen dat een gebruikersgerichte, agile aanpak leidt tot betere services tegen lagere kosten. Hun openbare documentatie en ervaring van meer dan een decennium digitale transformatie maken hen een uitstekende inspiratiebron voor Nederlandse overheidsorganisaties die hun digitale services willen verbeteren.

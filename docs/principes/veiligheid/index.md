@@ -19,7 +19,7 @@ Beveiliging is een fundamenteel aspect van digitale systemen. Het gaat niet alle
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
             <h4 >BIO Wizard</h4>
             <p >Bepaal verplichte beveiligingsmaatregelen</p>
-            <a href="https://www.bio-overheid.nl/ico-wizard" class="action-button" target="_blank">Starten</a>
+            <a href="https://bio-overheid.nl/ico-wizard" class="action-button" target="_blank">Starten</a>
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
@@ -113,7 +113,7 @@ Deze principes sluiten aan bij andere NeRDS-principes zoals [Maak privacy integr
 ## Relevante standaarden en frameworks
 
 - ISO 27001 en ISO 27002
-- [Baseline Informatiebeveiliging Overheid (BIO)](https://www.bio-overheid.nl/ico-wizard) - Gebruik de BIO ICO-wizard om te bepalen welke BIO-maatregelen in jouw situatie van toepassing zijn
+- [Baseline Informatiebeveiliging Overheid (BIO)](https://bio-overheid.nl/ico-wizard) - Gebruik de BIO ICO-wizard om te bepalen welke BIO-maatregelen in jouw situatie van toepassing zijn
 - NIST Cybersecurity Framework
 - OWASP Top 10 voor webapplicatiebeveiliging
 - Privacy by Design principes
