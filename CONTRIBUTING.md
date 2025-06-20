@@ -109,7 +109,7 @@ Het team van Nederlandse Richtlijn Digitale Systemen bekijkt daarna jouw aanpass
 >
 > We maken gebruik van de tool [pr-preview-action](https://github.com/rossjrw/pr-preview-action) om automatisch previews te maken van een pull-request.
 Dit maakt het mogelijk om de wijzigingen die zijn gedaan in een pull-request al te bekijken in de uiteindelijke omgeving.
-> Wanneer er een pull-request gedaan wordt via een fork, leidt dit helaas tot een error, zie [Issue #79](https://github.com/MinBZK/NeRDS/issues/79). Dit blokkeert de pull-request niet.
+> Wanneer er een pull-request gedaan wordt via een fork, leidt dit helaas tot een error. Dit blokkeert de pull-request niet.
 
 ## Hoe we werken op Github
 
