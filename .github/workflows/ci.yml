@@ -1,4 +1,4 @@
-name: Check for broken links
+name: Check for broken links and accessibility issues
 on:
   # Run daily at 9:00 AM
   schedule:
@@ -50,3 +50,39 @@ jobs:
           title: Broken links detected
           content-filepath: ./lychee/out.md
           labels: broken-links
+
+  accessibility-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install Pa11y tools
+        run: npm install -g pa11y-ci
+
+      - name: Test all pages with sitemap
+        run: |
+          mkdir -p reports
+          pa11y-ci --sitemap https://minbzk.github.io/NeRDS/sitemap.xml \
+                    --reporter json \
+                    --output reports/a11y-report.json || echo "Issues found"
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: accessibility-reports
+          path: reports/
+          retention-days: 7
+
+      - name: Create issue on failure
+        if: failure() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: Accessibility issues detected across site
+          content-filepath: ./reports/a11y-report.json
+          labels: accessibility

@@ -1,0 +1,9 @@
+{
+    "sitemap": "https://minbzk.github.io/NeRDS/sitemap.xml",
+    "standard": "WCAG2AA",
+    "reporters": ["json", "cli"],
+    "chromeLaunchConfig": {
+      "headless": true,
+      "args": ["--no-sandbox", "--disable-setuid-sandbox"]
+    }
+  }
