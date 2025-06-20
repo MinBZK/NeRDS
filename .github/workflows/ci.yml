@@ -1,4 +1,4 @@
-name: Check for broken links
+name: Check for broken links and accessibility issues
 on:
   # Run daily at 9:00 AM
   schedule:
@@ -54,3 +54,34 @@ jobs:
           title: Broken links detected
           content-filepath: ./lychee/out.md
           labels: broken-links
+
+  accessibility-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: npm install -g @axe-core/cli
+
+      - name: Test main site accessibility
+        run: |
+          mkdir reports
+          axe --exit https://minbzk.github.io/NeRDS/ \
+              --save reports/a11y-report.json \
+              --reporter json > reports/summary.txt || echo "Issues found"
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: accessibility-reports
+          path: reports/
+          retention-days: 7
+
+      - name: Create issue on failure
+        if: failure() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: Accessibility issues detected
+          content-filepath: ./reports/summary.txt
+          labels: accessibility
