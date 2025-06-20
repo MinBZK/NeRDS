@@ -9,19 +9,19 @@ De Nederlandse Richtlijn Digitale Systemen (NeRDS) is gebaseerd op een set kernp
 
 <div class="grid cards" markdown>
 
-- :material-account-search:{ .lg .middle } __1. [Definieer gebruikersbehoeften](gebruikersbehoeften/index.md)__
+- :material-account-search:{ .lg .middle } __1. [Gebruikersbehoeften vaststellen](gebruikersbehoeften/index.md)__
 
     ---
 
     Begrijp je gebruikers en hun behoeften. Ontwikkel kennis over je gebruikers en wat dat betekent voor je technologieproject.
 
-- :material-human-wheelchair:{ .lg .middle } __2. [Maak dingen toegankelijk en inclusief](toegankelijkheid/index.md)__
+- :material-human-wheelchair:{ .lg .middle } __2. [Zorg voor toegankelijkheid en inclusie](toegankelijkheid/index.md)__
 
     ---
 
     Zorg ervoor dat je technologie, infrastructuur en systemen toegankelijk en inclusief zijn voor alle gebruikers.
 
-- :material-source-branch:{ .lg .middle } __3. [Wees open en gebruik open source](open-source/index.md)__
+- :material-source-branch:{ .lg .middle } __3. [Werk transparant en gebruik open source](open-source/index.md)__
 
     ---
 
@@ -39,7 +39,7 @@ De Nederlandse Richtlijn Digitale Systemen (NeRDS) is gebaseerd op een set kernp
 
     Overweeg cloudoplossingen met aandacht voor Europese soevereiniteit en controle over data.
 
-- :material-shield-lock:{ .lg .middle } __6. [Maak dingen veilig](veiligheid/index.md)__
+- :material-shield-lock:{ .lg .middle } __6. [Maak veilige systemen](veiligheid/index.md)__
 
     ---
 

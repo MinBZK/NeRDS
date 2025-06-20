@@ -1,9 +1,9 @@
 ---
-title: "2. Maak dingen toegankelijk en inclusief"
+title: "2. Zorg voor toegankelijkheid en inclusie"
 summary: Zorg ervoor dat je technologie, infrastructuur en systemen toegankelijk en inclusief zijn voor alle gebruikers.
 ---
 
-# 2. Maak dingen toegankelijk en inclusief
+# 2. Zorg voor toegankelijkheid en inclusie
 
 Toegankelijkheid gaat over het maken van diensten en systemen die door iedereen kunnen worden gebruikt, inclusief mensen met handicaps of specifieke behoeften. Dit principe zorgt ervoor dat alle burgers gelijke toegang hebben tot overheidsdiensten.
 

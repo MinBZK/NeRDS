@@ -23,7 +23,7 @@ Privacy is een fundamenteel recht dat vanaf het begin moet worden ingebouwd in d
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >DPIA Formulier</h4>
+            <h4 >Pre-scan DPIA & DPIA Formulier</h4>
             <p >Online formulier voor gegevensbeschermingseffectbeoordeling</p>
             <a href="https://minbzk.github.io/par-dpia-form/" class="action-button" target="_blank">Starten</a>
         </div>
@@ -60,8 +60,8 @@ Burgers hebben rechten op:
 ## Waarom privacy integraal maken
 
 - **Wettelijke verplichting**: Voldoe aan de Algemene Verordening Gegevensbescherming (AVG) en andere privacywetgeving
-- **Vertrouwen opbouwen**: Burgers vertrouwen systemen die hun privacy respecteren (zie [Definieer gebruikersbehoeften](../gebruikersbehoeften/index.md))
-- **Risicovermindering**: Voorkom datalekken en privacyschendingen (zie [Maak dingen veilig](../veiligheid/index.md))
+- **Vertrouwen opbouwen**: Burgers vertrouwen systemen die hun privacy respecteren (zie [Gebruikersbehoeften vaststellen](../gebruikersbehoeften/index.md))
+- **Risicovermindering**: Voorkom datalekken en privacyschendingen (zie [Maak veilige systemen](../veiligheid/index.md))
 - **Ethische verantwoordelijkheid**: Respecteer de rechten en waardigheid van individuen
 - **Goede dienstverlening**: Privacy-vriendelijke systemen zijn vaak gebruiksvriendelijker (zie [Voldoe aan de servicestandaard](../servicestandaard/index.md))
 

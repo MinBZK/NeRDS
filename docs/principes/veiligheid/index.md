@@ -1,9 +1,9 @@
 ---
-title: "6. Maak dingen veilig"
+title: "6. Maak veilige systemen"
 summary: Houd systemen en gegevens veilig met het juiste beveiligingsniveau.
 ---
 
-# 6. Maak dingen veilig
+# 6. Maak veilige systemen
 
 Beveiliging is een fundamenteel aspect van digitale systemen. Het gaat niet alleen om het beschermen tegen aanvallen, maar ook om het waarborgen van de beschikbaarheid, integriteit en vertrouwelijkheid van gegevens en diensten.
 

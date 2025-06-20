@@ -1,9 +1,9 @@
 ---
-title: "1. Definieer gebruikersbehoeften"
+title: "1. Gebruikersbehoeften vaststellen"
 summary: Begrijp je gebruikers en hun behoeften. Ontwikkel kennis over je gebruikers en wat dat betekent voor je technologieproject.
 ---
 
-# 1. Definieer gebruikersbehoeften
+# 1. Gebruikersbehoeften vaststellen
 
 Om digitale systemen te ontwikkelen die effectief zijn, moet je je gebruikers en hun behoeften begrijpen. Dit geldt vooral wanneer je door een uitgavecontroleproces gaat.
 
