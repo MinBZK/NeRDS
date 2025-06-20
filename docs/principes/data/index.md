@@ -103,7 +103,7 @@ Data is een waardevolle hulpbron die, wanneer effectief beheerd en gebruikt, kan
 
 - **[Stelsel van Basisregistraties](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/)**: Samenhangend stelsel van hoogwaardige registraties met essentiële overheidsgegevens.
 
-- **[RSGB/RGBZ](https://www.gemmaonline.nl/index.php/RSGB_3.0_in_ontwikkeling)**: Referentiemodellen voor gemeentelijke basis- en zaakgegevens, die zorgen voor consistente definitie en uitwisseling van data.
+- **[RSGB/RGBZ](https://www.gemmaonline.nl/wiki/Hoofdpagina)**: Referentiemodellen voor gemeentelijke basis- en zaakgegevens, die zorgen voor consistente definitie en uitwisseling van data.
 
 - **[data.overheid.nl](https://data.overheid.nl/)**: Het open data portaal van de Nederlandse overheid, dat toegang biedt tot datasets van overheidsorganisaties.
 

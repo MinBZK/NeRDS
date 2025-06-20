@@ -96,7 +96,7 @@ Het [Forum Standaardisatie](https://www.forumstandaardisatie.nl/) adviseert de N
 
 ### API-standaarden
 
-- **[REST API Design Rules](https://publicatie.centrumvoorstandaarden.nl/api/adr/)**: Nederlandse overheidsstandaard voor REST API's
+- **[REST API Design Rules](https://www.forumstandaardisatie.nl/open-standaarden/rest-api-design-rules)**: Nederlandse overheidsstandaard voor REST API's
 - **[NL API Strategie](https://docs.geostandaarden.nl/api/API-Strategie/)**: Richtlijnen voor API-ontwikkeling binnen de overheid
 - **OpenAPI**: Specificatieformaat voor RESTful API's
 - **OData**: Open protocol voor data query en manipulatie
@@ -111,11 +111,11 @@ Het [Forum Standaardisatie](https://www.forumstandaardisatie.nl/) adviseert de N
 
 - **PDF/A**: Archiveringsformaat voor documenten
 - **Open Document Format (ODF)**: Open standaard voor kantoordocumenten
-- **[STOP/TPOD](https://www.koopoverheid.nl/standaarden/stop)**: Standaard voor officiële publicaties
+- **[STOP/TPOD](https://standaarden.overheid.nl/stop)**: Standaard voor officiële publicaties
 
 ### Datastandaarden
 
-- **[RSGB/RGBZ](https://www.gemmaonline.nl/index.php/RSGB_3.0_in_ontwikkeling)**: Standaarden voor basisgegevens gemeenten
+- **[RSGB/RGBZ](https://www.gemmaonline.nl/wiki/Hoofdpagina)**: Standaarden voor basisgegevens gemeenten
 - **RDF**: Resource Description Framework voor linked data
 - **GeoJSON**: Open standaard voor geografische data
 
