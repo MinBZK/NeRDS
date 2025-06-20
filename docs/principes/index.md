@@ -93,6 +93,12 @@ De Nederlandse Richtlijn Digitale Systemen (NeRDS) is gebaseerd op een set kernp
 
     Als je een dienst bouwt als onderdeel van je technologieproject of -programma, moet je ook voldoen aan de Servicestandaard.
 
+- :material-file-document:{ .lg .middle } __15. [Documenteer je project effectief](documentatie/index.md)__
+
+    ---
+
+    Kies de juiste documentatietools en -aanpak voor je digitale systemen om kennisoverdracht en samenwerking te verbeteren.
+
 </div>
 
 Deze principes zijn gebaseerd op internationale best practices en aangepast aan de Nederlandse context. Ze helpen overheidsorganisaties bij het ontwikkelen van digitale systemen die gebruikersgericht, toegankelijk, veilig, duurzaam en kosteneffectief zijn.
