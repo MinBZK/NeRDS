@@ -22,9 +22,7 @@ jobs:
       # - bio-overheid.nl/ico-wizard: Returns 403 for automated checkers but works for users
       - name: Link Checker
         id: lychee
-        uses: lycheeverse/lychee-action@v1.5.4
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: lycheeverse/lychee-action@v2.4.1
         with:
           # Target specific files and improve the arguments
           args: >-
@@ -43,8 +41,6 @@ jobs:
             '**/*.vue'
           # Output file for creating issues
           output: ./lychee/out.md
-          # Fail if any link is broken
-          fail: true
 
       # Only create an issue when broken links are found AND running on schedule/manual
       - name: Create Issue (Only on schedule or manual run)
