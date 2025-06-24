@@ -59,7 +59,7 @@ Open standaarden zijn specificaties voor het uitvoeren van specifieke taken of f
 - **Kosteneffectiviteit**: Vermindert de kosten op de lange termijn
 - **Duurzaamheid**: Verlengt de levensduur van systemen en gegevens (zie [Maak je technologie duurzaam](../duurzaamheid/index.md))
 - **Innovatie**: Maakt het gemakkelijker om nieuwe diensten te ontwikkelen en te integreren
-- **Toegankelijkheid**: Zorgt ervoor dat informatie breed beschikbaar is (zie [Maak dingen toegankelijk en inclusief](../toegankelijkheid/index.md))
+- **Toegankelijkheid**: Zorgt ervoor dat informatie breed beschikbaar is (zie [Zorg voor toegankelijkheid en inclusie](../toegankelijkheid/index.md))
 
 ## Technologie bouwen met open standaarden
 
