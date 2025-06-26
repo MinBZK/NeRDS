@@ -84,7 +84,7 @@ Open source is een manier van werken waarbij de makers de broncode, documentatie
 
 ## Wanneer je eigen code open source maakt
 
-- Zorg ervoor dat er geen gevoelige informatie publiceert
+- Zorg ervoor dat er geen gevoelige informatie gepubliceerd wordt
 - Kies een geschikte open source licentie (zie hieronder)
 - Zorg voor een duidelijk contributieproces
 - Onderhoud de documentatie actief
