@@ -446,7 +446,7 @@ For urgent inquiries: [Contact information]
 - **Proactive monitoring** → Enhanced system monitoring
 - **Regular assessments** → Security and privacy audits
 - **Team preparedness** → Regular crisis simulation exercises
-- **Rapid response capability** → [Snelle Prototype Gebaande Pad](../snelle-prototype/index.md) for quick fixes
+- **Rapid response capability** → [Snelle Prototype Gebaande Pad](../situaties/snelle-prototype/index.md) for quick fixes
 
 ---
 

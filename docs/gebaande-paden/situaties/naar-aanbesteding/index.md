@@ -377,14 +377,14 @@ gantt
 
 ### Na Succesvolle Gunning
 
-- **Project kickoff** → [Nieuwe Overheidsservice Gebaande Pad](../nieuwe-overheidsservice/index.md)
-- **Legacy integratie** → [Legacy Modernisering Gebaande Pad](../legacy-modernisering/index.md)
-- **Rapid prototyping** → [Snelle Prototype Gebaande Pad](../snelle-prototype/index.md)
+- **Project kickoff** → [Nieuwe Overheidsservice Gebaande Pad](../situaties/nieuwe-overheidsservice/index.md)
+- **Legacy integratie** → [Systeem Upgraden Gebaande Pad](../legacy-modernisering/index.md)
+- **Rapid prototyping** → [Snelle Prototype Gebaande Pad](../situaties/snelle-prototype/index.md)
 
 ### Bij Uitdagingen
 
-- **Crisis in procurement** → [Crisis Response Gebaande Pad](../crisis-response/index.md)
-- **Market validation needed** → [Snelle Prototype Gebaande Pad](../snelle-prototype/index.md)
+- **Crisis in procurement** → [Crisis Response Gebaande Pad](../situaties/crisis-response/index.md)
+- **Market validation needed** → [Snelle Prototype Gebaande Pad](../situaties/snelle-prototype/index.md)
 
 ---
 

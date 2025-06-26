@@ -64,9 +64,9 @@ gantt
 <p>Verstaan van gebruikersbehoeften, pijnpunten en context.</p>
 
 <p><strong>Deliverable</strong>: Gebruikersonderzoek rapport, persona's<br>
-<strong>NeRDS Principes</strong>: <a href="../../principes/gebruikersbehoeften/">Gebruikersbehoeften</a></p>
+<strong>NeRDS Principes</strong>: <a href="../../../principes/gebruikersbehoeften/">Gebruikersbehoeften</a></p>
 
-<a href="#onderzoek-template" class="action-button">Research Protocol</a>
+<a href="../../stappen/gebruikersonderzoek" class="action-button">Research Protocol</a>
 
 </div>
 
@@ -300,32 +300,6 @@ gantt
 
 ---
 
-## Templates & Checklists
-
-### Gebruikersonderzoek Protocol {#onderzoek-template}
-
-**Pre-research**:
-
-- [ ] Onderzoeksvragen gedefinieerd
-- [ ] Target gebruikersgroepen geïdentificeerd
-- [ ] Interview guide ontwikkeld
-- [ ] Privacy consent proces opgezet
-
-**During research**:
-
-- [ ] User interviews (minimaal 20)
-- [ ] Observational research waar mogelijk
-- [ ] Journey mapping workshops
-- [ ] Pain point analyse
-
-**Post-research**:
-
-- [ ] Persona's ontwikkeld
-- [ ] User stories geschreven
-- [ ] Requirements geprioriseerd
-
----
-
 ## Volgende Stappen
 
 ### Na Succesvolle Launch
@@ -336,8 +310,8 @@ gantt
 
 ### Bij Uitdagingen
 
-- **Crisis management** → [Crisis Response](../crisis-response/index.md)
-- **Legacy integratie** → [Legacy Modernisering](../legacy-modernisering/index.md)
+- **Crisis management** → [Crisis Response](../situaties/crisis-response/index.md)
+- **Legacy integratie** → [Systeem Upgraden](../legacy-modernisering/index.md)
 
 ---
 

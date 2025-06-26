@@ -1,5 +1,6 @@
 ---
 title: "13. Maak je technologie duurzaam"
+id: urn:nl:nerds:pr:13
 summary: Verhoog duurzaamheid gedurende de hele levenscyclus van je technologie.
 ---
 

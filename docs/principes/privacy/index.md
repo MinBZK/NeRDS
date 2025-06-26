@@ -1,5 +1,6 @@
 ---
 title: "7. Maak privacy integraal"
+id: urn:nl:nerds:pr:07
 summary: Zorg ervoor dat gebruikersrechten worden beschermd door privacy te integreren als een essentieel onderdeel van je systeem.
 ---
 

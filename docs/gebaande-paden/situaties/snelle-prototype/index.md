@@ -53,7 +53,7 @@ gantt
 <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
 
 <h4>🎯 Concept Definitie</h4>
-<p>Definieer helder wat je wilt valideren binnen 2 uur.</p>
+<p>Definieer helder wat je wilt valideren.</p>
 
 <p><strong>Deliverable</strong>: Concept doc (1 pagina)<br>
 <strong>NeRDS Principes</strong>: <a href="../../principes/gebruikersbehoeften/">Gebruikersbehoeften</a></p>
@@ -241,9 +241,9 @@ gantt
 
 ### Bij Go-Beslissing
 
-1. **Plan vervolgproject** → [Nieuwe Overheidsservice](../nieuwe-overheidsservice/index.md)
-2. **Schaal architectuur** → [Legacy Modernisering](../legacy-modernisering/index.md)
-3. **Start aanbesteding** → [Van Idee naar Aanbesteding](../naar-aanbesteding/index.md)
+1. **Plan vervolgproject** → [Nieuwe Overheidsservice](../situaties/nieuwe-overheidsservice/index.md)
+2. **Schaal architectuur** → [Systeem Upgraden](../legacy-modernisering/index.md)
+3. **Start aanbesteding** → [Van Idee naar Aanbesteding](../situaties/naar-aanbesteding/index.md)
 
 ### Bij No-Go-Beslissing
 

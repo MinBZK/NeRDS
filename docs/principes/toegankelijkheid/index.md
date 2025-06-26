@@ -1,5 +1,6 @@
 ---
 title: "2. Maak dingen toegankelijk en inclusief"
+id: urn:nl:nerds:pr:02
 summary: Zorg ervoor dat je technologie, infrastructuur en systemen toegankelijk en inclusief zijn voor alle gebruikers.
 ---
 

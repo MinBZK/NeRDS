@@ -1,5 +1,6 @@
 ---
 title: "5. Cloud-gedreven strategie"
+id: urn:nl:nerds:pr:05
 summary: Overweeg cloudoplossingen met aandacht voor Europese soevereiniteit en controle over data.
 ---
 

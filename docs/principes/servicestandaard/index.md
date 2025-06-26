@@ -1,5 +1,6 @@
 ---
 title: "14. Voldoe aan de servicestandaard"
+id: urn:nl:nerds:pr:14
 summary: Als je een dienst bouwt als onderdeel van je technologieproject of -programma, moet je ook voldoen aan de Servicestandaard.
 ---
 

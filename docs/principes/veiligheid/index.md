@@ -1,5 +1,6 @@
 ---
 title: "6. Maak dingen veilig"
+id: urn:nl:nerds:pr:06
 summary: Houd systemen en gegevens veilig met het juiste beveiligingsniveau.
 ---
 

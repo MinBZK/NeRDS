@@ -1,5 +1,6 @@
 ---
 title: "12. Definieer je inkoopstrategie"
+id: urn:nl:nerds:pr:12
 summary: Je inkoopstrategie moet laten zien dat je commerciële en technologische aspecten hebt overwogen.
 ---
 

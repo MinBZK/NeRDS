@@ -1,5 +1,6 @@
 ---
 title: "4. Gebruik open standaarden"
+id: urn:nl:nerds:pr:04
 summary: Bouw technologie die open standaarden gebruikt om ervoor te zorgen dat je technologie werkt en communiceert met andere technologie.
 ---
 

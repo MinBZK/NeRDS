@@ -1,5 +1,6 @@
 ---
 title: "3. Wees open en gebruik open source"
+id: urn:nl:nerds:pr:03
 summary: Publiceer je code en gebruik open source software om transparantie, flexibiliteit en verantwoording te verbeteren.
 ---
 

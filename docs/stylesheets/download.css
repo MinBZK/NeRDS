@@ -1,0 +1,84 @@
+/* docs/stylesheets/download.css */
+
+.download-section {
+    background: var(--md-default-bg-color);
+    border: 2px solid var(--md-default-fg-color--lighter);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    border-left: 4px solid var(--md-primary-fg-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+[data-md-color-scheme="slate"] .download-section {
+    background: var(--md-code-bg-color);
+    border-color: var(--md-default-fg-color--lightest);
+}
+
+.download-section h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: var(--md-primary-fg-color);
+}
+
+.download-section p {
+    margin-bottom: 1rem;
+    color: var(--md-default-fg-color--light);
+}
+
+.download-btn {
+    background: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-family: var(--md-text-font);
+}
+
+.download-btn:hover {
+    background: var(--md-primary-fg-color--dark);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.download-btn:active {
+    transform: translateY(0);
+}
+
+.download-btn svg {
+    flex-shrink: 0;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .download-section {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    .download-btn {
+        padding: 0.625rem 1.25rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Integration with Material for MkDocs admonitions */
+.md-typeset .download-section {
+    margin: 1.5625em 0;
+}
+
+/* Ensure proper spacing in content flow */
+.md-content .download-section + h2,
+.md-content .download-section + h3 {
+    margin-top: 2rem;
+}

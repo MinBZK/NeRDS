@@ -1,6 +1,11 @@
 site_name: "NeRDS: Nederlandse Richtlijn Digitale Systemen 0.1"
 site_description: De Nederlandse Richtlijn Digitale Systemen van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
 
+# Link naar GitHub repo
+repo_url: https://github.com/MinBZK/NeRDS
+site_url: https://minbzk.github.io/NeRDS/
+edit_uri: edit/main/docs/
+
 theme:
   name: material
   custom_dir: src/overrides
@@ -24,39 +29,40 @@ theme:
     - search.suggest
     - content.tooltips
     - content.tabs.link
+    - announce.dismiss
   icon:
     logo: fontawesome/solid/house
     annotation: fontawesome/solid/circle-info
 
 nav:
   - Home:
-      - index.md
+    - index.md
   - Principes:
-      - Overzicht: principes/index.md
-      - 1. Gebruikersbehoeften: principes/gebruikersbehoeften/index.md
-      - 2. Toegankelijkheid: principes/toegankelijkheid/index.md
-      - 3. Open Source: principes/open-source/index.md
-      - 4. Open Standaarden: principes/open-standaarden/index.md
-      - 5. Cloud: principes/cloud/index.md
-      - 6. Veiligheid: principes/veiligheid/index.md
-      - 7. Privacy: principes/privacy/index.md
-      - 8. Samenwerking: principes/samenwerking/index.md
-      - 9. Integratie: principes/integratie/index.md
-      - 10. Data: principes/data/index.md
-      - 11. Algoritmen: principes/algoritmen/index.md
-      - 12. Inkoopstrategie: principes/inkoop/index.md
-      - 13. Duurzaamheid: principes/duurzaamheid/index.md
-      - 14. Servicestandaard: principes/servicestandaard/index.md
+    - Overzicht: principes/index.md
+    - 1. Gebruikersbehoeften: principes/gebruikersbehoeften/index.md
+    - 2. Toegankelijkheid: principes/toegankelijkheid/index.md
+    - 3. Open Source: principes/open-source/index.md
+    - 4. Open Standaarden: principes/open-standaarden/index.md
+    - 5. Cloud: principes/cloud/index.md
+    - 6. Veiligheid: principes/veiligheid/index.md
+    - 7. Privacy: principes/privacy/index.md
+    - 8. Samenwerking: principes/samenwerking/index.md
+    - 9. Integratie: principes/integratie/index.md
+    - 10. Data: principes/data/index.md
+    - 11. Algoritmen: principes/algoritmen/index.md
+    - 12. Inkoopstrategie: principes/inkoop/index.md
+    - 13. Duurzaamheid: principes/duurzaamheid/index.md
+    - 14. Servicestandaard: principes/servicestandaard/index.md
   - Gebaande Paden:
-      - Overzicht: gebaande-paden/index.md
-      - 🏗️ Nieuwe Overheidsservice: gebaande-paden/nieuwe-overheidsservice/index.md
-      - 🔄 Legacy Modernisering: gebaande-paden/legacy-modernisering/index.md
-      - ⚡ Snelle Prototype: gebaande-paden/snelle-prototype/index.md
-      - 🛒 Naar Aanbesteding: gebaande-paden/naar-aanbesteding/index.md
-      - 🚨 Crisis Response: gebaande-paden/crisis-response/index.md
+    - Overzicht: gebaande-paden/index.md
+    - 🏗️ Nieuwe Overheidsservice: gebaande-paden/situaties/nieuwe-overheidsservice/index.md
+    - 🔄 Systemen Upgraden: gebaande-paden/situaties/systemen-upgraden/index.md
+    - ⚡ Snelle Prototype: gebaande-paden/situaties/snelle-prototype/index.md
+    - 🛒 Naar Aanbesteding: gebaande-paden/situaties/naar-aanbesteding/index.md
+    - 🚨 Crisis Response: gebaande-paden/situaties/crisis-response/index.md
   - Over NeRDS:
-      - Over-NeRDS/index.md
-      - Bijdragen: Over-NeRDS/CONTRIBUTING.md
+    - Over-NeRDS/index.md
+    - Bijdragen: Over-NeRDS/CONTRIBUTING.md
 
 # Extra opties
 markdown_extensions:
@@ -88,6 +94,9 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/MinBZK/NeRDS
+  announcement:
+    - text: "🚧 Dit is een bèta versie - feedback welkom via <a href='https://github.com/MinBZK/NeRDS'>GitHub</a>"
+      dismissable: true
 
 extra_css:
   - stylesheets/navigation.css
@@ -98,6 +107,7 @@ extra_css:
   - stylesheets/choices.min.css
   - stylesheets/modal.css
   - stylesheets/landing-page.css
+  - stylesheets/download.css
 
 extra_javascript:
   - javascripts/jquery-3.6.0.min.js
@@ -108,6 +118,7 @@ extra_javascript:
   - javascripts/mermaid.min.js
   - javascripts/modal.js
   - javascripts/cluster-form.js
+  - javascript/download.js
 
 plugins:
   - glightbox
@@ -118,8 +129,3 @@ plugins:
       locale: nl
   - awesome-pages:
       collapse_single_pages: true
-
-# Link naar GitHub repo
-repo_url: https://github.com/MinBZK/NeRDS
-site_url: https://minbzk.github.io/NeRDS/
-edit_uri: edit/main/docs/

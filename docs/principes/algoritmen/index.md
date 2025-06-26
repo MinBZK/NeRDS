@@ -1,5 +1,6 @@
 ---
 title: "11. Pas algoritmen verantwoord toe"
+id: urn:nl:nerds:pr:11
 summary: Zorg voor transparante, eerlijke en verantwoorde toepassing van algoritmen en AI-systemen.
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "9. Integreer en pas technologie aan"
+id: urn:nl:nerds:pr:09
 summary: Je technologie moet werken met bestaande technologieën, processen en infrastructuur in je organisatie.
 ---
 

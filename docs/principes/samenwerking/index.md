@@ -1,5 +1,6 @@
 ---
 title: "8. Deel, hergebruik en werk samen"
+id: urn:nl:nerds:pr:08
 summary: Vermijd dubbel werk en onnodige kosten door samen te werken binnen de overheid en door technologie te delen en te hergebruiken.
 ---
 

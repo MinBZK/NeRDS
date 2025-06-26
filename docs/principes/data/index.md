@@ -1,5 +1,6 @@
 ---
 title: "10. Maak beter gebruik van data"
+id: urn:nl:nerds:pr:10
 summary: Gebruik data effectiever door je technologie, infrastructuur en processen te verbeteren.
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "1. Definieer gebruikersbehoeften"
+id: urn:nl:nerds:pr:01
 summary: Begrijp je gebruikers en hun behoeften. Ontwikkel kennis over je gebruikers en wat dat betekent voor je technologieproject.
 ---
 

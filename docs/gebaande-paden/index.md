@@ -1,6 +1,6 @@
 ---
 title: Gebaande Paden
-summary: Praktische routekaarten door de NeRDS principes voor veelvoorkomende scenario's
+summary: Herkenbare situaties met concrete gebaande paden (routekaarten) voor digitale overheidsprojecten
 ---
 
 # NeRDS Gebaande Paden
@@ -11,38 +11,60 @@ summary: Praktische routekaarten door de NeRDS principes voor veelvoorkomende sc
 
 <p>Gebaande Paden zijn <strong>praktische routekaarten</strong> die je stap-voor-stap begeleiden door complexe projecten en situaties. Ze combineren meerdere NeRDS principes in concrete workflows met duidelijke tijdslijnen, deliverables en checklists.</p>
 
-<p><strong>Waarom Gebaande Paden?</strong> Ze helpen je om niet verdwaald te raken in de 14 NeRDS principes, maar geven je een concrete route afhankelijk van je situatie.</p>
+<p><strong>Waarom Gebaande Paden?</strong> Ze helpen je om niet verdwaald te raken in de 14 NeRDS principes, maar geven je een concrete routekaart afhankelijk van je situatie.</p>
 
 </div>
 
-## Kies je Gebaande Pad
+## Welk Gebaand Pad past bij jouw situatie?
+
+### 🆕 Nieuw project starten?
+
+- **Concept fase** → [Snelle Prototype](situaties/snelle-prototype/index.md) voor validatie
+- **Goedgekeurd concept** → [Nieuwe Overheidsservice](situaties/nieuwe-overheidsservice/index.md)
+- **Externe leverancier nodig** → [Van Idee naar Aanbesteding](situaties/naar-aanbesteding/index.md)
+
+### 🔄 Bestaande systemen?
+
+- **Systeem Upgraden** → [Systemen Upgraden](situaties/systemen-upgraden/index.md)
+- **Acute problemen** → [Crisis Response](situaties/crisis-response/index.md)
+- **Snelle verbeteringen** → [Snelle Prototype](situaties/snelle-prototype/index.md)
+
+### 🛒 Inkoop & aanbesteding?
+
+- **Software/diensten inkopen** → [Van Idee naar Aanbesteding](situaties/naar-aanbesteding/index.md)
+- **Leverancier evalueren** → Evaluatiecriteria uit aanbesteding path
+- **Contract problemen** → [Crisis Response](situaties/crisis-response/index.md)
+
+---
+<!--
+## Kies jouw Gebaande Pad
 
 <div class="grid cards" markdown>
 
-- 🏗️ **[Nieuwe Overheidsservice](nieuwe-overheidsservice/index.md)**
+- 🏗️ **[Nieuwe Overheidsservice](situaties/nieuwe-overheidsservice/index.md)**
 
       ---
       **Van concept tot live service voor burgers en bedrijven**
 
-  - **Tijdsduur**: 12-16 weken
-  - **Voor**: Service teams, product owners
-  - **Resultaat**: Live service die voldoet aan alle NeRDS principes
+      - **Tijdsduur**: 12-16 weken
+      - **Voor**: Service teams, product owners
+      - **Resultaat**: Live service die voldoet aan alle NeRDS principes
 
       Key milestones: Gebruikersonderzoek → Service Design → Alpha/Beta → Go Live
 
-- :material-refresh:{ .lg .middle } **[Legacy Modernisering](legacy-modernisering/index.md)**
+- :material-refresh:{ .lg .middle } **[Systeem Upgraden](legacy-modernisering/index.md)**
 
       ---
 
       **Bestaande systemen NeRDS-compliant maken**
 
-  - **Tijdsduur**: 6-24 maanden (gefaseerd)
-  - **Voor**: IT-teams met legacy systemen
-  - **Resultaat**: Gemoderniseerd systeem
+      - **Tijdsduur**: 6-24 maanden (gefaseerd)
+      - **Voor**: IT-teams met legacy systemen
+      - **Resultaat**: Gemoderniseerd systeem
 
       Key milestones: Audit → Strategie → Migratie → Decommissioning
 
-  - :material-lightning-bolt:{ .lg .middle } **[Snelle Prototype](snelle-prototype/index.md)**
+  - :material-lightning-bolt:{ .lg .middle } **[Snelle Prototype](situaties/snelle-prototype/index.md)**
 
       ---
 
@@ -54,7 +76,7 @@ summary: Praktische routekaarten door de NeRDS principes voor veelvoorkomende sc
 
       Key milestones: Concept → MVP → Validatie → Beslissing
 
-  - :material-cart:{ .lg .middle } **[Van Idee naar Aanbesteding](naar-aanbesteding/index.md)**
+  - :material-cart:{ .lg .middle } **[Van Idee naar Aanbesteding](situaties/naar-aanbesteding/index.md)**
 
       ---
 
@@ -66,7 +88,7 @@ summary: Praktische routekaarten door de NeRDS principes voor veelvoorkomende sc
 
       Key milestones: Behoefteanalyse → Marktverkenning → RFP → Gunning
 
-  - :material-alert:{ .lg .middle } **[Crisis Response](crisis-response/index.md)**
+  - :material-alert:{ .lg .middle } **[Crisis Response](situaties/crisis-response/index.md)**
 
       ---
 
@@ -78,19 +100,15 @@ summary: Praktische routekaarten door de NeRDS principes voor veelvoorkomende sc
 
       Key milestones: Containment → Assessment → Fix → Lessons Learned
 
-</div>
+</div> -->
 
 ---
 
-## Hoe Gebaande Paden Werken
+## Hoe werk je met Gebaande Paden?
 
 ### 🎯 Situatie-Specifiek
 
 Elk Gebaande Pad is ontworpen voor een specifieke situatie met eigen uitdagingen, tijdsdruk en stakeholders.
-
-### ⏱️ Concrete Tijdslijnen
-
-Realistische tijdschattingen met duidelijke milestones en deliverables per fase.
 
 ### ✅ Actionable Checklists
 
@@ -102,29 +120,7 @@ Elke stap toont welke NeRDS principes relevant zijn en hoe je ze toepast.
 
 ### 🚦 Progress Tracking
 
-WIP badges en status indicatoren zodat je altijd weet waar je staat.
-
----
-
-## Wanneer Gebruik je Welke Path?
-
-### 🆕 Nieuw Project Starten?
-
-- **Concept fase** → [Snelle Prototype](snelle-prototype/index.md) voor validatie
-- **Goedgekeurd concept** → [Nieuwe Overheidsservice](nieuwe-overheidsservice/index.md)
-- **Externe leverancier nodig** → [Van Idee naar Aanbesteding](naar-aanbesteding/index.md)
-
-### 🔄 Bestaande Systemen?
-
-- **Legacy modernisering** → [Legacy Modernisering](legacy-modernisering/index.md)
-- **Acute problemen** → [Crisis Response](crisis-response/index.md)
-- **Snelle verbeteringen** → [Snelle Prototype](snelle-prototype/index.md)
-
-### 🛒 Inkoop & Aanbesteding?
-
-- **Software/diensten inkopen** → [Van Idee naar Aanbesteding](naar-aanbesteding/index.md)
-- **Leverancier evalueren** → Evaluatiecriteria uit aanbesteding path
-- **Contract problemen** → [Crisis Response](crisis-response/index.md)
+Elk Gebaand Pad kan worden geexporteerd naar markdown zodat het kan worden toegevoegd aan je project om daar progress tracking te laten plaatsvinden.
 
 ---
 
@@ -184,7 +180,7 @@ WIP badges en status indicatoren zodat je altijd weet waar je staat.
 
 **Ministerie BZK - Legacy ERP Modernisering**
 
-- **Path gebruikt**: Legacy Modernisering
+- **Path gebruikt**: Systeem Upgraden
 - **Resultaat**: 18 maanden gefaseerde migratie
 - **Key learning**: Strangler Fig pattern reduceerde risico met 80%
 

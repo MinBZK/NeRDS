@@ -1,9 +1,9 @@
 ---
-title: "Legacy Modernisering"
+title: "Systeem Upgraden"
 summary: "Bestaande systemen NeRDS-compliant maken in 6-24 maanden gefaseerd"
 ---
 
-# 🔄 Legacy Modernisering
+# 🔄 Systeem Upgraden
 
 <div class="direct-aan-de-slag">
 
@@ -20,7 +20,7 @@ summary: "Bestaande systemen NeRDS-compliant maken in 6-24 maanden gefaseerd"
 
 ```mermaid
 gantt
-    title 🔄 Legacy Modernisering - 24 Maanden Gefaseerde Aanpak
+    title 🔄 Systeem Upgraden - 24 Maanden Gefaseerde Aanpak
     dateFormat X
     axisFormat Maand %d
 
@@ -347,12 +347,12 @@ gantt
 
 - **Continuous improvement** → Reguliere NeRDS compliance reviews
 - **Knowledge sharing** → [Samenwerking](../../principes/samenwerking/) met andere teams
-- **Innovation** → [Snelle Prototype Gebaande Pad](../snelle-prototype/index.md) voor nieuwe features
+- **Innovation** → [Snelle Prototype Gebaande Pad](../situaties/snelle-prototype/index.md) voor nieuwe features
 
 ### Bij Uitdagingen
 
-- **Crisis situations** → [Crisis Response Gebaande Pad](../crisis-response/index.md)
-- **Procurement issues** → [Van Idee naar Aanbesteding Gebaande Pad](../naar-aanbesteding/index.md)
+- **Crisis situations** → [Crisis Response Gebaande Pad](../situaties/crisis-response/index.md)
+- **Procurement issues** → [Van Idee naar Aanbesteding Gebaande Pad](../situaties/naar-aanbesteding/index.md)
 
 ---
 
