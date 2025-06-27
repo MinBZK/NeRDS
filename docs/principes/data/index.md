@@ -1,11 +1,29 @@
 ---
 title: "10. Maak beter gebruik van data"
 summary: Gebruik data effectiever door je technologie, infrastructuur en processen te verbeteren.
+relations:
+  - algoritmen
+  - privacy
+  - veiligheid
+  - open-standaarden
 ---
 
 # 10. Maak beter gebruik van data
 
-Data is een waardevolle hulpbron die, wanneer effectief beheerd en gebruikt, kan leiden tot betere besluitvorming, efficiëntere diensten en innovatieve oplossingen voor complexe problemen.
+Data is een waardevolle hulpbron die, wanneer effectief gebruikt en beheert, kan leiden tot betere besluitvorming, efficiëntere diensten en innovatieve oplossingen voor complexe problemen.
+
+## Waarom is het belangrijk?
+
+- **Geïnformeerde besluitvorming**: Onderbouw beleid en strategieën met feitelijke gegevens
+- **Verbeterde dienstverlening**: Pas diensten aan op basis van gebruikspatronen en behoeften
+- **Efficiëntere processen**: Identificeer knelpunten en optimaliseer werkstromen
+- **Innovatie**: Ontdek nieuwe inzichten en mogelijkheden
+- **Transparantie**: Verhoog verantwoording door gegevens te delen
+- **Voorspellend vermogen**: Anticipeer op toekomstige trends en behoeften
+
+Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten leveren, efficiënter werken en de complexe uitdagingen van vandaag en morgen beter aanpakken.
+
+## Hoe pas je het toe?
 
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
@@ -31,31 +49,18 @@ Data is een waardevolle hulpbron die, wanneer effectief beheerd en gebruikt, kan
             <span class="wip-badge wip-badge-concept">concept</span>
             <h4 >Synthetische Data</h4>
             <p >Genereer veilige testdata</p>
-            <a href="https://digilab.overheid.nl/projecten/" class="action-button" target="_blank">Leren</a>
+            <a href="https://digilab.overheid.nl/projecten/synthetische-datageneratie/" class="action-button" target="_blank">Leren</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >Synthetic data generation tool</h4>
+            <p >Genereer veilige testdata</p>
+            <a href="https://algorithmaudit.eu/technical-tools/sdg/#info" class="action-button" target="_blank">Verkennen</a>
         </div>
     </div>
 </div>
 
-## Waarom effectief datagebruik belangrijk is
-
-- **Geïnformeerde besluitvorming**: Onderbouw beleid en strategieën met feitelijke gegevens
-- **Verbeterde dienstverlening**: Pas diensten aan op basis van gebruikspatronen en behoeften
-- **Efficiëntere processen**: Identificeer knelpunten en optimaliseer werkstromen
-- **Innovatie**: Ontdek nieuwe inzichten en mogelijkheden
-- **Transparantie**: Verhoog verantwoording door gegevens te delen
-- **Voorspellend vermogen**: Anticipeer op toekomstige trends en behoeften
-
-## Sleutelprincipes voor beter datagebruik
-
-1. **Datakwaliteit**: Zorg voor accurate, volledige en actuele gegevens
-2. **Datagovernance**: Definieer duidelijke verantwoordelijkheden en beleid
-3. **Data-architectuur**: Ontwikkel een coherente structuur voor gegevensbeheer
-4. **Datadeling**: Bevorder het veilig en verantwoord delen van gegevens (zie [Deel, hergebruik en werk samen](../samenwerking/index.md))
-5. **Datastandaardisatie**: Gebruik consistente formaten en definities (zie [Gebruik open standaarden](../open-standaarden/index.md))
-6. **Data-ethiek**: Respecteer privacy en voorkom onethisch gebruik (zie [Maak privacy integraal](../privacy/index.md))
-7. **Datavaardigheden**: Bevorder datageletterdheid in de organisatie
-
-## Praktische implementatiestappen
+### Implementatiestappen
 
 - **Data-inventarisatie**: Breng in kaart welke gegevens beschikbaar zijn
 - **Data management strategie**: Ontwikkel een alomvattende aanpak
@@ -65,7 +70,7 @@ Data is een waardevolle hulpbron die, wanneer effectief beheerd en gebruikt, kan
 - **Analytics capabiliteit**: Bouw capaciteit voor gegevensanalyse
 - **Open data initiatieven**: Deel relevante gegevens met het publiek
 
-## Technologische enablers
+### Technologische enablers
 
 - **Data lakes en warehouses**: Centrale opslag voor diverse gegevenstypen
 - **Business intelligence tools**: Software voor analyse en visualisatie
@@ -75,7 +80,7 @@ Data is een waardevolle hulpbron die, wanneer effectief beheerd en gebruikt, kan
 - **Real-time verwerking**: Systemen voor directe gegevensverwerking
 - **Datavisualisatie**: Tools om gegevens begrijpelijk te presenteren
 
-## Uitdagingen en oplossingen
+### Uitdagingen en oplossingen
 
 - **Datasilo's**: Bevorder organisatiebrede samenwerking
 - **Privacybescherming**: Implementeer privacy by design
@@ -84,7 +89,7 @@ Data is een waardevolle hulpbron die, wanneer effectief beheerd en gebruikt, kan
 - **Databeheer**: Implementeer levenscyclus- en retentiebeleid
 - **Vaardigheidstekorten**: Investeer in training en expertise
 
-## Succesfactoren
+### Succesfactoren
 
 - Duidelijke koppeling tussen datastrategieën en organisatiedoelen
 - Leiderschap en cultuur die databewuste besluitvorming stimuleren
@@ -93,7 +98,7 @@ Data is een waardevolle hulpbron die, wanneer effectief beheerd en gebruikt, kan
 - Voortdurende evaluatie en verbetering van datapraktijken
 - Samenwerking tussen technische teams en domeinexperts
 
-## Standaarden en initiatieven voor effectief datagebruik
+## Gerelateerde hulpmiddelen
 
 - **[Uit Betrouwbare Bron](https://digilab.overheid.nl/projecten/)**: Initiatief gericht op datakwaliteit in federatieve datasystemen, met nadruk op het principe 'data bij de bron'.
 
@@ -107,4 +112,9 @@ Data is een waardevolle hulpbron die, wanneer effectief beheerd en gebruikt, kan
 
 - **[data.overheid.nl](https://data.overheid.nl/)**: Het open data portaal van de Nederlandse overheid, dat toegang biedt tot datasets van overheidsorganisaties.
 
-Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten leveren, efficiënter werken en de complexe uitdagingen van vandaag en morgen beter aanpakken.
+## Gerelateerde principes
+
+- [4. Gebruik open standaarden](../open-standaarden/index.md)
+- [6. Maak veilige systemen](../veiligheid/index.md)
+- [7. Maak privacy integraal](../privacy/index.md)
+- [11. Pas algoritmen verantwoord toe](../algoritmen/index.md)

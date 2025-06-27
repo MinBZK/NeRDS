@@ -1,11 +1,31 @@
 ---
 title: "11. Pas algoritmen verantwoord toe"
 summary: Zorg voor transparante, eerlijke en verantwoorde toepassing van algoritmen en AI-systemen.
+relations:
+  - data
+  - veiligheid
+  - privacy
+  - gebruikersbehoefte
 ---
 
 # 11. Pas algoritmen verantwoord toe
 
 Algoritmen en AI-systemen hebben een steeds grotere impact op besluitvorming binnen de overheid. Een verantwoorde toepassing vereist transparantie, uitlegbaarheid, eerlijkheid en menselijk toezicht om de rechten van burgers te waarborgen, discriminatie te voorkomen en vertrouwen te behouden in digitale overheidsdiensten.
+
+## Waarom is het belangrijk?
+
+- **Rechtvaardigheid**: Voorkom discriminatie en oneerlijke behandeling van burgers
+- **Transparantie**: Maak duidelijk hoe beslissingen tot stand komen
+- **Verantwoording**: Zorg dat verantwoordelijkheid duidelijk is belegd
+- **Vertrouwen**: Behoud publiek vertrouwen in overheidsdiensten
+- **Naleving regelgeving**: Voldoe aan wet- en regelgeving zoals de AI-verordening
+- **Kwaliteit**: Verbeter besluitvorming door goede algoritmegovernance
+- **Ethisch handelen**: Waarborg fundamentele rechten in geautomatiseerde processen
+- **Controleerbaarheid**: Stel burgers in staat om besluiten te begrijpen en aan te vechten
+
+Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor dat hun digitale systemen eerlijk, transparant en in lijn met publieke waarden functioneren, wat cruciaal is voor het behouden van vertrouwen in een steeds meer gedigitaliseerde overheid.
+
+## Hoe pas je het toe?
 
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
@@ -39,33 +59,22 @@ Algoritmen en AI-systemen hebben een steeds grotere impact op besluitvorming bin
             <p>Benchmark voor taalmodellen (LLMs)</p>
             <a href="https://github.com/MinBZK/llm-benchmark" class="action-button" target="_blank">Verkennen</a>
         </div>
+         <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4>Algoritmeregister</h4>
+            <p>Registreer je (impactvolle) algoritme in het nationale register</p>
+            <a href="https://algoritmes.overheid.nl/nl" class="action-button" target="_blank">Verkennen</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4>Unsupervised Biasdetection Tool</h4>
+            <p>Een statistisch hulpmiddel dat groepen identificeert waar een algoritme afwijkende prestaties laat zien</p>
+            <a href="https://algorithmaudit.eu/technical-tools/bdt/" class="action-button" target="_blank">Verkennen</a>
+        </div>
     </div>
 </div>
 
-## Waarom verantwoorde algoritmetoepassing belangrijk is
-
-- **Rechtvaardigheid**: Voorkom discriminatie en oneerlijke behandeling van burgers
-- **Transparantie**: Maak duidelijk hoe beslissingen tot stand komen
-- **Verantwoording**: Zorg dat verantwoordelijkheid duidelijk is belegd
-- **Vertrouwen**: Behoud publiek vertrouwen in overheidsdiensten
-- **Naleving regelgeving**: Voldoe aan wet- en regelgeving zoals de AI-verordening
-- **Kwaliteit**: Verbeter besluitvorming door goede algoritmegovernance
-- **Ethisch handelen**: Waarborg fundamentele rechten in geautomatiseerde processen
-- **Controleerbaarheid**: Stel burgers in staat om besluiten te begrijpen en aan te vechten
-
-## Kernprincipes voor verantwoorde algoritmen
-
-1. **Transparantie**: Maak inzichtelijk hoe algoritmen werken en beslissingen nemen
-2. **Uitlegbaarheid**: Zorg dat de uitkomsten begrijpelijk en verklaarbaar zijn
-3. **Controleerbaarheid**: Stel anderen in staat het systeem te controleren
-4. **Menselijke regie**: Houd betekenisvolle menselijke controle over beslissingen
-5. **Non-discriminatie**: Voorkom onrechtvaardige bias en discriminatie
-6. **Datasoevereiniteit**: Respecteer datarechten en eigendom
-7. **Doelbinding**: Gebruik algoritmen alleen voor het beoogde doel
-8. **Risicogebaseerde aanpak**: Pas maatregelen aan op basis van het risiconiveau
-9. **Impact-assessment**: Beoordeel risico's en effecten vooraf en tijdens gebruik
-
-## Implementatiestappen
+### Implementatiestappen
 
 - **Algoritme-impact-assessment**: Voer een risicoanalyse uit met het Algoritmekader
 - **Ontwerp met waarden**: Integreer ethische waarden in het ontwerp
@@ -77,7 +86,7 @@ Algoritmen en AI-systemen hebben een steeds grotere impact op besluitvorming bin
 - **Transparantierapportage**: Publiceer informatie over het gebruik in het Algoritmeregister
 - **Classificatie**: Bepaal het risiconiveau volgens de AI-verordening
 
-## Uitdagingen en oplossingen
+### Uitdagingen en oplossingen
 
 - **Complexiteit vs. uitlegbaarheid**: Kies voor uitlegbare algoritmen waar mogelijk
 - **Opsporen van bias**: Implementeer tools en methoden voor het opsporen van vooroordelen
@@ -85,18 +94,24 @@ Algoritmen en AI-systemen hebben een steeds grotere impact op besluitvorming bin
 - **Kennisgebrek**: Investeer in training en bewustwording
 - **Bestaande systemen**: Ontwikkel een plan voor het beoordelen van bestaande algoritmen
 
-## Algoritmeregistratie en -verantwoording
+### Algoritmeregistratie en -verantwoording
 
 - Identificeer en classificeer algoritmen op risico
 - Registreer hoog-risico algoritmen in het Algoritme Meldpunt
+- Registreer algoritme in het [Algoritmeregister](https://algoritmes.overheid.nl/nl)
 - Documenteer doel, werking en waarborgen
 - Maak openbaar algoritmebeschrijvingen voor hoog-risico algoritmen
 - Evalueer en actualiseer informatie regelmatig
 
-## Relevante kaders en hulpmiddelen
+## Gerelateerde hulpmiddelen
 
 - **[Rijksbrede Algoritmekader](https://minbzk.github.io/Algoritmekader/)**: Kader voor risicoanalyse, verantwoorde inzet en compliance
 - **[Impact Assessment Mensenrechten en Algoritmen (IAMA)](https://www.rijksoverheid.nl/documenten/rapporten/2021/02/25/impact-assessment-mensenrechten-en-algoritmes)**: Methodiek voor het beoordelen van mensenrechtenimpact
 - **[Code Goed Digitaal Openbaar Bestuur](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/nieuwe-technologieen-data-en-ethiek/publieke-waarden/code-goed-digitaal-openbaar-bestuur/)**: Richtlijnen voor digitaal bestuur
 
-Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor dat hun digitale systemen eerlijk, transparant en in lijn met publieke waarden functioneren, wat cruciaal is voor het behouden van vertrouwen in een steeds meer gedigitaliseerde overheid.
+## Gerelateerde principes
+
+- [1. Stel gebruikersbehoeften vast](../gebruikersbehoeften/index.md)
+- [6. Maak veilige systemen](../veiligheid/index.md)
+- [7. Maak privacy integraal](../privacy/index.md)
+- [10. Maak beter gebruik van data](../data/index.md)

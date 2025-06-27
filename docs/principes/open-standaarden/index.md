@@ -1,11 +1,30 @@
 ---
 title: "4. Gebruik open standaarden"
 summary: Bouw technologie die open standaarden gebruikt om ervoor te zorgen dat je technologie werkt en communiceert met andere technologie.
+relations:
+  - integratie
+  - toegankelijkheid
+  - open-source
+  - data
 ---
 
 # 4. Gebruik open standaarden
 
-Open standaarden zijn gemeenschappelijke regels die gebruikers in staat stellen compatibele en consistente producten, processen en diensten te creëren. Ze worden gezamenlijk ontworpen, zijn openbaar beschikbaar en meestal gratis of tegen lage kosten te gebruiken.
+Open standaarden zijn gemeenschappelijke regels die gebruikers in staat stellen compatibele en consistente producten, processen en diensten te creëren. Ze worden open ontworpen, zijn openbaar beschikbaar en meestal gratis of tegen lage kosten te gebruiken. Open standaarden zijn specificaties voor het uitvoeren van specifieke taken of functies.
+
+## Waarom is het belangrijk?
+
+- **Interoperabiliteit**: Systemen kunnen naadloos met elkaar communiceren
+- **Kosteneffectiviteit**: Hergebruik bestaande middelen in plaats van opnieuw te ontwikkelen
+- **Vermijd vendor lock-in**: Voorkomt afhankelijkheid van specifieke leveranciers of technologieën
+- **Duurzaamheid**: Verlengt de levensduur van systemen en gegevens
+- **Transparantie:** Bevordert openheid van overheidssystemen
+- **Innovatie**: Maakt het gemakkelijker om nieuwe diensten te ontwikkelen en te integreren
+- **Toegankelijkheid**: Zorgt ervoor dat informatie breed beschikbaar en bruikbaar is
+
+Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, flexibele en duurzame digitale overheidsinfrastructuur die effectief kan communiceren met andere systemen.
+
+## Hoe pas je het toe?
 
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
@@ -42,50 +61,44 @@ Open standaarden zijn gemeenschappelijke regels die gebruikers in staat stellen 
     </div>
 </div>
 
-## Wat zijn open standaarden?
+### Technologie bouwen met open standaarden
 
-Open standaarden zijn specificaties voor het uitvoeren van specifieke taken of functies. Ze zijn:
+- Inventariseer standaarden: Gebruik de [Beslisboom Open Standaarden](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden) voor verplichte en aanbevolen standaarden
+- Volg architectuurrichtlijnen: Pas [NORA](https://www.noraonline.nl/wiki/NORA_online) (Nederlandse Overheid Referentie Architectuur) en Common Ground toe
+- Implementeer RESTful API's: Ontwikkel volgens [NL API Strategie](https://docs.geostandaarden.nl/api/API-Strategie/) en [REST API Design Rules](https://www.forumstandaardisatie.nl/open-standaarden/rest-api-design-rules)
+- Vermijd gegevensduplicatie: Gebruik eenduidige databronnen
+- Documenteer met OpenAPI: Maak API-documentatie beschikbaar via Developer Overheid
+- Valideer en onderhoud: Test conformiteit en monitor standaardontwikkelingen
 
-- **Open ontwikkeld**: In een open, samenwerkend proces
-- **Publiek beschikbaar**: Gepubliceerd en vrij toegankelijk
-- **Vrij te implementeren**: Door iedereen te gebruiken zonder onredelijke beperkingen
-
-## Voordelen van open standaarden
-
-- **Tijd en geld besparen**: Hergebruik bestaande middelen in plaats van opnieuw te ontwikkelen (zie [Deel, hergebruik en werk samen](../samenwerking/index.md))
-- **Interoperabiliteit**: Systemen kunnen naadloos met elkaar communiceren (zie [Integreer en pas technologie aan](../integratie/index.md))
-- **Vermijd vendor lock-in**: Voorkomt afhankelijkheid van specifieke leveranciers of technologieën
-- **Compatibiliteit**: Bevordert samenwerking met belanghebbenden
-- **Kosteneffectiviteit**: Vermindert de kosten op de lange termijn
-- **Duurzaamheid**: Verlengt de levensduur van systemen en gegevens (zie [Maak je technologie duurzaam](../duurzaamheid/index.md))
-- **Innovatie**: Maakt het gemakkelijker om nieuwe diensten te ontwikkelen en te integreren
-- **Toegankelijkheid**: Zorgt ervoor dat informatie breed beschikbaar is (zie [Zorg voor toegankelijkheid en inclusie](../toegankelijkheid/index.md))
-
-## Technologie bouwen met open standaarden
-
-1. **Gebruik open standaarden principes**: Volg de basisprincipes van openheid en toegankelijkheid
-2. **Voldoe aan verplichte standaarden**: Implementeer de verplichte overheidsstandaarden
-3. **Gebruik aanbevolen open standaarden**: Pas waar mogelijk bestaande standaarden toe
-4. **Definieer duidelijk systeemgegevens**: Maak data-identificatie helder
-5. **Vermijd duplicatie van gegevens**: Voorkom redundantie en inconsistentie
-6. **Gebruik RESTful API's voor integratie**: Volg REST-principes voor API-ontwerp
-7. **Draag bij aan overheids-API-catalogi**: Deel je API-documentatie
-
-## Hoe open standaarden toe te passen
-
-1. **Identificeer relevante standaarden**: Onderzoek welke open standaarden relevant zijn voor je project
-2. **Prioriteer open boven gesloten**: Kies waar mogelijk voor open standaarden in plaats van propriëtaire oplossingen
-3. **Evalueer standaarden**: Beoordeel de maturiteit, adoptie en ondersteuning van de standaarden
-4. **Documenteer gebruik**: Maak duidelijk welke standaarden je gebruikt en waarom
-5. **Valideer implementatie**: Zorg ervoor dat je implementatie voldoet aan de standaard
-
-## Bij het inkopen van technologie
+#### Bij het inkopen van technologie
 
 - Neem toepasselijke verplichte standaarden op in aanbestedingen
 - Vraag dat leveranciersstandaarden voldoen aan open standaarden principes
 - Volg overheidsbeleid voor publieke aanbestedingen van technologie
 
-## Belangrijke open standaarden in overheidscontext
+### Overwegingen bij het kiezen van standaarden
+
+- **Technische geschiktheid**:
+      - Voldoet de standaard aan functionele vereisten?
+      - Is de standaard stabiel en volwassen?
+      - Zijn er voldoende implementaties beschikbaar?
+- **Strategische waarde:**
+      - Is de standaard breed geadopteerd in de markt en overheid?
+      - Is de standaard toekomstbestendig?
+      - Is er actieve doorontwikkeling en community?
+- **Praktische overwegingen:**
+      - Is er voldoende documentatie en ondersteuning beschikbaar?
+      - Voldoet de standaard aan veiligheids- en privacyeisen?
+      - Wat zijn de implementatie-en migratiekosten?
+
+### Uitdagingen en hoe deze te overwinnen
+
+- **Legacy systemen**: Ontwikkel een migratieplan voor oudere systemen
+- **Technische expertise**: Investeer in training en kennisopbouw
+- **Snelle verandering**: Blijf op de hoogte van nieuwe ontwikkelingen
+- **Balans vinden**: Weeg nieuwe standaarden af tegen bewezen oplossingen
+
+## Gerelateerde standaarden
 
 Het [Forum Standaardisatie](https://www.forumstandaardisatie.nl/) adviseert de Nederlandse overheid over het gebruik van open standaarden en beheert de 'pas toe of leg uit'-lijst met verplichte open standaarden voor de publieke sector. Gebruik de [Beslisboom Open Standaarden](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden) om te bepalen welke standaarden in jouw situatie van toepassing zijn.
 
@@ -139,19 +152,9 @@ Het [Forum Standaardisatie](https://www.forumstandaardisatie.nl/) adviseert de N
 - **[Logboek Dataverwerkingen](https://digilab.overheid.nl/projecten/)**: Vergroot transparantie in overheidsdata door bij te houden wie, wanneer en waarom data muteert
 - **[Synthetische Datageneratie](https://digilab.overheid.nl/projecten/)**: Genereert representatieve testdata via event sourcing
 
-## Overwegingen bij het kiezen van standaarden
+## Gerelateerde principes
 
-- Is de standaard breed geadopteerd in de markt en overheid?
-- Is de standaard stabiel en volwassen?
-- Is er voldoende documentatie en ondersteuning beschikbaar?
-- Voldoet de standaard aan veiligheids- en privacyeisen?
-- Is de standaard toekomstbestendig?
-
-## Uitdagingen en hoe deze te overwinnen
-
-- **Legacy systemen**: Ontwikkel een migratieplan voor oudere systemen
-- **Technische expertise**: Investeer in training en kennisopbouw
-- **Snelle verandering**: Blijf op de hoogte van nieuwe ontwikkelingen
-- **Balans vinden**: Weeg nieuwe standaarden af tegen bewezen oplossingen
-
-Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, flexibele en duurzame digitale overheidsinfrastructuur die effectief kan communiceren met andere systemen.
+- [2. Zorg voor toegankelijkheid en inclusie](../toegankelijkheid/index.md)
+- [3. Werk transparant en gebruik open source](../open-source/index.md)
+- [9. Integreer en pas technologie aan](../integratie/index.md)
+- [10. Maak beter gebruik van data](../data/index.md)

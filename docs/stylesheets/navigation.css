@@ -179,3 +179,31 @@ h1{
   height: 100%;
   margin-top: 0;
 }
+
+/* Sidebar navigation highlighting */
+.md-nav__item--active > .md-nav__link {
+  color: #154273 !important;
+  font-weight: 700;
+}
+
+.md-nav__item--active > .md-nav__link:hover {
+  color: #154273 !important;
+}
+
+/* Ensure nested active items are highlighted */
+.md-nav__item--active > .md-nav__link[data-md-state="blur"] {
+  color: #154273 !important;
+}
+
+/* Breadcrumb styling consistency */
+.md-breadcrumbs {
+  background-color: transparent;
+}
+
+.md-breadcrumb__link {
+  color: #154273;
+}
+
+.md-breadcrumb__link:hover {
+  color: #007bc7;
+}

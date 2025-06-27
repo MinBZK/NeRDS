@@ -1,11 +1,30 @@
 ---
 title: "7. Maak privacy integraal"
 summary: Zorg ervoor dat gebruikersrechten worden beschermd door privacy te integreren als een essentieel onderdeel van je systeem.
+relations:
+  - veiligheid
+  - data
+  - algoritmen
+  - gebruikersbehoeften
 ---
 
 # 7. Maak privacy integraal
 
 Privacy is een fundamenteel recht dat vanaf het begin moet worden ingebouwd in digitale systemen. Door privacy als kerncomponent te integreren, bescherm je niet alleen de rechten van gebruikers, maar bouw je ook vertrouwen op in overheidsdiensten.
+
+## Waarom is het belangrijk?
+
+- **Wettelijke verplichting**: Voldoe aan de Algemene Verordening Gegevensbescherming (AVG) en andere privacywetgeving
+- **Vertrouwen opbouwen**: Burgers vertrouwen systemen die hun privacy respecteren
+- **Risicovermindering**: Voorkom datalekken en privacyschendingen (zie [Maak veilige systemen](../veiligheid/index.md))
+- **Ethische verantwoordelijkheid**: Respecteer de rechten en waardigheid van individuen
+- **Goede dienstverlening**: Privacy-vriendelijke systemen zijn vaak gebruiksvriendelijker (zie [Voldoe aan de servicestandaard](../servicestandaard/index.md))
+- **Kosteneffectiviteit**: Voorkom dure boetes en herstelkosten door privacy vanaf het begin in te bouwen
+- **Datakwaliteit**: Privacy by design leidt vaak tot betere, meer nauwkeurige gegevensverzameling
+
+Door privacy integraal te maken in het ontwerpproces van digitale systemen, voldoe je niet alleen aan wettelijke vereisten, maar bouw je ook systemen die burgers vertrouwen en die hun rechten respecteren.
+
+## Hoe pas je het toe?
 
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
@@ -42,13 +61,13 @@ Privacy is een fundamenteel recht dat vanaf het begin moet worden ingebouwd in d
     </div>
 </div>
 
-## Privacy by Design vereisten
+### Privacy by Design vereisten
 
 - Integreer privacybescherming vanaf het begin van het ontwerpproces
 - Beschouw privacy als een essentieel onderdeel van systeemontwikkeling
 - Wees proactief in het verminderen van risico's op gegevensdiefstal
 
-## AVG-nalevingsoverwegingen
+### AVG-nalevingsoverwegingen
 
 Burgers hebben rechten op:
 
@@ -57,15 +76,7 @@ Burgers hebben rechten op:
 - Beperking van gegevensverwerking
 - Toegang tot en verplaatsing van persoonlijke gegevens
 
-## Waarom privacy integraal maken
-
-- **Wettelijke verplichting**: Voldoe aan de Algemene Verordening Gegevensbescherming (AVG) en andere privacywetgeving
-- **Vertrouwen opbouwen**: Burgers vertrouwen systemen die hun privacy respecteren (zie [Gebruikersbehoeften vaststellen](../gebruikersbehoeften/index.md))
-- **Risicovermindering**: Voorkom datalekken en privacyschendingen (zie [Maak veilige systemen](../veiligheid/index.md))
-- **Ethische verantwoordelijkheid**: Respecteer de rechten en waardigheid van individuen
-- **Goede dienstverlening**: Privacy-vriendelijke systemen zijn vaak gebruiksvriendelijker (zie [Voldoe aan de servicestandaard](../servicestandaard/index.md))
-
-## Aanbevolen impactbeoordelingsvragen
+### Aanbevolen impactbeoordelingsvragen
 
 Evalueer je project door te vragen:
 
@@ -75,7 +86,7 @@ Evalueer je project door te vragen:
 - Kunnen beslissingen aanzienlijke impact hebben op individuen?
 - Bevatten de gegevens gevoelige persoonlijke details?
 
-## Kernprincipes van Privacy by Design
+### Kernprincipes van Privacy by Design
 
 1. **Proactief, niet reactief**: Voorkom privacyproblemen voordat ze ontstaan
 2. **Privacy als standaardinstelling**: Maximale privacy zonder dat gebruikers actie hoeven te ondernemen
@@ -85,14 +96,14 @@ Evalueer je project door te vragen:
 6. **Zichtbaarheid en transparantie**: Houd praktijken open en verantwoordelijk
 7. **Respect voor gebruikersprivacy**: Houd de gebruiker centraal, bied controle en keuzemogelijkheden
 
-## Voordelen van Privacy by Design
+### Voordelen van Privacy by Design
 
 - Identificeer privacyproblemen vroeg
 - Verminder potentiële risico's
 - Vergroot organisatorisch privacybewustzijn
 - Zorg voor naleving van regelgeving
 
-## Praktische implementatiestappen
+### Praktische implementatiestappen
 
 - **Data-inventarisatie**: Identificeer welke persoonsgegevens worden verzameld en verwerkt
 - **Data minimalisatie**: Verzamel alleen gegevens die noodzakelijk zijn
@@ -103,7 +114,7 @@ Evalueer je project door te vragen:
 - **Rechten van betrokkenen**: Maak uitoefening van rechten (inzage, correctie, verwijdering) mogelijk
 - **Beveiligingsmaatregelen**: Implementeer passende technische en organisatorische maatregelen
 
-## Privacybevorderende technologieën
+### Privacybevorderende technologieën
 
 - **Encryptie**: Bescherm gegevens in rust en tijdens transport
 - **Pseudonimisering**: Verwijder direct identificerende elementen
@@ -111,10 +122,16 @@ Evalueer je project door te vragen:
 - **Toegangscontrole**: Implementeer het principe van minste privilege
 - **Privacymonitoring**: Detecteer en reageer op privacyproblemen
 
-## Belangrijke hulpbronnen
+## Gerelateerde hulpmiddelen
 
 - Raadpleeg Autoriteit Persoonsgegevens-richtlijnen
 - Bekijk de AVG (GDPR) regelgeving
 - Gebruik Data Protection Impact Assessment (DPIA) templates
+- [Handreiking Mobiele app Ontwikkeling en Beheer versie 4.0](https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf) - Hoofdstuk 3.2 gebruikt de privacy by design principes voor de ontwikkeling van een mobiele app.
 
-Door privacy integraal te maken in het ontwerpproces van digitale systemen, voldoe je niet alleen aan wettelijke vereisten, maar bouw je ook systemen die burgers vertrouwen en die hun rechten respecteren.
+## Gerelateerde principes
+
+- [1. Stel gebruikersbehoeften vast](../gebruikersbehoeften/index.md)
+- [6. Maak veilige systemen](../veiligheid/index.md)
+- [10. Maak beter gebruik van data](../data/index.md)
+- [11. Pas algoritmen verantwoord toe](../algoritmen/index.md)
