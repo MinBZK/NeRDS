@@ -7,7 +7,7 @@ title: Bijdragen aan NeRDS
 
 Allereerst, bedankt dat je de tijd hebt genomen om een bijdrage te leveren! ❤️
 
-We waarderen alle soorten bijdragen enorm. Zie die [Inhoudsopgave](#inhoudsopgave) voor verschillende manieren waarop je kan bijdragen aan de Nederlandse Richtlijn Digitale Systemen.
+We waarderen alle soorten bijdragen enorm. Zie de [Inhoudsopgave](#inhoudsopgave) voor verschillende manieren waarop je kan bijdragen aan de Nederlandse Richtlijn Digitale Systemen.
 Zorg ervoor dat je de relevante hoofdstukken even leest voordat je een bijdrage levert.
 Het zal het voor het team van de Nederlandse Richtlijn Digitale Systemen een stuk makkelijker maken en de ervaring voor alle betrokkenen soepeler laten verlopen.
 We kijken uit naar alle bijdragen! 🎉
@@ -83,7 +83,7 @@ Je kan een suggestie doen door een [Issue](https://github.com/MinBZK/NeRDS/issue
 ### Voordat je een suggestie gaat maken
 
 - Voordat je een suggestie gaat maken, kan je bekijken of jouw suggestie al tussen de bestaande [Issues](https://github.com/MinBZK/NeRDS/issues) staat. Wellicht bestaat er al een issue die jouw suggestie beschrijft, en zijn we er al mee bezig.
-- Zoek uit of jouw idee past binnen het doel en de scope van het project. Wat zijn de voordelen van deze functionaliteit of toevoeging? Het is aan jou om het team van de Nederlandse Richtlijn Digitale Systemen en de community te overtuigen dat dit een nuttige toevoeging is aan de Nederlandse Richtlijn Digitale Systemen. Houd in gedachten dat we functioanliteiten willen die nuttig zijn
+- Zoek uit of jouw idee past binnen het doel en de scope van het project. Wat zijn de voordelen van deze functionaliteit of toevoeging? Het is aan jou om het team van de Nederlandse Richtlijn Digitale Systemen en de community te overtuigen dat dit een nuttige toevoeging is aan de Nederlandse Richtlijn Digitale Systemen. Houd in gedachten dat we functionaliteiten willen die nuttig zijn
 voor de meerderheid van onze gebruikers en niet slechts voor een kleine groep.
 
 ### Een issue aanmaken
