@@ -83,7 +83,8 @@ function initLandingPage() {
   </div>
 
   <div class="hero-cta">
-    <a href="principes/" class="md-button md-button--primary">Bekijk alle principes</a>
+    <a href="principes/" class="md-button md-button--primary">Bekijk de NeRDS principes</a>
+    <a href="gebaande-paden/" class="md-button md-button--primary">Bekijk de NeRDS gebaande paden</a>
     <a href="Over-NeRDS/" class="md-button md-button--secondary">Over de NeRDS</a>
   </div>
 </div>
@@ -103,6 +104,14 @@ function initLandingPage() {
       <div class="feature-item">Het meeste voordeel behaal je door je organisatietechnologie en -strategieën af te stemmen op deze richtlijn</div>
     </div>
     <p>De NeRDS-principes werken samen en versterken elkaar. Door ze in samenhang toe te passen, creëer je digitale systemen die niet alleen technisch solide zijn, maar ook voldoen aan de behoeften van gebruikers en bijdragen aan een betere digitale overheid.</p>
+  </div>
+    <div class="intro-card">
+    <h2>Wat zijn de componenten van NeRDS?</h2>
+    <div class="list">
+      <div class="item">Principes</div>
+      <div class="item">Gebaande Paden</div>
+    </div>
+
   </div>
 </div>
 
@@ -198,8 +207,49 @@ function initLandingPage() {
 
 </div>
 
+<div class="principles-section">
+  <h2>NeRDS Gebaande Paden</h2>
+</div>
+
+<div class="grid cards" markdown>
+
+- 🏗️ __[Nieuwe overheidsservice](situaties/nieuwe-overheidsservice/index.md)__
+
+      ---
+      Van concept tot live service voor burgers en bedrijven
+
+- 🔄 __[Systeem Upgraden](legacy-modernisering/index.md)__
+
+      ---
+
+      Bestaande systemen NeRDS-compliant maken
+
+  - ⚡ __[Snelle Prototype](situaties/snelle-prototype/index.md)__
+
+      ---
+
+      Naar een werkende proof-of-concept
+
+  - 🛒  __[Van Idee naar Aanbesteding](situaties/naar-aanbesteding/index.md)__
+
+      ---
+
+      Marktconsultatie, RFI/RFP en gunning
+
+  - 🚨 __[Crisis Response](situaties/crisis-response/index.md)__
+
+      ---
+
+      Acute beveiligings- of privacyproblemen
+
+  - 🔗 __[Systemen koppelen](situaties/systemen-koppelen/index.md)__
+
+      ---
+
+</div>
+
 <div class="cta-section">
-  <h2>Aan de slag met NeRDS</h2>
+  <h2>Iedereen mag het gebruiken en meedenken</h2>
   <p>De NeRDS-principes helpen je bij het maken van doeltreffende, veilige en gebruikersgerichte technologie.</p>
   <div class="cta-buttons">
     <a href="https://github.com/MinBZK/NeRDS" class="md-button md-button--primary">Bekijk op GitHub</a>

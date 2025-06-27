@@ -22,12 +22,17 @@ De informatie is bedoeld voor medewerkers, ambtenaren, van de rijksoverheid, pro
 De Nederlandse Richtlijn Digitale Systemen is een website van het Ministerie van Binnenlandse Zaken en
 Koninkrijksrelaties. Het Bureau Architectuur Nederlandse Overheid (BANO) stelt de informatie samen.
 
-## [Principes](../principes/index.md)
+## Principes en Gebaande Paden
 
-De Nederlandse Richtlijn Digitale Systemen helpt overheidsorganisaties bij het maken van betere keuzes bij het
-ontwerpen, bouwen en implementeren van technologie.
-Door deze richtlijn toe te passen en gebruik te maken van onze praktische hulpmiddelen en tools zorgt u ervoor dat uw
-digitale diensten:
+De Nederlandse Richtlijn Digitale Systemen helpt overheidsorganisaties bij het maken van betere keuzes bij het ontwerpen, bouwen en implementeren van technologie.
+
+De 14 principes definiëren _wat_ er moet worden bereikt bij elk digitaal systeem. Gebaande paden vertalen deze principes naar concrete acties en tonen _hoe_ ze in de praktijk worden toegepast voor specifieke situaties.
+
+Teams kunnen afwijken van gebaande paden, maar voor verantwoorde ontwikkeling dienen alle relevante principes te worden toegepast.
+
+### [Principes](../principes/index.md)
+
+NeRDS biedt principes die richting geven aan  geven aan het ontwerpen, ontwikkelen en implementeren van digitale systemen binnen de Nederlandse overheid. Door deze richtlijn toe te passen en gebruik te maken van onze praktische hulpmiddelen en tools zorgt u ervoor dat uw digitale diensten:
 
 1. **Verantwoord** zijn ontworpen
 2. **Voldoen aan wettelijke vereisten** waaronder de BIO
@@ -35,7 +40,7 @@ digitale diensten:
 4. **Transparant en uitlegbaar** zijn in hun werking
 5. **Veilig en betrouwbaar** zijn gedurende hun hele levenscyclus
 
-## [Gebaande paden](../gebaande-paden/index.md)
+### [Gebaande paden](../gebaande-paden/index.md)
 
 NeRDS biedt gebaande paden voor veel voorkomende situaties bij het ontwikkelen van digitale systemen. Gebaande Paden zijn praktische routekaarten die je stap-voor-stap begeleiden door complexe projecten en situaties. Ze combineren meerdere NeRDS principes in concrete workflows met duidelijke tijdslijnen, deliverables en checklists. Een gebaand pad is een opiniërend, goed gedefinieerd, taakspecifiek en ondersteund pad voor het maken van digitale systemen.
 Deze gebaande paden helpen teams door:
@@ -46,14 +51,6 @@ Deze gebaande paden helpen teams door:
 - **Consistentie** te waarborgen tussen verschillende overheidsprojecten
 
 Gebaande paden zijn geen verplichte standaarden, maar aanbevolen routes die je tijd en moeite besparen bij veelvoorkomende uitdagingen.
-
-### Relatie tussen principes en gebaande paden
-
-De 14 principes definiëren _wat_ er moet worden bereikt bij elk digitaal systeem. Gebaande paden vertalen deze principes naar concrete acties en tonen _hoe_ ze in de praktijk worden toegepast voor specifieke situaties.
-
-De principes en gebaande paden hebben een **many-to-many relatie**: elk gebaand pad integreert een of meerdere principes, terwijl elk principe kan worden toegepast in verschillende gebaande paden.
-
-Teams kunnen afwijken van gebaande paden wanneer de situatie dit vereist, maar voor verantwoorde ontwikkeling moeten alle relevante principes worden toegepast.
 
 ## Voor wie is deze richtlijn?
 

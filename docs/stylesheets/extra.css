@@ -869,3 +869,18 @@ background-color: #B2D7EE;
 .mermaid .section3 {
   fill: rgba(220, 227, 234, 0.3);
 }
+
+.custom-summary {
+  list-style: none;
+  cursor: pointer;
+}
+.custom-summary::-webkit-details-marker {
+  display: none;
+}
+.custom-summary:before {
+  content: "▶ ";
+  transition: transform 0.2s;
+}
+details[open] .custom-summary:before {
+  transform: rotate(90deg);
+}
