@@ -57,7 +57,7 @@ gantt
 
 <div class="action-card">
 
-<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+<span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
 
 <h4>👥 Diepgaand Gebruikersonderzoek</h4>
 
@@ -72,7 +72,7 @@ gantt
 
 <div class="action-card">
 
-<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+<span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
 
 <h4>🏛️ Stakeholder Mapping</h4>
 
@@ -87,7 +87,7 @@ gantt
 
 <div class="action-card">
 
-<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+<span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
 
 <h4>📋 Service Assessment</h4>
 
@@ -107,7 +107,7 @@ gantt
 <div class="action-cards">
 
 <div class="action-card">
-<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+<span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
 
 <h4>🎨 Service Design</h4>
 <p>Ontwerp de end-to-end gebruikerservaring.</p>
@@ -119,7 +119,7 @@ gantt
 </div>
 
 <div class="action-card">
-<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+<span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
 
 <h4>🏗️ Technische Architectuur</h4>
 <p>Definieer schaalbare, veilige systeemarchitectuur.</p>
@@ -131,7 +131,7 @@ gantt
 </div>
 
 <div class="action-card">
-<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+<span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
 
 <h4>🔒 Privacy & Security by Design</h4>
 <p>Integreer privacy en security vanaf het begin.</p>
@@ -149,7 +149,7 @@ gantt
 <div class="action-cards">
 
 <div class="action-card">
-<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+<span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
 
 <h4>💻 Basis Functionaliteit</h4>
 <p>Ontwikkel core service functionaliteit.</p>
@@ -161,7 +161,7 @@ gantt
 </div>
 
 <div class="action-card">
-<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+<span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
 
 <h4>🌐 Toegankelijkheid Implementatie</h4>
 <p>Zorg voor WCAG compliance vanaf de start.</p>
@@ -173,7 +173,7 @@ gantt
 </div>
 
 <div class="action-card">
-<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+<span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
 
 <h4>📊 Data & Analytics Setup</h4>
 <p>Implementeer data strategie en monitoring.</p>
@@ -191,7 +191,7 @@ gantt
 <div class="action-cards">
 
 <div class="action-card">
-<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+<span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
 
 <h4>🧪 Uitgebreid Testen</h4>
 <p>Beta testing met echte gebruikers en edge cases.</p>
@@ -203,7 +203,7 @@ gantt
 </div>
 
 <div class="action-card">
-<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+<span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
 
 <h4>🔗 Systeem Integraties</h4>
 <p>Koppel aan bestaande overheidssystemen.</p>
@@ -215,7 +215,7 @@ gantt
 </div>
 
 <div class="action-card">
-<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+<span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
 
 <h4>⚖️ Compliance Check</h4>
 <p>Verificeer alle wettelijke en regelgevingseisen.</p>
@@ -233,7 +233,7 @@ gantt
 <div class="action-cards">
 
 <div class="action-card">
-<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+<span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
 
 <h4>🚀 Go Live Voorbereiding</h4>
 <p>Deployment, monitoring en support processen.</p>
@@ -245,7 +245,7 @@ gantt
 </div>
 
 <div class="action-card">
-<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+<span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
 
 <h4>📞 Support & Helpdesk</h4>
 <p>Gebruikersondersteuning en incident management.</p>
@@ -257,7 +257,7 @@ gantt
 </div>
 
 <div class="action-card">
-<span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+<span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
 
 <h4>📈 Continue Verbetering</h4>
 <p>Setup voor doorlopende optimalisatie.</p>

@@ -1,10 +1,10 @@
-# **Gebaande Paden: Jouw Praktische Routekaart**
+# Gebaande Paden: Jouw Praktische Routekaart
 
 <div class="direct-aan-de-slag">
 <p><strong>Gebaande Paden</strong> zijn praktische routekaarten die je stap-voor-stap begeleiden door complexe projecten. Ze combineren NeRDS principes in concrete workflows met duidelijke tijdslijnen en checklists.</p>
 </div>
 
-## **Wat krijg je?**
+## Wat krijg je?
 
 <div class="direct-aan-de-slag">
 🎯 <strong>Situatie-specifieke aanpak</strong> - Voor jouw exacte uitdaging<br>
