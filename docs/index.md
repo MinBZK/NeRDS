@@ -2,19 +2,13 @@
 title: Nederlandse Richtlijn Digitale Systemen
 summary: Een praktische richtlijn voor het verantwoord ontwerpen, ontwikkelen en implementeren van digitale systemen binnen de Nederlandse overheid.
 hide:
-  - navigation
   - toc
+  - navigation
 ---
 
 <script>
 // Landing page script
 document.addEventListener('DOMContentLoaded', function() {
-    // Once DOM is loaded, hide sidebars to prevent flash of sidebar
-    const sidebars = document.querySelectorAll('.md-sidebar');
-    sidebars.forEach(sidebar => {
-        sidebar.style.display = 'none';
-    });
-
     // Initialize animations for landing page
     initLandingPage();
 });
