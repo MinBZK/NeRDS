@@ -20,6 +20,8 @@ theme:
     - navigation.footer
     - navigation.prune
     - navigation.path
+    - navigation.sections
+    - navigation.expand
     - search.highlight
     - search.suggest
     - content.tooltips

@@ -1,15 +1,15 @@
 ---
 title: Principes
-summary: De kernprincipes van de Nederlandse Richtlijn Digitale Systemen
+summary: De principes van de Nederlandse Richtlijn Digitale Systemen
 ---
 
 # Principes van de NeRDS
 
-De Nederlandse Richtlijn Digitale Systemen (NeRDS) is gebaseerd op een set kernprincipes die richting geven aan het ontwerpen, ontwikkelen en implementeren van digitale systemen binnen de Nederlandse overheid.
+De Nederlandse Richtlijn Digitale Systemen (NeRDS) is gebaseerd op een set principes die richting geven aan het ontwerpen, ontwikkelen en implementeren van digitale systemen binnen de Nederlandse overheid.
 
 <div class="grid cards" markdown>
 
-- :material-account-search:{ .lg .middle } __1. [Gebruikersbehoeften vaststellen](gebruikersbehoeften/index.md)__
+- :material-account-search:{ .lg .middle } __1. [Stel gebruikersbehoeften vast](gebruikersbehoeften/index.md)__
 
     ---
 
@@ -33,7 +33,7 @@ De Nederlandse Richtlijn Digitale Systemen (NeRDS) is gebaseerd op een set kernp
 
     Bouw technologie die open standaarden gebruikt om ervoor te zorgen dat je technologie werkt en communiceert met andere technologie.
 
-- :material-cloud:{ .lg .middle } __5. [Cloud-gedreven strategie](cloud/index.md)__
+- :material-cloud:{ .lg .middle } __5. [Hanteer een cloud-gedreven strategie](cloud/index.md)__
 
     ---
 

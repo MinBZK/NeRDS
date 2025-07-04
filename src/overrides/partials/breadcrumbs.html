@@ -1,14 +1,35 @@
-<nav class="md-breadcrumbs">
+{% if "navigation.path" in config.theme.features %}
+  <nav class="md-breadcrumbs" aria-label="Breadcrumb">
     <ol class="md-breadcrumb__list">
-        {% for item in breadcrumbs %}
-            <li class="md-breadcrumb__item">
-                <a href="{{ item.url }}" class="md-breadcrumb__link">{{ item.title }}</a>
-            </li>
+      {% if nav_item.ancestors %}
+        {% for nav_item in nav_item.ancestors %}
+          <li class="md-breadcrumb__item">
+            {% if nav_item.url %}
+              <a href="{{ nav_item.url | url }}" class="md-breadcrumb__link">
+                {{ nav_item.title }}
+              </a>
+            {% else %}
+              {{ nav_item.title }}
+            {% endif %}
+          </li>
         {% endfor %}
-
-        {# Append the current page title as the last breadcrumb #}
+      {% endif %}
+      {% if nav_item %}
         <li class="md-breadcrumb__item">
-            <span class="md-breadcrumb__link">{{ page.title }}</span>
+          {% if nav_item.url %}
+            <a href="{{ nav_item.url | url }}" class="md-breadcrumb__link">
+              {{ nav_item.title }}
+            </a>
+          {% else %}
+            {{ nav_item.title }}
+          {% endif %}
         </li>
+      {% endif %}
+      {% if page and page.title != nav_item.title %}
+        <li class="md-breadcrumb__item">
+          <span class="md-breadcrumb__link">{{ page.title }}</span>
+        </li>
+      {% endif %}
     </ol>
-</nav>
+  </nav>
+{% endif %}
