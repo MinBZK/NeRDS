@@ -28,14 +28,11 @@ jobs:
           curl -LsSf https://astral.sh/uv/install.sh | sh
           echo "$HOME/.uv/bin" >> $GITHUB_PATH
 
-      - name: Install toml package
+      - name: Bump patch version
         run: |
           uv venv
           uv pip install toml
-
-      - name: Bump patch version
-        run: |
-          python << 'EOF'
+          uv run python << 'EOF'
           import toml
           import re
 
@@ -75,7 +72,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add pyproject.toml
-          git commit -m "Bump version to ${{ steps.version.outputs.new_version }}"
+          git commit -m "Bump version to ${{ steps.version.outputs.new_version }}" --no-verify
           git push
 
       - name: Create and push tag
