@@ -312,9 +312,11 @@
   transform: translateY(0);
 }
 
-/* Hide navigation on landing page (via CSS) */
-body:has(.hero-section) .md-sidebar {
-  display: none !important;
+/* Hide desktop sidebars only on landing page*/
+@media screen and (min-width: 76.25em) {
+  body:has(.hero-section) .md-sidebar {
+    display: none !important;
+  }
 }
 
 /* Basic animations for page load */

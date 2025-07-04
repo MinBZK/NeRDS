@@ -29,8 +29,7 @@ theme:
     annotation: fontawesome/solid/circle-info
 
 nav:
-  - Home:
-      - index.md
+  - Home: index.md
   - Principes:
       - Overzicht: principes/index.md
       - 1. Gebruikersbehoeften: principes/gebruikersbehoeften/index.md
@@ -98,8 +97,6 @@ extra_javascript:
   - javascripts/tablesort.min.js
   - javascripts/tablesort.js
   - javascripts/filtering.js
-  - javascripts/mermaid.min.js
-  - javascripts/modal.js
   - javascripts/cluster-form.js
 
 plugins:
