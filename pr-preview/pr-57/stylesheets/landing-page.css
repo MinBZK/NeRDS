@@ -1,0 +1,347 @@
+/* Modern Landing Page Styles */
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 3rem 1rem 4rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2f2ff 100%);
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #154273;
+  font-weight: 700;
+}
+
+.nerds-acronym {
+  font-size: 0.8em;
+  opacity: 0.8;
+  font-weight: 600;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  color: #154273;
+  line-height: 1.6;
+}
+
+.version-badge {
+  display: inline-block;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.version-label {
+  font-size: 0.9rem;
+  background-color: #B1D5EC;
+  color: #154273;
+  padding: 0.4rem 0.7rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.version-label:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.hover-info {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: #333;
+  border: 1px solid #eee;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 300px;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.version-badge:hover .hover-info {
+  display: block;
+}
+
+.hero-cta {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hero-cta .md-button {
+  font-size: 1rem;
+  padding: 0.7rem 1.5rem;
+  transition: all 0.2s ease;
+}
+
+.hero-cta .md-button:hover {
+  transform: translateY(-2px);
+}
+
+/* Intro Section */
+.intro-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.intro-card {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.intro-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.intro-card h2 {
+  color: #154273;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #B1D5EC;
+  padding-bottom: 0.5rem;
+}
+
+/* Feature list */
+.feature-list {
+  margin-bottom: 1rem;
+}
+
+.feature-item {
+  margin-bottom: 0.7rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.feature-item:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #154273;
+  font-weight: bold;
+}
+
+/* Principles Section */
+.principles-section {
+  margin-bottom: 3rem;
+}
+
+.principles-section h2 {
+  text-align: center;
+  color: #154273;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.principles-description {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Styled cards for principles */
+.principles-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.principle-card {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  border-left: 5px solid #B1D5EC;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.principle-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-left: 10px solid #B1D5EC;
+}
+
+.principle-icon {
+  margin-bottom: 1rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.principle-icon svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.principle-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+  font-size: 1.2rem;
+  color: #154273;
+}
+
+.principle-card h3 a {
+  color: #154273;
+  text-decoration: none;
+}
+
+.principle-card h3 a:hover {
+  text-decoration: underline;
+}
+
+.principle-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* CTA Section */
+.cta-section {
+  background-color: #f8fafc;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  border: 1px solid #e2f2ff;
+}
+
+.cta-section h2 {
+  color: #154273;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.cta-section p {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cta-buttons .md-button {
+  font-size: 1rem;
+  padding: 0.7rem 1.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .principles-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Modern animations and transitions */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Initial state for scroll animations - always visible as fallback */
+.hero-section,
+.intro-section,
+.principles-section,
+.cta-section {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Visible state triggered by JavaScript */
+.hero-section.visible,
+.intro-section.visible,
+.principles-section.visible,
+.cta-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hide desktop navigation tabs on landing page, but keep mobile menu */
+body:has(.hero-section) .md-tabs {
+  display: none !important;
+}
+
+/* Hide desktop sidebars only on landing page */
+@media screen and (min-width: 76.25em) {
+  body:has(.hero-section) .md-sidebar {
+    display: none !important;
+  }
+}
+
+/* Basic animations for page load */
+.hero-section {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.intro-card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.intro-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.principle-card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.6s ease-out 0.3s forwards;
+  animation-delay: calc(0.1s * var(--animation-order, 0) + 0.3s);
+}
