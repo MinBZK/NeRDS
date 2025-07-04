@@ -1,0 +1,96 @@
+name: Auto Version Bump
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+
+jobs:
+  version-bump:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install uv
+        run: |
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          echo "$HOME/.uv/bin" >> $GITHUB_PATH
+
+      - name: Install toml package
+        run: |
+          uv venv
+          uv pip install toml
+
+      - name: Bump patch version
+        run: |
+          python << 'EOF'
+          import toml
+          import re
+
+          # Read current version from pyproject.toml
+          with open('pyproject.toml', 'r') as f:
+              data = toml.load(f)
+
+          current_version = data['project']['version']
+          print(f"Current version: {current_version}")
+
+          # Parse version and bump patch
+          version_parts = current_version.split('.')
+          major = int(version_parts[0])
+          minor = int(version_parts[1])
+          patch = int(version_parts[2])
+
+          # Bump patch version
+          new_version = f"{major}.{minor}.{patch + 1}"
+          print(f"New version: {new_version}")
+
+          # Update pyproject.toml
+          data['project']['version'] = new_version
+          with open('pyproject.toml', 'w') as f:
+              toml.dump(data, f)
+
+          # Save new version for next steps
+          with open('new_version.txt', 'w') as f:
+              f.write(new_version)
+          EOF
+
+      - name: Read new version
+        id: version
+        run: echo "new_version=$(cat new_version.txt)" >> $GITHUB_OUTPUT
+
+      - name: Commit version bump
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add pyproject.toml
+          git commit -m "Bump version to ${{ steps.version.outputs.new_version }}"
+          git push
+
+      - name: Create and push tag
+        run: |
+          git tag "v${{ steps.version.outputs.new_version }}"
+          git push origin "v${{ steps.version.outputs.new_version }}"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ steps.version.outputs.new_version }}
+          name: Release v${{ steps.version.outputs.new_version }}
+          body: |
+            Automated patch version bump to ${{ steps.version.outputs.new_version }}
+
+            This release was automatically created when PR #${{ github.event.pull_request.number }} was merged.
+          draft: false
+          prerelease: false
