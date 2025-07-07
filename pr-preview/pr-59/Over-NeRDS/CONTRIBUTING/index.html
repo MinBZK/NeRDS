@@ -1219,7 +1219,7 @@ aan <strong><a href="mailto:bureau.architectuur@minbzk.nl">bureau.architectuur@m
 <p>Als je jouw vraag nog steeds wilt stellen, kan je een <a href="https://github.com/MinBZK/NeRDS/issues">Issue</a> aanmaken.</p>
 <ol>
 <li>Gebruik daarvoor de knop new issue.</li>
-<li>Schrijf je vraag of opmerking is en geef een heldere toelichting.</li>
+<li>Formuleer je vraag of opmerking en geef een heldere toelichting.</li>
 <li>Anderen kunnen nu opmerkingen toevoegen aan jouw issue.</li>
 <li>Het team van de NeRDS zal deze issue labelen als <code>question</code> en pakt jouw issue zo snel mogelijk op. Mogelijk neemt het team van de NeRDS contact op voor een verduidelijking of een oplossing.</li>
 </ol>
@@ -1277,14 +1277,21 @@ Bijvoorbeeld omdat je verschillende wijzigingsvoorstellen wilt doen? Je kan ook 
 <span class="nb">cd</span><span class="w"> </span>NeRDS
 </code></pre></div>
 <ol>
-<li><strong>Maak een nieuwe branch</strong></li>
+<li><strong>Zet je ontwikkelomgeving op</strong></li>
+<li>Volg de stappen in <a href="#ontwikkelomgeving-opzetten">Ontwikkelomgeving opzetten</a></li>
+<li>
+<p>Test dat alles werkt met <code>uv run mkdocs serve</code></p>
+</li>
+<li>
+<p><strong>Maak een nieuwe branch</strong></p>
+</li>
 </ol>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>feature/jouw-wijziging
 </code></pre></div>
 <ol>
 <li><strong>Maak je wijzigingen</strong></li>
-<li>Volg de ontwikkelrichtlijnen hierboven</li>
-<li>Test je wijzigingen lokaal met <code>uv run mkdocs serve</code></li>
+<li>Volg de <a href="#richtlijnen-voor-bijdragen">Richtlijnen voor bijdragen</a></li>
+<li>Test je wijzigingen lokaal</li>
 <li>
 <p>Controleer op spelfouten en broken links</p>
 </li>
@@ -1364,12 +1371,6 @@ Dit is bestandsformaat voor platte tekstbestanden en wordt door veel verschillen
 <li><a href="https://git-scm.com/">Git</a></li>
 </ul>
 <h3 id="lokale-ontwikkeling">Lokale ontwikkeling</h3>
-<ol>
-<li><strong>Fork en clone de repository</strong></li>
-</ol>
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/jouw-gebruikersnaam/NeRDS.git
-<span class="nb">cd</span><span class="w"> </span>NeRDS
-</code></pre></div>
 <ol>
 <li><strong>Installeer dependencies</strong></li>
 </ol>
@@ -1483,7 +1484,7 @@ docs: update contributing guidelines met ontwikkelproces
     <span class="md-icon" title="Laatst geüpdatet">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="7 juli 2025 11:23:34 CEST">7 juli 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="7 juli 2025 11:35:10 CEST">7 juli 2025</span>
   </span>
 
     
