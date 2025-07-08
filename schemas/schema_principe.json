@@ -1,0 +1,33 @@
+{
+  "description": "NeRDS Principe Validation Rules",
+  "file_patterns": [
+    "docs/principes/*/index.md"
+  ],
+  "required_metadata": [
+    "title",
+    "summary"
+  ],
+  "required_divs": [
+    "direct-aan-de-slag"
+  ],
+  "required_headers": [
+    "Waarom is het belangrijk?",
+    "Hoe pas je het toe?",
+    "Gerelateerde principes"
+  ],
+  "conditional_headers": [
+    "Gerelateerde hulpmiddelen",
+    "Gerelateerde standaarden"
+  ],
+  "content_validation": {
+    "check_section_content": true,
+    "minimum_content_length": 10
+  },
+  "validation_notes": {
+    "metadata": "Title and summary must be present in YAML front matter",
+    "divs": "Must contain div with class 'direct-aan-de-slag'",
+    "headers": "All required headers must be present as level 2 headers (##)",
+    "conditional": "At least one of the conditional headers must be present with content",
+    "content": "All sections must contain meaningful text, not just markup or whitespace"
+  }
+}

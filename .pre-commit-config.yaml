@@ -16,3 +16,11 @@ repos:
     hooks:
       - id: markdownlint
         args: [--fix]
+  - repo: local
+    hooks:
+      - id: validate-principes
+        name: Validate NeRDS principe files
+        entry: python scripts/validate_principe.py
+        language: system
+        files: ^docs/principes/.*/index\.md$
+        pass_filenames: false

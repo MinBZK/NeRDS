@@ -106,7 +106,7 @@ function initLandingPage() {
 </div>
 
 <div class="grid cards" markdown>
-- :material-account-search:{ .lg .middle } __1. [Gebruikersbehoeften vaststellen](principes/gebruikersbehoeften/index.md)__
+- :material-account-search:{ .lg .middle } __1. [Stel gebruikersbehoeften vast](principes/gebruikersbehoeften/index.md)__
 
     ---
 
@@ -130,7 +130,7 @@ function initLandingPage() {
 
     Bouw technologie die open standaarden gebruikt om ervoor te zorgen dat je technologie werkt en communiceert met andere technologie.
 
-- :material-cloud:{ .lg .middle } __5. [Cloud-gedreven strategie](principes/cloud/index.md)__
+- :material-cloud:{ .lg .middle } __5. [Hanteer een cloud-gedreven strategie](principes/cloud/index.md)__
 
     ---
 
