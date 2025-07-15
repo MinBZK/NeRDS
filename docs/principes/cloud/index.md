@@ -6,6 +6,13 @@ relations:
   - privacy
   - duurzaamheid
   - inkoop
+roles:
+  - beleidsmaker: high
+  - developer: high
+  - jurist: medium
+  - inkoper: high
+  - cxo: high
+  - projectleider: high
 ---
 
 # 5. Hanteer een cloud-gedreven strategie
@@ -14,12 +21,12 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
 
 ## Waarom is het belangrijk?
 
-- **Kosteneffectiviteit**: Betaal alleen voor wat je gebruikt, verminder kapitaaluitgaven
-- **Schaalbaarheid**: Eenvoudig op- en afschalen naar behoefte
-- **Flexibiliteit**: Snellere implementatie van nieuwe diensten
+- **Kosteneffectiviteit**: Operationele uitgaven in plaats van kapitaaluitgaven, met transparante kostentoerekening per dienst
+- **Schaalbaarheid:** Automatisch omgaan met pieken (verkiezingen, belastingaangiftes) zonder overprovisioning van resources
+- **Flexibiliteit**: Multi-cloud aanpak voorkomt vendor lock-in en vergroot onderhandelingspositie
 - **Minder beheerlasten**: Leveranciers beheren de onderliggende infrastructuur
-- **Betrouwbaarheid**: Vaak hogere uptime dan on-premise oplossingen
-- **Toegang tot innovatie**: Snellere toegang tot nieuwe technologieën
+- **Betrouwbaarheid**: Betere beschikbaarheid van services. Gecontroleerde en gestandaardiseerde deploymentprocessen.
+- **Toegang tot innovatie**: Snellere toegang tot nieuwe technologieën voor nieuwe overheidsdiensten
 - **Duurzaamheid**: Geoptimaliseerd energieverbruik door gedeelde infrastructuur
 
 Door een cloud-gedreven strategie met aandacht voor soevereiniteit te hanteren, kun je innovatiever, flexibeler en kosteneffectiever werken terwijl je de controle behoudt over je data en profiteert van de nieuwste technologische ontwikkelingen.
@@ -269,58 +276,251 @@ kubectl get nodes
     </div>
 </div>
 
-### Implementatiestappen
+=== "Beleidsmaker"
+    ### Beleidskaders ontwikkelen
 
-1. **Begin met de cloud**: Start met de assumptie dat cloudtechnologie voordelen biedt
-2. **Overweeg diverse modellen**: Evalueer soevereine, publieke, private of hybride cloudoplossingen
-3. **Dataregie centraal**: Bepaal welk niveau van controle over data noodzakelijk is
-4. **Beveilig vanaf het begin**: Integreer beveiliging en compliance in je cloudstrategie
-5. **Beoordeel kosten**: Vergelijk total cost of ownership (TCO) van verschillende opties
-6. **Plan migraties**: Ontwikkel een strategie voor het migreren van bestaande systemen
-7. **Ontwikkel nieuwe vaardigheden**: Investeer in cloud-expertise binnen je organisatie
+    **Stappen:**
+    1. **Formuleer soevereine cloud-beleid** - Ontwikkel kaders binnen EU Digital Sovereignty
+    2. **Coördineer tussen ministeries** - Zorg voor consistente cloud-governance
+    3. **Stakeholder consultatie** - Betrek burgers, bedrijfsleven bij cloudbeleid
+    4. **Monitor internationale ontwikkelingen** - Volg EU-regelgeving (Gaia-X, GDPR)
+    5. **Stel ethische richtlijnen op** - Bepaal ethische grenzen voor cloud-dataverwerking
 
-### Migratie-overwegingen
+    **Belangrijke overwegingen:**
+    - Digitale soevereiniteit vs innovatiesnelheid
+    - Datalokaliteit binnen EU/NL grenzen
+    - Publiek-private cloudpartnerschappen
+    - Compliance met EU AI Act en GDPR
 
-Bij verplaatsing naar de cloud, overweeg:
+=== "CXO/Bestuurder"
+    ### Strategische besluitvorming
 
-- Databeleid en -behoeften
-- Beveiligingsrisico's en -behoeften
-- Technologische geschiktheid
-- Beschikbare budget en middelen
-- Vertrouwelijkheid van gegevens
-- Connectiviteit en netwerkvereisten
+    **Stappen:**
+    1. **Bepaal cloud-first strategie** - Ontwikkel organisatiebrede cloudvisie
+    2. **Evalueer multi-cloud aanpak** - Voorkom vendor lock-in, verhoog flexibiliteit
+    3. **Budgettering en TCO** - Bereken total cost of ownership cloud vs on-premise
+    4. **Risicoanalyse** - Beoordeel beveiligings-, compliance- en operationele risico's
+    5. **KPI's definiëren** - Stel meetbare doelen voor cloudadoptie
 
-### Wanneer is de cloud geschikt?
+    **Belangrijke overwegingen:**
+    - ROI van cloudmigratie vs bestaande investeringen
+    - Organisatorische change management
+    - Vendor lock-in preventie
+    - Exit-strategieën per cloudprovider
 
-- Voor nieuwe applicaties en diensten
-- Bij het vernieuwen van bestaande IT-systemen
-- Voor fluctuerende vraag en behoeften
-- Voor het snel opzetten van test- en ontwikkelomgevingen
-- Voor het schalen van data-intensieve toepassingen
+=== "Projectleider"
+    ### Projectimplementatie
 
-### Wanneer zijn alternatieven te overwegen?
+    **Stappen:**
+    1. **Cloud-assessment** - Evalueer huidige systemen op cloud-geschiktheid
+    2. **Migratieplan opstellen** - Ontwikkel gefaseerde overgang met rollback-opties
+    3. **Stakeholder coördinatie** - Breng technische teams en compliance samen
+    4. **Pilotprojecten** - Start met niet-kritische systemen
+    5. **Gebruikerstesten** - Organiseer testen voor cloud-gemigreerde services
 
-- Bij specifieke beveiligings- of compliance-eisen die niet in de cloud kunnen worden vervuld
-- Wanneer gegevens om juridische redenen lokaal moeten worden opgeslagen
-- Voor systemen met specifieke hardwarevereisten
-- Wanneer bestaande investeringen in on-premise infrastructuur nog niet zijn afgeschreven
-- Bij onvoldoende netwerkcapaciteit voor cloudgebruik
+    **Belangrijke overwegingen:**
+    - Minimale service-onderbreking tijdens migratie
+    - Contingency planning voor mislukte migraties
+    - Training en change management voor teams
+    - Monitoring en performance-evaluatie
 
-### Belangrijke overwegingen
+=== "Developer"
+    ### Technische implementatie
 
-- **Digitale soevereiniteit**: Beoordeel in hoeverre cloudoplossingen voldoen aan eisen voor Europese soevereiniteit
-- **Dataclassificatie**: Bepaal welke gegevens in welk type cloud kunnen worden opgeslagen
-- **Datalokaliteit**: Overweeg waar data wordt opgeslagen en verwerkt (EU/NL)
-- **Exit-strategie**: Plan hoe je van cloudprovider kunt wisselen indien nodig
-- **Vendor lock-in**: Beperk afhankelijkheid van één leverancier
-- **Open standaarden**: Kies oplossingen die gebruik maken van open standaarden
-- **Governance**: Ontwikkel een duidelijk beleid voor cloudgebruik
-- **Kostenbeheer**: Implementeer mechanismen om cloudkosten te monitoren en te beheersen
-- **Connectiviteit**: Zorg voor voldoende netwerkbandbreedte
+    **Stappen:**
+    1. **Cloud-native architectuur** - Ontwerp voor microservices en containers
+    2. **Infrastructure as Code** - Gebruik Terraform/Ansible voor reproduceerbaarheid
+    3. **CI/CD pipelines** - Implementeer geautomatiseerde deployments
+    4. **Monitoring en observability** - Stel health checks en logging in
+    5. **Security by design** - Integreer beveiliging in alle cloudlagen
+
+    **Code-voorbeeld - Terraform voor soevereine cloud:**
+    ```hcl
+    # Rijkscloud Kubernetes cluster
+    resource "rijkscloud_kubernetes_cluster" "main" {
+      name               = "productie-cluster"
+      location           = "amsterdam"
+      kubernetes_version = "1.28"
+
+      # Soevereiniteit requirements
+      data_residency = "NL"
+      encryption_at_rest = true
+
+      node_pool {
+        name       = "worker-nodes"
+        node_count = 3
+        vm_size    = "Standard_D2s_v3"
+      }
+
+      # Compliance tags
+      tags = {
+        Environment = "production"
+        DataClass   = "confidential"
+        Retention   = "7-years" # Archiefwet
+      }
+    }
+    ```
+
+    **Belangrijke overwegingen:**
+    - Containerisatie met Docker/Kubernetes
+    - Auto-scaling en resource optimization
+    - Backup en disaster recovery
+    - Compliance met Nederlandse wetgeving
+
+=== "Jurist"
+    ### Juridische compliance
+
+    **Stappen:**
+    1. **AVG-naleving** - Toets cloudcontracten op dataverwerking
+    2. **Cross-border risico's** - Analyseer risico's datatransfers buiten EU
+    3. **DPA opstellen** - Formuleer Data Processing Agreements
+    4. **AI Act compliance** - Beoordeel AI-services in cloud op AI-verordening
+    5. **Exit-clausules** - Zorg voor juridische data-portabiliteit
+
+    **Belangrijke overwegingen:**
+    - Data-residency requirements per datatype
+    - Jurisdictie en toepasselijk recht
+    - Aansprakelijkheid bij data-incidenten
+    - Compliance monitoring en audit-trails
+
+=== "Inkoper"
+    ### Inkoopstrategie
+
+    **Stappen:**
+    1. **Aanbestedingseisen formuleren** - Specificeer soevereine cloud-vereisten
+    2. **Leveranciersevaluatie** - Beoordeel providers op compliance en zekerheid
+    3. **SLA-onderhandelingen** - Stel eisen voor uptime, support en data-governance
+    4. **TCO-analyse** - Vergelijk volledige kosten verschillende cloudmodellen
+    5. **Contractbeheer** - Monitor naleving en performance indicators
+
+    **Template aanbestedingseis:**
+    > **Soevereiniteit:** Leverancier moet aantonen dat alle dataverwerking binnen EU-grenzen plaatsvindt en voldoet aan artikel 28 AVG. Services moeten gecertificeerd zijn volgens ISO27001 en BIO-standaarden.
+
+    **Belangrijke overwegingen:**
+    - Vendor lock-in preventie via open standaarden
+    - Multi-sourcing strategieën
+    - Contractuele exit-strategieën
+    - Compliance monitoring en audit-rechten
+
+## Rol-specifieke perspectieven
+
+!!! tip "Voor beleidsmakers"
+    **Beleidskaders voor cloudstrategieën**
+
+    - Ontwikkel coherent beleid dat innovatie en soevereiniteit balanceert
+    - Stel kaders op voor datalokaliteit en leverancierselectie binnen EU-context
+    - Coördineer tussen ministeries voor consistente cloud-governance
+    - Monitor internationale ontwikkelingen (EU Digital Sovereignty, Gaia-X)
+    - Organiseer stakeholderconsultaties over cloudrisico's en -kansen
+
+    **Concrete acties:**
+    - Formuleer beleidskaders voor soevereine cloud-adoptie
+    - Ontwikkel criteria voor publiek-private cloudpartnerschappen
+    - Stel ethische richtlijnen op voor cloud-dataverwerking
+
+!!! abstract "Voor bestuurders"
+    **Strategische cloud-governance**
+
+    - Bepaal organisatiebrede cloudstrategie met risk/benefit analyse
+    - Evalueer multi-cloud vs single-cloud strategieën voor vendor lock-in preventie
+    - Stel budgetramingen op voor cloudmigratie en operationele kosten
+    - Communiceer cloud-business case naar bestuurders en stakeholders
+    - Balanceer innovatiesnelheid met compliance en security vereisten
+
+    **Concrete acties:**
+    - Ontwikkel cloud-first architectuurprincipes voor de organisatie
+    - Stel KPI's op voor cloudadoptie en -performance
+    - Plan gefaseerde migratiestrategie voor legacy systemen
+
+!!! question "Voor projectleiders"
+    **Cloud-implementatie in projecten**
+
+    - Integreer cloudstrategie in projectplanning en risicoanalyse
+    - Coördineer tussen technische teams en compliance afdelingen
+    - Plan cloudmigraties met minimale service-onderbreking
+    - Organiseer gebruikerstesten voor cloud-gemigreerde services
+    - Monitor projectvoortgang tegen cloud-readiness criteria
+
+    **Concrete acties:**
+    - Gebruik cloud-assessment tools voor bestaande systemen
+    - Plan pilot-projecten voor cloud-native ontwikkeling
+    - Stel migratieplannen op met rollback-strategieën
+
+!!! code "Voor ontwikkelaars"
+    **Cloud-native ontwikkeling**
+
+    - Implementeer Infrastructure as Code voor reproduceerbare deployments
+    - Gebruik containerisatie (Docker/Kubernetes) voor schaalbaarheid
+    - Ontwikkel cloud-native applicaties met microservices architectuur
+    - Implementeer monitoring en observability voor cloud-services
+    - Pas security-by-design toe in cloud-omgevingen
+
+    **Concrete acties:**
+    - Gebruik Terraform/Ansible voor infrastructure automation
+    - Implementeer CI/CD pipelines voor cloud-deployments
+    - Ontwikkel health checks en auto-scaling configuraties
+
+    **Code-voorbeeld Kubernetes deployment:**
+    ```yaml
+    apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      name: overheidsapp
+    spec:
+      replicas: 3
+      selector:
+        matchLabels:
+          app: overheidsapp
+      template:
+        metadata:
+          labels:
+            app: overheidsapp
+        spec:
+          containers:
+          - name: app
+            image: rijkscloud.nl/overheidsapp:latest
+            ports:
+            - containerPort: 8080
+            env:
+            - name: DATA_RETENTION_DAYS
+              value: "2555" # 7 jaar conform Archiefwet
+    ```
+
+!!! warning "Voor juristen"
+    **Juridische cloud-compliance**
+
+    - Toets cloud-contracten op AVG-naleving en dataverwerking
+    - Analyseer juridische risico's van cross-border datatransfers
+    - Stel Data Processing Agreements (DPA's) op met cloudproviders
+    - Adviseer over data-residency requirements per datatype
+    - Beoordeel cloud-vendor contracten op uitvoeringsrisico's
+
+    **Concrete acties:**
+    - Ontwikkel juridische checklists voor cloud-provider evaluatie
+    - Stel template-contracten op voor cloud-services inkoop
+    - Adviseer over AI Act compliance in cloud-AI services
+
+!!! note "Voor inkopers"
+    **Cloud-inkoop en leveranciersselectie**
+
+    - Formuleer aanbestedingseisen voor soevereine cloud-services
+    - Evalueer cloud-providers op compliance en leveringszekerheid
+    - Onderhandel over service level agreements en data-governance
+    - Beoordeel Total Cost of Ownership (TCO) voor cloud vs on-premise
+    - Stel exit-strategieën op voor cloud-vendor wijzigingen
+
+    **Concrete acties:**
+    - Gebruik standardiseerde cloud-security vragenlijsten
+    - Ontwikkel scoringsmodellen voor cloud-provider evaluatie
+    - Stel contractuele eisen op voor data-portabiliteit
+
+    **Template aanbestedingseis:**
+    > "Leverancier moet aantonen dat dataverwerking plaatsvindt binnen EU-grenzen en voldoet aan AVG artikel 28 vereisten voor verwerkersovereenkomsten. Leverancier dient 99.9% uptime SLA te garanderen met transparante incident-rapportage."
 
 ## Gerelateerde hulpmiddelen
 
 - [Regels voor verantwoord cloudgebruik Rijksoverheid](https://www.digitaleoverheid.nl/nieuws/regels-voor-verantwoord-cloudgebruik-rijksoverheid/)
+- [CommonGround](https://commonground.nl)
 
 ## Gerelateerde principes
 

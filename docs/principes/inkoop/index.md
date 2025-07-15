@@ -5,6 +5,13 @@ relations:
   - duurzaamheid
   - cloud
   - open-source
+roles:
+  - inkoper: high
+  - cxo: high
+  - projectleider: high
+  - beleidsmaker: medium
+  - developer: medium
+  - jurist: medium
 ---
 
 # 12. Definieer je inkoopstrategie
@@ -60,54 +67,253 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
     </div>
 </div>
 
-### Voorwaarde effectieve inkoopstrategie
+=== "Beleidsmaker"
+    ### Beleidskaders voor inkoopstrategie
 
- 1. **Behoefteanalyse**: Begrijp gebruikersbehoeften en organisatievereisten
- 2. **Marktverkenning**: Onderzoek beschikbare oplossingen en leveranciers
- 3. **Sourcingmodel**: Bepaal de juiste mix van intern/extern, cloud/on-premise
- 4. **Total cost of ownership**: Evalueer alle kosten over de volledige levenscyclus
- 5. **Risicoanalyse**: Identificeer en plan voor technische en commerciële risico's
- 6. **Contractstrategie**: Ontwikkel passende contractuele regelingen
- 7. **Exitstrategie**: Plan hoe je kunt overstappen naar andere oplossingen
+    **Stappen:**
+    1. **Formuleer inkoopbeleid** - Ontwikkel kaders voor strategische technologie-inkoop
+    2. **Coördineer tussen ministeries** - Zorg voor consistente inkooprichtlijnen
+    3. **Stakeholder consultatie** - Betrek marktpartijen en burgers bij inkoopbeleid
+    4. **Monitor EU-ontwikkelingen** - Volg aanbestedingsrichtlijnen en Digital Single Market
+    5. **Stel innovatie-eisen** - Bepaal kaders voor innovatieve aanbestedingen
 
-### Sleuteloverwegingen bij de ontwikkeling van je strategie
+    **Belangrijke overwegingen:**
+    - Balans tussen marktwerking en overheidsdoelstellingen
+    - Implementatie MVI-criteria (Maatschappelijk Verantwoord Inkopen)
+    - Stimulering van MKB-deelname aan overheidsaanbestedingen
+    - Compliance met EU-aanbestedingsrichtlijnen
 
-- **Make vs. buy**: Wanneer zelf ontwikkelen en wanneer inkopen?
-- **Open source vs. commercieel**: Wat is de juiste balans?
-- **Grote vs. kleine leveranciers**: Hoe diversifieer je je leveranciersportfolio?
-- **Monolithisch vs. modulair**: Één grote of meerdere kleine oplossingen?
-- **Standaard vs. maatwerk**: Wanneer is aanpassing noodzakelijk?
-- **Korte vs. lange termijn**: Hoe balanceer je directe behoeften met toekomstbestendigheid?
-- **Centrale vs. decentrale inkoop**: Wat is het juiste niveau voor besluitvorming?
+    **Concrete acties:**
+    - Ontwikkel sectorspecifieke inkooprichtlijnen voor ICT
+    - Formuleer beleid voor circulaire inkoop van technologie
+    - Stel kaders op voor data-gedreven inkoopbeslissingen
 
-Zie hiervoor ook [PIANOo's richtlijnen voor Maatschappelijk Verantwoord Inkopen](https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria) voor productgroepen en MVI-criteria die je kunt toepassen bij je inkoopstrategie.
+=== "CXO/Bestuurder"
+    ### Strategische inkoopgovernance
 
-### Best practices voor technologie-inkoop
+    **Stappen:**
+    1. **Bepaal inkoopstrategie** - Ontwikkel organisatiebrede procurement-visie
+    2. **Evalueer sourcing-modellen** - Bepaal optimale mix van intern/extern
+    3. **Budgetgovernance** - Stel kaders voor inkoopbudgetten en -autorisaties
+    4. **Risicoanalyse** - Beoordeel leveranciers-, compliance- en operationele risico's
+    5. **KPI's definiëren** - Stel meetbare doelen voor inkoopprestaties
 
-- **Vroege marktbetrokkenheid**: Ga in gesprek met leveranciers vóór formele aanbesteding
-- **Functionele specificaties**: Focus op wat je wilt bereiken, niet hoe
-- **Proof of concepts**: Test oplossingen voordat je je vastlegt
-- **Agile contracting**: Gebruik flexibele contractvormen voor softwareontwikkeling
-- **Regelmatige evaluatie**: Herzie contracten en relaties periodiek
-- **Samenwerking met leveranciers**: Bouw partnerschappen in plaats van strikt klant-leverancier relaties
-- **Kennisdeling**: Deel ervaringen binnen de overheid
+    **Belangrijke overwegingen:**
+    - Total Cost of Ownership (TCO) vs initiële inkoopkosten
+    - Vendor diversificatie ter preventie van afhankelijkheid
+    - Balans tussen kostenbesparing en kwaliteit/innovatie
+    - Exit-strategieën voor kritische leveranciers
 
-### Uitdagingen en oplossingen
+    **Template business case:**
+    ```
+    Inkoopstrategie: [Technologie/Service]
+    - Huidige situatie: [Kosten, risico's, beperkingen]
+    - Voorgestelde aanpak: [Strategie, leverancierselectie]
+    - Verwachte voordelen: [Kostenbesparingen, kwaliteitsverbetering]
+    - Risico's en mitigatie: [Leverancierrisico's, exit-strategieën]
+    - Tijdlijn: [Implementatiefases, mijlpalen]
+    ```
 
-- **Complexe aanbestedingsregels**: Investeer in expertise en zoek innovatieve aanbestedingsvormen
-- **Snelle technologische verandering**: Bouw flexibiliteit in contracten
-- **Beperkte marktkennis**: Voer gedegen marktonderzoek uit
-- **Legacy-afhankelijkheden**: Ontwikkel migratiestrategieën
-- **Balanceren van meerdere belangen**: Stem af met alle belanghebbenden
+=== "Projectleider"
+    ### Project-implementatie van inkoopprocessen
 
-### Evaluatie van je inkoopstrategie
+    **Stappen:**
+    1. **Behoefteanalyse** - Vertaal gebruikersbehoeften naar inkoopspecificaties
+    2. **Marktconsultatie** - Organiseer marktdialoog en leveranciersinteractie
+    3. **Aanbestedingsplan** - Ontwikkel gefaseerde tender-strategie
+    4. **Stakeholder coördinatie** - Breng inkoop-, IT- en juridische teams samen
+    5. **Contractbeheer** - Monitor levering en prestaties na gunning
 
-- Is de strategie afgestemd op gebruikersbehoeften?
-- Houdt het rekening met de totale eigendomskosten?
-- Bevordert het concurrentie en innovatie?
-- Is er een duidelijke exit-strategie?
-- Is er aandacht voor duurzaamheid en sociale waarde?
-- Voldoet het aan alle wettelijke en beleidsmatige eisen?
+    **Belangrijke overwegingen:**
+    - Minimale projectonderbreking tijdens leverancierswissel
+    - Contingency planning voor falende leveranciers
+    - Change management voor nieuwe technologie/leveranciers
+    - Kwaliteitsborging en acceptatiecriteria
+
+    **Template projectplan:**
+    ```
+    Fase 1: Behoefteanalyse (2-4 weken)
+    - Stakeholder workshops
+    - Requirements gathering
+    - Marktverkenning
+
+    Fase 2: Aanbestedingsvoorbereiding (4-6 weken)
+    - Tender-documentatie
+    - Evaluatiecriteria
+    - Juridische review
+
+    Fase 3: Aanbestedingsprocedure (8-12 weken)
+    - Publicatie
+    - Inschrijving en evaluatie
+    - Gunning
+
+    Fase 4: Contractimplementatie (2-8 weken)
+    - Contractering
+    - Onboarding leverancier
+    - Go-live
+    ```
+
+=== "Developer"
+    ### Technische inkoopoverwegingen
+
+    **Stappen:**
+    1. **Technische requirements** - Definieer functionele en non-functionele eisen
+    2. **Architectuur-beoordeling** - Evalueer technische fit met bestaande systemen
+    3. **Proof of Concept** - Test kritische functionaliteiten voor aankoop
+    4. **Integratie-planning** - Plan technische onboarding en API-koppelingen
+    5. **Performance monitoring** - Stel technische KPI's op voor leveranciersbeoordeling
+
+    **Code-voorbeeld vendor evaluatie:**
+    ```python
+    # Technische evaluatie van API-leveranciers
+    import requests
+    import time
+
+    def evaluate_api_vendor(base_url, test_endpoints):
+        """Evalueer API-leverancier op performance en betrouwbaarheid"""
+        results = {}
+
+        for endpoint in test_endpoints:
+            start_time = time.time()
+            try:
+                response = requests.get(f"{base_url}{endpoint}")
+                response_time = time.time() - start_time
+
+                results[endpoint] = {
+                    'status_code': response.status_code,
+                    'response_time': response_time,
+                    'success': response.status_code == 200
+                }
+            except Exception as e:
+                results[endpoint] = {
+                    'error': str(e),
+                    'success': False
+                }
+
+        return results
+
+    # Voorbeeld evaluatie
+    vendors = {
+        'Vendor A': 'https://api.vendora.nl/v1',
+        'Vendor B': 'https://api.vendorb.nl/v1'
+    }
+
+    test_endpoints = ['/health', '/auth/token', '/data/users']
+
+    for vendor, url in vendors.items():
+        results = evaluate_api_vendor(url, test_endpoints)
+        print(f"Evaluatie {vendor}: {results}")
+    ```
+
+    **Belangrijke overwegingen:**
+    - API-standaarden en interoperabiliteit
+    - Security en compliance requirements
+    - Schaalbaarheid en performance-eisen
+    - Onderhoudbaarheid en documentatie
+    - Open source vs proprietary oplossingen
+
+=== "Jurist"
+    ### Juridische compliance in inkoop
+
+    **Stappen:**
+    1. **Aanbestedingsrecht** - Toets procedures op EU-richtlijnen 2014/24/EU
+    2. **Contractrecht** - Formuleer juridisch waterdichte leveringsovereenkomsten
+    3. **AVG-compliance** - Beoordeel dataverwerking in leveranciersdiensten
+    4. **Intellectueel eigendom** - Bepaal eigendomsrechten van ontwikkelde oplossingen
+    5. **Geschillenbeslechting** - Stel procedures op voor contractuele geschillen
+
+    **Belangrijke overwegingen:**
+    - EU-drempelbedragen voor aanbestedingsverplichtingen
+    - Staatssteunregels bij preferentieel overheidsinkopen
+    - Aansprakelijkheid bij dataincidenten of systeemfalen
+    - Intellectueel eigendom van maatwerksoftware
+
+    **Template contractclausule:**
+    ```
+    Artikel X - Dataverwerking en Privacy
+
+    1. Leverancier verwerkt persoonsgegevens uitsluitend ten behoeve van
+       de uitvoering van deze overeenkomst conform AVG artikel 28.
+
+    2. Leverancier implementeert passende technische en organisatorische
+       maatregelen zoals bedoeld in AVG artikel 32.
+
+    3. Bij dataincidenten meldt leverancier binnen 24 uur aan opdrachtgever
+       conform AVG artikel 33 meldingsverplichtingen.
+
+    4. Leverancier verleent volledige medewerking aan DPIA's en
+       toezichthoudende autoriteiten.
+    ```
+
+    **Belangrijke wet- en regelgeving:**
+    - Aanbestedingswet 2012
+    - EU-aanbestedingsrichtlijnen 2014/24/EU
+    - AVG (Algemene Verordening Gegevensbescherming)
+    - Wet elektronische handtekeningen
+
+=== "Inkoper"
+    ### Inkoopstrategie en -uitvoering
+
+    **Stappen:**
+    1. **Spend-analyse** - Analyseer huidige uitgaven en leveranciersportfolio
+    2. **Sourcingstrategie** - Bepaal optimale inkoopbenadering per categorie
+    3. **Leveranciersselectie** - Evalueer en selecteer leveranciers op basis van criteria
+    4. **Contractonderhandeling** - Onderhandel over prijzen, voorwaarden en service levels
+    5. **Performance management** - Monitor leveranciersprestaties en contractnaleving
+
+    **Template evaluatiecriteria:**
+    ```
+    Technische geschiktheid (40%):
+    - Functionele requirements (20%)
+    - Technische architectuur (10%)
+    - Interoperabiliteit (10%)
+
+    Prijs-kwaliteit verhouding (30%):
+    - Total Cost of Ownership (20%)
+    - Prijs-prestatie ratio (10%)
+
+    Leverancierscapaciteit (30%):
+    - Financiële stabiliteit (10%)
+    - Referenties en ervaring (10%)
+    - Implementatie- en supportcapaciteit (10%)
+    ```
+
+    **Belangrijke overwegingen:**
+    - MVI-criteria (Maatschappelijk Verantwoord Inkopen)
+    - KMO-toegankelijkheid en lokale economie
+    - Lifecycle-kosten vs aanschafkosten
+    - Leveranciersdiversificatie en risicospreiding
+
+    **Template inkoopstrategie:**
+    ```
+    Categorie: [ICT-diensten/Software/Hardware]
+
+    Huidige situatie:
+    - Uitgaven: €X per jaar
+    - Leveranciers: [Aantal, diversiteit]
+    - Uitdagingen: [Kostenstijging, kwaliteit, flexibiliteit]
+
+    Voorgestelde strategie:
+    - Sourcing-model: [Centraal/decentraal, bundeling]
+    - Leveranciersstrategie: [Enkelvoudig/meervoudig, MKB-betrokkenheid]
+    - Contract-strategie: [Looptijd, verlengingsopties]
+
+    Implementatieplan:
+    - Q1: Marktconsultatie en requirements
+    - Q2: Aanbestedingsprocedure
+    - Q3: Contractering en onboarding
+    - Q4: Performance monitoring
+
+    Verwachte resultaten:
+    - Kostenbesparing: X%
+    - Kwaliteitsverbetering: [Specifieke KPI's]
+    - Risicoreductie: [Leveranciersdiversificatie]
+    ```
+
+    **Hulpmiddelen:**
+    - [PIANOo Inkoopkompas](https://www.pianoo.nl/nl/sectoren/ict)
+    - [EU-aanbestedingsrichtlijnen](https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32014L0024)
+    - [MVI-criteria per productgroep](https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria)
 
 ## Gerelateerde hulpmiddelen
 

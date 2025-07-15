@@ -5,6 +5,13 @@ relations:
   - gebruikersbehoeften
   - servicestandaard
   - open-standaarden
+roles:
+  - beleidsmaker: high
+  - cxo: high
+  - projectleider: high
+  - developer: high
+  - jurist: high
+  - inkoper: high
 ---
 
 # 2. Zorg voor toegankelijkheid en inclusie
@@ -65,32 +72,188 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
     </div>
 </div>
 
-1. **Houd rekening met toegankelijkheid in**:
-    - Kantoor- en serverruimtes
-    - Hardwarecompatibiliteit
-    - Softwareselectie
-    - Gebruikersinterfaceontwerp
+=== "Beleidsmaker"
+    ### Beleidskaders voor toegankelijkheid
 
-2. **Aanbevolen praktijken**:
-    - Volg de webrichtlijnen (WCAG 2.2 AA-standaard minimaal)
-    - Test met hulptechnologieën
-    - Gebruik eenvoudige taal
-    - Zorg voor alternatieve formaten
+    **Stappen:**
+    1. **Ontwikkel toegankelijkheidsbeleid** - Formuleer kaders binnen Web Accessibility Directive
+    2. **Stel toegankelijkheidseisen op** - Definieer minimale WCAG 2.2 AA-standaarden
+    3. **Coördineer tussen departementen** - Zorg voor consistente toegankelijkheidsnormen
+    4. **Monitor internationale ontwikkelingen** - Volg EU-richtlijnen en VN-verdragen
+    5. **Organiseer stakeholderconsultatie** - Betrek gebruikersorganisaties bij beleidsontwikkeling
 
-### Inkopen van toegankelijke technologie
+    **Belangrijke overwegingen:**
+    - European Accessibility Act (EAA) implementatie
+    - VN-Verdrag inzake de rechten van personen met een handicap
+    - Nederlandse Wet gelijke behandeling op grond van handicap
+    - Digitale inclusie-doelstellingen binnen EU Digital Decade
 
-- Gebruik de EN 301 549 toegankelijkheidsstandaard in aanbestedingen
-- Zoek naar leveranciers met bewezen toegankelijkheidservaring
-- Vraag om bewijs van toegankelijkheidstesten
-- Zorg dat toekomstige updates toegankelijkheid behouden
+=== "CXO/Bestuurder"
+    ### Strategische toegankelijkheidsgovernance
 
-### Belangrijke overwegingen
+    **Stappen:**
+    1. **Formuleer accessibility-first strategie** - Ontwikkel organisatiebrede toegankelijkheidsvisie
+    2. **Bepaal KPI's en metrics** - Stel meetbare doelen voor toegankelijkheidsnaleving
+    3. **Budgeteer voor inclusief ontwerp** - Reserveer middelen voor toegankelijkheidsmaatregelen
+    4. **Stel toegankelijkheidscommissie in** - Organiseer interdisciplinaire governance
+    5. **Communiceer commitment** - Toon externe en interne betrokkenheid bij inclusie
 
-- Zorg dat systemen werken met verschillende invoermethoden (toetsenbord, muis, aanraakscherm, spraak)
-- Let op kleurcontrast voor mensen met visuele beperkingen
-- Zorg voor ondertiteling en transcripties bij audio- en video-inhoud
-- Bouw formulieren die gemakkelijk te gebruiken zijn met hulpapparatuur
-- Test je systemen op verschillende apparaten en schermformaten
+    **Belangrijke overwegingen:**
+    - ROI van toegankelijke systemen vs remediation kosten
+    - Reputatierisico's bij non-compliance
+    - Organisatorische culture change naar inclusief denken
+    - Legal liability bij toegankelijkheidsproblemen
+
+=== "Projectleider"
+    ### Projectimplementatie van toegankelijkheid
+
+    **Stappen:**
+    1. **Integreer toegankelijkheid in projectplanning** - Voeg accessibility-requirements toe aan PID
+    2. **Organiseer gebruikerstesten** - Betrek mensen met beperkingen in testfases
+    3. **Plan accessibility audits** - Programmeer evaluaties gedurende ontwikkelcyclus
+    4. **Coördineer interdisciplinaire teams** - Breng UX, development en legal expertise samen
+    5. **Monitor compliance gedurende project** - Track WCAG-naleving in alle sprint reviews
+
+    **Belangrijke overwegingen:**
+    - Early stage accessibility-integratie voorkomt kostbare late wijzigingen
+    - Gebruikerstesten met assistive technology users
+    - Training van projectteams in accessibility-principes
+    - Accessibility-gates in approval-processen
+
+=== "Developer"
+    ### Technische toegankelijkheidsimplementatie
+
+    **Stappen:**
+    1. **Implementeer semantic HTML** - Gebruik correcte HTML-structuur voor screen readers
+    2. **Ontwikkel toetsenbordnavigatie** - Zorg voor volledige toetsenbord-toegankelijkheid
+    3. **Optimaliseer voor assistive technology** - Test met NVDA, JAWS, VoiceOver
+    4. **Implementeer ARIA-attributen** - Voeg semantic information toe waar nodig
+    5. **Automatiseer accessibility-testen** - Integreer axe-core in CI/CD pipelines
+
+    **Code-voorbeeld - Toegankelijk formulier:**
+    ```html
+    <form novalidate>
+      <fieldset>
+        <legend>Contactgegevens</legend>
+
+        <div class="form-field">
+          <label for="email">E-mailadres *</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            aria-describedby="email-error"
+            aria-invalid="false"
+          >
+          <div id="email-error" class="error" aria-live="polite"></div>
+        </div>
+
+        <div class="form-field">
+          <fieldset>
+            <legend>Voorkeurscontact</legend>
+            <label>
+              <input type="radio" name="contact" value="email">
+              E-mail
+            </label>
+            <label>
+              <input type="radio" name="contact" value="phone">
+              Telefoon
+            </label>
+          </fieldset>
+        </div>
+      </fieldset>
+
+      <button type="submit" aria-describedby="submit-help">
+        Verstuur formulier
+      </button>
+      <div id="submit-help">Dit formulier wordt veilig verzonden</div>
+    </form>
+    ```
+
+    **CSS-voorbeeld - Focus management:**
+    ```css
+    /* Focus indicators voor toetsenbordnavigatie */
+    .form-field input:focus,
+    .form-field select:focus,
+    .form-field textarea:focus {
+      outline: 3px solid #ffbf00;
+      outline-offset: 2px;
+      box-shadow: 0 0 0 3px rgba(255, 191, 0, 0.3);
+    }
+
+    /* Hoog contrast ondersteuning */
+    @media (prefers-contrast: high) {
+      .button {
+        border: 2px solid currentColor;
+      }
+    }
+
+    /* Reduced motion ondersteuning */
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+    ```
+
+    **Belangrijke overwegingen:**
+    - WCAG 2.2 AA-compliance als minimum
+    - Automated testing met axe-core, Pa11y
+    - Manual testing met screen readers
+    - Progressive enhancement principes
+
+=== "Jurist"
+    ### Juridische compliance voor toegankelijkheid
+
+    **Stappen:**
+    1. **Analyseer Web Accessibility Directive** - Toets systemen op EU-richtlijn 2016/2102
+    2. **Implementeer EN 301 549 compliance** - Zorg voor naleving Europese norm
+    3. **Stel toegankelijkheidsverklaringen op** - Creëer verplichte accessibility statements
+    4. **Organiseer feedback-mechanisme** - Implementeer klachtenprocedure voor accessibility
+    5. **Monitor EAA-implementatie** - Voorbereid op European Accessibility Act vanaf 2025
+
+    **Wettelijke verplichtingen:**
+    - **Web Accessibility Directive (WAD)**: EU-richtlijn 2016/2102 verplicht WCAG 2.1 AA
+    - **European Accessibility Act**: Vanaf 28 juni 2025 voor e-commerce, banking
+    - **EN 301 549**: Europese norm voor ICT-toegankelijkheid (hardware en software)
+    - **Wet gelijke behandeling handicap**: Nederlandse anti-discriminatiewetgeving
+
+    **Template toegankelijkheidsverklaring:**
+    > Deze website voldoet gedeeltelijk aan WCAG 2.1 niveau AA. Bekende problemen worden aangepakt volgens ons [toegankelijkheidsplan]. Voor vragen over toegankelijkheid kunt u contact opnemen via [contactformulier] of telefonisch op [nummer].
+
+    **Belangrijke overwegingen:**
+    - Aansprakelijkheid bij discriminatieclaims
+    - Bewijs van due diligence bij compliance-inspanningen
+    - Periodic review en update van toegankelijkheidsverklaringen
+    - Training van legal teams in accessibility-wetgeving
+
+=== "Inkoper"
+    ### Inkoop van toegankelijke technologie
+
+    **Stappen:**
+    1. **Formuleer accessibility-eisen** - Specificeer EN 301 549 compliance in tenders
+    2. **Evalueer leveranciers op inclusie** - Beoordeel aanbieders op accessibility-ervaring
+    3. **Stel VPAT-eisen** - Vraag Voluntary Product Accessibility Templates
+    4. **Onderhandel over accessibility SLA's** - Definieer service levels voor toegankelijkheid
+    5. **Plan accessibility-audits** - Stel eisen voor periodieke compliance-controles
+
+    **Template aanbestedingseis:**
+    > **Toegankelijkheidsvereisten:** Leverancier moet aantonen dat geleverde software/hardware voldoet aan EN 301 549 standaarden en WCAG 2.1 niveau AA. Bewijs via independent accessibility audit rapport (niet ouder dan 6 maanden) is verplicht. Leverancier garandeert dat toekomstige updates de toegankelijkheid behouden.
+
+    **VPAT-checkpoints:**
+    - Conformance level (A, AA, AAA) per WCAG-criterium
+    - Test methodologie en tools gebruikt
+    - Bekende toegankelijkheidsproblemen en remediation timeline
+    - Ondersteuning voor assistive technologies
+
+    **Belangrijke overwegingen:**
+    - Total Cost of Ownership inclusief accessibility-features
+    - Vendor commitment tot toegankelijkheid in roadmap
+    - Training en support voor accessibility-features
+    - Exit-strategieën bij non-compliance
 
 ## Gerelateerde standaarden
 

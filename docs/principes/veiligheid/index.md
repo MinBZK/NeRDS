@@ -6,6 +6,13 @@ relations:
   - data
   - algoritmen
   - cloud
+roles:
+  - beleidsmaker: high
+  - developer: high
+  - jurist: high
+  - inkoper: high
+  - cxo: high
+  - projectleider: high
 ---
 
 # 6. Maak veilige systemen
@@ -56,57 +63,212 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
     </div>
 </div>
 
-1. **Overweeg beveiliging vanaf het begin**:
-    - Beoordeel beveiligingsrisico's voordat je aan een technologieprogramma begint
-    - Identificeer potentiële kwetsbaarheden in systemen en gegevens
-    - Bepaal welke beveiligingsexpertise en middelen nodig zijn
+=== "Beleidsmaker"
+    ### Beleidskaders voor cybersecurity governance
 
-2. **Implementeer proportionele beveiligingsmaatregelen**:
-    - Bescherm informatietechnologie en digitale diensten
-    - Zorg voor passende toegang tot gebruikersgegevens
-    - Evalueer en update voortdurend beveiligingsprotocollen
+    **Stappen:**
+    1. **Nationale cybersecurity strategie** - Ontwikkel en implementeer kaders binnen Nederlandse Cybersecurity Strategie
+    2. **Wetgevingscompliance** - Zorg voor naleving NIS2-richtlijn en Cybersecurity Act
+    3. **Interministeriële coördinatie** - Harmoniseer beveiligingsbeleid tussen overheidsorganisaties
+    4. **Risicobeleid formuleren** - Stel organisatiebrede risk appetite en tolerance levels vast
+    5. **Internationale samenwerking** - Coördineer met EU-cybersecurity initiatieven
 
-3. **Focus op meerdere beveiligingsdimensies**:
-    - Netwerk- en infrastructuurbeveiliging
-    - Gegevensbeveiliging
-    - Dienstbeveiliging
-    - Cloudbeveiliging
+    **Belangrijke overwegingen:**
+    - Balans tussen beveiliging en gebruiksvriendelijkheid
+    - Compliance met EU-wetgeving (NIS2, Cybersecurity Act)
+    - Integratie met privacy- en databeleid
+    - Incident response governance
 
-### Kritieke beveiligingsstrategieën
+    **Concrete acties:**
+    - Formuleer organisatiebrede cybersecurity governance
+    - Ontwikkel beleidskaders voor Zero Trust architectuur
+    - Stel ethische richtlijnen op voor AI-beveiligingstoepassingen
 
-- **Identificeer, bescherm, detecteer, reageer en herstel**: Volg deze cyclus voor beveiligingsincidenten
-- **Gebruik beveiligingscontroles zoals**:
-  - Gegevensversleuteling
-  - Single sign-on
-  - Tweefactorauthenticatie
-  - Specifieke toegangscontrole
-  - Gebruiksmonitoring
-  - Tijdige systeempatching
+=== "CXO/Bestuurder"
+    ### Strategische security governance en risk management
 
-### Implementatie van beveiligingsmaatregelen
+    **Stappen:**
+    1. **Cybersecurity strategie** - Ontwikkel organisatiebrede security vision en roadmap
+    2. **Risk appetite bepalen** - Stel acceptable risk levels vast voor verschillende bedrijfsprocessen
+    3. **Security budget planning** - Alloceer resources voor preventie, detectie en response
+    4. **Board-level reporting** - Implementeer cybersecurity KPI's en dashboards
+    5. **Crisis management** - Stel procedures op voor security incident escalatie
 
-- **Risicoanalyse**: Identificeer bedreigingen en kwetsbaarheden
-- **Authenticatie en autorisatie**: Implementeer sterke toegangscontroles
-- **Encryptie**: Bescherm gegevens tijdens opslag en transport
-- **Veilige ontwikkelpraktijken**: Volg secure coding standaarden
-- **Penetratietesten**: Test regelmatig de beveiliging van systemen
-- **Incident response**: Ontwikkel en test plannen voor het reageren op incidenten
-- **Leveranciersbeheer**: Evalueer en controleer de beveiliging van leveranciers
+    **Belangrijke overwegingen:**
+    - ROI van security investeringen vs risico-acceptatie
+    - Regulatory compliance kosten en impact
+    - Reputatierisico's bij security incidenten
+    - Cyber insurance en risk transfer strategieën
 
-### Doorlopend beveiligingsbeheer
+    **Concrete acties:**
+    - Implementeer quarterly security reviews op bestuursniveau
+    - Ontwikkel metrics voor security maturity measurement
+    - Stel crisis communication plannen op voor data breaches
 
-- Stel plannen voor continue verbetering op
-- Beoordeel regelmatig beveiligingscontroles
-- Monitor potentiële risico's
-- Pas aan aan veranderende technologische landschappen
+=== "Projectleider"
+    ### Project implementatie van security maatregelen
 
-### Aanbevolen acties
+    **Stappen:**
+    1. **Security requirements** - Integreer beveiligingseisen in projectscope vanaf aanvang
+    2. **Threat modeling** - Voer dreigingsanalyse uit voor projectspecifieke context
+    3. **Security testing planning** - Plan penetratietesten en vulnerability assessments
+    4. **Change management** - Coördineer security awareness training voor projectteams
+    5. **Compliance tracking** - Monitor naleving van security standaarden tijdens project
 
-- Voer uitgebreide risicobeoordelingen uit
-- Wijs duidelijke beveiligingsrollen en -verantwoordelijkheden toe
-- Documenteer beveiligingsprocessen
-- Creëer gebruikerstoegang training en controleplannen
-- Integreer beveiligingsoverwegingen in algemene programmaplanningen
+    **Belangrijke overwegingen:**
+    - Balance tussen project timeline en security rigor
+    - Stakeholder alignment rond security vs functionaliteit
+    - Budget impact van security requirements
+    - Integration met bestaande security infrastructure
+
+    **Concrete acties:**
+    - Gebruik NIST Cybersecurity Framework voor project security planning
+    - Implementeer security gates in project lifecycle
+    - Plan security acceptance criteria voor user stories
+
+=== "Developer"
+    ### Technische security implementatie
+
+    **Stappen:**
+    1. **Secure coding practices** - Implementeer OWASP Top 10 preventie in code
+    2. **Authentication & authorization** - Bouw robuuste identity management
+    3. **Encryption implementation** - Implementeer end-to-end encryption voor data
+    4. **Security testing** - Integreer SAST/DAST in CI/CD pipelines
+    5. **Monitoring & logging** - Implementeer security event logging en alerting
+
+    **Code-voorbeeld - Secure authentication:**
+    ```python
+    # Secure password hashing met bcrypt
+    import bcrypt
+    from flask import Flask, request, jsonify
+    from flask_jwt_extended import JWTManager, create_access_token
+
+    app = Flask(__name__)
+    app.config['JWT_SECRET_KEY'] = 'your-secret-key'  # Use environment variable
+    jwt = JWTManager(app)
+
+    class SecureAuth:
+        @staticmethod
+        def hash_password(password: str) -> str:
+            """Hash password with bcrypt and salt"""
+            salt = bcrypt.gensalt()
+            return bcrypt.hashpw(password.encode('utf-8'), salt).decode('utf-8')
+
+        @staticmethod
+        def verify_password(password: str, hashed: str) -> bool:
+            """Verify password against hash"""
+            return bcrypt.checkpw(password.encode('utf-8'), hashed.encode('utf-8'))
+
+    @app.route('/login', methods=['POST'])
+    def login():
+        data = request.get_json()
+
+        # Input validation
+        if not data or not data.get('username') or not data.get('password'):
+            return jsonify({'error': 'Missing credentials'}), 400
+
+        # Rate limiting zou hier geïmplementeerd moeten worden
+        # Authenticate user (pseudo-code)
+        user = authenticate_user(data['username'])
+
+        if user and SecureAuth.verify_password(data['password'], user['password_hash']):
+            access_token = create_access_token(identity=user['id'])
+            return jsonify({'access_token': access_token})
+
+        return jsonify({'error': 'Invalid credentials'}), 401
+    ```
+
+    **Security by design implementatie:**
+    ```javascript
+    // Content Security Policy implementation
+    const helmet = require('helmet');
+
+    app.use(helmet({
+      contentSecurityPolicy: {
+        directives: {
+          defaultSrc: ["'self'"],
+          styleSrc: ["'self'", "'unsafe-inline'"],
+          scriptSrc: ["'self'"],
+          imgSrc: ["'self'", "data:"],
+          connectSrc: ["'self'"],
+          fontSrc: ["'self'"],
+          objectSrc: ["'none'"],
+          upgradeInsecureRequests: [],
+        },
+      },
+      hsts: {
+        maxAge: 31536000,
+        includeSubDomains: true,
+        preload: true
+      }
+    }));
+    ```
+
+    **Belangrijke overwegingen:**
+    - Input validation en sanitization
+    - Secure session management
+    - Error handling zonder information leakage
+    - Dependency vulnerability monitoring
+
+=== "Jurist"
+    ### Legal compliance (NIS2, GDPR, cybersecurity wetgeving)
+
+    **Stappen:**
+    1. **NIS2 compliance** - Implementeer vereisten voor kritieke infrastructuur
+    2. **GDPR security measures** - Zorg voor 'state of the art' beveiliging artikel 32
+    3. **Incident notification** - Stel procedures op voor meldplicht datalekken
+    4. **Data retention policies** - Ontwikkel juridisch conforme bewaarbeleid
+    5. **Cross-border data transfers** - Beoordeel international security requirements
+
+    **Wettelijk kader:**
+    - **NIS2-richtlijn**: Verhoogde security requirements voor essentiële diensten
+    - **GDPR Artikel 32**: Beveiliging van verwerking (technical and organizational measures)
+    - **Cybersecurity Act**: EU-certificering voor cybersecurity producten
+    - **Wet beveiliging netwerk- en informatiesystemen**: Nederlandse implementatie NIS2
+
+    **Belangrijke overwegingen:**
+    - Liability bij security incidenten
+    - Contractuele security obligations met leveranciers
+    - International jurisdiction bij cloud security
+    - Compliance monitoring en audit trails
+
+    **Template security clause:**
+    > **Beveiliging van persoonsgegevens:** Verwerkingsverantwoordelijke implementeert passende technische en organisatorische maatregelen als bedoeld in artikel 32 AVG, waaronder versleuteling, pseudonimisering, toegangscontrole en regelmatige security assessments.
+
+    **Concrete acties:**
+    - Ontwikkel juridische checklists voor security compliance
+    - Stel Data Protection Impact Assessments (DPIA) procedures op
+    - Adviseer over international security law implications
+
+=== "Inkoper"
+    ### Procurement van secure technology en services
+
+    **Stappen:**
+    1. **Security requirements specificeren** - Definieer security eisen in aanbestedingen
+    2. **Vendor security assessment** - Evalueer leveranciers op security maturity
+    3. **SLA onderhandelingen** - Stel security performance indicators vast
+    4. **Supply chain security** - Beoordeel security risico's in leveranciersketen
+    5. **Contract monitoring** - Monitor naleving security verplichtingen
+
+    **Template aanbestedingseis:**
+    > **Security standaarden:** Leverancier moet aantonen dat producten/diensten voldoen aan ISO 27001, NEN 7510 (zorgverlening), en/of Common Criteria EAL4+. Leverancier dient kwartaalrapportages te verstrekken over security incidents en remediation.
+
+    **Evaluation criteria:**
+    - **Security certifications**: ISO 27001, SOC 2 Type II, Common Criteria
+    - **Incident response**: 24/7 security operations center, escalation procedures
+    - **Vulnerability management**: Patch management SLA's, responsible disclosure
+    - **Compliance**: GDPR, NIS2, sector-specific regulations
+
+    **Belangrijke overwegingen:**
+    - TCO van security vs risk exposure
+    - Vendor lock-in preventie via security standards
+    - Exit-strategieën bij security non-compliance
+    - Insurance en liability coverage
+
+    **Concrete acties:**
+    - Gebruik gestandaardiseerde security vragenlijsten (bijv. SIG Questionnaire)
+    - Ontwikkel security scorecards voor vendor evaluation
+    - Implementeer third-party risk management programma
 
 ## Gerelateerde standaarden
 

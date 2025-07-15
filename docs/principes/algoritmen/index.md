@@ -6,6 +6,13 @@ relations:
   - veiligheid
   - privacy
   - gebruikersbehoefte
+roles:
+  - beleidsmaker: high
+  - developer: high
+  - jurist: high
+  - inkoper: high
+  - cxo: high
+  - projectleider: high
 ---
 
 # 11. Pas algoritmen verantwoord toe
@@ -74,34 +81,293 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
     </div>
 </div>
 
-### Implementatiestappen
+=== "Beleidsmaker"
+    ### Beleidsraamwerken voor verantwoorde AI
 
-- **Algoritme-impact-assessment**: Voer een risicoanalyse uit met het Algoritmekader
-- **Ontwerp met waarden**: Integreer ethische waarden in het ontwerp
-- **Datagovernance**: Zorg voor kwaliteit en rechtvaardig gebruik van data
-- **Documentatie**: Documenteer het algoritme, gebruik en beslissingen
-- **Testen op bias**: Controleer actief op vooroordelen in algoritmen
-- **Menselijk toezicht**: Implementeer betekenisvolle menselijke controle
-- **Periodieke evaluatie**: Evalueer algoritmen regelmatig
-- **Transparantierapportage**: Publiceer informatie over het gebruik in het Algoritmeregister
-- **Classificatie**: Bepaal het risiconiveau volgens de AI-verordening
+    **Stappen:**
+    1. **Ontwikkel AI-governance beleid** - Formuleer kaders voor verantwoorde AI-inzet binnen overheid
+    2. **Implementeer Algoritmekader** - Pas nationaal Algoritmekader toe op beleidsniveau
+    3. **Coördineer tussen ministeries** - Zorg voor consistente algoritme-governance
+    4. **Stakeholder consultatie** - Betrek burgers, experts bij algoritmebeleid
+    5. **Monitor AI Act compliance** - Volg EU AI-verordening implementatie
 
-### Uitdagingen en oplossingen
+    **Belangrijke overwegingen:**
+    - Balans tussen innovatie en risicobeheer
+    - Publieke waarden in algoritmische besluitvorming
+    - Transparantie vs bedrijfsgeheimen
+    - Democratische controle op AI-systemen
 
-- **Complexiteit vs. uitlegbaarheid**: Kies voor uitlegbare algoritmen waar mogelijk
-- **Opsporen van bias**: Implementeer tools en methoden voor het opsporen van vooroordelen
-- **Balans automatisering en menselijk oordeel**: Ontwerp hybride besluitvormingsprocessen
-- **Kennisgebrek**: Investeer in training en bewustwording
-- **Bestaande systemen**: Ontwikkel een plan voor het beoordelen van bestaande algoritmen
+    **Concrete acties:**
+    - Gebruik [Algoritmekader](https://minbzk.github.io/Algoritmekader/) voor beleidsontwikkeling
+    - Ontwikkel sectorsspecifieke AI-richtlijnen
+    - Stel ethische commissies in voor AI-governance
 
-### Algoritmeregistratie en -verantwoording
+=== "CXO/Bestuurder"
+    ### Strategische algoritme-governance
 
-- Identificeer en classificeer algoritmen op risico
-- Registreer hoog-risico algoritmen in het Algoritme Meldpunt
-- Registreer algoritme in het [Algoritmeregister](https://algoritmes.overheid.nl/nl)
-- Documenteer doel, werking en waarborgen
-- Maak openbaar algoritmebeschrijvingen voor hoog-risico algoritmen
-- Evalueer en actualiseer informatie regelmatig
+    **Stappen:**
+    1. **Bepaal AI-strategie** - Ontwikkel organisatiebrede visie op AI-inzet
+    2. **Risicoanalyse** - Beoordeel organisatorische risico's van algoritmen
+    3. **Investeerbeslissingen** - Prioriteer AI-investeringen op basis van impact
+    4. **Compliance framework** - Implementeer governance voor AI Act naleving
+    5. **KPI's definiëren** - Stel meetbare doelen voor verantwoorde AI
+
+    **Belangrijke overwegingen:**
+    - ROI van AI-investeringen vs risico's
+    - Organisatorische AI-readiness
+    - Publieke verantwoording en transparantie
+    - Change management voor AI-adoptie
+
+    **Concrete acties:**
+    - Gebruik [AI-verordening beslishulp](https://ai-verordening-beslishulp.apps.digilab.network/) voor strategische planning
+    - Stel AI-governancestructuren in
+    - Ontwikkel business cases voor verantwoorde AI
+
+=== "Projectleider"
+    ### Project-implementatie verantwoorde algoritmen
+
+    **Stappen:**
+    1. **Algoritme-impact-assessment** - Voer IAMA uit voor elk algoritme-project
+    2. **Stakeholder coördinatie** - Breng technische teams en compliance samen
+    3. **Implementatieplanning** - Integreer AI-governance in projectfasen
+    4. **Testen en validatie** - Organiseer bias-testing en performance-evaluatie
+    5. **Monitoring opzetten** - Implementeer continue monitoring algoritme-performance
+
+    **Belangrijke overwegingen:**
+    - Algoritme-lifecycle management
+    - Multidisciplinaire samenwerking
+    - Gebruikersacceptatie en training
+    - Documentatie en audit-trails
+
+    **Concrete acties:**
+    - Gebruik [Algoritme Management Toolkit](https://amt.prd.apps.digilab.network/) voor projectbeheer
+    - Plan pilotprojecten voor nieuwe algoritmen
+    - Stel registratie op in [Algoritmeregister](https://algoritmes.overheid.nl/nl)
+
+=== "Developer"
+    ### Technische implementatie verantwoorde AI
+
+    **Stappen:**
+    1. **Responsible AI by design** - Integreer ethische overwegingen in ontwikkeling
+    2. **Bias-detectie implementeren** - Bouw monitoring voor algoritmische vooroordelen
+    3. **Explainable AI** - Ontwikkel uitlegbare algoritmen en dashboards
+    4. **Data governance** - Implementeer kwaliteitscontroles voor trainingsdata
+    5. **Audit-trails** - Bouw logging voor besluitvorming en model-updates
+
+    **Code-voorbeeld - Bias detectie:**
+    ```python
+    import pandas as pd
+    from sklearn.metrics import confusion_matrix, classification_report
+    from fairlearn.metrics import demographic_parity_difference
+
+    def detect_bias(y_true, y_pred, sensitive_features):
+        """Detecteer bias in algoritme-uitkomsten"""
+
+        # Bereken demographic parity
+        dp_diff = demographic_parity_difference(
+            y_true, y_pred, sensitive_features=sensitive_features
+        )
+
+        # Controleer op significante bias (> 0.1 verschil)
+        if abs(dp_diff) > 0.1:
+            print(f"WAARSCHUWING: Bias gedetecteerd (verschil: {dp_diff:.3f})")
+            return False
+
+        return True
+
+    # Gebruik in productie
+    def evaluate_algorithm(model, X_test, y_test, geslacht):
+        predictions = model.predict(X_test)
+
+        # Controleer bias per beschermde eigenschap
+        is_fair = detect_bias(y_test, predictions, geslacht)
+
+        if not is_fair:
+            # Log naar audit-systeem
+            log_bias_incident(model_id, dp_diff, timestamp)
+
+        return predictions, is_fair
+    ```
+
+    **Belangrijke overwegingen:**
+    - Model-interpretabiliteit vs performance
+    - Continuous monitoring in productie
+    - Data privacy en algoritmische transparantie
+    - Automated bias testing in CI/CD
+
+    **Concrete acties:**
+    - Gebruik [Unsupervised Bias Detection Tool](https://algorithmaudit.eu/technical-tools/bdt/)
+    - Implementeer [LLM Benchmark](https://github.com/MinBZK/llm-benchmark) voor taalmodellen
+    - Ontwikkel model-cards voor algoritme-documentatie
+
+=== "Jurist"
+    ### Juridische compliance algoritmen
+
+    **Stappen:**
+    1. **AI Act compliance** - Toets algoritmen op EU AI-verordening vereisten
+    2. **AVG-naleving** - Beoordeel geautomatiseerde besluitvorming op privacy-rechten
+    3. **Algoritmische transparantie** - Implementeer recht op uitleg voor burgers
+    4. **Contractuele waarborgen** - Stel AI-leverancier contracten op
+    5. **Incident-procedures** - Ontwikkel procedures voor algoritme-fouten
+
+    **Belangrijke overwegingen:**
+    - Classificatie volgens AI Act risiconiveaus
+    - Rechten van betrokkenen bij geautomatiseerde besluitvorming
+    - Aansprakelijkheid bij algoritmische fouten
+    - Cross-border AI-services compliance
+
+    **Concrete acties:**
+    - Gebruik [AI-verordening beslishulp](https://ai-verordening-beslishulp.apps.digilab.network/) voor juridische beoordeling
+    - Ontwikkel juridische checklists voor algoritme-evaluatie
+    - Stel template-contracten op voor AI-leveranciers
+
+    **Template juridische clausule:**
+    > **Algoritmische transparantie:** Leverancier garandeert dat AI-systemen voldoen aan art. 13-15 AVG betreffende informatieverschaffing en het recht op uitleg bij geautomatiseerde besluitvorming, conform nationaal Algoritmekader.
+
+=== "Inkoper"
+    ### Inkoop verantwoorde AI-oplossingen
+
+    **Stappen:**
+    1. **AI-aanbestedingseisen** - Formuleer responsible AI-vereisten in tenders
+    2. **Leveranciersevaluatie** - Beoordeel AI-providers op ethische AI-praktijken
+    3. **Algoritme-audits** - Eis toegang tot algoritme-werking voor evaluatie
+    4. **SLA-onderhandelingen** - Stel eisen voor bias-monitoring en transparantie
+    5. **Contractbeheer** - Monitor naleving AI-governance in contracten
+
+    **Template aanbestedingseis:**
+    > **Verantwoorde AI:** Leverancier moet aantonen dat AI-systemen voldoen aan EU AI Act vereisten voor het betreffende risiconiveau. Algoritmen moeten geregistreerd worden in het Nederlandse Algoritmeregister en voorzien zijn van bias-monitoring conform het Algoritmekader.
+
+    **Belangrijke overwegingen:**
+    - Vendor lock-in preventie voor AI-platforms
+    - Algoritme-auditrechten in contracten
+    - Data-ownership bij AI-training
+    - Exit-strategieën voor AI-services
+
+    **Concrete acties:**
+    - Ontwikkel AI-security vragenlijsten voor leveranciers
+    - Stel contractuele eisen op voor algoritme-transparantie
+    - Gebruik standardiseerde AI-evaluatiecriteria
+
+    **Evaluatiecriteria AI-leveranciers:**
+    - Compliance met Algoritmekader en AI Act
+    - Beschikbaarheid van explainable AI-functionaliteit
+    - Bias-testing en monitoring capabilities
+    - Audit-trails en logging-functionaliteit
+    - Support voor het Nederlandse Algoritmeregister
+
+## Rol-specifieke perspectieven
+
+!!! tip "Voor beleidsmakers"
+    **Beleidsraamwerken voor verantwoorde AI-governance**
+
+    - Ontwikkel coherent beleid dat innovatie en risicobeheer balanceert
+    - Stel kaders op voor algorithmische transparantie en publieke verantwoording
+    - Coördineer tussen ministeries voor consistente AI-governance
+    - Monitor internationale ontwikkelingen (EU AI Act, UNESCO AI Ethics)
+    - Organiseer stakeholderconsultaties over AI-risico's en -kansen
+
+    **Concrete acties:**
+    - Implementeer het Algoritmekader op beleidsniveau
+    - Ontwikkel sectorsspecifieke AI-richtlijnen
+    - Stel ethische commissies in voor AI-governance
+    - Formuleer transparantievereisten voor overheidsbesluitvorming
+
+!!! abstract "Voor bestuurders"
+    **Strategische algoritme-governance**
+
+    - Bepaal organisatiebrede AI-strategie met focus op verantwoorde inzet
+    - Evalueer AI-investeringen op basis van risico-impact analyses
+    - Stel budgetramingen op voor compliance en monitoring-infrastructuur
+    - Communiceer AI-business cases naar bestuurders met ethische overwegingen
+    - Balanceer innovatiesnelheid met transparantie en controleerbaarheid
+
+    **Concrete acties:**
+    - Ontwikkel AI-governance structuren voor de organisatie
+    - Stel KPI's op voor verantwoorde AI-adoptie
+    - Plan gefaseerde implementatie met pilotprojecten
+    - Investeer in AI-literacy voor management en medewerkers
+
+!!! question "Voor projectleiders"
+    **Verantwoorde algoritme-implementatie in projecten**
+
+    - Integreer AI-governance in projectplanning en risicoanalyse
+    - Coördineer tussen technische teams en compliance afdelingen
+    - Plan algoritme-implementaties met focus op transparantie
+    - Organiseer bias-testing en performance-evaluatie
+    - Monitor projectvoortgang tegen verantwoorde AI-criteria
+
+    **Concrete acties:**
+    - Gebruik IAMA (Impact Assessment Mensenrechten en Algoritmen)
+    - Plan multidisciplinaire samenwerking voor algoritme-ontwikkeling
+    - Stel algoritme-registratie en documentatie op
+    - Ontwikkel training voor algoritme-gebruikers
+
+!!! code "Voor ontwikkelaars"
+    **Technische implementatie verantwoorde AI**
+
+    - Implementeer responsible AI by design principes
+    - Bouw bias-detectie en monitoring in algoritmen
+    - Ontwikkel explainable AI-functionaliteit voor transparantie
+    - Implementeer data governance voor kwaliteitscontroles
+    - Pas security-by-design toe in AI-systemen
+
+    **Concrete acties:**
+    - Gebruik bias-detectie tools in development workflow
+    - Implementeer model-interpretability frameworks
+    - Ontwikkel audit-trails voor algoritme-beslissingen
+    - Bouw dashboards voor algorithm performance monitoring
+
+    **Code-voorbeeld continuous bias monitoring:**
+    ```python
+    def continuous_bias_monitoring(model, production_data):
+        \"\"\"Monitor bias in productie-algoritmen\"\"\"
+
+        # Controleer performance per beschermde groep
+        groups = ['geslacht', 'leeftijd', 'etniciteit']
+
+        for group in groups:
+            fairness_metrics = calculate_fairness_metrics(
+                model, production_data, sensitive_attr=group
+            )
+
+            if fairness_metrics['disparity'] > BIAS_THRESHOLD:
+                trigger_bias_alert(model_id, group, fairness_metrics)
+
+        return fairness_metrics
+    ```
+
+!!! warning "Voor juristen"
+    **Juridische compliance algoritmen**
+
+    - Toets algoritmen op EU AI Act naleving en risicoklassificatie
+    - Analyseer juridische risico's van geautomatiseerde besluitvorming
+    - Adviseer over transparantievereisten en recht op uitleg
+    - Beoordeel AI-leverancier contracten op compliance vereisten
+    - Ontwikkel incident-procedures voor algoritme-fouten
+
+    **Concrete acties:**
+    - Ontwikkel juridische checklists voor algoritme-evaluatie
+    - Stel template-contracten op voor AI-leveranciers
+    - Adviseer over AVG-naleving bij geautomatiseerde besluitvorming
+    - Implementeer procedures voor algorithmische transparantie
+
+!!! note "Voor inkopers"
+    **Inkoop verantwoorde AI-oplossingen**
+
+    - Formuleer responsible AI-vereisten in aanbestedingen
+    - Evalueer AI-providers op ethische AI-praktijken en compliance
+    - Onderhandel over algoritme-transparantie en audit-rechten
+    - Beoordeel Total Cost of Ownership inclusief compliance-kosten
+    - Stel exit-strategieën op voor AI-vendor wijzigingen
+
+    **Concrete acties:**
+    - Gebruik gestandaardiseerde AI-ethics vragenlijsten
+    - Ontwikkel scoringsmodellen voor responsible AI-provider evaluatie
+    - Stel contractuele eisen op voor algoritme-documentatie
+    - Implementeer performance indicators voor AI-leveranciers
+
+    **Template aanbestedingseis:**
+    > "Leverancier moet aantonen dat AI-systemen voldoen aan EU AI Act vereisten voor het relevante risiconiveau. Algoritmen moeten voorzien zijn van bias-monitoring, explainable AI-functionaliteit, en geschikt zijn voor registratie in het Nederlandse Algoritmeregister conform het Algoritmekader."
 
 ## Gerelateerde hulpmiddelen
 

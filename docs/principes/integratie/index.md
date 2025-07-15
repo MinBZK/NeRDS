@@ -5,6 +5,13 @@ relations:
   - open-standaarden
   - servicestandaard
   - samenwerking
+roles:
+  - beleidsmaker: medium
+  - developer: high
+  - jurist: medium
+  - inkoper: medium
+  - cxo: high
+  - projectleider: high
 ---
 
 # 9. Integreer en pas technologie aan
@@ -53,50 +60,164 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
     </div>
 </div>
 
-### Integratie-aanpak
+=== "Beleidsmaker"
+    ### Beleidskaders voor systeemintegratie
 
-1. **Ken je landschap**: Inventariseer bestaande systemen, processen en datastromen
-2. **Identificeer integratiepunten**: Bepaal waar nieuwe systemen moeten aansluiten
-3. **Evalueer impact**: Beoordeel de gevolgen van veranderingen op het geheel
-4. **Kies passende patronen**: Selecteer de juiste integratiemethoden en -technologieën
-5. **Plan gefaseerd**: Implementeer veranderingen geleidelijk om risico's te beperken
-6. **Test end-to-end**: Valideer de volledige integratie, niet alleen individuele componenten
-7. **Monitor prestaties**: Blijf integratiepunten bewaken op effectiviteit en efficiëntie
+    **Stappen:**
+    1. **Ontwikkel interoperabiliteitsbeleid** - Formuleer kaders voor gegevensuitwisseling tussen overheidslagen
+    2. **Promoot open standaarden** - Bevorder adoptie van NORA-principes en API Design Rules
+    3. **Coördineer sectoroverstijgend** - Zorg voor consistente integratiestrategieën tussen ministeries
+    4. **Stel governance-structuren in** - Ontwikkel bestuurlijke kaders voor Common Ground-adoptie
+    5. **Monitor naleving** - Evalueer organisaties op interoperabiliteit en standaardisatie
 
-### Integratiepatronen en -technologieën
+    **Belangrijke overwegingen:**
+    - Balans tussen innovatie en stabiliteit bestaande systemen
+    - Juridische kaders voor gegevensuitwisseling tussen organisaties
+    - Economische impact van grootschalige systeemintegratie
+    - Europese interoperabiliteitsrichtlijnen (EIF)
 
-- **API's**: Application Programming Interfaces voor gestructureerde gegevensuitwisseling
-- **Middleware**: Software die verschillende applicaties verbindt
-- **Enterprise Service Bus (ESB)**: Centraal communicatiekanaal tussen systemen
-- **Microservices**: Modulaire architectuur die flexibele integratie ondersteunt
-- **ETL-processen**: Extract, Transform, Load voor databewegingen
-- **Event-driven architectuur**: Systemen communiceren via gebeurtenissen
-- **Hybride cloud**: Combinatie van on-premise en cloud-oplossingen
+=== "CXO/Bestuurder"
+    ### Strategische integratiegovernance en -architectuur
 
-### Uitdagingen en oplossingen
+    **Stappen:**
+    1. **Bepaal integratievisie** - Ontwikkel organisatiebrede strategie voor systeemintegratie
+    2. **Evalueer architectuurvolwassenheid** - Beoordeel huidige integratielandschap en -capaciteit
+    3. **Investeer in platformstrategie** - Ontwikkel herbruikbare integratiecomponenten
+    4. **Risicoanalyse** - Identificeer kritieke integratieafhankelijkheden en single points of failure
+    5. **KPI's definiëren** - Stel meetbare doelen voor integratieperformance en -kosten
 
-- **Legacy systemen**: Ontwikkel adaptors of wrappers voor oudere technologie
-- **Dataformaten**: Gebruik standaarden en transformaties voor compatibiliteit
-- **Verschillende snelheden**: Implementeer bimodale IT om innovatie en stabiliteit te balanceren
-- **Beveiligingsgrenzen**: Ontwikkel veilige integratiepunten tussen verschillende beveiligingszones
-- **Organizational silos**: Bevorder samenwerking tussen afdelingen en teams
+    **Belangrijke overwegingen:**
+    - TCO van integratieoplossingen vs point-to-point koppelingen
+    - Organisatorische impact van gedeelde datasystemen
+    - Vendor lock-in preventie bij integratieplatforms
+    - Compliance met sectorspecifieke regelgeving
 
-### Best practices voor succesvolle integratie
+=== "Projectleider"
+    ### Projectimplementatie van integratieoplossingen
 
-- **Gemeenschappelijke standaarden**: Bevorder het gebruik van open standaarden
-- **Loose coupling**: Minimaliseer directe afhankelijkheden tussen systemen
-- **Documentatie**: Houd architectuurdiagrammen en integratiepunten actueel
-- **Testen en monitoring**: Controleer regelmatig integratiepunten op werking
-- **Governance**: Ontwikkel richtlijnen voor het toevoegen van nieuwe systemen
-- **Change management**: Coördineer veranderingen over meerdere systemen heen
+    **Stappen:**
+    1. **Integratie-assessment** - Inventariseer bestaande systemen en integratiepunten
+    2. **Stakeholder alignment** - Breng eigenaren van verschillende systemen samen
+    3. **Gefaseerde aanpak** - Plan incrementele integratie om risico's te beperken
+    4. **End-to-end testing** - Organiseer uitgebreide integratietesten
+    5. **Change management** - Coördineer aanpassingen over meerdere systemen
 
-### Overwegingen voor toekomstbestendigheid
+    **Belangrijke overwegingen:**
+    - Minimale service-onderbreking tijdens integratiewijzigingen
+    - Rollback-strategieën bij gefaalde integraties
+    - Training voor teams die met geïntegreerde systemen werken
+    - Monitoring en performance-evaluatie van integratieoplossingen
 
-- Voorzie uitbreidbaarheid voor toekomstige integraties
-- Documenteer interfaces en datamodellen grondig
-- Ontwikkel strategieën voor migratie en uitfasering
-- Blijf open standaarden volgen voor langetermijncompatibiliteit
-- Evalueer regelmatig het technologielandschap op efficiëntie en effectiviteit
+=== "Developer"
+    ### Technische integratie-implementatie
+
+    **Stappen:**
+    1. **API-first architectuur** - Ontwerp systemen met standaard REST/GraphQL interfaces
+    2. **Middleware implementatie** - Gebruik ESB of moderne integratieplatforms
+    3. **Event-driven patronen** - Implementeer asynchrone communicatie tussen systemen
+    4. **Monitoring en observability** - Stel distributed tracing en logging in
+    5. **Security by design** - Implementeer OAuth2, mutual TLS voor veilige integratie
+
+    **Code-voorbeeld - API integratie met NLX:**
+    ```python
+    # NLX service configuratie voor gegevensuitwisseling
+    import requests
+    from nlx_client import NLXClient
+
+    class GegevensUitwisselingService:
+        def __init__(self, nlx_endpoint, cert_path, key_path):
+            self.client = NLXClient(
+                endpoint=nlx_endpoint,
+                cert_file=cert_path,
+                key_file=key_path
+            )
+
+        def get_basisregistratie_data(self, bsn):
+            """Haal gegevens op uit basisregistratie via NLX"""
+            try:
+                response = self.client.get(
+                    service='brp-service',
+                    path=f'/personen/{bsn}',
+                    headers={'Content-Type': 'application/json'}
+                )
+                return response.json()
+            except Exception as e:
+                self.handle_integration_error(e)
+
+        def handle_integration_error(self, error):
+            """Centraliseerde foutafhandeling voor integraties"""
+            # Log error voor monitoring
+            # Implement circuit breaker pattern
+            # Fallback naar alternatieve databron
+            pass
+    ```
+
+    **FSC implementatie-voorbeeld:**
+    ```yaml
+    # FSC service definitie
+    apiVersion: fsc.gov.nl/v1
+    kind: Service
+    metadata:
+      name: gemeente-service
+      namespace: fsc-services
+    spec:
+      endpoints:
+        - name: basisregistratie
+          url: https://api.gemeente.nl/brp/v1
+          methods: [GET, POST]
+          authentication:
+            type: mutual-tls
+            certificates:
+              - name: gemeente-cert
+                path: /etc/certs/gemeente.crt
+      authorization:
+        policies:
+          - name: only-authorized-gemeentes
+            rules:
+              - organizations: ["gemeente-amsterdam", "gemeente-rotterdam"]
+                permissions: ["read", "write"]
+    ```
+
+    **Belangrijke overwegingen:**
+    - Implementatie van API Design Rules voor Nederlandse overheid
+    - Gebruik van Common Ground componenten waar mogelijk
+    - Retry-mechanismen en circuit breakers voor veerkracht
+    - Compliance met logging en audit-vereisten
+
+=== "Jurist"
+    ### Juridische compliance bij systeemintegratie
+
+    **Stappen:**
+    1. **AVG-naleving** - Toets gegevensuitwisseling op rechtmatigheid en proportionaliteit
+    2. **Verwerkersovereenkomsten** - Formuleer juridische kaders voor gedeelde systemen
+    3. **Doelbinding** - Zorg dat gegevensuitwisseling binnen wettelijke doelen blijft
+    4. **Transparantie** - Implementeer traceability voor gegevensstromen
+    5. **Incidentrespons** - Ontwikkel procedures voor datalekken in geïntegreerde systemen
+
+    **Belangrijke overwegingen:**
+    - Rechtmatigheid van gegevensuitwisseling tussen organisaties
+    - Aansprakelijkheid bij incidenten in gedeelde systemen
+    - Audit-trails voor compliance-monitoring
+    - Jurisdictie en toepasselijk recht bij cross-border integraties
+
+=== "Inkoper"
+    ### Inkoopstrategieën voor integratieoplossingen
+
+    **Stappen:**
+    1. **Marktverkenning** - Evalueer leveranciers op interoperabiliteit en open standaarden
+    2. **Aanbestedingseisen** - Specificeer vereisten voor API's, documentatie en support
+    3. **Vendor lock-in preventie** - Stel eisen voor data-portabiliteit en open interfaces
+    4. **SLA-onderhandelingen** - Definieer uptime-eisen voor kritieke integraties
+    5. **TCO-evaluatie** - Beoordeel totale kosten van integratie en onderhoud
+
+    **Template aanbestedingseis:**
+    > **Interoperabiliteit:** Leverancier moet aantonen dat de oplossing voldoet aan Nederlandse API Design Rules en ondersteuning biedt voor Common Ground-principes. APIs moeten beschikbaar zijn in OpenAPI 3.0 specificatie met volledige documentatie.
+
+    **Belangrijke overwegingen:**
+    - Standaardisatie op Common Ground-componenten
+    - Contractuele eisen voor API-backward compatibility
+    - Technische support voor complexe integratieprojecten
+    - Exit-strategieën en data-migratie bij leverancierswisseling
 
 ## Gerelateerde standaarden
 

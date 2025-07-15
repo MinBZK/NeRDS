@@ -5,6 +5,13 @@ relations:
   - gebruikersbehoeften
   - toegankelijkheid
   - integratie
+roles:
+  - beleidsmaker: high
+  - cxo: high
+  - projectleider: high
+  - developer: medium
+  - jurist: medium
+  - inkoper: medium
 ---
 
 # 14. Voldoe aan de servicestandaard
@@ -53,70 +60,190 @@ Door te voldoen aan de servicestandaard, leveren overheidsorganisaties diensten 
     </div>
 </div>
 
-#### 1. Begrijp je gebruikers en hun behoeften
+=== "Beleidsmaker"
+    ### Beleidskaders voor service compliance
 
-- Onderzoek wie je gebruikers zijn en wat ze willen bereiken
-- Valideer aannames met gebruikersonderzoek
-- Blijf gebruikersfeedback verzamelen en verwerken
+    **Stappen:**
+    1. **Formuleer servicestandaard beleid** - Ontwikkel kaders voor consistente dienstverlening
+    2. **Coördineer tussen organisaties** - Zorg voor uniforme implementatie binnen overheid
+    3. **Stel kwaliteitsnormen vast** - Bepaal minimumstandaarden voor overheidsdiensten
+    4. **Monitor naleving** - Ontwikkel toezichtmechanismen voor servicestandaard
+    5. **Evalueer effectiviteit** - Beoordeel impact op gebruikerstevredenheid
 
-#### 2. Los hele problemen op
+    **Belangrijke overwegingen:**
+    - Balans tussen standaardisatie en innovatie
+    - Afstemming met EU-dienstverlening (Single Digital Gateway)
+    - Burgerparticipatie in beleidsvorming
+    - Compliance met toegankelijkheidsverordening
 
-- Richt je op de volledige gebruikersreis, niet alleen het digitale deel
-- Werk over organisatiegrenzen heen
-- Vermijd geïsoleerde oplossingen die niet in de bredere context passen
+    **Policy frameworks:**
+    - Nederlandse Digitaliseringsstrategie
+    - Agenda NL DIGITAAL
+    - Wet modernisering elektronisch bestuurlijk verkeer
+    - Omgevingswet digitale ondersteuning
 
-#### 3. Zorg voor een multidisciplinair team
+=== "CXO/Bestuurder"
+    ### Strategische service governance
 
-- Breng verschillende expertises samen (ontwerp, ontwikkeling, beleid, etc.)
-- Zorg voor directe betrokkenheid van alle benodigde disciplines
-- Stimuleer nauwe samenwerking in plaats van sequentiële overdracht
+    **Stappen:**
+    1. **Bepaal service vision** - Ontwikkel organisatiebrede visie op dienstverlening
+    2. **Investeer in user research** - Budgetteer voor gebruikersonderzoek capaciteit
+    3. **Stel service KPI's vast** - Definieer meetbare doelen voor dienstverlening
+    4. **Organiseer multidisciplinaire teams** - Breng expertise samen voor service design
+    5. **Implementeer continue verbetering** - Maak iteratieve verbetering onderdeel van cultuur
 
-#### 4. Creëer en itereer met gebruikers
+    **Belangrijke overwegingen:**
+    - ROI van gebruikersgerichte dienstverlening
+    - Organisatorische transformatie naar service-first denken
+    - Investering in user experience capabilities
+    - Change management voor service-mindset
 
-- Ontwikkel diensten incrementeel
-- Test vroeg en vaak met echte gebruikers
-- Verbeter continu op basis van feedback en gebruik
+    **Service governance model:**
+    - Service owner per dienst
+    - User research centrum voor alle diensten
+    - Interdisciplinaire service teams
+    - Continuous improvement processen
 
-#### 5. Zorg voor inclusie
+=== "Projectleider"
+    ### Project implementatie servicestandaard
 
-- Maak diensten die voor iedereen toegankelijk zijn
-- Houd rekening met verschillende vaardigheden, apparaten en omstandigheden
-- Bied alternatieven voor gebruikers die de digitale dienst niet kunnen gebruiken
+    **Stappen:**
+    1. **Service assessment** - Evalueer huidige dienst tegen servicestandaard
+    2. **Gebruikersonderzoek plannen** - Organiseer onderzoek naar gebruikersbehoeften
+    3. **Multidisciplinair team vormen** - Breng design, development, beleid samen
+    4. **Iteratieve ontwikkeling** - Plan sprints met gebruikerfeedback
+    5. **Assessment en verbetering** - Doorloop evaluatiecyclus servicestandaard
 
-#### 6. Gebruik bewezen methoden en technologieën
+    **Belangrijke overwegingen:**
+    - Gebruikers betrekken gedurende hele project
+    - Balans tussen scope en gebruikersbehoeften
+    - Documentatie voor servicestandaard compliance
+    - Testen met echte gebruikers in realistische scenario's
 
-- Volg best practices en standaarden
-- Maak gebruik van bestaande, bewezen componenten
-- Vermijd onnodige complexiteit of experimentele technologieën
+    **Project toolkit:**
+    - Service design canvas
+    - User journey mapping tools
+    - Usability testing protocols
+    - Service standard assessment templates
 
-#### 7. Opereer betrouwbaar en veilig
+=== "Developer"
+    ### Technische service implementatie
 
-- Bouw robuuste, betrouwbare diensten
-- Implementeer passende beveiligingsmaatregelen
-- Zorg voor transparantie over datagebruik en privacy
+    **Stappen:**
+    1. **API-first design** - Ontwikkel services met API-first benadering
+    2. **Toegankelijkheid implementeren** - Volg WCAG 2.1 AA richtlijnen
+    3. **Performance optimalisatie** - Zorg voor snelle, betrouwbare services
+    4. **Monitoring en analytics** - Implementeer gebruiksmetingen
+    5. **Security by design** - Integreer beveiliging in service architectuur
 
-### Het beoordelingsproces
+    **Code-voorbeeld - Toegankelijke service component:**
+    ```javascript
+    // React component met WCAG compliance
+    import { useState } from 'react';
 
-- **Zelfevaluatie**: Beoordeel je eigen dienst aan de hand van de standaard
-- **Onafhankelijke toetsing**: Laat je dienst beoordelen door experts
-- **Continu verbeteren**: Gebruik beoordelingen om diensten te verbeteren
-- **Publicatie van resultaten**: Transparantie over hoe diensten presteren
+    function AccessibleServiceForm() {
+      const [formData, setFormData] = useState({});
+      const [errors, setErrors] = useState({});
 
-### Implementatie in de praktijk
+      return (
+        <form
+          onSubmit={handleSubmit}
+          aria-labelledby="service-form-title"
+          noValidate
+        >
+          <h2 id="service-form-title">Aanvraag {serviceName}</h2>
 
-- Start met de servicestandaard vanaf het begin van het project
-- Documenteer hoe je aan de standaard voldoet
-- Gebruik assessments als leermomenten, niet alleen als controlepunten
-- Deel ervaringen en lessen binnen en buiten je organisatie
-- Bouw een cultuur van gebruikersgerichtheid en continue verbetering
+          <div className="form-group">
+            <label htmlFor="bsn" className="required">
+              BSN
+            </label>
+            <input
+              id="bsn"
+              type="text"
+              aria-describedby="bsn-help bsn-error"
+              aria-invalid={errors.bsn ? 'true' : 'false'}
+              required
+            />
+            <div id="bsn-help" className="help-text">
+              Vul je 9-cijferige BSN in
+            </div>
+            {errors.bsn && (
+              <div id="bsn-error" className="error-message" role="alert">
+                {errors.bsn}
+              </div>
+            )}
+          </div>
 
-### Uitdagingen en oplossingen
+          <button type="submit" className="primary-button">
+            Aanvraag indienen
+          </button>
+        </form>
+      );
+    }
+    ```
 
-- **Legacy systemen**: Ontwikkel een strategie voor geleidelijke verbetering
-- **Organisatorische grenzen**: Bevorder samenwerking tussen afdelingen
-- **Beperkte middelen**: Focus op de meest kritieke aspecten eerst
-- **Veranderingsmanagement**: Investeer in cultuurverandering en training
-- **Complexe regelgeving**: Vertaal complexiteit naar gebruiksvriendelijke ervaringen
+    **Technische standaarden:**
+    - NL Design System componenten
+    - REST API Design Rules
+    - Dutch API Strategy
+    - WCAG 2.1 AA compliance
+    - DigiD/eHerkenning integratie
+
+    **Belangrijke overwegingen:**
+    - Progressive enhancement voor alle gebruikers
+    - Cross-browser compatibiliteit
+    - Mobile-first responsive design
+    - Offline functionality waar mogelijk
+
+=== "Jurist"
+    ### Juridische compliance dienstverlening
+
+    **Stappen:**
+    1. **Dienstverlening verplichtingen** - Analyseer wettelijke verplichtingen
+    2. **Gebruikersrechten waarborgen** - Zorg voor naleving burgerrechten
+    3. **Privacy by design** - Implementeer gegevensbescherming in services
+    4. **Toegankelijkheid compliance** - Zorg voor naleving toegankelijkheidsverordening
+    5. **Klacht- en bezwaarprocedures** - Implementeer rechtsmiddelen
+
+    **Belangrijke overwegingen:**
+    - Algemene wet bestuursrecht (Awb) compliance
+    - Wet modernisering elektronisch bestuurlijk verkeer
+    - Toegankelijkheidsverordening overheidswebsites
+    - AVG-naleving in service design
+
+    **Juridische frameworks:**
+    - Dienstenrichtlijn implementatie
+    - Single Digital Gateway verordening
+    - eIDAS verordening voor identificatie
+    - Wet digitale overheid
+
+    **Template service voorwaarden:**
+    > **Gebruikersrechten:** Deze service voldoet aan de Servicestandaard. U heeft recht op toegankelijke, gebruiksvriendelijke dienstverlening. Voor klachten over de service kunt u contact opnemen via [contactgegevens] of bezwaar indienen volgens de Awb.
+
+=== "Inkoper"
+    ### Inkoop servicestandaard-compliant solutions
+
+    **Stappen:**
+    1. **Servicestandaard in aanbesteding** - Formuleer eisen voor compliance
+    2. **Leverancier evaluatie** - Beoordeel providers op user experience capabilities
+    3. **SLA service kwaliteit** - Contracteer service levels en gebruikerstevredenheid
+    4. **User research vereisten** - Eis gebruikersonderzoek in ontwikkelproces
+    5. **Toegankelijkheid eisen** - Stel WCAG 2.1 AA als minimum eis
+
+    **Aanbestedingstemplate:**
+    > **Servicestandaard compliance:** Leverancier moet aantonen dat geleverde diensten voldoen aan de Nederlandse Servicestandaard. Dit omvat gebruikersonderzoek, toegankelijkheid volgens WCAG 2.1 AA, en iteratieve verbetering op basis van gebruikersfeedback.
+
+    **Belangrijke overwegingen:**
+    - User experience expertise in leveranciersselectie
+    - Contractuele eisen voor gebruikerstesten
+    - Service design methodologie in scope
+    - Toegankelijkheidsaudit als acceptatiecriterium
+
+    **Evaluatiecriteria:**
+    - Ervaring met government service design
+    - Portfolio toegankelijke overheidsdiensten
+    - User research methodologie
+    - Compliance met NL Design System
 
 ## Gerelateerde standaarden
 

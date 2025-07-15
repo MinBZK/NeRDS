@@ -6,6 +6,13 @@ relations:
   - toegankelijkheid
   - open-source
   - data
+roles:
+  - developer: high
+  - projectleider: high
+  - cxo: high
+  - beleidsmaker: medium
+  - jurist: medium
+  - inkoper: medium
 ---
 
 # 4. Gebruik open standaarden
@@ -61,42 +68,144 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
     </div>
 </div>
 
-### Technologie bouwen met open standaarden
+=== "Beleidsmaker"
+    ### Beleidskaders voor open standaarden
 
-- Inventariseer standaarden: Gebruik de [Beslisboom Open Standaarden](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden) voor verplichte en aanbevolen standaarden
-- Volg architectuurrichtlijnen: Pas [NORA](https://www.noraonline.nl/wiki/NORA_online) (Nederlandse Overheid Referentie Architectuur) en Common Ground toe
-- Implementeer RESTful API's: Ontwikkel volgens [NL API Strategie](https://docs.geostandaarden.nl/api/API-Strategie/) en [REST API Design Rules](https://www.forumstandaardisatie.nl/open-standaarden/rest-api-design-rules)
-- Vermijd gegevensduplicatie: Gebruik eenduidige databronnen
-- Documenteer met OpenAPI: Maak API-documentatie beschikbaar via Developer Overheid
-- Valideer en onderhoud: Test conformiteit en monitor standaardontwikkelingen
+    **Stappen:**
+    1. **Formuleer standaardenbeleid** - Ontwikkel coherent beleid voor open standaarden adoptie
+    2. **Coördineer tussen ministeries** - Zorg voor consistente standaarden-governance
+    3. **Monitor Forum Standaardisatie** - Volg ontwikkelingen in 'pas toe of leg uit'-lijst
+    4. **Stakeholder consultatie** - Betrek marktpartijen bij standaardisatieprocessen
+    5. **Internationale afstemming** - Participeer in EU-interoperabiliteitsframeworks
 
-#### Bij het inkopen van technologie
+    **Belangrijke overwegingen:**
+    - Balans tussen innovatie en bestaande standaarden
+    - Vendor lock-in preventie door open standaarden
+    - EU-interoperabiliteit en digitale soevereiniteit
+    - Compliance met Nederlandse wetgeving
 
-- Neem toepasselijke verplichte standaarden op in aanbestedingen
-- Vraag dat leveranciersstandaarden voldoen aan open standaarden principes
-- Volg overheidsbeleid voor publieke aanbestedingen van technologie
+=== "CXO/Bestuurder"
+    ### Strategische open standaarden governance
 
-### Overwegingen bij het kiezen van standaarden
+    **Stappen:**
+    1. **Bepaal interoperabiliteitsstrategie** - Ontwikkel organisatiebrede standaarden-visie
+    2. **Evalueer bestaande systemen** - Inventariseer huidige standaarden en gaps
+    3. **Budgettering standaarden** - Bereken kosten van standaarden-implementatie
+    4. **Risicoanalyse** - Beoordeel risico's van vendor lock-in en legacy systemen
+    5. **KPI's definiëren** - Stel meetbare doelen voor interoperabiliteit
 
-- **Technische geschiktheid**:
-      - Voldoet de standaard aan functionele vereisten?
-      - Is de standaard stabiel en volwassen?
-      - Zijn er voldoende implementaties beschikbaar?
-- **Strategische waarde:**
-      - Is de standaard breed geadopteerd in de markt en overheid?
-      - Is de standaard toekomstbestendig?
-      - Is er actieve doorontwikkeling en community?
-- **Praktische overwegingen:**
-      - Is er voldoende documentatie en ondersteuning beschikbaar?
-      - Voldoet de standaard aan veiligheids- en privacyeisen?
-      - Wat zijn de implementatie-en migratiekosten?
+    **Belangrijke overwegingen:**
+    - ROI van open standaarden vs proprietary oplossingen
+    - Organisatorische change management
+    - Leveranciersstrategie en vendor diversificatie
+    - Toekomstbestendigheid van standaarden
 
-### Uitdagingen en hoe deze te overwinnen
+=== "Projectleider"
+    ### Projectimplementatie open standaarden
 
-- **Legacy systemen**: Ontwikkel een migratieplan voor oudere systemen
-- **Technische expertise**: Investeer in training en kennisopbouw
-- **Snelle verandering**: Blijf op de hoogte van nieuwe ontwikkelingen
-- **Balans vinden**: Weeg nieuwe standaarden af tegen bewezen oplossingen
+    **Stappen:**
+    1. **Standaarden-assessment** - Evalueer welke standaarden van toepassing zijn
+    2. **Implementatieplan opstellen** - Ontwikkel gefaseerde invoering van standaarden
+    3. **Stakeholder coördinatie** - Breng technische teams en compliance samen
+    4. **Compliance monitoring** - Monitor naleving van verplichte standaarden
+    5. **Gebruikerstesten** - Organiseer testen voor interoperabiliteit
+
+    **Belangrijke overwegingen:**
+    - Minimale service-onderbreking tijdens implementatie
+    - Training en kennisoverdracht voor teams
+    - Integratie met bestaande systemen
+    - Monitoring van standaarden-conformiteit
+
+=== "Developer"
+    ### Technische implementatie open standaarden
+
+    **Stappen:**
+    1. **Inventariseer standaarden** - Gebruik [Beslisboom Open Standaarden](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden)
+    2. **Implementeer RESTful API's** - Ontwikkel volgens [NL API Strategie](https://docs.geostandaarden.nl/api/API-Strategie/)
+    3. **Documenteer met OpenAPI** - Maak API-documentatie beschikbaar
+    4. **Valideer conformiteit** - Test tegen standaarden-specificaties
+    5. **Monitor ontwikkelingen** - Volg updates van gebruikte standaarden
+
+    **Code-voorbeeld - OpenAPI specificatie:**
+    ```yaml
+    openapi: 3.0.0
+    info:
+      title: Overheids API
+      version: 1.0.0
+      description: API conform NL API Strategie
+    servers:
+      - url: https://api.overheid.nl/v1
+    paths:
+      /burgers:
+        get:
+          summary: Ophalen burgergegevens
+          parameters:
+            - name: bsn
+              in: query
+              required: true
+              schema:
+                type: string
+                pattern: '^[0-9]{9}$'
+          responses:
+            '200':
+              description: Succesvol opgehaald
+              content:
+                application/hal+json:
+                  schema:
+                    $ref: '#/components/schemas/Burger'
+    components:
+      schemas:
+        Burger:
+          type: object
+          properties:
+            bsn:
+              type: string
+              example: "123456789"
+            naam:
+              type: string
+              example: "Jan Jansen"
+    ```
+
+    **Belangrijke overwegingen:**
+    - Gebruik JSON-LD voor linked data
+    - Implementeer HTTPS en API-beveiliging
+    - Volg REST API Design Rules
+    - Test interoperabiliteit met andere systemen
+
+=== "Jurist"
+    ### Juridische compliance open standaarden
+
+    **Stappen:**
+    1. **Analyseer verplichte standaarden** - Toets compliance met 'pas toe of leg uit'-lijst
+    2. **Vendor lock-in preventie** - Beoordeel juridische risico's proprietary formaten
+    3. **Intellectueel eigendom** - Analyseer licenties van open standaarden
+    4. **Contractuele eisen** - Stel juridische vereisten voor leveranciers
+    5. **Compliance monitoring** - Monitor naleving van standaarden-verplichtingen
+
+    **Belangrijke overwegingen:**
+    - Juridische status van Forum Standaardisatie besluiten
+    - Aansprakelijkheid bij non-compliance
+    - Contractuele borging van standaarden-naleving
+    - Exit-strategieën bij vendor lock-in
+
+=== "Inkoper"
+    ### Inkoopvereisten open standaarden
+
+    **Stappen:**
+    1. **Formuleer aanbestedingseisen** - Specificeer verplichte open standaarden
+    2. **Leveranciersevaluatie** - Beoordeel standaarden-compliance van vendors
+    3. **SLA-onderhandelingen** - Stel eisen voor standaarden-naleving
+    4. **TCO-analyse** - Vergelijk kosten open vs proprietary standaarden
+    5. **Contractbeheer** - Monitor naleving van standaarden-verplichtingen
+
+    **Template aanbestedingseis:**
+    > **Open standaarden:** Leverancier moet aantonen dat de oplossing voldoet aan alle van toepassing zijnde verplichte standaarden uit de 'pas toe of leg uit'-lijst van het Forum Standaardisatie. API's moeten conform zijn aan de NL API Strategie en REST API Design Rules.
+
+    **Belangrijke overwegingen:**
+    - Vendor lock-in preventie via open standaarden
+    - Interoperabiliteit met bestaande systemen
+    - Toekomstbestendigheid van standaarden
+    - Migratiekosten bij standaarden-wijzigingen
 
 ## Gerelateerde standaarden
 

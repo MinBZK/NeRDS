@@ -5,6 +5,13 @@ relations:
   - open-standaarden
   - samenwerking
   - veiligheid
+roles:
+  - beleidsmaker: medium
+  - developer: high
+  - jurist: high
+  - inkoper: medium
+  - cxo: high
+  - projectleider: high
 ---
 
 # 3. Werk transparant en gebruik open source
@@ -61,49 +68,201 @@ Door open en transparant te werken en open source software te omarmen, draag je 
     </div>
 </div>
 
-### Implementatiestappen
+=== "Beleidsmaker"
+    ### Beleidskaders voor open source adoptie
 
-1. **Evalueer bestaande oplossingen:** Onderzoek eerst of er al geschikte open source alternatieven bestaan.
-2. **Publiceer eigen code**: Maak de broncode van je software openbaar, tenzij er specifieke redenen zijn om dit niet te doen
-3. **Gebruik open standaarden**: Zorg ervoor dat je systemen kunnen communiceren met andere systemen (zie [Gebruik open standaarden](../open-standaarden/index.md))
-4. **Documenteer grondig**: Maak het voor anderen gemakkelijk om je code te begrijpen en eraan bij te dragen
-5. **Bouw een gemeenschap**: Moedig bijdragen en feedback aan op je projecten (zie [Deel, hergebruik en werk samen](../samenwerking/index.md))
+    **Stappen:**
+    1. **Formuleer open source beleid** - Ontwikkel kaders voor transparante overheidssoftware
+    2. **Stakeholder consultatie** - Betrek burgers, bedrijfsleven bij open source strategieën
+    3. **Interdepartementale afstemming** - Zorg voor consistent open source beleid
+    4. **Monitor internationale ontwikkelingen** - Volg EU-initiatieven (Digital Single Market)
+    5. **Stel ethische richtlijnen op** - Bepaal transparantie-eisen voor overheidssoftware
 
-### Voordelen van het publiceren van je eigen code
+    **Belangrijke overwegingen:**
+    - Balans tussen transparantie en veiligheid
+    - Intellectual property rechten overheid
+    - Economische impact op Nederlandse IT-sector
+    - Compliance met EU-regelgeving
 
-- **Betere documentatie**: Stimuleert duidelijkere documentatie
-- **Schonere code**: Leidt tot nettere, beter onderhoudbare code
-- **Dataveiligheid**: Zorgt voor duidelijkheid rond beschermde gegevens
-- **Verbetering**: Creëert mogelijkheden voor suggesties ter verbetering
+    **Concrete acties:**
+    - Ontwikkel "open source first" beleidskaders
+    - Formuleer uitzonderingscriteria voor gesloten software
+    - Creëer incentives voor overheidsbrede open source adoptie
+    - Stel transparantie-eisen op voor aanbestede software
 
-### Overwegingen bij het kiezen van open source technologie
+=== "CXO/Bestuurder"
+    ### Strategische open source governance
 
-- **Voldoet het aan gebruikersbehoeften?** Beantwoordt de oplossing aan de specifieke eisen?
-- **Wat zijn de totale kosten?** Inclusief implementatie, migratie en ondersteuning
-- **Hoe volwassen is de code?** Is het een stabiel en actief onderhouden project?
-- **Welk ondersteuningsniveau bestaat er?** Is er een actieve gemeenschap of commerciële ondersteuning?
-- **Is het voldoende beveiligd?** Controleer veiligheidsgeschiedenis en updatefrequentie
-- **Is de licentie acceptabel?** Begrijp de licentievoorwaarden en -verplichtingen
+    **Stappen:**
+    1. **Bepaal open source strategie** - Ontwikkel organisatiebrede visie op transparantie
+    2. **Business case ontwikkelen** - Bereken ROI van open source vs proprietary software
+    3. **Risicoanalyse** - Beoordeel security, compliance en operationele risico's
+    4. **OSPO opzetten** - Implementeer Open Source Program Office
+    5. **KPI's definiëren** - Stel meetbare doelen voor open source adoptie
 
-### Wanneer je eigen code open source maakt
+    **Belangrijke overwegingen:**
+    - TCO van open source vs proprietary licenties
+    - Vendor lock-in preventie
+    - Talent acquisition en retention
+    - Organisatorische change management
 
-- Zorg ervoor dat er geen gevoelige informatie gepubliceerd wordt (zoals wachtwoorden en API-keys)
-- Zorg voor een duidelijke README met installatie en contributie-instructies
-- Kies een geschikte open source licentie (zie hieronder)
-- Onderhoud de documentatie actief
-- Wees responsief op issues en pull requests
+    **Concrete acties:**
+    - Stel open source governance committee op
+    - Ontwikkel business case voor inner-sourcing
+    - Plan gefaseerde migratie naar open source stack
+    - Investeer in ontwikkelaar training open source tools
 
-### Aanbevolen licentie voor overheidsprojecten
+=== "Projectleider"
+    ### Project implementatie van open source
 
-Voor Nederlandse overheidsprojecten wordt de **European Union Public Licence (EUPL v1.2)** aanbevolen. Deze licentie:
+    **Stappen:**
+    1. **Open source assessment** - Evalueer bestaande open source alternatieven
+    2. **Implementatieplan** - Ontwikkel gefaseerde overgang naar open source
+    3. **Community management** - Organiseer interne en externe samenwerking
+    4. **Kwaliteitsborging** - Stel processen op voor code reviews en testing
+    5. **Documentatie management** - Zorg voor gebruiksvriendelijke documentatie
 
-- Is specifiek ontwikkeld voor Europese overheidssoftware
-- Is juridisch gevalideerd in alle EU-talen
-- Heeft een "zwak wederkerig" karakter (wijzigingen in de originele code moeten onder dezelfde licentie worden gedeeld)
-- Is compatibel met andere populaire open source licenties
-- Voldoet aan de open source definitie
+    **Belangrijke overwegingen:**
+    - Minimale service-onderbreking tijdens transitie
+    - Team training en skill development
+    - Externe dependency management
+    - Contributie-processen naar upstream projecten
 
-Bij het publiceren van overheidscode is het raadzaam de EUPL-1.2 te gebruiken, tenzij er specifieke redenen zijn om een andere licentie te kiezen. Raadpleeg de [OSPO-NL kennisbank over OSS-licenties](https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/) voor meer informatie over licentietypes en overwegingen.
+    **Concrete acties:**
+    - Gebruik open source readiness assessments
+    - Plan pilot-projecten voor open source development
+    - Stel contributing guidelines op voor teamleden
+    - Organiseer hackathons en open source workshops
+
+=== "Developer"
+    ### Technische open source implementatie
+
+    **Stappen:**
+    1. **Code repository setup** - Configureer Git workflows en branching strategies
+    2. **CI/CD pipelines** - Implementeer geautomatiseerde testing en deployment
+    3. **Code quality gates** - Stel linting, security scanning en code coverage in
+    4. **Documentation as code** - Integreer documentatie in development workflow
+    5. **Community contributions** - Draag bij aan upstream open source projecten
+
+    **GitHub/GitLab workflow voorbeeld:**
+    ```yaml
+    # .github/workflows/ci.yml
+    name: CI/CD Pipeline
+    on:
+      push:
+        branches: [ main, develop ]
+      pull_request:
+        branches: [ main ]
+
+    jobs:
+      test:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v3
+        - name: Setup Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: '18'
+        - name: Install dependencies
+          run: npm ci
+        - name: Run tests
+          run: npm test
+        - name: Security audit
+          run: npm audit --audit-level=high
+        - name: License compliance check
+          run: npx license-checker --onlyAllow 'MIT;Apache-2.0;BSD-3-Clause;EUPL-1.2'
+    ```
+
+    **Code-voorbeeld - EUPL-1.2 header:**
+    ```javascript
+    /**
+     * Nederlandse Overheids Software
+     *
+     * Licensed under the EUPL, Version 1.2 or – as soon they will be approved by
+     * the European Commission - subsequent versions of the EUPL (the "Licence");
+     * You may not use this work except in compliance with the Licence.
+     * You may obtain a copy of the Licence at:
+     *
+     * https://joinup.ec.europa.eu/software/page/eupl
+     *
+     * Unless required by applicable law or agreed to in writing, software
+     * distributed under the Licence is distributed on an "AS IS" basis,
+     * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     * See the Licence for the specific language governing permissions and
+     * limitations under the Licence.
+     */
+    ```
+
+    **Belangrijke overwegingen:**
+    - Dependency vulnerability management
+    - SBOM (Software Bill of Materials) generatie
+    - Geautomatiseerde licentie compliance checking
+    - Security-first development practices
+
+=== "Jurist"
+    ### Juridische compliance voor open source
+
+    **Stappen:**
+    1. **Licentie-analyse** - Beoordeel compatibility verschillende open source licenties
+    2. **IP-rechten management** - Zorg voor duidelijke ownership en contribution agreements
+    3. **Compliance monitoring** - Stel processen op voor licentie-naleving
+    4. **Aansprakelijkheid** - Analyseer juridische risico's van open source gebruik
+    5. **Privacy compliance** - Toets open source tools op GDPR-naleving
+
+    **Licentie-compatibiliteit matrix:**
+    | Licentie | EUPL-1.2 | MIT | Apache-2.0 | GPL-3.0 |
+    |----------|----------|-----|------------|----------|
+    | EUPL-1.2 | ✅ | ✅ | ✅ | ✅ |
+    | MIT | ✅ | ✅ | ✅ | ❌ |
+    | Apache-2.0 | ✅ | ✅ | ✅ | ❌ |
+    | GPL-3.0 | ✅ | ❌ | ❌ | ✅ |
+
+    **Belangrijke overwegingen:**
+    - Wederkerigheid (copyleft) vs permissive licenties
+    - Patent-clausules in moderne licenties
+    - Liability en warranty disclaimers
+    - Export control compliance
+
+    **Concrete acties:**
+    - Ontwikkel juridische checklists voor open source adoptie
+    - Stel template Contributor License Agreements op
+    - Adviseer over EUPL-1.2 vs andere licenties
+    - Monitor wijzigingen in licentie-landschap
+
+=== "Inkoper"
+    ### Inkoopoverwegingen open source vs proprietary
+
+    **Stappen:**
+    1. **TCO-analyse** - Vergelijk totale kosten open source vs proprietary oplossingen
+    2. **Leveranciersevaluatie** - Beoordeel open source support providers
+    3. **SLA-onderhandelingen** - Stel eisen voor support en maintenance
+    4. **Exit-strategieën** - Zorg voor vendor lock-in preventie
+    5. **Contract management** - Monitor naleving open source licenties
+
+    **TCO-vergelijking template:**
+    | Kostenpost | Open Source | Proprietary |
+    |------------|-------------|-------------|
+    | Licentiekosten | €0 | €50.000/jaar |
+    | Implementatie | €25.000 | €30.000 |
+    | Support | €15.000/jaar | Inbegrepen |
+    | Customization | €10.000 | €40.000 |
+    | Training | €5.000 | €2.000 |
+    | **Totaal (3 jaar)** | **€85.000** | **€222.000** |
+
+    **Aanbestedingseis voorbeeld:**
+    > **Open source voorkeur:** Aanbieder dient aan te tonen waarom proprietary software noodzakelijk is indien geen open source alternatief wordt voorgesteld. Open source oplossingen krijgen 10% voorkeur in gunningscriteria.
+
+    **Belangrijke overwegingen:**
+    - Vendor lock-in risico's
+    - Community vs commerciële support
+    - Intellectual property ownership
+    - Long-term sustainability projecten
+
+    **Concrete acties:**
+    - Ontwikkel open source assessment frameworks
+    - Stel contractuele eisen op voor source code toegang
+    - Evalueer open source support ecosysteem
+    - Onderhandel over contributie-rechten bij customizations
 
 ## Gerelateerde hulpmiddelen
 

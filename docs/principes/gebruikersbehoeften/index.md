@@ -5,6 +5,13 @@ relations:
   - toegankelijkheid
   - privacy
   - servicestandaard
+roles:
+  - beleidsmaker: high
+  - developer: medium
+  - jurist: low
+  - inkoper: medium
+  - cxo: high
+  - projectleider: high
 ---
 
 # 1. Stel gebruikersbehoeften vast
@@ -53,25 +60,124 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
     </div>
 </div>
 
-### Onderzoek uitvoeren
+=== "Beleidsmaker"
+    ### Beleidskaders voor gebruikersgerichtheid
 
- Gebruikersonderzoek kan helpen bij het identificeren van:
+    **Stappen:**
+    1. **Formuleer gebruikersgerichte beleidsvisie** - Ontwikkel beleid dat burgerbehoeften centraal stelt
+    2. **Stel kaders voor gebruikersonderzoek** - Bepaal standaarden voor overheidsorganisaties
+    3. **Coördineer tussen ministeries** - Zorg voor consistente gebruikersgerichte aanpak
+    4. **Monitor digitale inclusie** - Volg toegankelijkheid van overheidsdiensten
+    5. **Evalueer beleidseffectiviteit** - Meet impact van gebruikersgerichte diensten
 
-- Risico's bij het introduceren of wijzigen van technologie
-- Vaardigheden die nodig zijn om technologie te leveren, gebruiken en beheren
-- Technologieën die nodig zijn voor serviceteams
-- Commerciële en operationele behoeften (bijvoorbeeld het buiten gebruik stellen van verouderde systemen)
+    **Belangrijke overwegingen:**
+    - Digitale inclusie en toegankelijkheid
+    - Representativiteit van gebruikersonderzoek
+    - Budgettering voor structureel gebruikersonderzoek
+    - Wet- en regelgeving rond dienstverlening
 
-### Aanvullende voordelen van gebruikersonderzoek
+=== "CXO/Bestuurder"
+    ### Strategische gebruikersgerichtheid
 
-- Zorg ervoor dat diensten zoals kantoorsoftware en projectmanagementtools voldoen aan gebruikersbehoeften
-- Ondersteun interne overeenstemming over technologiedoelstellingen
+    **Stappen:**
+    1. **Bepaal gebruikersgerichte visie** - Ontwikkel organisatiestrategie met focus op gebruikers
+    2. **Budgeteer voor gebruikersonderzoek** - Reserveer middelen voor structureel onderzoek
+    3. **Stel KPI's voor gebruikerstevredenheid** - Meet succes van gebruikersgerichte aanpak
+    4. **Organiseer gebruikersgerichte cultuur** - Bevorder mindset binnen organisatie
+    5. **Monitor ROI van gebruikersonderzoek** - Evalueer waarde van investeringen
 
-### Belangrijke aanbevelingen
+    **Belangrijke overwegingen:**
+    - Balans tussen gebruikersbehoeften en bedrijfsvoering
+    - Investering in onderzoekstools en expertise
+    - Change management voor gebruikersgerichte cultuur
+    - Compliance met toegankelijkheidseisen
 
-1. Voer grondig gebruikersonderzoek uit
-2. Begrijp gebruikersbehoeften volledig
-3. Stem technologische oplossingen af op gebruikerseisen
+=== "Projectleider"
+    ### Projectuitvoering met gebruikersfocus
+
+    **Stappen:**
+    1. **Plan gebruikersonderzoek** - Integreer onderzoek in projectplanning
+    2. **Coördineer met UX-teams** - Zorg voor adequate onderzoeksresources
+    3. **Organiseer gebruikerstesten** - Plan iteratieve feedback loops
+    4. **Monitor gebruikerstevredenheid** - Track acceptatie tijdens implementatie
+    5. **Evalueer projectsucces** - Meet impact op gebruikerservaring
+
+    **Belangrijke overwegingen:**
+    - Tijdsinvestering voor gebruikersonderzoek
+    - Balans tussen snelheid en grondige research
+    - Stakeholder management rond onderzoeksresultaten
+    - Iteratieve ontwikkeling gebaseerd op feedback
+
+=== "Developer"
+    ### Technische implementatie gebruikersgerichtheid
+
+    **Stappen:**
+    1. **Implementeer gebruikersanalytics** - Bouw meetinstrumenten voor gebruikersgedrag
+    2. **Ontwikkel toegankelijke interfaces** - Volg WCAG-richtlijnen en best practices
+    3. **Creëer feedback mechanismen** - Bouw tools voor gebruikersinput
+    4. **Optimaliseer gebruikerservaring** - Gebruik data voor continue verbetering
+    5. **Test met echte gebruikers** - Implementeer A/B testing en usability testing
+
+    **Code-voorbeeld - Analytics implementatie:**
+    ```javascript
+    // Privacy-vriendelijke analytics voor overheid
+    import { GovAnalytics } from '@rijksoverheid/analytics';
+
+    const analytics = new GovAnalytics({
+      trackingId: 'GOV-123456',
+      anonymizeIP: true,
+      respectDNT: true,
+      cookieConsent: true
+    });
+
+    // Track gebruikersinteracties
+    analytics.trackEvent('form_completion', {
+      form_type: 'aanvraag',
+      completion_time: 120,
+      user_satisfaction: 4
+    });
+    ```
+
+    **Belangrijke overwegingen:**
+    - Privacy by design in gebruikersonderzoek
+    - Toegankelijkheid (WCAG 2.1 AA)
+    - Performance impact van analytics
+    - GDPR-compliance bij data verzameling
+
+=== "Jurist"
+    ### Juridische aspecten gebruikersonderzoek
+
+    **Stappen:**
+    1. **Evalueer privacy-impact** - Beoordeel juridische risico's van gebruikersonderzoek
+    2. **Stel toestemmingsprocessen op** - Ontwikkel GDPR-conforme consent flows
+    3. **Adviseer over data-gebruik** - Zorg voor rechtmatige verwerking gebruikersdata
+    4. **Beoordeel toegankelijkheidscompliance** - Toets op naleving WCAG en EN 301 549
+    5. **Opstellen privacy statements** - Transparantie over datagebruik
+
+    **Belangrijke overwegingen:**
+    - GDPR artikel 6 rechtsgrond voor onderzoek
+    - Bewaarperiodes van onderzoeksdata
+    - Rechten van betrokkenen (inzage, rectificatie)
+    - Compliance met Wet digitale overheid
+
+=== "Inkoper"
+    ### Inkoop van onderzoekstools en -services
+
+    **Stappen:**
+    1. **Specificeer onderzoeksvereisten** - Definieer eisen voor onderzoekstools
+    2. **Evalueer onderzoeksbureaus** - Beoordeel expertise en methodologie
+    3. **Onderhandel over dataeigendom** - Zorg voor eigendom van onderzoeksresultaten
+    4. **Contracteer toegankelijkheidstools** - Inkoop van WCAG-testing software
+    5. **Monitor leveranciersprestaties** - Evalueer kwaliteit van onderzoeksresultaten
+
+    **Template aanbestedingseis:**
+    > **Onderzoeksexpertise:** Leverancier moet aantoonbare ervaring hebben met gebruikersonderzoek binnen overheidsdomeinen en bekend zijn met toegankelijkheidseisen volgens WCAG 2.1 AA standaarden.
+
+    **Belangrijke overwegingen:**
+    - Expertise in overheidscontext
+    - GDPR-compliance van onderzoekstools
+    - Kwaliteitsborging van onderzoeksmethodologie
+    - Intellectual property van onderzoeksresultaten
 
 ## Gerelateerde hulpmiddelen
 

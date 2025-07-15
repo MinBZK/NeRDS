@@ -5,6 +5,13 @@ relations:
   - open-source
   - integratie
   - duurzaamheid
+roles:
+  - beleidsmaker: high
+  - cxo: high
+  - projectleider: high
+  - developer: medium
+  - jurist: medium
+  - inkoper: medium
 ---
 
 # 8. Deel, hergebruik en werk samen
@@ -54,35 +61,194 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
     </div>
 </div>
 
-### Samenwerking bevorderen
+=== "Beleidsmaker"
+    ### Beleidskaders voor overheidssamenwerking
 
-1. **Maak het vindbaar**: Zorg dat gedeelde bronnen gemakkelijk te vinden zijn
-2. **Documenteer goed**: Maak duidelijk hoe iets kan worden hergebruikt
-3. **Bouw gemeenschappen**: Creëer platforms voor samenwerking
-4. **Stimuleer hergebruik**: Maak het aantrekkelijker om te hergebruiken dan opnieuw te bouwen
-5. **Vier successen**: Deel voorbeelden van succesvolle samenwerking
-6. **Betrek belanghebbenden**: Includeer diverse perspectieven
-7. **Creëer een cultuur van delen**: Maak samenwerking onderdeel van de organisatiecultuur
+    **Stappen:**
+    1. **Formuleer samenwerkingsbeleid** - Ontwikkel kaders voor interbestuurlijke samenwerking
+    2. **Stimuleer kennisuitwisseling** - Creëer structuren voor best practice sharing
+    3. **Harmoniseer wetgeving** - Verwijder juridische belemmeringen voor samenwerking
+    4. **Bevorder Common Ground** - Ondersteun gemeenschappelijke informatiehuishoudingen
+    5. **Monitor samenwerkingssuccessen** - Meet effectiviteit van gezamenlijke initiatieven
 
-### Wat kan worden gedeeld en hergebruikt
+    **Belangrijke overwegingen:**
+    - Interbestuurlijke governance structuren
+    - Uniforme standaarden en protocollen
+    - Democratische legitimiteit van samenwerking
+    - Transparantie en verantwoording
 
-- **Broncode**: Open source software specifiek voor de overheid (zie [Werk transparant en gebruik open source](../open-source/index.md))
-- **Componenten**: Herbruikbare technische bouwstenen
-- **Architectuurpatronen**: Beproefde ontwerpmodellen
-- **API's**: Interfaces voor gegevensuitwisseling (zie [Integreer en pas technologie aan](../integratie/index.md))
-- **Datasets**: Gegevens die nuttig zijn voor meerdere organisaties (zie [Maak beter gebruik van data](../data/index.md))
-- **Contracten en aanbestedingen**: Sjablonen en frameworks (zie [Definieer je inkoopstrategie](../inkoop/index.md))
-- **Kennis en documentatie**: Best practices, handleidingen en richtlijnen
-- **Methodologieën**: Processen en werkwijzen
+    **Dutch Government context:**
+    - Steun [Common Ground](https://commonground.nl) initiatieven
+    - Implementeer [VNG Realisatie](https://www.vngrealisatie.nl/) standaarden
+    - Volg [Digitale Overheid](https://www.digitaleoverheid.nl/) richtlijnen
+    - Pas [Nederlandse Overheid Referentie Architectuur (NORA)](https://www.noraonline.nl/) toe
 
-### Uitdagingen en oplossingen
+=== "CXO/Bestuurder"
+    ### Strategische samenwerkingsgovernance
 
-- **Niet-hier-uitgevonden syndroom**: Promoot de voordelen van hergebruik
-- **Governance**: Ontwikkel duidelijke verantwoordelijkheden voor gedeelde bronnen
-- **Verschillende prioriteiten**: Vind gemeenschappelijke doelen
-- **Interoperabiliteit**: Gebruik open standaarden om compatibiliteit te verzekeren
-- **Juridische barrières**: Ontwikkel passende licenties en overeenkomsten
-- **Organisatorische grenzen**: Creëer overkoepelende samenwerkingsstructuren
+    **Stappen:**
+    1. **Definieer partnerships** - Identificeer strategische samenwerkingspartners
+    2. **Ontwikkel governance model** - Stel bestuurlijke kaders voor samenwerking op
+    3. **Budgeteer gezamenlijk** - Creëer financiële modellen voor gedeelde kosten
+    4. **Manage risico's** - Analyseer samenwerkingsrisico's en afhankelijkheden
+    5. **Evalueer resultaten** - Meet ROI van samenwerkingsinvesteringen
+
+    **Belangrijke overwegingen:**
+    - Organisatorische autonomie vs samenwerking
+    - Intellectual property en eigendom
+    - Accountability en verantwoordelijkheid
+    - Exit-strategieën voor partnerships
+
+    **Strategic partnerships:**
+    - Deel in [G4 samenwerking](https://www.g4.nl/) (Amsterdam, Rotterdam, Den Haag, Utrecht)
+    - Participeer in [Digitale Overheid samenwerkingen](https://www.digitaleoverheid.nl/)
+    - Onderzoek [Europese interoperabiliteit](https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/European+Interoperability+Framework+Implementation+Strategy) kansen
+
+=== "Projectleider"
+    ### Projectimplementatie van samenwerking
+
+    **Stappen:**
+    1. **Identificeer hergebruik kansen** - Scan bestaande oplossingen voor project
+    2. **Coördineer multi-organisatie teams** - Organiseer cross-boundary samenwerking
+    3. **Plan gefaseerde implementatie** - Rol gezamenlijke oplossingen stapsgewijs uit
+    4. **Faciliteer kennisoverdracht** - Organiseer workshops en documentatie
+    5. **Monitor adoptie** - Track gebruik van gedeelde componenten
+
+    **Belangrijke overwegingen:**
+    - Verschillende organisatieculturen
+    - Afstemming van planning en resources
+    - Communicatie tussen teams
+    - Kwaliteitsborging over organisaties heen
+
+    **Project tools:**
+    - Gebruik [Slack voor Developer Overheid](https://developer.overheid.nl/community)
+    - Plan met [Common Ground Roadmap](https://commonground.nl/roadmap)
+    - Documenteer in [VNG Realisatie](https://www.vngrealisatie.nl/) repositories
+
+=== "Developer"
+    ### Technische samenwerkingsimplementatie
+
+    **Stappen:**
+    1. **Stel code repositories in** - Creëer gedeelde ontwikkelomgevingen
+    2. **Implementeer API's** - Ontwikkel interoperabiliteitslagen
+    3. **Gebruik gemeenschappelijke componenten** - Integreer herbruikbare libraries
+    4. **Automatiseer workflows** - Implementeer CI/CD voor gedeelde projecten
+    5. **Documenteer technische specificaties** - Maak hergebruik mogelijk
+
+    **Code-voorbeelden:**
+
+    **Gedeelde component library:**
+    ```javascript
+    // NL Design System component
+    import { Button, Form } from '@nl-design-system/components';
+
+    // Herbruikbare overheidscomponent
+    const DigiDAuthButton = ({ onSuccess, onError }) => {
+      const handleDigiDAuth = async () => {
+        try {
+          const response = await fetch('/api/digid/authenticate', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' }
+          });
+          const data = await response.json();
+          onSuccess(data);
+        } catch (error) {
+          onError(error);
+        }
+      };
+
+      return (
+        <Button onClick={handleDigiDAuth}>
+          Inloggen met DigiD
+        </Button>
+      );
+    };
+    ```
+
+    **API voor gegevensuitwisseling:**
+    ```python
+    # REST API voor BRP gegevens (volgens VNG standaard)
+    from flask import Flask, jsonify
+    from flask_restx import Api, Resource, fields
+
+    app = Flask(__name__)
+    api = Api(app, doc='/docs/')
+
+    brp_model = api.model('BRPPersoon', {
+        'bsn': fields.String(required=True, description='BSN'),
+        'naam': fields.Nested({
+            'voornamen': fields.String,
+            'geslachtsnaam': fields.String
+        }),
+        'adres': fields.Nested({
+            'postcode': fields.String,
+            'woonplaats': fields.String
+        })
+    })
+
+    @api.route('/brp/personen/<string:bsn>')
+    class BRPPersoon(Resource):
+        @api.marshal_with(brp_model)
+        def get(self, bsn):
+            # Implementatie volgens VNG API standaard
+            return brp_service.get_persoon(bsn)
+    ```
+
+    **Belangrijke overwegingen:**
+    - Open source licenties (EUPL-1.2)
+    - API versioning en backwards compatibility
+    - Security en authenticatie (OAuth2, PKI)
+    - Monitoring en logging
+
+=== "Jurist"
+    ### Juridische compliance voor samenwerking
+
+    **Stappen:**
+    1. **Stel samenwerkingsovereenkomsten op** - Ontwikkel juridische frameworks
+    2. **Analyseer IP-eigendom** - Bepaal eigendomsrechten bij gezamenlijke ontwikkeling
+    3. **Reguleer datadeling** - Creëer AVG-conforme data sharing agreements
+    4. **Adviseer over aansprakelijkheid** - Definieer verantwoordelijkheden
+    5. **Monitor compliance** - Controleer naleving van samenwerkingsafspraken
+
+    **Belangrijke overwegingen:**
+    - Intellectuele eigendomsrechten
+    - Aansprakelijkheid bij gezamenlijke projecten
+    - Privacy en datadeling tussen organisaties
+    - Contractuele exit-strategieën
+
+    **Juridische instrumenten:**
+    - [Wet hergebruik overheidsinformatie](https://wetten.overheid.nl/BWBR0036795/2021-07-01)
+    - [AVG](https://gdpr.eu/tag/gdpr/) voor gegevensuitwisseling
+    - [Archiefwet](https://wetten.overheid.nl/BWBR0007376/2021-07-01) voor documentbeheer
+    - [Auteursrecht](https://wetten.overheid.nl/BWBR0001886/2021-07-01) en open source licenties
+
+    **Template clausule datadeling:**
+    > "Partijen komen overeen dat uitwisseling van persoonsgegevens plaatsvindt conform artikel 28 AVG, waarbij verwerkingsverantwoordelijkheden zijn gedefinieerd in bijlage X. Gegevens worden uitsluitend verwerkt voor publiekrechtelijke taken conform artikel 6 lid 1 sub e AVG."
+
+=== "Inkoper"
+    ### Inkoopstrategieën voor samenwerkingsoplossingen
+
+    **Stappen:**
+    1. **Bundel inkoopvolumes** - Organiseer gezamenlijke aanbestedingen
+    2. **Ontwikkel standaard contracten** - Creëer herbruikbare inkoopsjablonen
+    3. **Evalueer leveranciers** - Beoordeel op samenwerkingsbereidheid
+    4. **Faciliteer kennisuitwisseling** - Deel inkoopervaringen tussen organisaties
+    5. **Monitor contract-performance** - Evalueer gezamenlijke leveranciers
+
+    **Belangrijke overwegingen:**
+    - Gezamenlijke aanbestedingsprocedures
+    - Standaardisatie van requirements
+    - Vendor management over organisaties heen
+    - Kostenverdeling en budgettering
+
+    **Samenwerkingsmodellen:**
+    - [Inkoopplatform PIANOo](https://www.pianoo.nl/) voor best practices
+    - [G4 gezamenlijke inkoop](https://www.g4.nl/) voor grote steden
+    - [Shared Service Centra](https://www.ssc-ictu.nl/) voor ICT-diensten
+    - [Leveranciersportaal](https://www.leveranciersportaal.nl/) voor marktconsultatie
+
+    **Template aanbestedingseis:**
+    > "Leverancier dient aan te tonen dat oplossing interoperabel is met bestaande overheidsstandaarden (NORA, Common Ground) en ondersteuning biedt voor multi-tenant deployment voor meerdere overheidsorganisaties."
 
 ## Samenwerkingsplatforms en hulpmiddelen
 
