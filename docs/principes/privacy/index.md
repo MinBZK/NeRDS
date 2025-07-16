@@ -72,6 +72,7 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     ### Beleidskaders voor privacy-governance
 
     **Stappen:**
+
     1. **Ontwikkel privacy-governance beleid** - Formuleer kaders voor privacybescherming overheidsorganisaties
     2. **Harmoniseer tussen overheden** - Zorg voor consistente privacy-aanpak lokaal/nationaal niveau
     3. **Stakeholder consultatie** - Betrek burgers, organisaties bij privacybeleid
@@ -79,20 +80,23 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     5. **Ethische richtlijnen opstellen** - Bepaal ethische grenzen voor gegevensverwerking
 
     **Belangrijke overwegingen:**
+
     - Privacy vs. digitale innovatie balanceren
     - Implementatie van Uitvoeringswet AVG
     - Transparantie en verantwoording richting burgers
     - Internationale samenwerking privacy-handhaving
 
     **Concrete acties:**
+
     - Formuleer privacy-impact toetskaders voor overheidsdiensten
     - Ontwikkel criteria voor privacy-vriendelijke technologie-adoptie
     - Organiseer burgerparticipatie over privacy-rechten
 
-=== "CXO/Bestuurder"
+=== "Bestuurder"
     ### Strategische privacy-governance en risicobeheersing
 
     **Stappen:**
+
     1. **Privacy-first strategie** - Ontwikkel organisatiebrede privacy-visie
     2. **Risicoanalyse uitvoeren** - Beoordeel privacy-risico's organisatie-breed
     3. **Budgettering en investeringen** - Investeer in privacy-beschermende technologie
@@ -100,12 +104,14 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     5. **Incident response planning** - Ontwikkel procedures voor privacy-incidenten
 
     **Belangrijke overwegingen:**
+
     - ROI van privacy-investeringen vs. boeterisico's
     - Organisatorische privacy-cultuur ontwikkelen
     - Externe audit en certificering
     - Reputatiemanagement bij privacy-incidenten
 
     **Concrete acties:**
+
     - Implementeer privacy-dashboard voor bestuurlijke sturing
     - Stel privacy-officer aan op strategisch niveau
     - Ontwikkel privacy-training programma's voor medewerkers
@@ -114,6 +120,7 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     ### Projectimplementatie van privacy-maatregelen
 
     **Stappen:**
+
     1. **Privacy impact assessment** - Voer DPIA uit voor elk project met persoonsgegevens
     2. **Privacy by design planning** - Integreer privacy vanaf projectstart
     3. **Stakeholder alignment** - Breng technische teams en privacy-officers samen
@@ -121,12 +128,14 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     5. **Monitoring en evaluatie** - Monitor privacy-naleving tijdens projectuitvoering
 
     **Belangrijke overwegingen:**
+
     - Privacy-requirements vroeg in projectplanning
     - Budget reserveren voor privacy-maatregelen
     - Change management voor privacy-bewustzijn
     - Documentatie voor audit-doeleinden
 
     **Concrete acties:**
+
     - Gebruik DPIA-templates voor projectevaluatie
     - Plan privacy-reviews in project-milestones
     - Stel privacy-acceptatiecriteria op voor oplevering
@@ -135,6 +144,7 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     ### Technische privacy-implementatie
 
     **Stappen:**
+
     1. **Privacy by design architectuur** - Ontwerp systemen met ingebouwde privacy
     2. **Data minimalisatie implementeren** - Verzamel alleen noodzakelijke gegevens
     3. **Encryptie en pseudonimisering** - Bescherm gegevens technisch
@@ -196,6 +206,7 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     ```
 
     **Belangrijke overwegingen:**
+
     - Encryptie at rest en in transit
     - Pseudonimisering voor analytics
     - Automatische data-retention implementatie
@@ -205,6 +216,7 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     ### Juridische compliance (GDPR, Nederlandse privacywetten)
 
     **Stappen:**
+
     1. **AVG-naleving controleren** - Toets systemen op GDPR-compliance
     2. **Rechtsgronden vaststellen** - Bepaal rechtmatigheid gegevensverwerking
     3. **Privacy-impact assessments** - Voer juridische review uit van DPIA's
@@ -212,6 +224,7 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     5. **Incident response** - Ontwikkel procedures voor datalekken (72-uur melding)
 
     **Template verwerkersovereenkomst:**
+
     ```
     VERWERKERSOVEREENKOMST (artikel 28 AVG)
 
@@ -233,12 +246,14 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     ```
 
     **Belangrijke overwegingen:**
+
     - Rechtmatigheid gegevensverwerking per verwerkingsdoel
     - Specifieke sectorregelgeving (onderwijs, zorg, belastingen)
     - Internationale datatransfers (adequacy decisions)
     - Rechten van betrokkenen (inzage, correctie, verwijdering, overdraagbaarheid)
 
     **Concrete acties:**
+
     - Ontwikkel privacy-checklists voor projectbeoordeling
     - Stel template-toestemmingsverklaringen op
     - Adviseer over privacy-friendly default settings
@@ -247,6 +262,7 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     ### Inkoop van privacy-compliant technologie en diensten
 
     **Stappen:**
+
     1. **Privacy-eisen formuleren** - Specificeer privacy-vereisten in aanbestedingen
     2. **Leveranciersevaluatie** - Beoordeel privacy-volwassenheid potentiële leveranciers
     3. **DPA-onderhandelingen** - Stel verwerkersovereenkomsten op
@@ -281,12 +297,14 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     ```
 
     **Belangrijke overwegingen:**
+
     - Vendor lock-in preventie via privacy-portabiliteit
     - Contractuele boetes bij privacy-schendingen
     - Certificering en compliance-monitoring
     - Supply chain privacy-risico's
 
     **Concrete acties:**
+
     - Ontwikkel privacy-scorecard voor leveranciersevaluatie
     - Stel template-DPA's op voor verschillende diensten
     - Implementeer privacy-impact monitoring in contractbeheer

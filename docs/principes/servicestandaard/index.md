@@ -64,6 +64,7 @@ Door te voldoen aan de servicestandaard, leveren overheidsorganisaties diensten 
     ### Beleidskaders voor service compliance
 
     **Stappen:**
+
     1. **Formuleer servicestandaard beleid** - Ontwikkel kaders voor consistente dienstverlening
     2. **Coördineer tussen organisaties** - Zorg voor uniforme implementatie binnen overheid
     3. **Stel kwaliteitsnormen vast** - Bepaal minimumstandaarden voor overheidsdiensten
@@ -71,21 +72,24 @@ Door te voldoen aan de servicestandaard, leveren overheidsorganisaties diensten 
     5. **Evalueer effectiviteit** - Beoordeel impact op gebruikerstevredenheid
 
     **Belangrijke overwegingen:**
+
     - Balans tussen standaardisatie en innovatie
     - Afstemming met EU-dienstverlening (Single Digital Gateway)
     - Burgerparticipatie in beleidsvorming
     - Compliance met toegankelijkheidsverordening
 
     **Policy frameworks:**
+
     - Nederlandse Digitaliseringsstrategie
     - Agenda NL DIGITAAL
     - Wet modernisering elektronisch bestuurlijk verkeer
     - Omgevingswet digitale ondersteuning
 
-=== "CXO/Bestuurder"
+=== "Bestuurder"
     ### Strategische service governance
 
     **Stappen:**
+
     1. **Bepaal service vision** - Ontwikkel organisatiebrede visie op dienstverlening
     2. **Investeer in user research** - Budgetteer voor gebruikersonderzoek capaciteit
     3. **Stel service KPI's vast** - Definieer meetbare doelen voor dienstverlening
@@ -93,12 +97,14 @@ Door te voldoen aan de servicestandaard, leveren overheidsorganisaties diensten 
     5. **Implementeer continue verbetering** - Maak iteratieve verbetering onderdeel van cultuur
 
     **Belangrijke overwegingen:**
+
     - ROI van gebruikersgerichte dienstverlening
     - Organisatorische transformatie naar service-first denken
     - Investering in user experience capabilities
     - Change management voor service-mindset
 
     **Service governance model:**
+
     - Service owner per dienst
     - User research centrum voor alle diensten
     - Interdisciplinaire service teams
@@ -108,6 +114,7 @@ Door te voldoen aan de servicestandaard, leveren overheidsorganisaties diensten 
     ### Project implementatie servicestandaard
 
     **Stappen:**
+
     1. **Service assessment** - Evalueer huidige dienst tegen servicestandaard
     2. **Gebruikersonderzoek plannen** - Organiseer onderzoek naar gebruikersbehoeften
     3. **Multidisciplinair team vormen** - Breng design, development, beleid samen
@@ -115,12 +122,14 @@ Door te voldoen aan de servicestandaard, leveren overheidsorganisaties diensten 
     5. **Assessment en verbetering** - Doorloop evaluatiecyclus servicestandaard
 
     **Belangrijke overwegingen:**
+
     - Gebruikers betrekken gedurende hele project
     - Balans tussen scope en gebruikersbehoeften
     - Documentatie voor servicestandaard compliance
     - Testen met echte gebruikers in realistische scenario's
 
     **Project toolkit:**
+
     - Service design canvas
     - User journey mapping tools
     - Usability testing protocols
@@ -130,6 +139,7 @@ Door te voldoen aan de servicestandaard, leveren overheidsorganisaties diensten 
     ### Technische service implementatie
 
     **Stappen:**
+
     1. **API-first design** - Ontwikkel services met API-first benadering
     2. **Toegankelijkheid implementeren** - Volg WCAG 2.1 AA richtlijnen
     3. **Performance optimalisatie** - Zorg voor snelle, betrouwbare services
@@ -183,6 +193,7 @@ Door te voldoen aan de servicestandaard, leveren overheidsorganisaties diensten 
     ```
 
     **Technische standaarden:**
+
     - NL Design System componenten
     - REST API Design Rules
     - Dutch API Strategy
@@ -190,6 +201,7 @@ Door te voldoen aan de servicestandaard, leveren overheidsorganisaties diensten 
     - DigiD/eHerkenning integratie
 
     **Belangrijke overwegingen:**
+
     - Progressive enhancement voor alle gebruikers
     - Cross-browser compatibiliteit
     - Mobile-first responsive design
@@ -199,6 +211,7 @@ Door te voldoen aan de servicestandaard, leveren overheidsorganisaties diensten 
     ### Juridische compliance dienstverlening
 
     **Stappen:**
+
     1. **Dienstverlening verplichtingen** - Analyseer wettelijke verplichtingen
     2. **Gebruikersrechten waarborgen** - Zorg voor naleving burgerrechten
     3. **Privacy by design** - Implementeer gegevensbescherming in services
@@ -206,24 +219,28 @@ Door te voldoen aan de servicestandaard, leveren overheidsorganisaties diensten 
     5. **Klacht- en bezwaarprocedures** - Implementeer rechtsmiddelen
 
     **Belangrijke overwegingen:**
+
     - Algemene wet bestuursrecht (Awb) compliance
     - Wet modernisering elektronisch bestuurlijk verkeer
     - Toegankelijkheidsverordening overheidswebsites
     - AVG-naleving in service design
 
     **Juridische frameworks:**
+
     - Dienstenrichtlijn implementatie
     - Single Digital Gateway verordening
     - eIDAS verordening voor identificatie
     - Wet digitale overheid
 
     **Template service voorwaarden:**
+
     > **Gebruikersrechten:** Deze service voldoet aan de Servicestandaard. U heeft recht op toegankelijke, gebruiksvriendelijke dienstverlening. Voor klachten over de service kunt u contact opnemen via [contactgegevens] of bezwaar indienen volgens de Awb.
 
 === "Inkoper"
     ### Inkoop servicestandaard-compliant solutions
 
     **Stappen:**
+
     1. **Servicestandaard in aanbesteding** - Formuleer eisen voor compliance
     2. **Leverancier evaluatie** - Beoordeel providers op user experience capabilities
     3. **SLA service kwaliteit** - Contracteer service levels en gebruikerstevredenheid
@@ -231,15 +248,19 @@ Door te voldoen aan de servicestandaard, leveren overheidsorganisaties diensten 
     5. **Toegankelijkheid eisen** - Stel WCAG 2.1 AA als minimum eis
 
     **Aanbestedingstemplate:**
-    > **Servicestandaard compliance:** Leverancier moet aantonen dat geleverde diensten voldoen aan de Nederlandse Servicestandaard. Dit omvat gebruikersonderzoek, toegankelijkheid volgens WCAG 2.1 AA, en iteratieve verbetering op basis van gebruikersfeedback.
+
+    > **Servicestandaard compliance:**
+    Leverancier moet aantonen dat geleverde diensten voldoen aan de Nederlandse Servicestandaard. Dit omvat gebruikersonderzoek, toegankelijkheid volgens WCAG 2.1 AA, en iteratieve verbetering op basis van gebruikersfeedback.
 
     **Belangrijke overwegingen:**
+
     - User experience expertise in leveranciersselectie
     - Contractuele eisen voor gebruikerstesten
     - Service design methodologie in scope
     - Toegankelijkheidsaudit als acceptatiecriterium
 
     **Evaluatiecriteria:**
+
     - Ervaring met government service design
     - Portfolio toegankelijke overheidsdiensten
     - User research methodologie

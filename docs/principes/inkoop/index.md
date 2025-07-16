@@ -71,6 +71,7 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
     ### Beleidskaders voor inkoopstrategie
 
     **Stappen:**
+
     1. **Formuleer inkoopbeleid** - Ontwikkel kaders voor strategische technologie-inkoop
     2. **Coördineer tussen ministeries** - Zorg voor consistente inkooprichtlijnen
     3. **Stakeholder consultatie** - Betrek marktpartijen en burgers bij inkoopbeleid
@@ -78,20 +79,23 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
     5. **Stel innovatie-eisen** - Bepaal kaders voor innovatieve aanbestedingen
 
     **Belangrijke overwegingen:**
+
     - Balans tussen marktwerking en overheidsdoelstellingen
     - Implementatie MVI-criteria (Maatschappelijk Verantwoord Inkopen)
     - Stimulering van MKB-deelname aan overheidsaanbestedingen
     - Compliance met EU-aanbestedingsrichtlijnen
 
     **Concrete acties:**
+
     - Ontwikkel sectorspecifieke inkooprichtlijnen voor ICT
     - Formuleer beleid voor circulaire inkoop van technologie
     - Stel kaders op voor data-gedreven inkoopbeslissingen
 
-=== "CXO/Bestuurder"
+=== "Bestuurder"
     ### Strategische inkoopgovernance
 
     **Stappen:**
+
     1. **Bepaal inkoopstrategie** - Ontwikkel organisatiebrede procurement-visie
     2. **Evalueer sourcing-modellen** - Bepaal optimale mix van intern/extern
     3. **Budgetgovernance** - Stel kaders voor inkoopbudgetten en -autorisaties
@@ -99,6 +103,7 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
     5. **KPI's definiëren** - Stel meetbare doelen voor inkoopprestaties
 
     **Belangrijke overwegingen:**
+
     - Total Cost of Ownership (TCO) vs initiële inkoopkosten
     - Vendor diversificatie ter preventie van afhankelijkheid
     - Balans tussen kostenbesparing en kwaliteit/innovatie
@@ -118,6 +123,7 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
     ### Project-implementatie van inkoopprocessen
 
     **Stappen:**
+
     1. **Behoefteanalyse** - Vertaal gebruikersbehoeften naar inkoopspecificaties
     2. **Marktconsultatie** - Organiseer marktdialoog en leveranciersinteractie
     3. **Aanbestedingsplan** - Ontwikkel gefaseerde tender-strategie
@@ -125,12 +131,14 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
     5. **Contractbeheer** - Monitor levering en prestaties na gunning
 
     **Belangrijke overwegingen:**
+
     - Minimale projectonderbreking tijdens leverancierswissel
     - Contingency planning voor falende leveranciers
     - Change management voor nieuwe technologie/leveranciers
     - Kwaliteitsborging en acceptatiecriteria
 
     **Template projectplan:**
+
     ```
     Fase 1: Behoefteanalyse (2-4 weken)
     - Stakeholder workshops
@@ -157,6 +165,7 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
     ### Technische inkoopoverwegingen
 
     **Stappen:**
+
     1. **Technische requirements** - Definieer functionele en non-functionele eisen
     2. **Architectuur-beoordeling** - Evalueer technische fit met bestaande systemen
     3. **Proof of Concept** - Test kritische functionaliteiten voor aankoop
@@ -206,6 +215,7 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
     ```
 
     **Belangrijke overwegingen:**
+
     - API-standaarden en interoperabiliteit
     - Security en compliance requirements
     - Schaalbaarheid en performance-eisen
@@ -216,6 +226,7 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
     ### Juridische compliance in inkoop
 
     **Stappen:**
+
     1. **Aanbestedingsrecht** - Toets procedures op EU-richtlijnen 2014/24/EU
     2. **Contractrecht** - Formuleer juridisch waterdichte leveringsovereenkomsten
     3. **AVG-compliance** - Beoordeel dataverwerking in leveranciersdiensten
@@ -223,6 +234,7 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
     5. **Geschillenbeslechting** - Stel procedures op voor contractuele geschillen
 
     **Belangrijke overwegingen:**
+
     - EU-drempelbedragen voor aanbestedingsverplichtingen
     - Staatssteunregels bij preferentieel overheidsinkopen
     - Aansprakelijkheid bij dataincidenten of systeemfalen
@@ -246,6 +258,7 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
     ```
 
     **Belangrijke wet- en regelgeving:**
+
     - Aanbestedingswet 2012
     - EU-aanbestedingsrichtlijnen 2014/24/EU
     - AVG (Algemene Verordening Gegevensbescherming)
@@ -255,6 +268,7 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
     ### Inkoopstrategie en -uitvoering
 
     **Stappen:**
+
     1. **Spend-analyse** - Analyseer huidige uitgaven en leveranciersportfolio
     2. **Sourcingstrategie** - Bepaal optimale inkoopbenadering per categorie
     3. **Leveranciersselectie** - Evalueer en selecteer leveranciers op basis van criteria
@@ -279,6 +293,7 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
     ```
 
     **Belangrijke overwegingen:**
+
     - MVI-criteria (Maatschappelijk Verantwoord Inkopen)
     - KMO-toegankelijkheid en lokale economie
     - Lifecycle-kosten vs aanschafkosten

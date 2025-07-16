@@ -64,6 +64,7 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
     ### Beleidskaders voor systeemintegratie
 
     **Stappen:**
+
     1. **Ontwikkel interoperabiliteitsbeleid** - Formuleer kaders voor gegevensuitwisseling tussen overheidslagen
     2. **Promoot open standaarden** - Bevorder adoptie van NORA-principes en API Design Rules
     3. **Coördineer sectoroverstijgend** - Zorg voor consistente integratiestrategieën tussen ministeries
@@ -71,15 +72,17 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
     5. **Monitor naleving** - Evalueer organisaties op interoperabiliteit en standaardisatie
 
     **Belangrijke overwegingen:**
+
     - Balans tussen innovatie en stabiliteit bestaande systemen
     - Juridische kaders voor gegevensuitwisseling tussen organisaties
     - Economische impact van grootschalige systeemintegratie
     - Europese interoperabiliteitsrichtlijnen (EIF)
 
-=== "CXO/Bestuurder"
+=== "Bestuurder"
     ### Strategische integratiegovernance en -architectuur
 
     **Stappen:**
+
     1. **Bepaal integratievisie** - Ontwikkel organisatiebrede strategie voor systeemintegratie
     2. **Evalueer architectuurvolwassenheid** - Beoordeel huidige integratielandschap en -capaciteit
     3. **Investeer in platformstrategie** - Ontwikkel herbruikbare integratiecomponenten
@@ -87,6 +90,7 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
     5. **KPI's definiëren** - Stel meetbare doelen voor integratieperformance en -kosten
 
     **Belangrijke overwegingen:**
+
     - TCO van integratieoplossingen vs point-to-point koppelingen
     - Organisatorische impact van gedeelde datasystemen
     - Vendor lock-in preventie bij integratieplatforms
@@ -96,6 +100,7 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
     ### Projectimplementatie van integratieoplossingen
 
     **Stappen:**
+
     1. **Integratie-assessment** - Inventariseer bestaande systemen en integratiepunten
     2. **Stakeholder alignment** - Breng eigenaren van verschillende systemen samen
     3. **Gefaseerde aanpak** - Plan incrementele integratie om risico's te beperken
@@ -103,6 +108,7 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
     5. **Change management** - Coördineer aanpassingen over meerdere systemen
 
     **Belangrijke overwegingen:**
+
     - Minimale service-onderbreking tijdens integratiewijzigingen
     - Rollback-strategieën bij gefaalde integraties
     - Training voor teams die met geïntegreerde systemen werken
@@ -112,6 +118,7 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
     ### Technische integratie-implementatie
 
     **Stappen:**
+
     1. **API-first architectuur** - Ontwerp systemen met standaard REST/GraphQL interfaces
     2. **Middleware implementatie** - Gebruik ESB of moderne integratieplatforms
     3. **Event-driven patronen** - Implementeer asynchrone communicatie tussen systemen
@@ -179,6 +186,7 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
     ```
 
     **Belangrijke overwegingen:**
+
     - Implementatie van API Design Rules voor Nederlandse overheid
     - Gebruik van Common Ground componenten waar mogelijk
     - Retry-mechanismen en circuit breakers voor veerkracht
@@ -188,6 +196,7 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
     ### Juridische compliance bij systeemintegratie
 
     **Stappen:**
+
     1. **AVG-naleving** - Toets gegevensuitwisseling op rechtmatigheid en proportionaliteit
     2. **Verwerkersovereenkomsten** - Formuleer juridische kaders voor gedeelde systemen
     3. **Doelbinding** - Zorg dat gegevensuitwisseling binnen wettelijke doelen blijft
@@ -195,6 +204,7 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
     5. **Incidentrespons** - Ontwikkel procedures voor datalekken in geïntegreerde systemen
 
     **Belangrijke overwegingen:**
+
     - Rechtmatigheid van gegevensuitwisseling tussen organisaties
     - Aansprakelijkheid bij incidenten in gedeelde systemen
     - Audit-trails voor compliance-monitoring
@@ -204,6 +214,7 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
     ### Inkoopstrategieën voor integratieoplossingen
 
     **Stappen:**
+
     1. **Marktverkenning** - Evalueer leveranciers op interoperabiliteit en open standaarden
     2. **Aanbestedingseisen** - Specificeer vereisten voor API's, documentatie en support
     3. **Vendor lock-in preventie** - Stel eisen voor data-portabiliteit en open interfaces
@@ -211,9 +222,12 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
     5. **TCO-evaluatie** - Beoordeel totale kosten van integratie en onderhoud
 
     **Template aanbestedingseis:**
-    > **Interoperabiliteit:** Leverancier moet aantonen dat de oplossing voldoet aan Nederlandse API Design Rules en ondersteuning biedt voor Common Ground-principes. APIs moeten beschikbaar zijn in OpenAPI 3.0 specificatie met volledige documentatie.
+
+    > **Interoperabiliteit:**
+    Leverancier moet aantonen dat de oplossing voldoet aan Nederlandse API Design Rules en ondersteuning biedt voor Common Ground-principes. APIs moeten beschikbaar zijn in OpenAPI 3.0 specificatie met volledige documentatie.
 
     **Belangrijke overwegingen:**
+
     - Standaardisatie op Common Ground-componenten
     - Contractuele eisen voor API-backward compatibility
     - Technische support voor complexe integratieprojecten

@@ -72,6 +72,7 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
     ### Beleidskaders voor open standaarden
 
     **Stappen:**
+
     1. **Formuleer standaardenbeleid** - Ontwikkel coherent beleid voor open standaarden adoptie
     2. **Coördineer tussen ministeries** - Zorg voor consistente standaarden-governance
     3. **Monitor Forum Standaardisatie** - Volg ontwikkelingen in 'pas toe of leg uit'-lijst
@@ -79,15 +80,17 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
     5. **Internationale afstemming** - Participeer in EU-interoperabiliteitsframeworks
 
     **Belangrijke overwegingen:**
+
     - Balans tussen innovatie en bestaande standaarden
     - Vendor lock-in preventie door open standaarden
     - EU-interoperabiliteit en digitale soevereiniteit
     - Compliance met Nederlandse wetgeving
 
-=== "CXO/Bestuurder"
+=== "Bestuurder"
     ### Strategische open standaarden governance
 
     **Stappen:**
+
     1. **Bepaal interoperabiliteitsstrategie** - Ontwikkel organisatiebrede standaarden-visie
     2. **Evalueer bestaande systemen** - Inventariseer huidige standaarden en gaps
     3. **Budgettering standaarden** - Bereken kosten van standaarden-implementatie
@@ -95,6 +98,7 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
     5. **KPI's definiëren** - Stel meetbare doelen voor interoperabiliteit
 
     **Belangrijke overwegingen:**
+
     - ROI van open standaarden vs proprietary oplossingen
     - Organisatorische change management
     - Leveranciersstrategie en vendor diversificatie
@@ -104,6 +108,7 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
     ### Projectimplementatie open standaarden
 
     **Stappen:**
+
     1. **Standaarden-assessment** - Evalueer welke standaarden van toepassing zijn
     2. **Implementatieplan opstellen** - Ontwikkel gefaseerde invoering van standaarden
     3. **Stakeholder coördinatie** - Breng technische teams en compliance samen
@@ -111,6 +116,7 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
     5. **Gebruikerstesten** - Organiseer testen voor interoperabiliteit
 
     **Belangrijke overwegingen:**
+
     - Minimale service-onderbreking tijdens implementatie
     - Training en kennisoverdracht voor teams
     - Integratie met bestaande systemen
@@ -120,6 +126,7 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
     ### Technische implementatie open standaarden
 
     **Stappen:**
+
     1. **Inventariseer standaarden** - Gebruik [Beslisboom Open Standaarden](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden)
     2. **Implementeer RESTful API's** - Ontwikkel volgens [NL API Strategie](https://docs.geostandaarden.nl/api/API-Strategie/)
     3. **Documenteer met OpenAPI** - Maak API-documentatie beschikbaar
@@ -176,6 +183,7 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
     ### Juridische compliance open standaarden
 
     **Stappen:**
+
     1. **Analyseer verplichte standaarden** - Toets compliance met 'pas toe of leg uit'-lijst
     2. **Vendor lock-in preventie** - Beoordeel juridische risico's proprietary formaten
     3. **Intellectueel eigendom** - Analyseer licenties van open standaarden
@@ -183,6 +191,7 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
     5. **Compliance monitoring** - Monitor naleving van standaarden-verplichtingen
 
     **Belangrijke overwegingen:**
+
     - Juridische status van Forum Standaardisatie besluiten
     - Aansprakelijkheid bij non-compliance
     - Contractuele borging van standaarden-naleving
@@ -192,6 +201,7 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
     ### Inkoopvereisten open standaarden
 
     **Stappen:**
+
     1. **Formuleer aanbestedingseisen** - Specificeer verplichte open standaarden
     2. **Leveranciersevaluatie** - Beoordeel standaarden-compliance van vendors
     3. **SLA-onderhandelingen** - Stel eisen voor standaarden-naleving
@@ -199,9 +209,11 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
     5. **Contractbeheer** - Monitor naleving van standaarden-verplichtingen
 
     **Template aanbestedingseis:**
+
     > **Open standaarden:** Leverancier moet aantonen dat de oplossing voldoet aan alle van toepassing zijnde verplichte standaarden uit de 'pas toe of leg uit'-lijst van het Forum Standaardisatie. API's moeten conform zijn aan de NL API Strategie en REST API Design Rules.
 
     **Belangrijke overwegingen:**
+
     - Vendor lock-in preventie via open standaarden
     - Interoperabiliteit met bestaande systemen
     - Toekomstbestendigheid van standaarden

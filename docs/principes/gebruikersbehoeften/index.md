@@ -64,6 +64,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
     ### Beleidskaders voor gebruikersgerichtheid
 
     **Stappen:**
+
     1. **Formuleer gebruikersgerichte beleidsvisie** - Ontwikkel beleid dat burgerbehoeften centraal stelt
     2. **Stel kaders voor gebruikersonderzoek** - Bepaal standaarden voor overheidsorganisaties
     3. **Coördineer tussen ministeries** - Zorg voor consistente gebruikersgerichte aanpak
@@ -71,15 +72,17 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
     5. **Evalueer beleidseffectiviteit** - Meet impact van gebruikersgerichte diensten
 
     **Belangrijke overwegingen:**
+
     - Digitale inclusie en toegankelijkheid
     - Representativiteit van gebruikersonderzoek
     - Budgettering voor structureel gebruikersonderzoek
     - Wet- en regelgeving rond dienstverlening
 
-=== "CXO/Bestuurder"
+=== "Bestuurder"
     ### Strategische gebruikersgerichtheid
 
     **Stappen:**
+
     1. **Bepaal gebruikersgerichte visie** - Ontwikkel organisatiestrategie met focus op gebruikers
     2. **Budgeteer voor gebruikersonderzoek** - Reserveer middelen voor structureel onderzoek
     3. **Stel KPI's voor gebruikerstevredenheid** - Meet succes van gebruikersgerichte aanpak
@@ -87,6 +90,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
     5. **Monitor ROI van gebruikersonderzoek** - Evalueer waarde van investeringen
 
     **Belangrijke overwegingen:**
+
     - Balans tussen gebruikersbehoeften en bedrijfsvoering
     - Investering in onderzoekstools en expertise
     - Change management voor gebruikersgerichte cultuur
@@ -96,6 +100,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
     ### Projectuitvoering met gebruikersfocus
 
     **Stappen:**
+
     1. **Plan gebruikersonderzoek** - Integreer onderzoek in projectplanning
     2. **Coördineer met UX-teams** - Zorg voor adequate onderzoeksresources
     3. **Organiseer gebruikerstesten** - Plan iteratieve feedback loops
@@ -103,6 +108,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
     5. **Evalueer projectsucces** - Meet impact op gebruikerservaring
 
     **Belangrijke overwegingen:**
+
     - Tijdsinvestering voor gebruikersonderzoek
     - Balans tussen snelheid en grondige research
     - Stakeholder management rond onderzoeksresultaten
@@ -112,6 +118,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
     ### Technische implementatie gebruikersgerichtheid
 
     **Stappen:**
+
     1. **Implementeer gebruikersanalytics** - Bouw meetinstrumenten voor gebruikersgedrag
     2. **Ontwikkel toegankelijke interfaces** - Volg WCAG-richtlijnen en best practices
     3. **Creëer feedback mechanismen** - Bouw tools voor gebruikersinput
@@ -139,6 +146,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
     ```
 
     **Belangrijke overwegingen:**
+
     - Privacy by design in gebruikersonderzoek
     - Toegankelijkheid (WCAG 2.1 AA)
     - Performance impact van analytics
@@ -148,6 +156,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
     ### Juridische aspecten gebruikersonderzoek
 
     **Stappen:**
+
     1. **Evalueer privacy-impact** - Beoordeel juridische risico's van gebruikersonderzoek
     2. **Stel toestemmingsprocessen op** - Ontwikkel GDPR-conforme consent flows
     3. **Adviseer over data-gebruik** - Zorg voor rechtmatige verwerking gebruikersdata
@@ -155,6 +164,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
     5. **Opstellen privacy statements** - Transparantie over datagebruik
 
     **Belangrijke overwegingen:**
+
     - GDPR artikel 6 rechtsgrond voor onderzoek
     - Bewaarperiodes van onderzoeksdata
     - Rechten van betrokkenen (inzage, rectificatie)
@@ -164,6 +174,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
     ### Inkoop van onderzoekstools en -services
 
     **Stappen:**
+
     1. **Specificeer onderzoeksvereisten** - Definieer eisen voor onderzoekstools
     2. **Evalueer onderzoeksbureaus** - Beoordeel expertise en methodologie
     3. **Onderhandel over dataeigendom** - Zorg voor eigendom van onderzoeksresultaten
@@ -171,9 +182,11 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
     5. **Monitor leveranciersprestaties** - Evalueer kwaliteit van onderzoeksresultaten
 
     **Template aanbestedingseis:**
+
     > **Onderzoeksexpertise:** Leverancier moet aantoonbare ervaring hebben met gebruikersonderzoek binnen overheidsdomeinen en bekend zijn met toegankelijkheidseisen volgens WCAG 2.1 AA standaarden.
 
     **Belangrijke overwegingen:**
+
     - Expertise in overheidscontext
     - GDPR-compliance van onderzoekstools
     - Kwaliteitsborging van onderzoeksmethodologie

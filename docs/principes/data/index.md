@@ -65,6 +65,7 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
     ### Beleidsframeworks voor datagovernance
 
     **Stappen:**
+
     1. **Nationale datastrategie ontwikkelen** - Formuleer visie op data als strategische overheidsgrondstof
     2. **Interbestuurlijke samenwerking** - Coördineer datagovernance tussen overheidsniveaus
     3. **Open data beleid** - Implementeer 'open tenzij' principe voor overheidsinformatie
@@ -72,21 +73,24 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
     5. **Datastandaarden vaststellen** - Harmoniseer dataformaten en -uitwisseling
 
     **Belangrijke overwegingen:**
+
     - Balans tussen openheid en privacy
     - Internationale datastandaarden (EU Data Governance Act)
     - Burgerparticipatie in datagovernance
     - Datasoevereiniteit en -veiligheid
 
     **Nederlandse context:**
+
     - Implementatie van EU Data Governance Act
     - Doorwerking van Wet Open Overheid (WOO)
     - Archiefwet en informatiebeveiliging
     - Samenwerking met VNG en provincies
 
-=== "CXO/Bestuurder"
+=== "Bestuurder"
     ### Strategische datagovernance en -management
 
     **Stappen:**
+
     1. **Data-gedreven strategie** - Verankerd databewuste besluitvorming in organisatie
     2. **Data governance organisatie** - Stel chief data officer en data stewards aan
     3. **Datavolwassenheid meten** - Evalueer organisatorische datacapaciteit
@@ -94,12 +98,14 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
     5. **Change management** - Cultiveer datacultuur in organisatie
 
     **Belangrijke overwegingen:**
+
     - Investering in datainfrastructuur vs operationele baten
     - Organisatorische data-readiness
     - Vendor lock-in preventie bij data-platforms
     - Risicobeheersing bij data-initiatieven
 
     **KPI's voor datavolwassenheid:**
+
     - Percentage processen met data-onderbouwing
     - Tijdsduur voor data-gedreven besluitvorming
     - Aantal herbruikbare datasets
@@ -109,6 +115,7 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
     ### Projectimplementatie van dataoplossingen
 
     **Stappen:**
+
     1. **Data-assessment** - Inventariseer bestaande data en -kwaliteit
     2. **Stakeholder mapping** - Identificeer data-eigenaren en -gebruikers
     3. **Datagovernance plan** - Ontwikkel projectspecifieke databeheersing
@@ -116,12 +123,14 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
     5. **Monitoring en evaluatie** - Meet impact van data-interventies
 
     **Belangrijke overwegingen:**
+
     - Minimale verstoring van bestaande processen
     - Gebruikersadoptie en change management
     - Data-architectuur integratie
     - Compliance en risicomanagement
 
     **Projectmanagement tools:**
+
     - Data impact assessments
     - Stakeholder matrix voor datagovernance
     - Datakwaliteitsrapporten
@@ -131,6 +140,7 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
     ### Technische data-implementatie
 
     **Stappen:**
+
     1. **Data-architectuur ontwerpen** - Implementeer moderne data-platforms
     2. **API-first ontwikkeling** - Bouw herbruikbare data-services
     3. **Datakwaliteitscontroles** - Automatiseer validatie en monitoring
@@ -181,6 +191,7 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
     ```
 
     **Belangrijke overwegingen:**
+
     - Gebruik Nederlandse API-standaarden (NL API Strategy)
     - Implementeer DCAT-AP NL voor metadata
     - Pas privacy-by-design toe in data-pipelines
@@ -190,6 +201,7 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
     ### Juridische compliance voor dataverwerking
 
     **Stappen:**
+
     1. **AVG-compliance** - Toets dataverwerking op privacywetgeving
     2. **Data-audittrails** - Zorg voor juridische traceerbaarheid
     3. **Dataretentiebeleid** - Implementeer conform Archiefwet
@@ -197,24 +209,28 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
     5. **Incidentenprocedures** - Ontwikkel juridische respons voor datalekken
 
     **Belangrijke overwegingen:**
+
     - Rechtmatigheid van dataverwerking
     - Transparantie naar burgers over datagebruik
     - Dataportabiliteit en inzagerechten
     - Aansprakelijkheid bij data-incidenten
 
     **Juridische checklists:**
+
     - **Verwerkingsgrond:** Is er geldige AVG-grond?
     - **Doelbinding:** Wordt data alleen voor het doel gebruikt?
     - **Dataminimalisatie:** Worden alleen noodzakelijke gegevens verwerkt?
     - **Bewaartermijnen:** Conform Archiefwet en branche-specifieke regelgeving
 
     **Template privacyverklaring:**
+
     > "De gemeente verwerkt persoonsgegevens op basis van artikel 6.1.e AVG (publieke taak). Gegevens worden bewaard conform de Archiefwet en gemeentelijke bewaartermijnen. Burgers hebben recht op inzage, correctie en bezwaar conform de AVG."
 
 === "Inkoper"
     ### Inkoopstrategieën voor dataoplossingen
 
     **Stappen:**
+
     1. **Databehoeften specificeren** - Definieer functionele data-requirements
     2. **Leveranciersselectie** - Evalueer databedrijven op compliance
     3. **Contract-onderhandelingen** - Stel data-SLA's en -governance vast
@@ -222,18 +238,21 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
     5. **Performance monitoring** - Monitor leveranciers op datakwaliteit
 
     **Belangrijke overwegingen:**
+
     - Open standaarden voor datauitwisseling
     - Eigendomsrechten op data en algoritmen
     - Exit-strategieën bij leverancierswisseling
     - Compliance monitoring en audit-rechten
 
     **Aanbestedingseisen voor dataoplossingen:**
+
     - **Standaarden:** Ondersteuning voor DCAT-AP NL en NL API Strategy
     - **Compliance:** AVG-compliance en BIO-normering
     - **Interoperabiliteit:** RESTful API's met OpenAPI specificatie
     - **Dataportabiliteit:** Mogelijkheid tot volledige data-export
 
     **Template contract-clausule:**
+
     > "Leverancier garandeert dat alle dataverwerking plaatsvindt binnen EU-grenzen en voldoet aan AVG-vereisten. Bij contractbeëindiging wordt alle data binnen 30 dagen geretourneerd in machine-leesbaar formaat conform Nederlandse datastandaarden."
 
 ## Gerelateerde hulpmiddelen

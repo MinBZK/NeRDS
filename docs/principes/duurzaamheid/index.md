@@ -65,6 +65,7 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
     ### Beleidskaders voor duurzame technologie
 
     **Stappen:**
+
     1. **Ontwikkel duurzaamheidsbeleid** - Formuleer kaders voor groene digitalisering
     2. **Integreer in wet- en regelgeving** - Verwerk duurzaamheidseisen in ICT-normen
     3. **Coördineer tussen ministeries** - Zorg voor consistente duurzaamheidsstrategie
@@ -72,21 +73,24 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
     5. **Monitor internationale trends** - Volg EU Green Deal en Digital Decade doelstellingen
 
     **Belangrijke overwegingen:**
+
     - Koppeling aan Nederlandse klimaatdoelstellingen 2030/2050
     - Balans tussen innovatie en duurzaamheidsverplichtingen
     - Integratie met circulaire economie strategie
     - Samenwerking met EU-partners over groene digitalisering
 
     **Concrete acties:**
+
     - Ontwikkel nationale Green IT-strategie
     - Stel MVI-criteria voor ICT-inkoop op
     - Coördineer met klimaatbeleid ministeries
     - Organiseer Green IT innovation challenges
 
-=== "CXO/Bestuurder"
+=== "Bestuurder"
     ### Strategische duurzaamheidsgovernance
 
     **Stappen:**
+
     1. **Bepaal duurzaamheidsstrategie** - Ontwikkel organisatiebrede groene IT-visie
     2. **Integreer in bedrijfsvoering** - Koppel duurzaamheid aan KPI's en bestuursrapportage
     3. **Evalueer milieuimpact** - Beoordeel CO2-voetafdruk van IT-operaties
@@ -94,12 +98,14 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
     5. **Communiceer resultaten** - Rapporteer duurzaamheidsprestaties aan stakeholders
 
     **Belangrijke overwegingen:**
+
     - TCO-analyse inclusief milieukosten
     - Reputatierisico's bij niet-duurzame IT-keuzes
     - Compliance met toekomstige milieuregelgeving
     - Aantrekken van duurzaamheidsgerichte talent
 
     **Concrete acties:**
+
     - Stel organisatiebrede CO2-reductiedoelen
     - Implementeer Green IT governance structuur
     - Ontwikkel duurzaamheidsrapportage dashboard
@@ -109,6 +115,7 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
     ### Projectimplementatie van duurzaamheidsmaatregelen
 
     **Stappen:**
+
     1. **Duurzaamheidsanalyse** - Evalueer milieuimpact van projectvoorstellen
     2. **Integreer in projectplanning** - Bouw duurzaamheidseisen in project lifecycle
     3. **Coördineer stakeholders** - Breng techniek, inkoop en duurzaamheidsexperts samen
@@ -116,12 +123,14 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
     5. **Evalueer resultaten** - Meet werkelijke vs beoogde milieuvoordelen
 
     **Belangrijke overwegingen:**
+
     - Balans tussen project-deadlines en duurzaamheidsdoelen
     - Change management voor groene werkwijzen
     - Risicomanagement voor nieuwe duurzame technologieën
     - Communicatie over duurzaamheidsvoordelen naar gebruikers
 
     **Concrete acties:**
+
     - Gebruik duurzaamheidsassessment tools
     - Plan gefaseerde implementatie van groene maatregelen
     - Organiseer training over duurzame IT-praktijken
@@ -131,6 +140,7 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
     ### Technische duurzaamheidsimplementatie
 
     **Stappen:**
+
     1. **Green coding principes** - Ontwikkel energie-efficiënte software
     2. **Optimize resource gebruik** - Minimaliseer CPU, geheugen en netwerkverbruik
     3. **Implementeer monitoring** - Meet energieverbruik van applicaties
@@ -198,6 +208,7 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
     ```
 
     **Belangrijke overwegingen:**
+
     - Kies energy-efficient algoritmes en datastructuren
     - Implementeer intelligent caching strategies
     - Gebruik serverless voor intermittent workloads
@@ -207,6 +218,7 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
     ### Juridische compliance voor duurzaamheid
 
     **Stappen:**
+
     1. **Analyseer milieuwetgeving** - Beoordeel compliance met EU Green Deal en nationale wetgeving
     2. **Contractuele duurzaamheidseisen** - Integreer milieuvereisten in leverancierscontracten
     3. **Rapportageverplichtingen** - Adviseer over CSRD en taxonomie-rapportage
@@ -214,15 +226,18 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
     5. **Compliance monitoring** - Stel procedures op voor naleving duurzaamheidsnormen
 
     **Belangrijke overwegingen:**
+
     - Corporate Sustainability Reporting Directive (CSRD) compliance
     - EU Taxonomy verordening voor duurzame activiteiten
     - Supply chain due diligence voor milieurisico's
     - Aansprakelijkheid voor milieuclaims en greenwashing
 
     **Template contractclausule:**
+
     > **Duurzaamheidsvereisten:** Leverancier committeert zich aan CO2-reductie conform Paris Climate Agreement. Leverancier rapporteert jaarlijks over energieverbruik en implementeert maatregelen conform ISO 14001 standaard.
 
     **Concrete acties:**
+
     - Ontwikkel juridische checklists voor groene IT-inkoop
     - Adviseer over EU AI Act milieu-impact vereisten
     - Stel template-contracten op met duurzaamheidsclausules
@@ -232,6 +247,7 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
     ### Inkoopstrategieën voor duurzame technologie
 
     **Stappen:**
+
     1. **MVI-criteria toepassen** - Gebruik PIANOo criteria voor ICT-aanbestedingen
     2. **Leveranciersevaluatie** - Beoordeel milieubeleid en -prestaties suppliers
     3. **Lifecycle cost analysis** - Integreer milieukosten in TCO-berekeningen
@@ -239,29 +255,35 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
     5. **Contract management** - Monitor naleving duurzaamheidsvereisten
 
     **MVI-criteria voor ICT-inkoop:**
+
     - **Energie-efficiëntie**: ENERGY STAR, EU Ecolabel certificeringen
     - **Materiaalgebruik**: Conflict-free minerals, recyclebare materialen
     - **Levensduur**: Minimale garantieperiode, upgrademogelijkheden
     - **End-of-life**: Terugname- en recyclingprogramma's
 
     **Aanbestedingsvoorbeeld:**
+
     > **Gunningscriterium Duurzaamheid (25%):**
+
     > - CO2-footprint productie en transport (10%)
     > - Energieverbruik tijdens gebruik (8%)
     > - Circulaire oplossingen (leasing, refurbished) (7%)
     >
     > **Leverancier moet aantonen:**
+
     > - ISO 14001 certificering
     > - Concrete CO2-reductiedoelstellingen
     > - Transparante sustainability reporting
 
     **Belangrijke overwegingen:**
+
     - Balans tussen prijs en duurzaamheidsvoordelen
     - Innovatieve financieringsmodellen (leasing, as-a-service)
     - Lokale sourcing voor transport-emissiereductie
     - Supplier development voor duurzaamheidsverbetering
 
     **Concrete acties:**
+
     - Implementeer duurzaamheidsscoring in leveranciersevaluatie
     - Ontwikkel partnerships met groene ICT-leveranciers
     - Stel circular procurement targets voor ICT-categorie

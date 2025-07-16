@@ -67,6 +67,7 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
     ### Beleidskaders voor cybersecurity governance
 
     **Stappen:**
+
     1. **Nationale cybersecurity strategie** - Ontwikkel en implementeer kaders binnen Nederlandse Cybersecurity Strategie
     2. **Wetgevingscompliance** - Zorg voor naleving NIS2-richtlijn en Cybersecurity Act
     3. **Interministeriële coördinatie** - Harmoniseer beveiligingsbeleid tussen overheidsorganisaties
@@ -74,20 +75,23 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
     5. **Internationale samenwerking** - Coördineer met EU-cybersecurity initiatieven
 
     **Belangrijke overwegingen:**
+
     - Balans tussen beveiliging en gebruiksvriendelijkheid
     - Compliance met EU-wetgeving (NIS2, Cybersecurity Act)
     - Integratie met privacy- en databeleid
     - Incident response governance
 
     **Concrete acties:**
+
     - Formuleer organisatiebrede cybersecurity governance
     - Ontwikkel beleidskaders voor Zero Trust architectuur
     - Stel ethische richtlijnen op voor AI-beveiligingstoepassingen
 
-=== "CXO/Bestuurder"
+=== "Bestuurder"
     ### Strategische security governance en risk management
 
     **Stappen:**
+
     1. **Cybersecurity strategie** - Ontwikkel organisatiebrede security vision en roadmap
     2. **Risk appetite bepalen** - Stel acceptable risk levels vast voor verschillende bedrijfsprocessen
     3. **Security budget planning** - Alloceer resources voor preventie, detectie en response
@@ -95,12 +99,14 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
     5. **Crisis management** - Stel procedures op voor security incident escalatie
 
     **Belangrijke overwegingen:**
+
     - ROI van security investeringen vs risico-acceptatie
     - Regulatory compliance kosten en impact
     - Reputatierisico's bij security incidenten
     - Cyber insurance en risk transfer strategieën
 
     **Concrete acties:**
+
     - Implementeer quarterly security reviews op bestuursniveau
     - Ontwikkel metrics voor security maturity measurement
     - Stel crisis communication plannen op voor data breaches
@@ -109,6 +115,7 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
     ### Project implementatie van security maatregelen
 
     **Stappen:**
+
     1. **Security requirements** - Integreer beveiligingseisen in projectscope vanaf aanvang
     2. **Threat modeling** - Voer dreigingsanalyse uit voor projectspecifieke context
     3. **Security testing planning** - Plan penetratietesten en vulnerability assessments
@@ -116,12 +123,14 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
     5. **Compliance tracking** - Monitor naleving van security standaarden tijdens project
 
     **Belangrijke overwegingen:**
+
     - Balance tussen project timeline en security rigor
     - Stakeholder alignment rond security vs functionaliteit
     - Budget impact van security requirements
     - Integration met bestaande security infrastructure
 
     **Concrete acties:**
+
     - Gebruik NIST Cybersecurity Framework voor project security planning
     - Implementeer security gates in project lifecycle
     - Plan security acceptance criteria voor user stories
@@ -130,6 +139,7 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
     ### Technische security implementatie
 
     **Stappen:**
+
     1. **Secure coding practices** - Implementeer OWASP Top 10 preventie in code
     2. **Authentication & authorization** - Bouw robuuste identity management
     3. **Encryption implementation** - Implementeer end-to-end encryption voor data
@@ -214,6 +224,7 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
     ### Legal compliance (NIS2, GDPR, cybersecurity wetgeving)
 
     **Stappen:**
+
     1. **NIS2 compliance** - Implementeer vereisten voor kritieke infrastructuur
     2. **GDPR security measures** - Zorg voor 'state of the art' beveiliging artikel 32
     3. **Incident notification** - Stel procedures op voor meldplicht datalekken
@@ -221,21 +232,25 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
     5. **Cross-border data transfers** - Beoordeel international security requirements
 
     **Wettelijk kader:**
+
     - **NIS2-richtlijn**: Verhoogde security requirements voor essentiële diensten
     - **GDPR Artikel 32**: Beveiliging van verwerking (technical and organizational measures)
     - **Cybersecurity Act**: EU-certificering voor cybersecurity producten
     - **Wet beveiliging netwerk- en informatiesystemen**: Nederlandse implementatie NIS2
 
     **Belangrijke overwegingen:**
+
     - Liability bij security incidenten
     - Contractuele security obligations met leveranciers
     - International jurisdiction bij cloud security
     - Compliance monitoring en audit trails
 
     **Template security clause:**
+
     > **Beveiliging van persoonsgegevens:** Verwerkingsverantwoordelijke implementeert passende technische en organisatorische maatregelen als bedoeld in artikel 32 AVG, waaronder versleuteling, pseudonimisering, toegangscontrole en regelmatige security assessments.
 
     **Concrete acties:**
+
     - Ontwikkel juridische checklists voor security compliance
     - Stel Data Protection Impact Assessments (DPIA) procedures op
     - Adviseer over international security law implications
@@ -244,6 +259,7 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
     ### Procurement van secure technology en services
 
     **Stappen:**
+
     1. **Security requirements specificeren** - Definieer security eisen in aanbestedingen
     2. **Vendor security assessment** - Evalueer leveranciers op security maturity
     3. **SLA onderhandelingen** - Stel security performance indicators vast
@@ -251,21 +267,26 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
     5. **Contract monitoring** - Monitor naleving security verplichtingen
 
     **Template aanbestedingseis:**
-    > **Security standaarden:** Leverancier moet aantonen dat producten/diensten voldoen aan ISO 27001, NEN 7510 (zorgverlening), en/of Common Criteria EAL4+. Leverancier dient kwartaalrapportages te verstrekken over security incidents en remediation.
+
+    > **Security standaarden:**
+    Leverancier moet aantonen dat producten/diensten voldoen aan ISO 27001, NEN 7510 (zorgverlening), en/of Common Criteria EAL4+. Leverancier dient kwartaalrapportages te verstrekken over security incidents en remediation.
 
     **Evaluation criteria:**
+
     - **Security certifications**: ISO 27001, SOC 2 Type II, Common Criteria
     - **Incident response**: 24/7 security operations center, escalation procedures
     - **Vulnerability management**: Patch management SLA's, responsible disclosure
     - **Compliance**: GDPR, NIS2, sector-specific regulations
 
     **Belangrijke overwegingen:**
+
     - TCO van security vs risk exposure
     - Vendor lock-in preventie via security standards
     - Exit-strategieën bij security non-compliance
     - Insurance en liability coverage
 
     **Concrete acties:**
+
     - Gebruik gestandaardiseerde security vragenlijsten (bijv. SIG Questionnaire)
     - Ontwikkel security scorecards voor vendor evaluation
     - Implementeer third-party risk management programma

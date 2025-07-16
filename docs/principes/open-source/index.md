@@ -85,15 +85,17 @@ Door open en transparant te werken en open source software te omarmen, draag je 
     - Compliance met EU-regelgeving
 
     **Concrete acties:**
+
     - Ontwikkel "open source first" beleidskaders
     - Formuleer uitzonderingscriteria voor gesloten software
     - Creëer incentives voor overheidsbrede open source adoptie
     - Stel transparantie-eisen op voor aanbestede software
 
-=== "CXO/Bestuurder"
+=== "Bestuurder"
     ### Strategische open source governance
 
     **Stappen:**
+
     1. **Bepaal open source strategie** - Ontwikkel organisatiebrede visie op transparantie
     2. **Business case ontwikkelen** - Bereken ROI van open source vs proprietary software
     3. **Risicoanalyse** - Beoordeel security, compliance en operationele risico's
@@ -101,12 +103,14 @@ Door open en transparant te werken en open source software te omarmen, draag je 
     5. **KPI's definiëren** - Stel meetbare doelen voor open source adoptie
 
     **Belangrijke overwegingen:**
+
     - TCO van open source vs proprietary licenties
     - Vendor lock-in preventie
     - Talent acquisition en retention
     - Organisatorische change management
 
     **Concrete acties:**
+
     - Stel open source governance committee op
     - Ontwikkel business case voor inner-sourcing
     - Plan gefaseerde migratie naar open source stack
@@ -116,6 +120,7 @@ Door open en transparant te werken en open source software te omarmen, draag je 
     ### Project implementatie van open source
 
     **Stappen:**
+
     1. **Open source assessment** - Evalueer bestaande open source alternatieven
     2. **Implementatieplan** - Ontwikkel gefaseerde overgang naar open source
     3. **Community management** - Organiseer interne en externe samenwerking
@@ -123,12 +128,14 @@ Door open en transparant te werken en open source software te omarmen, draag je 
     5. **Documentatie management** - Zorg voor gebruiksvriendelijke documentatie
 
     **Belangrijke overwegingen:**
+
     - Minimale service-onderbreking tijdens transitie
     - Team training en skill development
     - Externe dependency management
     - Contributie-processen naar upstream projecten
 
     **Concrete acties:**
+
     - Gebruik open source readiness assessments
     - Plan pilot-projecten voor open source development
     - Stel contributing guidelines op voor teamleden
@@ -138,6 +145,7 @@ Door open en transparant te werken en open source software te omarmen, draag je 
     ### Technische open source implementatie
 
     **Stappen:**
+
     1. **Code repository setup** - Configureer Git workflows en branching strategies
     2. **CI/CD pipelines** - Implementeer geautomatiseerde testing en deployment
     3. **Code quality gates** - Stel linting, security scanning en code coverage in
@@ -194,6 +202,7 @@ Door open en transparant te werken en open source software te omarmen, draag je 
     ```
 
     **Belangrijke overwegingen:**
+
     - Dependency vulnerability management
     - SBOM (Software Bill of Materials) generatie
     - Geautomatiseerde licentie compliance checking
@@ -203,6 +212,7 @@ Door open en transparant te werken en open source software te omarmen, draag je 
     ### Juridische compliance voor open source
 
     **Stappen:**
+
     1. **Licentie-analyse** - Beoordeel compatibility verschillende open source licenties
     2. **IP-rechten management** - Zorg voor duidelijke ownership en contribution agreements
     3. **Compliance monitoring** - Stel processen op voor licentie-naleving
@@ -218,12 +228,14 @@ Door open en transparant te werken en open source software te omarmen, draag je 
     | GPL-3.0 | ✅ | ❌ | ❌ | ✅ |
 
     **Belangrijke overwegingen:**
+
     - Wederkerigheid (copyleft) vs permissive licenties
     - Patent-clausules in moderne licenties
     - Liability en warranty disclaimers
     - Export control compliance
 
     **Concrete acties:**
+
     - Ontwikkel juridische checklists voor open source adoptie
     - Stel template Contributor License Agreements op
     - Adviseer over EUPL-1.2 vs andere licenties
@@ -233,6 +245,7 @@ Door open en transparant te werken en open source software te omarmen, draag je 
     ### Inkoopoverwegingen open source vs proprietary
 
     **Stappen:**
+
     1. **TCO-analyse** - Vergelijk totale kosten open source vs proprietary oplossingen
     2. **Leveranciersevaluatie** - Beoordeel open source support providers
     3. **SLA-onderhandelingen** - Stel eisen voor support en maintenance
@@ -240,6 +253,7 @@ Door open en transparant te werken en open source software te omarmen, draag je 
     5. **Contract management** - Monitor naleving open source licenties
 
     **TCO-vergelijking template:**
+
     | Kostenpost | Open Source | Proprietary |
     |------------|-------------|-------------|
     | Licentiekosten | €0 | €50.000/jaar |
@@ -250,15 +264,19 @@ Door open en transparant te werken en open source software te omarmen, draag je 
     | **Totaal (3 jaar)** | **€85.000** | **€222.000** |
 
     **Aanbestedingseis voorbeeld:**
-    > **Open source voorkeur:** Aanbieder dient aan te tonen waarom proprietary software noodzakelijk is indien geen open source alternatief wordt voorgesteld. Open source oplossingen krijgen 10% voorkeur in gunningscriteria.
+
+    > **Open source voorkeur:**
+    Aanbieder dient aan te tonen waarom proprietary software noodzakelijk is indien geen open source alternatief wordt voorgesteld. Open source oplossingen krijgen 10% voorkeur in gunningscriteria.
 
     **Belangrijke overwegingen:**
+
     - Vendor lock-in risico's
     - Community vs commerciële support
     - Intellectual property ownership
     - Long-term sustainability projecten
 
     **Concrete acties:**
+
     - Ontwikkel open source assessment frameworks
     - Stel contractuele eisen op voor source code toegang
     - Evalueer open source support ecosysteem

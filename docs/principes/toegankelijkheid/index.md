@@ -76,6 +76,7 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
     ### Beleidskaders voor toegankelijkheid
 
     **Stappen:**
+
     1. **Ontwikkel toegankelijkheidsbeleid** - Formuleer kaders binnen Web Accessibility Directive
     2. **Stel toegankelijkheidseisen op** - Definieer minimale WCAG 2.2 AA-standaarden
     3. **Coördineer tussen departementen** - Zorg voor consistente toegankelijkheidsnormen
@@ -83,15 +84,17 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
     5. **Organiseer stakeholderconsultatie** - Betrek gebruikersorganisaties bij beleidsontwikkeling
 
     **Belangrijke overwegingen:**
+
     - European Accessibility Act (EAA) implementatie
     - VN-Verdrag inzake de rechten van personen met een handicap
     - Nederlandse Wet gelijke behandeling op grond van handicap
     - Digitale inclusie-doelstellingen binnen EU Digital Decade
 
-=== "CXO/Bestuurder"
+=== "Bestuurder"
     ### Strategische toegankelijkheidsgovernance
 
     **Stappen:**
+
     1. **Formuleer accessibility-first strategie** - Ontwikkel organisatiebrede toegankelijkheidsvisie
     2. **Bepaal KPI's en metrics** - Stel meetbare doelen voor toegankelijkheidsnaleving
     3. **Budgeteer voor inclusief ontwerp** - Reserveer middelen voor toegankelijkheidsmaatregelen
@@ -99,6 +102,7 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
     5. **Communiceer commitment** - Toon externe en interne betrokkenheid bij inclusie
 
     **Belangrijke overwegingen:**
+
     - ROI van toegankelijke systemen vs remediation kosten
     - Reputatierisico's bij non-compliance
     - Organisatorische culture change naar inclusief denken
@@ -108,6 +112,7 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
     ### Projectimplementatie van toegankelijkheid
 
     **Stappen:**
+
     1. **Integreer toegankelijkheid in projectplanning** - Voeg accessibility-requirements toe aan PID
     2. **Organiseer gebruikerstesten** - Betrek mensen met beperkingen in testfases
     3. **Plan accessibility audits** - Programmeer evaluaties gedurende ontwikkelcyclus
@@ -115,6 +120,7 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
     5. **Monitor compliance gedurende project** - Track WCAG-naleving in alle sprint reviews
 
     **Belangrijke overwegingen:**
+
     - Early stage accessibility-integratie voorkomt kostbare late wijzigingen
     - Gebruikerstesten met assistive technology users
     - Training van projectteams in accessibility-principes
@@ -124,6 +130,7 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
     ### Technische toegankelijkheidsimplementatie
 
     **Stappen:**
+
     1. **Implementeer semantic HTML** - Gebruik correcte HTML-structuur voor screen readers
     2. **Ontwikkel toetsenbordnavigatie** - Zorg voor volledige toetsenbord-toegankelijkheid
     3. **Optimaliseer voor assistive technology** - Test met NVDA, JAWS, VoiceOver
@@ -209,6 +216,7 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
     ### Juridische compliance voor toegankelijkheid
 
     **Stappen:**
+
     1. **Analyseer Web Accessibility Directive** - Toets systemen op EU-richtlijn 2016/2102
     2. **Implementeer EN 301 549 compliance** - Zorg voor naleving Europese norm
     3. **Stel toegankelijkheidsverklaringen op** - Creëer verplichte accessibility statements
@@ -216,15 +224,18 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
     5. **Monitor EAA-implementatie** - Voorbereid op European Accessibility Act vanaf 2025
 
     **Wettelijke verplichtingen:**
+
     - **Web Accessibility Directive (WAD)**: EU-richtlijn 2016/2102 verplicht WCAG 2.1 AA
     - **European Accessibility Act**: Vanaf 28 juni 2025 voor e-commerce, banking
     - **EN 301 549**: Europese norm voor ICT-toegankelijkheid (hardware en software)
     - **Wet gelijke behandeling handicap**: Nederlandse anti-discriminatiewetgeving
 
     **Template toegankelijkheidsverklaring:**
+
     > Deze website voldoet gedeeltelijk aan WCAG 2.1 niveau AA. Bekende problemen worden aangepakt volgens ons [toegankelijkheidsplan]. Voor vragen over toegankelijkheid kunt u contact opnemen via [contactformulier] of telefonisch op [nummer].
 
     **Belangrijke overwegingen:**
+
     - Aansprakelijkheid bij discriminatieclaims
     - Bewijs van due diligence bij compliance-inspanningen
     - Periodic review en update van toegankelijkheidsverklaringen
@@ -234,6 +245,7 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
     ### Inkoop van toegankelijke technologie
 
     **Stappen:**
+
     1. **Formuleer accessibility-eisen** - Specificeer EN 301 549 compliance in tenders
     2. **Evalueer leveranciers op inclusie** - Beoordeel aanbieders op accessibility-ervaring
     3. **Stel VPAT-eisen** - Vraag Voluntary Product Accessibility Templates
@@ -241,15 +253,18 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
     5. **Plan accessibility-audits** - Stel eisen voor periodieke compliance-controles
 
     **Template aanbestedingseis:**
+
     > **Toegankelijkheidsvereisten:** Leverancier moet aantonen dat geleverde software/hardware voldoet aan EN 301 549 standaarden en WCAG 2.1 niveau AA. Bewijs via independent accessibility audit rapport (niet ouder dan 6 maanden) is verplicht. Leverancier garandeert dat toekomstige updates de toegankelijkheid behouden.
 
     **VPAT-checkpoints:**
+
     - Conformance level (A, AA, AAA) per WCAG-criterium
     - Test methodologie en tools gebruikt
     - Bekende toegankelijkheidsproblemen en remediation timeline
     - Ondersteuning voor assistive technologies
 
     **Belangrijke overwegingen:**
+
     - Total Cost of Ownership inclusief accessibility-features
     - Vendor commitment tot toegankelijkheid in roadmap
     - Training en support voor accessibility-features

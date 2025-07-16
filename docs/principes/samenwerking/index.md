@@ -83,10 +83,11 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
     - Volg [Digitale Overheid](https://www.digitaleoverheid.nl/) richtlijnen
     - Pas [Nederlandse Overheid Referentie Architectuur (NORA)](https://www.noraonline.nl/) toe
 
-=== "CXO/Bestuurder"
+=== "Bestuurder"
     ### Strategische samenwerkingsgovernance
 
     **Stappen:**
+
     1. **Definieer partnerships** - Identificeer strategische samenwerkingspartners
     2. **Ontwikkel governance model** - Stel bestuurlijke kaders voor samenwerking op
     3. **Budgeteer gezamenlijk** - Creëer financiële modellen voor gedeelde kosten
@@ -94,12 +95,14 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
     5. **Evalueer resultaten** - Meet ROI van samenwerkingsinvesteringen
 
     **Belangrijke overwegingen:**
+
     - Organisatorische autonomie vs samenwerking
     - Intellectual property en eigendom
     - Accountability en verantwoordelijkheid
     - Exit-strategieën voor partnerships
 
     **Strategic partnerships:**
+
     - Deel in [G4 samenwerking](https://www.g4.nl/) (Amsterdam, Rotterdam, Den Haag, Utrecht)
     - Participeer in [Digitale Overheid samenwerkingen](https://www.digitaleoverheid.nl/)
     - Onderzoek [Europese interoperabiliteit](https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/European+Interoperability+Framework+Implementation+Strategy) kansen
@@ -108,6 +111,7 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
     ### Projectimplementatie van samenwerking
 
     **Stappen:**
+
     1. **Identificeer hergebruik kansen** - Scan bestaande oplossingen voor project
     2. **Coördineer multi-organisatie teams** - Organiseer cross-boundary samenwerking
     3. **Plan gefaseerde implementatie** - Rol gezamenlijke oplossingen stapsgewijs uit
@@ -115,12 +119,14 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
     5. **Monitor adoptie** - Track gebruik van gedeelde componenten
 
     **Belangrijke overwegingen:**
+
     - Verschillende organisatieculturen
     - Afstemming van planning en resources
     - Communicatie tussen teams
     - Kwaliteitsborging over organisaties heen
 
     **Project tools:**
+
     - Gebruik [Slack voor Developer Overheid](https://developer.overheid.nl/community)
     - Plan met [Common Ground Roadmap](https://commonground.nl/roadmap)
     - Documenteer in [VNG Realisatie](https://www.vngrealisatie.nl/) repositories
@@ -129,6 +135,7 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
     ### Technische samenwerkingsimplementatie
 
     **Stappen:**
+
     1. **Stel code repositories in** - Creëer gedeelde ontwikkelomgevingen
     2. **Implementeer API's** - Ontwikkel interoperabiliteitslagen
     3. **Gebruik gemeenschappelijke componenten** - Integreer herbruikbare libraries
@@ -137,7 +144,9 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
 
     **Code-voorbeelden:**
 
+
     **Gedeelde component library:**
+
     ```javascript
     // NL Design System component
     import { Button, Form } from '@nl-design-system/components';
@@ -204,6 +213,7 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
     ### Juridische compliance voor samenwerking
 
     **Stappen:**
+
     1. **Stel samenwerkingsovereenkomsten op** - Ontwikkel juridische frameworks
     2. **Analyseer IP-eigendom** - Bepaal eigendomsrechten bij gezamenlijke ontwikkeling
     3. **Reguleer datadeling** - Creëer AVG-conforme data sharing agreements
@@ -211,24 +221,28 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
     5. **Monitor compliance** - Controleer naleving van samenwerkingsafspraken
 
     **Belangrijke overwegingen:**
+
     - Intellectuele eigendomsrechten
     - Aansprakelijkheid bij gezamenlijke projecten
     - Privacy en datadeling tussen organisaties
     - Contractuele exit-strategieën
 
     **Juridische instrumenten:**
+
     - [Wet hergebruik overheidsinformatie](https://wetten.overheid.nl/BWBR0036795/2021-07-01)
     - [AVG](https://gdpr.eu/tag/gdpr/) voor gegevensuitwisseling
     - [Archiefwet](https://wetten.overheid.nl/BWBR0007376/2021-07-01) voor documentbeheer
     - [Auteursrecht](https://wetten.overheid.nl/BWBR0001886/2021-07-01) en open source licenties
 
     **Template clausule datadeling:**
+
     > "Partijen komen overeen dat uitwisseling van persoonsgegevens plaatsvindt conform artikel 28 AVG, waarbij verwerkingsverantwoordelijkheden zijn gedefinieerd in bijlage X. Gegevens worden uitsluitend verwerkt voor publiekrechtelijke taken conform artikel 6 lid 1 sub e AVG."
 
 === "Inkoper"
     ### Inkoopstrategieën voor samenwerkingsoplossingen
 
     **Stappen:**
+
     1. **Bundel inkoopvolumes** - Organiseer gezamenlijke aanbestedingen
     2. **Ontwikkel standaard contracten** - Creëer herbruikbare inkoopsjablonen
     3. **Evalueer leveranciers** - Beoordeel op samenwerkingsbereidheid
@@ -236,18 +250,21 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
     5. **Monitor contract-performance** - Evalueer gezamenlijke leveranciers
 
     **Belangrijke overwegingen:**
+
     - Gezamenlijke aanbestedingsprocedures
     - Standaardisatie van requirements
     - Vendor management over organisaties heen
     - Kostenverdeling en budgettering
 
     **Samenwerkingsmodellen:**
+
     - [Inkoopplatform PIANOo](https://www.pianoo.nl/) voor best practices
     - [G4 gezamenlijke inkoop](https://www.g4.nl/) voor grote steden
     - [Shared Service Centra](https://www.ssc-ictu.nl/) voor ICT-diensten
     - [Leveranciersportaal](https://www.leveranciersportaal.nl/) voor marktconsultatie
 
     **Template aanbestedingseis:**
+
     > "Leverancier dient aan te tonen dat oplossing interoperabel is met bestaande overheidsstandaarden (NORA, Common Ground) en ondersteuning biedt voor multi-tenant deployment voor meerdere overheidsorganisaties."
 
 ## Samenwerkingsplatforms en hulpmiddelen
