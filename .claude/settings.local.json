@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdocs serve:*)",
+      "Bash(pkill:*)",
+      "Bash(mkdocs:*)"
+    ],
+    "deny": []
+  }
+}
