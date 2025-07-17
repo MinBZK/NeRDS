@@ -4,7 +4,7 @@
 
 Het [Ministerie van Binnenlandse Zaken en Koninkrijksrelaties](https://github.com/MinBZK) ontwikkelt de Nederlandse
 Richtlijn Digitale Systemen (NeRDS) op een open manier via Github.
-De Nederlandse Richtlijn Digitale Systemen is een set standaarden, principes en praktische hulpmiddelen (tools) voor het
+De Nederlandse Richtlijn Digitale Systemen is een set standaarden, richtlijnen en praktische hulpmiddelen (tools) voor het
 verantwoord ontwikkelen, inkopen en gebruiken van digitale systemen binnen de Nederlandse overheid.
 
 In deze repository ontwikkelen wij de Nederlandse Richtlijn Digitale Systemen. De informatie van de Nederlandse
