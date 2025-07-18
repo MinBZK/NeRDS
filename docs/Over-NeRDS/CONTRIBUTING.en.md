@@ -129,7 +129,7 @@ For example, because you want to make different change proposals? You can also u
 6. **Commit & push your changes to the fork**
 
 7. **Create a pull request**
-   - Use the pull request [template](.github/pull_request_template.md)
+   - Use the pull request [template](https://github.com/MinBZK/NeRDS/blob/main/.github/pull_request_template.md)
    - We use the tool [pr-preview-action](https://github.com/rossjrw/pr-preview-action) to automatically create previews of a pull request.
    This makes it possible to already view the changes made in a pull request in the final environment.
    When a pull request is made via a fork, this unfortunately leads to an error. This does not block the pull request.

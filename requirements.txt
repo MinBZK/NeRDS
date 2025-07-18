@@ -11,3 +11,8 @@ pandas==2.3.1
 pymdown-extensions==10.16
 PyYAML==6.0.2
 jsonschema==4.24.0
+requests>=2.25.1
+argostranslate>=1.9.0
+transformers>=4.30.0
+torch>=1.13.0
+sentencepiece>=0.1.99

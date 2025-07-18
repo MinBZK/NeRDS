@@ -92,6 +92,7 @@ extra_css:
   - stylesheets/choices.min.css
   - stylesheets/modal.css
   - stylesheets/landing-page.css
+  - stylesheets/language-switcher.css
 
 extra_javascript:
   - javascripts/jquery-3.6.0.min.js
@@ -100,6 +101,7 @@ extra_javascript:
   - javascripts/tablesort.js
   - javascripts/filtering.js
   - javascripts/cluster-form.js
+  - javascripts/language-switcher.js
 
 plugins:
   - awesome-pages:
@@ -107,7 +109,7 @@ plugins:
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
-      reconfigure_material: true
+      reconfigure_material: false
       reconfigure_search: true
       languages:
         - locale: nl
