@@ -19,7 +19,7 @@ repos:
   - repo: local
     hooks:
       - id: validate-richtlijnen
-        name: Validate NeRDS richtlijn files
+        name: Validate NeRDS
         entry: python scripts/validate_richtlijn.py
         language: system
         files: ^docs/richtlijnen/.*/index\.md$

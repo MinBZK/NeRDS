@@ -92,6 +92,7 @@ extra_css:
   - stylesheets/choices.min.css
   - stylesheets/modal.css
   - stylesheets/landing-page.css
+  - stylesheets/language-switcher.css
 
 extra_javascript:
   - javascripts/jquery-3.6.0.min.js
@@ -100,16 +101,70 @@ extra_javascript:
   - javascripts/tablesort.js
   - javascripts/filtering.js
   - javascripts/cluster-form.js
+  - javascripts/language-switcher.js
 
 plugins:
+  - awesome-pages:
+      collapse_single_pages: true
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: false
+      reconfigure_search: true
+      languages:
+        - locale: nl
+          default: true
+          name: Nederlands
+          build: true
+          nav_translations:
+            Home: Home
+            Richtlijnen: Richtlijnen
+            Overzicht: Overzicht
+            "1. Gebruikersbehoeften": "1. Gebruikersbehoeften"
+            "2. Toegankelijkheid": "2. Toegankelijkheid"
+            "3. Open Source": "3. Open Source"
+            "4. Open Standaarden": "4. Open Standaarden"
+            "5. Cloud": "5. Cloud"
+            "6. Veiligheid": "6. Veiligheid"
+            "7. Privacy": "7. Privacy"
+            "8. Samenwerking": "8. Samenwerking"
+            "9. Integratie": "9. Integratie"
+            "10. Data": "10. Data"
+            "11. Algoritmen": "11. Algoritmen"
+            "12. Inkoopstrategie": "12. Inkoopstrategie"
+            "13. Duurzaamheid": "13. Duurzaamheid"
+            "14. Servicestandaard": "14. Servicestandaard"
+            "Over NeRDS": "Over NeRDS"
+            "Bijdragen": "Bijdragen"
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            Home: Home
+            Richtlijnen: Guidelines
+            Overzicht: Overview
+            "1. Gebruikersbehoeften": "1. User Needs"
+            "2. Toegankelijkheid": "2. Accessibility"
+            "3. Open Source": "3. Open Source"
+            "4. Open Standaarden": "4. Open Standards"
+            "5. Cloud": "5. Cloud"
+            "6. Veiligheid": "6. Security"
+            "7. Privacy": "7. Privacy"
+            "8. Samenwerking": "8. Collaboration"
+            "9. Integratie": "9. Integration"
+            "10. Data": "10. Data"
+            "11. Algoritmen": "11. Algorithms"
+            "12. Inkoopstrategie": "12. Procurement Strategy"
+            "13. Duurzaamheid": "13. Sustainability"
+            "14. Servicestandaard": "14. Service Standard"
+            "Over NeRDS": "About NeRDS"
+            "Bijdragen": "Contributing"
   - glightbox
   - search
   - git-revision-date-localized:
       enable_creation_date: true
       timezone: Europe/Amsterdam
       locale: nl
-  - awesome-pages:
-      collapse_single_pages: true
 
 # Link naar GitHub repo
 repo_url: https://github.com/MinBZK/NeRDS

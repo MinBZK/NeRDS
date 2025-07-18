@@ -31,7 +31,7 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
     <h3>Direct aan de slag</h3>
 
     <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+        <strong>Work in Progress</strong>
     </div>
 
     <div class="action-cards">
