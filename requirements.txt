@@ -9,4 +9,4 @@ numpy==2.3.1
 pandas==2.3.1
 pymdown-extensions==10.16
 PyYAML==6.0.2
-jsonschema==4.24.0
+jsonschema==4.24.1
