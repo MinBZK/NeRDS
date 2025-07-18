@@ -22,7 +22,7 @@ De informatie is bedoeld voor medewerkers, ambtenaren, van de rijksoverheid, pro
 De Nederlandse Richtlijn Digitale Systemen is een website van het Ministerie van Binnenlandse Zaken en
 Koninkrijksrelaties. Het Bureau Architectuur Nederlandse Overheid (BANO) stelt de informatie samen.
 
-## Kernrichtlijnen
+## Kernprincipes
 
 De Nederlandse Richtlijn Digitale Systemen helpt overheidsorganisaties bij het maken van betere keuzes bij het
 ontwerpen, bouwen en implementeren van technologie.

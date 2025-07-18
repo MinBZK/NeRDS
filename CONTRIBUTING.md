@@ -129,7 +129,7 @@ Bijvoorbeeld omdat je verschillende wijzigingsvoorstellen wilt doen? Je kan ook 
 6. **Commit & push je wijzigingen naar de fork**
 
 7. **Maak een pull request**
-   - Gebruik het pull request [template](.github/pull_request_template.md)
+   - Gebruik het pull request [template](https://github.com/MinBZK/NeRDS/blob/main/.github/pull_request_template.md)
    - We maken gebruik van de tool [pr-preview-action](https://github.com/rossjrw/pr-preview-action) om automatisch previews te maken van een pull-request.
    Dit maakt het mogelijk om de wijzigingen die zijn gedaan in een pull-request al te bekijken in de uiteindelijke omgeving.
    Wanneer er een pull-request gedaan wordt via een fork, leidt dit helaas tot een error. Dit blokkeert de pull-request niet.
