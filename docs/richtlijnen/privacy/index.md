@@ -86,7 +86,7 @@ Evalueer je project door te vragen:
 - Kunnen beslissingen aanzienlijke impact hebben op individuen?
 - Bevatten de gegevens gevoelige persoonlijke details?
 
-### Kernrichtlijnen van Privacy by Design
+### Kernprincipes van Privacy by Design
 
 1. **Proactief, niet reactief**: Voorkom privacyproblemen voordat ze ontstaan
 2. **Privacy als standaardinstelling**: Maximale privacy zonder dat gebruikers actie hoeven te ondernemen
