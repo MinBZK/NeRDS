@@ -18,9 +18,9 @@ repos:
         args: [--fix]
   - repo: local
     hooks:
-      - id: validate-principes
-        name: Validate NeRDS principe files
-        entry: python scripts/validate_principe.py
+      - id: validate-richtlijnen
+        name: Validate NeRDS richtlijn files
+        entry: python scripts/validate_richtlijn.py
         language: system
-        files: ^docs/principes/.*/index\.md$
+        files: ^docs/richtlijnen/.*/index\.md$
         pass_filenames: false
