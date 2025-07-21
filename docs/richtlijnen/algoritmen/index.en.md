@@ -37,37 +37,37 @@ By applying algorithms responsibly, government organisations ensure that their d
 
 <div class="action-cards">
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4>Algorithm Frame</h4>
 <p>Responsible algorithm management guidelines</p>
 <a href="https://minbzk.github.io/Algorithmframe/" class="action-button" target="_blank">Explore</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4>Delicate AI Regulation</h4>
 <p>Define directly which rules apply</p>
 <a href="https://ai-regulation-decision-help.apps.digilab.network/" class="action-button" target="_blank">Start</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4>Algorithm Management Toolkit</h4>
 <p>Register for risky algorithms</p>
 <a href="https://amt.prd.apps.digilab.network/" class="action-button" target="_blank">Registration</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4>LLM Benchmark</h4>
 <p>Benchmark for language models (LLMs)</p>
 <a href="https://github.com/MinBZK/llm benchmark" class="action-button" target="_blank">Explore</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4>Algorithm registry</h4>
 <p>Register your (impactful) algorithm in the national register</p>
 <a href="https://algoritmes.overheid.nl/nl" class="action-button" target="_blank">Explore</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4>Unsupervised bias detection Tool</h4>
 <p>A statistical tool identifying groups where an algorithm shows abnormal performance</p>
 <a href="https://algorithmaudit.eu/technical-tools/bdt/" class="action-button" target="_blank">Explore</a>

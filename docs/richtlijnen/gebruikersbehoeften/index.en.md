@@ -34,19 +34,19 @@ By applying a user-oriented approach to technology development and implementatio
 
 <div class="action-cards">
 <div class="action-card">
-<span class="wip-badge-wip-badge-concept">concept</span>
+<span class="wip-badge wip-badge-concept">concept</span>
 <h4 >Users Panel</h4>
 <p >Access to citizen user panel for research</p>
 <button disabled class="action-button">Query</button>
 </div>
 <div class="action-card">
-<span class="wip-badge wip-badge development">development</span>
+<span class="wip-badge wip-badge-ontwikkeling">development</span>
 <h4 >Persona Database</h4>
 <p > Validated public user persons</p>
 <button disabled class="action-button">Explore</button>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >Research guidelines</h4>
 <p >Toolkit for user survey</p>
 <a href="https://toolkittaal.gebruikercentraal.nl/richtlijnen/" class="action-button" target="_blank">View</a>

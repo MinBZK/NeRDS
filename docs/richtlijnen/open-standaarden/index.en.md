@@ -36,25 +36,25 @@ By using open standards, you contribute to a more integrated, flexible and susta
 
 <div class="action-cards">
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >Decision tree Open Defaults</h4>
 <p >Declare which standards apply </p>
 <a href="https://www.forumstandardization.nl/decisiontree/decisiontree-open-standards" class="action-button" target="_blank">Start</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >API Standards</h4>
 <p >Dutch API strategy</p>
 <a href="https://docs.geostandarden.nl/api/API-Strategy/" class="action-button" target="_blank">View</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >Developer General government APIs</h4>
 <p >Overview of government APIs</p>
 <a href="https://apis.developer.overheid.nl/apis" class="action-button" target="_blank">Discover</a>
 </div>
 <div class="action-card">
-<span class="wip-badge wip-badge development">development</span>
+<span class="wip-badge wip-badge-ontwikkeling">development</span>
 <h4>Standards Database</h4>
 <p >Central standard database</p>
 <button disabled class="action-button">Search</button>

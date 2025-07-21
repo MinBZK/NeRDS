@@ -36,13 +36,13 @@ By adopting a cloud-driven strategy with a focus on sovereignty, you can work mo
 
 <div class="action-cards">
 <div class="action-card">
-<span class="wip-badge-wip-badge-concept">concept</span>
+<span class="wip-badge wip-badge-concept">concept</span>
 <h4 >National Cloud</h4>
 <p >Sovereign cloud for government organisations</p>
 <button disabled class="action-button">Query</button>
 </div>
 <div class="action-card">
-<span class="wip-badge wip-badge development">development</span>
+<span class="wip-badge wip-badge-ontwikkeling">development</span>
 <h4>Kubernetes Service</h4>
 <p>Related K8s with compliance</p>
 Create <button id="open-cluster-form" class="action-button">Cluster</button>
@@ -250,19 +250,19 @@ kubectl get nodes
 </div>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >Ports</h4>
 <p >Platform independent cloud hosting</p>
 <a href="https://haven.commonround.nl/" class="action-button" target="_blank">Discover</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >Azure Bio-Compliancy</h4>
 <p >Cloud compliance for government organisations</p>
 <a href="https://github.com/Azure/Bio-Compliancy" class="action-button" target="_blank">Discover</a>
 </div>
 <div class="action-card">
-<span class="wip-badge wip-badge development">development</span>
+<span class="wip-badge wip-badge-ontwikkeling">development</span>
 <h4 >Cloud Assessment</h4>
 <p > Rate your cloud readiness</p>
 <button disabled class="action-button">Upcoming</button>

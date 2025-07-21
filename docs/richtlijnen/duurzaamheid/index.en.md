@@ -35,19 +35,19 @@ By prioritising technological sustainability, government organisations can reduc
 
 <div class="action-cards">
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >ICT MVI criteria</h4>
 <p >Sustainability criteria for ICT procurement</p>
 <a href="https://www.pianoo.nl/themes/social-responsible-buying/product-groups-and-mvi-criteria" class="action-button" target="_blank">Apply</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-wip-badge-concept">concept</span>
+<span class="wip-badge wip-badge-concept">concept</span>
 <h4 >CO2 calculator</h4>
 <p >Calculate the CO2 impact of your IT</p>
 <a href="https://www.metenvandurability.nl/overzicht-tools/monitoring-as-tool-for-business-and-organisations/co2 performance ladder-and-co2 calculator" class="action-button" target="_blank">Explore</a>
 </div>
 <div class="action-card">
-<span class="wip-badge wip-badge development">development</span>
+<span class="wip-badge wip-badge-ontwikkeling">development</span>
 <h4 >Green Coding</h4>
 <p >Best practices for sustainable software</p>
 <button disabled class="action-button">Explore</button>

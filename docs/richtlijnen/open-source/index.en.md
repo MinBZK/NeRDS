@@ -16,7 +16,7 @@ Open source is a way of working where the creators make the source code, documen
 
 - **Transparency**: Anyone can see how the software works and how decisions are made
 - **Cost effectiveness**: Avoid licensing costs and dependence on one supplier
-- *Cooperation**: Organisations can share knowledge and learn from each other
+- **Cooperation**: Organisations can share knowledge and learn from each other
 - **Flexibility**: Adjustments are possible without relying on external suppliers
 - **Safety**: Problems can be detected and solved more quickly thanks to joint inspection
 - **Sustainability**: Prevents vendor lock-in and allows long-term management
@@ -36,25 +36,25 @@ By working open and transparent and embracing open source software, you contribu
 
 <div class="action-cards">
 <div class="action-card">
-<span class="wip-badge-wip-badge-concept">concept</span>
+<span class="wip-badge wip-badge-concept">concept</span>
 <h4 >Code.gov.en</h4>
 <p >Publish your code and find government projects</p>
 <button disabled class="action-button">Publish</button>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >License advice</h4>
 <p >EUPL-1.2 for public projects</p>
 <a href="https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/" class="action-button" target="_blank">View</a>
 </div>
 <div class="action-card">
-<span class="wip-badge wip-badge development">development</span>
+<span class="wip-badge wip-badge-ontwikkeling">development</span>
 <h4 >OSPO Toolbox</h4>
 <p >Tools for Open Source Program Office</p>
 <a href="https://ospo-nl.github.io/kennisbank/" class="action-button" target="_blank">Explore</a>
 </div>
 <div class="action-card">
-<span class="wip-badge wip-badge development">development</span>
+<span class="wip-badge wip-badge-ontwikkeling">development</span>
 <h4>Open source works</h4>
 <p>Resources and best practices for open source development</p>
 <a href="https://developer.overheid.nl/community/open-source-werkt" class="action-button" target="_blank">Explore</a>

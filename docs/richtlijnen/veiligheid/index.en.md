@@ -37,19 +37,19 @@ By taking security seriously and integrating it into all aspects of technology d
 
 <div class="action-cards">
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >BIO Wizard</h4>
 <p >Allow mandatory security measures</p>
 <a href="https://bio-overheid.nl/ico-wizard" class="action-button" target="_blank">Start</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >OpenKAT</h4>
 <p > Open source security tooling</p>
 <a href="https://github.com/minvws/en-kat-coordination" class="action-button" target="_blank">Use</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >Internet.en</h4>
 <p >Test security of your website or email</p>
 <a href="https://internet.nl/" class="action-button" target="_blank">Test</a>

@@ -34,19 +34,19 @@ Careful integration and adaptation of technology allows you to create a coherent
 
 <div class="action-cards">
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >FSC</h4>
 <p >Open source data exchange system</p>
 <a href="https://fsc-standard.nl/" class="action-button" target="_blank">Explore</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >Common Ground</h4>
 <p >Vision for modern data exchange</p>
 <a href="https://commonround.nl/" class="action-button" target="_blank">Learn</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >Ports</h4>
 <p >Platform independent cloud hosting</p>
 <a href="https://haven.commonround.nl/" class="action-button" target="_blank">Discover</a>

@@ -36,25 +36,25 @@ By making privacy integral in the design process of digital systems, you not onl
 
 <div class="action-cards">
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >DPIA model</h4>
 <p > Data protection impact assessment model</p>
 <a href="https://www.autoriteitpersoonsgegevens.nl/themas/avg-europese-privacywetgeving/data-protection-impact-assessment-dpia" class="action-button" target="_blank">Download</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >Pre-scan DPIA & DPIA Form</h4>
 <p >Online data protection impact assessment form</p>
 <a href="https://minbzk.github.io/par-dpia-form/" class="action-button" target="_blank">Start</a>
 </div>
 <div class="action-card">
-<span class="wip-badge wip-badge development">development</span>
+<span class="wip-badge wip-badge-ontwikkeling">development</span>
 <h4 >NICPET Tools</h4>
 <p >Privacy-enhancing technologies</p>
 <a href="https://nicpet.pleio.nl/" class="action-button" target="_blank">Explore</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-wip-badge-concept">concept</span>
+<span class="wip-badge wip-badge-concept">concept</span>
 <h4 >Privacy Check</h4>
 <p > Automated privacy check</p>
 <button disabled class="action-button">Start</button>

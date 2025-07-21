@@ -35,19 +35,19 @@ By actively cooperating, sharing knowledge and reusing existing solutions, the g
 
 <div class="action-cards">
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >Developer General government</h4>
 <p >Communitys for government developers</p>
 <a href="https://developer.overheid.nl/" class="action-button" target="_blank">Enjoy</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >EN Design System</h4>
 <p >Building together user-friendly government websites</p>
 <a href="https://www.nldesignsystem.nl" class="action-button" target="_blank">Discover</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-wip-badge-concept">concept</span>
+<span class="wip-badge wip-badge-concept">concept</span>
 <h4 >GovHub</h4>
 <p >Central hub for government components</p>
 <button disabled class="action-button">Explore</button>

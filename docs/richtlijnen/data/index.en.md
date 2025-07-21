@@ -35,19 +35,19 @@ By using data more effectively, government organisations can provide better serv
 
 <div class="action-cards">
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >Open Data</h4>
 <p >Government open data portal </p>
 <a href="https://data.overheid.nl/" class="action-button" target="_blank">Explore</a>
 </div>
 <div class="action-card">
-<span class="wip-badge wip-badge development">development</span>
+<span class="wip-badge wip-badge-ontwikkeling">development</span>
 <h4 >Datacheck</h4>
 <p >Tool for data quality control</p>
 <button disabled class="action-button">Start</button>
 </div>
 <div class="action-card">
-<span class="wip-badge-wip-badge-concept">concept</span>
+<span class="wip-badge wip-badge-concept">concept</span>
 <h4 >Synthetic Data</h4>
 <p >Generate safe test data</p>
 <a href="https://digilab.overheid.nl/projecten/synthetische-datageneratie/" class="action-button" target="_blank">Learn</a>

@@ -34,31 +34,31 @@ By building accessibility into your digital systems from the start, you ensure t
 
 <div class="action-cards">
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >Accessibility scan</h4>
 <p >Test your web pages on accessibility</p>
 <a href="https://www.w3.org/WAI/test-evaluate/tools/list/" class="action-button" target="_blank">Scanning</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >Deque Axe</h4>
 <p > Accessibility Tester for web applications</p>
 <a href="https://www.deque.com/axe/" class="action-button" target="_blank">Use</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >WCAG-EM Reporter</h4>
 <p >Tool for creating accessibility reports</p>
 <a href="https://gitlab.com/digilab.overheid.nl/ecosystem/wcag-em-reporter" class="action-button" target="_blank">Use</a>
 </div>
 <div class="action-card">
-<span class="wip-badge wip-badge development">development</span>
+<span class="wip-badge wip-badge-ontwikkeling">development</span>
 <h4 >Includes Designs</h4>
 <p >Toolkit for including design</p>
 <a href="https://toolkitinclusie.gebruikercentraal.nl/" class="action-button" target="_blank">View</a>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >EN Design System</h4>
 <p >Accessible components</p>
 <a href="https://nldesignsystem.nl" class="action-button" target="_blank">Use</a>

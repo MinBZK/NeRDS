@@ -34,19 +34,19 @@ By meeting the service standard, government organisations provide services that 
 
 <div class="action-cards">
 <div class="action-card">
-<span class="wip-badge-wip-badge-concept">concept</span>
+<span class="wip-badge wip-badge-concept">concept</span>
 <h4 >Self Assessment</h4>
 <p > Rate your service to the default</p>
 <button disabled class="action-button">Start</button>
 </div>
 <div class="action-card">
-<span class="wip-badge-badge-available">available</span>
+<span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >EN Design System</h4>
 <p >Usable components</p>
 <a href="https://nldesignsystem.nl" class="action-button" target="_blank">Explore</a>
 </div>
 <div class="action-card">
-<span class="wip-badge wip-badge development">development</span>
+<span class="wip-badge wip-badge-ontwikkeling">development</span>
 <h4 >Service Pattern</h4>
 <p >Standardized service patterns</p>
 <button disabled class="action-button">View</button>
