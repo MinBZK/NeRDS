@@ -38,7 +38,7 @@ A well-defined purchasing strategy for technology helps your organisation make b
 <span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >MVI criteria</h4>
 <p >Criteria for sustainable procurement</p>
-<a href="https://www.pianoo.nl/themes/social-responsible-buying/product-groups-and-mvi-criteria" class="action-button" target="_blank">View</a>
+<a href="https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria" class="action-button" target="_blank">View</a>
 </div>
 <div class="action-card">
 <span class="wip-badge wip-badge-ontwikkeling">development</span>
@@ -50,13 +50,13 @@ A well-defined purchasing strategy for technology helps your organisation make b
 <span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 > Purchasing compass</h4>
 <p >Knowledge platform for ICT procurement</p>
-<a href="https://www.pianoo.nl/sectors/ict" class="action-button" target="_blank">Explore</a>
+<a href="https://www.pianoo.nl/sectoren/ict" class="action-button" target="_blank">Explore</a>
 </div>
 <div class="action-card">
 <span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >Algorithm Frame</h4>
 <p > Directive for purchasing responsible algorithms</p>
-<a href="https://minbzk.github.io/Algorithmframe/subjects/public-procurement/" class="action-button" target="_blank">Explore</a>
+<a href="https://minbzk.github.io/Algoritmekader/subjects/public-procurement/" class="action-button" target="_blank">Explore</a>
 </div>
 </div>
 </div>

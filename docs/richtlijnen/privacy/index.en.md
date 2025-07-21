@@ -39,7 +39,7 @@ By making privacy integral in the design process of digital systems, you not onl
 <span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >DPIA model</h4>
 <p > Data protection impact assessment model</p>
-<a href="https://www.autoriteitpersoonsgegevens.nl/themas/avg-europese-privacywetgeving/data-protection-impact-assessment-dpia" class="action-button" target="_blank">Download</a>
+<a href="https://www.autoriteitpersoonsgegevens.nl/nl/onderwerpen/avg-europese-privacywetgeving/data-protection-impact-assessment-dpia" class="action-button" target="_blank">Download</a>
 </div>
 <div class="action-card">
 <span class="wip-badge wip-badge-beschikbaar">available</span>

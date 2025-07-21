@@ -44,7 +44,7 @@ By prioritising technological sustainability, government organisations can reduc
 <span class="wip-badge wip-badge-concept">concept</span>
 <h4 >CO2 calculator</h4>
 <p >Calculate the CO2 impact of your IT</p>
-<a href="https://www.metenvandurability.nl/overzicht-tools/monitoring-as-tool-for-business-and-organisations/co2 performance ladder-and-co2 calculator" class="action-button" target="_blank">Explore</a>
+<a href="https://www.metenvanduurzaamheid.nl/overzicht-tools/monitoring-als-tool-voor-bedrijven-en-organisaties/co2-prestatieladder-en-co2-calculator" class="action-button" target="_blank">Explore</a>
 </div>
 <div class="action-card">
 <span class="wip-badge wip-badge-ontwikkeling">development</span>

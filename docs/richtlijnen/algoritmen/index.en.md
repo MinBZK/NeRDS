@@ -40,13 +40,13 @@ By applying algorithms responsibly, government organisations ensure that their d
 <span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4>Algorithm Frame</h4>
 <p>Responsible algorithm management guidelines</p>
-<a href="https://minbzk.github.io/Algorithmframe/" class="action-button" target="_blank">Explore</a>
+<a href="https://minbzk.github.io/Algoritmekader/" class="action-button" target="_blank">Explore</a>
 </div>
 <div class="action-card">
 <span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4>Delicate AI Regulation</h4>
 <p>Define directly which rules apply</p>
-<a href="https://ai-regulation-decision-help.apps.digilab.network/" class="action-button" target="_blank">Start</a>
+<a href="https://ai-verordening-beslishulp.apps.digilab.network/" class="action-button" target="_blank">Start</a>
 </div>
 <div class="action-card">
 <span class="wip-badge wip-badge-beschikbaar">available</span>

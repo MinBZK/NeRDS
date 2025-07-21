@@ -39,13 +39,13 @@ By using open standards, you contribute to a more integrated, flexible and susta
 <span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >Decision tree Open Defaults</h4>
 <p >Declare which standards apply </p>
-<a href="https://www.forumstandardization.nl/decisiontree/decisiontree-open-standards" class="action-button" target="_blank">Start</a>
+<a href="https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden" class="action-button" target="_blank">Start</a>
 </div>
 <div class="action-card">
 <span class="wip-badge wip-badge-beschikbaar">available</span>
 <h4 >API Standards</h4>
 <p >Dutch API strategy</p>
-<a href="https://docs.geostandarden.nl/api/API-Strategy/" class="action-button" target="_blank">View</a>
+<a href="https://docs.geostandaarden.nl/api/API-Strategie/" class="action-button" target="_blank">View</a>
 </div>
 <div class="action-card">
 <span class="wip-badge wip-badge-beschikbaar">available</span>
