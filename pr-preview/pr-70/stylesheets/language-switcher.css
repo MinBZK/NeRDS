@@ -1,0 +1,112 @@
+/* Language Switcher Styles */
+.language-switcher {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.language-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "ROsanswebtextregular", sans-serif;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.language-option:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.language-icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+/* Ensure the tabs list can accommodate the language switcher */
+.md-tabs__list {
+  display: flex;
+  align-items: center;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 76.2344em) {
+  .language-switcher {
+    margin-right: 0.5rem;
+  }
+
+  .language-option {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .language-icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+/* Mobile Language Switcher Styles */
+.language-switcher-mobile {
+  display: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.language-option-mobile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: #154273;
+  font-family: "ROsanswebtextregular", sans-serif;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+}
+
+.language-option-mobile:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: #007bc7;
+  background-color: rgba(0, 123, 199, 0.1);
+}
+
+.language-option-mobile .language-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+/* Show mobile language switcher on mobile screens */
+@media screen and (max-width: 76.2344em) {
+  .language-switcher {
+    display: none;
+  }
+
+  .language-switcher-mobile {
+    display: block;
+  }
+}
+
+/* Hide language switcher text on very small screens */
+@media screen and (max-width: 480px) {
+  .language-switcher .language-option span {
+    display: none;
+  }
+
+  .language-option {
+    padding: 0.4rem;
+  }
+}
