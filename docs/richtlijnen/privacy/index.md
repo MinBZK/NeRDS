@@ -30,7 +30,7 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     <h3>Direct aan de slag</h3>
 
     <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+        <strong>Work in Progress</strong>
     </div>
 
     <div class="action-cards">
@@ -86,7 +86,7 @@ Evalueer je project door te vragen:
 - Kunnen beslissingen aanzienlijke impact hebben op individuen?
 - Bevatten de gegevens gevoelige persoonlijke details?
 
-### Kernrichtlijnen van Privacy by Design
+### Kernprincipes van Privacy by Design
 
 1. **Proactief, niet reactief**: Voorkom privacyproblemen voordat ze ontstaan
 2. **Privacy als standaardinstelling**: Maximale privacy zonder dat gebruikers actie hoeven te ondernemen
