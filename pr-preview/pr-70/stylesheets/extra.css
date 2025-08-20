@@ -719,27 +719,12 @@ background-color: #B2D7EE;
   color: white;
 }
 
-.wip-badge-planned {
-  background-color: #ff9800;
-  color: white;
-}
-
 .wip-badge-ontwikkeling {
   background-color: #2196f3;
   color: white;
 }
 
-.wip-badge-development {
-  background-color: #2196f3;
-  color: white;
-}
-
 .wip-badge-beschikbaar {
-  background-color: #4caf50;
-  color: white;
-}
-
-.wip-badge-available {
   background-color: #4caf50;
   color: white;
 }

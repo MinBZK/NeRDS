@@ -1,4 +1,4 @@
-// Language Switcher JavaScript - Persistent Version
+// Language Switcher JavaScript - MkDocs i18n Compatible Version
 (function() {
   'use strict';
 
@@ -7,22 +7,64 @@
 
   function getLanguageInfo() {
     const currentPath = window.location.pathname;
-    const isEnglish = currentPath.includes('/en/');
+    const hostname = window.location.hostname;
+
+    // Detect if we're on English or Dutch page more reliably
+    const isEnglish = currentPath.includes('/en/') ||
+                     document.documentElement.lang === 'en' ||
+                     document.querySelector('html[lang="en"]') ||
+                     document.querySelector('body[data-md-lang="en"]');
 
     let targetPath, targetLang;
 
     if (isEnglish) {
-      targetPath = currentPath.replace('/en/', '/');
+      // We're on English, switch to Dutch
       targetLang = 'Nederlands';
-    } else {
-      if (currentPath === '/' || currentPath === '/NeRDS/') {
-        targetPath = '/NeRDS/en/';
-      } else if (currentPath.startsWith('/NeRDS/')) {
-        targetPath = currentPath.replace('/NeRDS/', '/NeRDS/en/');
+
+      if (currentPath.includes('/en/')) {
+        // Remove the /en/ part to get Dutch version
+        targetPath = currentPath.replace('/en/', '/');
       } else {
-        targetPath = '/en' + currentPath;
+        // Fallback: construct Dutch path
+        targetPath = currentPath.replace(/\/[^\/]*\.html$/, '/') || '/';
       }
+    } else {
+      // We're on Dutch, switch to English
       targetLang = 'English';
+
+      // Handle different base path scenarios
+      if (currentPath === '/' || currentPath === '') {
+        // Root page
+        targetPath = '/en/';
+      } else if (currentPath.startsWith('/NeRDS/')) {
+        // GitHub Pages: /NeRDS/... -> /NeRDS/en/...
+        targetPath = currentPath.replace('/NeRDS/', '/NeRDS/en/');
+      } else if (hostname.includes('github.io') || hostname.includes('netlify') || hostname.includes('vercel')) {
+        // Deployment environments - assume project base path
+        const pathParts = currentPath.split('/').filter(p => p);
+        if (pathParts.length > 0) {
+          // Insert 'en' after the project name (first part)
+          pathParts.splice(1, 0, 'en');
+          targetPath = '/' + pathParts.join('/') + '/';
+        } else {
+          targetPath = '/en/';
+        }
+      } else {
+        // Local development or other
+        if (currentPath.endsWith('/')) {
+          targetPath = currentPath + 'en/';
+        } else {
+          targetPath = currentPath.replace(/\/$/, '') + '/en/';
+        }
+      }
+    }
+
+    // Clean up any double slashes
+    targetPath = targetPath.replace(/\/+/g, '/');
+
+    // Ensure it starts with /
+    if (!targetPath.startsWith('/')) {
+      targetPath = '/' + targetPath;
     }
 
     return { targetPath, targetLang };
@@ -39,6 +81,19 @@
     link.className = linkClassName;
     link.href = targetPath;
     link.title = targetLang;
+
+    // Add click handler with error handling
+    link.addEventListener('click', function(e) {
+      // Let the browser handle the navigation
+      // If it fails, it will show a 404 which is better than JavaScript errors
+      console.log('Language switch attempted to:', targetPath);
+
+      // Optional: Add a small delay to allow for debugging
+      if (targetPath.includes('undefined') || targetPath === '/') {
+        console.warn('Language switcher generated suspicious path:', targetPath);
+        // Don't prevent default, let browser handle it
+      }
+    });
 
     const globeIcon = `<svg class="language-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
       <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
@@ -154,6 +209,11 @@
   }
 
   function init() {
+    // Debug information
+    console.log('Language switcher initializing on:', window.location.href);
+    console.log('Current path:', window.location.pathname);
+    console.log('Current hostname:', window.location.hostname);
+
     // Initial setup
     ensureLanguageSwitchers();
 
