@@ -193,8 +193,8 @@ function initLandingPage() {
 </div>
 
 <div class="cta-section">
-  <h2>Aan de slag met NeRDS</h2>
-  <p>De NeRDS-richtlijnen helpen je bij het maken van doeltreffende, veilige en gebruikersgerichte technologie.</p>
+  <h2>Aan de slag met de NeRDS</h2>
+  <p>De NeRDS helpen je bij het maken van doeltreffende, veilige en gebruikersgerichte technologie.</p>
   <div class="cta-buttons">
     <a href="https://github.com/MinBZK/NeRDS" class="md-button md-button--primary">Bekijk op GitHub</a>
     <a href="Over-NeRDS/CONTRIBUTING/" class="md-button md-button--secondary">Draag bij aan NeRDS</a>

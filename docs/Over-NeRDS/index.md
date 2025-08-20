@@ -7,7 +7,7 @@ hide:
 
 # Over de Nederlandse Richtlijn Digitale Systemen
 
-De Nederlandse Richtlijn Digitale Systemen (NeRDS, spreek uit als _de /nɛrts/_) is een set standaarden, richtlijnen en
+De Nederlandse Richtlijn Digitale Systemen (NeRDS) is een set standaarden, richtlijnen en
 praktische hulpmiddelen (tools) voor het
 verantwoord ontwikkelen, inkopen en gebruiken van digitale systemen binnen de Nederlandse overheid.
 
@@ -22,7 +22,7 @@ De informatie is bedoeld voor medewerkers, ambtenaren, van de rijksoverheid, pro
 De Nederlandse Richtlijn Digitale Systemen is een website van het Ministerie van Binnenlandse Zaken en
 Koninkrijksrelaties. Het Bureau Architectuur Nederlandse Overheid (BANO) stelt de informatie samen.
 
-## Kernrichtlijnen
+## Kernprincipes
 
 De Nederlandse Richtlijn Digitale Systemen helpt overheidsorganisaties bij het maken van betere keuzes bij het
 ontwerpen, bouwen en implementeren van technologie.

@@ -28,7 +28,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
     <h3>Direct aan de slag</h3>
 
     <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+        <strong>Work in Progress</strong>
     </div>
 
     <div class="action-cards">
@@ -82,7 +82,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
 ## Gerelateerde hulpmiddelen
 
 - [Training gebruikersonderzoek](https://www.gebruikercentraal.nl/evenementen/)
-- [Digitale ondersteuning](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/mensen-helpen-om-met-digitalisering-om-te-gaan/)
+- [Digitale ondersteuning](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/voortgang-en-ontwikkelingen/)
 - [Handreiking Mobiele app Ontwikkeling en Beheer versie 4.0](https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf) - Hoofdstuk 8 gebruikt "De gebruiker staat centraal" voor de ontwikkeling van mobiele apps.
 
 ## Gerelateerde richtlijnen

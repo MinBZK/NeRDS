@@ -1,0 +1,85 @@
+# NeRDS Translation Dictionary
+# Manual translations for domain-specific terms
+# Format: dutch_term:english_term
+
+# Core NeRDS terms
+NeRDS:NeRDS
+richtlijnen:guidelines
+Over-NeRDS:About-NeRDS
+Nederlandse:Dutch
+Nederlandse Richtlijn Digitale Systemen:Dutch Guideline for Digital Systems
+Ministerie van Binnenlandse Zaken en Koninkrijksrelaties:Ministry of the Interior and Kingdom Relations
+Ministerie van Binnenlandse Zaken:Ministry of the Interior and Kingdom Relations
+Bureau Architectuur Nederlandse Overheid:Bureau Architecture Dutch Government
+
+# Government/Dutch specific terms
+overheid:government
+rijksoverheid:central government
+gemeenten:municipalities
+provincies:provinces
+waterschappen:water authorities
+ministerie:ministry
+
+# Digital/IT terms commonly used in Dutch government
+digitalisering:digitalization
+informatiebeveiliging:information security
+gegevensbescherming:data protection
+digitale toegankelijkheid:digital accessibility
+gebruikersonderzoek:user research
+serviceverlening:service delivery
+NL Design System:NL Design System
+hanteer:adopt
+richtlijn:guideline
+Voldoe aan de servicestandaard:Meet the service standard
+Vas algoritmen verantwoord toe:Apply algorithms responsibly
+Hanteer een cloud-gedreven strategie:Adopt a cloud-driven strategy
+Stel gebruikersbehoeften vast:Understand user needs
+Aan de slag met de NeRDS:Get started with de NeRDS
+
+# Common abbreviations
+API:API
+EU:EU
+AVG:GDPR
+DPIA:DPIA
+
+# HTML content terms
+Direct aan de slag:Get started
+aan de slag:get started
+beschikbaar:available
+Verkennen:Explore
+Leren:Learn
+Ontdekken:Discover
+Haven:Haven
+gegevensuitwisselingssysteem:data exchange system
+gegevensuitwisseling:data exchange
+Platformonafhankelijke cloudhosting:Platform-independent cloud hosting
+cloudhosting:cloud hosting
+Visie voor moderne:Vision for modern
+direct-aan-de-slag:direct-aan-de-slag
+action-cards:action-cards
+action-card:action-card
+wip-badge wip-badge-beschikbaar:wip-badge wip-badge-beschikbaar
+wip-badge wip-badge-concept:wip-badge wip-badge-concept
+wip-badge wip-badge-ontwikkeling:wip-badge wip-badge-ontwikkeling
+action-button:action-button
+Downloaden:Download
+Starten:Start
+Bekijken:View
+Verkennen:Explore
+Bijdragen:Contributing
+
+# Links
+Over-NeRDS/CONTRIBUTING/:Over-NeRDS/CONTRIBUTING/
+richtlijnen/:richtlijnen/
+Over-NeRDS/:Over-NeRDS/
+
+# Anchor links / Heading IDs
+#inhoudsopgave:#contents
+#ik-heb-een-vraag:#i-have-a-question
+#ik-wil-een-fout-of-bug-melden:#i-want-to-report-an-error-or-bug
+#ik-wil-een-verbetering-voorstellen:#i-want-to-suggest-an-improvement
+#hoe-we-werken-op-github:#how-we-work-on-github
+#ontwikkelomgeving-opzetten:#development-environment-setup
+#guidelines-voor-contributing:#contributing-guidelines
+#branching-strategie:#branching-strategy
+#versioning:#versioning
