@@ -22,16 +22,26 @@ Om digitale systemen te ontwikkelen die effectief zijn, moet je je gebruikers en
 
 Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling en -implementatie bij overheidsdiensten verhoog je de acceptatie en effectiviteit van digitale overheidsdiensten terwijl je het vertrouwen tussen burger en overheid versterkt.
 
-## Hoe pas je het toe?
+## Direct aan de slag
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
-
+    <h3>Praktische hulpmiddelen</h3>
     <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
-
     <div class="action-cards">
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >Onderzoeksrichtlijnen</h4>
+            <p >Toolkit voor gebruikersonderzoek</p>
+            <a href="https://toolkittaal.gebruikercentraal.nl/richtlijnen/" class="action-button" target="_blank">Bekijken</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >Gebruikersonderzoeken.nl</h4>
+            <p > Een database van uitgevoerde gebruikersonderzoeken</p>
+            <a href="https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken" class="action-button" target="_blank">Bekijken</a>
+        </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-concept">concept</span>
             <h4 >Gebruikers Panel</h4>
@@ -44,17 +54,26 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
             <p >Gevalideerde overheidsgebruikerspersona's</p>
             <button disabled class="action-button">Verkennen</button>
         </div>
+    </div>
+</div>
+
+<div class="direct-aan-de-slag">
+    <h3>Kaders, beleid en handreikingen</h3>
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+    <div class="action-cards">
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Onderzoeksrichtlijnen</h4>
-            <p >Toolkit voor gebruikersonderzoek</p>
-            <a href="https://toolkittaal.gebruikercentraal.nl/richtlijnen/" class="action-button" target="_blank">Bekijken</a>
+                <h4 >Handreiking Mobiele App Ontwikkeling en beheer (v4.0)</h4>
+                <p > Hoofdstuk 8 gebruikt "De gebruiker staat centraal" voor de ontwikkeling van mobiele apps. </p>
+                <a href="https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf" class="action-button" target="_blank">Bekijken</a>
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Gebruikersonderzoeken.nl</h4>
-            <p > Een database van uitgevoerde gebruikersonderzoeken</p>
-            <a href="https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken" class="action-button" target="_blank">Bekijken</a>
+            <h4 >Gebruiker centraal</h4>
+            <p > Een community voor dienstverlening of communicatie van de overheid</p>
+            <a href="https://www.gebruikercentraal.nl" class="action-button" target="_blank">Bekijken</a>
         </div>
     </div>
 </div>
@@ -78,12 +97,6 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
 1. Voer grondig gebruikersonderzoek uit
 2. Begrijp gebruikersbehoeften volledig
 3. Stem technologische oplossingen af op gebruikerseisen
-
-## Gerelateerde hulpmiddelen
-
-- [Training gebruikersonderzoek](https://www.gebruikercentraal.nl/evenementen/)
-- [Digitale ondersteuning](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/mensen-helpen-om-met-digitalisering-om-te-gaan/)
-- [Handreiking Mobiele app Ontwikkeling en Beheer versie 4.0](https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf) - Hoofdstuk 8 gebruikt "De gebruiker staat centraal" voor de ontwikkeling van mobiele apps.
 
 ## Gerelateerde richtlijnen
 
