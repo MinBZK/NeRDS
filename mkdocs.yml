@@ -48,6 +48,7 @@ nav:
       - 12. Inkoopstrategie: richtlijnen/inkoop/index.md
       - 13. Duurzaamheid: richtlijnen/duurzaamheid/index.md
       - 14. Servicestandaard: richtlijnen/servicestandaard/index.md
+  - Hulpmiddelenmarkt: hulpmiddelenmarkt/index.md
   - Over NeRDS:
       - Over-NeRDS/index.md
       - Bijdragen: Over-NeRDS/CONTRIBUTING.md
@@ -92,6 +93,7 @@ extra_css:
   - stylesheets/choices.min.css
   - stylesheets/modal.css
   - stylesheets/landing-page.css
+  - stylesheets/hulpmiddelenmarkt.css
 
 extra_javascript:
   - javascripts/jquery-3.6.0.min.js
@@ -100,6 +102,7 @@ extra_javascript:
   - javascripts/tablesort.js
   - javascripts/filtering.js
   - javascripts/cluster-form.js
+  - javascripts/resource-sync.js
 
 plugins:
   - glightbox

@@ -31,43 +31,8 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Toegankelijkheidsscan</h4>
-            <p >Test uw webpagina's op toegankelijkheid</p>
-            <a href="https://www.w3.org/WAI/test-evaluate/tools/list/" class="action-button" target="_blank">Scannen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Deque Axe</h4>
-            <p >Toegankelijkheidstester voor webapplicaties</p>
-            <a href="https://www.deque.com/axe/" class="action-button" target="_blank">Gebruiken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 > Dashboard DigiToegankelijk</h4>
-            <p > Test uw overheidspagina's op toegankelijkheid</p>
-            <a href="https://dashboard.digitoegankelijk.nl" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >WCAG-EM Reporter</h4>
-            <p >Tool voor het maken van toegankelijkheidsrapporten</p>
-            <a href="https://gitlab.com/digilab.overheid.nl/ecosystem/wcag-em-reporter" class="action-button" target="_blank">Gebruiken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >NL Design System</h4>
-            <p >Toegankelijke componenten</p>
-            <a href="https://nldesignsystem.nl" class="action-button" target="_blank">Gebruiken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 >Inclusief Ontwerpen</h4>
-            <p >Toolkit voor inclusief ontwerp</p>
-            <a href="https://toolkitinclusie.gebruikercentraal.nl/" class="action-button" target="_blank">Bekijken</a>
-        </div>
+    <div class="action-cards" id="praktische-hulpmiddelen-toegankelijkheid">
+        <!-- Resources worden automatisch geladen vanuit de centralize database -->
     </div>
 </div>
 
@@ -76,37 +41,8 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
     <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Kabinetsbeleid digitale toegankelijkheid</h4>
-            <p > Handvatten voor de wet voor digitale toegankelijkheid </p>
-            <a href="https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/digitaal-toegankelijk/beleid/" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-                <h4 >Handreiking Mobiele App Ontwikkeling en beheer</h4>
-                <p > Hoofdstuk 8.3 geeft concrete best practices voor verschillende beperkingen </p>
-                <a href="https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 > DigiToegankelijk</h4>
-            <p > Kennisbank en Community</p>
-            <a href="https://digitoegankelijk.nl" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >WCAG 2.2 <span class="category-badge">extern</span></h4>
-            <p >Web Content Accessibility Guidelines voor webtoegankelijkheid</p>
-            <a href="https://www.w3.org/TR/WCAG22/" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >EN 301 549 <span class="category-badge">extern</span></h4>
-            <p >Europese norm voor hardware en niet-web software toegankelijkheid</p>
-            <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" class="action-button" target="_blank">Bekijken</a>
-        </div>
+    <div class="action-cards" id="kaders-beleid-toegankelijkheid">
+        <!-- Resources worden automatisch geladen vanuit de centralize database -->
     </div>
 </div>
 
@@ -142,3 +78,14 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
 - [1. Stel gebruikersbehoeften vast](../gebruikersbehoeften/index.md)
 - [4. Gebruik open standaarden](../open-standaarden/index.md)
 - [14. Voldoe aan de servicestandaard](../servicestandaard/index.md)
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Gebruik de generieke resource-sync functie
+    renderRichtlijnResources(
+        'toegankelijkheid',
+        'praktische-hulpmiddelen-toegankelijkheid',
+        'kaders-beleid-toegankelijkheid'
+    );
+});
+</script>
