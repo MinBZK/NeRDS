@@ -25,22 +25,14 @@ Algoritmen en AI-systemen hebben een steeds grotere impact op besluitvorming bin
 
 Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor dat hun digitale systemen eerlijk, transparant en in lijn met publieke waarden functioneren, wat cruciaal is voor het behouden van vertrouwen in een steeds meer gedigitaliseerde overheid.
 
-## Hoe pas je het toe?
+## Direct aan de slag
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
-
+    <h3>Praktische hulpmiddelen</h3>
     <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4>Algoritmekader</h4>
-            <p>Richtlijnen voor verantwoord algoritmebeheer</p>
-            <a href="https://minbzk.github.io/Algoritmekader/" class="action-button" target="_blank">Verkennen</a>
+            <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
         </div>
+    <div class="action-cards">
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
             <h4>Beslishulp AI-verordening</h4>
@@ -59,17 +51,34 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
             <p>Benchmark voor taalmodellen (LLMs)</p>
             <a href="https://github.com/MinBZK/llm-benchmark" class="action-button" target="_blank">Verkennen</a>
         </div>
-         <div class="action-card">
+        <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4>Algoritmeregister</h4>
-            <p>Registreer je (impactvolle) algoritme in het nationale register</p>
-            <a href="https://algoritmes.overheid.nl/nl" class="action-button" target="_blank">Verkennen</a>
+            <h4>Unsupervised Biasdetection Tool <span class="category-badge">extern</span></h4>
+            <p>Een statistisch hulpmiddel dat groepen identificeert waar een algoritme afwijkende prestaties laat zien</p>
+            <a href="https://algorithmaudit.eu/technical-tools/bdt/" class="action-button" target="_blank">Verkennen</a>
+        </div>
+    </div>
+</div>
+<div class="direct-aan-de-slag">
+    <h3>Beleid</h3>
+    <div class="action-cards">
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4>Algoritmekader</h4>
+            <p>Richtlijnen voor verantwoord algoritmebeheer</p>
+            <a href="https://minbzk.github.io/Algoritmekader/" class="action-button" target="_blank">Verkennen</a>
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4>Unsupervised Biasdetection Tool</h4>
-            <p>Een statistisch hulpmiddel dat groepen identificeert waar een algoritme afwijkende prestaties laat zien</p>
-            <a href="https://algorithmaudit.eu/technical-tools/bdt/" class="action-button" target="_blank">Verkennen</a>
+            <h4>Algoritmeregister</h4>
+            <p>Registreer je (impactvolle) algoritme in het nationale register</p>
+            <a href="https://algoritmes.overheid.nl/nl" class="action-button" target="_blank">Registreren</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4>IAMA</h4>
+            <p>Impact Assessment Mensenrechten en Algoritmes</p>
+            <a href="https://www.rijksoverheid.nl/documenten/rapporten/2021/02/25/impact-assessment-mensenrechten-en-algoritmes" class="action-button" target="_blank">Verkennen</a>
         </div>
     </div>
 </div>
@@ -98,16 +107,10 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
 
 - Identificeer en classificeer algoritmen op risico
 - Registreer hoog-risico algoritmen in het Algoritme Meldpunt
-- Registreer algoritme in het [Algoritmeregister](https://algoritmes.overheid.nl/nl)
+- Registreer algoritme in het [Algoritmeregister](#direct-aan-de-slag)
 - Documenteer doel, werking en waarborgen
 - Maak openbaar algoritmebeschrijvingen voor hoog-risico algoritmen
 - Evalueer en actualiseer informatie regelmatig
-
-## Gerelateerde hulpmiddelen
-
-- **[Rijksbrede Algoritmekader](https://minbzk.github.io/Algoritmekader/)**: Kader voor risicoanalyse, verantwoorde inzet en compliance
-- **[Impact Assessment Mensenrechten en Algoritmen (IAMA)](https://www.rijksoverheid.nl/documenten/rapporten/2021/02/25/impact-assessment-mensenrechten-en-algoritmes)**: Methodiek voor het beoordelen van mensenrechtenimpact
-- **[Code Goed Digitaal Openbaar Bestuur](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/nieuwe-technologieen-data-en-ethiek/publieke-waarden/code-goed-digitaal-openbaar-bestuur/)**: Richtlijnen voor digitaal bestuur
 
 ## Gerelateerde richtlijnen
 

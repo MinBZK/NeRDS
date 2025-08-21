@@ -25,15 +25,13 @@ Beveiliging is een fundamenteel aspect van digitale systemen. Het gaat niet alle
 
 Door beveiliging serieus te nemen en het te integreren in alle aspecten van technologieontwikkeling en -gebruik, bescherm je niet alleen gegevens maar ook het vertrouwen van burgers in de digitale overheid.
 
-## Hoe pas je het toe?
+## Direct aan de slag
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
-
+    <h3>Praktische hulpmiddelen</h3>
     <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
-
     <div class="action-cards">
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
@@ -49,9 +47,48 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Internet.nl</h4>
+            <h4 >Internet.nl <span class="category-badge">extern</span></h4>
             <p >Test veiligheid van je website of e-mail</p>
             <a href="https://internet.nl/" class="action-button" target="_blank">Testen</a>
+        </div>
+    </div>
+</div>
+
+<div class="direct-aan-de-slag">
+    <h3>Kaders, beleid en handreikingen</h3>
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+    <div class="action-cards">
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >ISO 27001 <span class="category-badge">extern</span></h4>
+            <p >Internationale standaard voor informatiebeveiligingsmanagementsystemen</p>
+            <a href="https://www.forumstandaardisatie.nl/open-standaarden/nen-isoiec-27001" class="action-button" target="_blank">Bekijken</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >ISO 27002 <span class="category-badge">extern</span></h4>
+            <p >Richtlijnen voor beveiligingsmaatregelen en -controles</p>
+            <a href="https://www.forumstandaardisatie.nl/open-standaarden/nen-isoiec-27002" class="action-button" target="_blank">Bekijken</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >NIST Cybersecurity Framework <span class="category-badge">extern</span></h4>
+            <p >Vijf functies om organisaties cyberrisico's te beheersen</p>
+            <a href="https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf" class="action-button" target="_blank">Lezen</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >OWASP Top 10 <span class="category-badge">extern</span></h4>
+            <p >Lijst van kritieke beveiligingsrisico's voor webapplicaties</p>
+            <a href="https://owasp.org/www-project-top-ten/" class="action-button" target="_blank">Bekijken</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >Privacy by Design handleiding</h4>
+            <p >Ondersteuning en praktische handvatten om persoonsgegevens te verwerken</p>
+            <a href="https://www.rijksoverheid.nl/documenten/rapporten/2023/06/01/handleiding-privacy-by-design-versie-1-0" class="action-button" target="_blank">Testen</a>
         </div>
     </div>
 </div>
@@ -107,26 +144,6 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
 - Documenteer beveiligingsprocessen
 - Creëer gebruikerstoegang training en controleplannen
 - Integreer beveiligingsoverwegingen in algemene programmaplanningen
-
-## Gerelateerde standaarden
-
-- [ISO 27001](https://www.forumstandaardisatie.nl/open-standaarden/nen-isoiec-27001) en [ISO 27002](https://www.forumstandaardisatie.nl/open-standaarden/nen-isoiec-27002)
-- [Baseline Informatiebeveiliging Overheid (BIO)](https://bio-overheid.nl/ico-wizard) - Gebruik de BIO ICO-wizard om te bepalen welke BIO-maatregelen in jouw situatie van toepassing zijn
-- [NIST Cybersecurity Framework](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf)
-- [OWASP Top 10 voor webapplicatiebeveiliging](https://owasp.org/www-project-top-ten/)
-- [Privacy by Design richtlijnen](https://www.rijksoverheid.nl/documenten/rapporten/2023/06/01/handleiding-privacy-by-design-versie-1-0)
-
-## Gerelateerde hulpmiddelen
-
-- [Nationaal Cyber Security Centrum (NCSC)](https://www.ncsc.nl/) - Centrale kennisautoriteit voor cybersecurity in Nederland, met actuele dreigingsinformatie, advisering en ondersteuning
-  - [NCSC ICT-beveiligingsrichtlijnen voor webapplicaties](https://www.ncsc.nl/documenten/publicaties/2019/mei/01/ict-beveiligingsrichtlijnen-voor-webapplicaties)
-  - [NCSC ICT-beveiligingsrichtlijnen voor mobiele apparaten](https://www.ncsc.nl/documenten/publicaties/2019/mei/01/beveiligingsrichtlijnen-voor-mobiele-apparaten)
-- [Rijksinspectie Digitale Infrastructuur (RDI)](https://www.rdi.nl/) - Toezichthouder op het gebied van digitale infrastructuur en telecom
-- [Nationaal innovatie centrum privacy-enhancing technologies (NICPET)](https://nicpet.pleio.nl/) - Innovatiecentrum gericht op privacybeschermende technologieën
-- [OpenKAT](https://github.com/minvws/nl-kat-coordination) - Open source security kennisbank en tooling voor automatische testen
-- [Internet.nl](https://internet.nl/) - Test of je website en e-mail moderne internetstandaarden gebruiken die helpen om te beschermen tegen phishing en afluisteren
-- [Handreiking Mobiele app Ontwikkeling en Beheer versie 4.0](https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf) - Hoofdstuk 10 geeft concrete beveiligingsmaatregelen voor de ontwikkeling van mobiele apps
-- [Handreiking Cybersecurity voor Bestuurders en Bedrijfseigenaren](https://www.cybersecurityraad.nl/documenten/2025/06/04/handreiking-cybersecurity-voor-bestuurders-en-bedrijfseigenaren) <!--RM: ik weet niet zeker of deze bron nuttig is-->
 
 ## Gerelateerde richtlijnen
 

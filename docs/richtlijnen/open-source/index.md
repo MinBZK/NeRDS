@@ -24,22 +24,16 @@ Open source is een manier van werken waarbij de makers de broncode, documentatie
 
 Door open en transparant te werken en open source software te omarmen, draag je bij aan een meer transparante, flexibele en verantwoordelijke digitale overheid.
 
-## Hoe pas je het toe?
+## Direct aan de slag
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+    <h3>Praktische hulpmiddelen</h3>
 
     <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
     <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 >Code.gov.nl</h4>
-            <p >Publiceer uw code en vind overheidsprojecten</p>
-            <button disabled class="action-button">Publiceren</button>
-        </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
             <h4 >Licentieadvies</h4>
@@ -48,15 +42,42 @@ Door open en transparant te werken en open source software te omarmen, draag je 
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <h4 >Opensourcewerken</h4>
+            <p >Community of practice omtrent open source werken</p>
+            <a href="https://developer.overheid.nl/communities/open-source-werken" class="action-button" target="_blank">Verkennen</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
             <h4 >OSPO Toolbox</h4>
             <p >Tools voor Open Source Program Office</p>
             <a href="https://ospo-nl.github.io/kennisbank/" class="action-button" target="_blank">Verkennen</a>
         </div>
         <div class="action-card">
-            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 >Opensourcewerken</h4>
-            <p >Community of practice omtrent open source werken</p>
-            <a href="https://developer.overheid.nl/communities/open-source-werken" class="action-button" target="_blank">Verkennen</a>
+            <span class="wip-badge wip-badge-concept">concept</span>
+            <h4 >Code.gov.nl</h4>
+            <p >Publiceer uw code en vind overheidsprojecten</p>
+            <button disabled class="action-button">Publiceren</button>
+        </div>
+    </div>
+</div>
+
+<div class="direct-aan-de-slag">
+    <h3>Kaders, beleid en handreikingen</h3>
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+    <div class="action-cards">
+        <div class="action-card">
+        <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 > Beleid Opensource</h4>
+            <p > "Open, tenzij" beleid </p>
+            <a href="https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/open-source/beleid/" class="action-button" target="_blank">Verkennen</a>
+        </div>
+        <div class="action-card">
+        <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 > Rijksbreed programma Open Overheid</h4>
+            <p > Rijksbreedprogramma Open Overheid </p>
+            <a href="https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpenv/open-source/beleid/" class="action-button" target="_blank">Verkennen</a>
         </div>
     </div>
 </div>
@@ -104,14 +125,6 @@ Voor Nederlandse overheidsprojecten wordt de **European Union Public Licence (EU
 - Voldoet aan de open source definitie
 
 Bij het publiceren van overheidscode is het raadzaam de EUPL-1.2 te gebruiken, tenzij er specifieke redenen zijn om een andere licentie te kiezen. Raadpleeg de [OSPO-NL kennisbank over OSS-licenties](https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/) voor meer informatie over licentietypes en overwegingen.
-
-## Gerelateerde hulpmiddelen
-
-- [Opensourcewerken community](https://developer.overheid.nl/communities/open-source-werken) - Community van het Ministerie van Binnenlandse Zaken voor praktische kennis, een forum om ervaringen te delen en informatie over relevante regelgeving voor open source werken.
-
-- [OSPO-NL Kennisbank](https://ospo-nl.github.io/kennisbank/) - Verzameling van kennis over het opzetten van een Open Source Program Office (OSPO) binnen de Nederlandse overheid, met praktische handleidingen en richtlijnen voor het werken met open source.
-
-- [Instructie Rijksdienst bij aanschaf ICT-diensten of ICT-producten](https://wetten.overheid.nl/BWBR0024717/2008-11-23) - Officiële instructie die voorschrijft dat bij de aanschaf van ICT-diensten of -producten door de Rijksoverheid, open standaarden moeten worden geëist.
 
 ## Gerelateerde richtlijnen
 
