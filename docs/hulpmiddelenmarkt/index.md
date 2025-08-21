@@ -73,7 +73,20 @@ Welkom in de Hulpmiddelenmarkt van NeRDS - uw centrale plek voor alle tools, sta
 <script>
 document.addEventListener('DOMContentLoaded', async function() {
     // Laad resources.json
-    const response = await fetch('/data/resources.json');
+    let response;
+    try {
+        // Probeer verschillende paden
+        response = await fetch('/NeRDS/data/resources.json');
+        if (!response.ok) {
+            response = await fetch('./data/resources.json');
+        }
+        if (!response.ok) {
+            response = await fetch('../data/resources.json');
+        }
+    } catch (e) {
+        console.error('Error loading resources:', e);
+        return;
+    }
     const data = await response.json();
     const resources = data.resources;
 
@@ -122,7 +135,10 @@ document.addEventListener('DOMContentLoaded', async function() {
                 <div class="resource-richtlijnen">
                     ${resource.richtlijnen.map(r => `<span class="richtlijn-tag">${r}</span>`).join('')}
                 </div>
-                <a href="${resource.url}" class="resource-link" target="_blank">Bekijken</a>
+                ${resource.url ?
+                    `<a href="${resource.url}" class="resource-link" target="_blank">Bekijken</a>` :
+                    '<button class="resource-link" disabled>Niet beschikbaar</button>'
+                }
             </div>
         `).join('');
     }
@@ -151,9 +167,9 @@ document.addEventListener('DOMContentLoaded', async function() {
             const matchesType = !typeFilter || resource.type === typeFilter;
             const matchesStatus = !statusFilter || resource.status === statusFilter;
             const matchesRichtlijn = !richtlijnFilter || resource.richtlijnen.includes(richtlijnFilter);
-            const matchesInternal = !interalOnly || resource.internal;
+            const matchesInternal = !internalOnly || !resource.external;
 
-            return matchesSearch && matchesType && matchesStatus && matchesRichtlijn && matchesExternal;
+            return matchesSearch && matchesType && matchesStatus && matchesRichtlijn && matchesInternal;
         });
 
         renderResources(filtered);

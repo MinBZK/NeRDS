@@ -18,7 +18,14 @@ const ACTION_BUTTON_TEXTS = {
  */
 async function loadRichtlijnResources(richtlijnNaam) {
     try {
-        const response = await fetch('/data/resources.json');
+        // Probeer verschillende paden
+        let response = await fetch('/NeRDS/data/resources.json');
+        if (!response.ok) {
+            response = await fetch('./data/resources.json');
+        }
+        if (!response.ok) {
+            response = await fetch('../data/resources.json');
+        }
         const data = await response.json();
         const allResources = data.resources;
 

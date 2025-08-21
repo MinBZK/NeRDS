@@ -94,6 +94,7 @@ extra_css:
   - stylesheets/modal.css
   - stylesheets/landing-page.css
   - stylesheets/hulpmiddelenmarkt.css
+  - stylesheets/leveranciersmarkt.css
 
 extra_javascript:
   - javascripts/jquery-3.6.0.min.js
