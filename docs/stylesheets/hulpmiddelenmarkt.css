@@ -152,6 +152,66 @@
     border: 1px solid #ddd;
 }
 
+/* Nieuwe marketplace badges */
+.qualified-badge {
+    background: #4caf50;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.capability-level-badge {
+    background: #9c27b0;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.capability-level-badge:hover {
+    background: #7b1fa2;
+    color: white;
+    text-decoration: none;
+}
+
+/* Marketplace info secties */
+.supplier-info {
+    background: #f8f9fa;
+    padding: 0.75rem;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    border-left: 3px solid #007bff;
+    font-size: 0.9rem;
+}
+
+.procurement-info {
+    background: #e8f5e8;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+    color: #2e7d32;
+}
+
+.lots-info {
+    background: #fff3e0;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+    color: #ef6c00;
+    font-style: italic;
+}
+
 .resource-title {
     font-size: 1.1rem;
     font-weight: 600;

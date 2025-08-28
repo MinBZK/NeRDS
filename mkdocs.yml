@@ -48,7 +48,13 @@ nav:
       - 12. Inkoopstrategie: richtlijnen/inkoop/index.md
       - 13. Duurzaamheid: richtlijnen/duurzaamheid/index.md
       - 14. Servicestandaard: richtlijnen/servicestandaard/index.md
-  - Hulpmiddelenmarkt: hulpmiddelenmarkt/index.md
+  - Hulpmiddelenmarkt:
+      - Overzicht: hulpmiddelenmarkt/index.md
+      - Leveranciers Registratie: hulpmiddelenmarkt/leveranciers-registratie.md
+      - Compliance Vereisten: hulpmiddelenmarkt/compliance-vereisten.md
+      - Admin Dashboard: hulpmiddelenmarkt/admin-dashboard.md
+      - SLA Template: hulpmiddelenmarkt/sla-template.md
+      - Capability Levels: hulpmiddelenmarkt/capability-levels.md
   - Over NeRDS:
       - Over-NeRDS/index.md
       - Bijdragen: Over-NeRDS/CONTRIBUTING.md
@@ -95,6 +101,8 @@ extra_css:
   - stylesheets/landing-page.css
   - stylesheets/hulpmiddelenmarkt.css
   - stylesheets/leveranciersmarkt.css
+  - stylesheets/supplier-registration.css
+  - stylesheets/admin-dashboard.css
 
 extra_javascript:
   - javascripts/jquery-3.6.0.min.js
