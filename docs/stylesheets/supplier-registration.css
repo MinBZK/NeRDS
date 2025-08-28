@@ -1,0 +1,360 @@
+/* Supplier Registration Form Styling */
+
+.registration-form-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.supplier-form {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.form-section {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+.form-section:last-child {
+    border-bottom: none;
+}
+
+.form-section h3 {
+    color: #1976d2;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #1976d2;
+    box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.2);
+}
+
+.form-group input.error,
+.form-group textarea.error {
+    border-color: #d32f2f;
+}
+
+.form-group small {
+    display: block;
+    margin-top: 0.25rem;
+    color: #666;
+    font-size: 0.875rem;
+}
+
+/* Lots Selection */
+.lots-selection {
+    display: grid;
+    gap: 1rem;
+}
+
+.lot-option {
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
+
+.lot-option:hover {
+    border-color: #1976d2;
+    background-color: #f5f9ff;
+}
+
+.lot-option input[type="checkbox"] {
+    width: auto;
+    margin-right: 0.75rem;
+    transform: scale(1.2);
+}
+
+.lot-option label {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.lot-option label strong {
+    color: #1976d2;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+}
+
+.lot-description {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.lot-requirements {
+    color: #ff6f00;
+    font-size: 0.85rem;
+    font-weight: 500;
+    background-color: #fff3e0;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+}
+
+.lot-option input[type="checkbox"]:checked + label {
+    color: #1976d2;
+}
+
+.lot-option input[type="checkbox"]:checked + label strong {
+    color: #1565c0;
+}
+
+/* Compliance Checks */
+.compliance-checks {
+    margin-bottom: 2rem;
+}
+
+.compliance-checks h4 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.compliance-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    background-color: #fafafa;
+    border-radius: 4px;
+}
+
+.compliance-item input[type="checkbox"] {
+    width: auto;
+    margin-right: 0.75rem;
+    margin-top: 0.25rem;
+    transform: scale(1.1);
+}
+
+.compliance-item label {
+    font-weight: normal;
+    margin-bottom: 0;
+    cursor: pointer;
+    line-height: 1.4;
+}
+
+.compliance-item input[type="checkbox"]:checked + label {
+    color: #1976d2;
+    font-weight: 500;
+}
+
+.compliance-item.error {
+    border-left: 4px solid #d32f2f;
+    background-color: #ffebee;
+}
+
+/* Document Upload */
+.document-upload {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.upload-item {
+    border: 2px dashed #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.upload-item:hover {
+    border-color: #1976d2;
+    background-color: #f5f9ff;
+}
+
+.upload-item label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1976d2;
+    cursor: pointer;
+}
+
+.upload-item input[type="file"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.upload-item input[type="file"]:focus {
+    outline: none;
+    border-color: #1976d2;
+}
+
+.upload-item small {
+    color: #666;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+/* Terms Agreement */
+.terms-agreement {
+    background-color: #f5f9ff;
+    border: 1px solid #e3f2fd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.terms-agreement .compliance-item {
+    background-color: transparent;
+    padding: 0.5rem 0;
+}
+
+.terms-agreement a {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+.terms-agreement a:hover {
+    text-decoration: underline;
+}
+
+/* Form Actions */
+.form-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.submit-button {
+    background-color: #1976d2;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-width: 160px;
+}
+
+.submit-button:hover:not(:disabled) {
+    background-color: #1565c0;
+}
+
+.submit-button:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+}
+
+.draft-button {
+    background-color: #fff;
+    color: #1976d2;
+    padding: 1rem 2rem;
+    border: 2px solid #1976d2;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 160px;
+}
+
+.draft-button:hover {
+    background-color: #1976d2;
+    color: white;
+}
+
+/* Status Message */
+.status-message {
+    background-color: #e8f5e8;
+    border: 1px solid #4caf50;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.status-message h3 {
+    color: #2e7d32;
+    margin-bottom: 1rem;
+}
+
+.status-message p {
+    margin-bottom: 1rem;
+}
+
+.status-message h4 {
+    color: #333;
+    margin: 1.5rem 0 1rem 0;
+}
+
+.status-message ol {
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.status-message ol li {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .registration-form-container {
+        padding: 1rem;
+    }
+
+    .supplier-form {
+        padding: 1rem;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    .submit-button,
+    .draft-button {
+        width: 100%;
+    }
+
+    .lots-selection {
+        grid-template-columns: 1fr;
+    }
+
+    .document-upload {
+        grid-template-columns: 1fr;
+    }
+}

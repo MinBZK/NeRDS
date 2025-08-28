@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(mkdocs serve:*)",
+      "WebFetch(domain:www.gov.uk)",
+      "Read(//Users/ravimeijer/Downloads/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

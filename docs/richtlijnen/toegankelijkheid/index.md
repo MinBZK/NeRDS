@@ -22,46 +22,27 @@ Toegankelijkheid gaat over het maken van diensten en systemen die door iedereen 
 
 Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg je ervoor dat je diensten voor iedereen bruikbaar zijn, ongeacht hun capaciteiten of beperkingen.
 
-## Hoe pas je het toe?
+## Direct aan de slag
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+    <h3>Praktische hulpmiddelen</h3>
 
     <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Toegankelijkheidsscan</h4>
-            <p >Test uw webpagina's op toegankelijkheid</p>
-            <a href="https://www.w3.org/WAI/test-evaluate/tools/list/" class="action-button" target="_blank">Scannen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Deque Axe</h4>
-            <p >Toegankelijkheidstester voor webapplicaties</p>
-            <a href="https://www.deque.com/axe/" class="action-button" target="_blank">Gebruiken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >WCAG-EM Reporter</h4>
-            <p >Tool voor het maken van toegankelijkheidsrapporten</p>
-            <a href="https://gitlab.com/digilab.overheid.nl/ecosystem/wcag-em-reporter" class="action-button" target="_blank">Gebruiken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 >Inclusief Ontwerpen</h4>
-            <p >Toolkit voor inclusief ontwerp</p>
-            <a href="https://toolkitinclusie.gebruikercentraal.nl/" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >NL Design System</h4>
-            <p >Toegankelijke componenten</p>
-            <a href="https://nldesignsystem.nl" class="action-button" target="_blank">Gebruiken</a>
-        </div>
+    <div class="action-cards" id="praktische-hulpmiddelen-toegankelijkheid">
+        <!-- Resources worden automatisch geladen vanuit de centralize database -->
+    </div>
+</div>
+
+<div class="direct-aan-de-slag">
+    <h3>Kaders, beleid en handreikingen</h3>
+    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+    <div class="action-cards" id="kaders-beleid-toegankelijkheid">
+        <!-- Resources worden automatisch geladen vanuit de centralize database -->
     </div>
 </div>
 
@@ -92,19 +73,19 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
 - Bouw formulieren die gemakkelijk te gebruiken zijn met hulpapparatuur
 - Test je systemen op verschillende apparaten en schermformaten
 
-## Gerelateerde standaarden
-
-- [Web Content Accessibility Guidelines (WCAG 2.2)](https://www.w3.org/TR/WCAG22/)
-- [EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) (Europese norm voor hardware/niet-web software)
-- [Digitoegankelijkheid](https://www.digitoegankelijk.nl/toegankelijkheid/en-301-549-en-wcag) (voorheen 'Webrichtlijnen')
-
-## Gerelateerde hulpmiddelen
-
-- [Handreiking Mobiele app Ontwikkeling en Beheer versie 4.0](https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf) - Hoofdstuk 8.3 geeft concrete best practices voor verschillende beperkingen voor de ontwikkeling van Mobiele Apps
-- [Kennisbank Digitoegankelijk](https://kennisbank.digitoegankelijk.nl) - Praktische tips over digitale toegankelijkheid
-
 ## Gerelateerde richtlijnen
 
 - [1. Stel gebruikersbehoeften vast](../gebruikersbehoeften/index.md)
 - [4. Gebruik open standaarden](../open-standaarden/index.md)
 - [14. Voldoe aan de servicestandaard](../servicestandaard/index.md)
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Gebruik de generieke resource-sync functie
+    renderRichtlijnResources(
+        'toegankelijkheid',
+        'praktische-hulpmiddelen-toegankelijkheid',
+        'kaders-beleid-toegankelijkheid'
+    );
+});
+</script>
