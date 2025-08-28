@@ -6,7 +6,6 @@
       "description": "Bepaal direct welke voorschriften gelden",
       "url": "https://ai-verordening-beslishulp.apps.digilab.network/",
       "type": "tool",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["algoritmen"],
       "tags": ["ai", "verordening", "beslishulp", "compliance", "risicoanalyse"]
@@ -17,7 +16,6 @@
       "description": "Register voor risicovolle algoritmen",
       "url": "https://amt.prd.apps.digilab.network/",
       "type": "tool",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["algoritmen"],
       "tags": ["algoritme", "management", "register", "risico", "beheer"]
@@ -28,7 +26,6 @@
       "description": "Benchmark voor taalmodellen (LLMs)",
       "url": "https://github.com/MinBZK/llm-benchmark",
       "type": "tool",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["algoritmen"],
       "tags": ["llm", "benchmark", "taalmodellen", "ai", "evaluatie"]
@@ -50,10 +47,24 @@
       "description": "Richtlijnen voor verantwoord algoritmebeheer",
       "url": "https://minbzk.github.io/Algoritmekader/",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["algoritmen"],
-      "tags": ["algoritme", "kader", "verantwoord", "richtlijnen", "beheer"]
+      "tags": ["algoritme", "kader", "verantwoord", "richtlijnen", "beheer"],
+      "supplier": {
+        "name": "Ministerie van BZK",
+        "qualified": true,
+        "qualification_date": "2023-09-01",
+        "contact": "algoritmekader@minbzk.nl"
+      },
+      "capability_level": 5,
+      "procurement": {
+        "framework_eligible": true,
+        "pricing_model": "free",
+        "compliance_certifications": ["AI-Verordening"],
+        "sla_available": false,
+        "government_only": false
+      },
+      "lots": ["compliance", "framework", "ai-governance"]
     },
     {
       "id": "algoritmeregister",
@@ -61,7 +72,6 @@
       "description": "Registreer je (impactvolle) algoritme in het nationale register",
       "url": "https://algoritmes.overheid.nl/nl",
       "type": "tool",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["algoritmen"],
       "tags": ["algoritme", "register", "transparantie", "nationaal", "registratie"]
@@ -72,7 +82,6 @@
       "description": "Impact Assessment Mensenrechten en Algoritmes",
       "url": "https://www.rijksoverheid.nl/documenten/rapporten/2021/02/25/impact-assessment-mensenrechten-en-algoritmes",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["algoritmen"],
       "tags": ["impact", "assessment", "mensenrechten", "algoritme", "evaluatie"]
@@ -83,10 +92,24 @@
       "description": "Soevereine cloud voor overheidsorganisaties",
       "url": null,
       "type": "tool",
-      "external": false,
       "status": "concept",
       "richtlijnen": ["cloud"],
-      "tags": ["cloud", "soeverein", "overheid", "infrastructuur"]
+      "tags": ["cloud", "soeverein", "overheid", "infrastructuur"],
+      "supplier": {
+        "name": "Ministerie van BZK",
+        "qualified": true,
+        "qualification_date": "2024-01-15",
+        "contact": "rijkscloud@minbzk.nl"
+      },
+      "capability_level": 5,
+      "procurement": {
+        "framework_eligible": true,
+        "pricing_model": "subscription",
+        "compliance_certifications": ["ISO27001", "BIO", "NEN7510"],
+        "sla_available": true,
+        "government_only": true
+      },
+      "lots": ["hosting", "infrastructure"]
     },
     {
       "id": "kubernetes-service",
@@ -94,7 +117,6 @@
       "description": "Beheerde K8s met compliance",
       "url": null,
       "type": "tool",
-      "external": false,
       "status": "ontwikkeling",
       "richtlijnen": ["cloud"],
       "tags": ["kubernetes", "container", "orchestratie", "compliance", "beheer"]
@@ -108,7 +130,22 @@
       "external": true,
       "status": "beschikbaar",
       "richtlijnen": ["cloud", "integratie"],
-      "tags": ["cloud", "hosting", "platform", "commonground"]
+      "tags": ["cloud", "hosting", "platform", "commonground"],
+      "supplier": {
+        "name": "Common Ground",
+        "qualified": true,
+        "qualification_date": "2023-06-01",
+        "contact": "info@commonground.nl"
+      },
+      "capability_level": 4,
+      "procurement": {
+        "framework_eligible": true,
+        "pricing_model": "usage-based",
+        "compliance_certifications": ["ISO27001"],
+        "sla_available": true,
+        "government_only": false
+      },
+      "lots": ["hosting", "platform"]
     },
     {
       "id": "azure-bio-compliancy",
@@ -127,7 +164,6 @@
       "description": "Beoordeel uw cloudgereedheid",
       "url": null,
       "type": "tool",
-      "external": false,
       "status": "ontwikkeling",
       "richtlijnen": ["cloud"],
       "tags": ["cloud", "assessment", "gereedheid", "evaluatie"]
@@ -138,7 +174,6 @@
       "description": "Officiële regels en richtlijnen voor cloudgebruik binnen de Rijksoverheid",
       "url": "https://www.digitaleoverheid.nl/nieuws/regels-voor-verantwoord-cloudgebruik-rijksoverheid/",
       "type": "policy",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["cloud"],
       "tags": ["cloud", "regels", "rijksoverheid", "verantwoord", "beleid"]
@@ -149,7 +184,6 @@
       "description": "Het open dataportaal van de overheid",
       "url": "https://data.overheid.nl/",
       "type": "tool",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["data"],
       "tags": ["open data", "portaal", "overheid", "transparantie"]
@@ -160,7 +194,6 @@
       "description": "Tool voor datakwaliteitscontrole",
       "url": null,
       "type": "tool",
-      "external": false,
       "status": "ontwikkeling",
       "richtlijnen": ["data"],
       "tags": ["data", "kwaliteit", "controle", "validatie"]
@@ -171,7 +204,6 @@
       "description": "Genereer veilige testdata",
       "url": "https://digilab.overheid.nl/projecten/synthetische-datageneratie/",
       "type": "tool",
-      "external": false,
       "status": "concept",
       "richtlijnen": ["data"],
       "tags": ["synthetische data", "testdata", "privacy", "generatie"]
@@ -182,7 +214,6 @@
       "description": "Samenhangend stelsel van hoogwaardige registraties met essentiële overheidsgegevens",
       "url": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["data"],
       "tags": ["basisregistraties", "stelsel", "overheidsgegevens", "registratie"]
@@ -204,7 +235,6 @@
       "description": "Interbestuurlijke Datastrategie",
       "url": "https://www.digitaleoverheid.nl/interbestuurlijke-datastrategie/",
       "type": "policy",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["data"],
       "tags": ["datastrategie", "interbestuurlijk", "beleid", "samenwerking"]
@@ -226,7 +256,6 @@
       "description": "Best practices voor duurzame software",
       "url": null,
       "type": "framework",
-      "external": false,
       "status": "ontwikkeling",
       "richtlijnen": ["duurzaamheid"],
       "tags": ["green coding", "duurzaam", "software", "best practices"]
@@ -237,7 +266,6 @@
       "description": "Duurzaamheidscriteria voor ICT-inkoop",
       "url": "https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria",
       "type": "standard",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["duurzaamheid"],
       "tags": ["mvi", "duurzaamheid", "ict", "inkoop", "criteria"]
@@ -248,7 +276,6 @@
       "description": "Toolkit voor gebruikersonderzoek",
       "url": "https://toolkittaal.gebruikercentraal.nl/richtlijnen/",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["gebruikersbehoeften"],
       "tags": ["onderzoek", "gebruikers", "toolkit", "richtlijnen"]
@@ -259,7 +286,6 @@
       "description": "Een database van uitgevoerde gebruikersonderzoeken",
       "url": "https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken",
       "type": "tool",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["gebruikersbehoeften"],
       "tags": ["gebruikersonderzoek", "database", "onderzoek", "kennis"]
@@ -270,7 +296,6 @@
       "description": "Toegang tot gebruikerspanel van burgers voor onderzoek",
       "url": null,
       "type": "tool",
-      "external": false,
       "status": "concept",
       "richtlijnen": ["gebruikersbehoeften"],
       "tags": ["gebruikerspanel", "burgers", "onderzoek", "feedback"]
@@ -281,7 +306,6 @@
       "description": "Gevalideerde overheidsgebruikerspersona's",
       "url": null,
       "type": "tool",
-      "external": false,
       "status": "ontwikkeling",
       "richtlijnen": ["gebruikersbehoeften"],
       "tags": ["persona", "database", "overheid", "gebruikers"]
@@ -292,7 +316,6 @@
       "description": "Hoofdstuk 8 gebruikt \"De gebruiker staat centraal\" voor de ontwikkeling van mobiele apps.",
       "url": "https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["gebruikersbehoeften"],
       "tags": ["mobiele app", "ontwikkeling", "gebruiker centraal", "handreiking"]
@@ -303,7 +326,6 @@
       "description": "Een community voor dienstverlening of communicatie van de overheid",
       "url": "https://www.gebruikercentraal.nl",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["gebruikersbehoeften"],
       "tags": ["gebruiker centraal", "community", "dienstverlening", "overheid"]
@@ -314,7 +336,6 @@
       "description": "Bereken Total Cost of Ownership",
       "url": null,
       "type": "tool",
-      "external": false,
       "status": "ontwikkeling",
       "richtlijnen": ["inkoop"],
       "tags": ["tco", "calculator", "kosten", "ownership"]
@@ -325,7 +346,6 @@
       "description": "Criteria voor duurzaam inkopen",
       "url": "https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria",
       "type": "standard",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["inkoop"],
       "tags": ["mvi", "duurzaam", "inkopen", "criteria", "verantwoord"]
@@ -336,7 +356,6 @@
       "description": "Kennisplatform voor ICT-inkoop",
       "url": "https://www.pianoo.nl/nl/sectoren/ict",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["inkoop"],
       "tags": ["inkoop", "ict", "kennisplatform", "pianoo"]
@@ -347,7 +366,6 @@
       "description": "Richtlijn voor inkoop van verantwoorde algoritmes",
       "url": "https://minbzk.github.io/Algoritmekader/onderwerpen/publieke-inkoop/",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["inkoop"],
       "tags": ["algoritme", "inkoop", "verantwoord", "publiek", "richtlijn"]
@@ -391,7 +409,6 @@
       "description": "EUPL-1.2 voor overheidsprojecten",
       "url": "https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["open-source"],
       "tags": ["licentie", "eupl", "open source", "overheid", "advies"]
@@ -402,7 +419,6 @@
       "description": "Community of practice omtrent open source werken",
       "url": "https://developer.overheid.nl/communities/open-source-werken",
       "type": "framework",
-      "external": false,
       "status": "ontwikkeling",
       "richtlijnen": ["open-source"],
       "tags": ["open source", "community", "practice", "samenwerking"]
@@ -413,7 +429,6 @@
       "description": "Tools voor Open Source Program Office",
       "url": "https://ospo-nl.github.io/kennisbank/",
       "type": "tool",
-      "external": false,
       "status": "ontwikkeling",
       "richtlijnen": ["open-source"],
       "tags": ["ospo", "toolbox", "open source", "program office"]
@@ -424,7 +439,6 @@
       "description": "Publiceer uw code en vind overheidsprojecten",
       "url": null,
       "type": "tool",
-      "external": false,
       "status": "concept",
       "richtlijnen": ["open-source"],
       "tags": ["code", "publiceren", "overheid", "projecten", "delen"]
@@ -435,7 +449,6 @@
       "description": "\"Open, tenzij\" beleid",
       "url": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/open-source/beleid/",
       "type": "policy",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["open-source"],
       "tags": ["beleid", "open source", "open tenzij", "digitale overheid"]
@@ -446,7 +459,6 @@
       "description": "Rijksbreedprogramma Open Overheid",
       "url": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpenv/open-source/beleid/",
       "type": "policy",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["open-source"],
       "tags": ["rijksbreed", "open overheid", "programma", "beleid"]
@@ -457,7 +469,6 @@
       "description": "Bepaal welke standaarden van toepassing zijn",
       "url": "https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden",
       "type": "tool",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["open-standaarden"],
       "tags": ["beslisboom", "open standaarden", "toepassing", "forum"]
@@ -468,7 +479,6 @@
       "description": "Nederlandse API strategie",
       "url": "https://docs.geostandaarden.nl/api/API-Strategie/",
       "type": "standard",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["open-standaarden"],
       "tags": ["api", "standaarden", "strategie", "nederland"]
@@ -479,7 +489,6 @@
       "description": "Overzicht van overheids-API's",
       "url": "https://apis.developer.overheid.nl/apis",
       "type": "tool",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["open-standaarden"],
       "tags": ["api", "overheid", "developer", "overzicht"]
@@ -490,7 +499,6 @@
       "description": "Centrale standaardendatabase",
       "url": null,
       "type": "tool",
-      "external": false,
       "status": "ontwikkeling",
       "richtlijnen": ["open-standaarden"],
       "tags": ["standaarden", "register", "database", "centraal"]
@@ -501,7 +509,6 @@
       "description": "Instructie rijksdienst bij aanschaf ICT-diensten of ICT-producten",
       "url": "https://wetten.overheid.nl/BWBR0024717/2008-11-23",
       "type": "policy",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["open-standaarden"],
       "tags": ["aanschaf", "ict", "instructie", "rijksdienst", "wet"]
@@ -512,7 +519,6 @@
       "description": "Adviescommissie van de Nederlandse overheid voor interoperabiliteit, veiligheid en leveranciersonafhankelijkheid",
       "url": "https://www.forumstandaardisatie.nl",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["open-standaarden"],
       "tags": ["forum", "standaardisatie", "interoperabiliteit", "veiligheid"]
@@ -523,7 +529,6 @@
       "description": "Model voor gegevensbeschermingseffectbeoordeling",
       "url": "https://www.autoriteitpersoonsgegevens.nl/nl/onderwerpen/avg-europese-privacywetgeving/data-protection-impact-assessment-dpia",
       "type": "tool",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["privacy"],
       "tags": ["dpia", "privacy", "gegevensbescherming", "beoordeling"]
@@ -534,7 +539,6 @@
       "description": "Online formulier voor gegevensbeschermingseffectbeoordeling",
       "url": "https://minbzk.github.io/par-dpia-form/",
       "type": "tool",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["privacy"],
       "tags": ["dpia", "formulier", "online", "privacy", "assessment"]
@@ -556,7 +560,6 @@
       "description": "Geautomatiseerde privacycheck",
       "url": null,
       "type": "tool",
-      "external": false,
       "status": "concept",
       "richtlijnen": ["privacy"],
       "tags": ["privacy", "check", "geautomatiseerd", "controle"]
@@ -567,7 +570,6 @@
       "description": "",
       "url": "https://www.rijksoverheid.nl/documenten/rapporten/2018/01/22/handleiding-algemene-verordening-gegevensbescherming",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["privacy"],
       "tags": ["avg", "handleiding", "gegevensbescherming", "gdpr"]
@@ -578,7 +580,6 @@
       "description": "",
       "url": "https://www.rijksoverheid.nl/documenten/publicaties/2018/01/25/model-verwerkersovereenkomst-avg",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["privacy"],
       "tags": ["verwerkersovereenkomst", "model", "rijksoverheid", "avg"]
@@ -589,7 +590,6 @@
       "description": "Communities voor overheidsontwikkelaars",
       "url": "https://developer.overheid.nl/",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["samenwerking"],
       "tags": ["developer", "overheid", "community", "samenwerking"]
@@ -603,7 +603,22 @@
       "external": true,
       "status": "beschikbaar",
       "richtlijnen": ["samenwerking", "servicestandaard", "toegankelijkheid"],
-      "tags": ["design system", "gebruiksvriendelijk", "overheid", "website"]
+      "tags": ["design system", "gebruiksvriendelijk", "overheid", "website"],
+      "supplier": {
+        "name": "NL Design System Community",
+        "qualified": true,
+        "qualification_date": "2022-01-01",
+        "contact": "kernteam@nldesignsystem.nl"
+      },
+      "capability_level": 5,
+      "procurement": {
+        "framework_eligible": true,
+        "pricing_model": "open-source",
+        "compliance_certifications": ["WCAG2.2"],
+        "sla_available": false,
+        "government_only": false
+      },
+      "lots": ["design", "framework", "accessibility"]
     },
     {
       "id": "govhub",
@@ -611,7 +626,6 @@
       "description": "Centrale hub voor overheidscomponenten",
       "url": null,
       "type": "tool",
-      "external": false,
       "status": "concept",
       "richtlijnen": ["samenwerking"],
       "tags": ["govhub", "centrale hub", "overheid", "componenten"]
@@ -622,7 +636,6 @@
       "description": "Richtlijnen voor digitaal bestuur",
       "url": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/nieuwe-technologieen-data-en-ethiek/publieke-waarden/code-goed-digitaal-openbaar-bestuur/",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["samenwerking"],
       "tags": ["code", "digitaal bestuur", "openbaar", "richtlijnen"]
@@ -633,7 +646,6 @@
       "description": "Beoordeel je dienst aan de standaard",
       "url": null,
       "type": "tool",
-      "external": false,
       "status": "concept",
       "richtlijnen": ["servicestandaard"],
       "tags": ["zelfassessment", "beoordeling", "servicestandaard", "dienst"]
@@ -644,7 +656,6 @@
       "description": "Gestandaardiseerde service patronen",
       "url": null,
       "type": "framework",
-      "external": false,
       "status": "ontwikkeling",
       "richtlijnen": ["servicestandaard"],
       "tags": ["service", "pattern", "gestandaardiseerd", "patronen"]
@@ -655,7 +666,6 @@
       "description": "Test uw webpagina's op toegankelijkheid",
       "url": "https://www.w3.org/WAI/test-evaluate/tools/list/",
       "type": "tool",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["toegankelijkheid"],
       "tags": ["toegankelijkheid", "scan", "test", "web", "evaluatie"]
@@ -666,7 +676,6 @@
       "description": "Toegankelijkheidstester voor webapplicaties",
       "url": "https://www.deque.com/axe/",
       "type": "tool",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["toegankelijkheid"],
       "tags": ["deque", "axe", "toegankelijkheid", "tester", "webapplicatie"]
@@ -677,7 +686,6 @@
       "description": "Test uw overheidspagina's op toegankelijkheid",
       "url": "https://dashboard.digitoegankelijk.nl",
       "type": "tool",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["toegankelijkheid"],
       "tags": ["dashboard", "digitoegankelijk", "test", "overheid", "pagina"]
@@ -688,7 +696,6 @@
       "description": "Tool voor het maken van toegankelijkheidsrapporten",
       "url": "https://gitlab.com/digilab.overheid.nl/ecosystem/wcag-em-reporter",
       "type": "tool",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["toegankelijkheid"],
       "tags": ["wcag", "em", "reporter", "toegankelijkheid", "rapport"]
@@ -699,7 +706,6 @@
       "description": "Toolkit voor inclusief ontwerp",
       "url": "https://toolkitinclusie.gebruikercentraal.nl/",
       "type": "framework",
-      "external": false,
       "status": "ontwikkeling",
       "richtlijnen": ["toegankelijkheid"],
       "tags": ["inclusief", "ontwerp", "toolkit", "inclusie"]
@@ -710,7 +716,6 @@
       "description": "Handvatten voor de wet voor digitale toegankelijkheid",
       "url": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/digitaal-toegankelijk/beleid/",
       "type": "policy",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["toegankelijkheid"],
       "tags": ["kabinetsbeleid", "digitale toegankelijkheid", "wet", "handvatten"]
@@ -721,7 +726,6 @@
       "description": "Hoofdstuk 8.3 geeft concrete best practices voor verschillende beperkingen",
       "url": "https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["toegankelijkheid"],
       "tags": ["handreiking", "mobiele app", "toegankelijkheid", "best practices"]
@@ -732,7 +736,6 @@
       "description": "Kennisbank en Community",
       "url": "https://digitoegankelijk.nl",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["toegankelijkheid"],
       "tags": ["digitoegankelijk", "kennisbank", "community", "toegankelijkheid"]
@@ -765,7 +768,6 @@
       "description": "Bepaal verplichte beveiligingsmaatregelen",
       "url": "https://bio-overheid.nl/ico-wizard",
       "type": "tool",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["veiligheid"],
       "tags": ["bio", "wizard", "beveiliging", "maatregelen", "verplicht"]
@@ -776,10 +778,24 @@
       "description": "Open source security tooling",
       "url": "https://github.com/minvws/nl-kat-coordination",
       "type": "tool",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["veiligheid"],
-      "tags": ["openkat", "open source", "security", "tooling"]
+      "tags": ["openkat", "open source", "security", "tooling"],
+      "supplier": {
+        "name": "Ministerie van VWS",
+        "qualified": true,
+        "qualification_date": "2023-03-01",
+        "contact": "openkat@minvws.nl"
+      },
+      "capability_level": 4,
+      "procurement": {
+        "framework_eligible": true,
+        "pricing_model": "open-source",
+        "compliance_certifications": ["BIO"],
+        "sla_available": false,
+        "government_only": false
+      },
+      "lots": ["security", "tooling"]
     },
     {
       "id": "internet-nl",
@@ -842,7 +858,6 @@
       "description": "Ondersteuning en praktische handvatten om persoonsgegevens te verwerken",
       "url": "https://www.rijksoverheid.nl/documenten/rapporten/2023/06/01/handleiding-privacy-by-design-versie-1-0",
       "type": "framework",
-      "external": false,
       "status": "beschikbaar",
       "richtlijnen": ["veiligheid"],
       "tags": ["privacy by design", "handleiding", "persoonsgegevens", "verwerking"]

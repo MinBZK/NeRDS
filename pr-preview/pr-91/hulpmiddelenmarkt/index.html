@@ -16,7 +16,7 @@
         <link rel="prev" href="../richtlijnen/servicestandaard/">
       
       
-        <link rel="next" href="../Over-NeRDS/">
+        <link rel="next" href="leveranciers-registratie/">
       
       
       <link rel="icon" href="../assets/favicon.ico">
@@ -69,6 +69,10 @@
       <link rel="stylesheet" href="../stylesheets/hulpmiddelenmarkt.css">
     
       <link rel="stylesheet" href="../stylesheets/leveranciersmarkt.css">
+    
+      <link rel="stylesheet" href="../stylesheets/supplier-registration.css">
+    
+      <link rel="stylesheet" href="../stylesheets/admin-dashboard.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -261,17 +265,20 @@
     
   
   
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
   
   
     
   
   Hulpmiddelenmarkt
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -459,16 +466,47 @@
   
   
   
-    <li class="md-nav__item md-nav__item--active">
+    
+    
       
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
       
       
         
       
+    
+    
       
-      <a href="./" class="md-nav__link md-nav__link--active">
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
   
   
   <span class="md-ellipsis">
@@ -477,7 +515,148 @@
   </span>
   
 
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Hulpmiddelenmarkt
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="leveranciers-registratie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Leveranciers Registratie
+    
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="compliance-vereisten/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Compliance Vereisten
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="admin-dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Admin Dashboard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sla-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SLA Template
+    
+  </span>
+  
+    
+  
+  
+    <span class="md-status md-status--concept"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capability-levels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Capability Levels
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -603,9 +782,33 @@
             <option value="">Alle richtlijnen</option>
         </select>
 
+
+        <select id="lotFilter">
+            <option value="">Alle lots</option>
+        </select>
+
+        <select id="pricingModelFilter">
+            <option value="">Alle prijsmodellen</option>
+            <option value="free">Gratis</option>
+            <option value="open-source">Open Source</option>
+            <option value="subscription">Abonnement</option>
+            <option value="usage-based">Pay-per-use</option>
+            <option value="one-time">Eenmalig</option>
+        </select>
+
         <label class="filter-checkbox">
-            <input type="checkbox" id="internalFilter">
-            Alleen interne resources
+            <input type="checkbox" id="governmentOnlyFilter">
+            Alleen overheid-specifiek
+        </label>
+
+        <label class="filter-checkbox">
+            <input type="checkbox" id="qualifiedOnlyFilter">
+            Alleen gekwalificeerde leveranciers
+        </label>
+
+        <label class="filter-checkbox">
+            <input type="checkbox" id="frameworkEligibleFilter">
+            Alleen raamovereenkomst-geschikt
         </label>
     </div>
 </div>
@@ -671,6 +874,16 @@ document.addEventListener('DOMContentLoaded', async function() {
         richtlijnFilter.appendChild(option);
     });
 
+    // Vul lots filter
+    const lots = [...new Set(resources.flatMap(r => r.lots || []))].sort();
+    const lotFilter = document.getElementById('lotFilter');
+    lots.forEach(lot => {
+        const option = document.createElement('option');
+        option.value = lot;
+        option.textContent = lot.charAt(0).toUpperCase() + lot.slice(1);
+        lotFilter.appendChild(option);
+    });
+
     // Update statistieken
     function updateStats(filteredResources) {
         document.getElementById('totalResources').textContent = filteredResources.length;
@@ -700,12 +913,36 @@ document.addEventListener('DOMContentLoaded', async function() {
                     <span class="resource-type-badge resource-type-${resource.type}">${getTypeLabel(resource.type)}</span>
                     <span class="resource-status-badge resource-status-${resource.status}">${resource.status}</span>
                     ${resource.external ? '<span class="resource-external-badge">extern</span>' : ''}
+                    ${resource.supplier?.qualified ? '<span class="qualified-badge">gekwalificeerd</span>' : ''}
+                    ${resource.capability_level ? `<a href="../hulpmiddelenmarkt/capability-levels/" class="capability-level-badge" title="Meer info over capability levels">Level ${resource.capability_level}</a>` : ''}
                 </div>
                 <h3 class="resource-title">${resource.title}</h3>
                 <p class="resource-description">${resource.description}</p>
+
+                ${resource.supplier ? `
+                <div class="supplier-info">
+                    <strong>Leverancier:</strong> ${resource.supplier.name}
+                    ${resource.supplier.contact ? `<br><small>Contact: ${resource.supplier.contact}</small>` : ''}
+                </div>` : ''}
+
+                ${resource.procurement ? `
+                <div class="procurement-info">
+                    <small>
+                        ${resource.procurement.pricing_model ? `Prijsmodel: ${resource.procurement.pricing_model}` : ''}
+                        ${resource.procurement.framework_eligible ? ' • Raamovereenkomst geschikt' : ''}
+                        ${(resource.type === 'tool' && resource.procurement.sla_available) ? ' • <a href="../hulpmiddelenmarkt/sla-template/" target="_blank">SLA beschikbaar</a>' : ''}
+                    </small>
+                </div>` : ''}
+
+                ${resource.lots ? `
+                <div class="lots-info">
+                    <small>Lots: ${resource.lots.join(', ')}</small>
+                </div>` : ''}
+
                 <div class="resource-richtlijnen">
                     ${resource.richtlijnen.map(r => `<span class="richtlijn-tag">${r}</span>`).join('')}
                 </div>
+
                 ${resource.url ?
                     `<a href="${resource.url}" class="resource-link" target="_blank">Bekijken</a>` :
                     '<button class="resource-link" disabled>Niet beschikbaar</button>'
@@ -730,7 +967,11 @@ document.addEventListener('DOMContentLoaded', async function() {
         const typeFilter = document.getElementById('typeFilter').value;
         const statusFilter = document.getElementById('statusFilter').value;
         const richtlijnFilter = document.getElementById('richtlijnFilter').value;
-        const internalOnly = document.getElementById('internalFilter').checked;
+        const lotFilter = document.getElementById('lotFilter').value;
+        const pricingModelFilter = document.getElementById('pricingModelFilter').value;
+        const governmentOnly = document.getElementById('governmentOnlyFilter').checked;
+        const qualifiedOnly = document.getElementById('qualifiedOnlyFilter').checked;
+        const frameworkEligibleOnly = document.getElementById('frameworkEligibleFilter').checked;
 
         const filtered = resources.filter(resource => {
             const matchesSearch = resource.title.toLowerCase().includes(searchTerm) ||
@@ -738,9 +979,15 @@ document.addEventListener('DOMContentLoaded', async function() {
             const matchesType = !typeFilter || resource.type === typeFilter;
             const matchesStatus = !statusFilter || resource.status === statusFilter;
             const matchesRichtlijn = !richtlijnFilter || resource.richtlijnen.includes(richtlijnFilter);
-            const matchesInternal = !internalOnly || !resource.external;
+            const matchesLot = !lotFilter || (resource.lots && resource.lots.includes(lotFilter));
+            const matchesPricingModel = !pricingModelFilter || (resource.procurement && resource.procurement.pricing_model === pricingModelFilter);
+            const matchesGovernmentOnly = !governmentOnly || (resource.procurement && resource.procurement.government_only);
+            const matchesQualified = !qualifiedOnly || (resource.supplier && resource.supplier.qualified);
+            const matchesFrameworkEligible = !frameworkEligibleOnly || (resource.procurement && resource.procurement.framework_eligible);
 
-            return matchesSearch && matchesType && matchesStatus && matchesRichtlijn && matchesInternal;
+            return matchesSearch && matchesType && matchesStatus && matchesRichtlijn &&
+                   matchesLot && matchesPricingModel && matchesGovernmentOnly &&
+                   matchesQualified && matchesFrameworkEligible;
         });
 
         renderResources(filtered);
@@ -752,7 +999,11 @@ document.addEventListener('DOMContentLoaded', async function() {
     document.getElementById('typeFilter').addEventListener('change', filterResources);
     document.getElementById('statusFilter').addEventListener('change', filterResources);
     document.getElementById('richtlijnFilter').addEventListener('change', filterResources);
-    document.getElementById('internalFilter').addEventListener('change', filterResources);
+    document.getElementById('lotFilter').addEventListener('change', filterResources);
+    document.getElementById('pricingModelFilter').addEventListener('change', filterResources);
+    document.getElementById('governmentOnlyFilter').addEventListener('change', filterResources);
+    document.getElementById('qualifiedOnlyFilter').addEventListener('change', filterResources);
+    document.getElementById('frameworkEligibleFilter').addEventListener('change', filterResources);
 
     // Initiële render
     renderResources(resources);
@@ -781,7 +1032,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     <span class="md-icon" title="Laatst geüpdatet">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="21 augustus 2025 15:35:29 CEST">21 augustus 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="28 augustus 2025 10:17:35 CEST">28 augustus 2025</span>
   </span>
 
     
