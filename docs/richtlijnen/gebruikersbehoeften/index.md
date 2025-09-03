@@ -104,7 +104,6 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
 - [Digitale ondersteuning](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/)
 - [Handreiking Mobiele app Ontwikkeling en Beheer versie 4.0](https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf) - Hoofdstuk 8 gebruikt "De gebruiker staat centraal" voor de ontwikkeling van mobiele apps.
 
-
 ## Gerelateerde richtlijnen
 
 - [2. Zorg voor toegankelijkheid en inclusie](../toegankelijkheid/index.md)
