@@ -9,9 +9,9 @@
         if (currentButton) {
             const text = currentButton.textContent.toLowerCase();
             if (text.includes('production')) {
-                currentButton.innerHTML = '🚀 Productie <span style="margin-left: 6px; font-size: 0.8rem;"></span>';
+                currentButton.innerHTML = '🚀 Productie';
             } else if (text.includes('development')) {
-                currentButton.innerHTML = '🔧 Ontwikkeling <span style="margin-left: 6px; font-size: 0.8rem;"></span>';
+                currentButton.innerHTML = '🔧 Ontwikkeling';
             }
         }
 
