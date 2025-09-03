@@ -1,5 +1,12 @@
 [
   {
+    "version": "production",
+    "title": "production",
+    "aliases": [
+      "latest"
+    ]
+  },
+  {
     "version": "development",
     "title": "development",
     "aliases": []
