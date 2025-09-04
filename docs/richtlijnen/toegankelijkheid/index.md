@@ -13,12 +13,12 @@ Toegankelijkheid gaat over het maken van diensten en systemen die door iedereen 
 
 ## Waarom is het belangrijk?
 
-- **Wettelijke verplichting**: Overheidsorganisaties zijn wettelijk verplicht om hun digitale diensten toegankelijk te maken
-- **Beter voor iedereen**: Toegankelijke diensten zijn meestal eenvoudiger en gebruiksvriendelijker voor iedereen
-- **Bereik vergroten**: Je bereikt een breder publiek en zorgt dat niemand wordt uitgesloten
-- **Kosteneffectiviteit**: Toegankelijkheid vanaf het begin inbouwen is goedkoper dan achteraf aanpassen
-- **Ondersteuning van personeel**: Stelt alle medewerkers in staat om de benodigde infrastructuur te gebruiken
-- **Vermijd juridische uitdagingen**: Voorkom potentiële juridische problemen door niet-toegankelijke technologie
+- **Wettelijke verplichting**: Voldoe aan toegankelijkheidswetgeving zonder achteraf kostbare aanpassingen
+- **Beter voor iedereen**: Creëer eenvoudigere en intuïtievere diensten voor alle burgers
+- **Bereik vergroten**: Bereik een breder publiek en zorg dat niemand wordt uitgesloten
+- **Kosteneffectiviteit**: Bouw toegankelijkheid vanaf het begin in plaats van dure retrofits
+- **Ondersteuning van personeel**: Stel alle medewerkers in staat om de benodigde infrastructuur te gebruiken
+- **Vermijd juridische uitdagingen**: Voorkom juridische uitdagingen en reputatieschade door proactieve toegankelijkheid
 
 Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg je ervoor dat je diensten voor iedereen bruikbaar zijn, ongeacht hun capaciteiten of beperkingen.
 

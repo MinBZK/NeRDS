@@ -14,15 +14,15 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
 
 ## Waarom is het belangrijk?
 
-- **Kosteneffectiviteit**: Betaal alleen voor wat je gebruikt, verminder kapitaaluitgaven
-- **Schaalbaarheid**: Eenvoudig op- en afschalen naar behoefte
-- **Flexibiliteit**: Snellere implementatie van nieuwe diensten
-- **Minder beheerlasten**: Leveranciers beheren de onderliggende infrastructuur
-- **Betrouwbaarheid**: Vaak hogere uptime dan on-premise oplossingen
-- **Toegang tot innovatie**: Snellere toegang tot nieuwe technologieën
-- **Duurzaamheid**: Geoptimaliseerd energieverbruik door gedeelde infrastructuur
+- **Interoperabiliteit**: Integreer naadloos tussen verschillende systemen en voorkom leveranciersafhankelijkheid
+- **Soevereiniteit**: Behoud controle over gevoelige gegevens en voldoe aan nationale veiligheidseisen
+- **Kosteneffectiviteit**: Verlaag IT-uitgaven door gebruik-gebaseerde modellen en verminder kapitaaluitgaven
+- **Schaalbaarheid**: Pas capaciteit direct aan op wisselende vraag en groei
+- **Flexibiliteit**: Implementeer nieuwe diensten sneller en behoud keuzevrijheid tussen leveranciers
+- **Toegang tot innovatie**: Krijg sneller toegang tot nieuwe technologieën
+- **Duurzaamheid**: Optimaliseer energieverbruik door gedeelde infrastructuur
 
-Door een cloud-gedreven strategie met aandacht voor soevereiniteit te hanteren, kun je innovatiever, flexibeler en kosteneffectiever werken terwijl je de controle behoudt over je data en profiteert van de nieuwste technologische ontwikkelingen.
+Door een cloud-gedreven strategie met aandacht voor soevereiniteit en interoperabiliteit te hanteren, kun je innovatiever, flexibeler en kosteneffectiever werken terwijl je de controle behoudt over je data en profiteert van de nieuwste technologische ontwikkelingen.
 
 ## Hoe pas je het toe?
 

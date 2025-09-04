@@ -13,14 +13,14 @@ Open source is een manier van werken waarbij de makers de broncode, documentatie
 
 ## Waarom is het belangrijk?
 
-- **Transparantie**: Iedereen kan zien hoe de software werkt en hoe besluiten worden genomen
+- **Transparantie**: Krijg volledige inzicht in softwarewerking en besluitvorming
 - **Kosteneffectiviteit**: Vermijd licentiekosten en afhankelijkheid van één leverancier
-- **Samenwerking**: Organisaties kunnen kennis delen en van elkaar leren
-- **Flexibiliteit**: Aanpassingen zijn mogelijk zonder afhankelijk te zijn van externe leveranciers
-- **Veiligheid**: Problemen kunnen sneller worden ontdekt en opgelost dankzij gemeenschappelijke inspectie
-- **Duurzaamheid**: Voorkomt vendor lock-in en maakt langetermijnbeheer mogelijk
-- **Innovatie**: Lost gemeenschappelijke problemen op met beschikbare technologie
-- **Tijd- en kostenbesparend**: Maakt gebruik van bestaande oplossingen in plaats van het wiel opnieuw uit te vinden
+- **Samenwerking**: Deel kennis tussen organisaties en leer van elkaars ervaringen
+- **Flexibiliteit**: Pas software aan zonder afhankelijkheid van externe leveranciers
+- **Veiligheid**: Ontdek en los problemen sneller op door gemeenschappelijke code-inspectie
+- **Duurzaamheid**: Voorkom vendor lock-in en maak langetermijnbeheer mogelijk
+- **Innovatie**: Profiteer van gemeenschappelijke probleemoplossing met bewezen technologie
+- **Tijd- en kostenbesparend**: Bouw voort op bestaande oplossingen in plaats van opnieuw ontwikkelen
 
 Door open en transparant te werken en open source software te omarmen, draag je bij aan een meer transparante, flexibele en verantwoordelijke digitale overheid.
 

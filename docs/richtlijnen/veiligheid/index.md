@@ -15,8 +15,8 @@ Beveiliging is een fundamenteel aspect van digitale systemen. Het gaat niet alle
 ## Waarom is het belangrijk?
 
 - **Bescherming van gevoelige gegevens**: Overheidsorganisaties verwerken vaak persoonlijke en gevoelige informatie
-- **Behoud van vertrouwen**: Burgers moeten erop kunnen vertrouwen dat hun gegevens veilig zijn
-- **Wettelijke verplichting**: Naleving van relevante wetgeving en standaarden
+- **Behoud van vertrouwen**: Versterk burgervertrouwen door aantoonbare informatiebeveiliging
+- **Wettelijke verplichting**: Voldoe aan cybersecurity-wetgeving en beveiligingsstandaarden
 - **Continuïteit van dienstverlening**: Voorkom verstoring van essentiële overheidsdiensten
 - **Bescherming tegen bedreigingen**: Verdediging tegen een groeiend aantal cyberdreigingen
 - **Kostenbeheersing**: Voorkom dure herstelkosten en boetes na beveiligingsincidenten

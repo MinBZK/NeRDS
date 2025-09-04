@@ -16,11 +16,11 @@ Open standaarden zijn gemeenschappelijke regels die gebruikers in staat stellen 
 
 - **Interoperabiliteit**: Systemen kunnen naadloos met elkaar communiceren
 - **Kosteneffectiviteit**: Hergebruik bestaande middelen in plaats van opnieuw te ontwikkelen
-- **Vermijd vendor lock-in**: Voorkomt afhankelijkheid van specifieke leveranciers of technologieën
-- **Duurzaamheid**: Verlengt de levensduur van systemen en gegevens
-- **Transparantie:** Bevordert openheid van overheidssystemen
-- **Innovatie**: Maakt het gemakkelijker om nieuwe diensten te ontwikkelen en te integreren
-- **Toegankelijkheid**: Zorgt ervoor dat informatie breed beschikbaar en bruikbaar is
+- **Vermijd vendor lock-in**: Voorkom afhankelijkheid van specifieke leveranciers of technologieën
+- **Duurzaamheid**: Verleng de levensduur van systemen en gegevens
+- **Transparantie:** Bevorder openheid van overheidssystemen
+- **Innovatie**: Maak het gemakkelijker om nieuwe diensten te ontwikkelen en te integreren
+- **Toegankelijkheid**: Zorg ervoor dat informatie breed beschikbaar en bruikbaar is
 
 Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, flexibele en duurzame digitale overheidsinfrastructuur die effectief kan communiceren met andere systemen.
 

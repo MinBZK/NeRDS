@@ -13,12 +13,12 @@ De Servicestandaard definieert wat burgers en bedrijven mogen verwachten van ove
 
 ## Waarom is het belangrijk?
 
-- **Consistente gebruikerservaring**: Zorgt voor een uniforme ervaring in alle overheidsdiensten
-- **Kwaliteitsborging**: Garandeert een minimumniveau van kwaliteit en bruikbaarheid
-- **Efficiëntie**: Voorkomt verspilling door slecht ontworpen diensten
-- **Inclusie**: Zorgt ervoor dat diensten voor iedereen toegankelijk zijn
-- **Vertrouwen**: Versterkt het vertrouwen van burgers in digitale overheidsdiensten
-- **Continu verbeteren**: Stimuleert voortdurende verbetering van diensten
+- **Consistente gebruikerservaring**: Zorg voor een uniforme ervaring in alle overheidsdiensten
+- **Kwaliteitsborging**: Garandeer een minimumniveau van kwaliteit en bruikbaarheid
+- **Efficiëntie**: Voorkom verspilling door slecht ontworpen diensten
+- **Inclusie**: Zorg ervoor dat diensten voor iedereen toegankelijk zijn
+- **Vertrouwen**: Versterk het vertrouwen van burgers in digitale overheidsdiensten
+- **Continu verbeteren**: Stimuleer voortdurende verbetering van diensten
 
 Door te voldoen aan de servicestandaard, leveren overheidsorganisaties diensten die efficiënt, gebruiksvriendelijk en inclusief zijn, wat leidt tot hogere gebruikerstevredenheid, lagere kosten en betere resultaten voor de samenleving.
 

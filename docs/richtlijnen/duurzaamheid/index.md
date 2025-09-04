@@ -13,13 +13,13 @@ Duurzame technologie minimaliseert negatieve milieueffecten, optimaliseert energ
 
 ## Waarom is het belangrijk?
 
-- **Klimaatverandering**: Vermindering van broeikasgasemissies
-- **Energieverbruik**: Besparing op kosten en vermindering van milieubelasting
-- **Afvalbeperking**: Vermindering van elektronisch afval
+- **Klimaatverandering**: Verminder de broeikasgasemissies
+- **Energieverbruik**: Bespaar op kosten en vermindering van milieubelasting
+- **Afvalbeperking**: Verminder het elektronisch afval
 - **Grondstoffenschaarste**: Verantwoord gebruik van zeldzame materialen
-- **Voorbeeldfunctie**: De overheid als aanjager van duurzame praktijken
-- **Regelgeving**: Anticiperen op strengere milieunormen
-- **Kostenbesparing**: Efficiënter gebruik van middelen op lange termijn
+- **Voorbeeldfunctie**: Jaag als overheid duurzame praktijken aan
+- **Regelgeving**: Anticipeer op strengere milieunormen
+- **Kostenbesparing**: Maak efficiënt gebruik van middelen op lange termijn
 
 Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hun ecologische voetafdruk verkleinen, kosten besparen en bijdragen aan bredere duurzaamheidsdoelstellingen.
 
