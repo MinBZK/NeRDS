@@ -50,10 +50,6 @@ h1{
   width: auto; /* Keeps the aspect ratio */
 }
 
-.md-header__topic {
-  display: none;
-}
-
 /* Ensure hover effect is applied to the link itself */
 .md-tabs__list .md-tabs__item .md-tabs__link:hover {
   color: #154273 !important; /* Same color as active */
@@ -129,6 +125,7 @@ h1{
 
 .md-ellipsis{
   color: #154273;
+  display: none;
 }
 
 :root {
