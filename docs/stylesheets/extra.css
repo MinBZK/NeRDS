@@ -53,6 +53,98 @@ h1 {
   color: #154273;
 }
 
+/* Mike Version Selector - Clean Site Style */
+.md-version {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  position: relative;
+}
+
+.md-version__current {
+  background: transparent;
+  color: #154273; /* donkerblauw zoals navigatie */
+  font-weight: 400;
+  padding: 8px 12px;
+  border: none;
+  box-shadow: none;
+  transition: color 0.2s ease;
+  font-family: "ROsanswebtextregular", inherit; /* zelfde als navigatie */
+  font-size: inherit; /* zelfde als navigatie */
+  cursor: pointer;
+}
+
+.md-version__current:hover {
+  background: transparent;
+  color: #154273;
+  transform: none;
+  box-shadow: none;
+}
+
+.md-version__current::after {
+  content: "▼";
+  margin-left: 8px;
+  font-size: 0.8em;
+  transition: transform 0.2s ease;
+}
+
+.md-version:hover .md-version__current::after {
+  transform: rotate(180deg);
+}
+
+.md-version__list {
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-top: 2px;
+  min-width: 120px;
+  top: 100%;
+  position: absolute;
+  z-index: 1000;
+}
+
+.md-version__item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.md-version__item:last-child {
+  border-bottom: none;
+}
+
+.md-version__link {
+  display: block;
+  padding: 8px 12px;
+  color: #154273 !important; /* donkerblauw zoals navigatie */
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  font-weight: 400;
+}
+
+.md-version__link:hover {
+  background: #f5f5f5;
+  color: #154273 !important;
+  transform: none;
+}
+
+.md-version__link:focus {
+  background: #e3f2fd;
+  outline: none;
+}
+
+/* Nederlandse labels voor versies */
+.md-version__current:empty::before,
+.md-version__link[href*="production"]:empty::after {
+  content: "🚀 Productie";
+}
+
+.md-version__link[href*="development"]:empty::after {
+  content: "🔧 Ontwikkeling";
+}
+
+/* JavaScript handelt Nederlandse vertalingen af - CSS alleen voor styling */
+
 /* Stijlen voor de tabel */
 table {
   width: 100%;
