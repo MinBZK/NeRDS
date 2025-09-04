@@ -24,10 +24,10 @@ Privacy is een fundamenteel recht dat vanaf het begin moet worden ingebouwd in d
 
 Door privacy integraal te maken in het ontwerpproces van digitale systemen, voldoe je niet alleen aan wettelijke vereisten, maar bouw je ook systemen die burgers vertrouwen en die hun rechten respecteren.
 
-## Hoe pas je het toe?
+## Direct aan de slag
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+    <h3>Praktische hulpmiddelen</h3>
 
     <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
@@ -48,7 +48,7 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 >NICPET Tools</h4>
+            <h4 >NICPET Tools <span class="category-badge">extern</span></h4>
             <p >Privacy-bevorderende technologieën</p>
             <a href="https://nicpet.pleio.nl/" class="action-button" target="_blank">Verkennen</a>
         </div>
@@ -60,6 +60,11 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
         </div>
     </div>
 </div>
+
+## Kaders, beleid en handreikingen
+
+- **[Handleiding AVG](https://www.rijksoverheid.nl/documenten/rapporten/2018/01/22/handleiding-algemene-verordening-gegevensbescherming)** <span class="badge badge-handreiking">handreiking</span>: Handleiding Algemene Verordening Gegevensbescherming
+- **[Model verwerkersovereenkomst voor rijksoverheidsorganisaties](https://www.rijksoverheid.nl/documenten/publicaties/2018/01/25/model-verwerkersovereenkomst-avg)** <span class="badge badge-handreiking">handreiking</span>: Model verwerkersovereenkomst AVG
 
 ### Privacy by Design vereisten
 
@@ -121,13 +126,6 @@ Evalueer je project door te vragen:
 - **Anonimisering**: Maak data niet-herleidbaar waar mogelijk
 - **Toegangscontrole**: Implementeer het richtlijn van minste privilege
 - **Privacymonitoring**: Detecteer en reageer op privacyproblemen
-
-## Gerelateerde hulpmiddelen
-
-- Raadpleeg Autoriteit Persoonsgegevens-richtlijnen
-- Bekijk de AVG (GDPR) regelgeving
-- Gebruik Data Protection Impact Assessment (DPIA) templates
-- [Handreiking Mobiele app Ontwikkeling en Beheer versie 4.0](https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf) - Hoofdstuk 3.2 gebruikt de privacy by design richtlijnen voor de ontwikkeling van een mobiele app.
 
 ## Gerelateerde richtlijnen
 

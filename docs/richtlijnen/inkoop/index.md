@@ -23,42 +23,28 @@ Een goed doordachte inkoopstrategie voor technologie zorgt ervoor dat je organis
 
 Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie betere beslissingen te nemen, risico's te beheersen en waarde te creëren op zowel korte als lange termijn.
 
-## Hoe pas je het toe?
+## Direct aan de slag
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
-
+    <h3>Praktische hulpmiddelen</h3>
     <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
-
     <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >MVI-criteria</h4>
-            <p >Criteria voor duurzaam inkopen</p>
-            <a href="https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria" class="action-button" target="_blank">Bekijken</a>
-        </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
             <h4 >TCO Calculator</h4>
             <p >Bereken Total Cost of Ownership</p>
             <button disabled class="action-button">Berekenen</button>
         </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Inkoopkompas</h4>
-            <p >Kennisplatform voor ICT-inkoop</p>
-            <a href="https://www.pianoo.nl/nl/sectoren/ict" class="action-button" target="_blank">Verkennen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Algoritmekader</h4>
-            <p >Richtlijn voor inkoop van verantwoorde algoritmes</p>
-            <a href="https://minbzk.github.io/Algoritmekader/onderwerpen/publieke-inkoop/" class="action-button" target="_blank">Verkennen</a>
-        </div>
     </div>
 </div>
+
+## Kaders, beleid en handreikingen
+
+- **[MVI-criteria](https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria)** <span class="badge badge-standaard">standaard</span>: Criteria voor duurzaam inkopen
+- **[Inkoopkompas](https://www.pianoo.nl/nl/sectoren/ict)** <span class="badge badge-community">community</span>: Kennisplatform voor ICT-inkoop
+- **[Algoritmekader](https://minbzk.github.io/Algoritmekader/onderwerpen/publieke-inkoop/)** <span class="badge badge-handreiking">handreiking</span>: Richtlijn voor inkoop van verantwoorde algoritmes
 
 ### Voorwaarde effectieve inkoopstrategie
 
@@ -108,10 +94,6 @@ Zie hiervoor ook [PIANOo's richtlijnen voor Maatschappelijk Verantwoord Inkopen]
 - Is er een duidelijke exit-strategie?
 - Is er aandacht voor duurzaamheid en sociale waarde?
 - Voldoet het aan alle wettelijke en beleidsmatige eisen?
-
-## Gerelateerde hulpmiddelen
-
-- [PIANOo's richtlijnen voor Maatschappelijk Verantwoord Inkopen](https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria)
 
 ## Gerelateerde richtlijnen
 
