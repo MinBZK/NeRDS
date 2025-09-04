@@ -51,14 +51,9 @@ Door te voldoen aan de servicestandaard, leveren overheidsorganisaties diensten 
     </div>
 </div>
 
-<div class="direct-aan-de-slag">
-    <h3>Kaders, beleid en handreikingen</h3>
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-    <div class="action-cards">
-    </div>
-</div>
+## Kaders, beleid en handreikingen
+
+*Geen specifieke kaders, beleid of handreikingen beschikbaar voor deze richtlijn.*
 
 #### 1. Begrijp je gebruikers en hun behoeften
 

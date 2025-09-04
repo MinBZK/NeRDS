@@ -57,26 +57,10 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
     </div>
 </div>
 
-<div class="direct-aan-de-slag">
-    <h3>Kaders, beleid en handreikingen</h3>
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-                <h4 >Handreiking Mobiele App Ontwikkeling en beheer (v4.0)</h4>
-                <p > Hoofdstuk 8 gebruikt "De gebruiker staat centraal" voor de ontwikkeling van mobiele apps. </p>
-                <a href="https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Gebruiker centraal</h4>
-            <p > Een community voor dienstverlening of communicatie van de overheid</p>
-            <a href="https://www.gebruikercentraal.nl" class="action-button" target="_blank">Bekijken</a>
-        </div>
-    </div>
-</div>
+## Kaders, beleid en handreikingen
+
+- **[Handreiking Mobiele App Ontwikkeling en beheer (v4.0)](https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf)** <span class="badge badge-handreiking">handreiking</span>: Hoofdstuk 8 gebruikt "De gebruiker staat centraal" voor de ontwikkeling van mobiele apps
+- **[Gebruiker centraal](https://www.gebruikercentraal.nl)** <span class="badge badge-community">community</span>: Een community voor dienstverlening of communicatie van de overheid
 
 ### Onderzoek uitvoeren
 

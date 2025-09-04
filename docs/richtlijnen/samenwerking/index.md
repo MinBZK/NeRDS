@@ -52,20 +52,9 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
     </div>
 </div>
 
-<div class="direct-aan-de-slag">
-    <h3>Kaders, beleid en handreikingen</h3>
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-    <div class="action-cards">
-            <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4>Code Goed Digitaal Openbaar Bestuur</h4>
-            <p>Richtlijnen voor digitaal bestuur</p>
-            <a href="https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/nieuwe-technologieen-data-en-ethiek/publieke-waarden/code-goed-digitaal-openbaar-bestuur/" class="action-button" target="_blank">Verkennen</a>
-        </div>
-    </div>
-</div>
+## Kaders, beleid en handreikingen
+
+- **[Code Goed Digitaal Openbaar Bestuur](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/nieuwe-technologieen-data-en-ethiek/publieke-waarden/code-goed-digitaal-openbaar-bestuur/)** <span class="badge badge-beleid">beleid</span>: Richtlijnen voor digitaal bestuur
 
 ### Samenwerking bevorderen
 

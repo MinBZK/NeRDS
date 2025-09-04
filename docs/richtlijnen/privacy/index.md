@@ -61,26 +61,10 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     </div>
 </div>
 
-<div class="direct-aan-de-slag">
-    <h3>Kaders, beleid en handreikingen</h3>
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 > Handleiding AVG</h4>
-            <p ></p>
-            <a href="https://www.rijksoverheid.nl/documenten/rapporten/2018/01/22/handleiding-algemene-verordening-gegevensbescherming" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 > Model verwerkersovereenkomst voor rijksoverheidsorganisaties</h4>
-            <p ></p>
-            <a href="https://www.rijksoverheid.nl/documenten/publicaties/2018/01/25/model-verwerkersovereenkomst-avg" class="action-button" target="_blank">Bekijken</a>
-        </div>
-    </div>
-</div>
+## Kaders, beleid en handreikingen
+
+- **[Handleiding AVG](https://www.rijksoverheid.nl/documenten/rapporten/2018/01/22/handleiding-algemene-verordening-gegevensbescherming)** <span class="badge badge-handreiking">handreiking</span>: Handleiding Algemene Verordening Gegevensbescherming
+- **[Model verwerkersovereenkomst voor rijksoverheidsorganisaties](https://www.rijksoverheid.nl/documenten/publicaties/2018/01/25/model-verwerkersovereenkomst-avg)** <span class="badge badge-handreiking">handreiking</span>: Model verwerkersovereenkomst AVG
 
 ### Privacy by Design vereisten
 

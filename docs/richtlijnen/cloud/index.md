@@ -267,20 +267,9 @@ kubectl get nodes
     </div>
 </div>
 
-<div class="direct-aan-de-slag">
-    <h3>Kaders, beleid en handreikingen</h3>
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Regels voor verantwoord cloudgebruik Rijksoverheid</h4>
-            <p >Officiële regels en richtlijnen voor cloudgebruik binnen de Rijksoverheid</p>
-            <a href="https://www.digitaleoverheid.nl/nieuws/regels-voor-verantwoord-cloudgebruik-rijksoverheid/" class="action-button" target="_blank">Bekijken</a>
-        </div>
-    </div>
-</div>
+## Kaders, beleid en handreikingen
+
+- **[Regels voor verantwoord cloudgebruik Rijksoverheid](https://www.digitaleoverheid.nl/nieuws/regels-voor-verantwoord-cloudgebruik-rijksoverheid/)** <span class="badge badge-beleid">beleid</span>: Officiële regels en richtlijnen voor cloudgebruik binnen de Rijksoverheid
 
 ### Implementatiestappen
 

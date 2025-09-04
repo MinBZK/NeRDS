@@ -61,26 +61,10 @@ Door open en transparant te werken en open source software te omarmen, draag je 
     </div>
 </div>
 
-<div class="direct-aan-de-slag">
-    <h3>Kaders, beleid en handreikingen</h3>
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-    <div class="action-cards">
-        <div class="action-card">
-        <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 > Beleid Opensource</h4>
-            <p > "Open, tenzij" beleid </p>
-            <a href="https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/open-source/beleid/" class="action-button" target="_blank">Verkennen</a>
-        </div>
-        <div class="action-card">
-        <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 > Rijksbreed programma Open Overheid</h4>
-            <p > Rijksbreedprogramma Open Overheid </p>
-            <a href="https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpenv/open-source/beleid/" class="action-button" target="_blank">Verkennen</a>
-        </div>
-    </div>
-</div>
+## Kaders, beleid en handreikingen
+
+- **[Beleid Opensource](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/open-source/beleid/)** <span class="badge badge-beleid">beleid</span>: "Open, tenzij" beleid
+- **[Rijksbreed programma Open Overheid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpenv/open-source/beleid/)** <span class="badge badge-beleid">beleid</span>: Rijksbreedprogramma Open Overheid
 
 ### Implementatiestappen
 

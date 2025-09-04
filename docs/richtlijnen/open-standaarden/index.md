@@ -61,26 +61,10 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
     </div>
 </div>
 
-<div class="direct-aan-de-slag">
-    <h3>Kaders, beleid en handreikingen</h3>
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Aanschaf ICT</h4>
-            <p >Instructie rijksdienst bij aanschaf ICT-diensten of ICT-producten</p>
-            <a href="https://wetten.overheid.nl/BWBR0024717/2008-11-23" class="action-button" target="_blank">Verkennen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Forum Standaardisatie</h4>
-            <p > Adviescommissie van de Nederlandse overheid voor interoperabiliteit, veiligheid en leveranciersonafhankelijkheid</p>
-            <a href="https://www.forumstandaardisatie.nl" class="action-button" target="_blank">Verkennen</a>
-        </div>
-    </div>
-</div>
+## Kaders, beleid en handreikingen
+
+- **[Aanschaf ICT](https://wetten.overheid.nl/BWBR0024717/2008-11-23)** <span class="badge badge-beleid">beleid</span>: Instructie rijksdienst bij aanschaf ICT-diensten of ICT-producten
+- **[Forum Standaardisatie](https://www.forumstandaardisatie.nl)** <span class="badge badge-community">community</span>: Adviescommissie van de Nederlandse overheid voor interoperabiliteit, veiligheid en leveranciersonafhankelijkheid
 
 ### Technologie bouwen met open standaarden
 

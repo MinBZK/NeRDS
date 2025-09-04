@@ -59,29 +59,12 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
         </div>
     </div>
 </div>
-<div class="direct-aan-de-slag">
-    <h3>Beleid</h3>
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4>Algoritmekader</h4>
-            <p>Richtlijnen voor verantwoord algoritmebeheer</p>
-            <a href="https://minbzk.github.io/Algoritmekader/" class="action-button" target="_blank">Verkennen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4>Algoritmeregister</h4>
-            <p>Registreer je (impactvolle) algoritme in het nationale register</p>
-            <a href="https://algoritmes.overheid.nl/nl" class="action-button" target="_blank">Registreren</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4>IAMA</h4>
-            <p>Impact Assessment Mensenrechten en Algoritmes</p>
-            <a href="https://www.rijksoverheid.nl/documenten/rapporten/2021/02/25/impact-assessment-mensenrechten-en-algoritmes" class="action-button" target="_blank">Verkennen</a>
-        </div>
-    </div>
-</div>
+
+## Kaders, beleid en handreikingen
+
+- **[Algoritmekader](https://minbzk.github.io/Algoritmekader/)** <span class="badge badge-handreiking">handreiking</span>: Richtlijnen voor verantwoord algoritmebeheer
+- **[Algoritmeregister](https://algoritmes.overheid.nl/nl)** <span class="badge badge-community">community</span>: Registreer je (impactvolle) algoritme in het nationale register
+- **[IAMA](https://www.rijksoverheid.nl/documenten/rapporten/2021/02/25/impact-assessment-mensenrechten-en-algoritmes)** <span class="badge badge-handreiking">handreiking</span>: Impact Assessment Mensenrechten en Algoritmes
 
 ### Implementatiestappen
 
@@ -107,7 +90,7 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
 
 - Identificeer en classificeer algoritmen op risico
 - Registreer hoog-risico algoritmen in het Algoritme Meldpunt
-- Registreer algoritme in het [Algoritmeregister](#direct-aan-de-slag)
+- Registreer algoritme in het Algoritmeregister
 - Documenteer doel, werking en waarborgen
 - Maak openbaar algoritmebeschrijvingen voor hoog-risico algoritmen
 - Evalueer en actualiseer informatie regelmatig

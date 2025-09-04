@@ -45,20 +45,9 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
     </div>
 </div>
 
-<div class="direct-aan-de-slag">
-    <h3>Kaders, beleid en handreikingen</h3>
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Common Ground <span class="category-badge">extern</span></h4>
-            <p >Visie voor moderne gegevensuitwisseling</p>
-            <a href="https://commonground.nl/" class="action-button" target="_blank">Leren</a>
-        </div>
-    </div>
-</div>
+## Kaders, beleid en handreikingen
+
+- **[Common Ground](https://commonground.nl/)** <span class="badge badge-community">community</span>: Visie voor moderne gegevensuitwisseling
 
 ### Integratie-aanpak
 

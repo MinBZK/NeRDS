@@ -52,32 +52,11 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
     </div>
 </div>
 
-<div class="direct-aan-de-slag">
-    <h3>Kaders, beleid en handreikingen</h3>
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Stelsel van Basisregistraties</h4>
-            <p >Samenhangend stelsel van hoogwaardige registraties met essentiële overheidsgegevens</p>
-            <a href="https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >RSGB/RGBZ <span class="category-badge">extern</span></h4>
-            <p >Referentiemodellen voor gemeentelijke basis- en zaakgegevens</p>
-            <a href="https://www.gemmaonline.nl/wiki/Hoofdpagina" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >IBDS</h4>
-            <p >Interbestuurlijke Datastrategie</p>
-            <a href="https://www.digitaleoverheid.nl/interbestuurlijke-datastrategie/" class="action-button" target="_blank">Bekijken</a>
-        </div>
-    </div>
-</div>
+## Kaders, beleid en handreikingen
+
+- **[Stelsel van Basisregistraties](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/)** <span class="badge badge-standaard">standaard</span>: Samenhangend stelsel van hoogwaardige registraties met essentiële overheidsgegevens
+- **[IBDS](https://www.digitaleoverheid.nl/interbestuurlijke-datastrategie/)** <span class="badge badge-beleid">beleid</span>: Interbestuurlijke Datastrategie
+- **[RSGB/RGBZ](https://www.gemmaonline.nl/wiki/Hoofdpagina)** <span class="badge badge-standaard">standaard</span>: Referentiemodellen voor gemeentelijke basis- en zaakgegevens
 
 ### Implementatiestappen
 

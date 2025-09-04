@@ -71,44 +71,13 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
     </div>
 </div>
 
-<div class="direct-aan-de-slag">
-    <h3>Kaders, beleid en handreikingen</h3>
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Kabinetsbeleid digitale toegankelijkheid</h4>
-            <p > Handvatten voor de wet voor digitale toegankelijkheid </p>
-            <a href="https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/digitaal-toegankelijk/beleid/" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-                <h4 >Handreiking Mobiele App Ontwikkeling en beheer</h4>
-                <p > Hoofdstuk 8.3 geeft concrete best practices voor verschillende beperkingen </p>
-                <a href="https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 > DigiToegankelijk</h4>
-            <p > Kennisbank en Community</p>
-            <a href="https://digitoegankelijk.nl" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >WCAG 2.2 <span class="category-badge">extern</span></h4>
-            <p >Web Content Accessibility Guidelines voor webtoegankelijkheid</p>
-            <a href="https://www.w3.org/TR/WCAG22/" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >EN 301 549 <span class="category-badge">extern</span></h4>
-            <p >Europese norm voor hardware en niet-web software toegankelijkheid</p>
-            <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" class="action-button" target="_blank">Bekijken</a>
-        </div>
-    </div>
-</div>
+## Kaders, beleid en handreikingen
+
+- **[Kabinetsbeleid digitale toegankelijkheid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/digitaal-toegankelijk/beleid/)** <span class="badge badge-beleid">beleid</span>: Handvatten voor de wet voor digitale toegankelijkheid
+- **[Handreiking Mobiele App Ontwikkeling en beheer](https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf)** <span class="badge badge-handreiking">handreiking</span>: Hoofdstuk 8.3 geeft concrete best practices voor verschillende beperkingen
+- **[DigiToegankelijk](https://digitoegankelijk.nl)** <span class="badge badge-community">community</span>: Kennisbank en Community
+- **[WCAG 2.2](https://www.w3.org/TR/WCAG22/)** <span class="badge badge-standaard">standaard</span>: Web Content Accessibility Guidelines voor webtoegankelijkheid
+- **[EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf)** <span class="badge badge-standaard">standaard</span>: Europese norm voor hardware en niet-web software toegankelijkheid
 
 1. **Houd rekening met toegankelijkheid in**:
     - Kantoor- en serverruimtes
