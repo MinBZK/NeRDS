@@ -58,35 +58,3 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
         </div>
     </div>
 </div>
-
-### Onderzoek uitvoeren
-
- Gebruikersonderzoek kan helpen bij het identificeren van:
-
-- Risico's bij het introduceren of wijzigen van technologie
-- Vaardigheden die nodig zijn om technologie te leveren, gebruiken en beheren
-- Technologieën die nodig zijn voor serviceteams
-- Commerciële en operationele behoeften (bijvoorbeeld het buiten gebruik stellen van verouderde systemen)
-
-### Aanvullende voordelen van gebruikersonderzoek
-
-- Zorg ervoor dat diensten zoals kantoorsoftware en projectmanagementtools voldoen aan gebruikersbehoeften
-- Ondersteun interne overeenstemming over technologiedoelstellingen
-
-### Belangrijke aanbevelingen
-
-1. Voer grondig gebruikersonderzoek uit
-2. Begrijp gebruikersbehoeften volledig
-3. Stem technologische oplossingen af op gebruikerseisen
-
-## Gerelateerde hulpmiddelen
-
-- [Training gebruikersonderzoek](https://www.gebruikercentraal.nl/evenementen/)
-- [Digitale ondersteuning](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/)
-- [Handreiking Mobiele app Ontwikkeling en Beheer versie 4.0](https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf) - Hoofdstuk 8 gebruikt "De gebruiker staat centraal" voor de ontwikkeling van mobiele apps.
-
-## Gerelateerde richtlijnen
-
-- [2. Zorg voor toegankelijkheid en inclusie](../toegankelijkheid/index.md)
-- [7. Maak privacy integraal](../privacy/index.md)
-- [14. Voldoe aan de servicestandaard](../servicestandaard/index.md)

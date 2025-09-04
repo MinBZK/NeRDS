@@ -12,12 +12,7 @@
   ],
   "required_headers": [
     "Waarom is het belangrijk?",
-    "Hoe pas je het toe?",
-    "Gerelateerde richtlijnen"
-  ],
-  "conditional_headers": [
-    "Gerelateerde hulpmiddelen",
-    "Gerelateerde standaarden"
+    "Hoe pas je het toe?"
   ],
   "content_validation": {
     "check_section_content": true,
