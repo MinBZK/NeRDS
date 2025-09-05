@@ -27,7 +27,7 @@ jobs:
           sed -i 's/development/${{ steps.get_commit_hash.outputs.commit_hash }}/g' docs/version.md
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
