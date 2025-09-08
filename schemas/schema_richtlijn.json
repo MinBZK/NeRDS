@@ -12,12 +12,8 @@
   ],
   "required_headers": [
     "Waarom is het belangrijk?",
-    "Hoe pas je het toe?",
+    "Direct aan de slag",
     "Gerelateerde richtlijnen"
-  ],
-  "conditional_headers": [
-    "Gerelateerde hulpmiddelen",
-    "Gerelateerde standaarden"
   ],
   "content_validation": {
     "check_section_content": true,
