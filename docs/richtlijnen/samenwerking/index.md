@@ -369,10 +369,10 @@ Beschrijf welke andere opties zijn overwogen en waarom deze niet zijn gekozen.
 
 ### Ondersteuning en resources
 
-- **MkDocs documentatie:** https://www.mkdocs.org/
-- **Material for MkDocs:** https://squidfunk.github.io/mkdocs-material/
-- **Markdown guide:** https://www.markdownguide.org/
-- **Mermaid diagrammen:** https://mermaid-js.github.io/mermaid/
+- **MkDocs documentatie:** <https://www.mkdocs.org/>
+- **Material for MkDocs:** <https://squidfunk.github.io/mkdocs-material/>
+- **Markdown guide:** <https://www.markdownguide.org/>
+- **Mermaid diagrammen:** <https://mermaid-js.github.io/mermaid/>
 
 Door deze aanpak te volgen, creëer je documentatie die niet alleen nuttig is voor je huidige team, maar ook waarde biedt voor toekomstige ontwikkelaars en stakeholders.
 
