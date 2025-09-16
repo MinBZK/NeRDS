@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - production  # Add production branch
+      - development
     tags:
       - '*'
 
@@ -53,7 +53,7 @@ jobs:
 
       - name: Deploy with mike
         run: |
-          if [[ "${{ github.ref }}" == "refs/heads/production" ]]; then
+          if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
             uv run mike deploy production latest --push --update-aliases
             uv run mike set-default production --push
           else
