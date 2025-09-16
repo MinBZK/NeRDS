@@ -125,6 +125,7 @@ h1{
 
 .md-ellipsis {
   color: #154273;
+  display: none;
 }
 
 /* Not showing site_name in title */
