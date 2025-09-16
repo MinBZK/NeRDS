@@ -23,15 +23,13 @@ Door samen te werken, kennis te delen en oplossingen te hergebruiken, kunnen ove
 
 Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebruiken, kan de overheid efficiënter werken, kosten besparen en consistentere diensten leveren aan burgers en bedrijven.
 
-## Hoe pas je het toe?
+## Direct aan de slag
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
-
+    <h3>Praktische hulpmiddelen</h3>
     <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
-
     <div class="action-cards">
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
@@ -41,7 +39,7 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >NL Design System</h4>
+            <h4 >NL Design System <span class="category-badge">extern</span></h4>
             <p >Samen bouwen aan gebruiksvriendelijke overheidswebsites</p>
             <a href="https://www.nldesignsystem.nl" class="action-button" target="_blank">Ontdekken</a>
         </div>
@@ -53,6 +51,10 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
         </div>
     </div>
 </div>
+
+## Kaders, beleid en handreikingen
+
+- **[Code Goed Digitaal Openbaar Bestuur](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/nieuwe-technologieen-data-en-ethiek/publieke-waarden/code-goed-digitaal-openbaar-bestuur/)** <span class="badge badge-beleid">beleid</span>: Richtlijnen voor digitaal bestuur
 
 ### Samenwerking bevorderen
 
@@ -152,13 +154,6 @@ Bij het toepassen van GDS-inzichten in de Nederlandse context, overweeg het volg
 - **Lokale wetgeving**: Pas methodieken aan voor Nederlandse privacy- en toegankelijkheidswetten
 - **Gemeenschappelijke standaarden**: Gebruik het [GOV.UK Design System](https://design-system.service.gov.uk/) als inspiratie voor Nederlandse design patterns
 - **Kennisuitwisseling**: Leer van GDS's openbare documentatie en [blog](https://gds.blog.gov.uk/)
-
-## Gerelateerde hulpmiddelen
-
-- **[Government Design Principles](https://www.gov.uk/guidance/government-design-principles)**: Fundamentele richtlijnen voor overheidsservices
-- **[Service Manual](https://www.gov.uk/service-manual)**: Praktische gids voor het bouwen van digitale services
-- **[Technology Code of Practice](https://www.gov.uk/guidance/the-technology-code-of-practice)**: Richtlijnen voor technologiekeuzes
-- **[GDS Blog](https://gds.blog.gov.uk/)**: Actuele inzichten en casestudies
 
 ## Gerelateerde richtlijnen
 

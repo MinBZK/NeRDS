@@ -24,15 +24,13 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
 
 Door een cloud-gedreven strategie met aandacht voor soevereiniteit te hanteren, kun je innovatiever, flexibeler en kosteneffectiever werken terwijl je de controle behoudt over je data en profiteert van de nieuwste technologische ontwikkelingen.
 
-## Hoe pas je het toe?
+## Direct aan de slag
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
-
+    <h3>Praktische hulpmiddelen</h3>
     <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
-
     <div class="action-cards">
         <div class="action-card">
             <span class="wip-badge wip-badge-concept">concept</span>
@@ -250,13 +248,13 @@ kubectl get nodes
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Haven</h4>
+            <h4 >Haven <span class="category-badge">extern</span></h4>
             <p >Platformonafhankelijke cloudhosting</p>
             <a href="https://haven.commonground.nl/" class="action-button" target="_blank">Ontdekken</a>
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Azure Bio-Compliancy</h4>
+            <h4 >Azure Bio-Compliancy <span class="category-badge">extern</span></h4>
             <p >Cloud compliance voor overheidsorganisaties</p>
             <a href="https://github.com/Azure/Bio-Compliancy" class="action-button" target="_blank">Ontdekken</a>
         </div>
@@ -268,6 +266,10 @@ kubectl get nodes
         </div>
     </div>
 </div>
+
+## Kaders, beleid en handreikingen
+
+- **[Regels voor verantwoord cloudgebruik Rijksoverheid](https://www.digitaleoverheid.nl/nieuws/regels-voor-verantwoord-cloudgebruik-rijksoverheid/)** <span class="badge badge-beleid">beleid</span>: Officiële regels en richtlijnen voor cloudgebruik binnen de Rijksoverheid
 
 ### Implementatiestappen
 
@@ -317,10 +319,6 @@ Bij verplaatsing naar de cloud, overweeg:
 - **Governance**: Ontwikkel een duidelijk beleid voor cloudgebruik
 - **Kostenbeheer**: Implementeer mechanismen om cloudkosten te monitoren en te beheersen
 - **Connectiviteit**: Zorg voor voldoende netwerkbandbreedte
-
-## Gerelateerde hulpmiddelen
-
-- [Regels voor verantwoord cloudgebruik Rijksoverheid](https://www.digitaleoverheid.nl/nieuws/regels-voor-verantwoord-cloudgebruik-rijksoverheid/)
 
 ## Gerelateerde richtlijnen
 

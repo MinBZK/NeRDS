@@ -23,15 +23,13 @@ Data is een waardevolle hulpbron die, wanneer effectief gebruikt en beheert, kan
 
 Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten leveren, efficiënter werken en de complexe uitdagingen van vandaag en morgen beter aanpakken.
 
-## Hoe pas je het toe?
+## Direct aan de slag
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
-
+    <h3>Praktische hulpmiddelen</h3>
     <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
-
     <div class="action-cards">
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
@@ -53,6 +51,12 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
         </div>
     </div>
 </div>
+
+## Kaders, beleid en handreikingen
+
+- **[Stelsel van Basisregistraties](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/)** <span class="badge badge-standaard">standaard</span>: Samenhangend stelsel van hoogwaardige registraties met essentiële overheidsgegevens
+- **[IBDS](https://www.digitaleoverheid.nl/interbestuurlijke-datastrategie/)** <span class="badge badge-beleid">beleid</span>: Interbestuurlijke Datastrategie
+- **[RSGB/RGBZ](https://www.gemmaonline.nl/wiki/Hoofdpagina)** <span class="badge badge-standaard">standaard</span>: Referentiemodellen voor gemeentelijke basis- en zaakgegevens
 
 ### Implementatiestappen
 
@@ -91,18 +95,6 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
 - Balans tussen innovatie en compliance
 - Voortdurende evaluatie en verbetering van datapraktijken
 - Samenwerking tussen technische teams en domeinexperts
-
-## Gerelateerde hulpmiddelen
-
-- **[Uit Betrouwbare Bron](https://digilab.overheid.nl/projecten/)**: Initiatief gericht op datakwaliteit in federatieve datasystemen, met nadruk op het richtlijn 'data bij de bron'.
-
-- **[Logboek Dataverwerkingen](https://digilab.overheid.nl/projecten/)**: Creëert transparantie in overheidsdata door bij te houden wie data wanneer en waarom verandert.
-
-- **[Stelsel van Basisregistraties](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/stelsel-van-basisregistraties/)**: Samenhangend stelsel van hoogwaardige registraties met essentiële overheidsgegevens.
-
-- **[RSGB/RGBZ](https://www.gemmaonline.nl/wiki/Hoofdpagina)**: Referentiemodellen voor gemeentelijke basis- en zaakgegevens, die zorgen voor consistente definitie en uitwisseling van data.
-
-- **[data.overheid.nl](https://data.overheid.nl/)**: Het open data portaal van de Nederlandse overheid, dat toegang biedt tot datasets van overheidsorganisaties.
 
 ## Gerelateerde richtlijnen
 
