@@ -7,258 +7,6 @@ summary: Stapsgewijze handleiding voor het opzetten van een nieuwe digitale over
 
 Dit gebaande pad biedt een stapsgewijze aanpak voor het ontwikkelen en lanceren van een nieuwe digitale overheidsservice, van concept tot productie.
 
-<!-- | Stap | Rollen | Tijd | Hoofdresultaat |
-|------|--------|------|----------------|
-| 1. Behoefteanalyse & Businesscase | Beleid en Advies, Bestuurder, Projectleider | 2-4 weken | Goedgekeurde businesscase & Helderheid over gebruikersbehoefte |
-| 2. Technische opstelling & beveiligingskaders | Ontwikkelaar, Jurist | 1-3 weken | Technische opstelling |
-| 2b. Inkoop & Leveranciersselectie | Inkoper, Projectleider | 1-2 weken | Contracten en leveranciers |
-| 3. Ontwikkelomgeving Opzetten | Ontwikkelaar, Projectleider | 1 week | Werkende CI/CD-pipeline |
-| 4. Ontwikkeling & Testen | Ontwikkelaar, Projectleider | 6-12 weken | Geteste minimaal werkende versie |
-| 5. Compliance & Beveiligingsaudit | Jurist, Beleid en Advies | 2-3 weken | Beveiligingscertificering |
-| 6. Uitrol & Productiegang | Ontwikkelaar, Bestuurder | 1 week | Operationele dienst |
-
---- -->
-
-## Projectstappen
-
-
-
-<html>
-<body>
-    <div class="container">
-
-        <div class="roadmap-container">
-            
-            <div class="roadmap-steps">
-                <div class="roadmap-step">
-                    <div class="step-number">stap 1</div>
-                    <h4 class="step-title">Behoefteanalyse & Businesscase</h4>
-                    <div class="step-duration">⏱️ 2-4 weken</div>
-                    <div class="step-roles">
-                        <span class="role-tag">Beleid en Advies</span>
-                        <span class="role-tag">Bestuurder</span>
-                        <span class="role-tag">Projectleider</span>
-                    </div>
-                    <div class="step-result">
-                        <div class="result-label">Hoofdresultaat:</div>
-                        <div class="result-text">Goedgekeurde businesscase</div>
-                    </div>
-                </div>
-
-                <div class="roadmap-step">
-                    <div class="step-number">stap 2</div>
-                    <h4 class="step-title">Technische opstelling & beveiligingskaders</h4>
-                    <div class="step-duration">⏱️ 1-3 weken</div>
-                    <div class="step-roles">
-                        <span class="role-tag">Ontwikkelaar</span>
-                        <span class="role-tag">Jurist</span>
-                    </div>
-                    <div class="step-result">
-                        <div class="result-label">Hoofdresultaat:</div>
-                        <div class="result-text">Technische opstellingsdocument (met verwijzingen naar NORA-bouwstenen, GEMMA-modellen, Common Ground principes).</div>
-                    </div>
-                </div>
-
-                <div class="roadmap-step">
-                    <div class="step-number">stap 2b</div>
-                    <h4 class="step-title">Inkoop & Leveranciersselectie</h4>
-                    <div class="step-duration">⏱️ 1-2 weken</div>
-                    <div class="step-roles">
-                        <span class="role-tag">Inkoper</span>
-                        <span class="role-tag">Projectleider</span>
-                    </div>
-                    <div class="step-result">
-                        <div class="result-label">Hoofdresultaat:</div>
-                        <div class="result-text">Contracten en leveranciers</div>
-                    </div>
-                    <div class="parallel-note">💡 Kan parallel lopen met stap 2</div>
-                </div>
-
-                <div class="roadmap-step">
-                    <div class="step-number">stap 3</div>
-                    <h4 class="step-title">Ontwikkelomgeving Opzetten</h4>
-                    <div class="step-duration">⏱️ 1 week</div>
-                    <div class="step-roles">
-                        <span class="role-tag">Ontwikkelaar</span>
-                        <span class="role-tag">Projectleider</span>
-                    </div>
-                    <div class="step-result">
-                        <div class="result-label">Hoofdresultaat:</div>
-                        <div class="result-text">Werkende CI/CD-pipeline</div>
-                    </div>
-                </div>
-
-                <div class="roadmap-step">
-                    <div class="step-number">stap 4</div>
-                    <h4 class="step-title">Ontwikkeling & Testen</h4>
-                    <div class="step-duration">⏱️ 6-12 weken</div>
-                    <div class="step-roles">
-                        <span class="role-tag">Ontwikkelaar</span>
-                        <span class="role-tag">Projectleider</span>
-                    </div>
-                    <div class="step-result">
-                        <div class="result-label">Hoofdresultaat:</div>
-                        <div class="result-text">Geteste minimaal werkende versie</div>
-                    </div>
-                </div>
-
-                <div class="roadmap-step">
-                    <div class="step-number">stap 5</div>
-                    <h4 class="step-title">Compliance & Beveiligingsaudit</h4>
-                    <div class="step-duration">⏱️ 2-3 weken</div>
-                    <div class="step-roles">
-                        <span class="role-tag">Jurist</span>
-                        <span class="role-tag">Beleid en Advies</span>
-                    </div>
-                    <div class="step-result">
-                        <div class="result-label">Hoofdresultaat:</div>
-                        <div class="result-text">Beveiligingscertificering</div>
-                    </div>
-                </div>
-
-                <div class="roadmap-step">
-                    <div class="step-number">stap 6</div>
-                    <h4 class="step-title">Uitrol & Productiegang</h4>
-                    <div class="step-duration">⏱️ 1 week</div>
-                    <div class="step-roles">
-                        <span class="role-tag">Ontwikkelaar</span>
-                        <span class="role-tag">Bestuurder</span>
-                    </div>
-                    <div class="step-result">
-                        <div class="result-label">Hoofdresultaat:</div>
-                        <div class="result-text">Operationele dienst</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="direct-aan-de-slag">
-            <h3>Projectoverzicht</h3>
-            <div class="summary-grid">
-                <div class="summary-item">
-                    <strong>Totale projectduur</strong>
-                    13-25 weken (afhankelijk van complexiteit)
-                </div>
-                <div class="summary-item">
-                    <strong>Kritieke fase</strong>
-                    Ontwikkeling & Testen (6-12 weken - 50% van project)
-                </div>
-                <div class="summary-item">
-                    <strong>Belangrijkste risico</strong>
-                    Compliance audit kan onverwachte vertragingen veroorzaken
-                </div>
-                <div class="summary-item">
-                    <strong>Efficiëntie tip</strong>
-                    Stap 2 en 2b kunnen tegelijkertijd uitgevoerd worden
-                </div>
-            </div>
-        </div>
-</html>
-
-```mermaid
-gantt
-    dateFormat  YYYY-MM-DD
-    title       Nieuwe overheidsservice 
-    excludes    weekends
-    
-    section Fase 1: Foundation
-    Behoefteanalyse & Businesscase        :step1, 2024-01-08, 4w
-    Compliance kaders definiëren          :step1b, 2024-01-08, 4w
-    Inkoop proces starten                  :step1c, 2024-01-08, 4w
-    
-    section Fase 2: Setup
-    Technische opstelling                 :step2, after step1, 3w
-    Leveranciersselectie afronden         :step2b, after step1c, 3w
-    Ontwikkelomgeving opzetten            :step3, after step2, 1w
-    
-    section Fase 3: Iteratieve Ontwikkeling
-    Sprint 1 - Core functionaliteit       :crit, sprint1, after step3, 3w
-    Sprint 2 - Integraties                :crit, sprint2, after sprint1, 3w
-    Sprint 3 - User interface             :crit, sprint3, after sprint2, 3w
-    Sprint 4 - Optimalisatie & testing    :crit, sprint4, after sprint3, 3w
-    
-    section Fase 4: Validatie & Deployment
-    Compliance verificatie                :step5, after sprint4, 2w
-    User testing & feedback               :step5b, after sprint4, 2w
-    Pilot deployment                      :step6a, after step5, 1w
-    Full rollout                          :step6b, after step6a, 1w
-    
-    section Milestones
-    Foundation Complete                   :milestone, m1, after step1b, 0d
-    Development Ready                     :milestone, m2, after step3, 0d
-    MVP Complete                          :milestone, m3, after sprint4, 0d
-    Service Live                          :milestone, m4, after step6b, 0d
-```
-
-## Stap 1: Behoefteanalyse & businesscase
-
-``` mermaid
-gantt
- dateFormat YYYY-MM-DD
- title Nieuwe overheidsservice - Verbeterde versie
- excludes weekends
- 
- section Fase 1: Foundation & Analyse
- Behoefteanalyse & Businesscase     :foundation1, 2024-01-08, 3w
- Marktverkenning                     :foundation2, 2024-01-08, 4w
- Compliance & Security inventarisatie :foundation3, 2024-01-08, 3w
- Strategische richting bepaald       :milestone, m1, after foundation2, 0d
- 
- section Fase 1.5: Richtingskeuze
- Make-or-Buy analyse                 :choice1, after m1, 1w
- Leverancier/Platform verkenning     :choice2, after choice1, 2w
- Definitieve routekeuze             :milestone, route_decision, after choice2, 0d
- 
- section Fase 2A: Inkoop Route
- Inkoopproces/aanbesteding voorbereiding :buy1, after route_decision, 3w
- Aanbesteding uitvoeren              :buy2, after buy1, 8w
- Leveranciersselectie & contractering :buy3, after buy2, 2w
- 
- section Fase 2B: Maatwerk Route  
- Architectuur & technisch ontwerp    :make1, after route_decision, 4w
- Projectplan & roadmap              :make2, after make1, 1w
- 
- section Fase 3: Technische Opstelling
- Productie omgeving setup           :tech1, after buy3, 2w
- Test/Staging omgeving setup        :tech2, after buy3, 2w
- Ontwikkelomgeving inrichten (maatwerk) :tech3, after make2, 2w
- CI/CD pipeline setup (maatwerk)     :tech4, after tech3, 1w
- Development ready                   :milestone, m2, after tech4, 0d
- 
- section Fase 4: Iteratieve Ontwikkeling
- Sprint 0 - PoC & Setup             :dev1, after m2, 2w
- Sprint 1 - UI First + Core basis    :crit, dev2, after dev1, 3w
- Sprint 2 - Core uitbreiding         :crit, dev3, after dev2, 3w
- Sprint 3 - Integraties             :crit, dev4, after dev3, 3w
- Sprint 4 - Optimalisatie           :crit, dev5, after dev4, 3w
- Sprint 5 - Hardening & Security     :crit, dev6, after dev5, 2w
- MVP gereed                         :milestone, m3, after dev6, 0d
- 
- section Continu: Kwaliteitsbewaking
- User testing (vanaf Sprint 1)      :testing, after dev2, 11w
- Compliance verificatie (iteratief)  :compliance, after foundation3, 24w
- Security audits                    :security, after dev4, 6w
- 
- section Fase 5: Validatie & Uitrol
- Alfa/Beta deployment               :deploy1, after m3, 1w
- Pilot met gebruikers               :deploy2, after deploy1, 3w
- Evaluatie & final fixes            :deploy3, after deploy2, 2w
- Final compliance check             :deploy4, after deploy3, 1w
- Production rollout                 :deploy5, after deploy4, 2w
- Service operationeel               :milestone, m4, after deploy5, 0d
- 
- section Fase 6: Operationeel & Onderhoud
- Overdracht naar beheerteam         :ops1, after m4, 1w
- Documentatie & training            :ops2, after m4, 2w
- Monitoring setup                   :ops3, after ops1, 1w
- Structureel onderhoud (lopend)     :maintenance, after ops3, 48w
- Doorontwikkeling planning          :future, after ops2, 4w
-``` 
-
-
-
-## Stap 1: Behoefteanalyse & businesscase
-
 ```mermaid
 gantt
  dateFormat YYYY-MM-DD
@@ -291,8 +39,189 @@ gantt
  Structureel Onderhoud & Doorontwikkeling :maintenance, after handover, 48w
 ```
 
+## Projectstappen
+
+<div class="gantt-timeline">
+    <h3>Projectverloop (klik op een stap voor details)</h3>
+
+    <div class="gantt-chart">
+        <!-- Stap 1 -->
+        <a href="stap-1-behoefteanalyse/" class="gantt-bar" style="left: 0%; width: 15%; top: 0;" title="Stap 1: Behoefteanalyse & Businesscase">
+            <span class="gantt-label">1</span>
+            <span class="gantt-sublabel">Behoefteanalyse</span>
+        </a>
+
+        <!-- Stap 2 -->
+        <a href="stap-2-technische-opstelling/" class="gantt-bar" style="left: 16%; width: 10%; top: 0;" title="Stap 2: Technische opstelling & beveiligingskaders">
+            <span class="gantt-label">2</span>
+            <span class="gantt-sublabel">Technisch</span>
+        </a>
+
+        <!-- Stap 2b (parallel, daarom zelfde left maar andere top) -->
+        <a href="stap-2b-inkoop/" class="gantt-bar gantt-bar-parallel" style="left: 16%; width: 8%; top: 60px;" title="Stap 2b: Inkoop & Leveranciersselectie (parallel met stap 2)">
+            <span class="gantt-label">2b</span>
+            <span class="gantt-sublabel">Inkoop ↕</span>
+        </a>
+
+        <!-- Stap 3 -->
+        <a href="stap-3-ontwikkelomgeving/" class="gantt-bar" style="left: 27%; width: 5%; top: 0;" title="Stap 3: Ontwikkelomgeving Opzetten">
+            <span class="gantt-label">3</span>
+            <span class="gantt-sublabel">Omgeving</span>
+        </a>
+
+        <!-- Stap 4 (grootste, kritiek pad) -->
+        <a href="stap-4-ontwikkeling/" class="gantt-bar gantt-bar-critical" style="left: 33%; width: 50%; top: 0;" title="Stap 4: Ontwikkeling & Testen">
+            <span class="gantt-label">4</span>
+            <span class="gantt-sublabel">Ontwikkeling & Testen</span>
+        </a>
+
+        <!-- Stap 5 -->
+        <a href="stap-5-compliance/" class="gantt-bar" style="left: 84%; width: 10%; top: 0;" title="Stap 5: Compliance & Beveiligingsaudit">
+            <span class="gantt-label">5</span>
+            <span class="gantt-sublabel">Compliance</span>
+        </a>
+
+        <!-- Stap 6 -->
+        <a href="stap-6-uitrol/" class="gantt-bar" style="left: 95%; width: 5%; top: 0;" title="Stap 6: Uitrol & Productiegang">
+            <span class="gantt-label">6</span>
+            <span class="gantt-sublabel">Uitrol</span>
+        </a>
+    </div>
+
+    <div class="timeline-legend">
+        <span>💡 De lengte van elke balk toont relatieve inspanning. Stap 2b loopt parallel met stap 2.</span>
+    </div>
+</div>
+
+
+
+<html>
+<body>
+    <div class="container">
+
+        <div class="roadmap-container">
+
+            <div class="roadmap-steps">
+                <a href="stap-1-behoefteanalyse/" class="roadmap-step-link">
+                    <div class="roadmap-step">
+                        <div class="step-number">stap 1</div>
+                        <h4 class="step-title">Behoefteanalyse & Businesscase</h4>
+                        <div class="step-complexity">📊 Gemiddelde complexiteit (~15% van project)</div>
+                        <div class="step-roles">
+                            <span class="role-tag">Beleid en Advies</span>
+                            <span class="role-tag">Bestuurder</span>
+                            <span class="role-tag">Projectleider</span>
+                        </div>
+                        <div class="step-result">
+                            <div class="result-label">Hoofdresultaat:</div>
+                            <div class="result-text">Goedgekeurde businesscase</div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="stap-2-technische-opstelling/" class="roadmap-step-link">
+                    <div class="roadmap-step">
+                        <div class="step-number">stap 2</div>
+                        <h4 class="step-title">Technische opstelling & beveiligingskaders</h4>
+                        <div class="step-complexity">📊 Gemiddelde complexiteit (~10% van project)</div>
+                        <div class="step-roles">
+                            <span class="role-tag">Ontwikkelaar</span>
+                            <span class="role-tag">Jurist</span>
+                        </div>
+                        <div class="step-result">
+                            <div class="result-label">Hoofdresultaat:</div>
+                            <div class="result-text">Technische opstellingsdocument (met verwijzingen naar NORA-bouwstenen, GEMMA-modellen, Common Ground principes).</div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="stap-2b-inkoop/" class="roadmap-step-link">
+                    <div class="roadmap-step">
+                        <div class="step-number">stap 2b</div>
+                        <h4 class="step-title">Inkoop & Leveranciersselectie</h4>
+                        <div class="step-complexity">📊 Kleine complexiteit (~5% van project)</div>
+                        <div class="step-roles">
+                            <span class="role-tag">Inkoper</span>
+                            <span class="role-tag">Projectleider</span>
+                        </div>
+                        <div class="step-result">
+                            <div class="result-label">Hoofdresultaat:</div>
+                            <div class="result-text">Contracten en leveranciers</div>
+                        </div>
+                        <div class="parallel-note">💡 Kan parallel lopen met stap 2</div>
+                    </div>
+                </a>
+
+                <a href="stap-3-ontwikkelomgeving/" class="roadmap-step-link">
+                    <div class="roadmap-step">
+                        <div class="step-number">stap 3</div>
+                        <h4 class="step-title">Ontwikkelomgeving Opzetten</h4>
+                        <div class="step-complexity">📊 Kleine complexiteit (~5% van project)</div>
+                        <div class="step-roles">
+                            <span class="role-tag">Ontwikkelaar</span>
+                            <span class="role-tag">Projectleider</span>
+                        </div>
+                        <div class="step-result">
+                            <div class="result-label">Hoofdresultaat:</div>
+                            <div class="result-text">Werkende CI/CD-pipeline</div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="stap-4-ontwikkeling/" class="roadmap-step-link">
+                    <div class="roadmap-step">
+                        <div class="step-number">stap 4</div>
+                        <h4 class="step-title">Ontwikkeling & Testen</h4>
+                        <div class="step-complexity">📊 Hoge complexiteit (~50% van project)</div>
+                        <div class="step-roles">
+                            <span class="role-tag">Ontwikkelaar</span>
+                            <span class="role-tag">Projectleider</span>
+                        </div>
+                        <div class="step-result">
+                            <div class="result-label">Hoofdresultaat:</div>
+                            <div class="result-text">Geteste minimaal werkende versie</div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="stap-5-compliance/" class="roadmap-step-link">
+                    <div class="roadmap-step">
+                        <div class="step-number">stap 5</div>
+                        <h4 class="step-title">Compliance & Beveiligingsaudit</h4>
+                        <div class="step-complexity">📊 Gemiddelde complexiteit (~10% van project)</div>
+                        <div class="step-roles">
+                            <span class="role-tag">Jurist</span>
+                            <span class="role-tag">Beleid en Advies</span>
+                        </div>
+                        <div class="step-result">
+                            <div class="result-label">Hoofdresultaat:</div>
+                            <div class="result-text">Beveiligingscertificering</div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="stap-6-uitrol/" class="roadmap-step-link">
+                    <div class="roadmap-step">
+                        <div class="step-number">stap 6</div>
+                        <h4 class="step-title">Uitrol & Productiegang</h4>
+                        <div class="step-complexity">📊 Kleine complexiteit (~5% van project)</div>
+                        <div class="step-roles">
+                            <span class="role-tag">Ontwikkelaar</span>
+                            <span class="role-tag">Bestuurder</span>
+                        </div>
+                        <div class="step-result">
+                            <div class="result-label">Hoofdresultaat:</div>
+                            <div class="result-text">Operationele dienst</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+</html>
+
 
 ## Stap 1: Behoefteanalyse & businesscase
+
 
 
 **🎯 Doel:** Valideer de behoefte en creëer een solide basis voor de dienst

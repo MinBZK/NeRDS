@@ -1200,3 +1200,145 @@ tr {
 .traditional-table {
     margin: 2rem 0;
 }
+
+/* Clickable roadmap step links */
+.roadmap-step-link {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.roadmap-step-link .roadmap-step {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid #e0e0e0;
+}
+
+.roadmap-step-link:hover .roadmap-step {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(21, 66, 113, 0.25);
+    border-color: #154273;
+}
+
+.roadmap-step-link:hover .step-title {
+    color: #01689B;
+}
+
+/* Step complexity styling (replaces step-duration) */
+.step-complexity {
+    font-size: 0.65rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+/* Clickable Gantt Timeline */
+.gantt-timeline {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #f5f7fa;
+    border-radius: 0.5rem;
+    border-left: 4px solid #154273;
+}
+
+.gantt-timeline h3 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #154273;
+    font-size: 1.2rem;
+}
+
+.gantt-chart {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    margin-bottom: 1rem;
+    background: linear-gradient(to bottom, transparent 0%, transparent 50%, rgba(0,0,0,0.02) 50%, rgba(0,0,0,0.02) 100%);
+}
+
+.gantt-bar {
+    position: absolute;
+    background: linear-gradient(135deg, #154273 0%, #01689B 100%);
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.gantt-bar:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(21, 66, 113, 0.3);
+    background: linear-gradient(135deg, #01689B 0%, #154273 100%);
+    z-index: 10;
+}
+
+.gantt-bar-critical {
+    background: linear-gradient(135deg, #d4006f 0%, #a8004f 100%);
+}
+
+.gantt-bar-critical:hover {
+    background: linear-gradient(135deg, #a8004f 0%, #d4006f 100%);
+}
+
+.gantt-bar-parallel {
+    opacity: 0.85;
+}
+
+.gantt-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 0.1rem;
+    line-height: 1;
+}
+
+.gantt-sublabel {
+    font-size: 0.6rem;
+    opacity: 0.95;
+    line-height: 1.1;
+    font-weight: 400;
+}
+
+.timeline-legend {
+    font-size: 0.7rem;
+    color: #666;
+    text-align: center;
+    padding-top: 0.5rem;
+    border-top: 1px solid #ddd;
+    margin-top: 1rem;
+}
+
+/* Responsive aanpassingen */
+@media (max-width: 768px) {
+    .gantt-chart {
+        overflow-x: auto;
+        padding-bottom: 1rem;
+    }
+
+    .gantt-row {
+        min-width: 600px;
+    }
+
+    .gantt-label {
+        font-size: 0.65rem;
+    }
+
+    .gantt-percent {
+        font-size: 0.55rem;
+    }
+
+    .parallel-indicator {
+        position: static;
+        display: block;
+        margin-top: 0.2rem;
+        margin-left: 0.5rem;
+    }
+}
