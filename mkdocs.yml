@@ -49,9 +49,17 @@ nav:
       - 12. Inkoopstrategie: richtlijnen/inkoop/index.md
       - 13. Duurzaamheid: richtlijnen/duurzaamheid/index.md
       - 14. Servicestandaard: richtlijnen/servicestandaard/index.md
+  - Gebaande Paden:
+        - Overzicht: Gebaande-paden/index.md
+        - Nieuwe Overheidservice: Gebaande-paden/nieuwe-overheidservice/index.md
+        - Bugfix: Gebaande-paden/bugfix/index.md
+        - Incident Report: Gebaande-paden/incident-report/index.md
+        - Legacy: Gebaande-paden/legacy/index.md
+        - Prototyping: Gebaande-paden/prototyping/index.md
   - Over NeRDS:
       - Over-NeRDS/index.md
       - Bijdragen: Over-NeRDS/CONTRIBUTING.md
+  
 
 # Extra opties
 markdown_extensions:

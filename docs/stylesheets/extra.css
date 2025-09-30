@@ -899,3 +899,304 @@ background-color: #B2D7EE;
 .md-header__source a{
   text-decoration: none;
 }
+
+@font-face {
+  font-family: "ROsanswebtextregular";
+  src: url("fonts/ROsanswebtextregular.woff") format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "ROsanswebtextregular" !important;
+    background: #ffffff;
+    color: #154273;
+    line-height: 1.3;
+    font-size: 0.7rem;
+    padding: 2rem;
+}
+
+/* Gebruik exact dezelfde styling als jouw MkDocs */
+p, h1, h2, h3, h4, h5, h6 {
+    color: #154273;
+}
+
+h1 {
+    color: #154273;
+    margin: 0.6em 0 0.4em 0;
+    font-size: 2.8em;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+h2 {
+    color: #154273;
+    margin: 1em 0 0.5em 0;
+}
+
+h3 {
+    color: #154273;
+    font-size: 1.2em;
+    margin-bottom: 0.5rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Roadmap container in action-cards stijl */
+.roadmap-container {
+    margin: 1.5rem 0;
+}
+
+.roadmap-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0.7rem;
+    margin: 0.7rem 0 0 0;
+}
+
+/* Gebruik action-card styling voor consistentie */
+.roadmap-step {
+    border: 1px solid #e0e0e0;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    opacity: 0;
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.roadmap-step:nth-child(1) { animation-delay: 0.1s; }
+.roadmap-step:nth-child(2) { animation-delay: 0.2s; }
+.roadmap-step:nth-child(3) { animation-delay: 0.3s; }
+.roadmap-step:nth-child(4) { animation-delay: 0.4s; }
+.roadmap-step:nth-child(5) { animation-delay: 0.5s; }
+.roadmap-step:nth-child(6) { animation-delay: 0.6s; }
+.roadmap-step:nth-child(7) { animation-delay: 0.7s; }
+
+.step-number {
+    display: inline-block;
+    font-size: 0.55rem;
+    padding: 0.12rem 0.4rem;
+    border-radius: 0.8rem;
+    font-weight: 500;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    text-transform: lowercase;
+    z-index: 2;
+    background-color: #154273;
+    color: white;
+}
+
+.step-title {
+    margin-top: 0;
+    color: #154273;
+    font-size: 0.8rem;
+    margin: 0 0 0.3rem 0;
+    padding-right: 3.5rem;
+    font-weight: 600;
+}
+
+.step-duration {
+    font-size: 0.65rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.step-roles {
+    margin: 0.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.role-tag {
+    font-size: 0.6rem;
+    background: #B2D7EE;
+    color: #154273;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+    font-weight: 500;
+}
+
+.step-result {
+    flex-grow: 1;
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+}
+
+.result-label {
+    font-weight: 600;
+    color: #154273;
+    margin-bottom: 0.3rem;
+}
+
+.result-text {
+    color: #154273;
+}
+
+.parallel-note {
+    font-size: 0.6rem;
+    color: #ff9800;
+    font-style: italic;
+    margin-top: 0.3rem;
+    font-weight: 500;
+}
+
+/* Direct aan de slag section styling - exact zoals jouw CSS */
+.direct-aan-de-slag {
+    background-color: #f5f7fa;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-left: 4px solid #154273;
+}
+
+.direct-aan-de-slag h3 {
+    margin-top: 0;
+    font-size: 1rem;
+    color: #154273;
+    margin-bottom: 0.8rem;
+}
+
+/* Summary grid zoals action-cards */
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.7rem;
+    margin: 0.7rem 0 0 0;
+}
+
+.summary-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 0.3rem;
+    padding: 0.7rem;
+    background-color: #f8f9fa;
+    font-size: 0.7rem;
+    color: #154273;
+}
+
+.summary-item strong {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+/* Buttons - exact zoals jouw CSS */
+.md-button--primary {
+    background-color: #154273;
+    color: #FFFFFF !important;
+    border: 1px solid #154273;
+    text-decoration: none !important;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0.5rem 0;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+.md-button--primary:hover {
+    background-color: #01689B;
+    color: #FFFFFF !important;
+    border-color: #01689B;
+    text-decoration: none !important;
+}
+
+/* Responsive zoals jouw CSS */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+    
+    .roadmap-steps {
+        grid-template-columns: 1fr;
+    }
+    
+    .summary-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .roadmap-steps {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .summary-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Pre-formatted code block styling voor markdown output */
+.markdown-output {
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-family: 'Courier New', monospace;
+    font-size: 0.65rem;
+    white-space: pre-wrap;
+    display: none;
+    color: #333;
+}
+
+/* Tabel styling - exact zoals jouw CSS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+th {
+    background-color: #F1F5F9;
+    color: #475569;
+    border: none;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+    font-family: "ROsanswebtextregular", sans-serif;
+    font-weight: 400;
+}
+
+td {
+    padding: 12px;
+    text-align: left;
+    border: none;
+    font-family: "ROsanswebtextregular", sans-serif;
+    min-width: 150px;
+}
+
+tr {
+    border-bottom: 1px solid #B9C7D5;
+    font-size: 16px;
+}
+
+.traditional-table {
+    margin: 2rem 0;
+}

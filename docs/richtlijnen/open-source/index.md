@@ -58,8 +58,16 @@ Door open en transparant te werken en open source software te omarmen, draag je 
             <p >Community of practice omtrent open source werken</p>
             <a href="https://developer.overheid.nl/communities/open-source-werken" class="action-button" target="_blank">Verkennen</a>
         </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
+            <h4 >Publiccode.yaml</h4>
+            <p >Community of practice omtrent open source werken</p>
+            <a href="https://developer.overheid.nl/kennisbank/open-source/standaarden/" class="action-button" target="_blank">Toepassen</a>
+        </div>
     </div>
 </div>
+
+
 
 ### Implementatiestappen
 
