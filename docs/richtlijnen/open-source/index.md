@@ -43,7 +43,7 @@ Door open en transparant te werken en open source software te omarmen, draag je 
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
             <h4 >Licentieadvies</h4>
-            <p >EUPL-1.2 voor overheidsprojecten</p>
+            <p >Copyleft: CC BY-SA, GPLv3, AGPLv3 of EUPL-1.2. Permissive: Apache 2.0, MIT, BSD-0-clause</p>
             <a href="https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/" class="action-button" target="_blank">Bekijken</a>
         </div>
         <div class="action-card">
