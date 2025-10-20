@@ -1,12 +1,8 @@
-# TODO (RECOMMENDED): Wrap this file in OpenPGP cleartext signature (RFC 9116 recommends digital signatures)
+# Dit domein verwijst naar het centrale Rijksoverheid security.txt bestand
+# This domain refers to the central Dutch government security.txt file
+#
+# Voor kwetsbaarheidsmeldingen / For vulnerability reports:
+# https://www.ncsc.nl/.well-known/security.txt
 
-Contact: mailto:bureau.architectuur@minbzk.nl
-Expires: 2026-10-20T12:00:00.000Z
-Canonical: https://minbzk.github.io/NeRDS/.well-known/security.txt
-Preferred-Languages: nl, en
-
-# TODO (RECOMMENDED): Add Policy field when CVD policy is created
-# Policy: https://minbzk.github.io/NeRDS/veiligheid/vulnerability-disclosure-policy/
-
-# TODO (RECOMMENDED): Add Encryption field when PGP public key is published
-# Encryption: https://minbzk.github.io/NeRDS/.well-known/pgp-key.txt
+Contact: https://www.ncsc.nl/.well-known/security.txt
+Canonical: https://www.ncsc.nl/.well-known/security.txt
