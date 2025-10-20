@@ -318,6 +318,23 @@ Bij verplaatsing naar de cloud, overweeg:
 - **Kostenbeheer**: Implementeer mechanismen om cloudkosten te monitoren en te beheersen
 - **Connectiviteit**: Zorg voor voldoende netwerkbandbreedte
 
+
+
+## Tools en hulpmiddelen
+
+<div class="card-grid">
+<div class="card">
+    <h3>DigiLab</h3>
+    <p>Experimenteeromgeving voor innovatieve overheidsdiensten</p>
+    <a href="../tools/digilab/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Haven</h3>
+    <p>Gemeenschappelijk hosting platform voor kleinere overheidsdiensten</p>
+    <a href="../tools/haven/" class="card-link">Meer info →</a>
+</div>
+</div>
+
 ## Gerelateerde hulpmiddelen
 
 - [Regels voor verantwoord cloudgebruik Rijksoverheid](https://www.digitaleoverheid.nl/nieuws/regels-voor-verantwoord-cloudgebruik-rijksoverheid/)

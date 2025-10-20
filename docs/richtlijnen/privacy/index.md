@@ -122,6 +122,38 @@ Evalueer je project door te vragen:
 - **Toegangscontrole**: Implementeer het richtlijn van minste privilege
 - **Privacymonitoring**: Detecteer en reageer op privacyproblemen
 
+
+
+## Tools en hulpmiddelen
+
+<div class="card-grid">
+<div class="card">
+    <h3>Cookieverklaring Generator</h3>
+    <p>Generator voor wettelijk verplichte cookieverklaringen</p>
+    <a href="../tools/cookieverklaring-generator/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>DPIA Formulier</h3>
+    <p>Online formulier voor gegevensbeschermingseffectbeoordeling</p>
+    <a href="../tools/dpia-formulier/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Data Minimalisatie Toolkit</h3>
+    <p>Hulpmiddelen en richtlijnen voor data minimalisatie</p>
+    <a href="../tools/data-minimalisatie/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Matomo (Piwik)</h3>
+    <p>Open source web analytics platform - privacy-vriendelijk alternatief voor Google Analytics</p>
+    <a href="../tools/matomo/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Privacy by Design Framework</h3>
+    <p>Methodologie voor het inbouwen van privacy vanaf het begin</p>
+    <a href="../tools/privacy-by-design/" class="card-link">Meer info →</a>
+</div>
+</div>
+
 ## Gerelateerde hulpmiddelen
 
 - Raadpleeg Autoriteit Persoonsgegevens-richtlijnen

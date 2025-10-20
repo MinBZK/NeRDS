@@ -98,6 +98,88 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
 - Blijf open standaarden volgen voor langetermijncompatibiliteit
 - Evalueer regelmatig het technologielandschap op efficiëntie en effectiviteit
 
+
+
+## Tools en hulpmiddelen
+
+<div class="card-grid">
+<div class="card">
+    <h3>API Design Rules (ADR)</h3>
+    <p>Nederlandse overheidsstandaard voor REST API ontwerp</p>
+    <a href="../tools/api-design-rules/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>CBS Open Data</h3>
+    <p>Open data en API's van het Centraal Bureau voor de Statistiek</p>
+    <a href="../tools/cbs-open-data/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Data.overheid.nl</h3>
+    <p>Centraal platform voor open data van de Nederlandse overheid</p>
+    <a href="../tools/data-overheid-nl/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>DigiD</h3>
+    <p>Authenticatiemiddel voor burgers bij overheidsdiensten</p>
+    <a href="../tools/digid/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>FSC (Federatieve Service Connectiviteit)</h3>
+    <p>Federatieve API gateway voor veilige dienst-tot-dienst communicatie</p>
+    <a href="../tools/fsc/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>GraphQL</h3>
+    <p>Query language voor API's - alternatief voor REST</p>
+    <a href="../tools/graphql/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Haal Centraal</h3>
+    <p>Standaard API's voor basisregistraties (BRP, BAG, BRK, etc.)</p>
+    <a href="../tools/haal-centraal/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Logius</h3>
+    <p>Dienstverlener digitale overheid - beheerder van basisvoorzieningen</p>
+    <a href="../tools/logius/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>MijnOverheid</h3>
+    <p>Persoonlijke omgeving voor communicatie tussen burger en overheid</p>
+    <a href="../tools/mijn-overheid/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>NL API Strategie</h3>
+    <p>Bredere architectuurkaders en governance voor API's binnen de overheid</p>
+    <a href="../tools/nl-api-strategie/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Omgevingswet API's</h3>
+    <p>API's voor digitale dienstverlening rondom de Omgevingswet</p>
+    <a href="../tools/omgevingswet-api/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>PDOK (Publieke Dienstverlening Op de Kaart)</h3>
+    <p>Platform voor geografische datasets en APIs van de overheid</p>
+    <a href="../tools/pdok/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>eHerkenning</h3>
+    <p>Authenticatiemiddel voor bedrijven en professionals</p>
+    <a href="../tools/eherkenning/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>eIDAS</h3>
+    <p>Europese standaard voor elektronische identificatie</p>
+    <a href="../tools/eidas/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>gRPC</h3>
+    <p>High-performance RPC framework van Google</p>
+    <a href="../tools/grpc/" class="card-link">Meer info →</a>
+</div>
+</div>
+
 ## Gerelateerde standaarden
 
 - **[Common Ground](https://commonground.nl/)**: Een nieuwe informatiekundige visie voor moderne gegevensuitwisseling binnen de overheid. Common Ground werkt met herbruikbare componenten en het richtlijn van 'data bij de bron' om silovorming tegen te gaan en flexibele, modulaire IT-oplossingen te realiseren.

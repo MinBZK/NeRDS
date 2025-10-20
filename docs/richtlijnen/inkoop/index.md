@@ -109,6 +109,28 @@ Zie hiervoor ook [PIANOo's richtlijnen voor Maatschappelijk Verantwoord Inkopen]
 - Is er aandacht voor duurzaamheid en sociale waarde?
 - Voldoet het aan alle wettelijke en beleidsmatige eisen?
 
+
+
+## Tools en hulpmiddelen
+
+<div class="card-grid">
+<div class="card">
+    <h3>Inkoopkompas</h3>
+    <p>Kennisplatform voor ICT-inkoop binnen de overheid</p>
+    <a href="../tools/inkoopkompas/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>PIANOo MVI-criteria</h3>
+    <p>Criteria voor maatschappelijk verantwoord inkopen</p>
+    <a href="../tools/pianoo-mvi-criteria/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>TenderNed</h3>
+    <p>Centrale aanbestedingsplaats voor overheid</p>
+    <a href="../tools/tenderned/" class="card-link">Meer info →</a>
+</div>
+</div>
+
 ## Gerelateerde hulpmiddelen
 
 - [PIANOo's richtlijnen voor Maatschappelijk Verantwoord Inkopen](https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria)

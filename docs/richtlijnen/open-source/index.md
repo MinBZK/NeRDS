@@ -113,6 +113,43 @@ Voor Nederlandse overheidsprojecten wordt de **European Union Public Licence (EU
 
 Bij het publiceren van overheidscode is het raadzaam de EUPL-1.2 te gebruiken, tenzij er specifieke redenen zijn om een andere licentie te kiezen. Raadpleeg de [OSPO-NL kennisbank over OSS-licenties](https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/) voor meer informatie over licentietypes en overwegingen.
 
+
+
+## Tools en hulpmiddelen
+
+<div class="card-grid">
+<div class="card">
+    <h3>Code for NL</h3>
+    <p>Community van developers die werken aan open source voor publieke waarde</p>
+    <a href="../tools/code-for-nl/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Developers Italia publiccode Editor</h3>
+    <p>Online editor voor publiccode.yml bestanden</p>
+    <a href="../tools/developers-italia-publiccode-editor/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>GitHub</h3>
+    <p>Platform voor open source samenwerking en version control</p>
+    <a href="../tools/github/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>GitLab Rijksoverheid</h3>
+    <p>Shared GitLab omgeving voor centrale overheid</p>
+    <a href="../tools/gitlab-rijksoverheid/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>REUSE Tool</h3>
+    <p>Automatische licentie-compliance checker voor open source projecten</p>
+    <a href="../tools/reuse-tool/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>publiccode.yml</h3>
+    <p>Standaard metadata-bestand voor overheidssoftware</p>
+    <a href="../tools/publiccode-yml/" class="card-link">Meer info →</a>
+</div>
+</div>
+
 ## Gerelateerde hulpmiddelen
 
 - [Opensourcewerken community](https://developer.overheid.nl/communities/open-source-werken) - Community van het Ministerie van Binnenlandse Zaken voor praktische kennis, een forum om ervaringen te delen en informatie over relevante regelgeving voor open source werken.

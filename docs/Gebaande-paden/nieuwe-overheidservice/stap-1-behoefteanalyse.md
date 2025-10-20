@@ -34,26 +34,6 @@ Zonder duidelijk inzicht in gebruikersbehoeften loop je het risico een dienst te
 
 ---
 
-## 💭 Waar zou je over na kunnen denken?
-
-In deze fase komen verschillende vragen aan bod:
-
-- **Wie zijn de gebruikers?** Denk breed: eindgebruikers, maar ook ambtenaren die de dienst moeten beheren
-- **Wat is het eigenlijke probleem?** Niet alleen wat mensen zeggen te willen, maar wat ze daadwerkelijk nodig hebben
-- **Hoe werken ze nu?** Wat zijn huidige werkwijzen, frustraties en workarounds?
-- **Welke alternatieven bestaan er al?** Is er al iets vergelijkbaars dat hergebruikt kan worden?
-- **Wat zijn de kosten en baten?** Niet alleen financieel, maar ook maatschappelijke impact
-- **Hoe weten we of het succesvol is?** Wat zijn zinvolle meetpunten?
-
----
-
-## 🛠️ Hoe zou je dit kunnen aanpakken?
-
-### Gebruikersbehoeften in beeld brengen
-
-**Waarom hier aandacht aan besteden:**
-Volgens **[Richtlijn 1](../../richtlijnen/gebruikersbehoeften/)** begin je met gebruikersbehoeften, niet met technische oplossingen. Door gebruikers vroeg te betrekken voorkom je kostbare mismatches tussen wat je bouwt en wat mensen daadwerkelijk nodig hebben.
-
 **Mogelijke hulpmiddelen:**
 
 <div class="action-cards">
@@ -123,7 +103,8 @@ Een belangrijke vraag (zie **[Richtlijn 12: Inkoopstrategie](../../richtlijnen/i
 Welke technische, privacy, beveiligings- of organisatorische risico's zie je? Het expliciet maken van risico's helpt later om ermee om te gaan.
 
 **Conceptueel voorbeeld:**
-```
+```yaml
+
 Businesscase: Online Vergunningaanvraag
 
 Probleem:

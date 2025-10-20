@@ -153,6 +153,68 @@ Bij het toepassen van GDS-inzichten in de Nederlandse context, overweeg het volg
 - **Gemeenschappelijke standaarden**: Gebruik het [GOV.UK Design System](https://design-system.service.gov.uk/) als inspiratie voor Nederlandse design patterns
 - **Kennisuitwisseling**: Leer van GDS's openbare documentatie en [blog](https://gds.blog.gov.uk/)
 
+
+
+## Tools en hulpmiddelen
+
+<div class="card-grid">
+<div class="card">
+    <h3>Code for NL</h3>
+    <p>Community van developers die werken aan open source voor publieke waarde</p>
+    <a href="../tools/code-for-nl/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Common Ground</h3>
+    <p>Programma voor modernisering gemeentelijke informatievoorziening</p>
+    <a href="../tools/common-ground/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Developer.overheid.nl</h3>
+    <p>Portal voor developers van overheidsdiensten - API's, docs, community</p>
+    <a href="../tools/developer-nl/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Diginetwerk</h3>
+    <p>Netwerk van overheid digital officers en innovators</p>
+    <a href="../tools/diginetwerk/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Gebruikersonderzoeken.nl</h3>
+    <p>Database van uitgevoerde gebruikersonderzoeken binnen de overheid</p>
+    <a href="../tools/gebruikersonderzoeken-nl/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>GitHub</h3>
+    <p>Platform voor open source samenwerking en version control</p>
+    <a href="../tools/github/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>GitLab Rijksoverheid</h3>
+    <p>Shared GitLab omgeving voor centrale overheid</p>
+    <a href="../tools/gitlab-rijksoverheid/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>NL Design System</h3>
+    <p>Bibliotheek van herbruikbare, toegankelijke UI-componenten voor Nederlandse overheidsdiensten</p>
+    <a href="../tools/nl-design-system/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>OpenCatalogi</h3>
+    <p>Federatief catalogussysteem voor delen van componenten tussen organisaties</p>
+    <a href="../tools/opencatalogi/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Pleio</h3>
+    <p>Samenwerkingsplatform voor overheid en publieke sector</p>
+    <a href="../tools/pleio/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>VNG Realisatie</h3>
+    <p>ICT-organisatie van en voor gemeenten</p>
+    <a href="../tools/vng-realisatie/" class="card-link">Meer info →</a>
+</div>
+</div>
+
 ## Gerelateerde hulpmiddelen
 
 - **[Government Design Principles](https://www.gov.uk/guidance/government-design-principles)**: Fundamentele richtlijnen voor overheidsservices

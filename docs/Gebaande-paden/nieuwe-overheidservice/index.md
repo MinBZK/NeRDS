@@ -220,7 +220,7 @@ gantt
 </html>
 
 
-## Stap 1: Behoefteanalyse & businesscase
+<!-- ## Stap 1: Behoefteanalyse & businesscase
 
 
 
@@ -646,4 +646,4 @@ Na elke stap:
 - [Businesscasesjabloon](#)
 - [Beveiligingschecklist](#)
 - [Productiechecklijst](#)
-- [Architectuurbeslissingsdocumenten](#)
+- [Architectuurbeslissingsdocumenten](#) -->

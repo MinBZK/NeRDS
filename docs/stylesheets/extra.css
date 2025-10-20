@@ -1298,6 +1298,7 @@ tr {
     font-weight: 700;
     margin-bottom: 0.1rem;
     line-height: 1;
+    color: white;
 }
 
 .gantt-sublabel {
@@ -1305,6 +1306,7 @@ tr {
     opacity: 0.95;
     line-height: 1.1;
     font-weight: 400;
+    color: white;
 }
 
 .timeline-legend {
@@ -1340,5 +1342,67 @@ tr {
         display: block;
         margin-top: 0.2rem;
         margin-left: 0.5rem;
+    }
+}
+
+/* Tool Cards Styling */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(21, 66, 113, 0.2);
+    border-color: #154273;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #154273;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    flex-grow: 1;
+    margin-bottom: 0.8rem;
+    font-size: 0.7rem;
+    color: #333;
+}
+
+.card-link {
+    background-color: #154273;
+    color: white !important;
+    text-decoration: none !important;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.7rem;
+    border-radius: 0.3rem;
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.card-link:hover {
+    background-color: #01689B;
+}
+
+@media (max-width: 768px) {
+    .card-grid {
+        grid-template-columns: 1fr;
     }
 }

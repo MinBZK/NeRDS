@@ -98,6 +98,63 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
 - **Snelle verandering**: Blijf op de hoogte van nieuwe ontwikkelingen
 - **Balans vinden**: Weeg nieuwe standaarden af tegen bewezen oplossingen
 
+
+
+## Tools en hulpmiddelen
+
+<div class="card-grid">
+<div class="card">
+    <h3>API Design Rules (ADR)</h3>
+    <p>Nederlandse overheidsstandaard voor REST API ontwerp</p>
+    <a href="../tools/api-design-rules/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>DigiKoppeling</h3>
+    <p>Standaard voor veilige gegevensuitwisseling tussen overheden</p>
+    <a href="../tools/digikoppeling/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Forum Standaardisatie 'Pas toe of leg uit'-lijst</h3>
+    <p>Lijst met verplichte open standaarden voor de overheid</p>
+    <a href="../tools/forum-standaardisatie/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Logius</h3>
+    <p>Dienstverlener digitale overheid - beheerder van basisvoorzieningen</p>
+    <a href="../tools/logius/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>NL API Strategie</h3>
+    <p>Bredere architectuurkaders en governance voor API's binnen de overheid</p>
+    <a href="../tools/nl-api-strategie/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>NORA (Nederlandse Overheid Referentie Architectuur)</h3>
+    <p>Referentiemodel voor architectuurprincipes bij de overheid</p>
+    <a href="../tools/nora/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>OAuth 2.0</h3>
+    <p>Open standaard voor veilige autorisatie</p>
+    <a href="../tools/oauth-2-0/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>OpenAPI Specification</h3>
+    <p>Standaard voor het beschrijven van REST API's</p>
+    <a href="../tools/openapi/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>OpenID Connect</h3>
+    <p>Identiteitslaag bovenop OAuth 2.0</p>
+    <a href="../tools/openid-connect/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>SAML 2.0</h3>
+    <p>XML-gebaseerde standaard voor single sign-on</p>
+    <a href="../tools/saml/" class="card-link">Meer info →</a>
+</div>
+</div>
+
 ## Gerelateerde standaarden
 
 Het [Forum Standaardisatie](https://www.forumstandaardisatie.nl/) adviseert de Nederlandse overheid over het gebruik van open standaarden en beheert de 'pas toe of leg uit'-lijst met verplichte open standaarden voor de publieke sector. Gebruik de [Beslisboom Open Standaarden](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden) om te bepalen welke standaarden in jouw situatie van toepassing zijn.

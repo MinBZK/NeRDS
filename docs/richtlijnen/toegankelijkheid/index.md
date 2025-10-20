@@ -92,6 +92,33 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
 - Bouw formulieren die gemakkelijk te gebruiken zijn met hulpapparatuur
 - Test je systemen op verschillende apparaten en schermformaten
 
+
+
+## Tools en hulpmiddelen
+
+<div class="card-grid">
+<div class="card">
+    <h3>Deque Axe</h3>
+    <p>Geautomatiseerde toegankelijkheidstester voor webapplicaties</p>
+    <a href="../tools/deque-axe/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>NL Design System</h3>
+    <p>Bibliotheek van herbruikbare, toegankelijke UI-componenten voor Nederlandse overheidsdiensten</p>
+    <a href="../tools/nl-design-system/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Toegankelijkheidsverklaring Generator</h3>
+    <p>Genereer verplichte toegankelijkheidsverklaring voor je website</p>
+    <a href="../tools/toegankelijkheidsverklaring-generator/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>WCAG-EM Reporter</h3>
+    <p>Tool voor toegankelijkheidsrapportage volgens WCAG-EM methodologie</p>
+    <a href="../tools/wcag-em-reporter/" class="card-link">Meer info →</a>
+</div>
+</div>
+
 ## Gerelateerde standaarden
 
 - [Web Content Accessibility Guidelines (WCAG 2.2)](https://www.w3.org/TR/WCAG22/)

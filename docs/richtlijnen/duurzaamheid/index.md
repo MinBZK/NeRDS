@@ -119,6 +119,38 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
 - Deel successen en lessen binnen en buiten de organisatie
 - Werk samen met andere overheidsorganisaties aan gemeenschappelijke doelen
 
+
+
+## Tools en hulpmiddelen
+
+<div class="card-grid">
+<div class="card">
+    <h3>Cloud Carbon Footprint</h3>
+    <p>Open source tool voor het meten van cloud carbon emissions</p>
+    <a href="../tools/cloud-carbon-footprint/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>EcoGrader</h3>
+    <p>Website sustainability en performance checker</p>
+    <a href="../tools/ecograder/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Green Software Foundation</h3>
+    <p>Resources en tools voor duurzame software ontwikkeling</p>
+    <a href="../tools/green-software-foundation/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>PIANOo MVI-criteria</h3>
+    <p>Criteria voor maatschappelijk verantwoord inkopen</p>
+    <a href="../tools/pianoo-mvi-criteria/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Website Carbon Calculator</h3>
+    <p>Meet de CO2-impact van je website</p>
+    <a href="../tools/website-carbon-calculator/" class="card-link">Meer info →</a>
+</div>
+</div>
+
 ## Gerelateerde hulpmiddelen
 
 - [Duurzame en sociale doelen van de overheid](https://www.denkdoeduurzaam.nl/doelen)

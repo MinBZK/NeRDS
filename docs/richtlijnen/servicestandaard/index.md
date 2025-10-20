@@ -118,6 +118,38 @@ Door te voldoen aan de servicestandaard, leveren overheidsorganisaties diensten 
 - **Veranderingsmanagement**: Investeer in cultuurverandering en training
 - **Complexe regelgeving**: Vertaal complexiteit naar gebruiksvriendelijke ervaringen
 
+
+
+## Tools en hulpmiddelen
+
+<div class="card-grid">
+<div class="card">
+    <h3>GOV.UK Design System</h3>
+    <p>Design system van de Britse overheid</p>
+    <a href="../tools/gov-uk-design-system/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>GOV.UK Service Manual</h3>
+    <p>Britse handleiding voor bouwen van overheidsdiensten</p>
+    <a href="../tools/gov-uk-service-manual/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>GOV.UK Technology Code of Practice</h3>
+    <p>Technische standaarden voor overheidsdiensten in het VK</p>
+    <a href="../tools/gov-uk-technology-code-of-practice/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>NL Design System</h3>
+    <p>Bibliotheek van herbruikbare, toegankelijke UI-componenten voor Nederlandse overheidsdiensten</p>
+    <a href="../tools/nl-design-system/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Overheid.nl</h3>
+    <p>Centrale website met overheidsinformatie voor burgers</p>
+    <a href="../tools/overheid-nl/" class="card-link">Meer info →</a>
+</div>
+</div>
+
 ## Gerelateerde standaarden
 
 ## Gerelateerde richtlijnen

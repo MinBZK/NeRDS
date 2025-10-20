@@ -108,6 +108,88 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
 - Creëer gebruikerstoegang training en controleplannen
 - Integreer beveiligingsoverwegingen in algemene programmaplanningen
 
+
+
+## Tools en hulpmiddelen
+
+<div class="card-grid">
+<div class="card">
+    <h3>BIO Wizard</h3>
+    <p>Bepaal verplichte beveiligingsmaatregelen op basis van de Baseline Informatiebeveiliging Overheid</p>
+    <a href="../tools/bio-wizard/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Content Security Policy (CSP)</h3>
+    <p>HTTP header voor bescherming tegen XSS en data injection aanvallen</p>
+    <a href="../tools/csp/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>DPIA Formulier</h3>
+    <p>Online formulier voor gegevensbeschermingseffectbeoordeling</p>
+    <a href="../tools/dpia-formulier/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Dependabot</h3>
+    <p>Geautomatiseerde dependency updates voor GitHub repositories</p>
+    <a href="../tools/dependabot/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>DigiD</h3>
+    <p>Authenticatiemiddel voor burgers bij overheidsdiensten</p>
+    <a href="../tools/digid/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>OWASP Top 10</h3>
+    <p>Lijst van meest kritieke web applicatie security risico's</p>
+    <a href="../tools/owasp-top-10/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>OWASP ZAP</h3>
+    <p>Open source web application security scanner</p>
+    <a href="../tools/owasp-zap/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>OpenKAT</h3>
+    <p>Open source security scanning platform voor het vinden van kwetsbaarheden</p>
+    <a href="../tools/openkat/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Penetratietesten</h3>
+    <p>Professionele security testen door gespecialiseerde bedrijven</p>
+    <a href="../tools/penetratietesten/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>SSL Labs Server Test</h3>
+    <p>Test SSL/TLS configuratie van je server</p>
+    <a href="../tools/ssl-labs/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Security Headers</h3>
+    <p>Online tool voor het testen van HTTP security headers</p>
+    <a href="../tools/security-headers/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Snyk</h3>
+    <p>Developer security platform voor vulnerability scanning</p>
+    <a href="../tools/snyk/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>SonarQube</h3>
+    <p>Platform voor code kwaliteit en security analyse</p>
+    <a href="../tools/sonarqube/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>eHerkenning</h3>
+    <p>Authenticatiemiddel voor bedrijven en professionals</p>
+    <a href="../tools/eherkenning/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>eIDAS</h3>
+    <p>Europese standaard voor elektronische identificatie</p>
+    <a href="../tools/eidas/" class="card-link">Meer info →</a>
+</div>
+</div>
+
 ## Gerelateerde standaarden
 
 - [ISO 27001](https://www.forumstandaardisatie.nl/open-standaarden/nen-isoiec-27001) en [ISO 27002](https://www.forumstandaardisatie.nl/open-standaarden/nen-isoiec-27002)

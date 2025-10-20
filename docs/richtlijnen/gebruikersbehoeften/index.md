@@ -79,6 +79,28 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
 2. Begrijp gebruikersbehoeften volledig
 3. Stem technologische oplossingen af op gebruikerseisen
 
+
+
+## Tools en hulpmiddelen
+
+<div class="card-grid">
+<div class="card">
+    <h3>Gebruikersonderzoeken.nl</h3>
+    <p>Database van uitgevoerde gebruikersonderzoeken binnen de overheid</p>
+    <a href="../tools/gebruikersonderzoeken-nl/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Matomo (Piwik)</h3>
+    <p>Open source web analytics platform - privacy-vriendelijk alternatief voor Google Analytics</p>
+    <a href="../tools/matomo/" class="card-link">Meer info →</a>
+</div>
+<div class="card">
+    <h3>Onderzoeksrichtlijnen</h3>
+    <p>Toolkit en richtlijnen voor gebruikersonderzoek binnen de overheid</p>
+    <a href="../tools/onderzoeksrichtlijnen/" class="card-link">Meer info →</a>
+</div>
+</div>
+
 ## Gerelateerde hulpmiddelen
 
 - [Training gebruikersonderzoek](https://www.gebruikercentraal.nl/evenementen/)
