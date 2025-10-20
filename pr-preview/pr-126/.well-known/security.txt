@@ -1,0 +1,12 @@
+# TODO (RECOMMENDED): Wrap this file in OpenPGP cleartext signature (RFC 9116 recommends digital signatures)
+
+Contact: mailto:bureau.architectuur@minbzk.nl
+Expires: 2026-10-20T12:00:00.000Z
+Canonical: https://minbzk.github.io/NeRDS/.well-known/security.txt
+Preferred-Languages: nl, en
+
+# TODO (RECOMMENDED): Add Policy field when CVD policy is created
+# Policy: https://minbzk.github.io/NeRDS/veiligheid/vulnerability-disclosure-policy/
+
+# TODO (RECOMMENDED): Add Encryption field when PGP public key is published
+# Encryption: https://minbzk.github.io/NeRDS/.well-known/pgp-key.txt
