@@ -22,6 +22,10 @@ Toegankelijkheid gaat over het maken van diensten en systemen die door iedereen 
 
 Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg je ervoor dat je diensten voor iedereen bruikbaar zijn, ongeacht hun capaciteiten of beperkingen.
 
+## Toegankelijkheidsverklaring
+
+Meer informatie over de toegankelijkheidsverklaring van de NeRDS website is te vinden op: [Toegankelijkheidsverklaring](/toegankelijkheidsverklaring/)
+
 ## Hoe pas je het toe?
 
 <div class="direct-aan-de-slag">
