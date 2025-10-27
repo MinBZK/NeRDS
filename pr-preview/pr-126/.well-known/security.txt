@@ -12,7 +12,7 @@ Hash: SHA256
 # incidents for the Dutch central government.
 
 Expires: 2026-01-31T22:59:00.000Z
-Canonical: https://minbzk.github.io/Algoritmekader/.well-known/security.txt
+Canonical: https://minbzk.github.io/NeRDS/.well-known/security.txt
 
 Policy: https://www.ncsc.nl/contact/kwetsbaarheid-melden
 Policy: https://english.ncsc.nl/contact/reporting-a-vulnerability-cvd
