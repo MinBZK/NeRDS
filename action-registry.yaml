@@ -1,9 +1,9 @@
-name: 
-source: 
-description: 
-richtlijn: 
+name:
+source:
+description:
+richtlijn:
 action: [Verkennen, Registreren, Starten, Aanmaken, Bekijken, Aanvragen, Leren, Ontdekken]
-date_added: 
+date_added:
 status: [beschikbaar, concept, ontwikkeling]
 
 EXAMPLE:
