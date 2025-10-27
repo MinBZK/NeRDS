@@ -31,24 +31,5 @@ Door te voldoen aan de servicestandaard, leveren overheidsorganisaties diensten 
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 >Zelfassessment</h4>
-            <p >Beoordeel je dienst aan de standaard</p>
-            <button disabled class="action-button">Starten</button>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >NL Design System</h4>
-            <p >Gebruiksvriendelijke componenten</p>
-            <a href="https://nldesignsystem.nl" class="action-button" target="_blank">Verkennen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 >Service Pattern</h4>
-            <p >Gestandaardiseerde service patronen</p>
-            <button disabled class="action-button">Bekijken</button>
-        </div>
-    </div>
+    <div class="action-cards"></div>
 </div>

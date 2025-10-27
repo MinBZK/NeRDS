@@ -32,24 +32,5 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Open Data</h4>
-            <p >Het open dataportaal van de overheid</p>
-            <a href="https://data.overheid.nl/" class="action-button" target="_blank">Verkennen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 >Datacheck</h4>
-            <p >Tool voor datakwaliteitscontrole</p>
-            <button disabled class="action-button">Starten</button>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 >Synthetische Data</h4>
-            <p >Genereer veilige testdata</p>
-            <a href="https://digilab.overheid.nl/projecten/synthetische-datageneratie/" class="action-button" target="_blank">Leren</a>
-        </div>
-    </div>
+    <div class="action-cards"></div>
 </div>

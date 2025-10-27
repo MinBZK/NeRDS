@@ -31,30 +31,5 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 >Gebruikers Panel</h4>
-            <p >Toegang tot gebruikerspanel van burgers voor onderzoek</p>
-            <button disabled class="action-button">Aanvragen</button>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 >Persona Database</h4>
-            <p >Gevalideerde overheidsgebruikerspersona's</p>
-            <button disabled class="action-button">Verkennen</button>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Onderzoeksrichtlijnen</h4>
-            <p >Toolkit voor gebruikersonderzoek</p>
-            <a href="https://toolkittaal.gebruikercentraal.nl/richtlijnen/" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Gebruikersonderzoeken.nl</h4>
-            <p > Een database van uitgevoerde gebruikersonderzoeken</p>
-            <a href="https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken" class="action-button" target="_blank">Bekijken</a>
-        </div>
-    </div>
+    <div class="action-cards"></div>
 </div>
