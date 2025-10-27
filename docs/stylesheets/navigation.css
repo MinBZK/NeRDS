@@ -26,6 +26,14 @@
   text-align: center;  /* Optioneel, zorgt dat tekst gecentreerd blijft */
 }
 
+/* Only override text color on focus, let browser handle outline */
+.md-tabs__link:focus {
+  color: #FFFFFF !important; /* Keep white text on focus */
+  /* Remove any existing focus overrides */
+  outline: revert !important;
+  box-shadow: revert !important;
+}
+
 /* Header Styling */
 .md-header {
   background-color: white;
