@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="refresh" content="0;url=https://www.ncsc.nl/.well-known/security.txt">
+</head>
+<body>
+    <a href="https://www.ncsc.nl/.well-known/security.txt">security.txt</a>
+</body>
+</html>
