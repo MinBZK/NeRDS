@@ -51,7 +51,12 @@ nav:
       - 14. Servicestandaard: richtlijnen/servicestandaard/index.md
   - Over NeRDS:
       - Over-NeRDS/index.md
-      - Bijdragen: Over-NeRDS/CONTRIBUTING.md
+      - Contact en bijdragen: Over-NeRDS/CONTRIBUTING.md
+      - Toegankelijkheid: Over-NeRDS/toegankelijkheid.md
+      - Privacy: Over-NeRDS/privacy.md
+      - Copyright: Over-NeRDS/copyright.md
+      - Cookies: Over-NeRDS/cookies.md
+      - Kwetsbaarheid melden: Over-NeRDS/kwetsbaarheid-melden.md
 
 # Extra opties
 markdown_extensions:
@@ -125,3 +130,7 @@ plugins:
 repo_url: https://github.com/MinBZK/NeRDS
 site_url: https://minbzk.github.io/NeRDS/
 edit_uri: edit/main/docs/
+
+
+hooks:
+  - src/overrides/hooks/security_txt.py
