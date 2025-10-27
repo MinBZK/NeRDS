@@ -33,21 +33,9 @@ Door een cloud-gedreven strategie met aandacht voor soevereiniteit te hanteren, 
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 >Rijkscloud</h4>
-            <p >Soevereine cloud voor overheidsorganisaties</p>
-            <button disabled class="action-button">Aanvragen</button>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4>Kubernetes Service</h4>
-            <p>Beheerde K8s met compliance</p>
-            <button id="open-cluster-form" class="action-button">Cluster aanmaken</button>
-        </div>
+    <div class="action-cards"></div>
 
-        <!-- Cluster Modal -->
+    <!-- Cluster Modal -->
         <div id="modal-overlay" class="cluster-modal-overlay"></div>
         <div id="cluster-modal" class="cluster-modal">
             <div class="cluster-modal-header">
