@@ -131,6 +131,6 @@ repo_url: https://github.com/MinBZK/NeRDS
 site_url: https://minbzk.github.io/NeRDS/
 edit_uri: edit/main/docs/
 
-
 hooks:
+  - src/overrides/hooks/action_registry.py
   - src/overrides/hooks/security_txt.py
