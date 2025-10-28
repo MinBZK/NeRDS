@@ -32,9 +32,9 @@ Door een cloud-gedreven strategie met aandacht voor soevereiniteit te hanteren, 
     <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
-</div>
 
-<div class="action-cards"></div>
+    <div class="action-cards"></div>
+</div>
 
 <!-- Kubernetes Cluster Form Modal -->
 <div id="modal-overlay" class="cluster-modal-overlay"></div>
