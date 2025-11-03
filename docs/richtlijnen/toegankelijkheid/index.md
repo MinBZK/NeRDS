@@ -50,9 +50,9 @@ Meer informatie over de toegankelijkheidsverklaring van de NeRDS website is te v
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >WCAG-EM Reporter</h4>
+            <h4 >WCAG-EM Report Tool</h4>
             <p >Tool voor het maken van toegankelijkheidsrapporten</p>
-            <a href="https://gitlab.com/digilab.overheid.nl/ecosystem/wcag-em-reporter" class="action-button" target="_blank">Gebruiken</a>
+            <a href="https://www.w3.org/WAI/eval/report-tool/" class="action-button" target="_blank">Gebruiken</a>
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
