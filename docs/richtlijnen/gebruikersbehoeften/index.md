@@ -86,15 +86,11 @@ Meet de ervaring van je gebruikers. Luister naar feedback, trek les daaruit en v
 - [Toolkit Gebruikersonderzoek](https://toolkittaal.gebruikercentraal.nl/richtlijnen/) - Richtlijnen en templates voor onderzoeksprojecten
 - [Gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl/) - Leer van bevindingen van andere overheidsdiensten
 
-#### Voor het meten van klantbeleving
-- [Meethuis voor dienstverlening](https://www.gebruikercentraal.nl/overheidsbreed-meethuis-voor-dienstverlening/) - Framework voor het meten van klantbeleving, tevredenheid en vertrouwen
-
-
 #### Trainingen en methodieken
 - [Training Gebruikersonderzoek](https://www.gebruikercentraal.nl/evenementen/)
 - [Klantreizen bij de overheid](https://www.gebruikercentraal.nl/hulpmiddelen/klantreizen-bij-de-overheid/) - Trainingen en coaching voor het in kaart brengen van klantreizen
 - [Universeel Service Management](https://usmwiki.com/index.php/Main_Page) - International framework voor servicemanagement
-- [Handreiking Mobiele app Ontwikkeling en Beheer versie 4.0](https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf) - Hoofdstuk 8: "De gebruiker staat centraal"
+- [Handreiking Mobiele app Ontwikkeling en Beheer versie 4.0](https://www.noraonline.nl/images/noraonline/9/94/Handreiking_appontwikkeling_en_beheer_5.0.pdf) - Hoofdstuk 8: "De gebruiker staat centraal"
 
 #### Boeken
 - **Outside In** - Harley Manning, Kerry Bodine - Zes pijlers van Customer Experience waaronder het begrijpen van de gebruiker
