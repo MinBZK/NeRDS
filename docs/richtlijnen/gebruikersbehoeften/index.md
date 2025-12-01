@@ -40,6 +40,12 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
         </div>
         <div class="action-card">
             <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
+            <h4 >CX-Volwassenheidsscan</h4>
+            <p >Handboek Voor het transformeren naar klantgedreven werken</p>
+            <a href="https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/07/Handboek-voor-het-uitvoeren-van-een-CV-Volwassenheidsscan.pdf" class="action-button" target="_blank">Gebruiken</a>
+        </div>
+        <div class="action-card">
+            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
             <h4 >Gebruikersonderzoeken.nl</h4>
             <p >Leer van andere onderzoeken en deel je bevindingen</p>
             <a href="https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken" class="action-button" target="_blank">Bekijken</a>
@@ -58,7 +64,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
 ### 1. Begrijpen
 Begrijp je gebruikers dieper dan alleen hun oppervlakkige behoeften. Kijk naar hun emoties, gedrag, situatie en context. Dit vormt de basis voor effectief ontwerp.
 
-??? expander "Praktische aanbevelingen"
+??? expander "Praktische tips"
     - **Begin met het doel** - Zorg dat je onderzoeksmethode aansluit bij wat je werkelijk moet leren voordat je een plan maakt.
     - **Geen aannames** - Baseer bevindingen op werkelijke data van gebruikers, niet op veronderstelde behoeften van het team.
     - **Ga naar de gebruiker toe** - Observeer gebruikers in hun eigen omgeving en context om hun werkelijke situatie te begrijpen.
@@ -67,7 +73,7 @@ Begrijp je gebruikers dieper dan alleen hun oppervlakkige behoeften. Kijk naar h
 ### 2. Ontwerpen
 Ontwerp met gebruikers in gedachte. Gebruik inzichten om gebruikersgericht ontwerp toe te passen, van wireframes tot klantreizen. Test alternatieven met echte gebruikers.
 
-??? expander "Praktische aanbevelingen"
+??? expander "Praktische tips"
     - **Test alternatieven** - Evalueer verschillende oplossingen (bijvoorbeeld twee verschillende interfaces) met gebruikers in plaats van slechts één voorstel.
     - **Zet het in de definition of done** - Maak gebruikersonderzoek verplicht onderdeel van je proces.
 
@@ -75,7 +81,7 @@ Ontwerp met gebruikers in gedachte. Gebruik inzichten om gebruikersgericht ontwe
 ### 3. Meten
 Meet de ervaring van je gebruikers. Luister naar feedback, trek les daaruit en verbeter continu. Dit helpt je inzien of je organisatie echt gebruikersgericht werkt.
 
-??? expander "Praktische aanbevelingen"
+??? expander "Praktische tips"
     - **Laat bestuurders meekijken** - Zorg dat stakeholders onderzoek mee volgen zodat iedereen dezelfde gebruikersinzichten heeft.
     - **Deel resultaten** - Publiceer inzichten op gebruikersonderzoeken.nl zodat andere organisaties ervan kunnen leren.
     - **Blijf flexibel** - Pas je onderzoeksmethode aan naarmate je meer leert.
@@ -85,7 +91,7 @@ Meet de ervaring van je gebruikers. Luister naar feedback, trek les daaruit en v
 
 #### Trainingen en methodieken
 - [Training Gebruikersonderzoek](https://www.gebruikercentraal.nl/evenementen/) - Vakinhoudelijke sessies, bijeenkomsten van community’s en andere interessante events van Gebruiker Centraal
-- [Overheidsbreed meethuis voor dienstverlening](https://www.gebruikercentraal.nl/overheidsbreed-meethuis-voor-dienstverlening/) - Naast het handboek (hierboven bij de direct aan de slag genoemd) is er ook een Gebruiker Centraal pagina met meethuis-canvas, voorbeeldvragenlijsten en begeleiding.
+- [Overheidsbreed meethuis voor dienstverlening](https://www.gebruikercentraal.nl/overheidsbreed-meethuis-voor-dienstverlening/) - Naast het handboek dat hierboven bij 'direct aan de slag' staat vermeld, vind je op de website van Gebruiker Centraal ook een meethuis-canvas, voorbeeldvragenlijsten en begeleiding
 - [Klantreizen bij de overheid](https://www.gebruikercentraal.nl/hulpmiddelen/klantreizen-bij-de-overheid/) - Trainingen en coaching voor het in kaart brengen van klantreizen
 - [Universeel Service Management](https://usmwiki.com/index.php/Main_Page) - International framework voor servicemanagement
 - [Handreiking Mobiele app Ontwikkeling en Beheer versie 4.0](https://www.noraonline.nl/images/noraonline/9/94/Handreiking_appontwikkeling_en_beheer_5.0.pdf) - Hoofdstuk 8: "De gebruiker staat centraal"
