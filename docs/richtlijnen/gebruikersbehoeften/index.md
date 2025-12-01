@@ -71,7 +71,7 @@ Begrijp je gebruikers dieper dan alleen hun oppervlakkige behoeften. Kijk naar h
     - **Houd het simpel** - Kies voor eenvoudige onderzoeksmethoden zoals interviews, observatie of vragenlijsten omdat complexe methoden implementatie kunnen vertragen.
 
 ### 2. Ontwerpen
-Ontwerp met gebruikers in gedachte. Gebruik inzichten om gebruikersgericht ontwerp toe te passen, van wireframes tot klantreizen. Test alternatieven met echte gebruikers.
+Ontwerp met gebruikers in gedachte. Gebruik inzichten om gebruikersgericht ontwerp toe te passen, van wireframes tot klantreizen. 
 
 ??? expander "Praktische tips"
     - **Test alternatieven** - Evalueer verschillende oplossingen (bijvoorbeeld twee verschillende interfaces) met gebruikers in plaats van slechts één voorstel.
