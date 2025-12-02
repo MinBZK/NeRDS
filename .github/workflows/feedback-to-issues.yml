@@ -99,23 +99,19 @@ jobs:
             const title = `[Feedback] ${feedbackType.replace(/_/g, ' ')} - ${pageTitle.substring(0, 60)}`;
 
             // Create issue body
-            const body = `## Page Information
-- **URL:** \`${pageUrl}\`
-- **Title:** ${pageTitle}
-- **Feedback Type:** ${feedbackType.replace(/_/g, ' ')}
-
-## From
-- **Name:** ${userName}
-- **Email:** ${userEmail}
-
-## Feedback
-${feedbackText}
-
----
-
-**Reference ID:** \`${referenceId}\`
-**Submitted:** ${new Date(timestamp).toLocaleString()}
-**User Agent:** ${feedback.user_agent || 'unknown'}`;
+            let body = '## Page Information\n';
+            body += `- **URL:** ${pageUrl}\n`;
+            body += `- **Title:** ${pageTitle}\n`;
+            body += `- **Feedback Type:** ${feedbackType.replace(/_/g, ' ')}\n\n`;
+            body += '## From\n';
+            body += `- **Name:** ${userName}\n`;
+            body += `- **Email:** ${userEmail}\n\n`;
+            body += '## Feedback\n';
+            body += `${feedbackText}\n\n`;
+            body += '---\n\n';
+            body += `**Reference ID:** ${referenceId}\n`;
+            body += `**Submitted:** ${new Date(timestamp).toLocaleString()}\n`;
+            body += `**User Agent:** ${feedback.user_agent || 'unknown'}`;
 
             // Create the issue
             const issue = await github.rest.issues.create({
