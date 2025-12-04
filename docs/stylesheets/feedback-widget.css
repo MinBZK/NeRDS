@@ -101,6 +101,13 @@
   color: #154273;
 }
 
+.feedback-widget__guideline {
+  margin: 8px 0 0 0;
+  font-size: 13px;
+  color: #666;
+  font-weight: 400;
+}
+
 .feedback-widget__close {
   background: none;
   border: none;

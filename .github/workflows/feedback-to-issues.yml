@@ -94,12 +94,25 @@ jobs:
             const userName = feedback.user_name || 'Anonymous';
             const userEmail = feedback.user_email || 'no-email@example.com';
             const timestamp = feedback.timestamp || new Date().toISOString();
+            const guidelineNumber = feedback.guideline_number || null;
+            const guidelineName = feedback.guideline_name || 'Unknown';
 
-            // Create issue title
-            const title = `[Feedback] ${feedbackType.replace(/_/g, ' ')} - ${pageTitle.substring(0, 60)}`;
+            // Create issue title with guideline info
+            let title = `[Feedback] ${feedbackType.replace(/_/g, ' ')}`;
+            if (guidelineNumber) {
+              title += ` - Richtlijn ${guidelineNumber}`;
+            }
+            title += ` - ${pageTitle.substring(0, 50)}`;
 
             // Create issue body
-            let body = '## Page Information\n';
+            let body = '## Guideline Information\n';
+            if (guidelineNumber) {
+              body += `- **Number:** ${guidelineNumber}\n`;
+              body += `- **Name:** ${guidelineName}\n\n`;
+            } else {
+              body += '- **Number:** Unknown\n\n';
+            }
+            body += '## Page Information\n';
             body += `- **URL:** ${pageUrl}\n`;
             body += `- **Title:** ${pageTitle}\n`;
             body += `- **Feedback Type:** ${feedbackType.replace(/_/g, ' ')}\n\n`;
@@ -113,13 +126,19 @@ jobs:
             body += `**Submitted:** ${new Date(timestamp).toLocaleString()}\n`;
             body += `**User Agent:** ${feedback.user_agent || 'unknown'}`;
 
+            // Add guideline label if available
+            const labels = [label, 'feedback'];
+            if (guidelineNumber) {
+              labels.push(`richtlijn-${guidelineNumber}`);
+            }
+
             // Create the issue
             const issue = await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: title,
               body: body,
-              labels: [label, 'feedback'],
+              labels: labels,
             });
 
             core.setOutput('issue_number', issue.data.number);

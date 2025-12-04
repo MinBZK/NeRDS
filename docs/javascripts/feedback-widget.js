@@ -57,6 +57,81 @@
     }
 
     /**
+     * Detect current guideline from URL path
+     */
+    detectCurrentGuideline() {
+      const pathname = window.location.pathname;
+
+      // Extract guideline name from URL (e.g., /richtlijnen/gebruikersbehoeften/)
+      const match = pathname.match(/\/richtlijnen\/([a-z-]+)\//);
+      if (!match || !match[1]) {
+        return null;
+      }
+
+      // Map URL slug to guideline number
+      const guidelineMap = {
+        'gebruikersbehoeften': 1,
+        'toegankelijkheid': 2,
+        'open-source': 3,
+        'open-standaarden': 4,
+        'cloud': 5,
+        'veiligheid': 6,
+        'privacy': 7,
+        'samenwerking': 8,
+        'integratie': 9,
+        'data': 10,
+        'algoritmen': 11,
+        'inkoop': 12,
+        'duurzaamheid': 13,
+        'servicestandaard': 14,
+      };
+
+      const number = guidelineMap[match[1]];
+      if (!number) {
+        return null;
+      }
+
+      return {
+        slug: match[1],
+        number: number,
+      };
+    }
+
+    /**
+     * Get guideline display name
+     */
+    getGuidelineDisplayName(guideline) {
+      if (!guideline || !window.feedbackI18n) {
+        return null;
+      }
+      const key = `guideline.${guideline.number}`;
+      return window.feedbackI18n.get(key);
+    }
+
+    /**
+     * Display guideline in widget header
+     */
+    displayGuideline() {
+      const guideline = this.detectCurrentGuideline();
+      if (!guideline) {
+        return;
+      }
+
+      const guidelineElement = document.getElementById('feedback-guideline');
+      if (!guidelineElement) {
+        return;
+      }
+
+      const displayName = this.getGuidelineDisplayName(guideline);
+      if (!displayName) {
+        return;
+      }
+
+      const label = window.feedbackI18n ? window.feedbackI18n.get('guideline.label') : 'Feedback over: ';
+      guidelineElement.textContent = label + displayName;
+    }
+
+    /**
      * Set up all event listeners
      */
     setupEventListeners() {
@@ -110,6 +185,9 @@
       this.panel.hidden = false;
       this.isOpen = true;
       this.toggle.setAttribute('aria-expanded', 'true');
+
+      // Display guideline information
+      this.displayGuideline();
 
       // Focus on first input
       const firstInput = this.form.querySelector('select, textarea, input[type="text"], input[type="email"]');
@@ -271,6 +349,14 @@
       const pageUrl = window.location.pathname;
       const pageTitle = document.querySelector('h1')?.textContent || document.title;
 
+      // Get guideline information
+      const guideline = this.detectCurrentGuideline();
+      const guidelineInfo = guideline ? {
+        guideline_number: guideline.number,
+        guideline_slug: guideline.slug,
+        guideline_name: this.getGuidelineDisplayName(guideline),
+      } : {};
+
       return {
         feedback_type: feedbackType,
         feedback_text: feedbackText,
@@ -281,6 +367,7 @@
         timestamp: new Date().toISOString(),
         user_agent: navigator.userAgent,
         referrer: document.referrer || 'direct',
+        ...guidelineInfo,
       };
     }
 
