@@ -4,7 +4,6 @@ summary: Begrijp je gebruikers en hun behoeften. Ontwikkel kennis over je gebrui
 relations:
   - toegankelijkheid
   - privacy
-  - servicestandaard
 ---
 
 # 1. Stel gebruikersbehoeften vast

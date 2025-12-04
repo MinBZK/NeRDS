@@ -67,7 +67,7 @@ function initLandingPage() {
 
 <div class="hero-section">
   <h1>Nederlandse Richtlijn Digitale Systemen <span class="nerds-acronym">(NeRDS)</span></h1>
-  <p class="hero-subtitle">Een set standaarden, richtlijnen en praktische hulpmiddelen voor het verantwoord ontwikkelen, inkopen en gebruiken van digitale systemen binnen de Nederlandse overheid.</p>
+  <p class="hero-subtitle">Een set standaarden, richtlijnen en praktische hulpmiddelen voor het verantwoord ontwerpen, ontwikkelen en inkopen van digitale systemen binnen de Nederlandse overheid.</p>
 
   <div class="version-badge">
     <span class="version-label">Versie 0.1</span>
@@ -183,12 +183,6 @@ function initLandingPage() {
     ---
 
     Verhoog duurzaamheid gedurende de hele levenscyclus van je technologie.
-
-- :material-check-all:{ .lg .middle } __14. [Voldoe aan de servicestandaard](richtlijnen/servicestandaard/index.md)__
-
-    ---
-
-    Als je een dienst bouwt als onderdeel van je technologieproject of -programma, moet je ook voldoen aan de Servicestandaard.
 
 </div>
 
