@@ -87,7 +87,6 @@ De Nederlandse Richtlijn Digitale Systemen (NeRDS) is gebaseerd op een set richt
 
     Verhoog duurzaamheid gedurende de hele levenscyclus van je technologie.
 
-
 </div>
 
 Deze richtlijnen zijn gebaseerd op internationale best practices en aangepast aan de Nederlandse context. Ze helpen overheidsorganisaties bij het ontwikkelen van digitale systemen die gebruikersgericht, toegankelijk, veilig, duurzaam en kosteneffectief zijn.

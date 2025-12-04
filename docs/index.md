@@ -184,7 +184,6 @@ function initLandingPage() {
 
     Verhoog duurzaamheid gedurende de hele levenscyclus van je technologie.
 
-
 </div>
 
 <div class="cta-section">
