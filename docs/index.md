@@ -67,7 +67,7 @@ function initLandingPage() {
 
 <div class="hero-section">
   <h1>Nederlandse Richtlijn Digitale Systemen <span class="nerds-acronym">(NeRDS)</span></h1>
-  <p class="hero-subtitle">Een set standaarden, richtlijnen en praktische hulpmiddelen voor het verantwoord ontwikkelen, inkopen en gebruiken van digitale systemen binnen de Nederlandse overheid.</p>
+  <p class="hero-subtitle">Een set standaarden, richtlijnen en praktische hulpmiddelen voor het verantwoord ontwerpen, ontwikkelen en inkopen van digitale systemen binnen de Nederlandse overheid.</p>
 
   <div class="version-badge">
     <span class="version-label">Versie 0.1</span>
