@@ -18,7 +18,7 @@ Privacy is een fundamenteel recht dat vanaf het begin moet worden ingebouwd in d
 - **Vertrouwen opbouwen**: Burgers vertrouwen systemen die hun privacy respecteren
 - **Risicovermindering**: Voorkom datalekken en privacyschendingen (zie [Maak veilige systemen](../veiligheid/index.md))
 - **Ethische verantwoordelijkheid**: Respecteer de rechten en waardigheid van individuen
-- **Goede dienstverlening**: Privacy-vriendelijke systemen zijn vaak gebruiksvriendelijker (zie [Voldoe aan de servicestandaard](../servicestandaard/index.md))
+- **Goede dienstverlening**: Privacy-vriendelijke systemen zijn vaak gebruiksvriendelijker
 - **Kosteneffectiviteit**: Voorkom dure boetes en herstelkosten door privacy vanaf het begin in te bouwen
 - **Datakwaliteit**: Privacy by design leidt vaak tot betere, meer nauwkeurige gegevensverzameling
 

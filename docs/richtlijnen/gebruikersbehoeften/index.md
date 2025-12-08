@@ -112,4 +112,3 @@ Meet de ervaring van je gebruikers. Luister naar feedback, trek les daaruit en v
 
 - [2. Zorg voor toegankelijkheid en inclusie](../toegankelijkheid/index.md)
 - [7. Maak privacy integraal](../privacy/index.md)
-- [14. Voldoe aan de servicestandaard](../servicestandaard/index.md)

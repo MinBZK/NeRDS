@@ -124,4 +124,3 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
 
 - [1. Stel gebruikersbehoeften vast](../gebruikersbehoeften/index.md)
 - [4. Gebruik open standaarden](../open-standaarden/index.md)
-- [14. Voldoe aan de servicestandaard](../servicestandaard/index.md)

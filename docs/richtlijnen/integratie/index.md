@@ -111,4 +111,3 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
 
 - [4. Gebruik open standaarden](../open-standaarden/index.md)
 - [8. Deel, hergebruik en werk samen](../samenwerking/index.md)
-- [14. Voldoe aan de servicestandaard](../servicestandaard/index.md)
