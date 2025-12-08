@@ -5,6 +5,7 @@ The Action Registry is a centralized system for managing all available actions a
 ## How it works
 
 ### 1. Central Registry (`actions.yaml`)
+
 All actions are defined in a single YAML file with the following structure:
 
 ```yaml
@@ -20,14 +21,18 @@ actions:
     status: beschikbaar  # beschikbaar, concept, or ontwikkeling
     component: optional-component-id  # Only for form type actions
 ```
+
 ### 2. Automatic Filtering
+
 The `action_registry.py` hook automatically:
+
 - Detects which guideline page is being built (from the file path)
 - Filters actions matching that guideline's `richtlijn` field
 - Generates action cards with proper styling and buttons
 - Injects HTML into the `<div class="action-cards"></div>` placeholder
 
 ### 3. How to add actions to a page
+
 Simply add this placeholder to any guideline's `index.md`:
 
 ```html
@@ -75,4 +80,4 @@ The `action-registry-schema.json` defines the exact structure. You can validate 
 - **Hook**: `src/overrides/hooks/action_registry.py`
 - **Hook trigger**: Runs on every page build (`on_page_content`)
 - **Pattern matching**: Finds and replaces `<div class="action-cards"></div>`
- - **Form components**: Special handling for form-type actions with custom JavaScript
+- **Form components**: Special handling for form-type actions with custom JavaScript
