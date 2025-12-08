@@ -68,7 +68,7 @@
   /* Position above the button */
   /* Button is at bottom: 20px, right: 20px */
   bottom: auto;
-  top: 20px;
+  top: 80px;
   right: 20px;
   max-width: calc(100vw - 40px);
 }
