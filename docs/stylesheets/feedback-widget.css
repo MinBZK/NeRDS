@@ -70,7 +70,6 @@
   bottom: auto;
   top: 80px;
   right: 20px;
-  max-width: calc(100vw - 40px);
 }
 
 @keyframes slideUp {
@@ -479,30 +478,14 @@
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-  .feedback-widget {
-    bottom: 16px;
-    right: 16px;
-  }
-
-  .feedback-widget__panel {
-    width: 320px;
-    max-width: calc(100vw - 400px);
-  }
-}
-
 @media (max-width: 480px) {
   .feedback-widget {
     bottom: 16px;
     right: 16px;
-    left: auto;
-    flex-direction: column-reverse;
-    gap: 8px;
   }
 
   .feedback-widget__panel {
     width: calc(100vw - 32px);
-    max-width: none;
   }
 
   .feedback-widget__button {
