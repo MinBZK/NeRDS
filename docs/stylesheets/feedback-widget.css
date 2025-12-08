@@ -65,10 +65,11 @@
   max-height: 85vh;
   overflow-y: auto;
   z-index: 998;
-  /* Position above and to the left of the button */
-  /* Button is at bottom: 20px, right: 20px, height ~48px, width ~180px */
-  bottom: calc(20px + 48px + 8px);
-  right: calc(20px + 180px + 8px);
+  /* Position above the button */
+  /* Button is at bottom: 20px, right: 20px */
+  bottom: auto;
+  top: 20px;
+  right: 20px;
   max-width: calc(100vw - 40px);
 }
 
