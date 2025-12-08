@@ -3,7 +3,6 @@ title: "9. Integreer en pas technologie aan"
 summary: Je technologie moet werken met bestaande technologieën, processen en infrastructuur in je organisatie.
 relations:
   - open-standaarden
-  - servicestandaard
   - samenwerking
 ---
 

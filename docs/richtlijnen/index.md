@@ -5,7 +5,7 @@ summary: De richtlijnen van de Nederlandse Richtlijn Digitale Systemen
 
 # De NeRDS
 
-De Nederlandse Richtlijn Digitale Systemen (NeRDS) is gebaseerd op een set richtlijnen die richting geven aan het ontwerpen, ontwikkelen en implementeren van digitale systemen binnen de Nederlandse overheid.
+De Nederlandse Richtlijn Digitale Systemen (NeRDS) is gebaseerd op een set richtlijnen die richting geven aan het ontwerpen, ontwikkelen en inkopen van digitale systemen binnen de Nederlandse overheid.
 
 <div class="grid cards" markdown>
 
@@ -86,12 +86,6 @@ De Nederlandse Richtlijn Digitale Systemen (NeRDS) is gebaseerd op een set richt
     ---
 
     Verhoog duurzaamheid gedurende de hele levenscyclus van je technologie.
-
-- :material-check-all:{ .lg .middle } __14. [Voldoe aan de servicestandaard](servicestandaard/index.md)__
-
-    ---
-
-    Als je een dienst bouwt als onderdeel van je technologieproject of -programma, moet je ook voldoen aan de Servicestandaard.
 
 </div>
 

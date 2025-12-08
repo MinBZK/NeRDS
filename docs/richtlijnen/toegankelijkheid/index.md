@@ -3,7 +3,6 @@ title: "2. Zorg voor toegankelijkheid en inclusie"
 summary: Zorg ervoor dat je technologie, infrastructuur en systemen toegankelijk en inclusief zijn voor alle gebruikers.
 relations:
   - gebruikersbehoeften
-  - servicestandaard
   - open-standaarden
 ---
 
