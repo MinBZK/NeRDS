@@ -41,6 +41,7 @@ window.feedbackI18n = {
 
       // Guideline labels
       'guideline.label': 'Feedback over: ',
+      'guideline.0': 'Over de NeRDS in het algemeen',
       'guideline.1': '1. Gebruikersbehoeften',
       'guideline.2': '2. Toegankelijkheid',
       'guideline.3': '3. Open Source',
@@ -54,7 +55,6 @@ window.feedbackI18n = {
       'guideline.11': '11. Algoritmen',
       'guideline.12': '12. Inkoopstrategie',
       'guideline.13': '13. Duurzaamheid',
-      'guideline.14': '14. Servicestandaard',
 
       // Form buttons
       'button.submit': 'Feedback verzenden',
