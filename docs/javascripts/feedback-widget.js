@@ -68,7 +68,17 @@
 
       // Extract guideline name from URL (e.g., /richtlijnen/gebruikersbehoeften/)
       const match = pathname.match(/\/richtlijnen\/([a-z-]+)\//);
+
+      // If no specific guideline in URL (e.g., /richtlijnen/ or /richtlijnen/index)
+      // select "Over de NeRDS in het algemeen"
       if (!match || !match[1]) {
+        // Check if we're at least on a richtlijnen page
+        if (pathname.includes('/richtlijnen/')) {
+          return {
+            slug: null,
+            number: 0,
+          };
+        }
         return null;
       }
 
@@ -117,6 +127,7 @@
      */
     getGuidelineSlugFromNumber(number) {
       const slugMap = {
+        0: 'algemeen',
         1: 'gebruikersbehoeften',
         2: 'toegankelijkheid',
         3: 'open-source',
