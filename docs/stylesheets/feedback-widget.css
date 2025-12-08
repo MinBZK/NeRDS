@@ -65,11 +65,11 @@
   max-height: 85vh;
   overflow-y: auto;
   z-index: 998;
-  /* Position above the button */
-  /* Button is at bottom: 20px, right: 20px */
-  bottom: auto;
-  top: 80px;
+  /* Position just above the button */
+  /* Button is at bottom: 20px, right: 20px, height ~48px */
+  bottom: calc(20px + 48px + 8px);
   right: 20px;
+  top: auto;
 }
 
 @keyframes slideUp {
