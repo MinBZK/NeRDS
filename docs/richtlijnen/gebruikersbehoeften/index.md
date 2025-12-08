@@ -4,7 +4,6 @@ summary: Begrijp je gebruikers en hun behoeften. Ontwikkel kennis over je gebrui
 relations:
   - toegankelijkheid
   - privacy
-  - servicestandaard
 ---
 
 # 1. Stel gebruikersbehoeften vast
@@ -62,6 +61,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
 ## Drie kernpijlers voor het vaststellen van gebruikersbehoefte
 
 ### 1. Begrijpen
+
 Begrijp je gebruikers dieper dan alleen hun oppervlakkige behoeften. Kijk naar hun emoties, gedrag, situatie en context. Dit vormt de basis voor effectief ontwerp.
 
 ??? expander "Praktische tips"
@@ -71,14 +71,15 @@ Begrijp je gebruikers dieper dan alleen hun oppervlakkige behoeften. Kijk naar h
     - **Houd het simpel** - Kies voor eenvoudige onderzoeksmethoden zoals interviews, observatie of vragenlijsten omdat complexe methoden implementatie kunnen vertragen.
 
 ### 2. Ontwerpen
-Ontwerp met gebruikers in gedachte. Gebruik inzichten om gebruikersgericht ontwerp toe te passen, van wireframes tot klantreizen. 
+
+Ontwerp met gebruikers in gedachte. Gebruik inzichten om gebruikersgericht ontwerp toe te passen, van wireframes tot klantreizen.
 
 ??? expander "Praktische tips"
     - **Test alternatieven** - Evalueer verschillende oplossingen (bijvoorbeeld twee verschillende interfaces) met gebruikers in plaats van slechts één voorstel.
     - **Zet het in de definition of done** - Maak gebruikersonderzoek verplicht onderdeel van je proces.
 
-
 ### 3. Meten
+
 Meet de ervaring van je gebruikers. Luister naar feedback, trek les daaruit en verbeter continu. Dit helpt je inzien of je organisatie echt gebruikersgericht werkt.
 
 ??? expander "Praktische tips"
@@ -86,10 +87,10 @@ Meet de ervaring van je gebruikers. Luister naar feedback, trek les daaruit en v
     - **Deel resultaten** - Publiceer inzichten op gebruikersonderzoeken.nl zodat andere organisaties ervan kunnen leren.
     - **Blijf flexibel** - Pas je onderzoeksmethode aan naarmate je meer leert.
 
-
 ## Gerelateerde hulpmiddelen
 
 #### Trainingen en methodieken
+
 - [Training Gebruikersonderzoek](https://www.gebruikercentraal.nl/evenementen/) - Vakinhoudelijke sessies, bijeenkomsten van community’s en andere interessante events van Gebruiker Centraal
 - [Overheidsbreed meethuis voor dienstverlening](https://www.gebruikercentraal.nl/overheidsbreed-meethuis-voor-dienstverlening/) - Naast het handboek dat hierboven bij 'direct aan de slag' staat vermeld, vind je op de website van Gebruiker Centraal ook een meethuis-canvas, voorbeeldvragenlijsten en begeleiding
 - [Klantreizen bij de overheid](https://www.gebruikercentraal.nl/hulpmiddelen/klantreizen-bij-de-overheid/) - Trainingen en coaching voor het in kaart brengen van klantreizen
@@ -97,12 +98,14 @@ Meet de ervaring van je gebruikers. Luister naar feedback, trek les daaruit en v
 - [Handreiking Mobiele app Ontwikkeling en Beheer versie 4.0](https://www.noraonline.nl/images/noraonline/9/94/Handreiking_appontwikkeling_en_beheer_5.0.pdf) - Hoofdstuk 8: "De gebruiker staat centraal"
 
 #### Boeken
+
 - **Outside In** - Harley Manning, Kerry Bodine - Zes pijlers van Customer Experience waaronder het begrijpen van de gebruiker
 - **Customer Understanding** - Annette Franz - Diepgaand begrijpen van gebruikers, emoties en behoeften
 - **The Mom Test** - Hoe je echte gebruikersinzichten verzamelt in plaats van oppervlakkige meningen
 
 #### Beleid en standaarden
-- [ISO 11367 Excellente dienstverlening](https://www.nen.nl/iso-11367-2025-en-334528) - Principes en model voor publieke dienstverlening. Voor rijksambtenaren kunnen ISO-normen [hier](https://www.lees-rijk.nl/user/login?destination=search) worden geraadpleegd. 
+
+- [ISO 11367 Excellente dienstverlening](https://www.nen.nl/iso-11367-2025-en-334528) - Principes en model voor publieke dienstverlening. Voor rijksambtenaren kunnen ISO-normen [hier](https://www.lees-rijk.nl/user/login?destination=search) worden geraadpleegd.
 - [Digitale inclusie](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/) - Overheidsrichtlijnen voor digitale toegankelijkheid.
 
 ## Gerelateerde richtlijnen
