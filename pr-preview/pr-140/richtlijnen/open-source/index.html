@@ -1235,19 +1235,18 @@
 
 
                 
-  <div class="feedback-widget" id="feedback-widget" data-guideline-page="true">
+  
+    <div class="feedback-widget" id="feedback-widget" data-guideline-page="true">
   <button class="feedback-widget__toggle" id="feedback-toggle" aria-expanded="false" aria-label="Feedback formulier openen">
-    <span class="feedback-widget__toggle-icon">💬</span>
-    <span class="feedback-widget__toggle-text">Feedback</span>
+    <span class="feedback-widget__toggle-text">Feedback over de NeRDS?</span>
   </button>
 
   <div class="feedback-widget__panel" id="feedback-panel" role="region" aria-labelledby="feedback-title" hidden>
     <div class="feedback-widget__header">
       <div>
         <h2 id="feedback-title" class="feedback-widget__title">Feedback geven</h2>
-        <p id="feedback-guideline" class="feedback-widget__guideline"></p>
       </div>
-      <button class="feedback-widget__close" id="feedback-close" aria-label="Feedback formulier sluiten">
+      <button class="feedback-widget__close" id="feedback-close" aria-label="Feedback formulier sluiten (Escape toets)" title="Sluiten (Escape toets)">
         <span aria-hidden="true">×</span>
       </button>
     </div>
@@ -1256,6 +1255,32 @@
       <p class="feedback-widget__instructions">
         Helpt u ons door uw feedback te delen? We gebruiken dit om NeRDS te verbeteren.
       </p>
+
+      <!-- Guideline Selection Field -->
+      <div class="feedback-widget__field">
+        <label for="feedback-guideline" class="feedback-widget__label">
+          Welke richtlijn betreft dit?
+          <span class="feedback-widget__optional" aria-label="optioneel">(optioneel)</span>
+        </label>
+        <select id="feedback-guideline" name="feedback_guideline" class="feedback-widget__select" aria-describedby="feedback-guideline-error">
+          <option value="">-- Alle richtlijnen --</option>
+          <option value="0">Over de NeRDS in het algemeen</option>
+          <option value="1">1. Gebruikersbehoeften</option>
+          <option value="2">2. Toegankelijkheid</option>
+          <option value="3">3. Open Source</option>
+          <option value="4">4. Open Standaarden</option>
+          <option value="5">5. Cloud</option>
+          <option value="6">6. Veiligheid</option>
+          <option value="7">7. Privacy</option>
+          <option value="8">8. Samenwerking</option>
+          <option value="9">9. Integratie</option>
+          <option value="10">10. Data</option>
+          <option value="11">11. Algoritmen</option>
+          <option value="12">12. Inkoopstrategie</option>
+          <option value="13">13. Duurzaamheid</option>
+        </select>
+        <span id="feedback-guideline-error" class="feedback-widget__error" role="alert" aria-live="polite"></span>
+      </div>
 
       <!-- Feedback Type Field -->
       <div class="feedback-widget__field">
@@ -1301,7 +1326,7 @@
           <span class="feedback-widget__required" aria-label="verplicht">*</span>
         </label>
         <input type="email" id="feedback-email" name="user_email" class="feedback-widget__input" required aria-required="true" aria-describedby="feedback-email-error feedback-email-hint" placeholder="uw.naam@organisatie.nl">
-        <span id="feedback-email-hint" class="feedback-widget__hint">Uw e-mailadres wordt openbaar zichtbaar in de feedback</span>
+        <span id="feedback-email-hint" class="feedback-widget__hint">Uw e-mailadres wordt gebruikt om contact met u op te nemen</span>
         <span id="feedback-email-error" class="feedback-widget__error" role="alert" aria-live="polite"></span>
       </div>
 
@@ -1337,6 +1362,7 @@
     </form>
   </div>
 </div>
+  
 
               </article>
             </div>

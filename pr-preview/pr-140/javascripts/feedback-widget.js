@@ -19,10 +19,6 @@
      * Initialize the feedback widget
      */
     init() {
-      if (this.initialized) {
-        return;
-      }
-
       const widget = document.getElementById('feedback-widget');
       if (!widget) {
         return; // Widget element not found
@@ -34,17 +30,25 @@
         return;
       }
 
-      this.form = document.getElementById('feedback-form');
-      this.toggle = document.getElementById('feedback-toggle');
-      this.panel = document.getElementById('feedback-panel');
+      // Get form elements - these might be different instances on dynamic page loads
+      const form = document.getElementById('feedback-form');
+      const toggle = document.getElementById('feedback-toggle');
+      const panel = document.getElementById('feedback-panel');
 
-      if (!this.form || !this.toggle || !this.panel) {
+      if (!form || !toggle || !panel) {
         console.error('Feedback widget: required elements not found');
         return;
       }
 
-      this.setupEventListeners();
-      this.initialized = true;
+      // Check if we need to re-setup event listeners (elements changed or not yet initialized)
+      if (this.toggle !== toggle || !this.initialized) {
+        this.form = form;
+        this.toggle = toggle;
+        this.panel = panel;
+
+        this.setupEventListeners();
+        this.initialized = true;
+      }
     }
 
     /**
@@ -109,6 +113,44 @@
     }
 
     /**
+     * Get guideline slug from number
+     */
+    getGuidelineSlugFromNumber(number) {
+      const slugMap = {
+        1: 'gebruikersbehoeften',
+        2: 'toegankelijkheid',
+        3: 'open-source',
+        4: 'open-standaarden',
+        5: 'cloud',
+        6: 'veiligheid',
+        7: 'privacy',
+        8: 'samenwerking',
+        9: 'integratie',
+        10: 'data',
+        11: 'algoritmen',
+        12: 'inkoop',
+        13: 'duurzaamheid',
+        14: 'servicestandaard',
+      };
+      return slugMap[number] || null;
+    }
+
+    /**
+     * Auto-select current guideline in dropdown
+     */
+    autoSelectCurrentGuideline() {
+      const guideline = this.detectCurrentGuideline();
+      if (!guideline) {
+        return;
+      }
+
+      const guidelineSelect = document.getElementById('feedback-guideline');
+      if (guidelineSelect) {
+        guidelineSelect.value = guideline.number.toString();
+      }
+    }
+
+    /**
      * Display guideline in widget header
      */
     displayGuideline() {
@@ -127,8 +169,9 @@
         return;
       }
 
-      const label = window.feedbackI18n ? window.feedbackI18n.get('guideline.label') : 'Feedback over: ';
-      guidelineElement.textContent = label + displayName;
+      // Use the question form if available, fall back to label form
+      const label = window.feedbackI18n ? window.feedbackI18n.get('guideline.question') : 'Wil je feedback geven over: ';
+      guidelineElement.textContent = label + displayName + '?';
     }
 
     /**
@@ -152,6 +195,9 @@
 
       // Form submission
       this.form.addEventListener('submit', (e) => this.handleSubmit(e));
+
+      // Keyboard navigation
+      this.panel.addEventListener('keydown', (e) => this.handlePanelKeydown(e));
 
       // Close on Escape key
       document.addEventListener('keydown', (e) => {
@@ -186,14 +232,23 @@
       this.isOpen = true;
       this.toggle.setAttribute('aria-expanded', 'true');
 
-      // Display guideline information
-      this.displayGuideline();
+      // Auto-select current guideline in dropdown
+      this.autoSelectCurrentGuideline();
 
       // Focus on first input
       const firstInput = this.form.querySelector('select, textarea, input[type="text"], input[type="email"]');
       if (firstInput) {
         setTimeout(() => firstInput.focus(), 100);
       }
+
+      // Announce to screen readers that widget is open and closeable
+      const announcement = document.createElement('div');
+      announcement.setAttribute('role', 'status');
+      announcement.setAttribute('aria-live', 'polite');
+      announcement.className = 'sr-only';
+      announcement.textContent = 'Feedback formulier geopend. Druk op Escape om te sluiten, of klik op het sluitknopje.';
+      this.panel.appendChild(announcement);
+      setTimeout(() => announcement.remove(), 2000);
     }
 
     /**
@@ -235,6 +290,39 @@
     }
 
     /**
+     * Handle keyboard events within the panel
+     */
+    handlePanelKeydown(e) {
+      // Tab key - focus management
+      if (e.key === 'Tab') {
+        // Get all focusable elements within the panel
+        const focusableElements = this.panel.querySelectorAll(
+          'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+        );
+
+        if (focusableElements.length === 0) return;
+
+        const firstElement = focusableElements[0];
+        const lastElement = focusableElements[focusableElements.length - 1];
+        const activeElement = document.activeElement;
+
+        // Shift+Tab on first element - move to last
+        if (e.shiftKey && activeElement === firstElement) {
+          e.preventDefault();
+          lastElement.focus();
+        }
+        // Tab on last element - move to first
+        else if (!e.shiftKey && activeElement === lastElement) {
+          e.preventDefault();
+          firstElement.focus();
+        }
+      }
+
+      // Enter key on close button should close (handled by click)
+      // Escape key to close (handled globally)
+    }
+
+    /**
      * Handle form submission
      */
     handleSubmit(event) {
@@ -262,10 +350,15 @@
      */
     validateForm() {
       let isValid = true;
+      const feedbackGuideline = document.getElementById('feedback-guideline');
       const feedbackType = document.getElementById('feedback-type');
       const feedbackText = document.getElementById('feedback-text');
       const feedbackName = document.getElementById('feedback-name');
       const feedbackEmail = document.getElementById('feedback-email');
+
+      // Guideline selection is optional - no validation needed
+      // Just clear any error message if shown
+      this.clearError('feedback-guideline-error');
 
       // Validate feedback type
       if (!feedbackType.value) {
@@ -345,12 +438,27 @@
       const userName = document.getElementById('feedback-name').value;
       const userEmail = document.getElementById('feedback-email').value;
 
+      // Get selected guideline from dropdown (user's explicit choice)
+      const selectedGuidelineValue = document.getElementById('feedback-guideline').value;
+      const selectedGuidelineNum = selectedGuidelineValue ? parseInt(selectedGuidelineValue, 10) : null;
+
       // Get page information
       const pageUrl = window.location.pathname;
       const pageTitle = document.querySelector('h1')?.textContent || document.title;
 
-      // Get guideline information
-      const guideline = this.detectCurrentGuideline();
+      // Get guideline information based on user selection or current page
+      let guideline = null;
+      if (selectedGuidelineNum) {
+        // User explicitly selected a guideline from dropdown
+        guideline = {
+          number: selectedGuidelineNum,
+          slug: this.getGuidelineSlugFromNumber(selectedGuidelineNum),
+        };
+      } else {
+        // Fall back to current page guideline
+        guideline = this.detectCurrentGuideline();
+      }
+
       const guidelineInfo = guideline ? {
         guideline_number: guideline.number,
         guideline_slug: guideline.slug,
