@@ -30,31 +30,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Meethuis voor dienstverlening</h4>
-            <p >Voor het maken van een meethuis voor dienstverlening</p>
-            <a href="https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/04/Meethuis-Handboek-2025-v2.pdf" class="action-button" target="_blank">Gebruiken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >CX-Volwassenheidsscan</h4>
-            <p >Handboek Voor het transformeren naar klantgedreven werken</p>
-            <a href="https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/07/Handboek-voor-het-uitvoeren-van-een-CV-Volwassenheidsscan.pdf" class="action-button" target="_blank">Gebruiken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Gebruikersonderzoeken.nl</h4>
-            <p >Leer van andere onderzoeken en deel je bevindingen</p>
-            <a href="https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Toolkit Taal</h4>
-            <p >Richtlijnen voor tekst en beeldtaal in overheidscommunicatie</p>
-            <a href="https://toolkittaal.gebruikercentraal.nl/richtlijnen/" class="action-button" target="_blank">Gebruiken</a>
-        </div>
+    <div class="action-cards"></div>
     </div>
 </div>
 

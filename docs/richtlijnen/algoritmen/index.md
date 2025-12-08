@@ -34,43 +34,7 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4>Algoritmekader</h4>
-            <p>Richtlijnen voor verantwoord algoritmebeheer</p>
-            <a href="https://minbzk.github.io/Algoritmekader/" class="action-button" target="_blank">Verkennen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4>Beslishulp AI-verordening</h4>
-            <p>Bepaal direct welke voorschriften gelden</p>
-            <a href="https://ai-verordening-beslishulp.apps.digilab.network/" class="action-button" target="_blank">Starten</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4>Algoritme Management Toolkit</h4>
-            <p>Register voor risicovolle algoritmen</p>
-            <a href="https://amt.prd.apps.digilab.network/" class="action-button" target="_blank">Registreren</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4>LLM Benchmark</h4>
-            <p>Benchmark voor taalmodellen (LLMs)</p>
-            <a href="https://github.com/MinBZK/llm-benchmark" class="action-button" target="_blank">Verkennen</a>
-        </div>
-         <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4>Algoritmeregister</h4>
-            <p>Registreer je (impactvolle) algoritme in het nationale register</p>
-            <a href="https://algoritmes.overheid.nl/nl" class="action-button" target="_blank">Verkennen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4>Unsupervised Biasdetection Tool</h4>
-            <p>Een statistisch hulpmiddel dat groepen identificeert waar een algoritme afwijkende prestaties laat zien</p>
-            <a href="https://algorithmaudit.eu/technical-tools/bdt/" class="action-button" target="_blank">Verkennen</a>
-        </div>
+    <div class="action-cards"></div>
     </div>
 </div>
 
