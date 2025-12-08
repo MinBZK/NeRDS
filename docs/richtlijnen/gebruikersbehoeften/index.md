@@ -15,7 +15,7 @@ Om digitale systemen te ontwikkelen die effectief zijn, moet je je gebruikers en
 - **Voorkom kostbare fouten:** Begin bij het probleem, niet bij de oplossing. Gebruikersonderzoek voorkomt middeltjes-denken, verspilling van geld en tijd, en zorgt dat je weet dat je het juiste probleem oplost en sneller kunt lanceren met de juiste oplossing.
 - **Verhoog adoptie:** Gebruikers omarmen systemen die hun werkelijke problemen oplossen. Inwoners, burgers en ondernemers hebben vaak geen andere keuze dan jouw dienst te gebruiken, des te belangrijker om dit goed te doen.
 - **Maak het onderdeel van het proces:** Neem obstakels al op voorhand weg in plaats van achteraf bijsturen. Gebruikersonderzoek moet procesmatig ingebed worden, niet als laatste stap worden toegevoegd.
--**Ondersteun inclusiviteit:** Ontwerp voor het gehele spectrum aan gebruikers, met aandacht voor toegankelijkheid en inclusie. Niet meenemen is geen optie, gebruikers mogen niet vergeten of uitgesloten worden.
+- **Ondersteun inclusiviteit:** Ontwerp voor het gehele spectrum aan gebruikers, met aandacht voor toegankelijkheid en inclusie. Niet meenemen is geen optie, gebruikers mogen niet vergeten of uitgesloten worden.
 - **Blijf relevant:** Gebruikersbehoeften veranderen continu, dus continue aanpassen en bijsturen is noodzakelijk. Digitale systemen staan nooit op zichzelf.
 - **Creëer gedeeld begrip:** Zet UX-ontwerpers vroeg aan tafel en zorg voor overeenstemming binnen teams én met bestuurders over wat gebruikers daadwerkelijk nodig hebben.
 
