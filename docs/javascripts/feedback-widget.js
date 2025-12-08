@@ -19,10 +19,6 @@
      * Initialize the feedback widget
      */
     init() {
-      if (this.initialized) {
-        return;
-      }
-
       const widget = document.getElementById('feedback-widget');
       if (!widget) {
         return; // Widget element not found
@@ -34,17 +30,25 @@
         return;
       }
 
-      this.form = document.getElementById('feedback-form');
-      this.toggle = document.getElementById('feedback-toggle');
-      this.panel = document.getElementById('feedback-panel');
+      // Get form elements - these might be different instances on dynamic page loads
+      const form = document.getElementById('feedback-form');
+      const toggle = document.getElementById('feedback-toggle');
+      const panel = document.getElementById('feedback-panel');
 
-      if (!this.form || !this.toggle || !this.panel) {
+      if (!form || !toggle || !panel) {
         console.error('Feedback widget: required elements not found');
         return;
       }
 
-      this.setupEventListeners();
-      this.initialized = true;
+      // Check if we need to re-setup event listeners (elements changed or not yet initialized)
+      if (this.toggle !== toggle || !this.initialized) {
+        this.form = form;
+        this.toggle = toggle;
+        this.panel = panel;
+
+        this.setupEventListeners();
+        this.initialized = true;
+      }
     }
 
     /**

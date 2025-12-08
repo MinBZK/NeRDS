@@ -5,45 +5,5 @@
   {{ super() }}
   {% if 'richtlijnen/' in page.file.src_path %}
     {% include "partials/feedback-widget.html" %}
-
-    <script>
-      // Make skip-link open the feedback widget on Enter/Space
-      function setupSkipLink() {
-        const skipLink = document.getElementById('feedback-skip-link');
-        if (skipLink) {
-          skipLink.addEventListener('keydown', function(e) {
-            if (e.key === 'Enter' || e.key === ' ') {
-              e.preventDefault();
-
-              // Click the toggle button to open the widget
-              const toggleBtn = document.getElementById('feedback-toggle');
-              if (toggleBtn) {
-                // Dispatch a proper click event
-                toggleBtn.dispatchEvent(new MouseEvent('click', {
-                  view: window,
-                  bubbles: true,
-                  cancelable: true
-                }));
-
-                // Focus the first form field in the widget
-                setTimeout(function() {
-                  const firstInput = document.querySelector('.feedback-widget__field input, .feedback-widget__field select, .feedback-widget__field textarea');
-                  if (firstInput) {
-                    firstInput.focus();
-                  }
-                }, 100);
-              }
-            }
-          });
-        }
-      }
-
-      // Initialize when DOM is ready
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', setupSkipLink);
-      } else {
-        setupSkipLink();
-      }
-    </script>
   {% endif %}
 {% endblock %}
