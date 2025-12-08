@@ -29,7 +29,7 @@ window.feedbackI18n = {
       'form.placeholder.name': 'Uw volle naam',
       'form.placeholder.email': 'uw.naam@organisatie.nl',
       'form.hint.text': 'Minimaal 10 tekens',
-      'form.hint.email': 'Uw e-mailadres wordt openbaar zichtbaar in de feedback',
+      'form.hint.email': 'Uw e-mailadres wordt gebruikt om contact met u op te nemen',
       'form.required': 'verplicht',
 
       // Feedback types

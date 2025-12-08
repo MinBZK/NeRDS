@@ -147,6 +147,40 @@ jobs:
             console.log(`✅ Issue created: #${issue.data.number}`);
             console.log(`Reference ID: ${referenceId}`);
 
+      - name: Send email notification
+        if: success()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "Nieuwe feedback ontvangen - NeRDS (#${{ steps.create-issue.outputs.issue_number }})"
+          to: bureau.architectuur@minbzk.nl
+          from: "NeRDS Feedback <${{ secrets.EMAIL_FROM }}>"
+          body: |
+            Hallo,
+
+            Er is nieuwe feedback ontvangen op NeRDS.
+
+            Referentie: ${{ steps.reference.outputs.reference_id }}
+            GitHub Issue: #${{ steps.create-issue.outputs.issue_number }}
+
+            Feedback Details:
+            - Type: ${{ github.event.client_payload.feedback_type }}
+            - Pagina: ${{ github.event.client_payload.page_title }}
+            - URL: ${{ github.event.client_payload.page_url }}
+
+            Van:
+            - Naam: ${{ github.event.client_payload.user_name }}
+            - Email: ${{ github.event.client_payload.user_email }}
+
+            Bericht:
+            ${{ github.event.client_payload.feedback_text }}
+
+            ---
+            Bekijk de volledige issue: ${{ steps.create-issue.outputs.issue_url }}
+
       - name: Log feedback submission
         if: success()
         run: |

@@ -153,6 +153,9 @@
       // Form submission
       this.form.addEventListener('submit', (e) => this.handleSubmit(e));
 
+      // Keyboard navigation
+      this.panel.addEventListener('keydown', (e) => this.handlePanelKeydown(e));
+
       // Close on Escape key
       document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && this.isOpen) {
@@ -194,6 +197,15 @@
       if (firstInput) {
         setTimeout(() => firstInput.focus(), 100);
       }
+
+      // Announce to screen readers that widget is open and closeable
+      const announcement = document.createElement('div');
+      announcement.setAttribute('role', 'status');
+      announcement.setAttribute('aria-live', 'polite');
+      announcement.className = 'sr-only';
+      announcement.textContent = 'Feedback formulier geopend. Druk op Escape om te sluiten, of klik op het sluitknopje.';
+      this.panel.appendChild(announcement);
+      setTimeout(() => announcement.remove(), 2000);
     }
 
     /**
@@ -232,6 +244,39 @@
         status.hidden = true;
         status.textContent = '';
       }
+    }
+
+    /**
+     * Handle keyboard events within the panel
+     */
+    handlePanelKeydown(e) {
+      // Tab key - focus management
+      if (e.key === 'Tab') {
+        // Get all focusable elements within the panel
+        const focusableElements = this.panel.querySelectorAll(
+          'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+        );
+
+        if (focusableElements.length === 0) return;
+
+        const firstElement = focusableElements[0];
+        const lastElement = focusableElements[focusableElements.length - 1];
+        const activeElement = document.activeElement;
+
+        // Shift+Tab on first element - move to last
+        if (e.shiftKey && activeElement === firstElement) {
+          e.preventDefault();
+          lastElement.focus();
+        }
+        // Tab on last element - move to first
+        else if (!e.shiftKey && activeElement === lastElement) {
+          e.preventDefault();
+          firstElement.focus();
+        }
+      }
+
+      // Enter key on close button should close (handled by click)
+      // Escape key to close (handled globally)
     }
 
     /**
