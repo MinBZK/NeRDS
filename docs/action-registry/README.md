@@ -59,7 +59,6 @@ That's it! The hook will automatically populate it with the right actions.
    - `algoritmen`
    - `inkoop`
    - `duurzaamheid`
-   - `servicestandaard`
 
 4. Set the correct `type` and `action` values
 5. Run `mkdocs build` to verify
