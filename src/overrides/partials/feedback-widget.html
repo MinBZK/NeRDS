@@ -22,17 +22,15 @@
       <div class="feedback-widget__field">
         <label for="feedback-guideline" class="feedback-widget__label">
           Welke richtlijn betreft dit?
-          <span class="feedback-widget__required" aria-label="verplicht">*</span>
+          <span class="feedback-widget__optional" aria-label="optioneel">(optioneel)</span>
         </label>
         <select
           id="feedback-guideline"
           name="feedback_guideline"
           class="feedback-widget__select"
-          required
-          aria-required="true"
           aria-describedby="feedback-guideline-error"
         >
-          <option value="">-- Selecteer een richtlijn --</option>
+          <option value="">-- Alle richtlijnen --</option>
           <option value="1">1. Gebruikersbehoeften</option>
           <option value="2">2. Toegankelijkheid</option>
           <option value="3">3. Open Source</option>

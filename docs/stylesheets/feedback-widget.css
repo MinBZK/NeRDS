@@ -162,6 +162,13 @@
   margin-left: 2px;
 }
 
+.feedback-widget__optional {
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 4px;
+}
+
 .feedback-widget__input,
 .feedback-widget__select,
 .feedback-widget__textarea {
@@ -524,6 +531,10 @@
   .feedback-widget__label,
   .feedback-widget__title {
     color: #e0e0e0;
+  }
+
+  .feedback-widget__optional {
+    color: #999;
   }
 
   .feedback-widget__button--secondary {

@@ -352,13 +352,9 @@
       const feedbackName = document.getElementById('feedback-name');
       const feedbackEmail = document.getElementById('feedback-email');
 
-      // Validate guideline selection
-      if (!feedbackGuideline.value) {
-        this.showError('feedback-guideline-error', 'Selecteer alstublieft een richtlijn');
-        isValid = false;
-      } else {
-        this.clearError('feedback-guideline-error');
-      }
+      // Guideline selection is optional - no validation needed
+      // Just clear any error message if shown
+      this.clearError('feedback-guideline-error');
 
       // Validate feedback type
       if (!feedbackType.value) {

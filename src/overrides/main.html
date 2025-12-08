@@ -4,9 +4,6 @@
 {% block content %}
   {{ super() }}
   {% if 'richtlijnen/' in page.file.src_path %}
-    <!-- Skip link for keyboard navigation to feedback widget -->
-    <a href="#feedback-widget" id="feedback-skip-link" class="skip-link">Naar feedback widget</a>
-
     {% include "partials/feedback-widget.html" %}
 
     <script>
