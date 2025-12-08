@@ -388,8 +388,6 @@
       
         
       
-        
-      
     
     
     
@@ -561,7 +559,7 @@
 
 <h2 id="-">---</h2>
 <h1 id="huidige-versie">Huidige versie</h1>
-<p>v0.1.1-18-g26a3d52</p>
+<p>v0.1.1-20-g6783ccf</p>
 
 
 
@@ -615,7 +613,10 @@
 
   <div class="feedback-widget__panel" id="feedback-panel" role="region" aria-labelledby="feedback-title" hidden>
     <div class="feedback-widget__header">
-      <h2 id="feedback-title" class="feedback-widget__title">Feedback geven</h2>
+      <div>
+        <h2 id="feedback-title" class="feedback-widget__title">Feedback geven</h2>
+        <p id="feedback-guideline" class="feedback-widget__guideline"></p>
+      </div>
       <button class="feedback-widget__close" id="feedback-close" aria-label="Feedback formulier sluiten">
         <span aria-hidden="true">×</span>
       </button>
@@ -634,9 +635,9 @@
         </label>
         <select id="feedback-type" name="feedback_type" class="feedback-widget__select" required aria-required="true" aria-describedby="feedback-type-error">
           <option value="">-- Selecteer --</option>
-          <option value="bug_report">Bug report</option>
-          <option value="feature_request">Feature request</option>
-          <option value="general_feedback">Algemene feedback</option>
+          <option value="bug_report">Fout</option>
+          <option value="feature_request">Voorstel</option>
+          <option value="general_feedback">Feedback</option>
           <option value="question">Vraag</option>
         </select>
         <span id="feedback-type-error" class="feedback-widget__error" role="alert" aria-live="polite"></span>

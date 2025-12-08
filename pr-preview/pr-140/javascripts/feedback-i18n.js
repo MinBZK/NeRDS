@@ -34,10 +34,27 @@ window.feedbackI18n = {
 
       // Feedback types
       'type.select': '-- Selecteer --',
-      'type.bug_report': 'Bug report',
-      'type.feature_request': 'Feature request',
-      'type.general_feedback': 'Algemene feedback',
+      'type.bug_report': 'Fout',
+      'type.feature_request': 'Voorstel',
+      'type.general_feedback': 'Feedback',
       'type.question': 'Vraag',
+
+      // Guideline labels
+      'guideline.label': 'Feedback over: ',
+      'guideline.1': '1. Gebruikersbehoeften',
+      'guideline.2': '2. Toegankelijkheid',
+      'guideline.3': '3. Open Source',
+      'guideline.4': '4. Open Standaarden',
+      'guideline.5': '5. Cloud',
+      'guideline.6': '6. Veiligheid',
+      'guideline.7': '7. Privacy',
+      'guideline.8': '8. Samenwerking',
+      'guideline.9': '9. Integratie',
+      'guideline.10': '10. Data',
+      'guideline.11': '11. Algoritmen',
+      'guideline.12': '12. Inkoopstrategie',
+      'guideline.13': '13. Duurzaamheid',
+      'guideline.14': '14. Servicestandaard',
 
       // Form buttons
       'button.submit': 'Feedback verzenden',
