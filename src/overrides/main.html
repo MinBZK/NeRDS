@@ -1,9 +1,7 @@
 {% extends "base.html" %}
 
-<!-- Include feedback widget only on guideline pages -->
+<!-- Include feedback widget on all pages -->
 {% block content %}
   {{ super() }}
-  {% if 'richtlijnen/' in page.file.src_path %}
-    {% include "partials/feedback-widget.html" %}
-  {% endif %}
+  {% include "partials/feedback-widget.html" %}
 {% endblock %}

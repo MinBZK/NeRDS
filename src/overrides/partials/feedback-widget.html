@@ -2,6 +2,9 @@
   <button class="feedback-widget__toggle" id="feedback-toggle" aria-expanded="false" aria-label="Feedback formulier openen">
     <span class="feedback-widget__toggle-text">Feedback over de NeRDS?</span>
   </button>
+  <button class="feedback-widget__dismiss" id="feedback-dismiss" aria-label="Widget verbergen">
+    <span aria-hidden="true">&times;</span>
+  </button>
 
   <div class="feedback-widget__panel" id="feedback-panel" role="region" aria-labelledby="feedback-title" hidden>
     <div class="feedback-widget__header">
@@ -108,7 +111,7 @@
           required
           aria-required="true"
           aria-describedby="feedback-name-error"
-          placeholder="Uw volle naam"
+          placeholder="Uw volledige naam"
         />
         <span id="feedback-name-error" class="feedback-widget__error" role="alert" aria-live="polite"></span>
       </div>

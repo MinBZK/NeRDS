@@ -16,7 +16,7 @@
 .feedback-widget__toggle {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 50px;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -51,6 +51,35 @@
 
 .feedback-widget__toggle-text {
   display: inline;
+}
+
+/* Dismiss Button */
+.feedback-widget__dismiss {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  background: none;
+  color: #666;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: color 0.2s ease;
+  z-index: 999;
+}
+
+.feedback-widget__dismiss:hover {
+  color: #154273;
+}
+
+.feedback-widget__dismiss:focus {
+  outline: 2px solid #316fb3;
+  outline-offset: 2px;
 }
 
 /* Feedback Panel */

@@ -6,6 +6,9 @@
 (function() {
   'use strict';
 
+  // Shared state across page navigations (preserved during soft navigation, reset on hard refresh)
+  let isDismissed = false;
+
   class FeedbackWidget {
     constructor() {
       this.initialized = false;
@@ -24,11 +27,14 @@
         return; // Widget element not found
       }
 
-      // Check if this is a guideline page
-      if (!this.isGuidelinePage()) {
+      // Check if widget was dismissed during this session
+      if (isDismissed) {
         widget.style.display = 'none';
         return;
       }
+
+      // Widget is now visible on all pages
+      widget.style.display = 'block';
 
       // Get form elements - these might be different instances on dynamic page loads
       const form = document.getElementById('feedback-form');
@@ -49,15 +55,6 @@
         this.setupEventListeners();
         this.initialized = true;
       }
-    }
-
-    /**
-     * Check if the current page is a guideline page
-     */
-    isGuidelinePage() {
-      const pathname = window.location.pathname;
-      // Check if URL contains /richtlijnen/ path
-      return pathname.includes('/richtlijnen/');
     }
 
     /**
@@ -151,13 +148,12 @@
      */
     autoSelectCurrentGuideline() {
       const guideline = this.detectCurrentGuideline();
-      if (!guideline) {
-        return;
-      }
 
       const guidelineSelect = document.getElementById('feedback-guideline');
       if (guidelineSelect) {
-        guidelineSelect.value = guideline.number.toString();
+        // If no specific guideline detected, default to "Over de NeRDS in het algemeen" (0)
+        const guidelineNumber = guideline ? guideline.number : 0;
+        guidelineSelect.value = guidelineNumber.toString();
       }
     }
 
@@ -191,6 +187,12 @@
     setupEventListeners() {
       // Toggle button
       this.toggle.addEventListener('click', () => this.togglePanel());
+
+      // Dismiss button - hides the entire widget
+      const dismissBtn = document.getElementById('feedback-dismiss');
+      if (dismissBtn) {
+        dismissBtn.addEventListener('click', () => this.dismissWidget());
+      }
 
       // Close button
       const closeBtn = document.getElementById('feedback-close');
@@ -275,6 +277,24 @@
     }
 
     /**
+     * Dismiss the entire widget (hides it until hard page refresh)
+     */
+    dismissWidget() {
+      const widget = document.getElementById('feedback-widget');
+      if (widget) {
+        widget.style.display = 'none';
+      }
+
+      // If panel is open, close it first
+      if (this.isOpen) {
+        this.closePanel();
+      }
+
+      // Set dismissal state (persists across soft navigation, reset on hard refresh)
+      isDismissed = true;
+    }
+
+    /**
      * Reset the form to initial state
      */
     resetForm() {
@@ -297,6 +317,12 @@
       if (status) {
         status.hidden = true;
         status.textContent = '';
+      }
+
+      // Remove fallback email message if present
+      const fallbackMsg = this.form.querySelector('.feedback-widget__fallback');
+      if (fallbackMsg) {
+        fallbackMsg.remove();
       }
     }
 
@@ -621,17 +647,26 @@
      * Show fallback email for manual submission
      */
     showFallbackEmail() {
+      const form = document.getElementById('feedback-form');
+      if (!form) {
+        return;
+      }
+
+      // Check if fallback message already exists
+      const existingFallback = form.querySelector('.feedback-widget__fallback');
+      if (existingFallback) {
+        return; // Don't add duplicate
+      }
+
       const fallbackDiv = document.createElement('div');
       fallbackDiv.className = 'feedback-widget__fallback';
       fallbackDiv.innerHTML = `
         <p>U kunt uw feedback ook rechtstreeks naar ons mailen:</p>
         <p><a href="mailto:bureau.architectuur@minbzk.nl">bureau.architectuur@minbzk.nl</a></p>
+        <p>Of maak een issue aan op <a href=https://github.com/MinBZK/NeRDS/issues target="_blank">Github</a>.</p>
       `;
 
-      const form = document.getElementById('feedback-form');
-      if (form) {
-        form.appendChild(fallbackDiv);
-      }
+      form.appendChild(fallbackDiv);
     }
 
     /**

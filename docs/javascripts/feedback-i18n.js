@@ -26,7 +26,7 @@ window.feedbackI18n = {
       'form.label.name': 'Uw naam',
       'form.label.email': 'E-mailadres',
       'form.placeholder.text': 'Beschrijf uw feedback (minimaal 10 tekens)',
-      'form.placeholder.name': 'Uw volle naam',
+      'form.placeholder.name': 'Uw volledige naam',
       'form.placeholder.email': 'uw.naam@organisatie.nl',
       'form.hint.text': 'Minimaal 10 tekens',
       'form.hint.email': 'Uw e-mailadres wordt gebruikt om contact met u op te nemen',
