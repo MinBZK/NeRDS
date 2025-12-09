@@ -15,7 +15,7 @@ Om digitale systemen te ontwikkelen die effectief zijn, moet je je gebruikers en
 - **Voorkom kostbare fouten:** Begin bij het probleem, niet bij de oplossing. Gebruikersonderzoek voorkomt middeltjes-denken, verspilling van geld en tijd, en zorgt dat je weet dat je het juiste probleem oplost en sneller kunt lanceren met de juiste oplossing.
 - **Verhoog adoptie:** Gebruikers omarmen systemen die hun werkelijke problemen oplossen. Inwoners, burgers en ondernemers hebben vaak geen andere keuze dan jouw dienst te gebruiken, des te belangrijker om dit goed te doen.
 - **Maak het onderdeel van het proces:** Neem obstakels al op voorhand weg in plaats van achteraf bijsturen. Gebruikersonderzoek moet procesmatig ingebed worden, niet als laatste stap worden toegevoegd.
--**Ondersteun inclusiviteit:** Ontwerp voor het gehele spectrum aan gebruikers, met aandacht voor toegankelijkheid en inclusie. Niet meenemen is geen optie, gebruikers mogen niet vergeten of uitgesloten worden.
+- **Ondersteun inclusiviteit:** Ontwerp voor het gehele spectrum aan gebruikers, met aandacht voor toegankelijkheid en inclusie. Niet meenemen is geen optie, gebruikers mogen niet vergeten of uitgesloten worden.
 - **Blijf relevant:** Gebruikersbehoeften veranderen continu, dus continue aanpassen en bijsturen is noodzakelijk. Digitale systemen staan nooit op zichzelf.
 - **Creëer gedeeld begrip:** Zet UX-ontwerpers vroeg aan tafel en zorg voor overeenstemming binnen teams én met bestuurders over wat gebruikers daadwerkelijk nodig hebben.
 
@@ -30,31 +30,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Meethuis voor dienstverlening</h4>
-            <p >Voor het maken van een meethuis voor dienstverlening</p>
-            <a href="https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/04/Meethuis-Handboek-2025-v2.pdf" class="action-button" target="_blank">Gebruiken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >CX-Volwassenheidsscan</h4>
-            <p >Handboek Voor het transformeren naar klantgedreven werken</p>
-            <a href="https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/07/Handboek-voor-het-uitvoeren-van-een-CV-Volwassenheidsscan.pdf" class="action-button" target="_blank">Gebruiken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Gebruikersonderzoeken.nl</h4>
-            <p >Leer van andere onderzoeken en deel je bevindingen</p>
-            <a href="https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Toolkit Taal</h4>
-            <p >Richtlijnen voor tekst en beeldtaal in overheidscommunicatie</p>
-            <a href="https://toolkittaal.gebruikercentraal.nl/richtlijnen/" class="action-button" target="_blank">Gebruiken</a>
-        </div>
+    <div class="action-cards"></div>
     </div>
 </div>
 
@@ -112,4 +88,3 @@ Meet de ervaring van je gebruikers. Luister naar feedback, trek les daaruit en v
 
 - [2. Zorg voor toegankelijkheid en inclusie](../toegankelijkheid/index.md)
 - [7. Maak privacy integraal](../privacy/index.md)
-- [14. Voldoe aan de servicestandaard](../servicestandaard/index.md)

@@ -32,25 +32,7 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >ICT MVI-criteria</h4>
-            <p >Duurzaamheidscriteria voor ICT-inkoop</p>
-            <a href="https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria" class="action-button" target="_blank">Toepassen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 >CO2-calculator</h4>
-            <p >Bereken de CO2-impact van uw IT</p>
-            <a href="https://www.metenvanduurzaamheid.nl/overzicht-tools/monitoring-als-tool-voor-bedrijven-en-organisaties/co2-prestatieladder-en-co2-calculator" class="action-button" target="_blank">Verkennen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 >Green Coding</h4>
-            <p >Best practices voor duurzame software</p>
-            <button disabled class="action-button">Verkennen</button>
-        </div>
+    <div class="action-cards"></div>
     </div>
 </div>
 
