@@ -33,31 +33,7 @@ Door open en transparant te werken en open source software te omarmen, draag je 
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 >Code.gov.nl</h4>
-            <p >Publiceer uw code en vind overheidsprojecten</p>
-            <button disabled class="action-button">Publiceren</button>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Licentieadvies</h4>
-            <p >Copyleft: CC BY-SA, GPLv3, AGPLv3 of EUPL-1.2. Permissive: Apache 2.0, MIT, BSD-0-clause</p>
-            <a href="https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 >OSPO Toolbox</h4>
-            <p >Tools voor Open Source Program Office</p>
-            <a href="https://ospo-nl.github.io/kennisbank/" class="action-button" target="_blank">Verkennen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 >Opensourcewerken</h4>
-            <p >Community of practice omtrent open source werken</p>
-            <a href="https://developer.overheid.nl/communities/open-source-werken" class="action-button" target="_blank">Verkennen</a>
-        </div>
+    <div class="action-cards"></div>
     </div>
 </div>
 

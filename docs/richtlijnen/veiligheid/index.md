@@ -34,25 +34,7 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >BIO Wizard</h4>
-            <p >Bepaal verplichte beveiligingsmaatregelen</p>
-            <a href="https://bio-overheid.nl/ico-wizard" class="action-button" target="_blank">Starten</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >OpenKAT</h4>
-            <p >Open source security tooling</p>
-            <a href="https://github.com/minvws/nl-kat-coordination" class="action-button" target="_blank">Gebruiken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Internet.nl</h4>
-            <p >Test veiligheid van je website of e-mail</p>
-            <a href="https://internet.nl/" class="action-button" target="_blank">Testen</a>
-        </div>
+    <div class="action-cards"></div>
     </div>
 </div>
 
