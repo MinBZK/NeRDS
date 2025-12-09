@@ -33,30 +33,6 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >DPIA-model</h4>
-            <p >Model voor gegevensbeschermingseffectbeoordeling</p>
-            <a href="https://www.autoriteitpersoonsgegevens.nl/nl/onderwerpen/avg-europese-privacywetgeving/data-protection-impact-assessment-dpia" class="action-button" target="_blank">Downloaden</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Pre-scan DPIA & DPIA Formulier</h4>
-            <p >Online formulier voor gegevensbeschermingseffectbeoordeling</p>
-            <a href="https://minbzk.github.io/par-dpia-form/" class="action-button" target="_blank">Starten</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 >NICPET Tools</h4>
-            <p >Privacy-bevorderende technologieën</p>
-            <a href="https://nicpet.pleio.nl/" class="action-button" target="_blank">Verkennen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 >Privacy Check</h4>
-            <p >Geautomatiseerde privacycheck</p>
-            <button disabled class="action-button">Starten</button>
-        </div>
+    <div class="action-cards"></div>
     </div>
 </div>

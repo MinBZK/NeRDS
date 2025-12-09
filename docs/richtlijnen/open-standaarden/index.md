@@ -33,30 +33,6 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Beslisboom Open Standaarden</h4>
-            <p >Bepaal welke standaarden van toepassing zijn</p>
-            <a href="https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden" class="action-button" target="_blank">Starten</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >API Standaarden</h4>
-            <p >Nederlandse API strategie</p>
-            <a href="https://docs.geostandaarden.nl/api/API-Strategie/" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Developer Overheid API's</h4>
-            <p >Overzicht van overheids-API's</p>
-            <a href="https://apis.developer.overheid.nl/apis" class="action-button" target="_blank">Ontdekken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 >Standaardenregister</h4>
-            <p >Centrale standaardendatabase</p>
-            <button disabled class="action-button">Zoeken</button>
-        </div>
+    <div class="action-cards"></div>
     </div>
 </div>

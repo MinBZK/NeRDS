@@ -32,30 +32,6 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >MVI-criteria</h4>
-            <p >Criteria voor duurzaam inkopen</p>
-            <a href="https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 >TCO Calculator</h4>
-            <p >Bereken Total Cost of Ownership</p>
-            <button disabled class="action-button">Berekenen</button>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Inkoopkompas</h4>
-            <p >Kennisplatform voor ICT-inkoop</p>
-            <a href="https://www.pianoo.nl/nl/sectoren/ict" class="action-button" target="_blank">Verkennen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Algoritmekader</h4>
-            <p >Richtlijn voor inkoop van verantwoorde algoritmes</p>
-            <a href="https://minbzk.github.io/Algoritmekader/onderwerpen/publieke-inkoop/" class="action-button" target="_blank">Verkennen</a>
-        </div>
+    <div class="action-cards"></div>
     </div>
 </div>
