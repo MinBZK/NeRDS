@@ -30,56 +30,7 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Inclusief Ontwerpen</h4>
-            <p >Toolkit voor inclusief ontwerp</p>
-            <a href="https://toolkitinclusie.gebruikercentraal.nl/" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Toegankelijkheidsscan</h4>
-            <p >Test uw webpagina's op toegankelijkheid</p>
-            <a href="https://www.w3.org/WAI/test-evaluate/tools/list/" class="action-button" target="_blank">Scannen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Deque Axe</h4>
-            <p >Toegankelijkheidstester voor webapplicaties</p>
-            <a href="https://www.deque.com/axe/" class="action-button" target="_blank">Gebruiken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >WCAG-EM Reporter</h4>
-            <p >Tool voor het maken van toegankelijkheidsrapporten</p>
-            <a href="https://gitlab.com/digilab.overheid.nl/ecosystem/wcag-em-reporter" class="action-button" target="_blank">Gebruiken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >NL Design System</h4>
-            <p >Toegankelijke componenten</p>
-            <a href="https://nldesignsystem.nl" class="action-button" target="_blank">Gebruiken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >NL Design System</h4>
-            <p >Praktische uitleg en voorbeelden WCAG 2.1</p>
-            <a href="https://nldesignsystem.nl/wcag/" class="action-button" target="_blank">Bekijken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4>Toegankelijkheidsverklaring </h4>
-            <p>Maak en beheer toegankelijkheidsverklaringen</p>
-            <a href="https://www.toegankelijkheidsverklaring.nl/" class="action-button" target="_blank">Invullen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4>Dashboard DigiToegankelijk </h4>
-            <p>Check toegankelijkheid overheidswebsites</p>
-            <a href="https://dashboard.digitoegankelijk.nl/" class="action-button" target="_blank">Bekijken</a>
-        </div>
-    </div>
+    <div class="action-cards"></div>
 </div>
 
 1. **Houd rekening met toegankelijkheid in**:

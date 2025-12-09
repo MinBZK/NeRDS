@@ -137,3 +137,4 @@ edit_uri: edit/main/docs/
 
 hooks:
   - src/overrides/hooks/security_txt.py
+  - src/overrides/hooks/action_registry.py

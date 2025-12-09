@@ -30,25 +30,7 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >FSC</h4>
-            <p >Open source gegevensuitwisselingssysteem</p>
-            <a href="https://fsc-standaard.nl/" class="action-button" target="_blank">Verkennen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Common Ground</h4>
-            <p >Visie voor moderne gegevensuitwisseling</p>
-            <a href="https://commonground.nl/" class="action-button" target="_blank">Leren</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Haven</h4>
-            <p >Platformonafhankelijke cloudhosting</p>
-            <a href="https://haven.commonground.nl/" class="action-button" target="_blank">Ontdekken</a>
-        </div>
+    <div class="action-cards"></div>
     </div>
 </div>
 
