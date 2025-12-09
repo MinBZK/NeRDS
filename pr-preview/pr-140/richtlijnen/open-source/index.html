@@ -1235,10 +1235,12 @@
 
 
                 
-  
-    <div class="feedback-widget" id="feedback-widget" data-guideline-page="true">
+  <div class="feedback-widget" id="feedback-widget" data-guideline-page="true">
   <button class="feedback-widget__toggle" id="feedback-toggle" aria-expanded="false" aria-label="Feedback formulier openen">
     <span class="feedback-widget__toggle-text">Feedback over de NeRDS?</span>
+  </button>
+  <button class="feedback-widget__dismiss" id="feedback-dismiss" aria-label="Widget verbergen">
+    <span aria-hidden="true">×</span>
   </button>
 
   <div class="feedback-widget__panel" id="feedback-panel" role="region" aria-labelledby="feedback-title" hidden>
@@ -1315,7 +1317,7 @@
           Uw naam
           <span class="feedback-widget__required" aria-label="verplicht">*</span>
         </label>
-        <input type="text" id="feedback-name" name="user_name" class="feedback-widget__input" required aria-required="true" aria-describedby="feedback-name-error" placeholder="Uw volle naam">
+        <input type="text" id="feedback-name" name="user_name" class="feedback-widget__input" required aria-required="true" aria-describedby="feedback-name-error" placeholder="Uw volledige naam">
         <span id="feedback-name-error" class="feedback-widget__error" role="alert" aria-live="polite"></span>
       </div>
 
@@ -1362,7 +1364,6 @@
     </form>
   </div>
 </div>
-  
 
               </article>
             </div>
