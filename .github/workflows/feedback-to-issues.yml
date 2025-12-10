@@ -18,9 +18,8 @@ jobs:
       - name: Validate feedback submission
         id: validate
         run: |
-          # Check for required fields
-          if [[ -z "${{ github.event.client_payload.feedback_guideline }}" ]] || \
-             [[ -z "${{ github.event.client_payload.feedback_type }}" ]] || \
+          # Check for required fields (guideline is optional)
+          if [[ -z "${{ github.event.client_payload.feedback_type }}" ]] || \
              [[ -z "${{ github.event.client_payload.feedback_text }}" ]] || \
              [[ -z "${{ github.event.client_payload.user_name }}" ]] || \
              [[ -z "${{ github.event.client_payload.user_email }}" ]]; then
