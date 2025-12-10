@@ -67,7 +67,6 @@ Meet de ervaring van je gebruikers. Luister naar feedback, trek les daaruit en v
     - **Blijf flexibel** - Pas je onderzoeksmethode aan naarmate je meer leert.
     - **Maak het structureel** - Borg gebruikersonderzoek in je proces, niet als laatste stap maar vanaf het begin.
 
-
 ## Gerelateerde hulpmiddelen
 
 #### Trainingen en methodieken
