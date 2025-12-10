@@ -290,6 +290,8 @@ Bij verplaatsing naar de cloud, overweeg:
 ## Gerelateerde hulpmiddelen
 
 - [Regels voor verantwoord cloudgebruik Rijksoverheid](https://www.digitaleoverheid.nl/nieuws/regels-voor-verantwoord-cloudgebruik-rijksoverheid/)
+- [Implementatiekader risicoafweging](https://www.digitaleoverheid.nl/regels-voor-verantwoord-cloudgebruik-rijksoverheid/)
+- [Meerjarenvisie Digitale Overheid 2025-2030](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.tweedekamer.nl/downloads/document%3Fid%3D2025D43432&ved=2ahUKEwiO342dybCRAxVVzwIHHZ-eKCAQFnoECD4QAQ&usg=AOvVaw3RK3ItbKBM7OYL3XlOT-_N)
 
 ## Gerelateerde richtlijnen
 
