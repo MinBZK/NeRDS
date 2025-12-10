@@ -747,6 +747,7 @@ background-color: #B2D7EE;
   background-color: #f8f9fa;
   display: flex;
   flex-direction: column;
+  min-height: 180px;
 }
 
 .action-card h4 {
@@ -755,6 +756,8 @@ background-color: #B2D7EE;
   font-size: 0.8rem;
   margin: 0 0 0.3rem 0;
   padding-right: 3.5rem;
+  min-height: 2.4em;
+  line-height: 1.2em;
 }
 
 .action-card p {

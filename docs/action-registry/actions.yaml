@@ -156,7 +156,7 @@ actions:
   - id: cx-volwassenheidsscan
     name: CX-Volwassenheidsscan
     source: https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/07/Handboek-voor-het-uitvoeren-van-een-CV-Volwassenheidsscan.pdf
-    description: "Handboek Voor het transformeren naar klantgedreven werken"
+    description: "Handboek voor het transformeren naar klantgedreven werken"
     richtlijn: gebruikersbehoeften
     type: tool
     action: Gebruiken
@@ -171,6 +171,12 @@ actions:
     action: Bekijken
     date_added: 08-12-2025
     status: beschikbaar
+  - id: gebruikerscentraal-toegankelijkheids-doelgroepen
+    name: 
+    source: https://toolkitinclusie.gebruikercentraal.nl/doelgroepen/
+    description: "Verzameling van doelgroepen voor toegankelijkheid"
+    richtlijn: toegankelijkheid
+    type: handleiding
   - id: meethuis-voor-dienstverlening
     name: Meethuis voor dienstverlening
     source: https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/04/Meethuis-Handboek-2025-v2.pdf
@@ -368,6 +374,15 @@ actions:
     type: tool
     action: Deelnemen
     date_added: 08-12-2025
+    status: beschikbaar
+  - id: NLDoc
+    name: NLDoc
+    source: https://nldoc.nl/
+    description: "Maak een toegankelijke versie van een ontoegankelijk document (via API)"
+    richtlijn: toegankelijkheid
+    type: tool
+    action: Gebruiken
+    date_added: 09-12-2025
     status: beschikbaar
   - id: govhub
     name: GovHub
