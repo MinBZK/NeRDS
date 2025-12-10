@@ -219,10 +219,10 @@
         }
       });
 
-      // Reset form button
-      const resetBtn = document.getElementById('feedback-reset');
-      if (resetBtn) {
-        resetBtn.addEventListener('click', () => this.resetForm());
+      // Action close button (replaces reset button)
+      const actionCloseBtn = document.getElementById('feedback-action-close');
+      if (actionCloseBtn) {
+        actionCloseBtn.addEventListener('click', () => this.closePanel());
       }
     }
 

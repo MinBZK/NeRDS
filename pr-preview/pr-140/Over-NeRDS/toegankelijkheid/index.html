@@ -779,7 +779,6 @@
       <div class="feedback-widget__field">
         <label for="feedback-guideline" class="feedback-widget__label">
           Welke richtlijn betreft dit?
-          <span class="feedback-widget__optional" aria-label="optioneel">(optioneel)</span>
         </label>
         <select id="feedback-guideline" name="feedback_guideline" class="feedback-widget__select" aria-describedby="feedback-guideline-error">
           <option value="">-- Alle richtlijnen --</option>
@@ -856,11 +855,11 @@
 
       <!-- Form Actions -->
       <div class="feedback-widget__actions">
-        <button type="submit" id="feedback-submit" class="feedback-widget__button feedback-widget__button--primary" aria-busy="false">
+        <button type="submit" id="feedback-submit" class="md-button md-button--primary" aria-busy="false">
           Feedback verzenden
         </button>
-        <button type="reset" id="feedback-reset" class="feedback-widget__button feedback-widget__button--secondary">
-          Wissen
+        <button type="button" id="feedback-action-close" class="md-button md-button--secondary">
+          Sluiten
         </button>
       </div>
 
