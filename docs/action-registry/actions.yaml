@@ -387,6 +387,15 @@ actions:
     action: Ontdekken
     date_added: 08-12-2025
     status: beschikbaar
+  - id: nl-design-system
+    name: NL Design System
+    source: https://www.nldesignsystem.nl
+    description: "Samen bouwen aan gebruiksvriendelijke overheidswebsites"
+    richtlijn: gebruikersbehoeften
+    type: tool
+    action: Ontdekken
+    date_added: 08-12-2025
+    status: beschikbaar
   - id: dashboard-digitoegankelijk
     name: Dashboard DigiToegankelijk
     source: https://dashboard.digitoegankelijk.nl/
