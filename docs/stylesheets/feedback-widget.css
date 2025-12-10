@@ -21,10 +21,10 @@
   align-items: center;
   gap: 8px;
   padding: 12px 16px;
-  background-color: #154273;
+  background-color: #007bc7;
   color: #ffffff;
   border: none;
-  border-radius: 4px;
+  border-radius: 0;
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
@@ -36,7 +36,7 @@
 }
 
 .feedback-widget__toggle:hover {
-  background-color: #0d3152;
+  background-color: #316fb3;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -328,50 +328,30 @@
   margin-top: 16px;
 }
 
-.feedback-widget__button {
+.feedback-widget__actions .md-button {
   flex: 1;
   padding: 10px 16px;
   font-family: inherit;
   font-size: 14px;
   font-weight: 600;
-  border: none;
-  border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s ease;
   text-align: center;
+  text-decoration: none;
 }
 
-.feedback-widget__button:focus {
+.feedback-widget__actions .md-button:focus {
   outline: 2px solid #316fb3;
   outline-offset: 2px;
 }
 
-.feedback-widget__button:active {
+.feedback-widget__actions .md-button:active {
   transform: scale(0.98);
 }
 
-.feedback-widget__button:disabled {
+.feedback-widget__actions .md-button:disabled {
   opacity: 0.6;
   cursor: not-allowed;
-}
-
-.feedback-widget__button--primary {
-  background-color: #154273;
-  color: #ffffff;
-}
-
-.feedback-widget__button--primary:hover:not(:disabled) {
-  background-color: #0d3152;
-}
-
-.feedback-widget__button--secondary {
-  background-color: #f5f5f5;
-  color: #154273;
-  border: 1px solid #B9C7D5;
-}
-
-.feedback-widget__button--secondary:hover:not(:disabled) {
-  background-color: #eeeeee;
 }
 
 /* Status Messages */
@@ -475,19 +455,19 @@
 }
 
 /* Error State */
-.feedback-widget__input:invalid:not(:placeholder-shown),
-.feedback-widget__select:invalid:not(:placeholder-shown),
-.feedback-widget__textarea:invalid:not(:placeholder-shown) {
+.feedback-widget__input.has-error,
+.feedback-widget__select.has-error,
+.feedback-widget__textarea.has-error {
   border-color: #d32f2f;
 }
 
 /* Loading State */
-.feedback-widget__button--primary[aria-busy="true"] {
+.feedback-widget__actions .md-button--primary[aria-busy="true"] {
   pointer-events: none;
   opacity: 0.7;
 }
 
-.feedback-widget__button--primary[aria-busy="true"]::after {
+.feedback-widget__actions .md-button--primary[aria-busy="true"]::after {
   content: '';
   display: inline-block;
   width: 12px;
