@@ -19,7 +19,8 @@ jobs:
         id: validate
         run: |
           # Check for required fields
-          if [[ -z "${{ github.event.client_payload.feedback_type }}" ]] || \
+          if [[ -z "${{ github.event.client_payload.feedback_guideline }}" ]] || \
+             [[ -z "${{ github.event.client_payload.feedback_type }}" ]] || \
              [[ -z "${{ github.event.client_payload.feedback_text }}" ]] || \
              [[ -z "${{ github.event.client_payload.user_name }}" ]] || \
              [[ -z "${{ github.event.client_payload.user_email }}" ]]; then
@@ -104,27 +105,38 @@ jobs:
             }
             title += ` - ${pageTitle.substring(0, 50)}`;
 
-            // Create issue body
-            let body = '## Guideline Information\n';
-            if (guidelineNumber) {
-              body += `- **Number:** ${guidelineNumber}\n`;
-              body += `- **Name:** ${guidelineName}\n\n`;
+            // Create issue body based on template
+            let body = '';
+
+            // Use appropriate template based on feedback type
+            if (feedbackType === 'bug_report') {
+              // Use bug report template
+              body += '**Beschrijf de fout**\n';
+              body += `${feedbackText}\n\n`;
+              body += '**Screenshots**\n';
+              body += '_Geen screenshots beschikbaar_\n\n';
+            } else if (feedbackType === 'question') {
+              // Use question template
+              body += '## Beschrijf je vraag\n\n';
+              body += `${feedbackText}\n\n`;
             } else {
-              body += '- **Number:** Unknown\n\n';
+              // Use suggestion template for feature_request and general_feedback
+              body += '## Beschrijf je suggestie\n\n';
+              body += `${feedbackText}\n\n`;
+              body += '## Leg uit waarom dit een goede toevoeging is aan de Nederlandse Richtlijn Digitale Systemen\n\n';
+              body += '_Zie bovenstaande feedback._\n\n';
             }
-            body += '## Page Information\n';
-            body += `- **URL:** ${pageUrl}\n`;
-            body += `- **Title:** ${pageTitle}\n`;
-            body += `- **Feedback Type:** ${feedbackType.replace(/_/g, ' ')}\n\n`;
-            body += '## From\n';
-            body += `- **Name:** ${userName}\n`;
-            body += `- **Email:** ${userEmail}\n\n`;
-            body += '## Feedback\n';
-            body += `${feedbackText}\n\n`;
+
+            // Add metadata section
             body += '---\n\n';
-            body += `**Reference ID:** ${referenceId}\n`;
-            body += `**Submitted:** ${new Date(timestamp).toLocaleString()}\n`;
-            body += `**User Agent:** ${feedback.user_agent || 'unknown'}`;
+            body += '### Metadata\n';
+            if (guidelineNumber) {
+              body += `- **Richtlijn:** ${guidelineNumber} - ${guidelineName}\n`;
+            }
+            body += `- **Pagina:** [${pageTitle}](${pageUrl})\n`;
+            body += `- **Van:** ${userName} (${userEmail})\n`;
+            body += `- **Referentie ID:** ${referenceId}\n`;
+            body += `- **Ingediend:** ${new Date(timestamp).toLocaleString('nl-NL')}\n`;
 
             // Add guideline label if available
             const labels = [label, 'feedback'];
@@ -146,40 +158,6 @@ jobs:
 
             console.log(`✅ Issue created: #${issue.data.number}`);
             console.log(`Reference ID: ${referenceId}`);
-
-      - name: Send email notification
-        if: success()
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          username: ${{ secrets.EMAIL_USERNAME }}
-          password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: "Nieuwe feedback ontvangen - NeRDS (#${{ steps.create-issue.outputs.issue_number }})"
-          to: bureau.architectuur@minbzk.nl
-          from: "NeRDS Feedback <${{ secrets.EMAIL_FROM }}>"
-          body: |
-            Hallo,
-
-            Er is nieuwe feedback ontvangen op NeRDS.
-
-            Referentie: ${{ steps.reference.outputs.reference_id }}
-            GitHub Issue: #${{ steps.create-issue.outputs.issue_number }}
-
-            Feedback Details:
-            - Type: ${{ github.event.client_payload.feedback_type }}
-            - Pagina: ${{ github.event.client_payload.page_title }}
-            - URL: ${{ github.event.client_payload.page_url }}
-
-            Van:
-            - Naam: ${{ github.event.client_payload.user_name }}
-            - Email: ${{ github.event.client_payload.user_email }}
-
-            Bericht:
-            ${{ github.event.client_payload.feedback_text }}
-
-            ---
-            Bekijk de volledige issue: ${{ steps.create-issue.outputs.issue_url }}
 
       - name: Log feedback submission
         if: success()
