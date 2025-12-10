@@ -12,12 +12,12 @@ Om digitale systemen te ontwikkelen die effectief zijn, moet je je gebruikers en
 
 ## Waarom is het belangrijk?
 
-- **Voorkom kostbare fouten:** Begin bij het probleem, niet bij de oplossing. Gebruikersonderzoek voorkomt middeltjes-denken, verspilling van geld en tijd, en zorgt dat je weet dat je het juiste probleem oplost en sneller kunt lanceren met de juiste oplossing.
-- **Verhoog adoptie:** Gebruikers omarmen systemen die hun werkelijke problemen oplossen. Inwoners, burgers en ondernemers hebben vaak geen andere keuze dan jouw dienst te gebruiken, des te belangrijker om dit goed te doen.
-- **Maak het onderdeel van het proces:** Neem obstakels al op voorhand weg in plaats van achteraf bijsturen. Gebruikersonderzoek moet procesmatig ingebed worden, niet als laatste stap worden toegevoegd.
-- **Ondersteun inclusiviteit:** Ontwerp voor het gehele spectrum aan gebruikers, met aandacht voor toegankelijkheid en inclusie. Niet meenemen is geen optie, gebruikers mogen niet vergeten of uitgesloten worden.
-- **Blijf relevant:** Gebruikersbehoeften veranderen continu, dus continue aanpassen en bijsturen is noodzakelijk. Digitale systemen staan nooit op zichzelf.
-- **Creëer gedeeld begrip:** Zet UX-ontwerpers vroeg aan tafel en zorg voor overeenstemming binnen teams én met bestuurders over wat gebruikers daadwerkelijk nodig hebben.
+- **Voorkom kostbare fouten:** Achteraf aanpassen kost meer tijd en geld dan vanaf het begin de juiste oplossing bouwen.
+- **Verhoog adoptie:** Gebruikers omarmen systemen die hun werkelijke problemen oplossen.
+- **Reduceer risico's:** Onbekende gebruikersproblemen kunnen implementaties doen mislukken of leiden tot systemen die niet gebruikt worden.
+- **Bespaar tijd en geld:** Ontwikkeling van features die niet gebruikt worden verspilt budget en capaciteit.
+- **Verbeter dienstverlening:** Systemen die aansluiten bij gebruikersbehoeften werken effectiever.
+- **Ondersteun interne alignment:** Zonder gedeeld begrip van gebruikersbehoeften werken teams langs elkaar heen.
 
 Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling en -implementatie bij overheidsdiensten verhoog je de acceptatie en effectiviteit van digitale overheidsdiensten terwijl je het vertrouwen tussen burger en overheid versterkt.
 
@@ -38,30 +38,35 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
 
 ### 1. Begrijpen
 
-Begrijp je gebruikers dieper dan alleen hun oppervlakkige behoeften. Kijk naar hun emoties, gedrag, situatie en context. Dit vormt de basis voor effectief ontwerp.
+Begrijp je gebruikers dieper dan alleen hun oppervlakkige behoeften. Kijk naar hun emoties, gedrag, situatie en context. Begin bij het probleem, niet bij de oplossing - dit voorkomt middeltjes-denken en verspilling van tijd en geld. Zet UX-ontwerpers vroeg aan tafel en creëer gedeeld begrip binnen teams én met bestuurders over wat gebruikers daadwerkelijk nodig hebben. Dit vormt de basis voor effectief ontwerp.
 
 ??? expander "Praktische tips"
     - **Begin met het doel** - Zorg dat je onderzoeksmethode aansluit bij wat je werkelijk moet leren voordat je een plan maakt.
     - **Geen aannames** - Baseer bevindingen op werkelijke data van gebruikers, niet op veronderstelde behoeften van het team.
     - **Ga naar de gebruiker toe** - Observeer gebruikers in hun eigen omgeving en context om hun werkelijke situatie te begrijpen.
     - **Houd het simpel** - Kies voor eenvoudige onderzoeksmethoden zoals interviews, observatie of vragenlijsten omdat complexe methoden implementatie kunnen vertragen.
+    - **Creëer draagvlak** - Zorg voor overeenstemming binnen het team over gebruikersbehoeften voordat je begint met ontwikkelen.
 
 ### 2. Ontwerpen
 
-Ontwerp met gebruikers in gedachte. Gebruik inzichten om gebruikersgericht ontwerp toe te passen, van wireframes tot klantreizen.
+Ontwerp met gebruikers in gedachte. Gebruik inzichten om gebruikersgericht ontwerp toe te passen, van wireframes tot klantreizen. Ontwerp voor het gehele spectrum aan gebruikers, met aandacht voor toegankelijkheid en inclusie - niet meenemen is geen optie. Inwoners, burgers en ondernemers hebben vaak geen andere keuze dan jouw dienst te gebruiken, des te belangrijker om dit goed te doen.
 
 ??? expander "Praktische tips"
     - **Test alternatieven** - Evalueer verschillende oplossingen (bijvoorbeeld twee verschillende interfaces) met gebruikers in plaats van slechts één voorstel.
     - **Zet het in de definition of done** - Maak gebruikersonderzoek verplicht onderdeel van je proces.
+    - **Denk inclusief** - Zorg dat je ontwerp toegankelijk is voor gebruikers met verschillende achtergronden en beperkingen (zie de richtlijn [Zorg voor toegankelijkheid en inclusie](../toegankelijkheid/index.md)). Gebruikers mogen niet vergeten of uitgesloten worden in het ontwerpproces.
 
 ### 3. Meten
 
-Meet de ervaring van je gebruikers. Luister naar feedback, trek les daaruit en verbeter continu. Dit helpt je inzien of je organisatie echt gebruikersgericht werkt.
+Meet de ervaring van je gebruikers. Luister naar feedback, trek les daaruit en verbeter continu. Gebruikersbehoeften veranderen continu, dus blijf aanpassen en bijsturen. Maak gebruikersonderzoek procesmatig onderdeel van je werkwijze door het vroeg in te bedden in plaats van achteraf toe te voegen. Dit helpt je inzien of je organisatie echt gebruikersgericht werkt.
 
 ??? expander "Praktische tips"
+    - **Blijf itereren** - Digitale systemen staan nooit op zichzelf en vereisen continue verbetering.
     - **Laat bestuurders meekijken** - Zorg dat stakeholders onderzoek mee volgen zodat iedereen dezelfde gebruikersinzichten heeft.
     - **Deel resultaten** - Publiceer inzichten op gebruikersonderzoeken.nl zodat andere organisaties ervan kunnen leren.
     - **Blijf flexibel** - Pas je onderzoeksmethode aan naarmate je meer leert.
+    - **Maak het structureel** - Borg gebruikersonderzoek in je proces, niet als laatste stap maar vanaf het begin.
+
 
 ## Gerelateerde hulpmiddelen
 
