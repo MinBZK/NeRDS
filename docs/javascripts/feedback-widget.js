@@ -224,6 +224,50 @@
       if (actionCloseBtn) {
         actionCloseBtn.addEventListener('click', () => this.closePanel());
       }
+
+      // Add link button
+      const addLinkBtn = document.getElementById('feedback-add-link');
+      if (addLinkBtn) {
+        addLinkBtn.addEventListener('click', () => this.addLinkField());
+      }
+    }
+
+    /**
+     * Add a new link input field
+     */
+    addLinkField() {
+      const container = document.getElementById('feedback-related-docs-container');
+      if (!container) return;
+
+      // Create new link row
+      const linkRow = document.createElement('div');
+      linkRow.className = 'feedback-widget__link-row';
+
+      // Create input field
+      const input = document.createElement('input');
+      input.type = 'url';
+      input.name = 'related_docs[]';
+      input.className = 'feedback-widget__input feedback-widget__input--link';
+      input.placeholder = 'https://digitaleoverheid.nl/...';
+      input.setAttribute('aria-label', 'Link naar relevant document');
+
+      // Create remove button
+      const removeBtn = document.createElement('button');
+      removeBtn.type = 'button';
+      removeBtn.className = 'feedback-widget__remove-link';
+      removeBtn.setAttribute('aria-label', 'Link verwijderen');
+      removeBtn.innerHTML = '<span aria-hidden="true">&times;</span>';
+      removeBtn.addEventListener('click', () => {
+        linkRow.remove();
+      });
+
+      // Assemble row
+      linkRow.appendChild(input);
+      linkRow.appendChild(removeBtn);
+      container.appendChild(linkRow);
+
+      // Focus new input
+      input.focus();
     }
 
     /**
@@ -323,6 +367,22 @@
       const fallbackMsg = this.form.querySelector('.feedback-widget__fallback');
       if (fallbackMsg) {
         fallbackMsg.remove();
+      }
+
+      // Reset related docs to single empty field
+      const container = document.getElementById('feedback-related-docs-container');
+      if (container) {
+        container.innerHTML = `
+          <div class="feedback-widget__link-row">
+            <input
+              type="url"
+              name="related_docs[]"
+              class="feedback-widget__input feedback-widget__input--link"
+              placeholder="https://digitaleoverheid.nl/..."
+              aria-label="Link naar relevant document"
+            />
+          </div>
+        `;
       }
     }
 
@@ -475,6 +535,13 @@
       const userName = document.getElementById('feedback-name').value;
       const userEmail = document.getElementById('feedback-email').value;
 
+      // Collect all related document links
+      const linkInputs = document.querySelectorAll('input[name="related_docs[]"]');
+      const relatedDocs = Array.from(linkInputs)
+        .map(input => input.value.trim())
+        .filter(value => value.length > 0)
+        .join('\n');
+
       // Get selected guideline from dropdown (user's explicit choice)
       const selectedGuidelineValue = document.getElementById('feedback-guideline').value;
       const selectedGuidelineNum = selectedGuidelineValue ? parseInt(selectedGuidelineValue, 10) : null;
@@ -507,6 +574,7 @@
         feedback_text: feedbackText,
         user_name: userName,
         user_email: userEmail,
+        related_docs: relatedDocs,
         page_url: pageUrl,
         page_title: pageTitle,
         timestamp: new Date().toISOString(),
