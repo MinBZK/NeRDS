@@ -62,18 +62,18 @@ window.feedbackI18n = {
       'button.close': 'Sluiten',
 
       // Validation messages
-      'validation.type.required': 'Selecteer alstublieft een soort feedback',
+      'validation.type.required': 'Selecteer een soort feedback',
       'validation.text.required': 'Feedback moet minimaal 10 tekens bevatten',
       'validation.text.too-long': 'Feedback mag niet langer dan 5000 tekens zijn',
-      'validation.name.required': 'Voer alstublieft uw naam in',
-      'validation.email.required': 'Voer alstublieft uw e-mailadres in',
-      'validation.email.invalid': 'Voer alstublieft een geldig e-mailadres in',
+      'validation.name.required': 'Voer uw naam in',
+      'validation.email.required': 'Voer uw e-mailadres in',
+      'validation.email.invalid': 'Voer een geldig e-mailadres in',
 
       // Status messages
       'status.sending': 'Feedback verzenden...',
       'status.success': 'Bedankt voor uw feedback!',
       'status.success-reference': 'Referentie-ID: ',
-      'status.error': 'Uw feedback kan niet worden verzonden. Probeer het later alstublieft opnieuw.',
+      'status.error': 'Uw feedback kan niet worden verzonden. Probeer het later opnieuw.',
       'status.timeout': 'De aanvraag duurde te lang. Controleer uw internetverbinding en probeer opnieuw.',
       'status.fallback-intro': 'U kunt uw feedback ook rechtstreeks naar ons mailen:',
 
