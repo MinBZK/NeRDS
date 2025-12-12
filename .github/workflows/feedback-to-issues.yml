@@ -96,6 +96,7 @@ jobs:
             const timestamp = feedback.timestamp || new Date().toISOString();
             const guidelineNumber = feedback.guideline_number || null;
             const guidelineName = feedback.guideline_name || 'Unknown';
+            const relatedDocs = sanitizeText(feedback.related_docs || '');
 
             // Create issue title with guideline info
             let title = `[Feedback] ${feedbackType.replace(/_/g, ' ')}`;
@@ -126,16 +127,34 @@ jobs:
               body += '_Zie bovenstaande feedback._\n\n';
             }
 
+            // Map feedback type to readable text
+            const typeLabels = {
+              'bug_report': 'Fout',
+              'feature_request': 'Voorstel',
+              'general_feedback': 'Feedback',
+              'question': 'Vraag'
+            };
+            const feedbackTypeLabel = typeLabels[feedbackType] || feedbackType;
+
             // Add metadata section
             body += '---\n\n';
             body += '### Metadata\n';
+            body += `- **Type:** ${feedbackTypeLabel}\n`;
             if (guidelineNumber) {
               body += `- **Richtlijn:** ${guidelineNumber} - ${guidelineName}\n`;
             }
-            body += `- **Pagina:** [${pageTitle}](${pageUrl})\n`;
-            body += `- **Van:** ${userName} (${userEmail})\n`;
-            body += `- **Referentie ID:** ${referenceId}\n`;
             body += `- **Ingediend:** ${new Date(timestamp).toLocaleString('nl-NL')}\n`;
+
+            // Add related documents if provided
+            if (relatedDocs && relatedDocs.trim().length > 0) {
+              const links = relatedDocs.split('\n').filter(link => link.trim().length > 0);
+              if (links.length > 0) {
+                body += '\n### Relevante documenten\n';
+                links.forEach(link => {
+                  body += `- ${link.trim()}\n`;
+                });
+              }
+            }
 
             // Add guideline label if available
             const labels = [label, 'feedback'];
@@ -157,6 +176,7 @@ jobs:
 
             console.log(`✅ Issue created: #${issue.data.number}`);
             console.log(`Reference ID: ${referenceId}`);
+            console.log(`Contact: ${userName} (${userEmail})`);
 
       - name: Log feedback submission
         if: success()
@@ -164,6 +184,7 @@ jobs:
           echo "✅ Feedback successfully processed"
           echo "Issue #${{ steps.create-issue.outputs.issue_number }}"
           echo "Reference ID: ${{ steps.reference.outputs.reference_id }}"
+          echo "Contact: ${{ github.event.client_payload.user_name }} (${{ github.event.client_payload.user_email }})"
 
       - name: Handle validation failure
         if: failure() && steps.validate.outputs.error == 'true'

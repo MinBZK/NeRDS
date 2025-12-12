@@ -12,18 +12,18 @@ Je privacy is belangrijk voor ons. Hier leggen we uit welke gegevens we verzamel
 Wij verzamelen of bewaren geen gegevens van jouw bezoek aan deze website. De enige gegevens die wij kunnen verwerken zijn gegevens die je zelf actief aan ons geeft, zoals:
 
 - Als je een e-mail stuurt naar [bureau.architectuur@minbzk.nl](mailto:bureau.architectuur@minbzk.nl).
+- Als je feedback instuurt.
 
 ## Waarom verzamelen wij je gegevens?
 
-Als je ons een e-mail stuurt, gebruiken we je gegevens om:
+Als je ons een e-mail stuurt of feedback aanlevert gebruiken we je gegevens om:
 
 - Je vragen te beantwoorden.
 - Je feedback te verwerken.
-- Te voldoen aan de wet.
 
 ## Hoe beschermen wij je gegevens?
 
-Als je ons e-mailt, zorgen wij ervoor dat je gegevens veilig zijn. Alleen medewerkers die de gegevens nodig hebben, kunnen erbij.
+Als je ons e-mailt of feedback aanlevert, zorgen wij ervoor dat je gegevens veilig zijn. Alleen medewerkers die de gegevens nodig hebben, kunnen erbij.
 
 ## Hoe lang bewaren wij je gegevens?
 
