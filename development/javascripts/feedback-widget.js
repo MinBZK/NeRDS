@@ -224,6 +224,55 @@
       if (actionCloseBtn) {
         actionCloseBtn.addEventListener('click', () => this.closePanel());
       }
+
+      // Add link button
+      const addLinkBtn = document.getElementById('feedback-add-link');
+      if (addLinkBtn) {
+        addLinkBtn.addEventListener('click', () => this.addLinkField());
+      }
+    }
+
+    /**
+     * Add a new link input field
+     */
+    addLinkField() {
+      const container = document.getElementById('feedback-related-docs-container');
+      if (!container) return;
+
+      // Create wrapper for link row + error
+      const linkWrapper = document.createElement('div');
+      linkWrapper.className = 'feedback-widget__link-wrapper';
+
+      // Create new link row
+      const linkRow = document.createElement('div');
+      linkRow.className = 'feedback-widget__link-row';
+
+      // Create input field
+      const input = document.createElement('input');
+      input.type = 'url';
+      input.name = 'related_docs[]';
+      input.className = 'feedback-widget__input feedback-widget__input--link';
+      input.placeholder = 'nerds.nl/...';
+      input.setAttribute('aria-label', 'Link naar relevant document');
+
+      // Create remove button
+      const removeBtn = document.createElement('button');
+      removeBtn.type = 'button';
+      removeBtn.className = 'feedback-widget__remove-link';
+      removeBtn.setAttribute('aria-label', 'Link verwijderen');
+      removeBtn.innerHTML = '<span aria-hidden="true">&times;</span>';
+      removeBtn.addEventListener('click', () => {
+        linkWrapper.remove();
+      });
+
+      // Assemble row
+      linkRow.appendChild(input);
+      linkRow.appendChild(removeBtn);
+      linkWrapper.appendChild(linkRow);
+      container.appendChild(linkWrapper);
+
+      // Focus new input
+      input.focus();
     }
 
     /**
@@ -324,6 +373,24 @@
       if (fallbackMsg) {
         fallbackMsg.remove();
       }
+
+      // Reset related docs to single empty field
+      const container = document.getElementById('feedback-related-docs-container');
+      if (container) {
+        container.innerHTML = `
+          <div class="feedback-widget__link-wrapper">
+            <div class="feedback-widget__link-row">
+              <input
+                type="url"
+                name="related_docs[]"
+                class="feedback-widget__input feedback-widget__input--link"
+                placeholder="nerds.nl/..."
+                aria-label="Link naar relevant document"
+              />
+            </div>
+          </div>
+        `;
+      }
     }
 
     /**
@@ -399,7 +466,7 @@
 
       // Validate feedback type
       if (!feedbackType.value) {
-        this.showError('feedback-type-error', 'Selecteer alstublieft een soort feedback');
+        this.showError('feedback-type-error', 'Selecteer een soort feedback');
         isValid = false;
       } else {
         this.clearError('feedback-type-error');
@@ -418,7 +485,7 @@
 
       // Validate name
       if (!feedbackName.value || feedbackName.value.trim().length === 0) {
-        this.showError('feedback-name-error', 'Voer alstublieft uw naam in');
+        this.showError('feedback-name-error', 'Voer uw naam in');
         isValid = false;
       } else {
         this.clearError('feedback-name-error');
@@ -426,14 +493,57 @@
 
       // Validate email
       if (!feedbackEmail.value) {
-        this.showError('feedback-email-error', 'Voer alstublieft uw e-mailadres in');
+        this.showError('feedback-email-error', 'Voer uw e-mailadres in');
         isValid = false;
       } else if (!this.isValidEmail(feedbackEmail.value)) {
-        this.showError('feedback-email-error', 'Voer alstublieft een geldig e-mailadres in');
+        this.showError('feedback-email-error', 'Voer een geldig e-mailadres in');
         isValid = false;
       } else {
         this.clearError('feedback-email-error');
       }
+
+      // Validate related document links
+      const linkInputs = document.querySelectorAll('input[name="related_docs[]"]');
+      linkInputs.forEach((input, index) => {
+        const value = input.value.trim();
+        const wrapper = input.closest('.feedback-widget__link-wrapper');
+        const errorId = `feedback-link-error-${index}`;
+
+        // Only validate if the field has content
+        if (value.length > 0) {
+          if (!this.isValidUrl(value)) {
+            // Create or update error message for this specific input
+            let errorElement = document.getElementById(errorId);
+
+            if (!errorElement && wrapper) {
+              // Create error element if it doesn't exist
+              errorElement = document.createElement('div');
+              errorElement.id = errorId;
+              errorElement.className = 'feedback-widget__error';
+              errorElement.setAttribute('role', 'alert');
+              wrapper.appendChild(errorElement);
+            }
+
+            this.showError(errorId, 'Voer een geldige URL in (bijv. nerds.nl of https://nerds.nl)');
+            input.classList.add('feedback-widget__input--invalid');
+            isValid = false;
+          } else {
+            // Clear error if URL is valid
+            const errorElement = document.getElementById(errorId);
+            if (errorElement) {
+              errorElement.remove();
+            }
+            input.classList.remove('feedback-widget__input--invalid');
+          }
+        } else {
+          // Clear error for empty fields (they're optional)
+          const errorElement = document.getElementById(errorId);
+          if (errorElement) {
+            errorElement.remove();
+          }
+          input.classList.remove('feedback-widget__input--invalid');
+        }
+      });
 
       return isValid;
     }
@@ -444,6 +554,44 @@
     isValidEmail(email) {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       return emailRegex.test(email);
+    }
+
+    /**
+     * Normalize URL by adding https:// if no protocol is present
+     */
+    normalizeUrl(url) {
+      url = url.trim();
+
+      // If URL already has a protocol, return as-is
+      if (/^https?:\/\//i.test(url)) {
+        return url;
+      }
+
+      // Add https:// if missing
+      return 'https://' + url;
+    }
+
+    /**
+     * Validate URL format
+     */
+    isValidUrl(url) {
+      url = url.trim();
+
+      // Check if there's at least a dot (for domain validation)
+      if (!url.includes('.')) {
+        return false;
+      }
+
+      // Normalize the URL
+      const normalizedUrl = this.normalizeUrl(url);
+
+      try {
+        const urlObj = new URL(normalizedUrl);
+        // Check if protocol is http or https
+        return urlObj.protocol === 'http:' || urlObj.protocol === 'https:';
+      } catch (e) {
+        return false;
+      }
     }
 
     /**
@@ -474,6 +622,14 @@
       const feedbackText = document.getElementById('feedback-text').value;
       const userName = document.getElementById('feedback-name').value;
       const userEmail = document.getElementById('feedback-email').value;
+
+      // Collect all related document links and normalize them
+      const linkInputs = document.querySelectorAll('input[name="related_docs[]"]');
+      const relatedDocs = Array.from(linkInputs)
+        .map(input => input.value.trim())
+        .filter(value => value.length > 0)
+        .map(url => this.normalizeUrl(url))
+        .join('\n');
 
       // Get selected guideline from dropdown (user's explicit choice)
       const selectedGuidelineValue = document.getElementById('feedback-guideline').value;
@@ -507,6 +663,7 @@
         feedback_text: feedbackText,
         user_name: userName,
         user_email: userEmail,
+        related_docs: relatedDocs,
         page_url: pageUrl,
         page_title: pageTitle,
         timestamp: new Date().toISOString(),
@@ -621,7 +778,7 @@
       }
 
       // Show error message
-      let errorMessage = 'Uw feedback kan niet worden verzonden. Probeer het later alstublieft opnieuw.';
+      let errorMessage = 'Uw feedback kan niet worden verzonden. Probeer het later opnieuw.';
 
       if (error.name === 'AbortError') {
         errorMessage = 'De aanvraag duurde te lang. Controleer uw internetverbinding en probeer opnieuw.';
