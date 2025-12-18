@@ -1,3 +1,7 @@
+# NOTE: This workflow is currently not in use.
+# The feedback widget uses mailto: links instead of API calls.
+# This workflow is kept for potential future use if a backend proxy is implemented.
+
 name: Feedback to Issues
 
 on:

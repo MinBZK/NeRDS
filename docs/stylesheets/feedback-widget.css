@@ -183,35 +183,6 @@
   line-height: 1.4;
 }
 
-/* Notice Box */
-.feedback-widget__notice {
-  margin: 0 0 16px 0;
-  padding: 12px;
-  background-color: #fff3cd;
-  border: 1px solid #ffc107;
-  border-radius: 4px;
-}
-
-.feedback-widget__notice-text {
-  margin: 0;
-  font-size: 13px;
-  color: #856404;
-  line-height: 1.5;
-}
-
-.feedback-widget__notice-text strong {
-  font-weight: 600;
-}
-
-.feedback-widget__notice-text a {
-  color: #154273;
-  text-decoration: underline;
-}
-
-.feedback-widget__notice-text a:hover {
-  color: #0d3152;
-}
-
 /* Form Fields */
 .feedback-widget__field {
   margin-bottom: 16px;
