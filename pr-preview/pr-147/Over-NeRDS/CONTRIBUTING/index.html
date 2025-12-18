@@ -1795,6 +1795,14 @@ Indien je een nieuwe pagina wilt toevoegen, is het vaak nodig deze wijziging ook
       <p class="feedback-widget__instructions">
         Helpt u ons door uw feedback te delen? We gebruiken dit om NeRDS te verbeteren.
       </p>
+      <div class="feedback-widget__notice">
+        <p class="feedback-widget__notice-text">
+          <strong>Let op:</strong> Uw feedback wordt als openbare GitHub issue gepubliceerd.
+          Deel geen vertrouwelijke informatie.
+          Uw naam en e-mailadres zijn alleen zichtbaar voor beheerders
+          (<a href="/Over-NeRDS/privacy/" target="_blank" rel="noopener">meer info</a>).
+        </p>
+      </div>
 
       <!-- Guideline Selection Field -->
       <div class="feedback-widget__field">
@@ -1867,6 +1875,23 @@ Indien je een nieuwe pagina wilt toevoegen, is het vaak nodig deze wijziging ook
         <input type="email" id="feedback-email" name="user_email" class="feedback-widget__input" required aria-required="true" aria-describedby="feedback-email-error feedback-email-hint" placeholder="uw.naam@organisatie.nl">
         <span id="feedback-email-hint" class="feedback-widget__hint">Uw e-mailadres wordt gebruikt om contact met u op te nemen</span>
         <span id="feedback-email-error" class="feedback-widget__error" role="alert" aria-live="polite"></span>
+      </div>
+
+      <!-- Related Documents Field -->
+      <div class="feedback-widget__field">
+        <label class="feedback-widget__label">
+          Links naar relevante documenten
+        </label>
+        <div id="feedback-related-docs-container" class="feedback-widget__links-container">
+          <div class="feedback-widget__link-wrapper">
+            <div class="feedback-widget__link-row">
+              <input type="url" name="related_docs[]" class="feedback-widget__input feedback-widget__input--link" placeholder="nerds.nl/..." aria-label="Link naar relevant document">
+            </div>
+          </div>
+        </div>
+        <button type="button" id="feedback-add-link" class="feedback-widget__add-link" aria-label="Nog een link toevoegen">
+          <span aria-hidden="true">+</span> Link toevoegen
+        </button>
       </div>
 
       <!-- Honeypot field for spam prevention (hidden from users) -->
