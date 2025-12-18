@@ -24,7 +24,7 @@
   background-color: #007bc7;
   color: #ffffff;
   border: none;
-  border-radius: 0;
+  border-radius: 0rem;
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
@@ -36,7 +36,7 @@
 }
 
 .feedback-widget__toggle:hover {
-  background-color: #316fb3;
+  background-color: #3d85c9;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -183,6 +183,35 @@
   line-height: 1.4;
 }
 
+/* Notice Box */
+.feedback-widget__notice {
+  margin: 0 0 16px 0;
+  padding: 12px;
+  background-color: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 4px;
+}
+
+.feedback-widget__notice-text {
+  margin: 0;
+  font-size: 13px;
+  color: #856404;
+  line-height: 1.5;
+}
+
+.feedback-widget__notice-text strong {
+  font-weight: 600;
+}
+
+.feedback-widget__notice-text a {
+  color: #154273;
+  text-decoration: underline;
+}
+
+.feedback-widget__notice-text a:hover {
+  color: #0d3152;
+}
+
 /* Form Fields */
 .feedback-widget__field {
   margin-bottom: 16px;
@@ -234,6 +263,89 @@
 .feedback-widget__textarea {
   resize: vertical;
   min-height: 100px;
+}
+
+.feedback-widget__textarea--small {
+  min-height: 60px;
+}
+
+/* Link Fields Container */
+.feedback-widget__links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.feedback-widget__link-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.feedback-widget__link-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.feedback-widget__input--link {
+  flex: 1;
+}
+
+/* Add Link Button */
+.feedback-widget__add-link {
+  background: none;
+  border: 1px dashed #B9C7D5;
+  color: #154273;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.feedback-widget__add-link:hover {
+  border-color: #316fb3;
+  background-color: #f5f5f5;
+}
+
+.feedback-widget__add-link:focus {
+  outline: 2px solid #316fb3;
+  outline-offset: 2px;
+}
+
+/* Remove Link Button */
+.feedback-widget__remove-link {
+  background: none;
+  border: 1px solid #d32f2f;
+  color: #d32f2f;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.feedback-widget__remove-link:hover {
+  background-color: #d32f2f;
+  color: #ffffff;
+}
+
+.feedback-widget__remove-link:focus {
+  outline: 2px solid #d32f2f;
+  outline-offset: 2px;
 }
 
 .feedback-widget__select {
@@ -330,23 +442,6 @@
 
 .feedback-widget__actions .md-button {
   flex: 1;
-  padding: 10px 16px;
-  font-family: inherit;
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  text-align: center;
-  text-decoration: none;
-}
-
-.feedback-widget__actions .md-button:focus {
-  outline: 2px solid #316fb3;
-  outline-offset: 2px;
-}
-
-.feedback-widget__actions .md-button:active {
-  transform: scale(0.98);
 }
 
 .feedback-widget__actions .md-button:disabled {
@@ -457,17 +552,23 @@
 /* Error State */
 .feedback-widget__input.has-error,
 .feedback-widget__select.has-error,
-.feedback-widget__textarea.has-error {
+.feedback-widget__textarea.has-error,
+.feedback-widget__input--invalid {
   border-color: #d32f2f;
 }
 
+.feedback-widget__input--invalid:focus {
+  border-color: #d32f2f;
+  box-shadow: 0 0 0 3px rgba(211, 47, 47, 0.1);
+}
+
 /* Loading State */
-.feedback-widget__actions .md-button--primary[aria-busy="true"] {
+.feedback-widget__actions .md-button[aria-busy="true"] {
   pointer-events: none;
   opacity: 0.7;
 }
 
-.feedback-widget__actions .md-button--primary[aria-busy="true"]::after {
+.feedback-widget__actions .md-button[aria-busy="true"]::after {
   content: '';
   display: inline-block;
   width: 12px;
@@ -538,16 +639,6 @@
 
   .feedback-widget__optional {
     color: #999;
-  }
-
-  .feedback-widget__button--secondary {
-    background-color: #3c3c3c;
-    color: #e0e0e0;
-    border-color: #555;
-  }
-
-  .feedback-widget__button--secondary:hover:not(:disabled) {
-    background-color: #4c4c4c;
   }
 
   .feedback-widget__instructions {
