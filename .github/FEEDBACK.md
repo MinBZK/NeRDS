@@ -108,4 +108,3 @@ Voor vragen over het feedback systeem, neem contact op met:
 
 - E-mail: <bureau.architectuur@minbzk.nl>
 - GitHub: <https://github.com/MinBZK/NeRDS/issues>
-
