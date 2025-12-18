@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Feedback via e-mail
+    url: mailto:bureau.architectuur@minbzk.nl?subject=Feedback%20NeRDS
+    about: Stuur je feedback rechtstreeks via e-mail naar het architectuurbureau
+  - name: Feedback widget op website
+    url: https://minbzk.github.io/NeRDS/
+    about: Gebruik de feedback widget op de website voor vooraf ingevulde formulieren
+  - name: Documentatie
+    url: https://minbzk.github.io/NeRDS/
+    about: Bekijk de volledige Nederlandse Richtlijn Digitale Systemen

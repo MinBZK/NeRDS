@@ -225,6 +225,12 @@
         actionCloseBtn.addEventListener('click', () => this.closePanel());
       }
 
+      // GitHub Issues button
+      const githubBtn = document.getElementById('feedback-github');
+      if (githubBtn) {
+        githubBtn.addEventListener('click', () => this.openGitHubIssue());
+      }
+
       // Add link button
       const addLinkBtn = document.getElementById('feedback-add-link');
       if (addLinkBtn) {
@@ -273,6 +279,141 @@
 
       // Focus new input
       input.focus();
+    }
+
+    /**
+     * Open GitHub Issue (markdown template) with pre-filled data
+     */
+    openGitHubIssue() {
+      // Validate form first
+      if (!this.validateForm()) {
+        return;
+      }
+
+      // Get form data
+      const feedbackType = document.getElementById('feedback-type').value;
+      const feedbackText = document.getElementById('feedback-text').value;
+      const selectedGuidelineValue = document.getElementById('feedback-guideline').value;
+
+      // Collect related document links
+      const linkInputs = document.querySelectorAll('input[name="related_docs[]"]');
+      const relatedDocs = Array.from(linkInputs)
+        .map(input => input.value.trim())
+        .filter(value => value.length > 0)
+        .join('\n');
+
+      // Map feedback type to GitHub markdown template
+      const templateMap = {
+        'bug_report': 'bug-report.md',
+        'feature_request': 'feature-request.md',
+        'question': 'question.md',
+        'general_feedback': 'general-feedback.md'
+      };
+
+      const template = templateMap[feedbackType] || 'general-feedback.md';
+
+      // Map guideline number to checkbox text
+      const guidelineNames = {
+        '0': 'Over de NeRDS in het algemeen',
+        '1': 'Richtlijn 1 - Gebruikersbehoeften',
+        '2': 'Richtlijn 2 - Toegankelijkheid',
+        '3': 'Richtlijn 3 - Open Source',
+        '4': 'Richtlijn 4 - Open Standaarden',
+        '5': 'Richtlijn 5 - Cloud',
+        '6': 'Richtlijn 6 - Veiligheid',
+        '7': 'Richtlijn 7 - Privacy',
+        '8': 'Richtlijn 8 - Samenwerking',
+        '9': 'Richtlijn 9 - Integratie',
+        '10': 'Richtlijn 10 - Data',
+        '11': 'Richtlijn 11 - Algoritmen',
+        '12': 'Richtlijn 12 - Inkoopstrategie',
+        '13': 'Richtlijn 13 - Duurzaamheid',
+        '14': 'Richtlijn 14 - Servicestandaard'
+      };
+
+      // Build issue body based on feedback type
+      let issueBody = '';
+      const pageUrl = window.location.href;
+      const pageTitle = document.querySelector('h1')?.textContent || document.title;
+
+      // Add guideline section (with checkbox marked if selected)
+      issueBody += '**Over welke richtlijn gaat dit?**\n';
+      if (selectedGuidelineValue && guidelineNames[selectedGuidelineValue]) {
+        issueBody += `- [x] ${guidelineNames[selectedGuidelineValue]}\n`;
+      }
+      issueBody += '\n';
+
+      // Add main feedback content
+      if (feedbackType === 'bug_report') {
+        issueBody += `**Beschrijf de fout**\n${feedbackText}\n\n`;
+        issueBody += `**Verwacht gedrag**\n\n`;
+        issueBody += `**Screenshots**\n\n`;
+        issueBody += `**Browser en versie**\n${navigator.userAgent}\n\n`;
+      } else if (feedbackType === 'feature_request') {
+        issueBody += `**Beschrijf je suggestie**\n${feedbackText}\n\n`;
+        issueBody += `**Waarom is dit een goede toevoeging?**\n\n`;
+        if (relatedDocs) {
+          issueBody += `**Relevante documenten of links**\n${relatedDocs}\n\n`;
+        }
+      } else if (feedbackType === 'question') {
+        issueBody += `**Beschrijf je vraag**\n${feedbackText}\n\n`;
+        issueBody += `**Context**\n\n`;
+      } else if (feedbackType === 'general_feedback') {
+        issueBody += `**Jouw feedback**\n${feedbackText}\n\n`;
+        if (relatedDocs) {
+          issueBody += `**Relevante documenten of links**\n${relatedDocs}\n\n`;
+        }
+      }
+
+      // Add metadata
+      issueBody += `---\n`;
+      issueBody += `**Metadata**\n`;
+      issueBody += `- **Pagina:** [${pageTitle}](${pageUrl})\n`;
+      issueBody += `- **Ingediend:** ${new Date().toLocaleString('nl-NL')}\n`;
+
+      // Build URL with template, title, and body parameters
+      const params = new URLSearchParams();
+      params.append('template', template);
+
+      // Create title from first 60 characters of feedback text
+      const maxTitleLength = 60;
+      let issueTitle = feedbackText.substring(0, maxTitleLength);
+      if (feedbackText.length > maxTitleLength) {
+        issueTitle += '...';
+      }
+
+      // Add feedback type prefix to title
+      const typePrefixes = {
+        'bug_report': '[Bug] ',
+        'feature_request': '[Voorstel] ',
+        'question': '[Vraag] ',
+        'general_feedback': '[Feedback] '
+      };
+      const prefix = typePrefixes[feedbackType] || '[Feedback] ';
+      issueTitle = prefix + issueTitle;
+
+      params.append('title', issueTitle);
+      params.append('body', issueBody);
+
+      const githubUrl = `https://github.com/MinBZK/NeRDS/issues/new?${params.toString()}`;
+
+      // Open in new tab
+      window.open(githubUrl, '_blank', 'noopener,noreferrer');
+
+      // Show success message
+      const status = document.getElementById('feedback-status');
+      if (status) {
+        status.textContent = 'GitHub Issue wordt geopend met uw ingevulde gegevens...';
+        status.hidden = false;
+        status.classList.remove('error', 'loading');
+        status.classList.add('info');
+
+        // Clear message and close panel after delay
+        setTimeout(() => {
+          status.hidden = true;
+          this.closePanel();
+        }, 2000);
+      }
     }
 
     /**
@@ -457,8 +598,6 @@
       const feedbackGuideline = document.getElementById('feedback-guideline');
       const feedbackType = document.getElementById('feedback-type');
       const feedbackText = document.getElementById('feedback-text');
-      const feedbackName = document.getElementById('feedback-name');
-      const feedbackEmail = document.getElementById('feedback-email');
 
       // Guideline selection is optional - no validation needed
       // Just clear any error message if shown
@@ -481,25 +620,6 @@
         isValid = false;
       } else {
         this.clearError('feedback-text-error');
-      }
-
-      // Validate name
-      if (!feedbackName.value || feedbackName.value.trim().length === 0) {
-        this.showError('feedback-name-error', 'Voer uw naam in');
-        isValid = false;
-      } else {
-        this.clearError('feedback-name-error');
-      }
-
-      // Validate email
-      if (!feedbackEmail.value) {
-        this.showError('feedback-email-error', 'Voer uw e-mailadres in');
-        isValid = false;
-      } else if (!this.isValidEmail(feedbackEmail.value)) {
-        this.showError('feedback-email-error', 'Voer een geldig e-mailadres in');
-        isValid = false;
-      } else {
-        this.clearError('feedback-email-error');
       }
 
       // Validate related document links
@@ -620,8 +740,6 @@
     getFormData() {
       const feedbackType = document.getElementById('feedback-type').value;
       const feedbackText = document.getElementById('feedback-text').value;
-      const userName = document.getElementById('feedback-name').value;
-      const userEmail = document.getElementById('feedback-email').value;
 
       // Collect all related document links and normalize them
       const linkInputs = document.querySelectorAll('input[name="related_docs[]"]');
@@ -661,8 +779,6 @@
       return {
         feedback_type: feedbackType,
         feedback_text: feedbackText,
-        user_name: userName,
-        user_email: userEmail,
         related_docs: relatedDocs,
         page_url: pageUrl,
         page_title: pageTitle,
@@ -674,58 +790,58 @@
     }
 
     /**
-     * Submit feedback to server
+     * Submit feedback via mailto link
      */
     submitFeedback(data, submitBtn) {
-      const config = window.feedbackConfig || {};
-      const webhookUrl = config.webhookUrl || 'https://api.github.com/repos/MinBZK/NeRDS/dispatches';
-      const timeout = config.timeout || 10000;
+      // Map feedback type to readable Dutch text
+      const typeLabels = {
+        'bug_report': 'Fout/Bug',
+        'feature_request': 'Voorstel',
+        'general_feedback': 'Algemene feedback',
+        'question': 'Vraag'
+      };
+      const feedbackTypeLabel = typeLabels[data.feedback_type] || data.feedback_type;
 
-      // Show loading status
-      const status = document.getElementById('feedback-status');
-      if (status) {
-        status.textContent = 'Feedback verzenden...';
-        status.hidden = false;
-        status.classList.add('loading');
+      // Build email subject
+      let subject = `[NeRDS Feedback] ${feedbackTypeLabel}`;
+      if (data.guideline_number && data.guideline_number > 0) {
+        subject += ` - Richtlijn ${data.guideline_number}`;
       }
 
-      // Create abort controller for timeout
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), timeout);
+      // Build email body
+      let body = `Type: ${feedbackTypeLabel}\n\n`;
 
-      fetch(webhookUrl, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/vnd.github.v3+json',
-        },
-        body: JSON.stringify({
-          event_type: 'feedback_submission',
-          client_payload: data,
-        }),
-        signal: controller.signal,
-      })
-        .then((response) => {
-          clearTimeout(timeoutId);
-          if (response.ok) {
-            return response.json().catch(() => ({}));
-          }
-          throw new Error(`HTTP ${response.status}`);
-        })
-        .then((result) => {
-          this.handleSubmitSuccess(data, result, submitBtn, status);
-        })
-        .catch((error) => {
-          clearTimeout(timeoutId);
-          this.handleSubmitError(error, submitBtn, status);
-        });
+      if (data.guideline_number && data.guideline_number > 0) {
+        body += `Richtlijn: ${data.guideline_number} - ${data.guideline_name || 'Onbekend'}\n`;
+      }
+
+      body += `Pagina: ${data.page_title} (${data.page_url})\n\n`;
+      body += `--- Feedback ---\n${data.feedback_text}\n\n`;
+
+      if (data.related_docs && data.related_docs.trim().length > 0) {
+        body += `--- Relevante documenten ---\n${data.related_docs}\n\n`;
+      }
+
+      body += `--- Metadata ---\n`;
+      body += `Pagina: ${data.page_title} (${data.page_url})\n`;
+      body += `Ingediend: ${new Date(data.timestamp).toLocaleString('nl-NL')}\n`;
+      body += `Browser: ${data.user_agent}\n`;
+
+      // Create mailto URL
+      const mailtoUrl = `mailto:bureau.architectuur@minbzk.nl?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+      // Open email client
+      window.location.href = mailtoUrl;
+
+      // Show success message
+      this.handleSubmitSuccess(data, {}, submitBtn, null);
     }
 
     /**
      * Handle successful submission
      */
     handleSubmitSuccess(data, result, submitBtn, status) {
-      // Clear status message
+      // Clear status message if it exists
       if (status) {
         status.hidden = true;
         status.classList.remove('loading');
@@ -742,7 +858,7 @@
       const referenceElement = document.getElementById('feedback-reference');
 
       if (successMsg && referenceElement) {
-        referenceElement.textContent = `Referentie-ID: ${referenceId}`;
+        referenceElement.textContent = `Uw e-mailclient is geopend. Klik op 'Verzenden' in uw e-mail om de feedback te versturen.`;
         successMsg.hidden = false;
 
         // Scroll into view
@@ -765,66 +881,6 @@
       submitBtn.setAttribute('aria-busy', 'false');
     }
 
-    /**
-     * Handle submission error
-     */
-    handleSubmitError(error, submitBtn, status) {
-      console.error('Feedback submission error:', error);
-
-      // Clear status message
-      if (status) {
-        status.hidden = true;
-        status.classList.remove('loading');
-      }
-
-      // Show error message
-      let errorMessage = 'Uw feedback kan niet worden verzonden. Probeer het later opnieuw.';
-
-      if (error.name === 'AbortError') {
-        errorMessage = 'De aanvraag duurde te lang. Controleer uw internetverbinding en probeer opnieuw.';
-      }
-
-      if (status) {
-        status.textContent = errorMessage;
-        status.hidden = false;
-        status.classList.add('error');
-      } else {
-        alert(errorMessage);
-      }
-
-      // Show fallback email option
-      this.showFallbackEmail();
-
-      // Re-enable submit button
-      submitBtn.disabled = false;
-      submitBtn.setAttribute('aria-busy', 'false');
-    }
-
-    /**
-     * Show fallback email for manual submission
-     */
-    showFallbackEmail() {
-      const form = document.getElementById('feedback-form');
-      if (!form) {
-        return;
-      }
-
-      // Check if fallback message already exists
-      const existingFallback = form.querySelector('.feedback-widget__fallback');
-      if (existingFallback) {
-        return; // Don't add duplicate
-      }
-
-      const fallbackDiv = document.createElement('div');
-      fallbackDiv.className = 'feedback-widget__fallback';
-      fallbackDiv.innerHTML = `
-        <p>U kunt uw feedback ook rechtstreeks naar ons mailen:</p>
-        <p><a href="mailto:bureau.architectuur@minbzk.nl">bureau.architectuur@minbzk.nl</a></p>
-        <p>Of maak een issue aan op <a href=https://github.com/MinBZK/NeRDS/issues target="_blank">Github</a>.</p>
-      `;
-
-      form.appendChild(fallbackDiv);
-    }
 
     /**
      * Generate a unique reference ID
