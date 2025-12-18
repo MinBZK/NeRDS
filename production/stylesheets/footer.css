@@ -1,7 +1,7 @@
 .md-footer {
     background-color: #e6f3fb; /* Light blue background */
     padding: 20px;
-    border-top: 6px solid #B2D7EE;
+    border-top: 10px solid #B2D7EE;
   }
 
   .md-footer__inner {
@@ -18,13 +18,14 @@
     max-width: 600px; /* Beperkt de breedte van de rechtersectie */
     justify-content: flex-start;
 }
-  /* Left Section */
+  /* Column 1: Notice Section */
   .md-footer__notice {
     flex: 1;
     color: #154273; /* Dark blue for readability */
     font-size: 1.3em;
   }
 
+  /* Columns 2, 3 & 4: Link Columns */
   .md-footer__column {
     display: flex;
     flex-direction: column;
@@ -86,3 +87,15 @@
       align-items: center;
     }
   }
+
+/* Additional responsive breakpoint for tablets and smaller screens */
+@media (max-width: 1024px) {
+  .md-footer__inner {
+    gap: 15px;
+  }
+
+  .md-footer__column {
+    min-width: 120px;
+    flex: 1;
+  }
+}
