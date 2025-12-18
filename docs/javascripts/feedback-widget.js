@@ -369,6 +369,8 @@
       issueBody += `---\n`;
       issueBody += `**Metadata**\n`;
       issueBody += `- **Pagina:** [${pageTitle}](${pageUrl})\n`;
+      issueBody += `- **Browser:** ${this.getBrowserInfo()}\n`;
+      issueBody += `- **Systeem:** ${this.getOSInfo()}\n`;
       issueBody += `- **Ingediend:** ${new Date().toLocaleString('nl-NL')}\n`;
 
       // Build URL with template, title, and body parameters
@@ -881,6 +883,68 @@
       submitBtn.setAttribute('aria-busy', 'false');
     }
 
+
+    /**
+     * Get browser information
+     */
+    getBrowserInfo() {
+      const ua = navigator.userAgent;
+      let browserName = 'Onbekend';
+      let browserVersion = '';
+
+      // Detect browser
+      if (ua.indexOf('Firefox') > -1) {
+        browserName = 'Firefox';
+        browserVersion = ua.match(/Firefox\/([0-9.]+)/)?.[1] || '';
+      } else if (ua.indexOf('Edg') > -1) {
+        browserName = 'Edge';
+        browserVersion = ua.match(/Edg\/([0-9.]+)/)?.[1] || '';
+      } else if (ua.indexOf('Chrome') > -1) {
+        browserName = 'Chrome';
+        browserVersion = ua.match(/Chrome\/([0-9.]+)/)?.[1] || '';
+      } else if (ua.indexOf('Safari') > -1) {
+        browserName = 'Safari';
+        browserVersion = ua.match(/Version\/([0-9.]+)/)?.[1] || '';
+      }
+
+      return browserVersion ? `${browserName} ${browserVersion}` : browserName;
+    }
+
+    /**
+     * Get OS information
+     */
+    getOSInfo() {
+      const ua = navigator.userAgent;
+      let osName = 'Onbekend';
+
+      if (ua.indexOf('Win') > -1) {
+        osName = 'Windows';
+        if (ua.indexOf('Windows NT 10.0') > -1) osName += ' 10/11';
+        else if (ua.indexOf('Windows NT 6.3') > -1) osName += ' 8.1';
+        else if (ua.indexOf('Windows NT 6.2') > -1) osName += ' 8';
+        else if (ua.indexOf('Windows NT 6.1') > -1) osName += ' 7';
+      } else if (ua.indexOf('Mac') > -1) {
+        osName = 'macOS';
+        const version = ua.match(/Mac OS X ([0-9_]+)/)?.[1];
+        if (version) {
+          osName += ' ' + version.replace(/_/g, '.');
+        }
+      } else if (ua.indexOf('Linux') > -1) {
+        osName = 'Linux';
+      } else if (ua.indexOf('Android') > -1) {
+        osName = 'Android';
+        const version = ua.match(/Android ([0-9.]+)/)?.[1];
+        if (version) osName += ' ' + version;
+      } else if (ua.indexOf('iOS') > -1 || ua.indexOf('iPhone') > -1 || ua.indexOf('iPad') > -1) {
+        osName = 'iOS';
+        const version = ua.match(/OS ([0-9_]+)/)?.[1];
+        if (version) {
+          osName += ' ' + version.replace(/_/g, '.');
+        }
+      }
+
+      return osName;
+    }
 
     /**
      * Generate a unique reference ID
