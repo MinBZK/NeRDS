@@ -66,6 +66,8 @@
     
       <link rel="stylesheet" href="../../stylesheets/landing-page.css">
     
+      <link rel="stylesheet" href="../../stylesheets/feedback-widget.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -1080,6 +1082,7 @@
               
               <article class="md-content__inner md-typeset">
                 
+  
                   
 
 
@@ -1203,6 +1206,135 @@
 
 
                 
+  <div class="feedback-widget" id="feedback-widget" data-guideline-page="true">
+  <button class="feedback-widget__toggle" id="feedback-toggle" aria-expanded="false" aria-label="Feedback formulier openen">
+    <span class="feedback-widget__toggle-text">Feedback over de NeRDS?</span>
+  </button>
+  <button class="feedback-widget__dismiss" id="feedback-dismiss" aria-label="Widget verbergen">
+    <span aria-hidden="true">×</span>
+  </button>
+
+  <div class="feedback-widget__panel" id="feedback-panel" role="region" aria-labelledby="feedback-title" hidden>
+    <div class="feedback-widget__header">
+      <div>
+        <h2 id="feedback-title" class="feedback-widget__title">Feedback geven</h2>
+      </div>
+      <button class="feedback-widget__close" id="feedback-close" aria-label="Feedback formulier sluiten (Escape toets)" title="Sluiten (Escape toets)">
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+
+    <form id="feedback-form" class="feedback-widget__form" novalidate>
+      <p class="feedback-widget__instructions">
+        Helpt u ons door uw feedback te delen? We gebruiken dit om NeRDS te verbeteren.
+      </p>
+
+      <!-- Guideline Selection Field -->
+      <div class="feedback-widget__field">
+        <label for="feedback-guideline" class="feedback-widget__label">
+          Welke richtlijn betreft dit?
+        </label>
+        <select id="feedback-guideline" name="feedback_guideline" class="feedback-widget__select" aria-describedby="feedback-guideline-error">
+          <option value="">-- Alle richtlijnen --</option>
+          <option value="0">Over de NeRDS in het algemeen</option>
+          <option value="1">1. Gebruikersbehoeften</option>
+          <option value="2">2. Toegankelijkheid</option>
+          <option value="3">3. Open Source</option>
+          <option value="4">4. Open Standaarden</option>
+          <option value="5">5. Cloud</option>
+          <option value="6">6. Veiligheid</option>
+          <option value="7">7. Privacy</option>
+          <option value="8">8. Samenwerking</option>
+          <option value="9">9. Integratie</option>
+          <option value="10">10. Data</option>
+          <option value="11">11. Algoritmen</option>
+          <option value="12">12. Inkoopstrategie</option>
+          <option value="13">13. Duurzaamheid</option>
+        </select>
+        <span id="feedback-guideline-error" class="feedback-widget__error" role="alert" aria-live="polite"></span>
+      </div>
+
+      <!-- Feedback Type Field -->
+      <div class="feedback-widget__field">
+        <label for="feedback-type" class="feedback-widget__label">
+          Soort feedback
+          <span class="feedback-widget__required" aria-label="verplicht">*</span>
+        </label>
+        <select id="feedback-type" name="feedback_type" class="feedback-widget__select" required aria-required="true" aria-describedby="feedback-type-error">
+          <option value="">-- Selecteer --</option>
+          <option value="bug_report">Fout</option>
+          <option value="feature_request">Voorstel</option>
+          <option value="general_feedback">Feedback</option>
+          <option value="question">Vraag</option>
+        </select>
+        <span id="feedback-type-error" class="feedback-widget__error" role="alert" aria-live="polite"></span>
+      </div>
+
+      <!-- Feedback Text Field -->
+      <div class="feedback-widget__field">
+        <label for="feedback-text" class="feedback-widget__label">
+          Uw feedback
+          <span class="feedback-widget__required" aria-label="verplicht">*</span>
+        </label>
+        <textarea id="feedback-text" name="feedback_text" class="feedback-widget__textarea" rows="4" minlength="10" maxlength="5000" required aria-required="true" aria-describedby="feedback-text-error feedback-text-hint" placeholder="Beschrijf uw feedback (minimaal 10 tekens)"></textarea>
+        <span id="feedback-text-hint" class="feedback-widget__hint">Minimaal 10 tekens</span>
+        <span id="feedback-text-error" class="feedback-widget__error" role="alert" aria-live="polite"></span>
+      </div>
+
+      <!-- Name Field -->
+      <div class="feedback-widget__field">
+        <label for="feedback-name" class="feedback-widget__label">
+          Uw naam
+          <span class="feedback-widget__required" aria-label="verplicht">*</span>
+        </label>
+        <input type="text" id="feedback-name" name="user_name" class="feedback-widget__input" required aria-required="true" aria-describedby="feedback-name-error" placeholder="Uw volledige naam">
+        <span id="feedback-name-error" class="feedback-widget__error" role="alert" aria-live="polite"></span>
+      </div>
+
+      <!-- Email Field -->
+      <div class="feedback-widget__field">
+        <label for="feedback-email" class="feedback-widget__label">
+          E-mailadres
+          <span class="feedback-widget__required" aria-label="verplicht">*</span>
+        </label>
+        <input type="email" id="feedback-email" name="user_email" class="feedback-widget__input" required aria-required="true" aria-describedby="feedback-email-error feedback-email-hint" placeholder="uw.naam@organisatie.nl">
+        <span id="feedback-email-hint" class="feedback-widget__hint">Uw e-mailadres wordt gebruikt om contact met u op te nemen</span>
+        <span id="feedback-email-error" class="feedback-widget__error" role="alert" aria-live="polite"></span>
+      </div>
+
+      <!-- Honeypot field for spam prevention (hidden from users) -->
+      <div class="feedback-widget__honeypot">
+        <input type="text" name="website" tabindex="-1" autocomplete="off">
+      </div>
+
+      <!-- Form Actions -->
+      <div class="feedback-widget__actions">
+        <button type="submit" id="feedback-submit" class="md-button md-button--primary" aria-busy="false">
+          Feedback verzenden
+        </button>
+        <button type="button" id="feedback-action-close" class="md-button md-button--secondary">
+          Sluiten
+        </button>
+      </div>
+
+      <!-- Status Messages -->
+      <div id="feedback-status" class="feedback-widget__status" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+      <div id="feedback-success" class="feedback-widget__success" role="alert" hidden>
+        <div class="feedback-widget__success-content">
+          <span class="feedback-widget__success-icon" aria-hidden="true">✓</span>
+          <div>
+            <p class="feedback-widget__success-title">Bedankt voor uw feedback!</p>
+            <p id="feedback-reference" class="feedback-widget__success-reference"></p>
+          </div>
+        </div>
+        <button type="button" id="feedback-success-close" class="feedback-widget__success-close" aria-label="Berichtvenster sluiten">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
               </article>
             </div>
           
@@ -1284,6 +1416,12 @@
         <script src="../../javascripts/cluster-form.js"></script>
       
         <script src="../../javascripts/version-dutch.js"></script>
+      
+        <script src="../../javascripts/feedback-config.js"></script>
+      
+        <script src="../../javascripts/feedback-i18n.js"></script>
+      
+        <script src="../../javascripts/feedback-widget.js"></script>
       
     
   
