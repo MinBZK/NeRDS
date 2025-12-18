@@ -466,7 +466,7 @@
 
       // Validate feedback type
       if (!feedbackType.value) {
-        this.showError('feedback-type-error', 'Selecteer alstublieft een soort feedback');
+        this.showError('feedback-type-error', 'Selecteer een soort feedback');
         isValid = false;
       } else {
         this.clearError('feedback-type-error');
@@ -485,7 +485,7 @@
 
       // Validate name
       if (!feedbackName.value || feedbackName.value.trim().length === 0) {
-        this.showError('feedback-name-error', 'Voer alstublieft uw naam in');
+        this.showError('feedback-name-error', 'Voer uw naam in');
         isValid = false;
       } else {
         this.clearError('feedback-name-error');
@@ -493,10 +493,10 @@
 
       // Validate email
       if (!feedbackEmail.value) {
-        this.showError('feedback-email-error', 'Voer alstublieft uw e-mailadres in');
+        this.showError('feedback-email-error', 'Voer uw e-mailadres in');
         isValid = false;
       } else if (!this.isValidEmail(feedbackEmail.value)) {
-        this.showError('feedback-email-error', 'Voer alstublieft een geldig e-mailadres in');
+        this.showError('feedback-email-error', 'Voer een geldig e-mailadres in');
         isValid = false;
       } else {
         this.clearError('feedback-email-error');
@@ -524,7 +524,7 @@
               wrapper.appendChild(errorElement);
             }
 
-            this.showError(errorId, 'Voer alstublieft een geldige URL in (bijv. nerds.nl of https://nerds.nl)');
+            this.showError(errorId, 'Voer een geldige URL in (bijv. nerds.nl of https://nerds.nl)');
             input.classList.add('feedback-widget__input--invalid');
             isValid = false;
           } else {
@@ -778,7 +778,7 @@
       }
 
       // Show error message
-      let errorMessage = 'Uw feedback kan niet worden verzonden. Probeer het later alstublieft opnieuw.';
+      let errorMessage = 'Uw feedback kan niet worden verzonden. Probeer het later opnieuw.';
 
       if (error.name === 'AbortError') {
         errorMessage = 'De aanvraag duurde te lang. Controleer uw internetverbinding en probeer opnieuw.';
