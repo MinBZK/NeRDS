@@ -6,27 +6,31 @@ De Nederlandse Richtlijn Digitale Systemen heeft twee manieren waarop gebruikers
 
 De feedback widget op de website verzamelt gestructureerde feedback en opent de e-mailclient van de gebruiker met vooraf ingevulde informatie.
 
-### Hoe het werkt:
+### Hoe het werkt
+
 1. Gebruiker vult het feedback formulier in op de website
 2. Bij verzenden wordt de e-mailclient geopend met:
-   - **Aan:** bureau.architectuur@minbzk.nl
+   - **Aan:** <bureau.architectuur@minbzk.nl>
    - **Onderwerp:** [NeRDS Feedback] Type - Richtlijn X
    - **Body:** Alle ingevulde feedback data
 3. Gebruiker klikt op "Verzenden" in hun e-mailclient
 4. Feedback komt binnen via e-mail
 
-### Voordelen:
+### Voordelen
+
 - ✅ Geen externe partijen of backend nodig
 - ✅ Werkt altijd (geen afhankelijkheid van API's)
 - ✅ Privacy-vriendelijk
 - ✅ Gebruiker heeft volledige controle
 
-### Nadelen:
+### Nadelen
+
 - ⚠️ Vereist een geconfigureerde e-mailclient
 - ⚠️ Geen automatische issue tracking
 - ⚠️ Handmatige verwerking van feedback nodig
 
-### Bestanden:
+### Bestanden
+
 - `docs/javascripts/feedback-widget.js` - Widget implementatie
 - `docs/javascripts/feedback-config.js` - Configuratie
 - `docs/javascripts/feedback-i18n.js` - Vertalingen
@@ -35,8 +39,9 @@ De feedback widget op de website verzamelt gestructureerde feedback en opent de 
 
 Gebruikers kunnen ook direct feedback geven via gestructureerde GitHub formulieren.
 
-### Hoe het werkt:
-1. Gebruiker gaat naar: https://github.com/MinBZK/NeRDS/issues/new/choose
+### Hoe het werkt
+
+1. Gebruiker gaat naar: <https://github.com/MinBZK/NeRDS/issues/new/choose>
 2. Selecteert het type feedback:
    - 🐛 Fout of bug melden
    - 💡 Suggestie of verbetering
@@ -45,18 +50,21 @@ Gebruikers kunnen ook direct feedback geven via gestructureerde GitHub formulier
 3. Vult het formulier in
 4. GitHub maakt automatisch een issue aan
 
-### Voordelen:
+### Voordelen
+
 - ✅ Automatisch gestructureerd en doorzoekbaar
 - ✅ Publiek zichtbaar en trackbaar
 - ✅ Discussie mogelijk via comments
 - ✅ Eenvoudig te beheren met labels en projecten
 
-### Nadelen:
+### Nadelen
+
 - ⚠️ Vereist GitHub account
 - ⚠️ Publiek zichtbaar (geen privacy voor feedback)
 - ⚠️ Minder laagdrempelig dan widget
 
-### Bestanden:
+### Bestanden
+
 - `.github/ISSUE_TEMPLATE/bug-report.yml`
 - `.github/ISSUE_TEMPLATE/feature-request.yml`
 - `.github/ISSUE_TEMPLATE/question.yml`
@@ -68,11 +76,13 @@ Gebruikers kunnen ook direct feedback geven via gestructureerde GitHub formulier
 Het bestand `.github/workflows/feedback-to-issues.yml` bevat een workflow die **momenteel niet actief is**.
 
 Deze workflow zou gebruikt kunnen worden als er in de toekomst een backend proxy wordt geïmplementeerd die:
+
 1. Feedback van de widget ontvangt via API
 2. Authenticatie met GitHub afhandelt
 3. Automatisch issues aanmaakt
 
-### Wat nodig is voor activering:
+### Wat nodig is voor activering
+
 - Een backend service (bijv. bij MinBZK gehost)
 - GitHub Personal Access Token met `repo` scope
 - Update van `feedback-widget.js` om naar backend te POST'en
@@ -81,11 +91,13 @@ Deze workflow zou gebruikt kunnen worden als er in de toekomst een backend proxy
 ## Aanbeveling
 
 Voor de meeste gebruikers wordt **de feedback widget (mailto)** aanbevolen omdat:
+
 - Geen account nodig
 - Privacy-vriendelijk
 - Simpel en altijd beschikbaar
 
 Voor **technische gebruikers en ontwikkelaars** zijn de **GitHub Issue Forms** handiger omdat:
+
 - Betere tracking en discussie
 - Openbaar en doorzoekbaar
 - Integratie met GitHub workflow
@@ -93,5 +105,6 @@ Voor **technische gebruikers en ontwikkelaars** zijn de **GitHub Issue Forms** h
 ## Contact
 
 Voor vragen over het feedback systeem, neem contact op met:
-- E-mail: bureau.architectuur@minbzk.nl
-- GitHub: https://github.com/MinBZK/NeRDS/issues
+
+- E-mail: <bureau.architectuur@minbzk.nl>
+- GitHub: <https://github.com/MinBZK/NeRDS/issues>
