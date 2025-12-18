@@ -248,7 +248,7 @@
       input.type = 'url';
       input.name = 'related_docs[]';
       input.className = 'feedback-widget__input feedback-widget__input--link';
-      input.placeholder = 'https://digitaleoverheid.nl/...';
+      input.placeholder = 'https://nerds.nl/...';
       input.setAttribute('aria-label', 'Link naar relevant document');
 
       // Create remove button
@@ -378,7 +378,7 @@
               type="url"
               name="related_docs[]"
               class="feedback-widget__input feedback-widget__input--link"
-              placeholder="https://digitaleoverheid.nl/..."
+              placeholder="https://nerds.nl/..."
               aria-label="Link naar relevant document"
             />
           </div>
@@ -495,6 +495,49 @@
         this.clearError('feedback-email-error');
       }
 
+      // Validate related document links
+      const linkInputs = document.querySelectorAll('input[name="related_docs[]"]');
+      linkInputs.forEach((input, index) => {
+        const value = input.value.trim();
+        // Only validate if the field has content
+        if (value.length > 0) {
+          if (!this.isValidUrl(value)) {
+            // Create or update error message for this specific input
+            const errorId = `feedback-link-error-${index}`;
+            let errorElement = document.getElementById(errorId);
+
+            if (!errorElement) {
+              // Create error element if it doesn't exist
+              errorElement = document.createElement('div');
+              errorElement.id = errorId;
+              errorElement.className = 'feedback-widget__error';
+              errorElement.setAttribute('role', 'alert');
+              input.parentNode.insertBefore(errorElement, input.nextSibling);
+            }
+
+            this.showError(errorId, 'Voer alstublieft een geldige URL in (moet beginnen met http:// of https://)');
+            input.classList.add('feedback-widget__input--invalid');
+            isValid = false;
+          } else {
+            // Clear error if URL is valid
+            const errorId = `feedback-link-error-${index}`;
+            const errorElement = document.getElementById(errorId);
+            if (errorElement) {
+              errorElement.remove();
+            }
+            input.classList.remove('feedback-widget__input--invalid');
+          }
+        } else {
+          // Clear error for empty fields (they're optional)
+          const errorId = `feedback-link-error-${index}`;
+          const errorElement = document.getElementById(errorId);
+          if (errorElement) {
+            errorElement.remove();
+          }
+          input.classList.remove('feedback-widget__input--invalid');
+        }
+      });
+
       return isValid;
     }
 
@@ -504,6 +547,19 @@
     isValidEmail(email) {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       return emailRegex.test(email);
+    }
+
+    /**
+     * Validate URL format
+     */
+    isValidUrl(url) {
+      try {
+        const urlObj = new URL(url);
+        // Check if protocol is http or https
+        return urlObj.protocol === 'http:' || urlObj.protocol === 'https:';
+      } catch (e) {
+        return false;
+      }
     }
 
     /**
