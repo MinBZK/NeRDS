@@ -24,7 +24,7 @@
   background-color: #007bc7;
   color: #ffffff;
   border: none;
-  border-radius: 0.3rem;
+  border-radius: 0rem;
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
@@ -275,6 +275,12 @@
   flex-direction: column;
   gap: 8px;
   margin-bottom: 8px;
+}
+
+.feedback-widget__link-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .feedback-widget__link-row {

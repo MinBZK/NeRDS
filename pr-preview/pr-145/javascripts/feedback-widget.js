@@ -239,6 +239,10 @@
       const container = document.getElementById('feedback-related-docs-container');
       if (!container) return;
 
+      // Create wrapper for link row + error
+      const linkWrapper = document.createElement('div');
+      linkWrapper.className = 'feedback-widget__link-wrapper';
+
       // Create new link row
       const linkRow = document.createElement('div');
       linkRow.className = 'feedback-widget__link-row';
@@ -248,7 +252,7 @@
       input.type = 'url';
       input.name = 'related_docs[]';
       input.className = 'feedback-widget__input feedback-widget__input--link';
-      input.placeholder = 'https://nerds.nl/...';
+      input.placeholder = 'nerds.nl/...';
       input.setAttribute('aria-label', 'Link naar relevant document');
 
       // Create remove button
@@ -258,13 +262,14 @@
       removeBtn.setAttribute('aria-label', 'Link verwijderen');
       removeBtn.innerHTML = '<span aria-hidden="true">&times;</span>';
       removeBtn.addEventListener('click', () => {
-        linkRow.remove();
+        linkWrapper.remove();
       });
 
       // Assemble row
       linkRow.appendChild(input);
       linkRow.appendChild(removeBtn);
-      container.appendChild(linkRow);
+      linkWrapper.appendChild(linkRow);
+      container.appendChild(linkWrapper);
 
       // Focus new input
       input.focus();
@@ -373,14 +378,16 @@
       const container = document.getElementById('feedback-related-docs-container');
       if (container) {
         container.innerHTML = `
-          <div class="feedback-widget__link-row">
-            <input
-              type="url"
-              name="related_docs[]"
-              class="feedback-widget__input feedback-widget__input--link"
-              placeholder="https://nerds.nl/..."
-              aria-label="Link naar relevant document"
-            />
+          <div class="feedback-widget__link-wrapper">
+            <div class="feedback-widget__link-row">
+              <input
+                type="url"
+                name="related_docs[]"
+                class="feedback-widget__input feedback-widget__input--link"
+                placeholder="nerds.nl/..."
+                aria-label="Link naar relevant document"
+              />
+            </div>
           </div>
         `;
       }
@@ -499,28 +506,29 @@
       const linkInputs = document.querySelectorAll('input[name="related_docs[]"]');
       linkInputs.forEach((input, index) => {
         const value = input.value.trim();
+        const wrapper = input.closest('.feedback-widget__link-wrapper');
+        const errorId = `feedback-link-error-${index}`;
+
         // Only validate if the field has content
         if (value.length > 0) {
           if (!this.isValidUrl(value)) {
             // Create or update error message for this specific input
-            const errorId = `feedback-link-error-${index}`;
             let errorElement = document.getElementById(errorId);
 
-            if (!errorElement) {
+            if (!errorElement && wrapper) {
               // Create error element if it doesn't exist
               errorElement = document.createElement('div');
               errorElement.id = errorId;
               errorElement.className = 'feedback-widget__error';
               errorElement.setAttribute('role', 'alert');
-              input.parentNode.insertBefore(errorElement, input.nextSibling);
+              wrapper.appendChild(errorElement);
             }
 
-            this.showError(errorId, 'Voer alstublieft een geldige URL in (moet beginnen met http:// of https://)');
+            this.showError(errorId, 'Voer alstublieft een geldige URL in (bijv. nerds.nl of https://nerds.nl)');
             input.classList.add('feedback-widget__input--invalid');
             isValid = false;
           } else {
             // Clear error if URL is valid
-            const errorId = `feedback-link-error-${index}`;
             const errorElement = document.getElementById(errorId);
             if (errorElement) {
               errorElement.remove();
@@ -529,7 +537,6 @@
           }
         } else {
           // Clear error for empty fields (they're optional)
-          const errorId = `feedback-link-error-${index}`;
           const errorElement = document.getElementById(errorId);
           if (errorElement) {
             errorElement.remove();
@@ -550,11 +557,36 @@
     }
 
     /**
+     * Normalize URL by adding https:// if no protocol is present
+     */
+    normalizeUrl(url) {
+      url = url.trim();
+
+      // If URL already has a protocol, return as-is
+      if (/^https?:\/\//i.test(url)) {
+        return url;
+      }
+
+      // Add https:// if missing
+      return 'https://' + url;
+    }
+
+    /**
      * Validate URL format
      */
     isValidUrl(url) {
+      url = url.trim();
+
+      // Check if there's at least a dot (for domain validation)
+      if (!url.includes('.')) {
+        return false;
+      }
+
+      // Normalize the URL
+      const normalizedUrl = this.normalizeUrl(url);
+
       try {
-        const urlObj = new URL(url);
+        const urlObj = new URL(normalizedUrl);
         // Check if protocol is http or https
         return urlObj.protocol === 'http:' || urlObj.protocol === 'https:';
       } catch (e) {
@@ -591,11 +623,12 @@
       const userName = document.getElementById('feedback-name').value;
       const userEmail = document.getElementById('feedback-email').value;
 
-      // Collect all related document links
+      // Collect all related document links and normalize them
       const linkInputs = document.querySelectorAll('input[name="related_docs[]"]');
       const relatedDocs = Array.from(linkInputs)
         .map(input => input.value.trim())
         .filter(value => value.length > 0)
+        .map(url => this.normalizeUrl(url))
         .join('\n');
 
       // Get selected guideline from dropdown (user's explicit choice)
