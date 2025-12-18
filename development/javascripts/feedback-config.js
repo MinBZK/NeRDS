@@ -1,15 +1,15 @@
 /**
  * Feedback Widget Configuration
- * Centralized configuration for the feedback widget
+ *
+ * The feedback widget uses mailto: links to send feedback via email.
+ * Users can also use GitHub Issue Forms at: https://github.com/MinBZK/NeRDS/issues/new/choose
  */
-
 window.feedbackConfig = {
   // Enable/disable the feedback widget
   enabled: true,
 
-  // GitHub webhook URL for creating issues
-  // Uses repository_dispatch event type
-  webhookUrl: 'https://api.github.com/repos/MinBZK/NeRDS/dispatches',
+  // Email address for feedback
+  feedbackEmail: 'bureau.architectuur@minbzk.nl',
 
   // Language preference (default: 'nl' for Dutch)
   language: 'nl',
@@ -20,13 +20,7 @@ window.feedbackConfig = {
     feedbackMaxLength: 5000,
   },
 
-  // Request timeout in milliseconds
-  timeout: 10000,
-
-  // Rate limiting: maximum submissions per user per day
-  maxSubmissionsPerDay: 5,
-
-  // Feedback type to GitHub issue label mapping
+  // Feedback type to GitHub issue label mapping (for future use)
   labels: {
     bug_report: 'bug-report',
     feature_request: 'feature-request',
