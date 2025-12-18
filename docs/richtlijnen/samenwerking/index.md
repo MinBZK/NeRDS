@@ -32,24 +32,6 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >Developer Overheid</h4>
-            <p >Communities voor overheidsontwikkelaars</p>
-            <a href="https://developer.overheid.nl/" class="action-button" target="_blank">Deelnemen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >NL Design System</h4>
-            <p >Samen bouwen aan gebruiksvriendelijke overheidswebsites</p>
-            <a href="https://www.nldesignsystem.nl" class="action-button" target="_blank">Ontdekken</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 >GovHub</h4>
-            <p >Centrale hub voor overheidscomponenten</p>
-            <button disabled class="action-button">Verkennen</button>
-        </div>
+    <div class="action-cards"></div>
     </div>
 </div>

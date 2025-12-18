@@ -1,0 +1,200 @@
+name: Feedback to Issues
+
+on:
+  repository_dispatch:
+    types: [feedback_submission]
+
+jobs:
+  create-issue:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Validate feedback submission
+        id: validate
+        run: |
+          # Check for required fields (guideline is optional)
+          if [[ -z "${{ github.event.client_payload.feedback_type }}" ]] || \
+             [[ -z "${{ github.event.client_payload.feedback_text }}" ]] || \
+             [[ -z "${{ github.event.client_payload.user_name }}" ]] || \
+             [[ -z "${{ github.event.client_payload.user_email }}" ]]; then
+            echo "error=true" >> $GITHUB_OUTPUT
+            echo "message=Missing required fields in feedback submission" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+          echo "validation_passed=true" >> $GITHUB_OUTPUT
+
+      - name: Check spam/honeypot
+        id: spam-check
+        run: |
+          # Honeypot field check (should be empty)
+          WEBSITE="${{ github.event.client_payload.website }}"
+          if [[ -n "$WEBSITE" ]]; then
+            echo "spam_detected=true" >> $GITHUB_OUTPUT
+            echo "Honeypot field detected as filled - likely spam"
+            exit 1
+          fi
+          echo "spam_detected=false" >> $GITHUB_OUTPUT
+
+      - name: Generate reference ID
+        id: reference
+        run: |
+          REF_ID="FB-$(date +%s)-$(openssl rand -hex 5 | tr '[:lower:]' '[:upper:]')"
+          echo "reference_id=$REF_ID" >> $GITHUB_OUTPUT
+
+      - name: Map feedback type to label
+        id: label
+        run: |
+          TYPE="${{ github.event.client_payload.feedback_type }}"
+          case "$TYPE" in
+            bug_report)
+              LABEL="bug-report"
+              ;;
+            feature_request)
+              LABEL="feature-request"
+              ;;
+            general_feedback)
+              LABEL="general-feedback"
+              ;;
+            question)
+              LABEL="question"
+              ;;
+            *)
+              LABEL="feedback"
+              ;;
+          esac
+          echo "label=$LABEL" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Issue
+        id: create-issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const feedback = context.payload.client_payload;
+            const referenceId = '${{ steps.reference.outputs.reference_id }}';
+            const label = '${{ steps.label.outputs.label }}';
+
+            // Sanitize user-provided text to prevent injection
+            const sanitizeText = (text) => {
+              if (!text) return '';
+              return text
+                .replace(/[<>]/g, (char) => char === '<' ? '&lt;' : '&gt;')
+                .substring(0, 5000);
+            };
+
+            const pageUrl = feedback.page_url || 'unknown';
+            const pageTitle = feedback.page_title || 'Unknown Page';
+            const feedbackType = feedback.feedback_type || 'unknown';
+            const feedbackText = sanitizeText(feedback.feedback_text);
+            const userName = feedback.user_name || 'Anonymous';
+            const userEmail = feedback.user_email || 'no-email@example.com';
+            const timestamp = feedback.timestamp || new Date().toISOString();
+            const guidelineNumber = feedback.guideline_number || null;
+            const guidelineName = feedback.guideline_name || 'Unknown';
+            const relatedDocs = sanitizeText(feedback.related_docs || '');
+
+            // Create issue title with guideline info
+            let title = `[Feedback] ${feedbackType.replace(/_/g, ' ')}`;
+            if (guidelineNumber) {
+              title += ` - Richtlijn ${guidelineNumber}`;
+            }
+            title += ` - ${pageTitle.substring(0, 50)}`;
+
+            // Create issue body based on template
+            let body = '';
+
+            // Use appropriate template based on feedback type
+            if (feedbackType === 'bug_report') {
+              // Use bug report template
+              body += '**Beschrijf de fout**\n';
+              body += `${feedbackText}\n\n`;
+              body += '**Screenshots**\n';
+              body += '_Geen screenshots beschikbaar_\n\n';
+            } else if (feedbackType === 'question') {
+              // Use question template
+              body += '## Beschrijf je vraag\n\n';
+              body += `${feedbackText}\n\n`;
+            } else {
+              // Use suggestion template for feature_request and general_feedback
+              body += '## Beschrijf je suggestie\n\n';
+              body += `${feedbackText}\n\n`;
+              body += '## Leg uit waarom dit een goede toevoeging is aan de Nederlandse Richtlijn Digitale Systemen\n\n';
+              body += '_Zie bovenstaande feedback._\n\n';
+            }
+
+            // Map feedback type to readable text
+            const typeLabels = {
+              'bug_report': 'Fout',
+              'feature_request': 'Voorstel',
+              'general_feedback': 'Feedback',
+              'question': 'Vraag'
+            };
+            const feedbackTypeLabel = typeLabels[feedbackType] || feedbackType;
+
+            // Add metadata section
+            body += '---\n\n';
+            body += '### Metadata\n';
+            body += `- **Type:** ${feedbackTypeLabel}\n`;
+            if (guidelineNumber) {
+              body += `- **Richtlijn:** ${guidelineNumber} - ${guidelineName}\n`;
+            }
+            body += `- **Ingediend:** ${new Date(timestamp).toLocaleString('nl-NL')}\n`;
+
+            // Add related documents if provided
+            if (relatedDocs && relatedDocs.trim().length > 0) {
+              const links = relatedDocs.split('\n').filter(link => link.trim().length > 0);
+              if (links.length > 0) {
+                body += '\n### Relevante documenten\n';
+                links.forEach(link => {
+                  body += `- ${link.trim()}\n`;
+                });
+              }
+            }
+
+            // Add guideline label if available
+            const labels = [label, 'feedback'];
+            if (guidelineNumber) {
+              labels.push(`richtlijn-${guidelineNumber}`);
+            }
+
+            // Create the issue
+            const issue = await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: title,
+              body: body,
+              labels: labels,
+            });
+
+            core.setOutput('issue_number', issue.data.number);
+            core.setOutput('issue_url', issue.data.html_url);
+
+            console.log(`✅ Issue created: #${issue.data.number}`);
+            console.log(`Reference ID: ${referenceId}`);
+            console.log(`Contact: ${userName} (${userEmail})`);
+
+      - name: Log feedback submission
+        if: success()
+        run: |
+          echo "✅ Feedback successfully processed"
+          echo "Issue #${{ steps.create-issue.outputs.issue_number }}"
+          echo "Reference ID: ${{ steps.reference.outputs.reference_id }}"
+          echo "Contact: ${{ github.event.client_payload.user_name }} (${{ github.event.client_payload.user_email }})"
+
+      - name: Handle validation failure
+        if: failure() && steps.validate.outputs.error == 'true'
+        run: |
+          echo "❌ Feedback validation failed"
+          echo "Message: ${{ steps.validate.outputs.message }}"
+          exit 1
+
+      - name: Handle spam detection
+        if: failure() && steps.spam-check.outputs.spam_detected == 'true'
+        run: |
+          echo "❌ Spam detected in feedback submission"
+          exit 1

@@ -101,6 +101,7 @@ extra_css:
   - stylesheets/choices.min.css
   - stylesheets/modal.css
   - stylesheets/landing-page.css
+  - stylesheets/feedback-widget.css
 
 extra_javascript:
   - javascripts/jquery-3.6.0.min.js
@@ -110,6 +111,9 @@ extra_javascript:
   - javascripts/filtering.js
   - javascripts/cluster-form.js
   - javascripts/version-dutch.js
+  - javascripts/feedback-config.js
+  - javascripts/feedback-i18n.js
+  - javascripts/feedback-widget.js
 
 plugins:
   - glightbox
@@ -133,3 +137,4 @@ edit_uri: edit/main/docs/
 
 hooks:
   - src/overrides/hooks/security_txt.py
+  - src/overrides/hooks/action_registry.py
