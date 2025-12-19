@@ -175,7 +175,7 @@ actions:
   - id: cx-volwassenheidsscan
     name: CX-Volwassenheidsscan
     source: https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/07/Handboek-voor-het-uitvoeren-van-een-CV-Volwassenheidsscan.pdf
-    description: "Handboek Voor het transformeren naar klantgedreven werken"
+    description: "Handboek voor het transformeren naar klantgedreven werken"
     richtlijn: gebruikersbehoeften
     fase: verkenning
     type: tool
@@ -206,7 +206,7 @@ actions:
     name: Toolkit Taal
     source: https://toolkittaal.gebruikercentraal.nl/richtlijnen/
     description: "Richtlijnen voor tekst en beeldtaal in overheidscommunicatie"
-    richtlijn: gebruikersbehoeften
+    richtlijn: [gebruikersbehoeften, toegankelijkheid]
     fase: [ontwerp, bouw]
     type: tool
     action: Gebruiken
@@ -401,6 +401,36 @@ actions:
     action: Verkennen
     date_added: 08-12-2025
     status: concept
+  - id: https://pdfchecker.nl
+    name: PDF Checker
+    source: https://pdfchecker.nl/
+    description: "Controleer de toegankelijkheid van PDF-documenten"
+    richtlijn: toegankelijkheid
+    fase: [bouw, live]
+    type: tool
+    action: Scannen
+    date_added: 19-12-2025
+    status: beschikbaar
+  - id: is-het-b1
+    name: Is het B1?
+    source: https://ishetb1.nl/
+    description: "Controleer of je tekst op B1-niveau is geschreven"
+    richtlijn: toegankelijkheid
+    fase: [ontwerp, bouw]
+    type: tool
+    action: Scannen
+    date_added: 19-12-2025
+    status: beschikbaar
+  - id: nldoc
+    name: NLDoc
+    source: https://nldoc.nl/
+    description: "API's om documenten om te zetten naar toegankelijke, WCAG 2.x-compliant HTML"
+    richtlijn: toegankelijkheid
+    fase: bouw
+    type: tool
+    action: Gebruiken
+    date_added: 19-12-2025
+    status: beschikbaar
   - id: nl-design-system
     name: NL Design System
     source: https://www.nldesignsystem.nl
@@ -425,24 +455,17 @@ actions:
     source: https://dashboard.digitoegankelijk.nl/
     description: "Check toegankelijkheid overheidswebsites"
     richtlijn: toegankelijkheid
+    fase: [bouw, live]
     type: tool
     action: Bekijken
-    date_added: 08-12-2025
-    status: beschikbaar
-  - id: deque-axe
-    name: Deque Axe
-    source: https://www.deque.com/axe/
-    description: "Toegankelijkheidstester voor webapplicaties"
-    richtlijn: toegankelijkheid
-    type: tool
-    action: Gebruiken
     date_added: 08-12-2025
     status: beschikbaar
   - id: inclusief-ontwerpen
     name: Inclusief Ontwerpen
     source: https://toolkitinclusie.gebruikercentraal.nl/
-    description: "Toolkit voor inclusief ontwerp"
+    description: "Toolkit voor inclusief ontwerp Gebruiker Centraal"
     richtlijn: toegankelijkheid
+    fase: [verkenning, ontwerp]
     type: tool
     action: Bekijken
     date_added: 08-12-2025
@@ -452,6 +475,7 @@ actions:
     source: https://nldesignsystem.nl
     description: "Toegankelijke componenten"
     richtlijn: toegankelijkheid
+    fase: [ontwerp, bouw]
     type: tool
     action: Gebruiken
     date_added: 08-12-2025
@@ -461,6 +485,7 @@ actions:
     source: https://nldesignsystem.nl/wcag/
     description: "Praktische uitleg en voorbeelden WCAG 2.1"
     richtlijn: toegankelijkheid
+    fase: [verkenning, ontwerp]
     type: tool
     action: Bekijken
     date_added: 08-12-2025
@@ -470,6 +495,7 @@ actions:
     source: https://www.w3.org/WAI/test-evaluate/tools/list/
     description: "Test uw webpagina's op toegankelijkheid"
     richtlijn: toegankelijkheid
+    fase: [bouw, live]
     type: tool
     action: Scannen
     date_added: 08-12-2025
@@ -479,6 +505,7 @@ actions:
     source: https://www.toegankelijkheidsverklaring.nl/
     description: "Maak en beheer toegankelijkheidsverklaringen"
     richtlijn: toegankelijkheid
+    fase: live
     type: tool
     action: Invullen
     date_added: 08-12-2025
@@ -488,6 +515,7 @@ actions:
     source: https://gitlab.com/digilab.overheid.nl/ecosystem/wcag-em-reporter
     description: "Tool voor het maken van toegankelijkheidsrapporten"
     richtlijn: toegankelijkheid
+    fase: [bouw, live]
     type: tool
     action: Gebruiken
     date_added: 08-12-2025

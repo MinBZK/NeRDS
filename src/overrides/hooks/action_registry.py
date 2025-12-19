@@ -1,6 +1,6 @@
 """
 MkDocs hook to dynamically generate action cards from central YAML registry.
-Filters actions by richtlijn and injects HTML into guideline pages.
+Filters actions by richtlijn and fase, and injects HTML into guideline pages.
 """
 
 import os
@@ -15,16 +15,9 @@ def on_page_content(html, page, config, files):
     Runs after page content is converted to HTML.
     """
 
-    # Only process guideline pages
-    if not page.file.src_path.startswith('richtlijnen/') or not page.file.src_path.endswith('/index.md'):
+    # Only process guideline pages (both index.md and fases.md)
+    if not page.file.src_path.startswith('richtlijnen/'):
         return html
-
-    # Extract richtlijn name from path (e.g., 'gebruikersbehoeften' from 'richtlijnen/gebruikersbehoeften/index.md')
-    path_parts = page.file.src_path.split('/')
-    if len(path_parts) < 2:
-        return html
-
-    current_richtlijn = path_parts[1]
 
     # Load the action registry
     registry_path = os.path.join(config['docs_dir'], 'action-registry', 'actions.yaml')
@@ -42,27 +35,92 @@ def on_page_content(html, page, config, files):
     if not registry_data or 'actions' not in registry_data:
         return html
 
-    # Filter actions for this richtlijn
-    filtered_actions = [a for a in registry_data['actions'] if a.get('richtlijn') == current_richtlijn]
+    # Find all action-cards divs with data attributes
+    # Pattern matches: <div class="action-cards" data-richtlijn="..." data-fase="..."></div>
+    # Both data-richtlijn and data-fase are optional
+    pattern = r'<div class="action-cards"([^>]*)></div>'
 
-    if not filtered_actions:
-        return html
+    def replace_action_cards(match):
+        """Replace each action-cards div with filtered cards."""
+        attributes = match.group(1)
 
-    # Generate HTML for action cards (without wrapper divs or data attributes for filtering)
-    action_cards_html = _generate_action_cards_html(filtered_actions)
+        # Extract data-richtlijn attribute
+        richtlijn_match = re.search(r'data-richtlijn="([^"]+)"', attributes)
+        richtlijn_filter = richtlijn_match.group(1) if richtlijn_match else None
 
-    # Find and replace the placeholder with generated action cards
-    # Look for empty action-cards div and replace it
-    pattern = r'<div class="action-cards"></div>'
+        # Extract data-fase attribute
+        fase_match = re.search(r'data-fase="([^"]+)"', attributes)
+        fase_filter = fase_match.group(1) if fase_match else None
 
-    # Generate the complete replacement HTML with just the cards
-    replacement = f'''<div class="action-cards">
+        # Filter actions based on data attributes
+        filtered_actions = _filter_actions(
+            registry_data['actions'],
+            richtlijn_filter,
+            fase_filter
+        )
+
+        if not filtered_actions:
+            # Return empty div if no actions match
+            return f'<div class="action-cards"{attributes}></div>'
+
+        # Generate HTML for action cards
+        action_cards_html = _generate_action_cards_html(filtered_actions)
+
+        # Return the div with generated cards
+        return f'''<div class="action-cards"{attributes}>
 {action_cards_html}
     </div>'''
 
-    html = re.sub(pattern, replacement, html, flags=re.DOTALL)
+    # Replace all action-cards divs
+    html = re.sub(pattern, replace_action_cards, html, flags=re.DOTALL)
 
     return html
+
+
+def _filter_actions(actions, richtlijn_filter=None, fase_filter=None):
+    """
+    Filter actions based on richtlijn and fase.
+
+    Args:
+        actions: List of action dictionaries
+        richtlijn_filter: Richtlijn name to filter by (or None)
+        fase_filter: Fase name to filter by (or None)
+
+    Returns:
+        List of filtered actions
+    """
+    filtered = []
+
+    for action in actions:
+        # Filter by richtlijn
+        if richtlijn_filter:
+            action_richtlijn = action.get('richtlijn')
+
+            # Handle richtlijn as string or list
+            if isinstance(action_richtlijn, list):
+                if richtlijn_filter not in action_richtlijn:
+                    continue
+            elif action_richtlijn != richtlijn_filter:
+                continue
+
+        # Filter by fase
+        if fase_filter:
+            action_fase = action.get('fase')
+
+            # Skip if action has no fase defined
+            if not action_fase:
+                continue
+
+            # Handle fase as string or list
+            if isinstance(action_fase, list):
+                if fase_filter not in action_fase:
+                    continue
+            elif action_fase != fase_filter:
+                continue
+
+        filtered.append(action)
+
+    return filtered
 
 
 def _generate_action_cards_html(actions):

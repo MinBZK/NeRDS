@@ -33,7 +33,7 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards"></div>
+    <div class="action-cards" data-richtlijn="open-standaarden"></div>
     </div>
 </div>
 

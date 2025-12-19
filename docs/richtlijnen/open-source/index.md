@@ -33,7 +33,7 @@ Door open en transparant te werken en open source software te omarmen, draag je 
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards"></div>
+    <div class="action-cards" data-richtlijn="open-source"></div>
     </div>
 </div>
 

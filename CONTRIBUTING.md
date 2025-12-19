@@ -109,34 +109,6 @@ Als je jouw suggestie nog steeds wilt doen, kan je een [Issue](https://github.co
 Kun je niet uit de voeten met de issues?
 Bijvoorbeeld omdat je verschillende wijzigingsvoorstellen wilt doen? Je kan ook gebruik maken van een [Fork en een Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks).
 
-#### Stap-voor-stap pull request proces
-
-1. **Maak een fork van de repository**
-
-2. **Clone je fork lokaal**
-
-3. **Zet je ontwikkelomgeving op**
-   - Volg de stappen in [Ontwikkelomgeving opzetten](#ontwikkelomgeving-opzetten)
-   - Test of alles werkt met `uv run mkdocs serve`
-
-4. **Maak een nieuwe branch** - Zie [Branching strategie](#branching-strategie).
-
-5. **Maak je wijzigingen**
-   - Volg de [Richtlijnen voor bijdragen](#richtlijnen-voor-bijdragen)
-   - Test je wijzigingen lokaal
-   - Controleer op spelfouten en broken links
-
-6. **Commit & push je wijzigingen naar de fork**
-
-7. **Maak een pull request**
-   - Gebruik het pull request [template](.github/pull_request_template.md)
-   - We maken gebruik van de tool [pr-preview-action](https://github.com/rossjrw/pr-preview-action) om automatisch previews te maken van een pull-request.
-   Dit maakt het mogelijk om de wijzigingen die zijn gedaan in een pull-request al te bekijken in de uiteindelijke omgeving.
-   Wanneer er een pull-request gedaan wordt via een fork, leidt dit helaas tot een error. Dit blokkeert de pull-request niet.
-   - Er zijn ook andere manieren om een pull request te doen. [Meer daarover](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
-
-8. **Acceptatie criteria**
-   - Als de PR aan de voorwaarde voldoet, bekijkt het NeRDS team jouw aanpassingen en kan bij akkoord jouw aanpassingen *mergen*.
 
 ## Hoe we werken op Github
 

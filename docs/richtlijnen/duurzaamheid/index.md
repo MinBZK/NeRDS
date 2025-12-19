@@ -32,7 +32,7 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards"></div>
+    <div class="action-cards" data-richtlijn="duurzaamheid"></div>
     </div>
 </div>
 

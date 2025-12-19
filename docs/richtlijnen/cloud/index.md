@@ -33,7 +33,7 @@ Door een cloud-gedreven strategie met aandacht voor soevereiniteit te hanteren, 
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards"></div>
+    <div class="action-cards" data-richtlijn="cloud"></div>
 </div>
 
 <!-- Kubernetes Cluster Modal Form -->

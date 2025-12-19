@@ -30,13 +30,11 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards"></div>
+    <div class="action-cards" data-richtlijn="gebruikersbehoeften"></div>
     </div>
 </div>
 
 ## Beste praktijken
-
-Hanteer bij alle stappen de [ontwerpprincipes van Gebruiker Centraal](https://www.gebruikercentraal.nl/over-gebruiker-centraal/ontwerpprincipes/).
 
 ### 1. Begrijpen
 
@@ -50,18 +48,18 @@ Start bij het probleem, niet bij de oplossing. Zo voorkom je middeltjes-denken e
     - **Creëer draagvlak** - Zorg voor overeenstemming binnen het team over gebruikersbehoeften voordat je begint met ontwikkelen. Zie [Draagvlak in jouw organisatie](https://www.gebruikercentraal.nl/videopagina/draagvlak-in-jouw-organisatie-direct-duidelijk-tour/).
     - **Laat bestuurders meekijken** - Zorg dat stakeholders onderzoek mee volgen zodat iedereen dezelfde gebruikersinzichten heeft.
 
-### 2. Ontwerpen
+### 2. Ontwikkelen, ontwerpen en inkopen
 
 Vertaal de inzichten naar ontwerpen: wireframes, prototypes, klantreizen. Test deze met gebruikers voordat je bouwt. Ontwerp voor het gehele spectrum aan gebruikers, met aandacht voor toegankelijkheid en inclusie. Dit is geen keuze, maar een vereiste. Inwoners, burgers en ondernemers hebben vaak geen andere keuze dan jouw digitale systeem te gebruiken.
 
-Zorg ervoor dat jouw digitale service het gehele probleem van de gebruiker oplost, niet slechts een deelaspect. Dit betekent vaak samenwerking met andere teams en het integreren met bestaande systemen. Zie hiervoor de richtlijnen [Samenwerking](../samenwerking/index.md) en [Integratie](../integratie/index.md) voor concrete handvatten.
+Zorg ervoor dat jouw digitale service het gehele probleem van de gebruiker oplost, niet slechts een deelaspect. Dit betekent vaak samenwerking met andere teams en het integreren met bestaande systemen. Zie hiervoor de richtlijnen [Samenwerking](../samenwerking/index.md) en [Integratie](../integratie/index.md).
 
 ??? expander "Praktische tips"
     - **Test alternatieven** - Evalueer verschillende oplossingen (bijvoorbeeld twee verschillende interfaces) met gebruikers in plaats van slechts één voorstel.
     - **Denk inclusief** - Zorg dat je ontwerp toegankelijk is voor gebruikers met verschillende achtergronden en beperkingen (zie de richtlijn [Zorg voor toegankelijkheid en inclusie](../toegankelijkheid/index.md)). Gebruikers mogen niet vergeten of uitgesloten worden in het ontwerpproces.
-     - **Gebruik de tipkaarten** - Zie [Optimaal Digitaal](https://optimaaldigitaal.gebruikercentraal.nl/tipkaarten/overzicht-van-alle-tips/) voor meer praktische tips over digitale dienstverlening.
+     - **Neem gebruikersbehoefte mee in het inkoopproces** - Zie de richtlijn [Definieer je inkoopstrategie](../inkoop/index.md).
 
-### 3. Meten
+### 3. Testen, meten en verbeteren
 
 Meet de ervaring van je gebruikers. Luister naar feedback, trek les daaruit en verbeter continu. Gebruikersbehoeften veranderen continu, dus blijf aanpassen en bijsturen. Maak gebruikersonderzoek procesmatig onderdeel van je werkwijze. Bed het vroeg in, niet achteraf. Dit helpt je inzien of je organisatie echt gebruikersgericht werkt.
 
@@ -72,13 +70,15 @@ Meet de ervaring van je gebruikers. Luister naar feedback, trek les daaruit en v
     - **Blijf flexibel** - Pas je onderzoeksmethode aan naarmate je meer leert.
     - **Valideer je oplossing** - Doe een expertreview op je digitale systeem via het [expert panel gebruiksvriendelijkheid van Gebruiker Centraal](https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/).
 
+Zie ook de [Ontwerpprincipes van Gebruiker Centraal](https://www.gebruikercentraal.nl/over-gebruiker-centraal/ontwerpprincipes/) en de [Tipkaarten van Optimaal Digitaal](https://optimaaldigitaal.gebruikercentraal.nl/tipkaarten/overzicht-van-alle-tips/).
+
 ## Implementatie per fase
 
-Zie [Implementatie en gewenste uitkomsten per fase 1. Stel gebruikersbehoeften vast"](/NeRDS/richtlijnen/gebruikersbehoeften/fases.md).
+Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "1. Stel gebruikersbehoeften vast"](/NeRDS/richtlijnen/gebruikersbehoeften/fases.md).
 
 ## Gerelateerde hulpmiddelen
 
-#### Methodieken
+#### Methodes
 
 - [Overheidsbreed meethuis voor dienstverlening](https://www.gebruikercentraal.nl/overheidsbreed-meethuis-voor-dienstverlening/) - Naast het handboek dat hierboven bij 'direct aan de slag' staat vermeld, vind je op de website van Gebruiker Centraal ook een meethuis-canvas, voorbeeldvragenlijsten en begeleiding
 - [Universeel Service Management](https://usmwiki.com/index.php/Main_Page) - International framework voor servicemanagement
@@ -87,10 +87,14 @@ Zie [Implementatie en gewenste uitkomsten per fase 1. Stel gebruikersbehoeften v
 - [Handreiking Mobiele app Ontwikkeling en Beheer versie 4.0](https://www.noraonline.nl/images/noraonline/9/94/Handreiking_appontwikkeling_en_beheer_5.0.pdf) - Hoofdstuk 8: "De gebruiker staat centraal"
 - [Startgids Doelmatig Geïntegreerd Klantbeeld (DGKB)](https://www.gebruikercentraal.nl/meedoen/community-omnichannel/de-startgids-doelmatig-geintegreerd-klantbeeld-dgkb/) - Samenhangend beeld van de klant opbouwen
 
-#### Beleid en standaarden
+#### Beleid, wetten en standaarden
 
 - [ISO 11367 Excellente dienstverlening](https://www.nen.nl/iso-11367-2025-en-334528) - Principes en model voor publieke dienstverlening
 - [Digitale inclusie](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/) - Overheidsrichtlijnen voor digitale toegankelijkheid
+
+#### Communities
+
+- (Gebruiker Centraal)[https://www.gebruikercentraal.nl]
 
 #### Trainingen
 

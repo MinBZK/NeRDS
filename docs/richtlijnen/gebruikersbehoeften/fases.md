@@ -18,10 +18,9 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
     Begrijp het gehele probleem en de gebruikers voordat je oplossingen bedenkt.
 
 <div class="direct-aan-de-slag">
-    <h3>Methode</h3>
+    <h3>Methoden en hulpmiddelen</h3>
 
-    <div class="action-cards" data-richtlijn="gebruikersbehoefte" data-fase="verkenning"></div>
-    </div>
+    <div class="action-cards" data-richtlijn="gebruikersbehoeften" data-fase="verkenning"></div>
 </div>
 
 <!-- **Methoden:**
@@ -33,9 +32,9 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 
 **Gewenste uitkomsten:**
 
-- [ ] Je hebt met echte gebruikers gesproken over hun situatie en behoeften
+- [ ] Je hebt met echte gebruikers gesproken over hun huidige situatie en behoeften
 - [ ] Je hebt bestaande informatie (zoals vragen, klachten of gebruiksdata) betrokken
-- [ ] Je hebt gebruikersbehoeften expliciet geformuleerd en zijn niet gebaseerd op aannames
+- [ ] Je hebt gebruikersbehoeften per gebruikersgroep expliciet geformuleerd en die zijn niet gebaseerd op aannames
 - [ ] Inzichten zijn vastgelegd en gedeeld binnen het team en met bestuurders
 
 **Aanvullend (indien passend):**
@@ -68,7 +67,7 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 <div class="direct-aan-de-slag">
     <h3>Methode</h3>
 
-    <div class="action-cards" data-richtlijn="gebruikersbehoefte" data-fase="ontwerp"></div>
+    <div class="action-cards" data-richtlijn="gebruikersbehoeften" data-fase="ontwerp"></div>
     </div>
 </div> 
 
@@ -79,10 +78,9 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 
 **Gewenste uitkomsten:**
 
-- [ ] Je hebt minstens één ontwerp of prototype getest met gebruikers
-- [ ] De testresultaten hebben geleid tot aantoonbare aanpassingen
-- [ ] Je hebt rekening gehouden met toegankelijkheid en inclusie
-
+- [ ] Je hebt ten minste één ontwerp of prototype getest met een breed scala aan gebruikers, waaronder mensen met beperkte digitale toegang en mensen met verschillende visuele, auditieve, motorische en cognitieve beperkingen
+- [ ] De testresultaten verzameld die leiden tot aantoonbare aanpassingen
+- [ ] Inzicht hebben in eventuele toegankelijkheidsproblemen, inclusief concrete en toepasbare aanbevelingen om deze op te lossen.
 
 <!-- **Praktische hulpmiddelen:**
 
@@ -103,7 +101,7 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
 
-    <div class="action-cards" data-richtlijn="gebruikersbehoefte" data-fase="bouwen"></div>
+    <div class="action-cards" data-richtlijn="gebruikersbehoeften" data-fase="bouw"></div>
     </div>
 </div>
 
@@ -115,7 +113,7 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 **Gewenste uitkomsten:**
 
 - [ ] Je dienst is getest met echte gebruikers in productie
-- [ ] Alle doelgroepen kunnen de dienst gebruiken
+- [ ] Alle eindgebruikers kunnen de dienst gebruiken
 - [ ] Je hebt data over hoe de dienst presteert
 - [ ] Je hebt feedback mechanismen ingebouwd
 
@@ -137,7 +135,7 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
 
-    <div class="action-cards" data-richtlijn="gebruikersbehoefte" data-fase="live"></div>
+    <div class="action-cards" data-richtlijn="gebruikersbehoeften" data-fase="live"></div>
     </div>
 </div>
 <!-- 
@@ -149,7 +147,7 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 **Gewenste uitkomsten:**
 
 - [ ] Je meet gebruikerservaring structureel
-- [ ] Je dienst past zich aan veranderende behoeften aan waardoor deze effectief en relevant blijft 
+- [ ] Je dienst past zich aan veranderende behoeften aan waardoor deze effectief en relevant blijft
 - [ ] Je deelt bevindingen met andere organisaties
 
 <!-- **Praktische hulpmiddelen:**
