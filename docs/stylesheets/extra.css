@@ -755,12 +755,25 @@ background-color: #B2D7EE;
   font-size: 0.8rem;
   margin: 0 0 0.3rem 0;
   padding-right: 3.5rem;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  -webkit-hyphens: manual;
+  -moz-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+  line-height: 1.3;
 }
 
 .action-card p {
   flex-grow: 1;
   margin-bottom: 0.5rem;
   font-size: 0.7rem;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  -webkit-hyphens: manual;
+  -moz-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
 }
 
 .action-button {
@@ -898,4 +911,9 @@ background-color: #B2D7EE;
 
 .md-header__source a{
   text-decoration: none;
+}
+
+/* Hide direct-aan-de-slag blocks when they contain no actions */
+.direct-aan-de-slag:has(.action-cards.no-actions) {
+  display: none;
 }

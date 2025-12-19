@@ -35,11 +35,19 @@ nav:
   - Home: index.md
   - Richtlijnen:
       - Overzicht: richtlijnen/index.md
-      - 1. Gebruikersbehoeften: richtlijnen/gebruikersbehoeften/index.md
-      - 2. Toegankelijkheid: richtlijnen/toegankelijkheid/index.md
-      - 3. Open Source: richtlijnen/open-source/index.md
+      - 1. Gebruikersbehoeften:
+          - richtlijnen/gebruikersbehoeften/index.md
+          - Wanneer doe je wat?: richtlijnen/gebruikersbehoeften/fases.md
+      - 2. Toegankelijkheid:
+          - richtlijnen/toegankelijkheid/index.md
+          - Wanneer doe je wat?: richtlijnen/toegankelijkheid/fases.md
+      - 3. Open Source:
+          - richtlijnen/open-source/index.md
+          - Wanneer doe je wat?: richtlijnen/open-source/fases.md
       - 4. Open Standaarden: richtlijnen/open-standaarden/index.md
-      - 5. Cloud: richtlijnen/cloud/index.md
+      - 5. Cloud:
+          - richtlijnen/cloud/index.md
+          - Wanneer doe je wat?: richtlijnen/cloud/fases.md
       - 6. Veiligheid: richtlijnen/veiligheid/index.md
       - 7. Privacy: richtlijnen/privacy/index.md
       - 8. Samenwerking: richtlijnen/samenwerking/index.md

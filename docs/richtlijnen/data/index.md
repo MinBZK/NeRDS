@@ -32,7 +32,7 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards"></div>
+    <div class="action-cards" data-richtlijn="data"></div>
     </div>
 </div>
 

@@ -30,7 +30,7 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards"></div>
+    <div class="action-cards" data-richtlijn="integratie"></div>
     </div>
 </div>
 
