@@ -90,8 +90,27 @@ actions:
     date_added: 08-12-2025
     status: ontwikkeling
     component: kubernetes-cluster-form
-  - id: rijkscloud
-    name: Rijkscloud
+  - id: ambitieladder-opensource
+    name: Ambitieladder opensourcewerken
+    source: https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/
+    description: "Helpt projectteams concrete afspraken te maken over opensourcewerken"
+    richtlijn: open-source
+    type: tool
+    action: Bekijken
+    date_added: 18-12-2025
+    status: beschikbaar
+  - id: expertreview-gebruikersbehoefte
+    name: Expertreview Gebruikersbehoefte
+    source: https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/aanvragen-expertreview/
+    description: "Een expertreview gebruiksvriendelijkheid laten uitvoeren"
+    richtlijn: gebruikersbehoeften
+    fase: [bouw, live]
+    type: tool
+    action: Uitvoeren
+    date_added: 19-12-2025
+    status: beschikbaar
+  - id: overheidscloud
+    name: Overheidscloud
     source: null
     description: "Soevereine cloud voor overheidsorganisaties"
     richtlijn: cloud
@@ -158,6 +177,7 @@ actions:
     source: https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/07/Handboek-voor-het-uitvoeren-van-een-CV-Volwassenheidsscan.pdf
     description: "Handboek Voor het transformeren naar klantgedreven werken"
     richtlijn: gebruikersbehoeften
+    fase: verkenning
     type: tool
     action: Gebruiken
     date_added: 08-12-2025
@@ -167,6 +187,7 @@ actions:
     source: https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken
     description: "Leer van andere onderzoeken en deel je bevindingen"
     richtlijn: gebruikersbehoeften
+    fase: [verkenning, live]
     type: tool
     action: Bekijken
     date_added: 08-12-2025
@@ -176,6 +197,7 @@ actions:
     source: https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/04/Meethuis-Handboek-2025-v2.pdf
     description: "Voor het maken van een meethuis voor dienstverlening"
     richtlijn: gebruikersbehoeften
+    fase: [bouw, live]
     type: tool
     action: Gebruiken
     date_added: 08-12-2025
@@ -185,6 +207,7 @@ actions:
     source: https://toolkittaal.gebruikercentraal.nl/richtlijnen/
     description: "Richtlijnen voor tekst en beeldtaal in overheidscommunicatie"
     richtlijn: gebruikersbehoeften
+    fase: [ontwerp, bouw]
     type: tool
     action: Gebruiken
     date_added: 08-12-2025
@@ -392,6 +415,7 @@ actions:
     source: https://www.nldesignsystem.nl
     description: "Samen bouwen aan gebruiksvriendelijke overheidswebsites"
     richtlijn: gebruikersbehoeften
+    fase: [ontwerp, bouw]
     type: tool
     action: Ontdekken
     date_added: 08-12-2025

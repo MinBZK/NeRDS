@@ -36,6 +36,7 @@ nav:
   - Richtlijnen:
       - Overzicht: richtlijnen/index.md
       - 1. Gebruikersbehoeften: richtlijnen/gebruikersbehoeften/index.md
+      - Wanneer doe je wat?: richtlijnen/gebruikersbehoeften/fases.md
       - 2. Toegankelijkheid: richtlijnen/toegankelijkheid/index.md
       - 3. Open Source: richtlijnen/open-source/index.md
       - 4. Open Standaarden: richtlijnen/open-standaarden/index.md
