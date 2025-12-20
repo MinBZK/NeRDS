@@ -76,6 +76,17 @@ Deze aanpak zorgt ervoor dat we:
 
 Niet eens met een richtlijn? Dat mag! Geef feedback via onze [contributierichtlijnen](CONTRIBUTING.md) en help ons de richtlijn te verbeteren.
 
+## Fases van digitale ontwikkeling
+
+De Nederlandse Richtlijn Digitale Systemen structureert de ontwikkeling van digitale systemen in vier fases. Deze fasering helpt je om gefaseerd te werken aan verantwoorde digitale diensten en biedt per fase concrete handvatten en hulpmiddelen:
+
+1. **Verkenningsfase**: Onderzoek en begrijp het probleem en de gebruikersbehoeften voordat je oplossingen bedenkt.
+2. **Ontwerpfase (Alpha)**: Ontwerp en test verschillende oplossingsrichtingen met gebruikers.
+3. **Bouwfase (Beta)**: Bouw een werkende versie van de dienst en test deze met echte gebruikers.
+4. **Productie**: Breng de dienst in productie en blijf monitoren, testen en verbeteren.
+
+Deze fases zijn gebaseerd op de best practices uit agile ontwikkelmethoden en de GDS (Government Digital Service) service standard. Per richtlijn vind je bij "Wanneer doe je wat?" specifieke aanbevelingen en hulpmiddelen die relevant zijn voor elke fase.
+
 ## Versie 0.1
 
 Versie 0.1 is de eerste versie van de Nederlandse Richtlijn Digitale Systemen (NeRDS).

@@ -109,7 +109,6 @@ Als je jouw suggestie nog steeds wilt doen, kan je een [Issue](https://github.co
 Kun je niet uit de voeten met de issues?
 Bijvoorbeeld omdat je verschillende wijzigingsvoorstellen wilt doen? Je kan ook gebruik maken van een [Fork en een Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks).
 
-
 ## Hoe we werken op Github
 
 We werken met [Markdown](https://www.markdownguide.org/basic-syntax/) bestanden.

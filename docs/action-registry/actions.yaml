@@ -95,16 +95,37 @@ actions:
     source: https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/
     description: "Helpt projectteams concrete afspraken te maken over opensourcewerken"
     richtlijn: open-source
+    fase: ontwerp
     type: tool
     action: Bekijken
     date_added: 18-12-2025
+    status: beschikbaar
+  - id: stappenplan-gebruikersonderzoek
+    name: Stappenplan gebruikersonderzoek
+    source: https://gebruikersonderzoeken.nl/docs/onderzoek-doen/
+    description: "Een praktisch stappenplan voor het uitvoeren van gebruikersonderzoek"
+    richtlijn: gebruikersbehoeften
+    fase: verkenning
+    type: tool
+    action: Bekijken
+    date_added: 20-12-2025
+    status: beschikbaar
+  - id: toestemmingsformulier-gebruikersonderzoek
+    name: Toestemmingsformulier gebruikersonderzoek
+    source: https://gebruikersonderzoeken.nl/docs/onderzoek-doen/toestemmingsformulier/
+    description: "Een voorbeeld toestemmingsformulier voor gebruikersonderzoek"
+    richtlijn: gebruikersbehoeften
+    fase: verkenning
+    type: tool
+    action: Bekijken
+    date_added: 20-12-2025
     status: beschikbaar
   - id: expertreview-gebruikersbehoefte
     name: Expertreview Gebruikersbehoefte
     source: https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/aanvragen-expertreview/
     description: "Een expertreview gebruiksvriendelijkheid laten uitvoeren"
     richtlijn: gebruikersbehoeften
-    fase: [bouw, live]
+    fase: [bouw, productie]
     type: tool
     action: Uitvoeren
     date_added: 19-12-2025
@@ -187,7 +208,7 @@ actions:
     source: https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken
     description: "Leer van andere onderzoeken en deel je bevindingen"
     richtlijn: gebruikersbehoeften
-    fase: [verkenning, live]
+    fase: [verkenning, productie]
     type: tool
     action: Bekijken
     date_added: 08-12-2025
@@ -197,7 +218,7 @@ actions:
     source: https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/04/Meethuis-Handboek-2025-v2.pdf
     description: "Voor het maken van een meethuis voor dienstverlening"
     richtlijn: gebruikersbehoeften
-    fase: [bouw, live]
+    fase: [bouw, productie]
     type: tool
     action: Gebruiken
     date_added: 08-12-2025
@@ -211,6 +232,16 @@ actions:
     type: tool
     action: Gebruiken
     date_added: 08-12-2025
+    status: beschikbaar
+  - id: optimaal-digitaal-tipkaarten
+    name: Optimaal Digitaal Tipkaarten
+    source: https://optimaaldigitaal.gebruikercentraal.nl/tipkaarten/overzicht-van-alle-tips/
+    description: "Praktische tips voor digitale dienstverlening"
+    richtlijn: gebruikersbehoeften
+    fase: [ontwerp, bouw]
+    type: tool
+    action: Bekijken
+    date_added: 19-12-2025
     status: beschikbaar
   - id: algoritmekader-inkoop
     name: Algoritmekader
@@ -280,6 +311,7 @@ actions:
     source: null
     description: "Publiceer uw code en vind overheidsprojecten"
     richtlijn: open-source
+    fase: live
     type: tool
     action: Publiceren
     date_added: 08-12-2025
@@ -289,6 +321,7 @@ actions:
     source: https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/
     description: "Copyleft: CC BY-SA, GPLv3, AGPLv3 of EUPL-1.2. Permissive: Apache 2.0, MIT, BSD-0-clause"
     richtlijn: open-source
+    fase: ontwerp
     type: tool
     action: Bekijken
     date_added: 08-12-2025
@@ -298,6 +331,7 @@ actions:
     source: https://ospo-nl.github.io/kennisbank/
     description: "Tools voor Open Source Program Office"
     richtlijn: open-source
+    fase: [verkenning, ontwerp]
     type: tool
     action: Verkennen
     date_added: 08-12-2025
@@ -307,6 +341,7 @@ actions:
     source: https://developer.overheid.nl/communities/open-source-werken
     description: "Community of practice omtrent open source werken"
     richtlijn: open-source
+    fase: [verkenning, live]
     type: tool
     action: Verkennen
     date_added: 08-12-2025
@@ -406,7 +441,7 @@ actions:
     source: https://pdfchecker.nl/
     description: "Controleer de toegankelijkheid van PDF-documenten"
     richtlijn: toegankelijkheid
-    fase: [bouw, live]
+    fase: [bouw, productie]
     type: tool
     action: Scannen
     date_added: 19-12-2025
@@ -455,7 +490,7 @@ actions:
     source: https://dashboard.digitoegankelijk.nl/
     description: "Check toegankelijkheid overheidswebsites"
     richtlijn: toegankelijkheid
-    fase: [bouw, live]
+    fase: [bouw, productie]
     type: tool
     action: Bekijken
     date_added: 08-12-2025
@@ -495,7 +530,7 @@ actions:
     source: https://www.w3.org/WAI/test-evaluate/tools/list/
     description: "Test uw webpagina's op toegankelijkheid"
     richtlijn: toegankelijkheid
-    fase: [bouw, live]
+    fase: [bouw, productie]
     type: tool
     action: Scannen
     date_added: 08-12-2025
@@ -503,9 +538,9 @@ actions:
   - id: toegankelijkheidsverklaring
     name: Toegankelijkheidsverklaring
     source: https://www.toegankelijkheidsverklaring.nl/
-    description: "Maak en beheer toegankelijkheidsverklaringen"
+    description: "Invulassistent voor toegankelijkheidsverklaringen"
     richtlijn: toegankelijkheid
-    fase: live
+    fase: productie
     type: tool
     action: Invullen
     date_added: 08-12-2025
@@ -515,7 +550,7 @@ actions:
     source: https://gitlab.com/digilab.overheid.nl/ecosystem/wcag-em-reporter
     description: "Tool voor het maken van toegankelijkheidsrapporten"
     richtlijn: toegankelijkheid
-    fase: [bouw, live]
+    fase: [bouw, productie]
     type: tool
     action: Gebruiken
     date_added: 08-12-2025

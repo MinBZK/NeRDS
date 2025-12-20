@@ -15,7 +15,7 @@ Toegankelijkheid gaat over het maken van digitale systemen die door iedereen kun
 - **Gelijkheid en inclusie**: Iedereen heeft recht op gelijke toegang tot overheidsdiensten.
 - **Maatschappelijke verantwoordelijkheid**: Als overheid heb je de plicht om niemand uit te sluiten en om digitale systemen te leveren die voor iedereen bruikbaar zijn. Toegankelijkheid gaat verder dan alleen mensen met een beperking, het helpt ook ouderen, mensen met tijdelijke beperkingen, en mensen in verschillende contexten.
 - **Wettelijke verplichting**: Overheidsorganisaties zijn wettelijk verplicht om hun digitale systemen toegankelijk te maken. Voorkom potentiële juridische problemen door niet-toegankelijke technologie.
-- **Kosteneffectiviteit**: Toegankelijkheid vanaf het begin inbouwen is goedkoper dan achteraf aanpassen. 
+- **Kosteneffectiviteit**: Toegankelijkheid vanaf het begin inbouwen is goedkoper dan achteraf aanpassen.
 
 Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg je ervoor dat je digitale systemen voor iedereen bruikbaar zijn, ongeacht hun capaciteiten of beperkingen.
 
@@ -31,7 +31,7 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
     <div class="action-cards" data-richtlijn="toegankelijkheid"></div>
 </div>
 
-## Beste praktijken
+## Bewezen praktijken
 
 ### 1. Begrijpen
 

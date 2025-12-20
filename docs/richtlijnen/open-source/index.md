@@ -34,60 +34,86 @@ Door open en transparant te werken en open source software te omarmen, draag je 
     </div>
 
     <div class="action-cards" data-richtlijn="open-source"></div>
-    </div>
 </div>
 
-### Implementatiestappen
+## Bewezen praktijken
 
-1. **Evalueer bestaande oplossingen:** Onderzoek eerst of er al geschikte open source alternatieven bestaan.
-2. **Publiceer eigen code**: Maak de broncode van je software openbaar, tenzij er specifieke redenen zijn om dit niet te doen
-3. **Gebruik open standaarden**: Zorg ervoor dat je systemen kunnen communiceren met andere systemen (zie [Gebruik open standaarden](../open-standaarden/index.md))
-4. **Documenteer grondig**: Maak het voor anderen gemakkelijk om je code te begrijpen en eraan bij te dragen
-5. **Bouw een gemeenschap**: Moedig bijdragen en feedback aan op je projecten (zie [Deel, hergebruik en werk samen](../samenwerking/index.md))
+### 1. Begrijpen
 
-### Voordelen van het publiceren van je eigen code
+Start met verkennen van bestaande open source oplossingen voordat je zelf iets bouwt. Evalueer of open source past bij je project en begrijp het **open-tenzij beleid**: je code moet open zijn, tenzij er zwaarwegende redenen zijn om dit niet te doen (zoals staatsgeheimen of fraudepreventie). Dit principe van transparantie versterkt het vertrouwen in de overheid.
 
-- **Betere documentatie**: Stimuleert duidelijkere documentatie
-- **Schonere code**: Leidt tot nettere, beter onderhoudbare code
-- **Dataveiligheid**: Zorgt voor duidelijkheid rond beschermde gegevens
-- **Verbetering**: Creëert mogelijkheden voor suggesties ter verbetering
+??? expander "Praktische tips"
+    - **Onderzoek eerst hergebruik** - Zoek naar bestaande open source oplossingen die je probleem al oplossen
+    - **Evalueer total cost of ownership** - Kijk naar alle kosten: implementatie, migratie, training, onderhoud
+    - **Beoordeel vendor lock-in risico's** - Vermijd afhankelijkheid van één leverancier
+    - **Test met prototypes** - Bouw kleine prototypes om technische aannames te valideren
+    - **Ken het open-tenzij beleid** - Begrijp wanneer je code wel of niet open hoeft te maken
+    - **Betrek de community** - Leg contact met relevante open source gemeenschappen voor advies
 
-### Overwegingen bij het kiezen van open source technologie
+### 2. Ontwikkelen, ontwerpen en inkopen
 
-- **Voldoet het aan gebruikersbehoeften?** Beantwoordt de oplossing aan de specifieke eisen?
-- **Wat zijn de totale kosten?** Inclusief implementatie, migratie en ondersteuning
-- **Hoe volwassen is de code?** Is het een stabiel en actief onderhouden project?
-- **Welk ondersteuningsniveau bestaat er?** Is er een actieve gemeenschap of commerciële ondersteuning?
-- **Is het voldoende beveiligd?** Controleer veiligheidsgeschiedenis en updatefrequentie
-- **Is de licentie acceptabel?** Begrijp de licentievoorwaarden en -verplichtingen
+Werk **open vanaf dag 1**: begin met een publieke repository vanaf het start van je project. Dit voorkomt kostbare retrofitting en bevordert incrementele security improvements. Kies een geschikte open source licentie (bij voorkeur EUPL-1.2 voor overheidscode) en zorg voor een secrets management systeem - wachtwoorden en API-keys horen nooit in code.
 
-### Wanneer je eigen code open source maakt
+Ontwikkelen & ontwerpen
+??? expander "Praktische tips"
+    - **Start met een publieke repository** - Begin vanaf dag 1 met een publieke GitHub of GitLab repository
+    - **Kies EUPL-1.2 licentie** - De aanbevolen licentie voor Nederlandse overheidscode
+    - **Gebruik secrets management** - Sla wachtwoorden, API-keys en credentials op in een apart systeem (bijv. HashiCorp Vault, Azure Key Vault)
+    - **Schrijf een goede README** - Leg uit wat de code doet, hoe je het installeert en hoe je kunt bijdragen
+    - **Maak een CONTRIBUTING.md** - Geef duidelijke richtlijnen voor externe bijdragen
+    - **Definieer een Code of Conduct** - Creëer een veilige en inclusieve omgeving voor contributors
+    - **Gebruik open standaarden** - Zorg dat je architectuur interoperabel is (zie [Gebruik open standaarden](../open-standaarden/index.md))
+    - **Documenteer ontwerpbeslissingen** - Leg vast waarom je bepaalde technologiekeuzes maakt
 
-- Zorg ervoor dat er geen gevoelige informatie gepubliceerd wordt (zoals wachtwoorden en API-keys)
-- Zorg voor een duidelijke README met installatie en contributie-instructies
-- Kies een geschikte open source licentie (zie hieronder)
-- Onderhoud de documentatie actief
-- Wees responsief op issues en pull requests
+Inkopen van open source technologie
+??? expander "Praktische tips"
+    - **Controleer de maturiteit** - Is het project actief onderhouden en stabiel?
+    - **Evalueer de community** - Is er een actieve gemeenschap of commerciële ondersteuning?
+    - **Check de veiligheid** - Bekijk de security geschiedenis en updatefrequentie
+    - **Begrijp de licentie** - Zorg dat je de verplichtingen kent
+    - **Vraag naar gebruikerservaringen** - Gebruiken andere overheidsorganisaties dit al?
 
-### Aanbevolen licentie voor overheidsprojecten
+### 3. Testen, meten en verbeteren
 
-Voor Nederlandse overheidsprojecten wordt de **European Union Public Licence (EUPL v1.2)** aanbevolen. Deze licentie:
+Onderhoud je open source project actief. Reageer snel op security issues (doelstelling: binnen 24-48 uur), monitor dependencies op kwetsbaarheden, en wees transparant over je onderhoudsniveau. Open source publiceren is een langetermijncommitment - alloceer voldoende resources voor community management.
 
-- Is specifiek ontwikkeld voor Europese overheidssoftware
-- Is juridisch gevalideerd in alle EU-talen
-- Heeft een "zwak wederkerig" karakter (wijzigingen in de originele code moeten onder dezelfde licentie worden gedeeld)
-- Is compatibel met andere populaire open source licenties
-- Voldoet aan de open source definitie
+??? expander "Praktische tips"
+    - **Review code op secrets** - Scan regelmatig op hard-coded wachtwoorden en credentials
+    - **Monitor security advisories** - Volg CVE's en security updates voor je dependencies
+    - **Reageer snel op security issues** - Patch kritieke kwetsbaarheden binnen 24-48 uur
+    - **Houd dependencies up-to-date** - Gebruik tools zoals Dependabot voor automatische updates
+    - **Test installeerbaarheid** - Doe regelmatig een fresh clone test met een nieuwe gebruiker
+    - **Communiceer onderhoudsniveau** - Wees duidelijk over "actively maintained", "maintenance mode" of "archived"
+    - **Gebruik Semantic Versioning** - Versies in major.minor.patch formaat voor duidelijkheid
+    - **Draag bij aan upstream** - Geef terug aan projecten waar je van afhankelijk bent
+    - **Deel learnings** - Publiceer blogposts en presentaties over je ervaringen
 
-Bij het publiceren van overheidscode is het raadzaam de EUPL-1.2 te gebruiken, tenzij er specifieke redenen zijn om een andere licentie te kiezen. Raadpleeg de [OSPO-NL kennisbank over OSS-licenties](https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/) voor meer informatie over licentietypes en overwegingen.
+## Implementatie per fase
+
+Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "3. Werk transparant en gebruik open source"](/NeRDS/richtlijnen/open-source/fases.md).
 
 ## Gerelateerde hulpmiddelen
 
-- [Opensourcewerken community](https://developer.overheid.nl/communities/open-source-werken) - Community van het Ministerie van Binnenlandse Zaken voor praktische kennis, een forum om ervaringen te delen en informatie over relevante regelgeving voor open source werken.
+#### Methodes
 
-- [OSPO-NL Kennisbank](https://ospo-nl.github.io/kennisbank/) - Verzameling van kennis over het opzetten van een Open Source Program Office (OSPO) binnen de Nederlandse overheid, met praktische handleidingen en richtlijnen voor het werken met open source.
+- [OSPO-NL Kennisbank](https://ospo-nl.github.io/kennisbank/) - Verzameling van kennis over het opzetten van een Open Source Program Office (OSPO) binnen de Nederlandse overheid, met praktische handleidingen en richtlijnen
+- [Ambitieladder opensourcewerken](https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/) - Helpt projectteams concrete afspraken te maken over opensourcewerken
+- [Code.gov.nl](https://code.overheid.nl/) - Platform om overheidscode te publiceren en te vinden (in ontwikkeling)
 
-- [Instructie Rijksdienst bij aanschaf ICT-diensten of ICT-producten](https://wetten.overheid.nl/BWBR0024717/2008-11-23) - Officiële instructie die voorschrijft dat bij de aanschaf van ICT-diensten of -producten door de Rijksoverheid, open standaarden moeten worden geëist.
+#### Beleid, wetten en standaarden
+
+- [Beleid Opensourcewerken - Digitale Overheid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/open-source/beleid/) - Het officiële open-tenzij beleid van de Nederlandse overheid
+- [Instructie Rijksdienst bij aanschaf ICT-diensten of ICT-producten](https://wetten.overheid.nl/BWBR0024717/2008-11-23) - Officiële instructie die open standaarden voorschrijft bij ICT-aanschaf
+- [EUPL-1.2 Licentie](https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12) - European Union Public Licence, aanbevolen voor overheidscode
+- [OSPO-NL Licentieadvies](https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/) - Overzicht van open source licenties en overwegingen
+
+#### Communities
+
+- [Opensourcewerken community](https://developer.overheid.nl/communities/open-source-werken) - Community van het Ministerie van Binnenlandse Zaken voor praktische kennis, een forum om ervaringen te delen en informatie over relevante regelgeving
+
+#### Trainingen
+
+#### Boeken
 
 ## Gerelateerde richtlijnen
 

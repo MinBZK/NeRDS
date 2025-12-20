@@ -91,7 +91,7 @@ Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van d
 
 ---
 
-### 4. Livefase
+### 4. Productie
 
 !!! info "Doel"
     Monitor en verbeter toegankelijkheid continu.
