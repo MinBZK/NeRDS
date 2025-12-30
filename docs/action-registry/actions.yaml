@@ -105,7 +105,7 @@ actions:
     source: https://gebruikersonderzoeken.nl/docs/onderzoek-doen/
     description: "Een praktisch stappenplan voor het uitvoeren van gebruikersonderzoek"
     richtlijn: gebruikersbehoeften
-    fase: verkenning
+    fase: [verkenning, productie]
     type: tool
     action: Bekijken
     date_added: 20-12-2025
@@ -125,7 +125,7 @@ actions:
     source: https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/aanvragen-expertreview/
     description: "Een expertreview gebruiksvriendelijkheid laten uitvoeren"
     richtlijn: gebruikersbehoeften
-    fase: [bouw, productie]
+    fase: [bouw]
     type: tool
     action: Uitvoeren
     date_added: 19-12-2025
@@ -218,7 +218,7 @@ actions:
     source: https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/04/Meethuis-Handboek-2025-v2.pdf
     description: "Voor het maken van een meethuis voor dienstverlening"
     richtlijn: gebruikersbehoeften
-    fase: [bouw, productie]
+    fase: [verkenning]
     type: tool
     action: Gebruiken
     date_added: 08-12-2025
@@ -490,7 +490,7 @@ actions:
     source: https://dashboard.digitoegankelijk.nl/
     description: "Check toegankelijkheid overheidswebsites"
     richtlijn: toegankelijkheid
-    fase: [bouw, productie]
+    fase: [verkenning, productie]
     type: tool
     action: Bekijken
     date_added: 08-12-2025
@@ -516,9 +516,9 @@ actions:
     date_added: 08-12-2025
     status: beschikbaar
   - id: nl-design-system-wcag
-    name: NL Design System
+    name: WCAG 2.1 uitleg
     source: https://nldesignsystem.nl/wcag/
-    description: "Praktische uitleg en voorbeelden WCAG 2.1"
+    description: "Praktische uitleg en voorbeelden WCAG 2.1 (NLDS)"
     richtlijn: toegankelijkheid
     fase: [verkenning, ontwerp]
     type: tool

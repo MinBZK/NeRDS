@@ -60,8 +60,8 @@ def on_page_content(html, page, config, files):
         )
 
         if not filtered_actions:
-            # Return empty div if no actions match
-            return f'<div class="action-cards"{attributes}></div>'
+            # Return empty div with marker class to hide parent block
+            return f'<div class="action-cards no-actions"{attributes}></div>'
 
         # Generate HTML for action cards
         action_cards_html = _generate_action_cards_html(filtered_actions)

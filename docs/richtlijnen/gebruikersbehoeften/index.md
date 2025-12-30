@@ -12,8 +12,8 @@ Om digitale systemen te ontwerpen, ontwikkelen en inkopen die effectief zijn, mo
 
 ## Waarom is het belangrijk?
 
-- **Voorkom kostbare fouten:** Achteraf aanpassen kost meer tijd en geld dan vanaf het begin de juiste oplossing bouwen voor het daadwerkelijke probleem.
 - **Verhoog adoptie en verbeter dienstverlening:** Gebruikers omarmen systemen die hun werkelijke problemen oplossen.
+- **Voorkom kostbare fouten:** Achteraf aanpassen kost meer tijd en geld dan vanaf het begin de juiste oplossing bouwen voor het daadwerkelijke probleem.
 - **Reduceer risico's:** Onbekende gebruikersproblemen kunnen implementaties doen mislukken of leiden tot systemen die niet gebruikt worden.
 - **Bespaar tijd en geld:** Ontwikkeling van (stukken van) digitale systemen die niet gebruikt worden verspilt budget en capaciteit.
 - **Ondersteun interne afstemming:** Zonder gedeeld begrip van gebruikersbehoeften werken teams langs elkaar heen.
@@ -40,12 +40,12 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
 Start bij het probleem in kaart te brengen, niet bij de oplossing. Dit voorkomt middeltjes-denken. Trek er vroeg UX-ontwerpers bij om echt te begrijpen wat er speelt: welke emoties ervaren mensen, hoe gedragen ze zich, in welke situatie zitten ze. Zorg dat iedereen in het team dit snapt, inclusief de bestuurders. Pas als je dit gedeelde beeld hebt, kun je effectief ontwerpen.
 
 ??? expander "Praktische tips"
-    - **Begin met het doel** - Zorg dat je onderzoeksmethode aansluit bij wat je werkelijk moet leren voordat je een plan maakt: [Zo begin je gewoon](https://www.gebruikercentraal.nl/gebruikersonderzoek-zo-begin-je-gewoon/).
+    - **Begin met het doel** - Zorg dat je onderzoeksmethode aansluit bij wat je werkelijk moet leren voordat je een plan maakt: [Zo begin je gewoon](https://www.gebruikercentraal.nl/gebruikersonderzoek-zo-begin-je-gewoon/){:target="_blank"}.
     - **Geen aannames** - Baseer bevindingen op werkelijke data van gebruikers, niet op veronderstelde behoeften van het team.
     - **Ga naar de gebruiker toe** - Observeer gebruikers in hun eigen omgeving en context om hun werkelijke situatie te begrijpen.
     - **Houd het simpel** - Kies voor eenvoudige onderzoeksmethoden zoals interviews, observatie of vragenlijsten omdat complexe methoden implementatie kunnen vertragen.
-    - **Creëer draagvlak** - Zorg voor overeenstemming binnen het team over gebruikersbehoeften voordat je begint met ontwikkelen. Zie [Draagvlak in jouw organisatie](https://www.gebruikercentraal.nl/videopagina/draagvlak-in-jouw-organisatie-direct-duidelijk-tour/).
-    - **Laat stakeholders meekijken** - Zorg dat stakeholders (bijvoorbeeld bestuurders) onderzoek mee volgen zodat iedereen dezelfde gebruikersinzichten heeft. Zie [Management verhaal klantreizen](https://www.gebruikercentraal.nl/hulpmiddelen/klantreizen-bij-de-overheid-uitleg/managementverhaal/) voor een voorbeeldpresentatie.
+    - **Creëer draagvlak** - Zorg voor overeenstemming binnen het team over gebruikersbehoeften voordat je begint met ontwikkelen. Zie [Draagvlak in jouw organisatie](https://www.gebruikercentraal.nl/videopagina/draagvlak-in-jouw-organisatie-direct-duidelijk-tour/){:target="_blank"}.
+    - **Laat stakeholders meekijken** - Zorg dat stakeholders (bijvoorbeeld bestuurders) onderzoek mee volgen zodat iedereen dezelfde gebruikersinzichten heeft. Zie [Management verhaal klantreizen](https://www.gebruikercentraal.nl/hulpmiddelen/klantreizen-bij-de-overheid-uitleg/managementverhaal/){:target="_blank"} voor een voorbeeldpresentatie.
 
 ### 2. Ontwikkelen, ontwerpen en inkopen
 
@@ -65,7 +65,7 @@ Meet doorlopend hoe gebruikers je digitale systeem ervaren. Verzamel feedback, l
 ??? expander "Praktische tips"
     - **Blijf itereren** - Digitale systemen staan nooit op zichzelf en vereisen continue verbetering.
     - **Maak het structureel** - Borg gebruikersonderzoek in je proces vanaf het begin, niet als laatste stap. Maak het onderdeel van je definition of done.
-    - **Deel resultaten** - Publiceer inzichten op [gebruikersonderzoeken.nl](gebruikersonderzoeken.nl) zodat andere organisaties ervan kunnen leren.
+    - **Deel resultaten** - Publiceer inzichten op [gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl){:target="_blank"} zodat andere organisaties ervan kunnen leren.
     - **Blijf flexibel** - Pas je onderzoeksmethode aan naarmate je meer leert.
     - **Valideer je oplossing** - Doe een expertreview op je digitale systeem via het [expert panel gebruiksvriendelijkheid van Gebruiker Centraal](https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/).
 

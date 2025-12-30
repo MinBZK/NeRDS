@@ -43,7 +43,7 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 ### 2. Ontwerpfase (Alpha)
 
 !!! info "Doel"
-    Test of je oplossingsrichting het probleem oplost
+    Test of je oplossingsrichting het probleem oplost.
 
 **Methoden:**
 
@@ -51,21 +51,20 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
     <h3>Methode</h3>
 
     <div class="action-cards" data-richtlijn="gebruikersbehoeften" data-fase="ontwerp"></div>
-    </div>
 </div>
 
 **Gewenste uitkomsten:**
 
 - [ ] Je hebt ten minste één ontwerp of prototype getest met een breed scala aan gebruikers, waaronder mensen met beperkte digitale toegang en mensen met verschillende visuele, auditieve, motorische en cognitieve beperkingen
-- [ ] Testresultaten verzameld die leiden tot aantoonbare aanpassingen
-- [ ] Inzicht hebben in eventuele [toegankelijkheidsproblemen](../toegankelijkheid/index.md), inclusief concrete en toepasbare aanbevelingen om deze op te lossen.
+- [ ] Er zijn testresultaten verzameld die leiden tot aantoonbare aanpassingen
+- [ ] Er is inzicht in eventuele [toegankelijkheidsproblemen](../toegankelijkheid/index.md), inclusief concrete en toepasbare aanbevelingen om deze op te lossen.
 
 ---
 
 ### 3. Bouwfase (Beta)
 
 !!! info "Doel"
-    Bouw en test je dienst in productie
+    Bouw en test je dienst in productie.
 
 **Methoden:**
 
@@ -73,7 +72,6 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
     <h3>Direct aan de slag</h3>
 
     <div class="action-cards" data-richtlijn="gebruikersbehoeften" data-fase="bouw"></div>
-    </div>
 </div>
 
 **Gewenste uitkomsten:**
@@ -88,15 +86,14 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 ### 4. Productie
 
 !!! info "Doel"
-    Blijf verbeteren en aanpassen aan veranderende behoeften
+    Blijf verbeteren en aanpassen aan veranderende behoeften.
 
 **Methoden:**
 
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
 
-    <div class="action-cards" data-richtlijn="gebruikersbehoeften" data-fase="live"></div>
-    </div>
+    <div class="action-cards" data-richtlijn="gebruikersbehoeften" data-fase="productie"></div>
 </div>
 
 **Gewenste uitkomsten:**

@@ -899,3 +899,8 @@ background-color: #B2D7EE;
 .md-header__source a{
   text-decoration: none;
 }
+
+/* Hide direct-aan-de-slag blocks when they contain no actions */
+.direct-aan-de-slag:has(.action-cards.no-actions) {
+  display: none;
+}
