@@ -262,7 +262,7 @@ Werk wendbaar en cloud-native: cloud vraagt om een dynamische, kort-cyclische aa
 
 Ontwikkelen & ontwerpen
 ??? expander "Praktische tips"
-    - **Werk wendbaar en kort-cyclisch** - Cloud vraagt om een dynamische aanpak. Agile is geen voorwaarde, maar kort-cyclisch werken is essentieel voor het tempo waarin we nu veranderen. 
+    - **Werk wendbaar en kort-cyclisch** - Cloud vraagt om een dynamische aanpak. Agile is geen voorwaarde, maar kort-cyclisch werken is essentieel voor het tempo waarin we nu veranderen.
     - **Beveilig vanaf het begin** - Implementeer beveiliging en compliance vanaf het ontwerp (zie [Maak veilige systemen](../veiligheid/index.md){:target="_blank"}). Overweeg [PCI DSS](https://www.pcisecuritystandards.org/){:target="_blank"} als concrete standaard (concreter dan [BIO](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/bio-en-ensia/){:target="_blank"}).
     - **Gebruik Infrastructure as Code (IaC)** - Definieer infrastructuur in code voor reproduceerbaarheid en versiebeheer (bijv. [Terraform](https://www.terraform.io/){:target="_blank"}, [Pulumi](https://www.pulumi.com/){:target="_blank"}). Dit werkt uitstekend voor IaaS-omgevingen.
     - **Overweeg GitOps** - De next level van IaC: alles in code en git is de boss. Je hele infrastructuur en configuratie wordt gedeclareerd in git. Zie [GitOps Principles](https://opengitops.dev/){:target="_blank"}.
