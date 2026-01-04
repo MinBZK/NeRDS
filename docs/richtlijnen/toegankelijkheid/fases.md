@@ -10,15 +10,15 @@ relations:
 
 ## Wanneer doe je wat?
 
-Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van dienstverlening welke stappen je neemt om toegankelijkheid te borgen en welke uitkomsten je mag verwachten.
+Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van ontwerpen, ontwikkelen en inkopen hoe je toegankelijkheid en inclusie borgt en welke uitkomsten je mag verwachten.
 
 ### 1. Verkenningsfase
 
 !!! info "Doel"
-    Begrijp toegankelijkheidseisen en de behoeften van gebruikers met diverse beperkingen.
+    Begrijp toegankelijkheidseisen en de behoeften van gebruikers met diverse achtergronden en beperkingen.
 
 <div class="direct-aan-de-slag">
-    <h3>Methoden en hulpmiddelen</h3>
+    <h3>Direct aan de slag</h3>
 
     <div class="action-cards" data-richtlijn="toegankelijkheid" data-fase="verkenning"></div>
 </div>
@@ -26,13 +26,13 @@ Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van d
 **Gewenste uitkomsten:**
 
 - [ ] Je hebt inzicht in wettelijke toegankelijkheidseisen (WCAG 2.1, EN 301 549)
-- [ ] Je hebt persona's ontwikkeld die diverse gebruikersgroepen representeren, inclusief mensen met visuele, auditieve, motorische en cognitieve beperkingen
+- [ ] Je begrijpt de behoeften van diverse gebruikersgroepen, inclusief mensen met visuele, auditieve, motorische en cognitieve beperkingen
 - [ ] Het team begrijpt het belang van toegankelijkheid en inclusie en hoe ze er aan kunnen voldoen
 
 **Aanvullend (indien passend):**
 
 - Onderzoek naar bestaande toegankelijkheidsproblemen in vergelijkbare diensten
-- Interviews met gebruikers met diverse beperkingen
+- Interviews met gebruikers met diverse beperkingen en achtergronden
 - Analyse van klachten en feedback over toegankelijkheid
 - Bepaling van toegankelijkheidsniveau (minimaal WCAG 2.1 niveau AA)
 
@@ -44,7 +44,7 @@ Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van d
     Ontwerp toegankelijke en inclusieve oplossingen die voor iedereen werken.
 
 <div class="direct-aan-de-slag">
-    <h3>Methoden en hulpmiddelen</h3>
+    <h3>Direct aan de slag</h3>
 
     <div class="action-cards" data-richtlijn="toegankelijkheid" data-fase="ontwerp"></div>
 </div>
@@ -55,22 +55,15 @@ Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van d
 - [ ] Je hebt prototypes getest met gebruikers met diverse beperkingen
 - [ ] Kleurcontrast, toetsenbordnavigatie en schermlezerondersteuning zijn getest
 
-**Aanvullend (indien passend):**
-
-- Gebruik van toegankelijke design systems (zoals NL Design System)
-- Inclusief taalgebruik (B1-niveau)
-- Alternatieve toegang voor verschillende apparaten en hulpmiddelen
-- Toegankelijkheidschecks in de ontwerpfase
-
 ---
 
 ### 3. Bouwfase (Beta)
 
 !!! info "Doel"
-    Bouw en test je dienst op toegankelijkheid in productie.
+    Bouw en test je dienst op toegankelijkheid en inclusie in productie.
 
 <div class="direct-aan-de-slag">
-    <h3>Methoden en hulpmiddelen</h3>
+    <h3>Direct aan de slag</h3>
 
     <div class="action-cards" data-richtlijn="toegankelijkheid" data-fase="bouw"></div>
 </div>
@@ -78,9 +71,9 @@ Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van d
 **Gewenste uitkomsten:**
 
 - [ ] Je dienst voldoet aan WCAG 2.1 niveau AA
+- [ ] De content is beschikbaar in B1-Nederlands
 - [ ] Geautomatiseerde toegankelijkheidstests zijn uitgevoerd en problemen zijn opgelost
 - [ ] Gebruikerstests met mensen met beperkingen zijn succesvol afgerond
-- [ ] Code reviews hebben toegankelijkheid gecontroleerd
 
 **Aanvullend (indien passend):**
 
@@ -94,12 +87,12 @@ Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van d
 ### 4. Productie
 
 !!! info "Doel"
-    Monitor en verbeter toegankelijkheid continu.
+    Monitor en verbeter toegankelijkheid en inclusie continu.
 
 <div class="direct-aan-de-slag">
-    <h3>Methoden en hulpmiddelen</h3>
+    <h3>Direct aan de slag</h3>
 
-    <div class="action-cards" data-richtlijn="toegankelijkheid" data-fase="live"></div>
+    <div class="action-cards" data-richtlijn="toegankelijkheid" data-fase="productie"></div>
 </div>
 
 **Gewenste uitkomsten:**
@@ -113,5 +106,5 @@ Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van d
 
 - Jaarlijkse toegankelijkheidsaudits
 - Training voor nieuwe teamleden
-- Doorvoeren van wijzigingen in wetgeving (EAA, WCAG)
-- Kennisdeling over toegankelijkheid binnen de organisatie
+- Doorvoeren van wijzigingen in wetgeving (EAA, WCAG) of beleid
+- Kennisdeling over toegankelijkheid binnen de organisatie (bijvoorbeeld via gebruikersonderzoeken.nl (zie ))

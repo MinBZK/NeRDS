@@ -129,7 +129,10 @@ def _generate_action_cards_html(actions):
     """
     cards_html = []
 
-    for action in actions:
+    # Sort actions by fase
+    sorted_actions = _sort_actions_by_fase(actions)
+
+    for action in sorted_actions:
         status = action.get('status', 'beschikbaar')
         status_class = f'wip-badge-{status}'
 
@@ -147,6 +150,68 @@ def _generate_action_cards_html(actions):
         cards_html.append(card_html)
 
     return '\n'.join(cards_html)
+
+
+def _sort_actions_by_fase(actions):
+    """
+    Sort actions by fase in the order: verkenning, ontwerp, bouw, productie, live.
+    Actions without a fase or with unlisted fases come last.
+
+    Args:
+        actions: List of action dictionaries
+
+    Returns:
+        Sorted list of actions
+    """
+    # Define the fase order
+    fase_order = {
+        'verkenning': 1,
+        'ontwerp': 2,
+        'bouw': 3,
+        'productie': 4,
+        'live': 5,
+    }
+
+    def get_sort_key(action):
+        fase = action.get('fase')
+
+        # No fase means it should come last
+        if not fase:
+            return (999, '')
+
+        # Get the first fase if it's a list
+        first_fase = fase[0] if isinstance(fase, list) else fase
+
+        # Return the order number, or 999 if not in our list
+        return (fase_order.get(first_fase, 999), first_fase)
+
+    return sorted(actions, key=get_sort_key)
+
+
+def _generate_fase_badges_html(fase):
+    """
+    Generate HTML for fase badge(s).
+
+    Args:
+        fase: String, list of strings, or None
+
+    Returns:
+        HTML string with fase badge(s) or empty string
+    """
+    if not fase:
+        return ''
+
+    # Convert to list if single string
+    fase_list = [fase] if isinstance(fase, str) else fase
+
+    # Generate badge HTML for each fase
+    badges = []
+    for f in fase_list:
+        badges.append(f'<span class="fase-badge">{f}</span>')
+
+    # Wrap in container for proper positioning
+    badges_html = ''.join(badges)
+    return f'<div class="fase-badges-container">{badges_html}</div>'
 
 
 def _generate_button_html(action):

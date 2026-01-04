@@ -90,22 +90,60 @@ actions:
     date_added: 08-12-2025
     status: ontwikkeling
     component: kubernetes-cluster-form
+  - id: standaard-voor-publieke-code
+    name: Standaard voor publieke code
+    source: https://www.standaardvoorpubliekecode.nl/
+    description: "Richtlijnen voor het ontwikkelen en beheren van software en beleid"
+    richtlijn: open-source
+    fase: [ontwerp, bouw]
+    type: tool
+    action: Bekijken
+    date_added: 04-01-2025
+  - id: beslisboom-cloud
+    name: Beslisboom Cloud
+    source:
+    description: "Helpt bij het kiezen van de juiste cloudoplossing"
+    richtlijn: cloud
+    type: tool
+    action: Starten
+    date_added: 04-01-2025
+    status: concept
+  - id: handreiking-publieke-waarde-en-rechten-bij-ICT-aanbesteding
+    name: Handreiking publieke waarde bij ICT-aanbesteding
+    source: https://www.pianoo.nl/nl/themas/ict-aanbesteden/handreiking-publieke-waarde-en-rechten-bij-ict-aanbesteding
+    description: "Stappenplan voor het maken van bewuste keuzes rondom publieke waarde en rechten"
+    richtlijn: open-source
+    fase: ontwerp
+    type: tool
+    action: Bekijken
+    date_added: 04-01-2025
+    status: beschikbaar
   - id: ambitieladder-opensource
     name: Ambitieladder opensourcewerken
     source: https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/
     description: "Helpt projectteams concrete afspraken te maken over opensourcewerken"
     richtlijn: open-source
-    fase: ontwerp
+    fase: [verkenning, ontwerp]
     type: tool
     action: Bekijken
     date_added: 18-12-2025
+    status: beschikbaar
+  - id: open-stad
+    name: Open Stad
+    source: https://openstad.org/
+    description: "Open source platform voor participatie en samenwerking"
+    richtlijn: open-source
+    fase: verkenning
+    type: tool
+    action: Bekijken
+    date_added: 03-01-2025
     status: beschikbaar
   - id: stappenplan-gebruikersonderzoek
     name: Stappenplan gebruikersonderzoek
     source: https://gebruikersonderzoeken.nl/docs/onderzoek-doen/
     description: "Een praktisch stappenplan voor het uitvoeren van gebruikersonderzoek"
     richtlijn: gebruikersbehoeften
-    fase: [verkenning, productie]
+    fase: [verkenning]
     type: tool
     action: Bekijken
     date_added: 20-12-2025
@@ -213,6 +251,16 @@ actions:
     action: Bekijken
     date_added: 08-12-2025
     status: beschikbaar
+  - id: gebruikersonderzoeken-nl
+    name: Gebruikersonderzoeken.nl
+    source: https://gebruikersonderzoeken.nl/docs/thema/toegankelijkheid/
+    description: "Leer van andere toegankelijkheidsonderzoeken en deel je bevindingen"
+    richtlijn: toegankelijkheid
+    fase: [verkenning, productie]
+    type: tool
+    action: Bekijken
+    date_added: 08-12-2025
+    status: beschikbaar
   - id: meethuis-voor-dienstverlening
     name: Meethuis voor dienstverlening
     source: https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/04/Meethuis-Handboek-2025-v2.pdf
@@ -311,7 +359,7 @@ actions:
     source: null
     description: "Publiceer uw code en vind overheidsprojecten"
     richtlijn: open-source
-    fase: live
+    fase: productie
     type: tool
     action: Publiceren
     date_added: 08-12-2025
@@ -341,7 +389,7 @@ actions:
     source: https://developer.overheid.nl/communities/open-source-werken
     description: "Community of practice omtrent open source werken"
     richtlijn: open-source
-    fase: [verkenning, live]
+    fase: [verkenning, productie]
     type: tool
     action: Verkennen
     date_added: 08-12-2025
@@ -404,7 +452,8 @@ actions:
     name: Pre-scan DPIA & DPIA Formulier
     source: https://minbzk.github.io/par-dpia-form/
     description: "Online formulier voor gegevensbeschermingseffectbeoordeling"
-    richtlijn: privacy
+    richtlijn: [privacy, cloud]
+    fase: verkenning
     type: tool
     action: Starten
     date_added: 08-12-2025
@@ -441,7 +490,7 @@ actions:
     source: https://pdfchecker.nl/
     description: "Controleer de toegankelijkheid van PDF-documenten"
     richtlijn: toegankelijkheid
-    fase: [bouw, productie]
+    fase: [bouw]
     type: tool
     action: Scannen
     date_added: 19-12-2025
@@ -490,15 +539,15 @@ actions:
     source: https://dashboard.digitoegankelijk.nl/
     description: "Check toegankelijkheid overheidswebsites"
     richtlijn: toegankelijkheid
-    fase: [verkenning, productie]
+    fase: [verkenning]
     type: tool
     action: Bekijken
     date_added: 08-12-2025
     status: beschikbaar
-  - id: inclusief-ontwerpen
-    name: Inclusief Ontwerpen
-    source: https://toolkitinclusie.gebruikercentraal.nl/
-    description: "Toolkit voor inclusief ontwerp Gebruiker Centraal"
+  - id: stappenplan-inclusief-ontwerpen
+    name: Stappenplan Inclusief Ontwerpen
+    source: https://toolkitinclusie.gebruikercentraal.nl/inclusief-ontwerpen/stappenplan/
+    description: "Stappenplan voor inclusief ontwerp van Gebruiker Centraal"
     richtlijn: toegankelijkheid
     fase: [verkenning, ontwerp]
     type: tool
@@ -516,7 +565,7 @@ actions:
     date_added: 08-12-2025
     status: beschikbaar
   - id: nl-design-system-wcag
-    name: WCAG 2.1 uitleg
+    name: WCAG 2.1 Uitleg
     source: https://nldesignsystem.nl/wcag/
     description: "Praktische uitleg en voorbeelden WCAG 2.1 (NLDS)"
     richtlijn: toegankelijkheid
@@ -530,7 +579,7 @@ actions:
     source: https://www.w3.org/WAI/test-evaluate/tools/list/
     description: "Test uw webpagina's op toegankelijkheid"
     richtlijn: toegankelijkheid
-    fase: [bouw, productie]
+    fase: [bouw]
     type: tool
     action: Scannen
     date_added: 08-12-2025

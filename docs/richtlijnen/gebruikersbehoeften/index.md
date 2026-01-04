@@ -12,11 +12,9 @@ Om digitale systemen te ontwerpen, ontwikkelen en inkopen die effectief zijn, mo
 
 ## Waarom is het belangrijk?
 
-- **Verhoog adoptie en verbeter dienstverlening:** Gebruikers omarmen systemen die hun werkelijke problemen oplossen.
-- **Voorkom kostbare fouten:** Achteraf aanpassen kost meer tijd en geld dan vanaf het begin de juiste oplossing bouwen voor het daadwerkelijke probleem.
-- **Reduceer risico's:** Onbekende gebruikersproblemen kunnen implementaties doen mislukken of leiden tot systemen die niet gebruikt worden.
-- **Bespaar tijd en geld:** Ontwikkeling van (stukken van) digitale systemen die niet gebruikt worden verspilt budget en capaciteit.
-- **Ondersteun interne afstemming:** Zonder gedeeld begrip van gebruikersbehoeften werken teams langs elkaar heen.
+- **Verhoog adoptie en verbeter dienstverlening**: gebruikers omarmen systemen die hun werkelijke problemen oplossen.
+- **Voorkom kostbare fouten**: achteraf aanpassen kost meer tijd en geld dan het vanaf het begin goed doen.
+- **Ondersteun interne en externe afstemming**: zonder gedeeld begrip van gebruikersbehoeften werken teams langs elkaar heen en ontstaat er wantrouwen bij burgers.
 
 Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling en -implementatie bij overheidsdiensten verhoog je de acceptatie en effectiviteit van digitale overheidsdiensten terwijl je het vertrouwen tussen burger en overheid versterkt.
 
@@ -37,15 +35,15 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
 
 ### 1. Begrijpen
 
-Start bij het probleem in kaart te brengen, niet bij de oplossing. Dit voorkomt middeltjes-denken. Trek er vroeg UX-ontwerpers bij om echt te begrijpen wat er speelt: welke emoties ervaren mensen, hoe gedragen ze zich, in welke situatie zitten ze. Zorg dat iedereen in het team dit snapt, inclusief de bestuurders. Pas als je dit gedeelde beeld hebt, kun je effectief ontwerpen.
+Start bij het probleem in kaart te brengen, niet bij de oplossing. Dit voorkomt middeltjes-denken. Trek er vroeg UX-ontwerpers bij om echt te begrijpen wat er speelt: welke emoties ervaren mensen, hoe gedragen ze zich, in welke situatie zitten ze. Zorg dat iedereen in het team dit snapt, inclusief de bestuurders. Pas als je dit gedeelde beeld hebt, kun je effectief ontwerpen, ontwikkelen en/of inkopen.
 
 ??? expander "Praktische tips"
+    - **Geen aannames** - Baseer bevindingen op werkelijke data van gebruikers, niet op veronderstelde behoeften.
     - **Begin met het doel** - Zorg dat je onderzoeksmethode aansluit bij wat je werkelijk moet leren voordat je een plan maakt: [Zo begin je gewoon](https://www.gebruikercentraal.nl/gebruikersonderzoek-zo-begin-je-gewoon/){:target="_blank"}.
-    - **Geen aannames** - Baseer bevindingen op werkelijke data van gebruikers, niet op veronderstelde behoeften van het team.
     - **Ga naar de gebruiker toe** - Observeer gebruikers in hun eigen omgeving en context om hun werkelijke situatie te begrijpen.
     - **Houd het simpel** - Kies voor eenvoudige onderzoeksmethoden zoals interviews, observatie of vragenlijsten omdat complexe methoden implementatie kunnen vertragen.
-    - **Creëer draagvlak** - Zorg voor overeenstemming binnen het team over gebruikersbehoeften voordat je begint met ontwikkelen. Zie [Draagvlak in jouw organisatie](https://www.gebruikercentraal.nl/videopagina/draagvlak-in-jouw-organisatie-direct-duidelijk-tour/){:target="_blank"}.
     - **Laat stakeholders meekijken** - Zorg dat stakeholders (bijvoorbeeld bestuurders) onderzoek mee volgen zodat iedereen dezelfde gebruikersinzichten heeft. Zie [Management verhaal klantreizen](https://www.gebruikercentraal.nl/hulpmiddelen/klantreizen-bij-de-overheid-uitleg/managementverhaal/){:target="_blank"} voor een voorbeeldpresentatie.
+    - **Creëer draagvlak** - Zorg voor overeenstemming binnen het team over gebruikersbehoeften voordat je begint met ontwikkelen. Zie [Draagvlak in jouw organisatie](https://www.gebruikercentraal.nl/videopagina/draagvlak-in-jouw-organisatie-direct-duidelijk-tour/){:target="_blank"}.
 
 ### 2. Ontwikkelen, ontwerpen en inkopen
 
@@ -53,10 +51,11 @@ Vertaal de inzichten naar ontwerpen: wireframes, prototypes, klantreizen. Test d
 
 ??? expander "Praktische tips"
     - **Zorg ervoor dat jouw digitale systeem het gehele probleem van de gebruiker oplost** - Los niet enkel een deelaspect op. Dit betekent vaak samenwerking met andere teams en het integreren met bestaande systemen. Zie hiervoor de richtlijnen [Deel, hergebruik en werk samen](../samenwerking/index.md) en [Integreer en pas technologie aan](../integratie/index.md).
-    - **Hou rekening met privacy** - Bij het verzamelen van gebruikersgegevens moet je voldoen aan de AVG. Vraag alleen wat nodig is, informeer gebruikers over het doel, en beveilig de data goed. Zie de richtlijn [Maak privacy integraal](../privacy/index.md).
-    - **Test alternatieven** - Evalueer verschillende oplossingen (bijvoorbeeld twee verschillende interfaces) met gebruikers in plaats van slechts één voorstel.
     - **Denk inclusief** - Zorg dat je ontwerp toegankelijk is voor gebruikers met verschillende achtergronden en beperkingen (zie de richtlijn [Zorg voor toegankelijkheid en inclusie](../toegankelijkheid/index.md)). Gebruikers mogen niet vergeten of uitgesloten worden in het ontwerpproces.
-     - **Neem gebruikersbehoefte mee in het inkoopproces** - Zie de richtlijn [Definieer je inkoopstrategie](../inkoop/index.md).
+    - **Hou rekening met privacy** - Bij het verzamelen van gebruikersgegevens moet je voldoen aan de AVG. Vraag alleen wat nodig is, informeer gebruikers over het doel, en beveilig de data goed. Zie de hierboven het Toestemmingsformulier en de NeRDS richtlijn [Maak privacy integraal](../privacy/index.md).
+    - **Test alternatieven** - Evalueer verschillende oplossingen (bijvoorbeeld twee verschillende interfaces) met gebruikers in plaats van slechts één voorstel.
+    - **Blijf flexibel** - Pas je onderzoeksmethode aan naarmate je meer leert.
+    - **Neem gebruikersbehoefte mee in het inkoopproces** - Zie de richtlijn [Definieer je inkoopstrategie](../inkoop/index.md).
 
 ### 3. Testen, meten en verbeteren
 
@@ -66,12 +65,11 @@ Meet doorlopend hoe gebruikers je digitale systeem ervaren. Verzamel feedback, l
     - **Blijf itereren** - Digitale systemen staan nooit op zichzelf en vereisen continue verbetering.
     - **Maak het structureel** - Borg gebruikersonderzoek in je proces vanaf het begin, niet als laatste stap. Maak het onderdeel van je definition of done.
     - **Deel resultaten** - Publiceer inzichten op [gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl){:target="_blank"} zodat andere organisaties ervan kunnen leren.
-    - **Blijf flexibel** - Pas je onderzoeksmethode aan naarmate je meer leert.
-    - **Valideer je oplossing** - Doe een expertreview op je digitale systeem via het [expert panel gebruiksvriendelijkheid van Gebruiker Centraal](https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/).
+    - **Valideer je oplossing** - Doe een expertreview op je digitale systeem via het [expert panel gebruiksvriendelijkheid van Gebruiker Centraal](https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/){:target="_blank"}.
 
 ## Implementatie per fase
 
-Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "1. Stel gebruikersbehoeften vast"](/NeRDS/richtlijnen/gebruikersbehoeften/fases.md).
+Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "1. Stel gebruikersbehoeften vast"](fases.md).
 
 ## Gerelateerde hulpmiddelen
 

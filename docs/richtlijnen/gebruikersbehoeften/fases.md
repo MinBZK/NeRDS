@@ -10,7 +10,7 @@ relations:
 
 ## Wanneer doe je wat?
 
-Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase van ontwerpen, ontwikkelen en inkopen welke vormen van gebruikersonderzoek je inzet en welke uitkomsten je mag verwachten.
+Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase van ontwerpen, ontwikkelen en inkopen hoe je gebruikersonderzoek inzet en welke uitkomsten je mag verwachten.
 
 ### 1. Verkenningsfase
 
@@ -18,7 +18,7 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
     Begrijp het gehele probleem en de gebruikers voordat je oplossingen bedenkt.
 
 <div class="direct-aan-de-slag">
-    <h3>Methoden en hulpmiddelen</h3>
+    <h3>Direct aan de slag</h3>
 
     <div class="action-cards" data-richtlijn="gebruikersbehoeften" data-fase="verkenning"></div>
 </div>
@@ -45,10 +45,8 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 !!! info "Doel"
     Test of je oplossingsrichting het probleem oplost.
 
-**Methoden:**
-
 <div class="direct-aan-de-slag">
-    <h3>Methode</h3>
+    <h3>Direct aan de slag</h3>
 
     <div class="action-cards" data-richtlijn="gebruikersbehoeften" data-fase="ontwerp"></div>
 </div>
@@ -65,8 +63,6 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 
 !!! info "Doel"
     Bouw en test je dienst in productie.
-
-**Methoden:**
 
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
@@ -87,8 +83,6 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 
 !!! info "Doel"
     Blijf verbeteren en aanpassen aan veranderende behoeften.
-
-**Methoden:**
 
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
