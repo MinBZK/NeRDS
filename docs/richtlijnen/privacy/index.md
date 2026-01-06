@@ -33,7 +33,7 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards"></div>
+    <div class="action-cards" data-richtlijn="privacy"></div>
     </div>
 </div>
 
