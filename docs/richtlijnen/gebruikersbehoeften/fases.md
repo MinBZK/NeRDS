@@ -6,7 +6,7 @@ relations:
 ---
 
 !!! warning "Work in progress"
-    Deze pagina is nog in ontwikkeling.
+    Deze pagina is in ontwikkeling.
 
 ## Wanneer doe je wat?
 
