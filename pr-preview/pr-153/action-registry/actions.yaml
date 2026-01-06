@@ -448,6 +448,16 @@ actions:
     action: Verkennen
     date_added: 08-12-2025
     status: ontwikkeling
+  - id: web-sustainability-guidelines
+    name: Web Sustainability Guidelines
+    source: https://www.w3.org/TR/web-sustainability-guidelines/
+    description: "Richtlijnen voor duurzame webontwikkeling"
+    richtlijn: duurzaamheid
+    type: tool
+    action: Bekijken
+    date_added: 06-01-2025
+    status: beschikbaar
+    fase: [ontwerp, bouw]
   - id: pre-scan-dpia-dpia-formulier
     name: Pre-scan DPIA & DPIA Formulier
     source: https://minbzk.github.io/par-dpia-form/
