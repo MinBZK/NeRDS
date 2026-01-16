@@ -58,6 +58,7 @@ actions:
     source: https://github.com/Azure/Bio-Compliancy
     description: "Cloud compliance voor overheidsorganisaties"
     richtlijn: cloud
+    fase: [ontwerp, bouw]
     type: tool
     action: Ontdekken
     date_added: 08-12-2025
@@ -67,15 +68,17 @@ actions:
     source: null
     description: "Beoordeel uw cloudgereedheid"
     richtlijn: cloud
+    fase: verkenning
     type: tool
     action: Verkennen
     date_added: 08-12-2025
-    status: ontwikkeling
+    status: concept
   - id: haven-cloud
     name: Haven
     source: https://haven.commonground.nl/
     description: "Platformonafhankelijke cloudhosting"
     richtlijn: cloud
+    fase: [ontwerp, bouw]
     type: tool
     action: Ontdekken
     date_added: 08-12-2025
@@ -85,16 +88,98 @@ actions:
     source: null
     description: "Beheerde K8s met compliance"
     richtlijn: cloud
+    fase: bouw
     type: form
     action: Aanmaken
     date_added: 08-12-2025
-    status: ontwikkeling
+    status: demo
     component: kubernetes-cluster-form
-  - id: rijkscloud
-    name: Rijkscloud
+  - id: standaard-voor-publieke-code
+    name: Standaard voor publieke code
+    source: https://www.standaardvoorpubliekecode.nl/
+    description: "Richtlijnen voor het ontwikkelen en beheren van software en beleid"
+    richtlijn: open-source
+    fase: [ontwerp, bouw]
+    type: tool
+    action: Bekijken
+    date_added: 04-01-2025
+    status: beschikbaar
+  - id: beslisboom-cloud
+    name: Beslisboom Cloud
+    source:
+    description: "Helpt bij het kiezen van de juiste cloudoplossing"
+    richtlijn: cloud
+    fase: verkenning
+    type: tool
+    action: Starten
+    date_added: 04-01-2025
+    status: concept
+  - id: handreiking-publieke-waarde-en-rechten-bij-ICT-aanbesteding
+    name: Handreiking publieke waarde bij ICT-aanbesteding
+    source: https://www.pianoo.nl/nl/themas/ict-aanbesteden/handreiking-publieke-waarde-en-rechten-bij-ict-aanbesteding
+    description: "Stappenplan voor het maken van bewuste keuzes rondom publieke waarde en rechten"
+    richtlijn: open-source
+    fase: ontwerp
+    type: tool
+    action: Bekijken
+    date_added: 04-01-2025
+    status: beschikbaar
+  - id: ambitieladder-opensource
+    name: Ambitieladder opensourcewerken
+    source: https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/
+    description: "Helpt projectteams concrete afspraken te maken over opensourcewerken"
+    richtlijn: open-source
+    fase: [verkenning, ontwerp]
+    type: tool
+    action: Bekijken
+    date_added: 18-12-2025
+    status: beschikbaar
+  - id: open-stad
+    name: Open Stad
+    source: https://openstad.org/
+    description: "Open source platform voor participatie en samenwerking"
+    richtlijn: open-source
+    fase: verkenning
+    type: tool
+    action: Bekijken
+    date_added: 03-01-2025
+    status: beschikbaar
+  - id: stappenplan-gebruikersonderzoek
+    name: Stappenplan gebruikersonderzoek
+    source: https://gebruikersonderzoeken.nl/docs/onderzoek-doen/
+    description: "Een praktisch stappenplan voor het uitvoeren van gebruikersonderzoek"
+    richtlijn: gebruikersbehoeften
+    fase: [verkenning]
+    type: tool
+    action: Bekijken
+    date_added: 20-12-2025
+    status: beschikbaar
+  - id: toestemmingsformulier-gebruikersonderzoek
+    name: Toestemmingsformulier gebruikersonderzoek
+    source: https://gebruikersonderzoeken.nl/docs/onderzoek-doen/toestemmingsformulier/
+    description: "Een voorbeeld toestemmingsformulier voor gebruikersonderzoek"
+    richtlijn: gebruikersbehoeften
+    fase: verkenning
+    type: tool
+    action: Bekijken
+    date_added: 20-12-2025
+    status: beschikbaar
+  - id: expertreview-gebruikersbehoefte
+    name: Expertreview Gebruikersbehoefte
+    source: https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/aanvragen-expertreview/
+    description: "Een expertreview gebruiksvriendelijkheid laten uitvoeren"
+    richtlijn: gebruikersbehoeften
+    fase: [bouw]
+    type: tool
+    action: Uitvoeren
+    date_added: 19-12-2025
+    status: beschikbaar
+  - id: overheidscloud
+    name: Overheidscloud
     source: null
     description: "Soevereine cloud voor overheidsorganisaties"
     richtlijn: cloud
+    fase: [verkenning, ontwerp]
     type: tool
     action: Aanvragen
     date_added: 08-12-2025
@@ -156,8 +241,9 @@ actions:
   - id: cx-volwassenheidsscan
     name: CX-Volwassenheidsscan
     source: https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/07/Handboek-voor-het-uitvoeren-van-een-CV-Volwassenheidsscan.pdf
-    description: "Handboek Voor het transformeren naar klantgedreven werken"
+    description: "Handboek voor het transformeren naar klantgedreven werken"
     richtlijn: gebruikersbehoeften
+    fase: verkenning
     type: tool
     action: Gebruiken
     date_added: 08-12-2025
@@ -167,6 +253,17 @@ actions:
     source: https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken
     description: "Leer van andere onderzoeken en deel je bevindingen"
     richtlijn: gebruikersbehoeften
+    fase: [verkenning, productie]
+    type: tool
+    action: Bekijken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: gebruikersonderzoeken-nl
+    name: Gebruikersonderzoeken.nl
+    source: https://gebruikersonderzoeken.nl/docs/thema/toegankelijkheid/
+    description: "Leer van andere toegankelijkheidsonderzoeken en deel je bevindingen"
+    richtlijn: toegankelijkheid
+    fase: [verkenning, productie]
     type: tool
     action: Bekijken
     date_added: 08-12-2025
@@ -176,6 +273,7 @@ actions:
     source: https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/04/Meethuis-Handboek-2025-v2.pdf
     description: "Voor het maken van een meethuis voor dienstverlening"
     richtlijn: gebruikersbehoeften
+    fase: [verkenning]
     type: tool
     action: Gebruiken
     date_added: 08-12-2025
@@ -184,10 +282,21 @@ actions:
     name: Toolkit Taal
     source: https://toolkittaal.gebruikercentraal.nl/richtlijnen/
     description: "Richtlijnen voor tekst en beeldtaal in overheidscommunicatie"
-    richtlijn: gebruikersbehoeften
+    richtlijn: [gebruikersbehoeften, toegankelijkheid]
+    fase: [ontwerp, bouw]
     type: tool
     action: Gebruiken
     date_added: 08-12-2025
+    status: beschikbaar
+  - id: optimaal-digitaal-tipkaarten
+    name: Optimaal Digitaal Tipkaarten
+    source: https://optimaaldigitaal.gebruikercentraal.nl/tipkaarten/overzicht-van-alle-tips/
+    description: "Praktische tips voor digitale dienstverlening"
+    richtlijn: gebruikersbehoeften
+    fase: [ontwerp, bouw]
+    type: tool
+    action: Bekijken
+    date_added: 19-12-2025
     status: beschikbaar
   - id: algoritmekader-inkoop
     name: Algoritmekader
@@ -257,6 +366,7 @@ actions:
     source: null
     description: "Publiceer uw code en vind overheidsprojecten"
     richtlijn: open-source
+    fase: productie
     type: tool
     action: Publiceren
     date_added: 08-12-2025
@@ -266,6 +376,7 @@ actions:
     source: https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/
     description: "Copyleft: CC BY-SA, GPLv3, AGPLv3 of EUPL-1.2. Permissive: Apache 2.0, MIT, BSD-0-clause"
     richtlijn: open-source
+    fase: ontwerp
     type: tool
     action: Bekijken
     date_added: 08-12-2025
@@ -275,6 +386,7 @@ actions:
     source: https://ospo-nl.github.io/kennisbank/
     description: "Tools voor Open Source Program Office"
     richtlijn: open-source
+    fase: [verkenning, ontwerp]
     type: tool
     action: Verkennen
     date_added: 08-12-2025
@@ -284,6 +396,7 @@ actions:
     source: https://developer.overheid.nl/communities/open-source-werken
     description: "Community of practice omtrent open source werken"
     richtlijn: open-source
+    fase: [verkenning, productie]
     type: tool
     action: Verkennen
     date_added: 08-12-2025
@@ -342,11 +455,22 @@ actions:
     action: Verkennen
     date_added: 08-12-2025
     status: ontwikkeling
+  - id: web-sustainability-guidelines
+    name: Web Sustainability Guidelines
+    source: https://www.w3.org/TR/web-sustainability-guidelines/
+    description: "Richtlijnen voor duurzame webontwikkeling"
+    richtlijn: duurzaamheid
+    type: tool
+    action: Bekijken
+    date_added: 06-01-2025
+    status: beschikbaar
+    fase: [ontwerp, bouw]
   - id: pre-scan-dpia-dpia-formulier
     name: Pre-scan DPIA & DPIA Formulier
     source: https://minbzk.github.io/par-dpia-form/
     description: "Online formulier voor gegevensbeschermingseffectbeoordeling"
-    richtlijn: privacy
+    richtlijn: [privacy, cloud]
+    fase: verkenning
     type: tool
     action: Starten
     date_added: 08-12-2025
@@ -378,6 +502,36 @@ actions:
     action: Verkennen
     date_added: 08-12-2025
     status: concept
+  - id: https://pdfchecker.nl
+    name: PDF Checker
+    source: https://pdfchecker.nl/
+    description: "Controleer de toegankelijkheid van PDF-documenten"
+    richtlijn: toegankelijkheid
+    fase: [bouw]
+    type: tool
+    action: Scannen
+    date_added: 19-12-2025
+    status: beschikbaar
+  - id: is-het-b1
+    name: Is het B1?
+    source: https://ishetb1.nl/
+    description: "Controleer of je tekst op B1-niveau is geschreven"
+    richtlijn: toegankelijkheid
+    fase: [ontwerp, bouw]
+    type: tool
+    action: Scannen
+    date_added: 19-12-2025
+    status: beschikbaar
+  - id: nldoc
+    name: NLDoc
+    source: https://nldoc.nl/
+    description: "API's om documenten om te zetten naar toegankelijke, WCAG 2.x-compliant HTML"
+    richtlijn: toegankelijkheid
+    fase: bouw
+    type: tool
+    action: Gebruiken
+    date_added: 19-12-2025
+    status: beschikbaar
   - id: nl-design-system
     name: NL Design System
     source: https://www.nldesignsystem.nl
@@ -392,6 +546,7 @@ actions:
     source: https://www.nldesignsystem.nl
     description: "Samen bouwen aan gebruiksvriendelijke overheidswebsites"
     richtlijn: gebruikersbehoeften
+    fase: [ontwerp, bouw]
     type: tool
     action: Ontdekken
     date_added: 08-12-2025
@@ -401,24 +556,17 @@ actions:
     source: https://dashboard.digitoegankelijk.nl/
     description: "Check toegankelijkheid overheidswebsites"
     richtlijn: toegankelijkheid
+    fase: [verkenning]
     type: tool
     action: Bekijken
     date_added: 08-12-2025
     status: beschikbaar
-  - id: deque-axe
-    name: Deque Axe
-    source: https://www.deque.com/axe/
-    description: "Toegankelijkheidstester voor webapplicaties"
+  - id: stappenplan-inclusief-ontwerpen
+    name: Stappenplan Inclusief Ontwerpen
+    source: https://toolkitinclusie.gebruikercentraal.nl/inclusief-ontwerpen/stappenplan/
+    description: "Stappenplan voor inclusief ontwerp van Gebruiker Centraal"
     richtlijn: toegankelijkheid
-    type: tool
-    action: Gebruiken
-    date_added: 08-12-2025
-    status: beschikbaar
-  - id: inclusief-ontwerpen
-    name: Inclusief Ontwerpen
-    source: https://toolkitinclusie.gebruikercentraal.nl/
-    description: "Toolkit voor inclusief ontwerp"
-    richtlijn: toegankelijkheid
+    fase: [verkenning, ontwerp]
     type: tool
     action: Bekijken
     date_added: 08-12-2025
@@ -428,15 +576,17 @@ actions:
     source: https://nldesignsystem.nl
     description: "Toegankelijke componenten"
     richtlijn: toegankelijkheid
+    fase: [ontwerp, bouw]
     type: tool
     action: Gebruiken
     date_added: 08-12-2025
     status: beschikbaar
   - id: nl-design-system-wcag
-    name: NL Design System
+    name: WCAG 2.1 Uitleg
     source: https://nldesignsystem.nl/wcag/
-    description: "Praktische uitleg en voorbeelden WCAG 2.1"
+    description: "Praktische uitleg en voorbeelden WCAG 2.1 (NLDS)"
     richtlijn: toegankelijkheid
+    fase: [verkenning, ontwerp]
     type: tool
     action: Bekijken
     date_added: 08-12-2025
@@ -446,6 +596,7 @@ actions:
     source: https://www.w3.org/WAI/test-evaluate/tools/list/
     description: "Test uw webpagina's op toegankelijkheid"
     richtlijn: toegankelijkheid
+    fase: [bouw]
     type: tool
     action: Scannen
     date_added: 08-12-2025
@@ -453,8 +604,9 @@ actions:
   - id: toegankelijkheidsverklaring
     name: Toegankelijkheidsverklaring
     source: https://www.toegankelijkheidsverklaring.nl/
-    description: "Maak en beheer toegankelijkheidsverklaringen"
+    description: "Invulassistent voor toegankelijkheidsverklaringen"
     richtlijn: toegankelijkheid
+    fase: productie
     type: tool
     action: Invullen
     date_added: 08-12-2025
@@ -464,6 +616,7 @@ actions:
     source: https://gitlab.com/digilab.overheid.nl/ecosystem/wcag-em-reporter
     description: "Tool voor het maken van toegankelijkheidsrapporten"
     richtlijn: toegankelijkheid
+    fase: [bouw, productie]
     type: tool
     action: Gebruiken
     date_added: 08-12-2025

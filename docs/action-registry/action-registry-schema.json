@@ -29,23 +29,49 @@
               "description": "Short description of what the action provides"
             },
             "richtlijn": {
-              "type": "string",
-              "description": "Guideline category this action belongs to",
-              "enum": [
-                "gebruikersbehoeften",
-                "toegankelijkheid",
-                "open-source",
-                "open-standaarden",
-                "cloud",
-                "veiligheid",
-                "privacy",
-                "samenwerking",
-                "integratie",
-                "data",
-                "algoritmen",
-                "inkoop",
-                "duurzaamheid"
-              ]
+              "oneOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "gebruikersbehoeften",
+                    "toegankelijkheid",
+                    "open-source",
+                    "open-standaarden",
+                    "cloud",
+                    "veiligheid",
+                    "privacy",
+                    "samenwerking",
+                    "integratie",
+                    "data",
+                    "algoritmen",
+                    "inkoop",
+                    "duurzaamheid"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "gebruikersbehoeften",
+                      "toegankelijkheid",
+                      "open-source",
+                      "open-standaarden",
+                      "cloud",
+                      "veiligheid",
+                      "privacy",
+                      "samenwerking",
+                      "integratie",
+                      "data",
+                      "algoritmen",
+                      "inkoop",
+                      "duurzaamheid"
+                    ]
+                  },
+                  "minItems": 1
+                }
+              ],
+              "description": "Guideline category this action belongs to (can be string or array)"
             },
             "type": {
               "type": "string",
@@ -72,8 +98,27 @@
                 "Toepassen",
                 "Berekenen",
                 "Zoeken",
-                "Publiceren"
+                "Publiceren",
+                "Invullen",
+                "Uitvoeren"
               ]
+            },
+            "fase": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "enum": ["verkenning", "ontwerp", "bouw", "productie", "live"]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": ["verkenning", "ontwerp", "bouw", "productie", "live"]
+                  },
+                  "minItems": 1
+                }
+              ],
+              "description": "Optional fase(s) this action applies to (recommended for gebruikersbehoeften, toegankelijkheid, open-source, cloud)"
             },
             "date_added": {
               "type": "string",
@@ -83,7 +128,7 @@
             "status": {
               "type": "string",
               "description": "Current status/availability of the action",
-              "enum": ["beschikbaar", "concept", "ontwikkeling"]
+              "enum": ["beschikbaar", "concept", "ontwikkeling", "demo"]
             },
             "component": {
               "type": "string",

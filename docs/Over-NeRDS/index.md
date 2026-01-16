@@ -20,7 +20,7 @@ De informatie is bedoeld voor medewerkers, ambtenaren, van de rijksoverheid, pro
 ## Informatie van de overheid
 
 De Nederlandse Richtlijn Digitale Systemen is een website van het Ministerie van Binnenlandse Zaken en
-Koninkrijksrelaties. Het Bureau Architectuur Nederlandse Overheid (BANO) stelt de informatie samen.
+Koninkrijksrelaties. Het Bureau Architectuur Digitale Overheid (BADO) stelt de informatie samen.
 
 ## Kernrichtlijnen
 
@@ -56,6 +56,36 @@ Gebruik deze richtlijn als:
 - Referentie voor het beoordelen van bestaande systemen
 - Inspiratiebron voor het verantwoord inzetten van nieuwe technologieën
 - Toolkit met handvatten, sjablonen en softwaretools voor directe toepassing
+
+## Onze werkwijze: 'Opinionated' en 'Disagree-and-Commit'
+
+De Nederlandse Richtlijn Digitale Systemen hanteert een **opinionated view**: we maken duidelijke keuzes en geven concrete aanbevelingen op basis van best practices, ervaringen en wat bewezen effectief is binnen de overheid. Dit betekent dat we niet neutraal alle mogelijke opties presenteren, maar een standpunt innemen over wat we de beste aanpak vinden.
+
+Om effectief samen te werken met diverse stakeholders hanteren we een **disagree-and-commit** werkwijze:
+
+- **Open discussie**: Iedereen mag zijn mening geven en argumenten aanvoeren. We waarderen verschillende perspectieven en bespreken deze grondig.
+- **Duidelijke besluitvorming**: Na de discussie nemen we een besluit, ook als niet iedereen het volledig eens is.
+- **Commitment**: Zodra een besluit is genomen, committeren alle betrokkenen zich aan de uitvoering, ongeacht hun initiële standpunt.
+
+Deze aanpak zorgt ervoor dat we:
+
+- Sneller tot concrete richtlijnen komen
+- Niet vastlopen in eindeloze discussies
+- Toch alle relevante perspectieven meenemen
+- Effectief kunnen itereren en verbeteren op basis van praktijkervaringen
+
+Niet eens met een richtlijn? Dat mag! Geef feedback via onze [contributierichtlijnen](CONTRIBUTING.md) en help ons de richtlijn te verbeteren.
+
+## Fases van digitale ontwikkeling
+
+De Nederlandse Richtlijn Digitale Systemen structureert de ontwikkeling van digitale systemen in vier fases. Deze fasering helpt je om gefaseerd te werken aan verantwoorde digitale diensten en biedt per fase concrete handvatten en hulpmiddelen:
+
+1. **Verkenningsfase**: Onderzoek en begrijp het probleem en de gebruikersbehoeften voordat je oplossingen bedenkt.
+2. **Ontwerpfase (Alpha)**: Ontwerp en test verschillende oplossingsrichtingen met gebruikers.
+3. **Bouwfase (Beta)**: Bouw een werkende versie van de dienst en test deze met echte gebruikers.
+4. **Productie**: Breng de dienst in productie en blijf monitoren, testen en verbeteren.
+
+Deze fases zijn gebaseerd op de best practices uit agile ontwikkelmethoden en de GDS (Government Digital Service) service standard. Per richtlijn vind je bij "Wanneer doe je wat?" specifieke aanbevelingen en hulpmiddelen die relevant zijn voor elke fase.
 
 ## Versie 0.1
 
