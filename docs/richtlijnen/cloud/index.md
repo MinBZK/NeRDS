@@ -324,6 +324,7 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "5. Hanteer ee
 - [NORA (Nederlandse Overheids Referentie Architectuur)](https://www.noraonline.nl/wiki/Cloud_computing) - Architectuurprincipes overheid
 - [Onderzoek cloudgebruik en ondersteuning gemeenten](https://gce.scgemeenten.nl/project/onderzoek-cloudgebruik-en-ondersteuning-gemeenten/) - Onderzoek naar cloudgebruik door Nederlandse gemeenten
 - [Rijk ging zonder afwegingen de cloud in](https://www.rekenkamer.nl/actueel/nieuws/2025/01/15/rijk-ging-zonder-afwegingen-de-cloud-in) - Rekenkamer rapport over cloudgebruik door de Rijksoverheid
+- [PCI DSS](https://www.pcisecuritystandards.org/) - Payment Card Industry Data Security Standard
 
 #### Beleid, wetten en standaarden
 
@@ -336,7 +337,6 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "5. Hanteer ee
 - [DPIA (Data Protection Impact Assessment)](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia) - Verplichte privacytoets
 - [DTIA (Data Transfer Impact Assessment)](https://www.autoriteitpersoonsgegevens.nl/themas/europees-internationaal/internationaal/doorgifte-van-persoonsgegevens-buiten-de-eu) - Toets voor dataoverdracht buiten EER
 - [ISO 27001](https://www.nen.nl/iso-iec-27001-2022-en-292766) - Internationale standaard voor informatiebeveiliging
-- [PCI DSS](https://www.pcisecuritystandards.org/) - Payment Card Industry Data Security Standard
 - [Wbni (Wet beveiliging netwerk- en informatiesystemen)](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/wbni/) - Cybersecuritywetgeving
 
 #### Communities

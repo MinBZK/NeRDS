@@ -27,6 +27,7 @@ repos:
       - id: validate-actions
         name: Validate actions.yaml registry
         entry: python scripts/validate_actions.py
-        language: system
+        language: python
         files: ^docs/action-registry/actions\.yaml$
         pass_filenames: false
+        additional_dependencies: [pyyaml, jsonschema]
