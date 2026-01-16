@@ -27,6 +27,7 @@ theme:
     - search.suggest
     - content.tooltips
     - content.tabs.link
+    - content.action.dismiss
   icon:
     logo: fontawesome/solid/house
     annotation: fontawesome/solid/circle-info

@@ -5,7 +5,7 @@ relations:
   - open-source
 ---
 
-!!! warning "Work in progress"
+!!! warning "In ontwikkeling"
     Deze pagina is in ontwikkeling.
 
 ## Wanneer doe je wat?
@@ -49,11 +49,11 @@ Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande
 
 **Gewenste uitkomsten:**
 
-- [ ] Je hebt bepaald of je project onder het [open-tenzij beleid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/open-source/beleid/) valt (uitgangspunt: ja, tenzij het gaat om onaangekondigde beleidsmaatregelen, beveiligingsfuncties zoals fraudepreventie, of staatsgeheimen - en je hebt dit goed gemotiveerd)
+- [ ] Je hebt bepaald of je project onder het [open-tenzij beleid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/open-source/beleid/) valt (uitgangspunt: ja, tenzij het gaat om onaangekondigde beleidsmaatregelen, beveiligingsfuncties zoals fraudepreventie, of staatsgeheimen, en je hebt dit goed gemotiveerd)
 - [ ] Je hebt een publieke repository aangemaakt
 - [ ] Je hebt een open source licentie gekozen (bij voorkeur EUPL-1.2)
 - [ ] Je hebt een secrets management systeem ingericht (nooit wachtwoorden/API-keys in code)
-- [ ] Je architectuur ondersteunt open standaarden
+- [ ] Je hebt een keuze gemaakt hoe te documenteren en dit gekoppeld aan je publieke repository
 - [ ] Afspraken over opensourcewerken zijn gemaakt binnen het team (gebruik de Ambitieladder)
 
 **Aanvullend (indien passend):**
@@ -61,6 +61,7 @@ Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande
 - Stel een governance-model op voor bijdragen en onderhoud
 - Maak een CONTRIBUTING.md en Code of Conduct
 - Identificeer uitzonderingen: code die gesloten moet blijven
+- Stel vast hoe beslissingen worden gemaakt en vastgelegd (bijvoorbeeld [Architectural Decision Records (ADR)](https://github.com/adr/madr/blob/develop/template/adr-template-minimal.md))
 
 ---
 
@@ -85,7 +86,7 @@ Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande
 
 - Voeg documentatie toe over architectuur en ontwerpbeslissingen
 - Richt dependency management in met automatische security updates
-- Gebruik Semantic Versioning voor releases
+- Gebruik [Semantic Versioning](https://semver.org/) voor releases
 
 ---
 
@@ -101,7 +102,7 @@ Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande
 
 **Gewenste uitkomsten:**
 
-- [ ] Je code is gepubliceerd op een publiek platform
+- [ ] Je code is gepubliceerd op een publiek platform (code.overheid.nl zodra beschikbaar)
 - [ ] Je hebt een onderhoudsniveau gecommuniceerd
 - [ ] Je implementeert security fixes snel (doelstelling: binnen 24-48 uur voor kritieke kwetsbaarheden)
 - [ ] Je monitort security advisories voor je dependencies
@@ -110,7 +111,6 @@ Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande
 
 **Aanvullend (indien passend):**
 
-- Registreer je project op code.overheid.nl (zodra beschikbaar)
 - Onderhoud een publieke issue list voor transparantie
 - Draag bij aan upstream projecten
 - Organiseer of participeer in community meetings

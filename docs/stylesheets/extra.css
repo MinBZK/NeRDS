@@ -829,6 +829,11 @@ background-color: #B2D7EE;
   color: white;
 }
 
+.wip-badge-demo {
+  background-color: #9c27b0;
+  color: white;
+}
+
 .wip-badge-beschikbaar {
   background-color: #4caf50;
   color: white;
@@ -916,4 +921,13 @@ background-color: #B2D7EE;
 /* Hide direct-aan-de-slag blocks when they contain no actions */
 .direct-aan-de-slag:has(.action-cards.no-actions) {
   display: none;
+}
+
+/* Make "Wanneer doe je wat?" headers less prominent */
+h2:has-text("Wanneer doe je wat?"),
+h2[id*="wanneer-doe-je-wat"] {
+  color: #6b7280 !important; /* Lighter gray instead of dark blue */
+  padding-left: 1.5rem; /* Indent from left */
+  font-size: 0.9em; /* Slightly smaller */
+  font-weight: 400; /* Less bold */
 }

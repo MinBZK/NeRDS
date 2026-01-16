@@ -58,6 +58,7 @@ actions:
     source: https://github.com/Azure/Bio-Compliancy
     description: "Cloud compliance voor overheidsorganisaties"
     richtlijn: cloud
+    fase: [ontwerp, bouw]
     type: tool
     action: Ontdekken
     date_added: 08-12-2025
@@ -67,15 +68,17 @@ actions:
     source: null
     description: "Beoordeel uw cloudgereedheid"
     richtlijn: cloud
+    fase: verkenning
     type: tool
     action: Verkennen
     date_added: 08-12-2025
-    status: ontwikkeling
+    status: concept
   - id: haven-cloud
     name: Haven
     source: https://haven.commonground.nl/
     description: "Platformonafhankelijke cloudhosting"
     richtlijn: cloud
+    fase: [ontwerp, bouw]
     type: tool
     action: Ontdekken
     date_added: 08-12-2025
@@ -85,10 +88,11 @@ actions:
     source: null
     description: "Beheerde K8s met compliance"
     richtlijn: cloud
+    fase: bouw
     type: form
     action: Aanmaken
     date_added: 08-12-2025
-    status: ontwikkeling
+    status: demo
     component: kubernetes-cluster-form
   - id: standaard-voor-publieke-code
     name: Standaard voor publieke code
@@ -99,11 +103,13 @@ actions:
     type: tool
     action: Bekijken
     date_added: 04-01-2025
+    status: beschikbaar
   - id: beslisboom-cloud
     name: Beslisboom Cloud
     source:
     description: "Helpt bij het kiezen van de juiste cloudoplossing"
     richtlijn: cloud
+    fase: verkenning
     type: tool
     action: Starten
     date_added: 04-01-2025
@@ -173,6 +179,7 @@ actions:
     source: null
     description: "Soevereine cloud voor overheidsorganisaties"
     richtlijn: cloud
+    fase: [verkenning, ontwerp]
     type: tool
     action: Aanvragen
     date_added: 08-12-2025

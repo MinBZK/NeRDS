@@ -24,3 +24,9 @@ repos:
         language: system
         files: ^docs/richtlijnen/.*/index\.md$
         pass_filenames: false
+      - id: validate-actions
+        name: Validate actions.yaml registry
+        entry: python scripts/validate_actions.py
+        language: system
+        files: ^docs/action-registry/actions\.yaml$
+        pass_filenames: false

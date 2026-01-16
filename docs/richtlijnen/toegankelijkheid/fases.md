@@ -5,7 +5,7 @@ relations:
   - toegankelijkheid
 ---
 
-!!! warning "Work in progress"
+!!! warning "In ontwikkeling"
     Deze pagina is in ontwikkeling.
 
 ## Wanneer doe je wat?

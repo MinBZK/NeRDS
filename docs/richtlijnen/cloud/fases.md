@@ -7,7 +7,7 @@ relations:
   - privacy
 ---
 
-!!! warning "Work in progress"
+!!! warning "In ontwikkeling"
     Deze pagina is nog in ontwikkeling.
 
 ## Wanneer doe je wat?
@@ -26,12 +26,12 @@ Het hanteren van een cloud-gedreven strategie vraagt om gefaseerd handelen: van 
 
 **Gewenste uitkomsten:**
 
-- [ ] Behoeftestelling: wat wil je functioneel bereiken?
-- [ ] Rol bepaald: ben je maker of inkoper?
-- [ ] Verplichte risicoanalyse uitgevoerd (DPIA/DTIA volgens Implementatiekader)
-- [ ] Dataclassificatie: welke data mag in de cloud?
-- [ ] Cloud geschiktheid onderzocht
-- [ ] Verschillende cloudmodellen geëvalueerd (soeverein, publiek, privé, hybride)
+- [ ] Je hebt een heldere behoeftestelling die beschrijft wat je functioneel wilt bereiken
+- [ ] Je rol (maker of inkoper) is bepaald en bepalend voor je sourcing-strategie
+- [ ] Je hebt een DPIA/DTIA uitgevoerd volgens het Implementatiekader risicoafweging
+- [ ] Je hebt je data geclassificeerd en weet welke gegevens in welk type cloud mogen
+- [ ] Je hebt bepaald of cloud geschikt is voor je project en begrijpt de afwegingen
+- [ ] Je hebt verschillende cloudmodellen geëvalueerd (soeverein, publiek, privé, hybride) en begrijpt hun voor- en nadelen
 
 **Aanvullend (indien passend):**
 
@@ -55,12 +55,12 @@ Het hanteren van een cloud-gedreven strategie vraagt om gefaseerd handelen: van 
 
 **Gewenste uitkomsten:**
 
-- [ ] Cloudarchitectuur ontworpen (cloud-native, portabel)
-- [ ] Cloudprovider gekozen
-- [ ] Exit-strategie gedefinieerd (een cloud is geen cloud)
-- [ ] Beveiliging ontworpen volgens BIO/VIR
-- [ ] Secrets management strategie bepaald
-- [ ] Architectuur gebruikt open standaarden waar mogelijk
+- [ ] Je hebt een cloudarchitectuur ontworpen die cloud-native en portabel is
+- [ ] Je hebt een cloudprovider gekozen die past bij je eisen voor soevereiniteit en functionaliteit
+- [ ] Je hebt een exit-strategie gedefinieerd zodat je kunt migreren naar andere providers
+- [ ] Je hebt beveiliging ontworpen volgens BIO/VIR standaarden
+- [ ] Je hebt een secrets management strategie bepaald
+- [ ] Je architectuur gebruikt open standaarden waar mogelijk om vendor lock-in te beperken
 
 **Aanvullend (indien passend):**
 
@@ -85,11 +85,11 @@ Het hanteren van een cloud-gedreven strategie vraagt om gefaseerd handelen: van 
 
 **Gewenste uitkomsten:**
 
-- [ ] Beveiliging geïmplementeerd (IAM, encryption, netwerksegmentatie)
-- [ ] Secrets management ingericht, geen hard-coded credentials
-- [ ] Monitoring en logging actief
-- [ ] Cloudoplossing getest op prestaties en beveiliging
-- [ ] Compliance gevalideerd
+- [ ] Je hebt beveiliging geïmplementeerd (IAM, encryption, netwerksegmentatie)
+- [ ] Je hebt secrets management ingericht (zie de richtlijn [3. Werk transparant en gebruik open source](../open-source/index.md))
+- [ ] Je hebt monitoring en logging actief en kunt je cloudomgeving observeren
+- [ ] Je hebt je cloudoplossing getest op prestaties en beveiliging
+- [ ] Je hebt compliance gevalideerd en voldoet aan de verplichte regelgeving
 
 **Aanvullend (indien passend):**
 
@@ -114,10 +114,10 @@ Het hanteren van een cloud-gedreven strategie vraagt om gefaseerd handelen: van 
 
 **Gewenste uitkomsten:**
 
-- [ ] Security monitoring actief
-- [ ] Regelmatige compliance checks
-- [ ] Kosten gemonitord
-- [ ] Exit-strategie periodiek getest
+- [ ] Je hebt security monitoring actief en reageert proactief op bedreigingen
+- [ ] Je voert regelmatig compliance checks uit en blijft voldoen aan regelgeving
+- [ ] Je monitort je cloudkosten en hebt inzicht in kostendrivers
+- [ ] Je test periodiek je exit-strategie en weet dat migratie mogelijk is
 
 **Aanvullend (indien passend):**
 

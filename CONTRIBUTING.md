@@ -175,14 +175,7 @@ Gebruik kebab-case, houd de namen kort maar beschrijvend en vermijd speciale kar
 
 ## Versioning
 
-De NeRDS gebruikt automatische versioning voor releases:
-
-### Automatische patch versie bumps
-
-- **Wanneer**: Elke keer als een PR wordt gemerged naar `main`
-- **Hoe**: GitHub workflow triggert automatisch
-- **Format**: Volgt semantic versioning (major.minor.patch)
-- **Wat gebeurt er**: Patch versie wordt automatisch verhoogd
+De NeRDS gebruikt semantic versioning voor releases:
 
 ### Versioning schema
 
@@ -192,15 +185,22 @@ major.minor.patch
 
 - **Major** (x.0.0): Grote veranderingen of herstructureringen
 - **Minor** (0.x.0): Nieuwe functionaliteiten en inhoud toevoegingen
-- **Patch** (0.0.x): Bug fixes en kleine verbeteringen (automatisch)
+- **Patch** (0.0.x): Bug fixes en kleine verbeteringen
+
+### Handmatige versioning
+
+Versies worden handmatig beheerd door het NeRDS team:
+
+- **Wanneer**: Bij belangrijke releases of milestones
+- **Hoe**: Het team bepaalt op basis van de wijzigingen welk versienummer verhoogd wordt
+- **Format**: Volgt semantic versioning (major.minor.patch)
 
 ### Voor contributors
 
 Als contributor hoef je je geen zorgen te maken over versioning:
 
-- Patch versies worden automatisch verhoogd bij elke merge
-- Major en minor versies worden handmatig beheerd door het NeRDS team
+- Alle versies worden handmatig beheerd door het NeRDS team
 - Focus op duidelijke commit messages en PR beschrijvingen
-- Het team bepaalt of wijzigingen een minor of major versie vereisen
+- Het team bepaalt of wijzigingen een patch, minor of major versie vereisen
 
-> **Tip**: Door duidelijke commit messages te schrijven help je het team om te bepalen of een wijziging een minor versie bump verdient in plaats van alleen een patch.
+> **Tip**: Door duidelijke commit messages te schrijven help je het team om te bepalen welk versienummer verhoogd moet worden.

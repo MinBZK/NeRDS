@@ -9,6 +9,27 @@ import re
 from pathlib import Path
 
 
+def _validate_action_labels(actions):
+    """
+    Validate that actions have a 'fase' field and warn if missing.
+    Only checks for richtlijnen that commonly use fase-based filtering.
+
+    Args:
+        actions: List of action dictionaries
+    """
+    # Richtlijnen that commonly use fase-based filtering
+    fase_using_richtlijnen = ['gebruikersbehoeften', 'toegankelijkheid', 'open-source', 'cloud']
+
+    for action in actions:
+        action_id = action.get('id', 'unknown')
+        richtlijn = action.get('richtlijn')
+
+        # Only check actions from richtlijnen that use fase
+        if richtlijn in fase_using_richtlijnen:
+            if 'fase' not in action or not action.get('fase'):
+                print(f"⚠️  WARNING: Action '{action_id}' in richtlijn '{richtlijn}' is missing a 'fase' field")
+
+
 def on_page_content(html, page, config, files):
     """
     Process page content and inject dynamic action cards.
@@ -31,6 +52,9 @@ def on_page_content(html, page, config, files):
     except Exception as e:
         print(f"Error loading action registry: {e}")
         return html
+
+    # Validate and warn about missing labels
+    _validate_action_labels(registry_data.get('actions', []))
 
     if not registry_data or 'actions' not in registry_data:
         return html

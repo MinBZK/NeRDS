@@ -15,10 +15,11 @@ actions:
     source: https://example.com  # or null if not available
     description: Short description of the action
     richtlijn: cloud  # Which guideline this belongs to
+    fase: verkenning  # Optional: verkenning, ontwerp, bouw, productie, or live (can also be array)
     type: tool  # beleid, register, tool, handleiding, or form
     action: Starten  # Button text (e.g., "Starten", "Verkennen", "Aanmaken")
     date_added: 27-10-2025  # DD-MM-YYYY format
-    status: beschikbaar  # beschikbaar, concept, or ontwikkeling
+    status: beschikbaar  # beschikbaar, concept, ontwikkeling, or demo
     component: optional-component-id  # Only for form type actions
 ```
 
@@ -28,18 +29,24 @@ The `action_registry.py` hook automatically:
 
 - Detects which guideline page is being built (from the file path)
 - Filters actions matching that guideline's `richtlijn` field
+- Optionally filters by `fase` when specified (via `data-fase` attribute)
 - Generates action cards with proper styling and buttons
 - Injects HTML into the `<div class="action-cards"></div>` placeholder
+- Validates that actions have a `fase` field for specific richtlijnen (warns during build)
 
 ### 3. How to add actions to a page
 
 Simply add this placeholder to any guideline's `index.md`:
 
 ```html
-<div class="action-cards"></div>
+<!-- Show all actions for this richtlijn -->
+<div class="action-cards" data-richtlijn="cloud"></div>
+
+<!-- Show only actions for a specific fase -->
+<div class="action-cards" data-richtlijn="cloud" data-fase="verkenning"></div>
 ```
 
-That's it! The hook will automatically populate it with the right actions.
+The `data-richtlijn` attribute filters actions by guideline, and the optional `data-fase` attribute further filters by fase. The hook will automatically populate the div with matching actions.
 
 ## Adding new actions
 
@@ -60,8 +67,16 @@ That's it! The hook will automatically populate it with the right actions.
    - `inkoop`
    - `duurzaamheid`
 
-4. Set the correct `type` and `action` values
-5. Run `mkdocs build` to verify
+4. Add a `fase` field if the action belongs to `gebruikersbehoeften`, `toegankelijkheid`, `open-source`, or `cloud`:
+   - `verkenning` - For discovery and exploration phase
+   - `ontwerp` - For design and architecture phase (Alpha)
+   - `bouw` - For building and testing phase (Beta)
+   - `productie` - For production and maintenance phase
+   - `live` - For live/operational phase
+   - Can be a single value (`fase: verkenning`) or array (`fase: [verkenning, ontwerp]`)
+
+5. Set the correct `type` and `action` values
+6. Run `mkdocs build` to verify (warnings will appear if `fase` is missing for relevant richtlijnen)
 
 ## Validation
 

@@ -14,10 +14,10 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
 
 ## Waarom is het belangrijk?
 
-- **Kosteneffectiviteit en flexibiliteit**: betaal alleen voor wat je gebruikt en schaal eenvoudig op en af naar behoefte
-- **Snellere innovatie**: krijg toegang tot nieuwe technologieën en implementeer diensten sneller
-- **Minder beheerlasten**: leveranciers beheren de onderliggende infrastructuur, waardoor je je kunt richten op dienstverlening
-- **Betrouwbaarheid en duurzaamheid**: profiteer van hogere uptime en geoptimaliseerd energieverbruik door gedeelde infrastructuur
+- **Kosteneffectiviteit en flexibiliteit**: betaal alleen voor wat je gebruikt en schaal eenvoudig op en af naar behoefte.
+- **Snellere innovatie**: krijg toegang tot nieuwe technologieën en implementeer diensten sneller.
+- **Minder beheerlasten**: leveranciers beheren de onderliggende infrastructuur, waardoor je je kunt richten op dienstverlening.
+- **Betrouwbaarheid en duurzaamheid**: profiteer van hogere uptime en geoptimaliseerd energieverbruik door gedeelde infrastructuur.
 
 Door een cloud-gedreven strategie met aandacht voor soevereiniteit te hanteren, kun je innovatiever, flexibeler en kosteneffectiever werken terwijl je de controle behoudt over je data en profiteert van de nieuwste technologische ontwikkelingen.
 
@@ -322,6 +322,8 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "5. Hanteer ee
 - [Google SRE Book](https://sre.google/books/) - Site Reliability Engineering principes
 - [GitOps Principles](https://opengitops.dev/) - GitOps standaarden en best practices
 - [NORA (Nederlandse Overheids Referentie Architectuur)](https://www.noraonline.nl/wiki/Cloud_computing) - Architectuurprincipes overheid
+- [Onderzoek cloudgebruik en ondersteuning gemeenten](https://gce.scgemeenten.nl/project/onderzoek-cloudgebruik-en-ondersteuning-gemeenten/) - Onderzoek naar cloudgebruik door Nederlandse gemeenten
+- [Rijk ging zonder afwegingen de cloud in](https://www.rekenkamer.nl/actueel/nieuws/2025/01/15/rijk-ging-zonder-afwegingen-de-cloud-in) - Rekenkamer rapport over cloudgebruik door de Rijksoverheid
 
 #### Beleid, wetten en standaarden
 
@@ -345,6 +347,8 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "5. Hanteer ee
 #### Trainingen
 
 - [Linux Foundation Training](https://training.linuxfoundation.org/resources/) - Gratis en betaalde cloud-gerelateerde cursussen (Kubernetes, cloud-native, etc.)
+- [Linux Foundation Cloud & Containers Trainingen](https://training.linuxfoundation.org/full-catalog/?_sft_product_type=training&_sft_topic_area=cloud-containers) - Volledige catalogus van cloud en container trainingen (cursussen gratis, certificeringen betaald)
+- [Linux Foundation Cloud & Containers Certificeringen](https://training.linuxfoundation.org/full-catalog/?_sft_product_type=certification&_sft_topic_area=cloud-containers) - Cloud en container certificeringen (betaald)
 - [Rijkscompetentiecentrum](https://www.rijksoverheid.nl/onderwerpen/rijksoverheid-als-werkgever/rijksacademie) - Trainingen voor rijksambtenaren
 - Cloud provider certificeringen - AWS Certified Solutions Architect, Azure Administrator, Google Cloud Engineer
 

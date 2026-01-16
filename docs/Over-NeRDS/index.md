@@ -57,7 +57,7 @@ Gebruik deze richtlijn als:
 - Inspiratiebron voor het verantwoord inzetten van nieuwe technologieën
 - Toolkit met handvatten, sjablonen en softwaretools voor directe toepassing
 
-## Onze werkwijze: Opinionated en Disagree-and-Commit
+## Onze werkwijze: 'Opinionated' en 'Disagree-and-Commit'
 
 De Nederlandse Richtlijn Digitale Systemen hanteert een **opinionated view**: we maken duidelijke keuzes en geven concrete aanbevelingen op basis van best practices, ervaringen en wat bewezen effectief is binnen de overheid. Dit betekent dat we niet neutraal alle mogelijke opties presenteren, maar een standpunt innemen over wat we de beste aanpak vinden.
 
