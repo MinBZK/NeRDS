@@ -220,12 +220,42 @@ h1{
 /* Breadcrumb styling consistency */
 .md-breadcrumbs {
   background-color: transparent;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+.md-breadcrumb__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.md-breadcrumb__item {
+  display: flex;
+  align-items: center;
+}
+
+.md-breadcrumb__item:not(:last-child)::after {
+  content: "›";
+  margin: 0 0.5rem;
+  color: #666;
+  font-size: 1.2em;
 }
 
 .md-breadcrumb__link {
   color: #154273;
+  text-decoration: none;
+  font-size: 0.85rem;
 }
 
 .md-breadcrumb__link:hover {
   color: #007bc7;
+  text-decoration: underline;
+}
+
+.md-breadcrumb__link--active {
+  color: #666;
+  font-weight: 500;
 }
