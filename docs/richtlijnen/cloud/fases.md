@@ -28,7 +28,7 @@ Het hanteren van een cloud-gedreven strategie vraagt om gefaseerd handelen: van 
 
 - [ ] Je hebt een heldere behoeftestelling die beschrijft wat je functioneel wilt bereiken
 - [ ] Je rol (maker of inkoper) is bepaald en bepalend voor je sourcing-strategie
-- [ ] Je hebt een DPIA/DTIA uitgevoerd volgens het Implementatiekader risicoafweging
+- [ ] Je hebt een DPIA/DTIA uitgevoerd volgens het [Implementatiekader risicoafweging](https://www.digitaleoverheid.nl/regels-voor-verantwoord-cloudgebruik-rijksoverheid/)
 - [ ] Je hebt je data geclassificeerd en weet welke gegevens in welk type cloud mogen
 - [ ] Je hebt bepaald of cloud geschikt is voor je project en begrijpt de afwegingen
 - [ ] Je hebt verschillende cloudmodellen geëvalueerd (soeverein, publiek, privé, hybride) en begrijpt hun voor- en nadelen
