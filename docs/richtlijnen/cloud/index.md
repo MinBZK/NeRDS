@@ -249,8 +249,8 @@ Begin met een heldere behoeftestelling: wat probeer je functioneel te bereiken? 
     - **Overweeg alternatieven** - On-premise of hybride oplossingen kunnen beter passen bij specifieke beveiligings-/compliance-eisen, juridische vereisten voor lokale opslag, specifieke hardwarevereisten of bestaande investeringen die nog niet zijn afgeschreven.
     - **Evalueer verschillende cloudmodellen** - Soevereine cloud (Europese controle over data en infrastructuur), publieke cloud (AWS, Azure, Google), private cloud (dedicated infrastructuur) of hybride/multi-cloud combinaties. Zie [Soevereine overheidscloud visie](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cloud/){:target="_blank"}.
     - **Beoordeel digitale soevereiniteit** - Overweeg in hoeverre cloudoplossingen voldoen aan eisen voor Europese soevereiniteit en dataregie.
-    - **Voer een verplichte risicoanalyse uit** - Doe een [DPIA (Data Protection Impact Assessment)](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia){:target="_blank"} en/of [DTIA (Data Transfer Impact Assessment)](https://www.autoriteitpersoonsgegevens.nl/themas/europees-internationaal/internationaal/doorgifte-van-persoonsgegevens-buiten-de-eu){:target="_blank"} volgens het [Implementatiekader risicoafweging](https://www.digitaleoverheid.nl/regels-voor-verantwoord-cloudgebruik-rijksoverheid/){:target="_blank"}.
-    - **Classificeer je data** - Bepaal welke gegevens welk beschermingsniveau vereisen en in welk type cloud ze kunnen worden opgeslagen. Gebruik het [Implementatiekader risicoafweging](https://www.digitaleoverheid.nl/regels-voor-verantwoord-cloudgebruik-rijksoverheid/) als leidraad.
+    - **Voer een verplichte risicoanalyse uit** - Doe een [DPIA (Data Protection Impact Assessment)](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia){:target="_blank"} en/of [DTIA (Data Transfer Impact Assessment)](https://www.autoriteitpersoonsgegevens.nl/themas/europees-internationaal/internationaal/doorgifte-van-persoonsgegevens-buiten-de-eu){:target="_blank"} volgens het [Implementatiekader risicoafweging](https://open.overheid.nl/documenten/ronl-734f947ec6465e4f75a56bed82fe64a1135f71a8/pdf){:target="_blank"}.
+    - **Classificeer je data** - Bepaal welke gegevens welk beschermingsniveau vereisen en in welk type cloud ze kunnen worden opgeslagen. Gebruik het [Implementatiekader risicoafweging](https://open.overheid.nl/documenten/ronl-734f947ec6465e4f75a56bed82fe64a1135f71a8/pdf) als leidraad.
     - **Definieer je workload** - Stel vroeg vast wat de workload-karakteristieken zijn (compute, storage, netwerk, piekmomenten). Zie [Cloud Adoption Framework](https://docs.microsoft.com/nl-nl/azure/cloud-adoption-framework/){:target="_blank"} voor hulp.
     - **Overweeg datalokaliteit** - Waar worden data opgeslagen en verwerkt? Blijft dit binnen EU/NL grenzen?
     - **Vertel het verhaal** - Bestuurders en beleidsmakers hebben vaak een legacy-mindset. Leg uit waarom cloud nodig is: welke continuïteitsrisico's zie je en hoe pakt cloud deze aan? Wees voorbereid op kritische vragen.
@@ -280,7 +280,7 @@ Ontwikkelen & ontwerpen
 Inkopen
 ??? expander "Praktische tips"
     - **Besef dat cloud-inkoop anders is** - Inkopen van cloud is fundamenteel anders dan klassieke software-inkoop. Bij cloud voldoe je meer aan de voorwaarden van de aanbieders dan andersom. Het verdienmodel is service-gericht, niet product-gericht.
-    - **Volg de cloudregels** - Gebruik het [Implementatiekader risicoafweging](https://www.digitaleoverheid.nl/regels-voor-verantwoord-cloudgebruik-rijksoverheid/){:target="_blank"} bij aanbesteding van clouddiensten.
+    - **Volg de cloudregels** - Gebruik het [Implementatiekader risicoafweging](https://open.overheid.nl/documenten/ronl-734f947ec6465e4f75a56bed82fe64a1135f71a8/pdf){:target="_blank"} bij aanbesteding van clouddiensten.
     - **Vergelijk total cost of ownership (TCO)** - Kijk verder dan alleen de directe cloudkosten: migratie, training, onderhoud en exit-kosten zijn ook relevant. Zie [AWS TCO Calculator](https://aws.amazon.com/tco-calculator/){:target="_blank"} of [Azure TCO Calculator](https://azure.microsoft.com/nl-nl/pricing/tco/calculator/){:target="_blank"}.
     - **Stel exit-plan als inkoop voorwaarde** - Vraag leveranciers jaarlijks aan te tonen dat je kunt migreren. Als je het goed hebt ingericht, heb je de lock-in niet.
     - **Stel dezelfde eisen aan organisatie én leveranciers** - De eisen die je stelt aan externe partijen moeten ook voor je eigen organisatie gelden.
@@ -316,7 +316,6 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "5. Hanteer ee
 
 #### Naslagwerk
 
-- [Implementatiekader risicoafweging](https://www.digitaleoverheid.nl/regels-voor-verantwoord-cloudgebruik-rijksoverheid/) - Verplicht kader voor risicoafweging bij cloudgebruik
 - [Cloud Adoption Framework](https://docs.microsoft.com/nl-nl/azure/cloud-adoption-framework/) - Microsoft's framework voor cloudadoptie
 - [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/) - Best practices voor cloudarchitectuur
 - [Google SRE Book](https://sre.google/books/) - Site Reliability Engineering principes
@@ -329,7 +328,7 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "5. Hanteer ee
 #### Beleid, wetten en standaarden
 
 - [Rijksbreed Cloudbeleid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cloud/beleid/) - Rijksbreed cloudbeleid en -principes
-- [Regels voor verantwoord cloudgebruik Rijksoverheid](https://www.digitaleoverheid.nl/nieuws/regels-voor-verantwoord-cloudgebruik-rijksoverheid/) - Implementatiekader risicoafweging
+- [Implementatiekader risicoafweging](https://open.overheid.nl/documenten/ronl-734f947ec6465e4f75a56bed82fe64a1135f71a8/pdf) - Verplicht kader voor risicoafweging bij cloudgebruik
 - [Meerjarenvisie Digitale Overheid 2025-2030](https://www.tweedekamer.nl/downloads/document?id=2025D43432) - Langetermijnvisie digitalisering
 - [BIO (Baseline Informatiebeveiliging Overheid)](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/bio-en-ensia/) - Beveiligingsnormen overheid
 - [VIR (Voorschrift Informatiebeveiliging Rijksdienst)](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/kaders-voor-cybersecurity/voorschrift-informatiebeveiliging-rijksdienst-vir/) - Informatiebeveiligingsvoorschrift Rijksdienst
@@ -343,6 +342,7 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "5. Hanteer ee
 
 - [Cloud Community Digitale Overheid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cloud/) - Kennisdeling cloudgebruik overheid
 - [Opensourcewerken community](https://developer.overheid.nl/communities/open-source-werken) - Open source discussies
+- [Common Ground](https://developer.overheid.nl/communities/common-ground) - Gemeenten werken samen met een community van betrokkenen partijen aan bouwstenen, zoals softwaretoepassingen, technische componenten of standaarden voor gegevensuitwisseling.
 
 #### Trainingen
 

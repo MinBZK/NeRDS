@@ -26,11 +26,10 @@ Het hanteren van een cloud-gedreven strategie vraagt om gefaseerd handelen: van 
 
 **Gewenste uitkomsten:**
 
-- [ ] Je hebt een heldere behoeftestelling die beschrijft wat je functioneel wilt bereiken
+- [ ] Je hebt een heldere behoeftestelling die beschrijft wat je functioneel wilt bereiken inclusief of cloud geschikt is voor je digitale systeem
 - [ ] Je rol (maker of inkoper) is bepaald en bepalend voor je sourcing-strategie
-- [ ] Je hebt een DPIA/DTIA uitgevoerd volgens het [Implementatiekader risicoafweging](https://www.digitaleoverheid.nl/regels-voor-verantwoord-cloudgebruik-rijksoverheid/)
+- [ ] Je hebt een DPIA/DTIA uitgevoerd volgens het [Implementatiekader risicoafweging](https://open.overheid.nl/documenten/ronl-734f947ec6465e4f75a56bed82fe64a1135f71a8/pdf)
 - [ ] Je hebt je data geclassificeerd en weet welke gegevens in welk type cloud mogen
-- [ ] Je hebt bepaald of cloud geschikt is voor je project en begrijpt de afwegingen
 - [ ] Je hebt verschillende cloudmodellen geëvalueerd (soeverein, publiek, privé, hybride) en begrijpt hun voor- en nadelen
 
 **Aanvullend (indien passend):**
@@ -87,7 +86,7 @@ Het hanteren van een cloud-gedreven strategie vraagt om gefaseerd handelen: van 
 
 - [ ] Je hebt beveiliging geïmplementeerd (IAM, encryption, netwerksegmentatie)
 - [ ] Je hebt secrets management ingericht (zie de richtlijn [3. Werk transparant en gebruik open source](../open-source/index.md))
-- [ ] Je hebt monitoring en logging actief en kunt je cloudomgeving observeren
+- [ ] Je hebt monitoring en logging actief om jouw cloudomgeving te observeren
 - [ ] Je hebt je cloudoplossing getest op prestaties en beveiliging
 - [ ] Je hebt compliance gevalideerd en voldoet aan de verplichte regelgeving
 
@@ -121,9 +120,9 @@ Het hanteren van een cloud-gedreven strategie vraagt om gefaseerd handelen: van 
 
 **Aanvullend (indien passend):**
 
-- FinOps principes toegepast voor kostenoptimalisatie
+- [FinOps Foundation](https://www.finops.org/){:target="_blank"} principes toegepast voor kostenoptimalisatie
 - Disaster recovery tests uitgevoerd
-- Bevindingen gedeeld binnen de overheid
+- Bevindingen gedeeld binnen de overheid (zie [Cloud Communities](./index.md#Communities))
 - Prestaties gemeten met SLO's/SLI's
 - Organisatie transformatie gemonitord: ontwikkelen teams nieuwe vaardigheden?
 - Team blijft op de hoogte van cloud-ontwikkelingen (cloud is een moving target)
