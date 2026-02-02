@@ -126,7 +126,7 @@ actions:
     status: concept
   - id: handreiking-publieke-waarde-en-rechten-bij-ICT-aanbesteding
     name: Handreiking publieke waarde bij ICT-aanbesteding
-    source: https://www.pianoo.nl/nl/themas/ict-aanbesteden/handreiking-publieke-waarde-en-rechten-bij-ict-aanbesteding
+    source: https://www.pianoo.nl/nl/handreiking-publieke-waarden-en-rechten-bij-aanbesteden-van-ict
     description: "Stappenplan voor het maken van bewuste keuzes rondom publieke waarde en rechten"
     richtlijn: open-source
     fase: ontwerp
@@ -260,7 +260,7 @@ actions:
     status: beschikbaar
   - id: gebruikersonderzoeken-nl
     name: Gebruikersonderzoeken.nl
-    source: https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken
+    source: https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken/
     description: "Leer van andere onderzoeken en deel je bevindingen"
     richtlijn: gebruikersbehoeften
     fase: [verkenning, productie]
@@ -449,7 +449,7 @@ actions:
     status: ontwikkeling
   - id: dpia-model
     name: DPIA-model
-    source: https://www.autoriteitpersoonsgegevens.nl/nl/onderwerpen/avg-europese-privacywetgeving/data-protection-impact-assessment-dpia
+    source: https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia
     description: "Model voor gegevensbeschermingseffectbeoordeling"
     richtlijn: privacy
     type: tool
@@ -534,7 +534,7 @@ actions:
     status: beschikbaar
   - id: nldoc
     name: NLDoc
-    source: https://nldoc.nl/
+    source: https://www.digitoegankelijk.nl/nieuws/nldoc-opensource-beschikbaar
     description: "API's om documenten om te zetten naar toegankelijke, WCAG 2.x-compliant HTML"
     richtlijn: toegankelijkheid
     fase: bouw
@@ -651,7 +651,7 @@ actions:
     status: beschikbaar
   - id: openkat
     name: OpenKAT
-    source: https://github.com/minvws/nl-kat-coordination
+    source: https://github.com/SSC-ICT-Innovatie/nl-kat-coordination
     description: "Open source security tooling"
     richtlijn: veiligheid
     type: tool
