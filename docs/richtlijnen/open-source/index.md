@@ -99,7 +99,7 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "3. Werk trans
 
 - [Beleid Opensourcewerken - Digitale Overheid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/open-source/beleid/) - Het officiële open-tenzij beleid van de Nederlandse overheid
 - [Instructie Rijksdienst bij aanschaf ICT-diensten of ICT-producten](https://wetten.overheid.nl/BWBR0024717/2008-11-23) - Officiële instructie die open standaarden voorschrijft bij ICT-aanschaf
-- [EUPL-1.2 Licentie](https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12) - European Union Public Licence, aanbevolen voor overheidscode
+- [EUPL-1.2 Licentie](https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12) - European Union Public Licence, aanbevolen voor overheidscode
 - [OSPO-NL Licentieadvies](https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/) - Overzicht van open source licenties en overwegingen
 
 #### Communities

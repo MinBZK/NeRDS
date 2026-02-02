@@ -94,7 +94,7 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "2. Zorg voor 
 - [Overlay factsheet](https://overlayfactsheet.com/nl/) - Een factsheet van technologieën die bedoeld zijn om de toegankelijkheid van een website te verbeteren. Ze passen externe broncode toe (meestal JavaScript) om verbeteringen aan te brengen in de front-endcode van de website.
 - [Inclusive Components](https://inclusive-components.design/#components) - Een patronen bibliotheek met een focus op inclusief design. In aanvulling op [NLDS Componenten](https://nldesignsystem.nl/componenten/).
 - [Basistoegankelijk](https://basistoegankelijk.nl) - Basistoegankelijk meet, beoordeelt en publiceert de digitale toegankelijkheid op basis van WCAG metingen van alle sites van de overheid, zorg, onderwijs en vitaal. In aanvulling op [Dashboard DigiToegankelijk](https://dashboard.digitoegankelijk.nl/) waar overheden zelf hun toegankelijkheidsverklaring aanleveren.
-- [Handreiking Mobiele app Ontwikkeling en Beheer versie 4.0](https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_4.0.pdf) - Hoofdstuk 8.3 geeft concrete best practices voor verschillende beperkingen voor de ontwikkeling van Mobiele Apps
+- [Handreiking Mobiele app Ontwikkeling en Beheer versie 5.0](https://www.noraonline.nl/images/noraonline/2/26/Handreiking_Mobiele_App_5.0.pdf) - Hoofdstuk 8.3 geeft concrete best practices voor verschillende beperkingen voor de ontwikkeling van Mobiele Apps
 - [Kennisbank Digitoegankelijk](https://kennisbank.digitoegankelijk.nl) - Praktische tips over digitale toegankelijkheid
 
 #### Beleid, wetten en standaarden

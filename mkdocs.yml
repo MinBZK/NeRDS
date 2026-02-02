@@ -19,7 +19,6 @@ theme:
     - navigation.instant
     - navigation.footer
     - navigation.prune
-    - navigation.path
     - navigation.sections
     - navigation.expand
     - search.highlight

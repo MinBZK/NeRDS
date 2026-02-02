@@ -42,7 +42,7 @@ Start bij het probleem in kaart te brengen, niet bij de oplossing. Dit voorkomt 
     - **Begin met het doel** - Zorg dat je onderzoeksmethode aansluit bij wat je werkelijk moet leren voordat je een plan maakt: [Zo begin je gewoon](https://www.gebruikercentraal.nl/gebruikersonderzoek-zo-begin-je-gewoon/){:target="_blank"}.
     - **Ga naar de gebruiker toe** - Observeer gebruikers in hun eigen omgeving en context om hun werkelijke situatie te begrijpen.
     - **Houd het simpel** - Kies voor eenvoudige onderzoeksmethoden zoals interviews, observatie of vragenlijsten omdat complexe methoden implementatie kunnen vertragen.
-    - **Laat stakeholders meekijken** - Zorg dat stakeholders (bijvoorbeeld bestuurders) onderzoek mee volgen zodat iedereen dezelfde gebruikersinzichten heeft. Zie [Management verhaal klantreizen](https://www.gebruikercentraal.nl/hulpmiddelen/klantreizen-bij-de-overheid-uitleg/managementverhaal/){:target="_blank"} voor een voorbeeldpresentatie.
+    - **Laat stakeholders meekijken** - Zorg dat stakeholders (bijvoorbeeld bestuurders) onderzoek mee volgen zodat iedereen dezelfde gebruikersinzichten heeft.
     - **Creëer draagvlak** - Zorg voor overeenstemming binnen het team over gebruikersbehoeften voordat je begint met ontwikkelen. Zie [Draagvlak in jouw organisatie](https://www.gebruikercentraal.nl/videopagina/draagvlak-in-jouw-organisatie-direct-duidelijk-tour/){:target="_blank"}.
 
 ### 2. Ontwikkelen, ontwerpen en inkopen
@@ -78,13 +78,13 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "1. Stel gebru
 - [Overheidsbreed meethuis voor dienstverlening](https://www.gebruikercentraal.nl/overheidsbreed-meethuis-voor-dienstverlening/) - Naast het handboek dat hierboven bij 'direct aan de slag' staat vermeld, vind je op de website van Gebruiker Centraal ook een meethuis-canvas, voorbeeldvragenlijsten en begeleiding
 - [Universeel Service Management](https://usmwiki.com/index.php/Main_Page) - International framework voor servicemanagement
 - [Inclusief onderzoek doen](https://www.gebruikercentraal.nl/instrumenten/inclusief-onderzoek-doen/) - Richtlijnen voor inclusief gebruikersonderzoek
-- [Handreiking Mobiele app Ontwikkeling en Beheer versie 4.0](https://www.noraonline.nl/images/noraonline/9/94/Handreiking_appontwikkeling_en_beheer_5.0.pdf) - Hoofdstuk 8: "De gebruiker staat centraal"
+- [Handreiking Mobiele app Ontwikkeling en Beheer versie 5.0](https://www.noraonline.nl/images/noraonline/9/94/Handreiking_appontwikkeling_en_beheer_5.0.pdf) - Hoofdstuk 8: "De gebruiker staat centraal"
 - [Startgids Doelmatig Geïntegreerd Klantbeeld (DGKB)](https://www.gebruikercentraal.nl/meedoen/community-omnichannel/de-startgids-doelmatig-geintegreerd-klantbeeld-dgkb/) - Samenhangend beeld van de klant opbouwen
 - [Van Den Haag Centraal naar Gebruiker Centraal (2016)](https://www.communicatierijk.nl/documenten/2016/11/10/van-den-haag-centraal-naar-gebruiker-centraal) - Onderzoeksmethoden en voorbeelden om de gebruiker te leren kennen
 
 #### Beleid, wetten en standaarden
 
-- [ISO 11367 Excellente dienstverlening](https://www.nen.nl/iso-11367-2025-en-334528) - Principes en model voor publieke dienstverlening
+- [ISO 11367 Excellente dienstverlening](https://www.nen.nl/iso-11367-2025-en-334528) - Principes en model voor publieke dienstverlening. Voor rijksambtenaren kunnen ISO-normen [hier](https://www.lees-rijk.nl/user/login?destination=search) worden geraadpleegd.
 - [Digitale inclusie](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/) - Overheidsrichtlijnen voor digitale toegankelijkheid
 
 #### Communities

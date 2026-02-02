@@ -244,12 +244,12 @@ Begin met een heldere behoeftestelling: wat probeer je functioneel te bereiken? 
 ??? expander "Praktische tips"
     - **Start met behoeftestelling** - Formuleer helder wat je functioneel wilt bereiken voordat je over technologie nadenkt. Een te complexe behoeftestelling kan laaghangend fruit blokkeren.
     - **Bepaal je rol en organisatietype** - Ben je maker (development team) of inkoper? Werk je voor een gemeente of rijksoverheid? Dit bepaalt je sourcing-strategie en verantwoordelijkheden (zie [Definieer je inkoopstrategie](../inkoop/index.md){:target="_blank"}).
-    - **Cloud-first benadering** - Start met de assumptie dat cloud voordelen biedt, maar weeg deze af tegen je specifieke eisen. Cloud is geen heilige graal. Zie [Rijksbreed cloudbeleid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cloud/beleid/){:target="_blank"}.
+    - **Cloud-first benadering** - Start met de assumptie dat cloud voordelen biedt, maar weeg deze af tegen je specifieke eisen. Cloud is geen heilige graal. Zie [Kamerbrief Rijksbreed cloudbeleid](https://open.overheid.nl/documenten/ronl-a79331dc7c088f2cb6259f591c3b4f2fbcc9b5f1/pdfbeleid/){:target="_blank"}.
     - **Bepaal geschiktheid** - Cloud is vaak geschikt voor nieuwe applicaties, vernieuwing van IT-systemen, fluctuerende vraag, test- en ontwikkelomgevingen en data-intensieve toepassingen.
     - **Overweeg alternatieven** - On-premise of hybride oplossingen kunnen beter passen bij specifieke beveiligings-/compliance-eisen, juridische vereisten voor lokale opslag, specifieke hardwarevereisten of bestaande investeringen die nog niet zijn afgeschreven.
-    - **Evalueer verschillende cloudmodellen** - Soevereine cloud (Europese controle over data en infrastructuur), publieke cloud (AWS, Azure, Google), private cloud (dedicated infrastructuur) of hybride/multi-cloud combinaties. Zie [Soevereine overheidscloud visie](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cloud/){:target="_blank"}.
+    - **Evalueer verschillende cloudmodellen** - Soevereine cloud (Europese controle over data en infrastructuur), publieke cloud (AWS, Azure, Google), private cloud (dedicated infrastructuur) of hybride/multi-cloud combinaties. Zie [Soevereine overheidscloud visie](https://www.rijksoverheid.nl/documenten/rapporten/2025/12/18/bijlage-2-visie-digitale-autonomie-en-soevereiniteit-van-de-overheid){:target="_blank"}.
     - **Beoordeel digitale soevereiniteit** - Overweeg in hoeverre cloudoplossingen voldoen aan eisen voor Europese soevereiniteit en dataregie.
-    - **Voer een verplichte risicoanalyse uit** - Doe een [DPIA (Data Protection Impact Assessment)](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia){:target="_blank"} en/of [DTIA (Data Transfer Impact Assessment)](https://www.autoriteitpersoonsgegevens.nl/themas/europees-internationaal/internationaal/doorgifte-van-persoonsgegevens-buiten-de-eu){:target="_blank"} volgens het [Implementatiekader risicoafweging](https://open.overheid.nl/documenten/ronl-734f947ec6465e4f75a56bed82fe64a1135f71a8/pdf){:target="_blank"}.
+    - **Voer een verplichte risicoanalyse uit** - Doe een [DPIA (Data Protection Impact Assessment)](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia){:target="_blank"} en/of [DTIA (Data Transfer Impact Assessment)](https://www.autoriteitpersoonsgegevens.nl/themas/internationaal/doorgifte-binnen-en-buiten-de-eer/doorgifte-persoonsgegevens-buiten-de-eer){:target="_blank"} volgens het [Implementatiekader risicoafweging](https://open.overheid.nl/documenten/ronl-734f947ec6465e4f75a56bed82fe64a1135f71a8/pdf){:target="_blank"}.
     - **Classificeer je data** - Bepaal welke gegevens welk beschermingsniveau vereisen en in welk type cloud ze kunnen worden opgeslagen. Gebruik het [Implementatiekader risicoafweging](https://open.overheid.nl/documenten/ronl-734f947ec6465e4f75a56bed82fe64a1135f71a8/pdf) als leidraad.
     - **Definieer je workload** - Stel vroeg vast wat de workload-karakteristieken zijn (compute, storage, netwerk, piekmomenten). Zie [Cloud Adoption Framework](https://docs.microsoft.com/nl-nl/azure/cloud-adoption-framework/){:target="_blank"} voor hulp.
     - **Overweeg datalokaliteit** - Waar worden data opgeslagen en verwerkt? Blijft dit binnen EU/NL grenzen?
@@ -286,7 +286,7 @@ Inkopen
     - **Stel dezelfde eisen aan organisatie én leveranciers** - De eisen die je stelt aan externe partijen moeten ook voor je eigen organisatie gelden.
     - **Beoordeel vendor lock-in risico's** - Evalueer hoe afhankelijk je wordt van één leverancier en wat de kosten zijn om te wisselen.
     - **Bouw flexibiliteit in** - Leer van Gemeente Amsterdam die inkoopt met clausules waarmee ze kunnen veranderen tijdens de looptijd. Cloud is een moving target.
-    - **Controleer compliance** - Zorg dat de cloudprovider voldoet aan relevante certificeringen ([ISO 27001](https://www.nen.nl/iso-iec-27001-2022-en-292766){:target="_blank"}, [SOC 2](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/sorhome){:target="_blank"}, [PCI DSS](https://www.pcisecuritystandards.org/){:target="_blank"}, etc.).
+    - **Controleer compliance** - Zorg dat de cloudprovider voldoet aan relevante certificeringen ([ISO 27001](https://www.nen.nl/nen-en-iso-iec-27001-2023-en-313608){:target="_blank"}, [SOC 2](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2){:target="_blank"}, [PCI DSS](https://www.pcisecuritystandards.org/){:target="_blank"}, etc.). Voor rijksambtenaren kunnen ISO-normen [hier](https://www.lees-rijk.nl/user/login?destination=search) worden geraadpleegd.
     - **Verifieer datalokaliteit** - Vraag waar datacenters zich bevinden en onder welke jurisdictie ze vallen.
     - **Check contractvoorwaarden** - Let op SLA's, ondersteuning, dataportabiliteit en beëindigingsclausules.
     - **Evalueer duurzaamheid** - Vraag naar energieverbruik, groene energie en CO2-compensatie (zie [Maak je technologie duurzaam](../duurzaamheid/index.md){:target="_blank"}).
@@ -303,9 +303,9 @@ Monitor cloudkosten, prestaties en beveiliging continu. Implementeer FinOps-prin
     - **Test disaster recovery** - Voer regelmatig disaster recovery tests uit om te valideren dat je backup- en recovery-procedures werken.
     - **Test je exit-strategie** - Voer regelmatig oefeningen uit om te valideren dat je daadwerkelijk kunt migreren.
     - **Meet prestaties met SLO's/SLI's** - Monitor uptime, latency en doorvoer aan de hand van Service Level Objectives en Indicators. Zie [Google SRE Book: SLO's](https://sre.google/sre-book/service-level-objectives/){:target="_blank"}.
-    - **Evalueer compliance** - Controleer periodiek of cloudgebruik nog voldoet aan regelgeving ([AVG](https://autoriteitpersoonsgegevens.nl/nl/over-privacy/wetten/algemene-verordening-gegevensbescherming-avg){:target="_blank"}, [BIO](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/bio-en-ensia/){:target="_blank"}, [Wbni](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/wbni/){:target="_blank"}).
+    - **Evalueer compliance** - Controleer periodiek of cloudgebruik nog voldoet aan regelgeving ([AVG](https://autoriteitpersoonsgegevens.nl/nl/over-privacy/wetten/algemene-verordening-gegevensbescherming-avg){:target="_blank"}, [BIO](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/bio-en-ensia/){:target="_blank"}, [Wbni](https://wetten.overheid.nl/BWBR0041515/2024-10-01){:target="_blank"}).
     - **Monitor je organisatie transformatie** - Evalueer of teams de nieuwe vaardigheden ontwikkelen en of verandermanagement effectief is.
-    - **Blijf leren** - Volg ontwikkelingen in cloudtechnologie en -beleid en pas je strategie aan. Cloud is een moving target. Zie [Cloud Community Digitale Overheid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cloud/){:target="_blank"}.
+    - **Blijf leren** - Volg ontwikkelingen in cloudtechnologie en -beleid en pas je strategie aan. Cloud is een moving target.
     - **Deel kennis** - Publiceer ervaringen en best practices binnen de overheid om van elkaar te leren.
 
 ## Implementatie per fase
@@ -323,24 +323,24 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "5. Hanteer ee
 - [NORA (Nederlandse Overheids Referentie Architectuur)](https://www.noraonline.nl/wiki/Cloud_computing) - Architectuurprincipes overheid
 - [Onderzoek cloudgebruik en ondersteuning gemeenten](https://gce.scgemeenten.nl/project/onderzoek-cloudgebruik-en-ondersteuning-gemeenten/) - Onderzoek naar cloudgebruik door Nederlandse gemeenten
 - [Rijk ging zonder afwegingen de cloud in](https://www.rekenkamer.nl/actueel/nieuws/2025/01/15/rijk-ging-zonder-afwegingen-de-cloud-in) - Rekenkamer rapport over cloudgebruik door de Rijksoverheid
-- [PCI DSS](https://www.pcisecuritystandards.org/) - Payment Card Industry Data Security Standard
+- [PCI DSS (Payment Card Industry Data Security Standard)](https://www.pcisecuritystandards.org/) - Payment Card Industry Data Security Standard
 
 #### Beleid, wetten en standaarden
 
-- [Rijksbreed Cloudbeleid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cloud/beleid/) - Rijksbreed cloudbeleid en -principes
 - [Implementatiekader risicoafweging](https://open.overheid.nl/documenten/ronl-734f947ec6465e4f75a56bed82fe64a1135f71a8/pdf) - Verplicht kader voor risicoafweging bij cloudgebruik
 - [Meerjarenvisie Digitale Overheid 2025-2030](https://www.tweedekamer.nl/downloads/document?id=2025D43432) - Langetermijnvisie digitalisering
 - [BIO (Baseline Informatiebeveiliging Overheid)](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/bio-en-ensia/) - Beveiligingsnormen overheid
-- [VIR (Voorschrift Informatiebeveiliging Rijksdienst)](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/kaders-voor-cybersecurity/voorschrift-informatiebeveiliging-rijksdienst-vir/) - Informatiebeveiligingsvoorschrift Rijksdienst
+- [SOC 2 (Service Organization Control 2)](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2){:target="_blank"} - Een door de AICPA ontwikkeld raamwerk voor IT-audits, dat tot doel heeft de veiligheid, beschikbaarheid, verwerkingsintegriteit, vertrouwelijkheid en privacy van klantgegevens te waarborgen.
+- [VIR (Voorschrift Informatiebeveiliging Rijksdienst)](https://zoek.officielebekendmakingen.nl/stcrt-2025-30222.html) - Informatiebeveiligingsvoorschrift Rijksdienst
 - [AVG (Algemene Verordening Gegevensbescherming)](https://autoriteitpersoonsgegevens.nl/nl/over-privacy/wetten/algemene-verordening-gegevensbescherming-avg) - Privacywetgeving
 - [DPIA (Data Protection Impact Assessment)](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia) - Verplichte privacytoets
-- [DTIA (Data Transfer Impact Assessment)](https://www.autoriteitpersoonsgegevens.nl/themas/europees-internationaal/internationaal/doorgifte-van-persoonsgegevens-buiten-de-eu) - Toets voor dataoverdracht buiten EER
-- [ISO 27001](https://www.nen.nl/iso-iec-27001-2022-en-292766) - Internationale standaard voor informatiebeveiliging
-- [Wbni (Wet beveiliging netwerk- en informatiesystemen)](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/wbni/) - Cybersecuritywetgeving
+- [DTIA (Data Transfer Impact Assessment)](https://www.autoriteitpersoonsgegevens.nl/themas/internationaal/doorgifte-binnen-en-buiten-de-eer/doorgifte-persoonsgegevens-buiten-de-eer) - Toets voor dataoverdracht buiten EER
+- [ISO 27001](https://www.nen.nl/nen-en-iso-iec-27001-2023-en-313608) - Internationale standaard voor informatiebeveiliging. Voor rijksambtenaren kunnen ISO-normen [hier](https://www.lees-rijk.nl/user/login?destination=search) worden geraadpleegd.
+- [Wbni (Wet beveiliging netwerk- en informatiesystemen)](https://wetten.overheid.nl/BWBR0041515/2024-10-01) - Cybersecuritywetgeving
 
 #### Communities
 
-- [Cloud Community Digitale Overheid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cloud/) - Kennisdeling cloudgebruik overheid
+- [Dutch Cloud Commmunity](https://dutchcloudcommunity.nl/){:target="_blank"} - De branchevereniging voor de Nederlandse cloud- en internetsector.
 - [Opensourcewerken community](https://developer.overheid.nl/communities/open-source-werken) - Open source discussies
 - [Common Ground](https://developer.overheid.nl/communities/common-ground) - Gemeenten werken samen met een community van betrokkenen partijen aan bouwstenen, zoals softwaretoepassingen, technische componenten of standaarden voor gegevensuitwisseling.
 
