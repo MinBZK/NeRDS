@@ -107,7 +107,7 @@ def _generate_fallback_security_txt(canonical_url: str) -> str:
         # It was generated because the NCSC security.txt could not be fetched during the build.
         # For the most current version, visit: https://www.ncsc.nl/.well-known/security.txt
 
-        Contact: https://www.ncsc.nl/contact/kwetsbaarheid-melden
+        Contact: https://www.ncsc.nl/dienstverlening/kwetsbaarheid-melden-cvd
         Expires: {expires_date}
         Preferred-Languages: nl, en
         Canonical: {canonical_url}

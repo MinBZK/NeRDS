@@ -13,14 +13,9 @@ Open source is een manier van werken waarbij de makers de broncode, documentatie
 
 ## Waarom is het belangrijk?
 
-- **Transparantie**: Krijg volledige inzicht in softwarewerking en besluitvorming
-- **Kosteneffectiviteit**: Vermijd licentiekosten en afhankelijkheid van één leverancier
-- **Samenwerking**: Deel kennis tussen organisaties en leer van elkaars ervaringen
-- **Flexibiliteit**: Pas software aan zonder afhankelijkheid van externe leveranciers
-- **Veiligheid**: Ontdek en los problemen sneller op door gemeenschappelijke code-inspectie
-- **Duurzaamheid**: Voorkom vendor lock-in en maak langetermijnbeheer mogelijk
-- **Innovatie**: Profiteer van gemeenschappelijke probleemoplossing met bewezen technologie
-- **Tijd- en kostenbesparend**: Bouw voort op bestaande oplossingen in plaats van opnieuw ontwikkelen
+- **Transparantie en veiligheid**: iedereen kan zien hoe de software werkt, waardoor problemen sneller worden ontdekt en vertrouwen ontstaat
+- **Samenwerking en innovatie**: organisaties kunnen kennis delen, van elkaar leren en voortbouwen op bestaande oplossingen
+- **Kosteneffectiviteit**: vermijd licentiekosten, vendor lock-in en bespaar tijd door hergebruik van bestaande oplossingen
 
 Door open en transparant te werken en open source software te omarmen, draag je bij aan een meer transparante, flexibele en verantwoordelijke digitale overheid.
 
@@ -33,6 +28,93 @@ Door open en transparant te werken en open source software te omarmen, draag je 
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards"></div>
-    </div>
+    <div class="action-cards" data-richtlijn="open-source"></div>
 </div>
+
+## Bewezen praktijken
+
+### 1. Begrijpen
+
+Start met verkennen van bestaande open source oplossingen voordat je zelf iets bouwt. Evalueer of open source past bij je project en begrijp het [open-tenzij beleid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/open-source/beleid/): je code moet open zijn, tenzij er zwaarwegende redenen zijn om dit niet te doen (zoals staatsgeheimen of fraudepreventie). Dit principe van transparantie versterkt het vertrouwen in de overheid.
+
+??? expander "Praktische tips"
+    - **Onderzoek eerst of hergebruik mogelijk is** - Zoek naar bestaande open source oplossingen die je probleem al oplossen. Verken repositories op [developer.overheid.nl](https://oss.developer.overheid.nl/){:target="_blank"}.
+    - **Begrijp welke afspraken er in het team gemaakt moeten worden** - Verken de [Open source ambitieladder](https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/).
+    - **Evalueer total cost of ownership** - Kijk naar alle kosten: implementatie, migratie, training en onderhoud.
+    - **Test met prototypes** - Bouw kleine prototypes om technische aannames te valideren.
+    - **Betrek de community** - Leg contact met [open source gemeenschappen](#gerelateerde-hulpmiddelen) voor advies.
+
+### 2. Ontwikkelen, ontwerpen en inkopen
+
+Werk open vanaf dag 1: begin met een publieke repository vanaf het start van je project. Dit voorkomt kostbare retrofitting en bevordert incrementele security improvements. Kies een geschikte open source licentie (bij voorkeur EUPL-1.2 voor overheidscode).
+
+Ontwikkelen & ontwerpen
+??? expander "Praktische tips"
+    - **Start met een publieke repository** - Begin vanaf dag 1 met een publieke GitHub of GitLab repository.
+    - **Kies EUPL-1.2 licentie** - De aanbevolen licentie voor Nederlandse overheidscode. Zie [licentieadvies](https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/){:target="_blank"} voor meer informatie.
+    - **Gebruik secrets management** - Sla wachtwoorden, API-keys en credentials op in een apart systeem en nooit in de code zelf (bijv. HashiCorp Vault, Azure Key Vault).
+    - **Schrijf een goede README** - Leg uit wat de code doet, hoe je het installeert en hoe je kunt bijdragen. Zie voorbeelden bij [MinBZK](https://github.com/MinBZK){:target="_blank"} en [Gemeente Amsterdam](https://github.com/amsterdam){:target="_blank"} repositories.
+    - **Maak een CONTRIBUTING.md** - Geef duidelijke richtlijnen voor externe bijdragen. Zie [Developer.overheid.nl](https://developer.overheid.nl/kennisbank/open-source/standaarden/contributing-md#wat-neem-je-erin-op){:target="_blank"} voor hoe je dat kan doen.
+    - **Creëer een veilige en inclusieve omgeving voor contributors** - Definieer een [Code of Conduct](https://developer.overheid.nl/kennisbank/open-source/standaarden/code-of-conduct-md){:target="_blank"}.
+    - **Gebruik [open standaarden](https://www.forumstandaardisatie.nl/open-standaarden){:target="_blank"}** - Zorg dat je architectuur interoperabel is (zie [Gebruik open standaarden](../open-standaarden/index.md)).
+    - **Documenteer ontwerpbeslissingen** - Leg vast waarom je bepaalde technologiekeuzes maakt. Gebruik hiervoor bijvoorbeeld een [Architectural Decision Record van Gov UK](https://www.gov.uk/government/publications/architectural-decision-record-framework/architectural-decision-record-framework){:target="_blank"}.
+
+Inkopen
+??? expander "Praktische tips"
+    - **Neem Standaarden op in de inkoopvoorwaarde** - Zie de [Instructie Rijksdienst bij aanschaf ICT-diensten of ICT-producten](https://wetten.overheid.nl/BWBR0024717/2008-11-23){:target="_blank"} en [Opensource Gereedschapskist voor het aanbesteden van standaardsoftware VWS](https://minvws.opensourcewerken.nl/open-source-gereedschapskist-voor-het-aanbesteden-van-standaardsoftware/){:target="_blank"}.
+    - **Controleer de maturiteit** - Is het project actief onderhouden en stabiel?
+    - **Evalueer de community** - Is er een actieve gemeenschap of commerciële ondersteuning?
+    - **Check de veiligheid** - Bekijk de security geschiedenis en updatefrequentie.
+    - **Beoordeel vendor lock-in risico's** - Vermijd afhankelijkheid van één leverancier en zorg voor een exit-strategie.
+    - **Begrijp de licentie** - Zorg dat je de verplichtingen kent. Zie [licentieadvies](https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/){:target="_blank"}.
+    - **Vraag naar gebruikerservaringen** - Gebruiken andere overheidsorganisaties dit al? Vraag het op [Developer Overheid](https://developer.overheid.nl/){:target="_blank"}.
+
+### 3. Testen, meten en verbeteren
+
+Onderhoud je open source project actief: Reageer snel op security issues, monitor dependencies op kwetsbaarheden en wees transparant over je onderhoudsniveau. Open source publiceren is een langetermijncommitment, alloceer voldoende resources voor community management.
+
+??? expander "Praktische tips"
+    - **Review code op secrets** - Scan regelmatig op hard-coded wachtwoorden en credentials.
+    - **Monitor security advisories** - Volg CVE's (Common Vulnerabilities and Exposures) en security updates voor je dependencies. Zoals [dependabot](https://github.com/dependabot){:target="_blank"}.
+    - **Reageer snel op security issues** - Patch kritieke kwetsbaarheden binnen 24-48 uur.
+    - **Test installeerbaarheid** - Doe regelmatig een fresh clone test met een nieuwe gebruiker.
+    - **Communiceer onderhoudsniveau** - Wees duidelijk over of het digitale systeem "actively maintained", "maintenance mode" of "archived" is.
+    - **Gebruik Semantic Versioning** - Versies in [major.minor.patch](https://semver.org/) formaat voor duidelijkheid.
+    - **Draag bij aan upstream** - Geef terug aan projecten waar je van afhankelijk bent.
+    - **Deel je bevindingen** - Publiceer blogposts en presentaties over je ervaringen. Deel kennis via de [opensourcewerken community](https://developer.overheid.nl/communities/open-source-werken){:target="_blank"}.
+
+## Implementatie per fase
+
+Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "3. Werk transparant en gebruik open source"](fases.md).
+
+## Gerelateerde hulpmiddelen
+
+#### Naslagwerk
+
+- [Git commit guidelines](https://ec.europa.eu/component-library/v1.14.2/ec/docs/conventions/git/) - Europese richtlijnen voor het maken van commit messages.
+- [Developer Amsterdam](http://developers.amsterdam) -
+- [Service Manual 'Making source code open and reusable'](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable) - Vanuit GOV UK.
+
+#### Beleid, wetten en standaarden
+
+- [Beleid Opensourcewerken - Digitale Overheid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/open-source/beleid/) - Het officiële open-tenzij beleid van de Nederlandse overheid
+- [Instructie Rijksdienst bij aanschaf ICT-diensten of ICT-producten](https://wetten.overheid.nl/BWBR0024717/2008-11-23) - Officiële instructie die open standaarden voorschrijft bij ICT-aanschaf
+- [EUPL-1.2 Licentie](https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12) - European Union Public Licence, aanbevolen voor overheidscode
+- [OSPO-NL Licentieadvies](https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/) - Overzicht van open source licenties en overwegingen
+
+#### Communities
+
+- [Opensourcewerken community](https://developer.overheid.nl/communities/open-source-werken) - Community van het Ministerie van Binnenlandse Zaken voor praktische kennis, een forum om ervaringen te delen en informatie over relevante regelgeving
+- [Code for NL](https://developer.overheid.nl/communities/code-for-nl) - Code for NL is een netwerk van developers, designers en andere experts die samenwerken aan digitale toepassingen voor een open, eerlijke en inclusieve samenleving.
+- [Common Ground](https://developer.overheid.nl/communities/common-ground) - Gemeenten werken samen met een community van betrokkenen partijen aan bouwstenen, zoals softwaretoepassingen, technische componenten of standaarden voor gegevensuitwisseling.
+
+#### Boeken
+
+- **Platformland** - Richard Pope - An anatomy of next-generation public sevices
+- **[Producing Opensource Software](https://producingoss.com/)** - Karl Fogel - About the human side of open source development.
+
+## Gerelateerde richtlijnen
+
+- [4. Gebruik open standaarden](../open-standaarden/index.md)
+- [6. Maak veilige systemen](../veiligheid/index.md)
+- [8. Deel, hergebruik en werk samen](../samenwerking/index.md)

@@ -34,6 +34,6 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards"></div>
+    <div class="action-cards" data-richtlijn="veiligheid"></div>
     </div>
 </div>

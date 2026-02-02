@@ -34,6 +34,6 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards"></div>
+    <div class="action-cards" data-richtlijn="algoritmen"></div>
     </div>
 </div>

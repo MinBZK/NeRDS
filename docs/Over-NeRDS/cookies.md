@@ -25,7 +25,7 @@ Omdat wij geen cookies gebruiken, worden er geen gegevens over jouw bezoek aan o
 
 ## Meer weten?
 
-Wil je meer weten over cookies in het algemeen of hoe je deze kunt beheren op andere websites? Kijk dan op de website [Veiliginternetten.nl](https://www.veiliginternetten.nl/) of het [Nationaal Cyber Security Centrum](https://www.ncsc.nl/).
+Wil je meer weten over cookies in het algemeen of hoe je deze kunt beheren op andere websites? Kijk dan op de website [Veiliginternetten.nl](https://veiliginternetten.nl/) of het [Nationaal Cyber Security Centrum](https://www.ncsc.nl/).
 
 ## Heb je vragen?
 

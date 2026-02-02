@@ -32,6 +32,6 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards"></div>
+    <div class="action-cards" data-richtlijn="samenwerking"></div>
     </div>
 </div>

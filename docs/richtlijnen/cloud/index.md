@@ -14,13 +14,10 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
 
 ## Waarom is het belangrijk?
 
-- **Interoperabiliteit**: Integreer naadloos tussen verschillende systemen en voorkom leveranciersafhankelijkheid
-- **Soevereiniteit**: Behoud controle over gevoelige gegevens en voldoe aan nationale veiligheidseisen
-- **Kosteneffectiviteit**: Verlaag IT-uitgaven door gebruik-gebaseerde modellen en verminder kapitaaluitgaven
-- **Schaalbaarheid**: Pas capaciteit direct aan op wisselende vraag en groei
-- **Flexibiliteit**: Implementeer nieuwe diensten sneller en behoud keuzevrijheid tussen leveranciers
-- **Toegang tot innovatie**: Krijg sneller toegang tot nieuwe technologieën
-- **Duurzaamheid**: Optimaliseer energieverbruik door gedeelde infrastructuur
+- **Kosteneffectiviteit en flexibiliteit**: betaal alleen voor wat je gebruikt en schaal eenvoudig op en af naar behoefte.
+- **Snellere innovatie**: krijg toegang tot nieuwe technologieën en implementeer diensten sneller.
+- **Minder beheerlasten**: leveranciers beheren de onderliggende infrastructuur, waardoor je je kunt richten op dienstverlening.
+- **Betrouwbaarheid en duurzaamheid**: profiteer van hogere uptime en geoptimaliseerd energieverbruik door gedeelde infrastructuur.
 
 Door een cloud-gedreven strategie met aandacht voor soevereiniteit en interoperabiliteit te hanteren, kun je innovatiever, flexibeler en kosteneffectiever werken terwijl je de controle behoudt over je data en profiteert van de nieuwste technologische ontwikkelingen.
 
@@ -33,7 +30,7 @@ Door een cloud-gedreven strategie met aandacht voor soevereiniteit en interopera
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards"></div>
+    <div class="action-cards" data-richtlijn="cloud"></div>
 </div>
 
 <!-- Kubernetes Cluster Modal Form -->
@@ -237,3 +234,128 @@ kubectl get nodes
         </div>
     </div>
 </div>
+
+## Bewezen praktijken
+
+### 1. Begrijpen
+
+Begin met een heldere behoeftestelling: wat probeer je functioneel te bereiken? Dit is fundamenteel en voorkomt dat je cloud als doel op zichzelf ziet. Bepaal vervolgens je rol (ben je maker of inkoper?) en evalueer verschillende cloudmodellen. Digitale soevereiniteit en dataregie zijn centrale overwegingen: waar worden je gegevens opgeslagen, wie heeft er toegang toe en onder welke jurisdictie valt de cloudprovider? Bedenk ook het verhaal voor bestuurders: waarom is cloud nodig en welke risico's pak je hiermee aan?
+
+??? expander "Praktische tips"
+    - **Start met behoeftestelling** - Formuleer helder wat je functioneel wilt bereiken voordat je over technologie nadenkt. Een te complexe behoeftestelling kan laaghangend fruit blokkeren.
+    - **Bepaal je rol en organisatietype** - Ben je maker (development team) of inkoper? Werk je voor een gemeente of rijksoverheid? Dit bepaalt je sourcing-strategie en verantwoordelijkheden (zie [Definieer je inkoopstrategie](../inkoop/index.md){:target="_blank"}).
+    - **Cloud-first benadering** - Start met de assumptie dat cloud voordelen biedt, maar weeg deze af tegen je specifieke eisen. Cloud is geen heilige graal. Zie [Nederlandse Digitaliserings Strategie (NDS) prioriteit Cloud](https://www.digitaleoverheid.nl/nederlandse-digitaliseringsstrategie-nds/6-prioriteiten-voor-een-overheid/prioriteit-1-cloud/){:target="_blank"}.
+    - **Bepaal geschiktheid** - Cloud is vaak geschikt voor nieuwe applicaties, vernieuwing van IT-systemen, fluctuerende vraag, test- en ontwikkelomgevingen en data-intensieve toepassingen.
+    - **Overweeg alternatieven** - On-premise of hybride oplossingen kunnen beter passen bij specifieke beveiligings-/compliance-eisen, juridische vereisten voor lokale opslag, specifieke hardwarevereisten of bestaande investeringen die nog niet zijn afgeschreven.
+    - **Evalueer verschillende cloudmodellen** - Soevereine cloud (Europese controle over data en infrastructuur), publieke cloud (AWS, Azure, Google), private cloud (dedicated infrastructuur) of hybride/multi-cloud combinaties. Zie [Soevereine overheidscloud visie](https://www.rijksoverheid.nl/documenten/rapporten/2025/12/18/bijlage-2-visie-digitale-autonomie-en-soevereiniteit-van-de-overheid){:target="_blank"}.
+    - **Beoordeel digitale soevereiniteit** - Overweeg in hoeverre cloudoplossingen voldoen aan eisen voor Europese soevereiniteit en dataregie.
+    - **Voer een verplichte risicoanalyse uit** - Doe een [DPIA (Data Protection Impact Assessment)](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia){:target="_blank"} en/of [DTIA (Data Transfer Impact Assessment)](https://www.autoriteitpersoonsgegevens.nl/themas/internationaal/doorgifte-binnen-en-buiten-de-eer/doorgifte-persoonsgegevens-buiten-de-eer){:target="_blank"} volgens het [Implementatiekader risicoafweging](https://open.overheid.nl/documenten/ronl-734f947ec6465e4f75a56bed82fe64a1135f71a8/pdf){:target="_blank"}.
+    - **Classificeer je data** - Bepaal welke gegevens welk beschermingsniveau vereisen en in welk type cloud ze kunnen worden opgeslagen. Gebruik het [Implementatiekader risicoafweging](https://open.overheid.nl/documenten/ronl-734f947ec6465e4f75a56bed82fe64a1135f71a8/pdf) als leidraad.
+    - **Definieer je workload** - Stel vroeg vast wat de workload-karakteristieken zijn (compute, storage, netwerk, piekmomenten). Zie [Cloud Adoption Framework](https://docs.microsoft.com/nl-nl/azure/cloud-adoption-framework/){:target="_blank"} voor hulp.
+    - **Overweeg datalokaliteit** - Waar worden data opgeslagen en verwerkt? Blijft dit binnen EU/NL grenzen?
+    - **Vertel het verhaal** - Bestuurders en beleidsmakers hebben vaak een legacy-mindset. Leg uit waarom cloud nodig is: welke continuïteitsrisico's zie je en hoe pakt cloud deze aan? Wees voorbereid op kritische vragen.
+    - **Betrek stakeholders vroeg** - Zorg dat bestuurders, privacy officers, security teams en eindgebruikers vanaf het begin betrokken zijn.
+
+### 2. Ontwikkelen, ontwerpen en inkopen
+
+Werk wendbaar en cloud-native: cloud vraagt om een dynamische, kort-cyclische aanpak. Kies voor cloud-native strategieën die portabiliteit borgen. Open source is vaak een logisch gevolg van deze aanpak (zie de richtlijn [Werk transparant en gebruik open source](../open-source/index.md){:target="_blank"}), niet een doel op zichzelf. Zorg ervoor dat dezelfde eisen gelden voor je eigen organisatie als voor externe leveranciers.
+
+Ontwikkelen & ontwerpen
+??? expander "Praktische tips"
+    - **Werk wendbaar en kort-cyclisch** - Cloud vraagt om een dynamische aanpak. Agile is geen voorwaarde, maar kort-cyclisch werken is essentieel voor het tempo waarin we nu veranderen.
+    - **Beveilig vanaf het begin** - Implementeer beveiliging en compliance vanaf het ontwerp (zie [Maak veilige systemen](../veiligheid/index.md){:target="_blank"}). Overweeg [PCI DSS](https://www.pcisecuritystandards.org/){:target="_blank"} als concrete standaard (concreter dan [BIO](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/bio-en-ensia/){:target="_blank"}).
+    - **Gebruik Infrastructure as Code (IaC)** - Definieer infrastructuur in code voor reproduceerbaarheid en versiebeheer (bijv. [Terraform](https://www.terraform.io/){:target="_blank"}, [Pulumi](https://www.pulumi.com/){:target="_blank"}). Dit werkt uitstekend voor IaaS-omgevingen.
+    - **Overweeg GitOps** - De next level van IaC: alles in code en git is de boss. Je hele infrastructuur en configuratie wordt gedeclareerd in git. Zie [GitOps Principles](https://opengitops.dev/){:target="_blank"}.
+    - **Implementeer secrets management** - Bewaar wachtwoorden, API-keys en certificaten veilig buiten je code (bijv. [HashiCorp Vault](https://www.vaultproject.io/){:target="_blank"}, cloud-native oplossingen).
+    - **Kies voor cloud-native strategieën** - Ontwerp voor portabiliteit en flexibiliteit. Multi-cloud en hybride oplossingen geven je meer keuzevrijheid. Zie [Cloud Native Computing Foundation](https://www.cncf.io/){:target="_blank"}.
+    - **Pas Site Reliability Engineering (SRE) principes toe** - Focus op betrouwbaarheid, definieer SLO's (Service Level Objectives) en SLI's (Service Level Indicators). Ga ervan uit dat systemen kunnen falen en ontwerp daarop. 100% uptime bestaat niet. Zie [Google SRE Book](https://sre.google/books/){:target="_blank"}.
+    - **Gebruik open standaarden** - Kies oplossingen die interoperabel zijn en vendor lock-in beperken (zie [Gebruik open standaarden](../open-standaarden/index.md){:target="_blank"}). Open source is vaak een logisch gevolg, niet een doel op zichzelf.
+    - **Plan een exit-strategie** - Ontwerp zo dat je kunt migreren naar andere cloudproviders zonder complete herbouw. Besef: 1 cloud is geen cloud. Portabiliteit vraagt bewuste keuzes.
+    - **Denk na over identity en access management** - De plek van identity is strategisch cruciaal voor een goede multi-cloud omgeving.
+    - **Zorg voor organisatie transformatie** - Cloud vraagt om nieuwe rollen en vaardigheden. Denk vooraf na over de nieuwe functies en waar expertise komt te liggen. Investeer in verandermanagement om de transitie goed uit te leggen.
+    - **Ontwikkel cloudvaardigheden** - Investeer in training en certificeringen voor je team (AWS, Azure, Kubernetes, etc.). Voor elke IT-rol moet cloud-kennis beschikbaar zijn. Zie [Linux Foundation Training](https://training.linuxfoundation.org/resources/){:target="_blank"}.
+    - **Test met prototypes** - Valideer technische aannames met kleine proof-of-concepts voordat je groot investeert.
+    - **Borg privacy** - Zorg dat cloudgebruik voldoet aan [AVG](https://autoriteitpersoonsgegevens.nl/nl/over-privacy/wetten/algemene-verordening-gegevensbescherming-avg){:target="_blank"} en andere privacywetgeving (zie [Maak privacy integraal](../privacy/index.md){:target="_blank"}).
+
+Inkopen
+??? expander "Praktische tips"
+    - **Besef dat cloud-inkoop anders is** - Inkopen van cloud is fundamenteel anders dan klassieke software-inkoop. Bij cloud voldoe je meer aan de voorwaarden van de aanbieders dan andersom. Het verdienmodel is service-gericht, niet product-gericht.
+    - **Volg de cloudregels** - Gebruik het [Implementatiekader risicoafweging](https://open.overheid.nl/documenten/ronl-734f947ec6465e4f75a56bed82fe64a1135f71a8/pdf){:target="_blank"} bij aanbesteding van clouddiensten.
+    - **Vergelijk total cost of ownership (TCO)** - Kijk verder dan alleen de directe cloudkosten: migratie, training, onderhoud en exit-kosten zijn ook relevant. Zie [AWS TCO Calculator](https://aws.amazon.com/tco-calculator/){:target="_blank"} of [Azure TCO Calculator](https://azure.microsoft.com/nl-nl/pricing/tco/calculator/){:target="_blank"}.
+    - **Stel exit-plan als inkoop voorwaarde** - Vraag leveranciers jaarlijks aan te tonen dat je kunt migreren. Als je het goed hebt ingericht, heb je de lock-in niet.
+    - **Stel dezelfde eisen aan organisatie én leveranciers** - De eisen die je stelt aan externe partijen moeten ook voor je eigen organisatie gelden.
+    - **Beoordeel vendor lock-in risico's** - Evalueer hoe afhankelijk je wordt van één leverancier en wat de kosten zijn om te wisselen.
+    - **Bouw flexibiliteit in** - Leer van Gemeente Amsterdam die inkoopt met clausules waarmee ze kunnen veranderen tijdens de looptijd. Cloud is een moving target.
+    - **Controleer compliance** - Zorg dat de cloudprovider voldoet aan relevante certificeringen ([ISO 27001](https://www.nen.nl/nen-en-iso-iec-27001-2023-en-313608){:target="_blank"}, [SOC 2](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2){:target="_blank"}, [PCI DSS](https://www.pcisecuritystandards.org/){:target="_blank"}, etc.). Voor rijksambtenaren kunnen ISO-normen [hier](https://www.lees-rijk.nl/user/login?destination=search) worden geraadpleegd.
+    - **Verifieer datalokaliteit** - Vraag waar datacenters zich bevinden en onder welke jurisdictie ze vallen.
+    - **Check contractvoorwaarden** - Let op SLA's, ondersteuning, dataportabiliteit en beëindigingsclausules.
+    - **Evalueer duurzaamheid** - Vraag naar energieverbruik, groene energie en CO2-compensatie (zie [Maak je technologie duurzaam](../duurzaamheid/index.md){:target="_blank"}).
+
+### 3. Testen, meten en verbeteren
+
+Monitor cloudkosten, prestaties en beveiliging continu. Implementeer FinOps-principes voor kostenoptimalisatie en pas je strategie aan op basis van ervaring. Blijf je cloudarchitectuur, maar ook je organisatie, evalueren en optimaliseren. Test regelmatig je disaster recovery en evalueer of je transformatie slaagt.
+
+??? expander "Praktische tips"
+    - **Pas FinOps principes toe** - Implementeer Financial Operations practices voor kostenoptimalisatie: betrek finance, engineering en business bij cloudbeslissingen. Zie [FinOps Foundation](https://www.finops.org/){:target="_blank"}.
+    - **Implementeer kostenbeheer** - Gebruik tools om cloudkosten te monitoren en budgetlimieten in te stellen. Zie [AWS Cost Management](https://aws.amazon.com/aws-cost-management/){:target="_blank"}, [Azure Cost Management](https://azure.microsoft.com/nl-nl/products/cost-management/){:target="_blank"} of [Google Cloud Cost Management](https://cloud.google.com/cost-management){:target="_blank"}.
+    - **Optimaliseer resources** - Review regelmatig of je resources efficiënt gebruikt (rightsizing, reserved instances, spot instances).
+    - **Monitor beveiliging** - Gebruik cloud-native security tools en voer regelmatig audits uit. Zie [BIO (Baseline Informatiebeveiliging Overheid)](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/bio-en-ensia/){:target="_blank"}.
+    - **Test disaster recovery** - Voer regelmatig disaster recovery tests uit om te valideren dat je backup- en recovery-procedures werken.
+    - **Test je exit-strategie** - Voer regelmatig oefeningen uit om te valideren dat je daadwerkelijk kunt migreren.
+    - **Meet prestaties met SLO's/SLI's** - Monitor uptime, latency en doorvoer aan de hand van Service Level Objectives en Indicators. Zie [Google SRE Book: SLO's](https://sre.google/sre-book/service-level-objectives/){:target="_blank"}.
+    - **Evalueer compliance** - Controleer periodiek of cloudgebruik nog voldoet aan regelgeving ([AVG](https://autoriteitpersoonsgegevens.nl/nl/over-privacy/wetten/algemene-verordening-gegevensbescherming-avg){:target="_blank"}, [BIO](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/bio-en-ensia/){:target="_blank"}, [Wbni](https://wetten.overheid.nl/BWBR0041515/2024-10-01){:target="_blank"}).
+    - **Monitor je organisatie transformatie** - Evalueer of teams de nieuwe vaardigheden ontwikkelen en of verandermanagement effectief is.
+    - **Blijf leren** - Volg ontwikkelingen in cloudtechnologie en -beleid en pas je strategie aan. Cloud is een moving target.
+    - **Deel kennis** - Publiceer ervaringen en best practices binnen de overheid om van elkaar te leren.
+
+## Implementatie per fase
+
+Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "5. Hanteer een cloud-gedreven strategie"](fases.md).
+
+## Gerelateerde hulpmiddelen
+
+#### Naslagwerk
+
+- [Cloud Adoption Framework](https://docs.microsoft.com/nl-nl/azure/cloud-adoption-framework/) - Microsoft's framework voor cloudadoptie
+- [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/) - Best practices voor cloudarchitectuur
+- [Google SRE Book](https://sre.google/books/) - Site Reliability Engineering principes
+- [GitOps Principles](https://opengitops.dev/) - GitOps standaarden en best practices
+- [NORA (Nederlandse Overheids Referentie Architectuur)](https://www.noraonline.nl/wiki/Cloud_computing) - Architectuurprincipes overheid
+- [Onderzoek cloudgebruik en ondersteuning gemeenten](https://gce.scgemeenten.nl/project/onderzoek-cloudgebruik-en-ondersteuning-gemeenten/) - Onderzoek naar cloudgebruik door Nederlandse gemeenten
+- [Rijk ging zonder afwegingen de cloud in](https://www.rekenkamer.nl/actueel/nieuws/2025/01/15/rijk-ging-zonder-afwegingen-de-cloud-in) - Rekenkamer rapport over cloudgebruik door de Rijksoverheid
+- [PCI DSS (Payment Card Industry Data Security Standard)](https://www.pcisecuritystandards.org/) - Payment Card Industry Data Security Standard
+
+#### Beleid, wetten en standaarden
+
+- [Nederlandse Digitaliserings Strategie (NDS) prioriteit Cloud](https://www.digitaleoverheid.nl/nederlandse-digitaliseringsstrategie-nds/6-prioriteiten-voor-een-overheid/prioriteit-1-cloud/){:target="_blank"}
+- [Implementatiekader risicoafweging](https://open.overheid.nl/documenten/ronl-734f947ec6465e4f75a56bed82fe64a1135f71a8/pdf) - Verplicht kader voor risicoafweging bij cloudgebruik
+- [Meerjarenvisie Digitale Overheid 2025-2030](https://www.tweedekamer.nl/downloads/document?id=2025D43432) - Langetermijnvisie digitalisering
+- [BIO (Baseline Informatiebeveiliging Overheid)](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/bio-en-ensia/) - Beveiligingsnormen overheid
+- [SOC 2 (Service Organization Control 2)](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2){:target="_blank"} - Een door de AICPA ontwikkeld raamwerk voor IT-audits, dat tot doel heeft de veiligheid, beschikbaarheid, verwerkingsintegriteit, vertrouwelijkheid en privacy van klantgegevens te waarborgen.
+- [VIR (Voorschrift Informatiebeveiliging Rijksdienst)](https://zoek.officielebekendmakingen.nl/stcrt-2025-30222.html) - Informatiebeveiligingsvoorschrift Rijksdienst
+- [AVG (Algemene Verordening Gegevensbescherming)](https://autoriteitpersoonsgegevens.nl/nl/over-privacy/wetten/algemene-verordening-gegevensbescherming-avg) - Privacywetgeving
+- [DPIA (Data Protection Impact Assessment)](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia) - Verplichte privacytoets
+- [DTIA (Data Transfer Impact Assessment)](https://www.autoriteitpersoonsgegevens.nl/themas/internationaal/doorgifte-binnen-en-buiten-de-eer/doorgifte-persoonsgegevens-buiten-de-eer) - Toets voor dataoverdracht buiten EER
+- [ISO 27001](https://www.nen.nl/nen-en-iso-iec-27001-2023-en-313608) - Internationale standaard voor informatiebeveiliging. Voor rijksambtenaren kunnen ISO-normen [hier](https://www.lees-rijk.nl/user/login?destination=search) worden geraadpleegd.
+- [Wbni (Wet beveiliging netwerk- en informatiesystemen)](https://wetten.overheid.nl/BWBR0041515/2024-10-01) - Cybersecuritywetgeving
+
+#### Communities
+
+- [Dutch Cloud Commmunity](https://dutchcloudcommunity.nl/){:target="_blank"} - De branchevereniging voor de Nederlandse cloud- en internetsector.
+- [Opensourcewerken community](https://developer.overheid.nl/communities/open-source-werken) - Open source discussies
+- [Common Ground](https://developer.overheid.nl/communities/common-ground) - Gemeenten werken samen met een community van betrokkenen partijen aan bouwstenen, zoals softwaretoepassingen, technische componenten of standaarden voor gegevensuitwisseling.
+
+#### Trainingen
+
+- [Linux Foundation Training](https://training.linuxfoundation.org/resources/) - Gratis en betaalde cloud-gerelateerde cursussen (Kubernetes, cloud-native, etc.)
+- [Linux Foundation Cloud & Containers Trainingen](https://training.linuxfoundation.org/full-catalog/?_sft_product_type=training&_sft_topic_area=cloud-containers) - Volledige catalogus van cloud en container trainingen (cursussen gratis, certificeringen betaald)
+- [Linux Foundation Cloud & Containers Certificeringen](https://training.linuxfoundation.org/full-catalog/?_sft_product_type=certification&_sft_topic_area=cloud-containers) - Cloud en container certificeringen (betaald)
+- [RADIO (RijksAcademie voor Digitalisering en Informatisering Overheid)](https://www.it-academieoverheid.nl/onderwerpen/c/cloud-computing/cursussen-cloud) - Trainingen voor rijksambtenaren
+- Cloud provider certificeringen - AWS Certified Solutions Architect, Azure Administrator, Google Cloud Engineer
+
+### Gerelateerde richtlijnen
+
+- [6. Maak veilige systemen](../veiligheid/index.md){:target="_blank"}
+- [7. Maak privacy integraal](../privacy/index.md){:target="_blank"}
+- [12. Definieer je inkoopstrategie](../inkoop/index.md){:target="_blank"}
+- [13. Maak je technologie duurzaam](../duurzaamheid/index.md){:target="_blank"}

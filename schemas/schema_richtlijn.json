@@ -14,6 +14,10 @@
     "Waarom is het belangrijk?",
     "Hoe pas je het toe?"
   ],
+  "conditional_headers": [
+    "Gerelateerde hulpmiddelen",
+    "Gerelateerde standaarden"
+  ],
   "content_validation": {
     "check_section_content": true,
     "minimum_content_length": 10

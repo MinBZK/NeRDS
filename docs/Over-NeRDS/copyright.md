@@ -33,4 +33,4 @@ De NeRDS is beschikbaar onder de **European Union Public Licence (EUPL) v. 1.2**
 
 De volledige licentietekst is beschikbaar in de [LICENSE.md](https://github.com/MinBZK/NeRDS/blob/main/LICENSE.md) file in de repository.
 
-U kunt de licentie ook raadplegen op de [officiële EUPL website](https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12).
+U kunt de licentie ook raadplegen op de [officiële EUPL website](https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12).
