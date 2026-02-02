@@ -244,7 +244,7 @@ Begin met een heldere behoeftestelling: wat probeer je functioneel te bereiken? 
 ??? expander "Praktische tips"
     - **Start met behoeftestelling** - Formuleer helder wat je functioneel wilt bereiken voordat je over technologie nadenkt. Een te complexe behoeftestelling kan laaghangend fruit blokkeren.
     - **Bepaal je rol en organisatietype** - Ben je maker (development team) of inkoper? Werk je voor een gemeente of rijksoverheid? Dit bepaalt je sourcing-strategie en verantwoordelijkheden (zie [Definieer je inkoopstrategie](../inkoop/index.md){:target="_blank"}).
-    - **Cloud-first benadering** - Start met de assumptie dat cloud voordelen biedt, maar weeg deze af tegen je specifieke eisen. Cloud is geen heilige graal. Zie [Kamerbrief Rijksbreed cloudbeleid](https://open.overheid.nl/documenten/ronl-a79331dc7c088f2cb6259f591c3b4f2fbcc9b5f1/pdfbeleid/){:target="_blank"}.
+    - **Cloud-first benadering** - Start met de assumptie dat cloud voordelen biedt, maar weeg deze af tegen je specifieke eisen. Cloud is geen heilige graal. Zie [Nederlandse Digitaliserings Strategie (NDS) prioriteit Cloud](https://www.digitaleoverheid.nl/nederlandse-digitaliseringsstrategie-nds/6-prioriteiten-voor-een-overheid/prioriteit-1-cloud/){:target="_blank"}.
     - **Bepaal geschiktheid** - Cloud is vaak geschikt voor nieuwe applicaties, vernieuwing van IT-systemen, fluctuerende vraag, test- en ontwikkelomgevingen en data-intensieve toepassingen.
     - **Overweeg alternatieven** - On-premise of hybride oplossingen kunnen beter passen bij specifieke beveiligings-/compliance-eisen, juridische vereisten voor lokale opslag, specifieke hardwarevereisten of bestaande investeringen die nog niet zijn afgeschreven.
     - **Evalueer verschillende cloudmodellen** - Soevereine cloud (Europese controle over data en infrastructuur), publieke cloud (AWS, Azure, Google), private cloud (dedicated infrastructuur) of hybride/multi-cloud combinaties. Zie [Soevereine overheidscloud visie](https://www.rijksoverheid.nl/documenten/rapporten/2025/12/18/bijlage-2-visie-digitale-autonomie-en-soevereiniteit-van-de-overheid){:target="_blank"}.
@@ -327,6 +327,7 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "5. Hanteer ee
 
 #### Beleid, wetten en standaarden
 
+- [Nederlandse Digitaliserings Strategie (NDS) prioriteit Cloud](https://www.digitaleoverheid.nl/nederlandse-digitaliseringsstrategie-nds/6-prioriteiten-voor-een-overheid/prioriteit-1-cloud/){:target="_blank"}
 - [Implementatiekader risicoafweging](https://open.overheid.nl/documenten/ronl-734f947ec6465e4f75a56bed82fe64a1135f71a8/pdf) - Verplicht kader voor risicoafweging bij cloudgebruik
 - [Meerjarenvisie Digitale Overheid 2025-2030](https://www.tweedekamer.nl/downloads/document?id=2025D43432) - Langetermijnvisie digitalisering
 - [BIO (Baseline Informatiebeveiliging Overheid)](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/bio-en-ensia/) - Beveiligingsnormen overheid
@@ -349,7 +350,7 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "5. Hanteer ee
 - [Linux Foundation Training](https://training.linuxfoundation.org/resources/) - Gratis en betaalde cloud-gerelateerde cursussen (Kubernetes, cloud-native, etc.)
 - [Linux Foundation Cloud & Containers Trainingen](https://training.linuxfoundation.org/full-catalog/?_sft_product_type=training&_sft_topic_area=cloud-containers) - Volledige catalogus van cloud en container trainingen (cursussen gratis, certificeringen betaald)
 - [Linux Foundation Cloud & Containers Certificeringen](https://training.linuxfoundation.org/full-catalog/?_sft_product_type=certification&_sft_topic_area=cloud-containers) - Cloud en container certificeringen (betaald)
-- [Rijkscompetentiecentrum](https://www.rijksoverheid.nl/onderwerpen/rijksoverheid-als-werkgever/rijksacademie) - Trainingen voor rijksambtenaren
+- [RADIO (RijksAcademie voor Digitalisering en Informatisering Overheid)](https://www.it-academieoverheid.nl/onderwerpen/c/cloud-computing/cursussen-cloud) - Trainingen voor rijksambtenaren
 - Cloud provider certificeringen - AWS Certified Solutions Architect, Azure Administrator, Google Cloud Engineer
 
 ### Gerelateerde richtlijnen
