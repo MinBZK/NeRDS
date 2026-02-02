@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - development
     tags:
       - '*'
 
@@ -40,22 +39,6 @@ jobs:
         run: |
           uv venv
           uv pip install -r requirements.txt
-          uv pip install mike  # Add mike installation
 
-      - name: Configure git for mike
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Fetch gh-pages branch
-        run: |
-          git fetch origin gh-pages --depth=1 || echo "gh-pages branch doesn't exist yet"
-
-      - name: Deploy with mike
-        run: |
-          if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
-            uv run mike deploy production latest --push --update-aliases
-            uv run mike set-default production --push
-          else
-            uv run mike deploy development --push
-          fi
+      - name: Deploy
+        run: uv run mkdocs gh-deploy --force

@@ -96,9 +96,6 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/MinBZK/NeRDS
-  version:
-    provider: mike
-    default: production
 
 
 extra_css:
@@ -119,7 +116,6 @@ extra_javascript:
   - javascripts/tablesort.js
   - javascripts/filtering.js
   - javascripts/cluster-form.js
-  - javascripts/version-dutch.js
   - javascripts/feedback-config.js
   - javascripts/feedback-i18n.js
   - javascripts/feedback-widget.js
@@ -133,10 +129,6 @@ plugins:
       locale: nl
   - awesome-pages:
       collapse_single_pages: true
-  - mike:
-      alias_type: symlink
-      version_selector: true
-      canonical_version: production
 
 # Link naar GitHub repo
 repo_url: https://github.com/MinBZK/NeRDS

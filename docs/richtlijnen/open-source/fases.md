@@ -5,8 +5,6 @@ relations:
   - open-source
 ---
 
-!!! warning "In ontwikkeling"
-    Deze pagina is in ontwikkeling.
 
 ## Wanneer doe je wat?
 

@@ -7,9 +7,6 @@ relations:
   - privacy
 ---
 
-!!! warning "In ontwikkeling"
-    Deze pagina is nog in ontwikkeling.
-
 ## Wanneer doe je wat?
 
 Het hanteren van een cloud-gedreven strategie vraagt om gefaseerd handelen: van het evalueren van cloudgeschiktheid tot het actief monitoren en optimaliseren van cloudomgevingen. Deze pagina beschrijft per fase van ontwerpen, ontwikkelen en inkopen welke stappen je zet en welke uitkomsten je mag verwachten.
