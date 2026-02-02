@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - development
     tags:
       - '*'
 
@@ -39,6 +40,7 @@ jobs:
         run: |
           uv venv
           uv pip install -r requirements.txt
+          uv pip install mike  # Add mike installation
 
       - name: Deploy
         run: uv run mkdocs gh-deploy --force

@@ -19,7 +19,7 @@ Een cloud-gedreven strategie betekent dat je bij het ontwikkelen of vernieuwen v
 - **Minder beheerlasten**: leveranciers beheren de onderliggende infrastructuur, waardoor je je kunt richten op dienstverlening.
 - **Betrouwbaarheid en duurzaamheid**: profiteer van hogere uptime en geoptimaliseerd energieverbruik door gedeelde infrastructuur.
 
-Door een cloud-gedreven strategie met aandacht voor soevereiniteit te hanteren, kun je innovatiever, flexibeler en kosteneffectiever werken terwijl je de controle behoudt over je data en profiteert van de nieuwste technologische ontwikkelingen.
+Door een cloud-gedreven strategie met aandacht voor soevereiniteit en interoperabiliteit te hanteren, kun je innovatiever, flexibeler en kosteneffectiever werken terwijl je de controle behoudt over je data en profiteert van de nieuwste technologische ontwikkelingen.
 
 ## Hoe pas je het toe?
 

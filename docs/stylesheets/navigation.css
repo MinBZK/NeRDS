@@ -133,6 +133,25 @@ h1{
 
 .md-ellipsis {
   color: #154273;
+  display: none;
+}
+
+/* Not showing site_name in title */
+.md-header .md-header__inner .md-header__title .md-header__ellipsis .md-header__topic .md-ellipsis {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  position: absolute !important;
+  left: -9999px !important;
+}
+
+/* Ensure navigation ellipsis stays visible */
+.md-nav .md-ellipsis {
+  display: inline !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  position: static !important;
+  left: auto !important;
 }
 
 /* Not showing site_name in title */

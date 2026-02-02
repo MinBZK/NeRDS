@@ -10,3 +10,4 @@ pandas==2.3.3
 pymdown-extensions==10.18
 PyYAML==6.0.3
 jsonschema==4.25.1
+mike>=2.0.0

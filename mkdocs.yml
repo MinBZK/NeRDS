@@ -96,6 +96,10 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/MinBZK/NeRDS
+  version:
+    provider: mike
+    default: production
+
 
 
 extra_css:
@@ -129,6 +133,10 @@ plugins:
       locale: nl
   - awesome-pages:
       collapse_single_pages: true
+  - mike:
+      alias_type: symlink
+      version_selector: true
+      canonical_version: production
 
 # Link naar GitHub repo
 repo_url: https://github.com/MinBZK/NeRDS
