@@ -8,6 +8,16 @@ actions:
     action: Registreren
     date_added: 08-12-2025
     status: beschikbaar
+  - id: volwassenheidsmodel-digitale-autonomie
+    name: Volwassenheidsmodel Digitale Autonomie
+    source: https://digitaleautonomie.pleio.nl/project/view/be08e155-19a1-4ac3-bddb-cc31a352f088/volwassenheidsmodel
+    description: "Beoordeel zelf de digitale autonomie van uw organisatieprocessen"
+    richtlijn: [cloud, inkoop]
+    fase: [verkenning]
+    type: tool
+    action: Starten
+    date_added: 02-02-2025
+    status: ontwikkeling
   - id: algoritmekader
     name: Algoritmekader
     source: https://minbzk.github.io/Algoritmekader/
