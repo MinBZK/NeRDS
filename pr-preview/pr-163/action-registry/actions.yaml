@@ -1,0 +1,669 @@
+actions:
+  - id: algoritme-management-toolkit
+    name: Algoritme Management Toolkit
+    source: https://amt.prd.apps.digilab.network/
+    description: "Register voor risicovolle algoritmen"
+    richtlijn: algoritmen
+    type: tool
+    action: Registreren
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: volwassenheidsmodel-digitale-autonomie
+    name: Volwassenheidsmodel Digitale Autonomie
+    source: https://digitaleautonomie.pleio.nl/project/view/be08e155-19a1-4ac3-bddb-cc31a352f088/volwassenheidsmodel
+    description: "Beoordeel zelf de digitale autonomie van uw organisatieprocessen"
+    richtlijn: [cloud, inkoop]
+    fase: [verkenning]
+    type: tool
+    action: Starten
+    date_added: 02-02-2025
+    status: ontwikkeling
+  - id: algoritmekader
+    name: Algoritmekader
+    source: https://minbzk.github.io/Algoritmekader/
+    description: "Richtlijnen voor verantwoord algoritmebeheer"
+    richtlijn: algoritmen
+    type: tool
+    action: Verkennen
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: algoritmeregister
+    name: Algoritmeregister
+    source: https://algoritmes.overheid.nl/nl
+    description: "Registreer je (impactvolle) algoritme in het nationale register"
+    richtlijn: algoritmen
+    type: tool
+    action: Verkennen
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: beslishulp-ai-verordening
+    name: Beslishulp AI-verordening
+    source: https://ai-verordening-beslishulp.apps.digilab.network/
+    description: "Bepaal direct welke voorschriften gelden"
+    richtlijn: algoritmen
+    type: tool
+    action: Starten
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: llm-benchmark
+    name: LLM Benchmark
+    source: https://github.com/MinBZK/llm-benchmark
+    description: "Benchmark voor taalmodellen (LLMs)"
+    richtlijn: algoritmen
+    type: tool
+    action: Verkennen
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: unsupervised-biasdetection-tool
+    name: Unsupervised Biasdetection Tool
+    source: https://algorithmaudit.eu/technical-tools/bdt/
+    description: "Een statistisch hulpmiddel dat groepen identificeert waar een algoritme afwijkende prestaties laat zien"
+    richtlijn: algoritmen
+    type: tool
+    action: Verkennen
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: azure-bio-compliancy
+    name: Azure Bio-Compliancy
+    source: https://github.com/Azure/Bio-Compliancy
+    description: "Cloud compliance voor overheidsorganisaties"
+    richtlijn: cloud
+    fase: [ontwerp, bouw]
+    type: tool
+    action: Ontdekken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: cloud-assessment
+    name: Cloud Assessment
+    source: null
+    description: "Beoordeel uw cloudgereedheid"
+    richtlijn: cloud
+    fase: verkenning
+    type: tool
+    action: Verkennen
+    date_added: 08-12-2025
+    status: concept
+  - id: haven-cloud
+    name: Haven
+    source: https://haven.commonground.nl/
+    description: "Platformonafhankelijke cloudhosting"
+    richtlijn: cloud
+    fase: [ontwerp, bouw]
+    type: tool
+    action: Ontdekken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: kubernetes-service
+    name: Kubernetes Service
+    source: null
+    description: "Beheerde K8s met compliance"
+    richtlijn: cloud
+    fase: bouw
+    type: form
+    action: Aanmaken
+    date_added: 08-12-2025
+    status: demo
+    component: kubernetes-cluster-form
+  - id: standaard-voor-publieke-code
+    name: Standaard voor publieke code
+    source: https://www.standaardvoorpubliekecode.nl/
+    description: "Richtlijnen voor het ontwikkelen en beheren van software en beleid"
+    richtlijn: open-source
+    fase: [ontwerp, bouw]
+    type: tool
+    action: Bekijken
+    date_added: 04-01-2025
+    status: beschikbaar
+  - id: beslisboom-cloud
+    name: Beslisboom Cloud
+    source:
+    description: "Helpt bij het kiezen van de juiste cloudoplossing"
+    richtlijn: cloud
+    fase: verkenning
+    type: tool
+    action: Starten
+    date_added: 04-01-2025
+    status: concept
+  - id: handreiking-publieke-waarde-en-rechten-bij-ICT-aanbesteding
+    name: Handreiking publieke waarde bij ICT-aanbesteding
+    source: https://www.pianoo.nl/nl/handreiking-publieke-waarden-en-rechten-bij-aanbesteden-van-ict
+    description: "Stappenplan voor het maken van bewuste keuzes rondom publieke waarde en rechten"
+    richtlijn: open-source
+    fase: ontwerp
+    type: tool
+    action: Bekijken
+    date_added: 04-01-2025
+    status: beschikbaar
+  - id: ambitieladder-opensource
+    name: Ambitieladder opensourcewerken
+    source: https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/
+    description: "Helpt projectteams concrete afspraken te maken over opensourcewerken"
+    richtlijn: open-source
+    fase: [verkenning, ontwerp]
+    type: tool
+    action: Bekijken
+    date_added: 18-12-2025
+    status: beschikbaar
+  - id: open-stad
+    name: Open Stad
+    source: https://openstad.org/
+    description: "Open source platform voor participatie en samenwerking"
+    richtlijn: open-source
+    fase: verkenning
+    type: tool
+    action: Bekijken
+    date_added: 03-01-2025
+    status: beschikbaar
+  - id: stappenplan-gebruikersonderzoek
+    name: Stappenplan gebruikersonderzoek
+    source: https://gebruikersonderzoeken.nl/docs/onderzoek-doen/
+    description: "Een praktisch stappenplan voor het uitvoeren van gebruikersonderzoek"
+    richtlijn: gebruikersbehoeften
+    fase: [verkenning]
+    type: tool
+    action: Bekijken
+    date_added: 20-12-2025
+    status: beschikbaar
+  - id: toestemmingsformulier-gebruikersonderzoek
+    name: Toestemmingsformulier gebruikersonderzoek
+    source: https://gebruikersonderzoeken.nl/docs/onderzoek-doen/toestemmingsformulier/
+    description: "Een voorbeeld toestemmingsformulier voor gebruikersonderzoek"
+    richtlijn: gebruikersbehoeften
+    fase: verkenning
+    type: tool
+    action: Bekijken
+    date_added: 20-12-2025
+    status: beschikbaar
+  - id: expertreview-gebruikersbehoefte
+    name: Expertreview Gebruikersbehoefte
+    source: https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/aanvragen-expertreview/
+    description: "Een expertreview gebruiksvriendelijkheid laten uitvoeren"
+    richtlijn: gebruikersbehoeften
+    fase: [bouw]
+    type: tool
+    action: Uitvoeren
+    date_added: 19-12-2025
+    status: beschikbaar
+  - id: overheidscloud
+    name: Overheidscloud
+    source: null
+    description: "Soevereine cloud voor overheidsorganisaties"
+    richtlijn: cloud
+    fase: [verkenning, ontwerp]
+    type: tool
+    action: Aanvragen
+    date_added: 08-12-2025
+    status: concept
+  - id: datacheck
+    name: Datacheck
+    source: null
+    description: "Tool voor datakwaliteitscontrole"
+    richtlijn: data
+    type: tool
+    action: Starten
+    date_added: 08-12-2025
+    status: ontwikkeling
+  - id: open-data
+    name: Open Data
+    source: https://data.overheid.nl/
+    description: "Het open dataportaal van de overheid"
+    richtlijn: data
+    type: tool
+    action: Verkennen
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: synthetische-data
+    name: Synthetische Data
+    source: https://digilab.overheid.nl/projecten/synthetische-datageneratie/
+    description: "Genereer veilige testdata"
+    richtlijn: data
+    type: tool
+    action: Leren
+    date_added: 08-12-2025
+    status: concept
+  - id: co2-calculator
+    name: CO2-calculator
+    source: https://www.metenvanduurzaamheid.nl/overzicht-tools/monitoring-als-tool-voor-bedrijven-en-organisaties/co2-prestatieladder-en-co2-calculator
+    description: "Bereken de CO2-impact van uw IT"
+    richtlijn: duurzaamheid
+    type: tool
+    action: Verkennen
+    date_added: 08-12-2025
+    status: concept
+  - id: green-coding
+    name: Green Coding
+    source: null
+    description: "Best practices voor duurzame software"
+    richtlijn: duurzaamheid
+    type: tool
+    action: Verkennen
+    date_added: 08-12-2025
+    status: ontwikkeling
+  - id: ict-mvi-criteria
+    name: ICT MVI-criteria
+    source: https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria
+    description: "Duurzaamheidscriteria voor ICT-inkoop"
+    richtlijn: duurzaamheid
+    type: tool
+    action: Toepassen
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: cx-volwassenheidsscan
+    name: CX-Volwassenheidsscan
+    source: https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/07/Handboek-voor-het-uitvoeren-van-een-CV-Volwassenheidsscan.pdf
+    description: "Handboek voor het transformeren naar klantgedreven werken"
+    richtlijn: gebruikersbehoeften
+    fase: verkenning
+    type: tool
+    action: Gebruiken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: gebruikersonderzoeken-nl
+    name: Gebruikersonderzoeken.nl
+    source: https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken/
+    description: "Leer van andere onderzoeken en deel je bevindingen"
+    richtlijn: gebruikersbehoeften
+    fase: [verkenning, productie]
+    type: tool
+    action: Bekijken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: gebruikersonderzoeken-nl
+    name: Gebruikersonderzoeken.nl
+    source: https://gebruikersonderzoeken.nl/docs/thema/toegankelijkheid/
+    description: "Leer van andere toegankelijkheidsonderzoeken en deel je bevindingen"
+    richtlijn: toegankelijkheid
+    fase: [verkenning, productie]
+    type: tool
+    action: Bekijken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: meethuis-voor-dienstverlening
+    name: Meethuis voor dienstverlening
+    source: https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/04/Meethuis-Handboek-2025-v2.pdf
+    description: "Voor het maken van een meethuis voor dienstverlening"
+    richtlijn: gebruikersbehoeften
+    fase: [verkenning]
+    type: tool
+    action: Gebruiken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: toolkit-taal
+    name: Toolkit Taal
+    source: https://toolkittaal.gebruikercentraal.nl/richtlijnen/
+    description: "Richtlijnen voor tekst en beeldtaal in overheidscommunicatie"
+    richtlijn: [gebruikersbehoeften, toegankelijkheid]
+    fase: [ontwerp, bouw]
+    type: tool
+    action: Gebruiken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: optimaal-digitaal-tipkaarten
+    name: Optimaal Digitaal Tipkaarten
+    source: https://optimaaldigitaal.gebruikercentraal.nl/tipkaarten/overzicht-van-alle-tips/
+    description: "Praktische tips voor digitale dienstverlening"
+    richtlijn: gebruikersbehoeften
+    fase: [ontwerp, bouw]
+    type: tool
+    action: Bekijken
+    date_added: 19-12-2025
+    status: beschikbaar
+  - id: algoritmekader-inkoop
+    name: Algoritmekader
+    source: https://minbzk.github.io/Algoritmekader/onderwerpen/publieke-inkoop/
+    description: "Richtlijn voor inkoop van verantwoorde algoritmes"
+    richtlijn: inkoop
+    type: tool
+    action: Verkennen
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: inkoopkompas
+    name: Inkoopkompas
+    source: https://www.pianoo.nl/nl/sectoren/ict
+    description: "Kennisplatform voor ICT-inkoop"
+    richtlijn: inkoop
+    type: tool
+    action: Verkennen
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: mvi-criteria
+    name: MVI-criteria
+    source: https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria
+    description: "Criteria voor duurzaam inkopen"
+    richtlijn: inkoop
+    type: tool
+    action: Bekijken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: tco-calculator
+    name: TCO Calculator
+    source: null
+    description: "Bereken Total Cost of Ownership"
+    richtlijn: inkoop
+    type: tool
+    action: Berekenen
+    date_added: 08-12-2025
+    status: ontwikkeling
+  - id: common-ground
+    name: Common Ground
+    source: https://commonground.nl/
+    description: "Visie voor moderne gegevensuitwisseling"
+    richtlijn: integratie
+    type: tool
+    action: Leren
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: fsc
+    name: FSC
+    source: https://fsc-standaard.nl/
+    description: "Open source gegevensuitwisselingssysteem"
+    richtlijn: integratie
+    type: tool
+    action: Verkennen
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: haven-integratie
+    name: Haven
+    source: https://haven.commonground.nl/
+    description: "Platformonafhankelijke cloudhosting"
+    richtlijn: integratie
+    type: tool
+    action: Ontdekken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: code-gov-nl
+    name: Code.gov.nl
+    source: null
+    description: "Publiceer uw code en vind overheidsprojecten"
+    richtlijn: open-source
+    fase: productie
+    type: tool
+    action: Publiceren
+    date_added: 08-12-2025
+    status: concept
+  - id: licentieadvies
+    name: Licentieadvies
+    source: https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/
+    description: "Copyleft: CC BY-SA, GPLv3, AGPLv3 of EUPL-1.2. Permissive: Apache 2.0, MIT, BSD-0-clause"
+    richtlijn: open-source
+    fase: ontwerp
+    type: tool
+    action: Bekijken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: ospo-toolbox
+    name: OSPO Toolbox
+    source: https://ospo-nl.github.io/kennisbank/
+    description: "Tools voor Open Source Program Office"
+    richtlijn: open-source
+    fase: [verkenning, ontwerp]
+    type: tool
+    action: Verkennen
+    date_added: 08-12-2025
+    status: ontwikkeling
+  - id: opensourcewerken
+    name: Opensourcewerken
+    source: https://developer.overheid.nl/communities/open-source-werken
+    description: "Community of practice omtrent open source werken"
+    richtlijn: open-source
+    fase: [verkenning, productie]
+    type: tool
+    action: Verkennen
+    date_added: 08-12-2025
+    status: ontwikkeling
+  - id: api-standaarden
+    name: API Standaarden
+    source: https://docs.geostandaarden.nl/api/API-Strategie/
+    description: "Nederlandse API strategie"
+    richtlijn: open-standaarden
+    type: tool
+    action: Bekijken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: beslisboom-open-standaarden
+    name: Beslisboom Open Standaarden
+    source: https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden
+    description: "Bepaal welke standaarden van toepassing zijn"
+    richtlijn: open-standaarden
+    type: tool
+    action: Starten
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: developer-overheid-api-s
+    name: Developer Overheid API's
+    source: https://apis.developer.overheid.nl/apis
+    description: "Overzicht van overheids-API's"
+    richtlijn: open-standaarden
+    type: tool
+    action: Ontdekken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: standaardenregister
+    name: Standaardenregister
+    source: null
+    description: "Centrale standaardendatabase"
+    richtlijn: open-standaarden
+    type: tool
+    action: Zoeken
+    date_added: 08-12-2025
+    status: ontwikkeling
+  - id: rijksbrede-handreiking-it-sourcing
+    name: Handreiking IT Sourcing
+    source: https://www.digitaleoverheid.nl/rijksbrede-it-sourcingstrategie/dossier-documenten/rijksbrede-handreiking-it-sourcing/
+    description: "Handreiking voor IT-sourcing binnen de Rijksoverheid"
+    richtlijn: inkoop
+    type: tool
+    action: Bekijken
+    date_added: 04-02-2026
+    status: beschikbaar
+  - id: dpia-model
+    name: DPIA-model
+    source: https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia
+    description: "Model voor gegevensbeschermingseffectbeoordeling"
+    richtlijn: privacy
+    type: tool
+    action: Downloaden
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: nicpet-tools
+    name: NICPET Tools
+    source: https://nicpet.pleio.nl/
+    description: "Privacy-bevorderende technologieën"
+    richtlijn: privacy
+    type: tool
+    action: Verkennen
+    date_added: 08-12-2025
+    status: ontwikkeling
+  - id: web-sustainability-guidelines
+    name: Web Sustainability Guidelines
+    source: https://www.w3.org/TR/web-sustainability-guidelines/
+    description: "Richtlijnen voor duurzame webontwikkeling"
+    richtlijn: duurzaamheid
+    type: tool
+    action: Bekijken
+    date_added: 06-01-2025
+    status: beschikbaar
+    fase: [ontwerp, bouw]
+  - id: pre-scan-dpia-dpia-formulier
+    name: Pre-scan DPIA & DPIA Formulier
+    source: https://minbzk.github.io/par-dpia-form/
+    description: "Online formulier voor gegevensbeschermingseffectbeoordeling"
+    richtlijn: [privacy, cloud]
+    fase: verkenning
+    type: tool
+    action: Starten
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: privacy-check
+    name: Privacy Check
+    source: null
+    description: "Geautomatiseerde privacycheck"
+    richtlijn: privacy
+    type: tool
+    action: Starten
+    date_added: 08-12-2025
+    status: concept
+  - id: developer-overheid
+    name: Developer Overheid
+    source: https://developer.overheid.nl/
+    description: "Communities voor overheidsontwikkelaars"
+    richtlijn: samenwerking
+    type: tool
+    action: Deelnemen
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: govhub
+    name: GovHub
+    source: null
+    description: "Centrale hub voor overheidscomponenten"
+    richtlijn: samenwerking
+    type: tool
+    action: Verkennen
+    date_added: 08-12-2025
+    status: concept
+  - id: https://pdfchecker.nl
+    name: PDF Checker
+    source: https://pdfchecker.nl/
+    description: "Controleer de toegankelijkheid van PDF-documenten"
+    richtlijn: toegankelijkheid
+    fase: [bouw]
+    type: tool
+    action: Scannen
+    date_added: 19-12-2025
+    status: beschikbaar
+  - id: is-het-b1
+    name: Is het B1?
+    source: https://ishetb1.nl/
+    description: "Controleer of je tekst op B1-niveau is geschreven"
+    richtlijn: toegankelijkheid
+    fase: [ontwerp, bouw]
+    type: tool
+    action: Scannen
+    date_added: 19-12-2025
+    status: beschikbaar
+  - id: nldoc
+    name: NLDoc
+    source: https://www.digitoegankelijk.nl/nieuws/nldoc-opensource-beschikbaar
+    description: "API's om documenten om te zetten naar toegankelijke, WCAG 2.x-compliant HTML"
+    richtlijn: toegankelijkheid
+    fase: bouw
+    type: tool
+    action: Gebruiken
+    date_added: 19-12-2025
+    status: beschikbaar
+  - id: nl-design-system
+    name: NL Design System
+    source: https://www.nldesignsystem.nl
+    description: "Samen bouwen aan gebruiksvriendelijke overheidswebsites"
+    richtlijn: samenwerking
+    type: tool
+    action: Ontdekken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: nl-design-system
+    name: NL Design System
+    source: https://www.nldesignsystem.nl
+    description: "Samen bouwen aan gebruiksvriendelijke overheidswebsites"
+    richtlijn: gebruikersbehoeften
+    fase: [ontwerp, bouw]
+    type: tool
+    action: Ontdekken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: dashboard-digitoegankelijk
+    name: Dashboard DigiToegankelijk
+    source: https://dashboard.digitoegankelijk.nl/
+    description: "Check toegankelijkheid overheidswebsites"
+    richtlijn: toegankelijkheid
+    fase: [verkenning]
+    type: tool
+    action: Bekijken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: stappenplan-inclusief-ontwerpen
+    name: Stappenplan Inclusief Ontwerpen
+    source: https://toolkitinclusie.gebruikercentraal.nl/inclusief-ontwerpen/stappenplan/
+    description: "Stappenplan voor inclusief ontwerp van Gebruiker Centraal"
+    richtlijn: toegankelijkheid
+    fase: [verkenning, ontwerp]
+    type: tool
+    action: Bekijken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: nl-design-system-toegankelijkheid
+    name: NL Design System
+    source: https://nldesignsystem.nl
+    description: "Toegankelijke componenten"
+    richtlijn: toegankelijkheid
+    fase: [ontwerp, bouw]
+    type: tool
+    action: Gebruiken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: nl-design-system-wcag
+    name: WCAG 2.1 Uitleg
+    source: https://nldesignsystem.nl/wcag/
+    description: "Praktische uitleg en voorbeelden WCAG 2.1 (NLDS)"
+    richtlijn: toegankelijkheid
+    fase: [verkenning, ontwerp]
+    type: tool
+    action: Bekijken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: toegankelijkheidsscan
+    name: Toegankelijkheidsscan
+    source: https://www.w3.org/WAI/test-evaluate/tools/list/
+    description: "Test uw webpagina's op toegankelijkheid"
+    richtlijn: toegankelijkheid
+    fase: [bouw]
+    type: tool
+    action: Scannen
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: toegankelijkheidsverklaring
+    name: Toegankelijkheidsverklaring
+    source: https://www.toegankelijkheidsverklaring.nl/
+    description: "Invulassistent voor toegankelijkheidsverklaringen"
+    richtlijn: toegankelijkheid
+    fase: productie
+    type: tool
+    action: Invullen
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: wcag-em-reporter
+    name: WCAG-EM Reporter
+    source: https://gitlab.com/digilab.overheid.nl/ecosystem/wcag-em-reporter
+    description: "Tool voor het maken van toegankelijkheidsrapporten"
+    richtlijn: toegankelijkheid
+    fase: [bouw, productie]
+    type: tool
+    action: Gebruiken
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: bio-wizard
+    name: BIO Wizard
+    source: https://bio-overheid.nl/ico-wizard
+    description: "Bepaal verplichte beveiligingsmaatregelen"
+    richtlijn: veiligheid
+    type: tool
+    action: Starten
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: internet-nl
+    name: Internet.nl
+    source: https://internet.nl/
+    description: "Test veiligheid van je website of e-mail"
+    richtlijn: veiligheid
+    type: tool
+    action: Testen
+    date_added: 08-12-2025
+    status: beschikbaar
+  - id: openkat
+    name: OpenKAT
+    source: https://github.com/SSC-ICT-Innovatie/nl-kat-coordination
+    description: "Open source security tooling"
+    richtlijn: veiligheid
+    type: tool
+    action: Gebruiken
+    date_added: 08-12-2025
+    status: beschikbaar
