@@ -1,0 +1,1 @@
+../../docs/richtlijnen/privacy/index.md
