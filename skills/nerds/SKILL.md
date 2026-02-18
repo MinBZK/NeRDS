@@ -23,4 +23,4 @@ Lees [richtlijnen.md](richtlijnen.md) voor het volledige overzicht van alle 13 r
 | `/nerds-inkoop` | 12. Definieer je inkoopstrategie |
 | `/nerds-duurzaamheid` | 13. Maak je technologie duurzaam |
 
-Website: https://minbzk.github.io/NeRDS/ | GitHub: https://github.com/MinBZK/NeRDS
+Website: <https://minbzk.github.io/NeRDS/> | GitHub: <https://github.com/MinBZK/NeRDS>
