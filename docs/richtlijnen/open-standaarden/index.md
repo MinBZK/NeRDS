@@ -36,3 +36,14 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
     <div class="action-cards" data-richtlijn="open-standaarden"></div>
     </div>
 </div>
+
+## Gerelateerde standaarden
+
+- [Forum Standaardisatie - Lijst open standaarden](https://www.forumstandaardisatie.nl/open-standaarden){:target="_blank"} - De 'pas toe of leg uit'-lijst van verplichte open standaarden voor de overheid
+- [Instructie Rijksdienst bij aanschaf ICT-diensten of ICT-producten](https://wetten.overheid.nl/BWBR0024717/2008-11-23){:target="_blank"} - Verplichte instructie voor gebruik van open standaarden bij ICT-aanschaf
+
+### Gerelateerde richtlijnen
+
+- [9. Integreer technologie](../integratie/index.md)
+- [2. Maak het toegankelijk](../toegankelijkheid/index.md)
+- [3. Werk transparant en gebruik open source](../open-source/index.md)

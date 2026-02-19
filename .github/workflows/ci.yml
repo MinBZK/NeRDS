@@ -20,6 +20,10 @@ jobs:
       # - rijksportaal.overheid-i.nl: Internal government portal
       # - rijkscloud.nl: Restricted API access
       # - bio-overheid.nl/ico-wizard: Returns 403 for automated checkers but works for users
+      # - Sites blocking automated link checkers (415/connection refused):
+      #   gebruikercentraal.nl, nldesignsystem.nl, digitaleoverheid.nl,
+      #   gebruikersonderzoeken.nl, digitoegankelijk.nl, usmwiki.com,
+      #   rijksoverheid.nl, wetten.overheid.nl, dutchcloudcommunity.nl
       - name: Link Checker
         id: lychee
         uses: lycheeverse/lychee-action@v2.7.0
@@ -34,6 +38,15 @@ jobs:
             --exclude "https://rijksportaal.overheid-i.nl/.*"
             --exclude "https://rijkscloud.nl/.*"
             --exclude "https://bio-overheid.nl/ico-wizard"
+            --exclude "https://dutchcloudcommunity\.nl/.*"
+            --exclude "https://.*gebruikercentraal\.nl/.*"
+            --exclude "https://.*nldesignsystem\.nl/.*"
+            --exclude "https://gebruikersonderzoeken\.nl/.*"
+            --exclude "https://kennisbank\.digitoegankelijk\.nl/.*"
+            --exclude "https://usmwiki\.com/.*"
+            --exclude "https://www\.digitaleoverheid\.nl/.*"
+            --exclude "https://www\.rijksoverheid\.nl/.*"
+            --exclude "https://wetten\.overheid\.nl/.*"
             '**/*.yaml'
             '**/*.md'
             '**/*.ts'
@@ -72,7 +85,7 @@ jobs:
 
       - name: Upload results
         if: always()
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: accessibility-reports
           path: reports/

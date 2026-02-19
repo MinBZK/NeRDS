@@ -36,3 +36,17 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     <div class="action-cards" data-richtlijn="privacy"></div>
     </div>
 </div>
+
+## Gerelateerde hulpmiddelen
+
+#### Beleid, wetten en standaarden
+
+- [Algemene Verordening Gegevensbescherming (AVG)](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/privacy-en-persoonsgegevens/privacywetgeving){:target="_blank"} - De Europese privacywetgeving
+- [Autoriteit Persoonsgegevens](https://autoriteitpersoonsgegevens.nl/){:target="_blank"} - Toezichthouder op de bescherming van persoonsgegevens
+- [DPIA (Data Protection Impact Assessment)](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia){:target="_blank"} - Verplichte privacytoets voor hoog-risico verwerkingen
+
+### Gerelateerde richtlijnen
+
+- [6. Maak veilige systemen](../veiligheid/index.md)
+- [10. Maak beter gebruik van data](../data/index.md)
+- [11. Pas algoritmen verantwoord toe](../algoritmen/index.md)
