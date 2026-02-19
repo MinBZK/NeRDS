@@ -35,3 +35,16 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
     <div class="action-cards" data-richtlijn="data"></div>
     </div>
 </div>
+
+## Gerelateerde hulpmiddelen
+
+#### Beleid, wetten en standaarden
+
+- [Federatief datastelsel](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/gegevens/het-fundament/federatief-datastelsel/){:target="_blank"} - Het overheidsbeleid voor datadeling op basis van het 'data bij de bron'-principe
+- [Open data - data.overheid.nl](https://data.overheid.nl/){:target="_blank"} - Het open dataportaal van de Nederlandse overheid
+
+### Gerelateerde richtlijnen
+
+- [11. Pas algoritmen verantwoord toe](../algoritmen/index.md)
+- [7. Maak privacy integraal](../privacy/index.md)
+- [4. Gebruik open standaarden](../open-standaarden/index.md)

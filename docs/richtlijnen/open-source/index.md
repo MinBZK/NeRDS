@@ -51,7 +51,7 @@ Werk open vanaf dag 1: begin met een publieke repository vanaf het start van je 
 Ontwikkelen & ontwerpen
 ??? expander "Praktische tips"
     - **Start met een publieke repository** - Begin vanaf dag 1 met een publieke GitHub of GitLab repository.
-    - **Kies EUPL-1.2 licentie** - De aanbevolen licentie voor Nederlandse overheidscode. Zie [licentieadvies](https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/){:target="_blank"} voor meer informatie.
+    - **Kies EUPL-1.2 licentie** - De aanbevolen licentie voor Nederlandse overheidscode. Zie [licentieadvies](https://opensourcewerken.nl/page/view/677bb847-79b5-42b2-8a63-e7bb2e074530/softwarelicenties){:target="_blank"} voor meer informatie.
     - **Gebruik secrets management** - Sla wachtwoorden, API-keys en credentials op in een apart systeem en nooit in de code zelf (bijv. HashiCorp Vault, Azure Key Vault).
     - **Schrijf een goede README** - Leg uit wat de code doet, hoe je het installeert en hoe je kunt bijdragen. Zie voorbeelden bij [MinBZK](https://github.com/MinBZK){:target="_blank"} en [Gemeente Amsterdam](https://github.com/amsterdam){:target="_blank"} repositories.
     - **Maak een CONTRIBUTING.md** - Geef duidelijke richtlijnen voor externe bijdragen. Zie [Developer.overheid.nl](https://developer.overheid.nl/kennisbank/open-source/standaarden/contributing-md#wat-neem-je-erin-op){:target="_blank"} voor hoe je dat kan doen.
@@ -66,7 +66,7 @@ Inkopen
     - **Evalueer de community** - Is er een actieve gemeenschap of commerciële ondersteuning?
     - **Check de veiligheid** - Bekijk de security geschiedenis en updatefrequentie.
     - **Beoordeel vendor lock-in risico's** - Vermijd afhankelijkheid van één leverancier en zorg voor een exit-strategie.
-    - **Begrijp de licentie** - Zorg dat je de verplichtingen kent. Zie [licentieadvies](https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/){:target="_blank"}.
+    - **Begrijp de licentie** - Zorg dat je de verplichtingen kent. Zie [licentieadvies](https://opensourcewerken.nl/page/view/677bb847-79b5-42b2-8a63-e7bb2e074530/softwarelicenties){:target="_blank"}.
     - **Vraag naar gebruikerservaringen** - Gebruiken andere overheidsorganisaties dit al? Vraag het op [Developer Overheid](https://developer.overheid.nl/){:target="_blank"}.
 
 ### 3. Testen, meten en verbeteren
@@ -100,7 +100,7 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "3. Werk trans
 - [Beleid Opensourcewerken - Digitale Overheid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/open-source/beleid/) - Het officiële open-tenzij beleid van de Nederlandse overheid
 - [Instructie Rijksdienst bij aanschaf ICT-diensten of ICT-producten](https://wetten.overheid.nl/BWBR0024717/2008-11-23) - Officiële instructie die open standaarden voorschrijft bij ICT-aanschaf
 - [EUPL-1.2 Licentie](https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12) - European Union Public Licence, aanbevolen voor overheidscode
-- [OSPO-NL Licentieadvies](https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/) - Overzicht van open source licenties en overwegingen
+- [Softwarelicenties - Opensourcewerken](https://opensourcewerken.nl/page/view/677bb847-79b5-42b2-8a63-e7bb2e074530/softwarelicenties) - Overzicht van open source licenties en overwegingen
 
 #### Communities
 

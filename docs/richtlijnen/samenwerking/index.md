@@ -35,3 +35,16 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
     <div class="action-cards" data-richtlijn="samenwerking"></div>
     </div>
 </div>
+
+## Gerelateerde hulpmiddelen
+
+#### Communities
+
+- [Common Ground](https://developer.overheid.nl/communities/common-ground){:target="_blank"} - Gemeenten werken samen aan herbruikbare softwarecomponenten en standaarden
+- [Developer Overheid](https://developer.overheid.nl/){:target="_blank"} - Platform voor kennisdeling en samenwerking tussen overheidsontwikkelaars
+
+### Gerelateerde richtlijnen
+
+- [3. Werk transparant en gebruik open source](../open-source/index.md)
+- [9. Integreer technologie](../integratie/index.md)
+- [13. Maak je technologie duurzaam](../duurzaamheid/index.md)

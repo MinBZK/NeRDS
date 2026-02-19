@@ -37,3 +37,17 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
     <div class="action-cards" data-richtlijn="algoritmen"></div>
     </div>
 </div>
+
+## Gerelateerde hulpmiddelen
+
+#### Beleid, wetten en standaarden
+
+- [AI-verordening (EU AI Act)](https://artificialintelligenceact.eu/){:target="_blank"} - Europese wetgeving voor verantwoord gebruik van AI-systemen
+- [Algoritmeregister](https://algoritmes.overheid.nl/){:target="_blank"} - Overzicht van algoritmen die de Nederlandse overheid gebruikt
+- [IAMA (Impact Assessment Mensenrechten en Algoritmes)](https://www.rijksoverheid.nl/documenten/rapporten/2021/02/25/impact-assessment-mensenrechten-en-algoritmes){:target="_blank"} - Instrument voor het beoordelen van mensenrechtenimpact van algoritmen
+
+### Gerelateerde richtlijnen
+
+- [7. Maak privacy integraal](../privacy/index.md)
+- [6. Maak veilige systemen](../veiligheid/index.md)
+- [10. Maak beter gebruik van data](../data/index.md)
