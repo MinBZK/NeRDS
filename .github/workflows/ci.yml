@@ -20,7 +20,6 @@ jobs:
       # - rijksportaal.overheid-i.nl: Internal government portal
       # - rijkscloud.nl: Restricted API access
       # - bio-overheid.nl/ico-wizard: Returns 403 for automated checkers but works for users
-      # - apps.digilab.network: Internal/restricted apps, return 404 for external access
       # - Sites blocking automated link checkers (415/connection refused):
       #   gebruikercentraal.nl, nldesignsystem.nl, digitaleoverheid.nl,
       #   gebruikersonderzoeken.nl, digitoegankelijk.nl, usmwiki.com,
@@ -39,7 +38,6 @@ jobs:
             --exclude "https://rijksportaal.overheid-i.nl/.*"
             --exclude "https://rijkscloud.nl/.*"
             --exclude "https://bio-overheid.nl/ico-wizard"
-            --exclude "https://.*\.apps\.digilab\.network/.*"
             --exclude "https://.*gebruikercentraal\.nl/.*"
             --exclude "https://.*nldesignsystem\.nl/.*"
             --exclude "https://gebruikersonderzoeken\.nl/.*"
