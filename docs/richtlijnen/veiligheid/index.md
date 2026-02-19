@@ -37,3 +37,16 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
     <div class="action-cards" data-richtlijn="veiligheid"></div>
     </div>
 </div>
+
+## Gerelateerde hulpmiddelen
+
+#### Beleid, wetten en standaarden
+
+- [BIO (Baseline Informatiebeveiliging Overheid)](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/bio-en-ensia/){:target="_blank"} - Het verplichte normenkader voor informatiebeveiliging bij de overheid
+- [NCSC (Nationaal Cyber Security Centrum)](https://www.ncsc.nl/){:target="_blank"} - Beveiligingsadviezen en dreigingsinformatie voor de overheid
+
+### Gerelateerde richtlijnen
+
+- [7. Maak privacy integraal](../privacy/index.md)
+- [10. Maak beter gebruik van data](../data/index.md)
+- [5. Hanteer een cloud-gedreven strategie](../cloud/index.md)

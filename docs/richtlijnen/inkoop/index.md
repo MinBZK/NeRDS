@@ -35,3 +35,16 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
     <div class="action-cards" data-richtlijn="inkoop"></div>
     </div>
 </div>
+
+## Gerelateerde hulpmiddelen
+
+#### Beleid, wetten en standaarden
+
+- [PIANOo - Expertisecentrum Aanbesteden](https://www.pianoo.nl/){:target="_blank"} - Kenniscentrum voor inkoop en aanbesteding bij de overheid
+- [Aanbestedingswet 2012](https://wetten.overheid.nl/BWBR0032203/){:target="_blank"} - Wettelijk kader voor overheidsinkoopprocessen
+
+### Gerelateerde richtlijnen
+
+- [13. Maak je technologie duurzaam](../duurzaamheid/index.md)
+- [5. Hanteer een cloud-gedreven strategie](../cloud/index.md)
+- [3. Werk transparant en gebruik open source](../open-source/index.md)
