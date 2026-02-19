@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       # Excluded URLs:
       # - rijksportaal.overheid-i.nl: Internal government portal
@@ -22,7 +22,7 @@ jobs:
       # - bio-overheid.nl/ico-wizard: Returns 403 for automated checkers but works for users
       - name: Link Checker
         id: lychee
-        uses: lycheeverse/lychee-action@v2.6.1
+        uses: lycheeverse/lychee-action@v2.7.0
         with:
           # Target specific files and improve the arguments
           args: >-
@@ -44,7 +44,7 @@ jobs:
       # Only create an issue when broken links are found AND running on schedule/manual
       - name: Create Issue (Only on schedule or manual run)
         if: ${{ failure() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}
-        uses: peter-evans/create-issue-from-file@v5
+        uses: peter-evans/create-issue-from-file@v6
         with:
           title: Broken links detected
           content-filepath: ./lychee/out.md
@@ -53,10 +53,10 @@ jobs:
   accessibility-tests:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
 
       - name: Setup Node.js
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
           node-version: '18'
 
@@ -72,7 +72,7 @@ jobs:
 
       - name: Upload results
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: accessibility-reports
           path: reports/
@@ -80,7 +80,7 @@ jobs:
 
       - name: Create issue on failure
         if: failure() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
-        uses: peter-evans/create-issue-from-file@v5
+        uses: peter-evans/create-issue-from-file@v6
         with:
           title: Accessibility issues detected across site
           content-filepath: ./reports/a11y-report.json

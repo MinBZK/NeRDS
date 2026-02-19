@@ -12,7 +12,7 @@ repos:
       - id: check-toml
       - id: detect-private-key
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.45.0
+    rev: v0.47.0
     hooks:
       - id: markdownlint
         args: [--fix]
@@ -24,3 +24,10 @@ repos:
         language: system
         files: ^docs/richtlijnen/.*/index\.md$
         pass_filenames: false
+      - id: validate-actions
+        name: Validate actions.yaml registry
+        entry: python scripts/validate_actions.py
+        language: python
+        files: ^docs/action-registry/actions\.yaml$
+        pass_filenames: false
+        additional_dependencies: [pyyaml, jsonschema]

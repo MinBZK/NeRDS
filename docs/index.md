@@ -6,6 +6,9 @@ hide:
   - navigation
 ---
 
+!!! warning dismissible "In ontwikkeling"
+    De NeRDS zijn nog in ontwikkeling. Bijdragen? Zie de feedback knop rechtsonderin.
+
 <script>
 // Landing page script
 document.addEventListener('DOMContentLoaded', function() {
@@ -67,7 +70,7 @@ function initLandingPage() {
 
 <div class="hero-section">
   <h1>Nederlandse Richtlijn Digitale Systemen <span class="nerds-acronym">(NeRDS)</span></h1>
-  <p class="hero-subtitle">Een set standaarden, richtlijnen en praktische hulpmiddelen voor het verantwoord ontwikkelen, inkopen en gebruiken van digitale systemen binnen de Nederlandse overheid.</p>
+  <p class="hero-subtitle">Een set standaarden, richtlijnen en praktische hulpmiddelen voor het verantwoord ontwerpen, ontwikkelen en inkopen van digitale systemen binnen de Nederlandse overheid.</p>
 
   <div class="version-badge">
     <span class="version-label">Versie 0.1</span>
@@ -86,6 +89,9 @@ function initLandingPage() {
   <div class="intro-card">
     <h2>Wat is de NeRDS?</h2>
     <p>De Nederlandse Richtlijn Digitale Systemen (NeRDS) is een standaard voor verantwoorde ontwikkeling en implementatie van digitale systemen binnen de Nederlandse overheid. De richtlijn vormt een basis voor het maken van doeltreffende, veilige en gebruikersgerichte technologie.</p>
+    <div class="info-note" style="background-color: #e6f2fa; padding: 1rem; border-left: 3px solid #007bc7; margin-top: 1rem;">
+      <p style="margin: 0;"><strong>Ontwikkeling:</strong> Voor de richtlijnen <a href="richtlijnen/gebruikersbehoeften/">Gebruikersbehoeften</a>, <a href="richtlijnen/toegankelijkheid/">Toegankelijkheid en inclusie</a>, <a href="richtlijnen/open-source/">Open source</a> en <a href="richtlijnen/cloud/">Cloud</a> hebben we al een eerste expert sessie gehouden. Hierdoor zijn deze richtlijnen al verder uitgewerkt. We zijn van plan deze aanpak verder uit te rollen naar de andere onderwerpen.</p>
+    </div>
   </div>
 
   <div class="intro-card">
@@ -183,12 +189,6 @@ function initLandingPage() {
     ---
 
     Verhoog duurzaamheid gedurende de hele levenscyclus van je technologie.
-
-- :material-check-all:{ .lg .middle } __14. [Voldoe aan de servicestandaard](richtlijnen/servicestandaard/index.md)__
-
-    ---
-
-    Als je een dienst bouwt als onderdeel van je technologieproject of -programma, moet je ook voldoen aan de Servicestandaard.
 
 </div>
 

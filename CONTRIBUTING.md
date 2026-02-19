@@ -109,35 +109,6 @@ Als je jouw suggestie nog steeds wilt doen, kan je een [Issue](https://github.co
 Kun je niet uit de voeten met de issues?
 Bijvoorbeeld omdat je verschillende wijzigingsvoorstellen wilt doen? Je kan ook gebruik maken van een [Fork en een Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks).
 
-#### Stap-voor-stap pull request proces
-
-1. **Maak een fork van de repository**
-
-2. **Clone je fork lokaal**
-
-3. **Zet je ontwikkelomgeving op**
-   - Volg de stappen in [Ontwikkelomgeving opzetten](#ontwikkelomgeving-opzetten)
-   - Test of alles werkt met `uv run mkdocs serve`
-
-4. **Maak een nieuwe branch** - Zie [Branching strategie](#branching-strategie).
-
-5. **Maak je wijzigingen**
-   - Volg de [Richtlijnen voor bijdragen](#richtlijnen-voor-bijdragen)
-   - Test je wijzigingen lokaal
-   - Controleer op spelfouten en broken links
-
-6. **Commit & push je wijzigingen naar de fork**
-
-7. **Maak een pull request**
-   - Gebruik het pull request [template](.github/pull_request_template.md)
-   - We maken gebruik van de tool [pr-preview-action](https://github.com/rossjrw/pr-preview-action) om automatisch previews te maken van een pull-request.
-   Dit maakt het mogelijk om de wijzigingen die zijn gedaan in een pull-request al te bekijken in de uiteindelijke omgeving.
-   Wanneer er een pull-request gedaan wordt via een fork, leidt dit helaas tot een error. Dit blokkeert de pull-request niet.
-   - Er zijn ook andere manieren om een pull request te doen. [Meer daarover](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
-
-8. **Acceptatie criteria**
-   - Als de PR aan de voorwaarde voldoet, bekijkt het NeRDS team jouw aanpassingen en kan bij akkoord jouw aanpassingen *mergen*.
-
 ## Hoe we werken op Github
 
 We werken met [Markdown](https://www.markdownguide.org/basic-syntax/) bestanden.
@@ -204,14 +175,7 @@ Gebruik kebab-case, houd de namen kort maar beschrijvend en vermijd speciale kar
 
 ## Versioning
 
-De NeRDS gebruikt automatische versioning voor releases:
-
-### Automatische patch versie bumps
-
-- **Wanneer**: Elke keer als een PR wordt gemerged naar `main`
-- **Hoe**: GitHub workflow triggert automatisch
-- **Format**: Volgt semantic versioning (major.minor.patch)
-- **Wat gebeurt er**: Patch versie wordt automatisch verhoogd
+De NeRDS gebruikt semantic versioning voor releases:
 
 ### Versioning schema
 
@@ -221,15 +185,22 @@ major.minor.patch
 
 - **Major** (x.0.0): Grote veranderingen of herstructureringen
 - **Minor** (0.x.0): Nieuwe functionaliteiten en inhoud toevoegingen
-- **Patch** (0.0.x): Bug fixes en kleine verbeteringen (automatisch)
+- **Patch** (0.0.x): Bug fixes en kleine verbeteringen
+
+### Handmatige versioning
+
+Versies worden handmatig beheerd door het NeRDS team:
+
+- **Wanneer**: Bij belangrijke releases of milestones
+- **Hoe**: Het team bepaalt op basis van de wijzigingen welk versienummer verhoogd wordt
+- **Format**: Volgt semantic versioning (major.minor.patch)
 
 ### Voor contributors
 
 Als contributor hoef je je geen zorgen te maken over versioning:
 
-- Patch versies worden automatisch verhoogd bij elke merge
-- Major en minor versies worden handmatig beheerd door het NeRDS team
+- Alle versies worden handmatig beheerd door het NeRDS team
 - Focus op duidelijke commit messages en PR beschrijvingen
-- Het team bepaalt of wijzigingen een minor of major versie vereisen
+- Het team bepaalt of wijzigingen een patch, minor of major versie vereisen
 
-> **Tip**: Door duidelijke commit messages te schrijven help je het team om te bepalen of een wijziging een minor versie bump verdient in plaats van alleen een patch.
+> **Tip**: Door duidelijke commit messages te schrijven help je het team om te bepalen welk versienummer verhoogd moet worden.

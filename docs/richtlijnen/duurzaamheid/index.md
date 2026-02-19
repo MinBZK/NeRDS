@@ -13,13 +13,13 @@ Duurzame technologie minimaliseert negatieve milieueffecten, optimaliseert energ
 
 ## Waarom is het belangrijk?
 
-- **Klimaatverandering**: Vermindering van broeikasgasemissies
-- **Energieverbruik**: Besparing op kosten en vermindering van milieubelasting
-- **Afvalbeperking**: Vermindering van elektronisch afval
+- **Klimaatverandering**: Verminder de broeikasgasemissies
+- **Energieverbruik**: Bespaar op kosten en vermindering van milieubelasting
+- **Afvalbeperking**: Verminder het elektronisch afval
 - **Grondstoffenschaarste**: Verantwoord gebruik van zeldzame materialen
-- **Voorbeeldfunctie**: De overheid als aanjager van duurzame praktijken
-- **Regelgeving**: Anticiperen op strengere milieunormen
-- **Kostenbesparing**: Efficiënter gebruik van middelen op lange termijn
+- **Voorbeeldfunctie**: Jaag als overheid duurzame praktijken aan
+- **Regelgeving**: Anticipeer op strengere milieunormen
+- **Kostenbesparing**: Maak efficiënt gebruik van middelen op lange termijn
 
 Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hun ecologische voetafdruk verkleinen, kosten besparen en bijdragen aan bredere duurzaamheidsdoelstellingen.
 
@@ -32,25 +32,7 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
-    <div class="action-cards">
-        <div class="action-card">
-            <span class="wip-badge wip-badge-beschikbaar">beschikbaar</span>
-            <h4 >ICT MVI-criteria</h4>
-            <p >Duurzaamheidscriteria voor ICT-inkoop</p>
-            <a href="https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria" class="action-button" target="_blank">Toepassen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-concept">concept</span>
-            <h4 >CO2-calculator</h4>
-            <p >Bereken de CO2-impact van uw IT</p>
-            <a href="https://www.metenvanduurzaamheid.nl/overzicht-tools/monitoring-als-tool-voor-bedrijven-en-organisaties/co2-prestatieladder-en-co2-calculator" class="action-button" target="_blank">Verkennen</a>
-        </div>
-        <div class="action-card">
-            <span class="wip-badge wip-badge-ontwikkeling">ontwikkeling</span>
-            <h4 >Green Coding</h4>
-            <p >Best practices voor duurzame software</p>
-            <button disabled class="action-button">Verkennen</button>
-        </div>
+    <div class="action-cards" data-richtlijn="duurzaamheid"></div>
     </div>
 </div>
 
@@ -123,6 +105,7 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
 
 - [Duurzame en sociale doelen van de overheid](https://www.denkdoeduurzaam.nl/doelen)
 - [PIANOo's MVI-criteria voor ICT](https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria)
+- [Position Paper Enterprise Architecture Principles voor Duurzaamheid (NCDD)](https://coalitieduurzamedigitalisering.nl/wp-content/uploads/Position-Paper-%E2%80%93-Enterprise-Architecture-Principles-for-Sustainability.pdf)
 
 ## Gerelateerde richtlijnen
 

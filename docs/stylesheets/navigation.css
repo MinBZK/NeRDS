@@ -26,6 +26,14 @@
   text-align: center;  /* Optioneel, zorgt dat tekst gecentreerd blijft */
 }
 
+/* Only override text color on focus, let browser handle outline */
+.md-tabs__link:focus {
+  color: #FFFFFF !important; /* Keep white text on focus */
+  /* Remove any existing focus overrides */
+  outline: revert !important;
+  box-shadow: revert !important;
+}
+
 /* Header Styling */
 .md-header {
   background-color: white;
@@ -125,6 +133,25 @@ h1{
 
 .md-ellipsis {
   color: #154273;
+  display: none;
+}
+
+/* Not showing site_name in title */
+.md-header .md-header__inner .md-header__title .md-header__ellipsis .md-header__topic .md-ellipsis {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  position: absolute !important;
+  left: -9999px !important;
+}
+
+/* Ensure navigation ellipsis stays visible */
+.md-nav .md-ellipsis {
+  display: inline !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  position: static !important;
+  left: auto !important;
 }
 
 /* Not showing site_name in title */
@@ -212,12 +239,42 @@ h1{
 /* Breadcrumb styling consistency */
 .md-breadcrumbs {
   background-color: transparent;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+.md-breadcrumb__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.md-breadcrumb__item {
+  display: flex;
+  align-items: center;
+}
+
+.md-breadcrumb__item:not(:last-child)::after {
+  content: "›";
+  margin: 0 0.5rem;
+  color: #666;
+  font-size: 1.2em;
 }
 
 .md-breadcrumb__link {
   color: #154273;
+  text-decoration: none;
+  font-size: 0.85rem;
 }
 
 .md-breadcrumb__link:hover {
   color: #007bc7;
+  text-decoration: underline;
+}
+
+.md-breadcrumb__link--active {
+  color: #666;
+  font-weight: 500;
 }

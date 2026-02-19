@@ -5,7 +5,7 @@
 Het [Ministerie van Binnenlandse Zaken en Koninkrijksrelaties](https://github.com/MinBZK) ontwikkelt de Nederlandse
 Richtlijn Digitale Systemen (NeRDS) op een open manier via Github.
 De Nederlandse Richtlijn Digitale Systemen is een set standaarden, richtlijnen en praktische hulpmiddelen (tools) voor het
-verantwoord ontwikkelen, inkopen en gebruiken van digitale systemen binnen de Nederlandse overheid.
+verantwoord ontwerpen, ontwikkelen en inkopen van digitale systemen binnen de Nederlandse overheid.
 
 In deze repository ontwikkelen wij de Nederlandse Richtlijn Digitale Systemen. De informatie van de Nederlandse
 Richtlijn Digitale Systemen wordt uitgewerkt in verschillende Markdown bestanden (een bestandsformaat voor platte
@@ -50,7 +50,7 @@ Het verschil tussen de twee versies is dat de Nederlandse Richtlijn Digitale Sys
 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). De insiders versie is een gesponsorde versie en
 bevat een aantal extra functionaliteiten. Hoewel deze versie onder een open source licentie beschikbaar is, vragen de
 ontwikkelaars van Material for MkDocs in de aanvullende
-[fair use policy](https://squidfunk.github.io/mkdocs-material/insiders/license/#fair-use-policy) om het niet publiek
+[fair use policy](https://squidfunk.github.io/mkdocs-material/license/#fair-use-policy) om het niet publiek
 te delen. Wij realiseren ons dat hierdoor niet iedereen de versie van de Nederlandse Richtlijn Digitale Systemen,
 inclusief alle functionaliteiten, op een eigen omgeving kan draaien. Om lokaal testen van mensen die geen toegang hebben
 tot de betaalde versie mogelijk te maken, zit in `requirements.txt` de publiek
