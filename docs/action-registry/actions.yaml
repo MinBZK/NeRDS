@@ -1,7 +1,7 @@
 actions:
   - id: algoritme-management-toolkit
     name: Algoritme Management Toolkit
-    source: https://amt.prd.apps.digilab.network/
+    source: https://amt.rijksapp.nl/
     description: "Register voor risicovolle algoritmen"
     richtlijn: algoritmen
     type: tool
@@ -38,7 +38,7 @@ actions:
     status: beschikbaar
   - id: beslishulp-ai-verordening
     name: Beslishulp AI-verordening
-    source: https://ai-verordening-beslishulp.apps.digilab.network/
+    source: https://algoritmes.rijksapp.nl/beslishulp-ai-verordening
     description: "Bepaal direct welke voorschriften gelden"
     richtlijn: algoritmen
     type: tool
