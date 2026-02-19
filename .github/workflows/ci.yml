@@ -23,7 +23,7 @@ jobs:
       # - Sites blocking automated link checkers (415/connection refused):
       #   gebruikercentraal.nl, nldesignsystem.nl, digitaleoverheid.nl,
       #   gebruikersonderzoeken.nl, digitoegankelijk.nl, usmwiki.com,
-      #   rijksoverheid.nl, wetten.overheid.nl
+      #   rijksoverheid.nl, wetten.overheid.nl, dutchcloudcommunity.nl
       - name: Link Checker
         id: lychee
         uses: lycheeverse/lychee-action@v2.7.0
@@ -38,6 +38,7 @@ jobs:
             --exclude "https://rijksportaal.overheid-i.nl/.*"
             --exclude "https://rijkscloud.nl/.*"
             --exclude "https://bio-overheid.nl/ico-wizard"
+            --exclude "https://dutchcloudcommunity\.nl/.*"
             --exclude "https://.*gebruikercentraal\.nl/.*"
             --exclude "https://.*nldesignsystem\.nl/.*"
             --exclude "https://gebruikersonderzoeken\.nl/.*"
