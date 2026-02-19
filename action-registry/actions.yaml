@@ -1,7 +1,7 @@
 actions:
   - id: algoritme-management-toolkit
     name: Algoritme Management Toolkit
-    source: https://amt.prd.apps.digilab.network/
+    source: https://amt.rijksapp.nl/
     description: "Register voor risicovolle algoritmen"
     richtlijn: algoritmen
     type: tool
@@ -38,7 +38,7 @@ actions:
     status: beschikbaar
   - id: beslishulp-ai-verordening
     name: Beslishulp AI-verordening
-    source: https://ai-verordening-beslishulp.apps.digilab.network/
+    source: https://algoritmes.rijksapp.nl/beslishulp-ai-verordening
     description: "Bepaal direct welke voorschriften gelden"
     richtlijn: algoritmen
     type: tool
@@ -383,7 +383,7 @@ actions:
     status: concept
   - id: licentieadvies
     name: Licentieadvies
-    source: https://ospo-nl.github.io/kennisbank/best-practices/open-source-software-licenties/
+    source: https://opensourcewerken.nl/page/view/677bb847-79b5-42b2-8a63-e7bb2e074530/softwarelicenties
     description: "Copyleft: CC BY-SA, GPLv3, AGPLv3 of EUPL-1.2. Permissive: Apache 2.0, MIT, BSD-0-clause"
     richtlijn: open-source
     fase: ontwerp
@@ -392,15 +392,15 @@ actions:
     date_added: 08-12-2025
     status: beschikbaar
   - id: ospo-toolbox
-    name: OSPO Toolbox
-    source: https://ospo-nl.github.io/kennisbank/
-    description: "Tools voor Open Source Program Office"
+    name: Opensourcewerken
+    source: https://opensourcewerken.nl
+    description: "Kennis en community voor open source werken bij de overheid"
     richtlijn: open-source
     fase: [verkenning, ontwerp]
     type: tool
     action: Verkennen
     date_added: 08-12-2025
-    status: ontwikkeling
+    status: beschikbaar
   - id: opensourcewerken
     name: Opensourcewerken
     source: https://developer.overheid.nl/communities/open-source-werken
