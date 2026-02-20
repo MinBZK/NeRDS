@@ -447,6 +447,15 @@ actions:
     action: Zoeken
     date_added: 08-12-2025
     status: ontwikkeling
+  - id: rijksbrede-handreiking-it-sourcing
+    name: Handreiking IT Sourcing
+    source: https://www.digitaleoverheid.nl/rijksbrede-it-sourcingstrategie/dossier-documenten/rijksbrede-handreiking-it-sourcing/
+    description: "Handreiking voor IT-sourcing binnen de Rijksoverheid"
+    richtlijn: inkoop
+    type: tool
+    action: Bekijken
+    date_added: 04-02-2026
+    status: beschikbaar
   - id: dpia-model
     name: DPIA-model
     source: https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia
