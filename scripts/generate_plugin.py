@@ -67,7 +67,7 @@ def write_json(path: Path, data: dict) -> None:
 
 def generate_all(source_data: dict) -> None:
     """Generate all platform plugin files."""
-    for name, (path, generator) in PLATFORMS.items():
+    for _name, (path, generator) in PLATFORMS.items():
         generated = generator(source_data)
         write_json(path, generated)
         print(f"Gegenereerd: {path.relative_to(ROOT_DIR)}")
@@ -76,7 +76,7 @@ def generate_all(source_data: dict) -> None:
 def check_sync(source_data: dict) -> bool:
     """Check if platform files are in sync with the source."""
     all_synced = True
-    for name, (path, generator) in PLATFORMS.items():
+    for _name, (path, generator) in PLATFORMS.items():
         expected = generator(source_data)
         if not path.exists():
             print(f"FOUT: {path.relative_to(ROOT_DIR)} bestaat niet")
