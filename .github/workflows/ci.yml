@@ -10,6 +10,17 @@ on:
   workflow_dispatch:
 
 jobs:
+  validate-plugin:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Valideer plugin.json
+        run: python3 -c "import json; json.load(open('.plugin/plugin.json'))"
+
+      - name: Controleer plugin sync
+        run: python3 scripts/generate_plugin.py --check
+
   check-links:
     runs-on: ubuntu-latest
     steps:
