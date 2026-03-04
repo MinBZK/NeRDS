@@ -1,6 +1,11 @@
 ---
 name: nerds-integratie
 description: "Gebruik deze skill wanneer de gebruiker vraagt over 'integratie', 'systeemintegratie', 'legacy', 'API integratie', 'middleware', 'microservices', 'Digikoppeling', 'FSC', 'Common Ground', 'Haven', 'koppelvlak', 'ESB', of advies wil over het integreren van technologie bij de overheid."
+metadata:
+  created-with-ai: "true"
+  created-with-model: claude-opus-4-20250514
+  created-date: "2025-02-18"
+  status: concept
 ---
 
 # NeRDS Richtlijn 9: Integreer en pas technologie aan

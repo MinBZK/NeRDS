@@ -1,6 +1,11 @@
 ---
 name: nerds-inkoop
 description: "Gebruik deze skill wanneer de gebruiker vraagt over 'inkoop', 'aanbesteding', 'inkoopstrategie', 'vendor lock-in', 'leveranciersselectie', 'PIANOo', 'total cost of ownership', 'TCO', 'marktconsultatie', 'aanbestedingsregels', of advies wil over het inkopen van technologie bij de overheid."
+metadata:
+  created-with-ai: "true"
+  created-with-model: claude-opus-4-20250514
+  created-date: "2025-02-18"
+  status: concept
 ---
 
 # NeRDS Richtlijn 12: Definieer je inkoopstrategie

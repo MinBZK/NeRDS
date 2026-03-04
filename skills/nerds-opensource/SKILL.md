@@ -1,6 +1,11 @@
 ---
 name: nerds-opensource
 description: "Gebruik deze skill wanneer de gebruiker vraagt over 'open source', 'EUPL', 'publieke code', 'open-tenzij', 'publieke repository', 'open source licentie', 'CONTRIBUTING.md', 'Code of Conduct', 'secrets management', 'transparant werken', 'code publiceren', of advies wil over open source werken bij de overheid."
+metadata:
+  created-with-ai: "true"
+  created-with-model: claude-opus-4-20250514
+  created-date: "2025-02-18"
+  status: concept
 ---
 
 # NeRDS Richtlijn 3: Werk transparant en gebruik open source
