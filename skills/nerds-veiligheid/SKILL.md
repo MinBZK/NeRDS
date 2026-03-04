@@ -1,6 +1,11 @@
 ---
 name: nerds-veiligheid
 description: "Gebruik deze skill wanneer de gebruiker vraagt over 'beveiliging', 'security', 'informatiebeveiliging', 'cybersecurity', 'BIO', 'Baseline Informatiebeveiliging', 'penetratietest', 'vulnerability', 'kwetsbaarheid', 'versleuteling', 'encryption', 'beveiligingsincident', of advies wil over het beveiligen van digitale overheidssystemen."
+metadata:
+  created-with-ai: "true"
+  created-with-model: claude-opus-4-20250514
+  created-date: "2025-02-18"
+  status: concept
 ---
 
 # NeRDS Richtlijn 6: Maak veilige systemen

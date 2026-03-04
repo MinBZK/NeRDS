@@ -1,6 +1,11 @@
 ---
 name: nerds-standaarden
 description: "Gebruik deze skill wanneer de gebruiker vraagt over 'open standaarden', 'interoperabiliteit', 'Forum Standaardisatie', 'pas-toe-of-leg-uit', 'vendor lock-in', 'standaardisatie', of advies wil over het gebruik van open standaarden bij digitale overheidssystemen."
+metadata:
+  created-with-ai: "true"
+  created-with-model: claude-opus-4-20250514
+  created-date: "2025-02-18"
+  status: concept
 ---
 
 # NeRDS Richtlijn 4: Gebruik open standaarden
