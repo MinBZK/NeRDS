@@ -1,0 +1,716 @@
+.form {
+    font-size: 16px;
+    padding: 0.5em;
+}
+
+.info-label {
+    font-family: "Rijksoverheid Sans",sans-serif;
+    line-height: 1.5;
+    box-sizing: inherit;
+    display: inline-block;
+    margin: 0 .25em .25em 0;
+    padding: .125em .5em;
+    font-weight: 400;
+    border-radius: 6px;
+    color: #000;
+    vertical-align: middle;
+    font-size: 1em;
+    font-style: italic;
+    background: #b2d7ee;
+    position: relative;
+}
+
+.info-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    background-color: #e5f1f9;
+    color: #154273;
+    font-size: 0.8em;
+    margin-left: 0.5em;
+    cursor: help;
+    border: 1px solid #154273;
+    font-style: normal;
+    font-weight: bold;
+    vertical-align: middle;
+    transition: background-color 150ms ease-in-out;
+}
+
+.info-icon:hover {
+    background-color: #b2d7ee;
+}
+
+.tooltip {
+    position: fixed;
+    background-color: #154273;
+    color: white;
+    padding: 0.75em 1em;
+    border-radius: 0.25em;
+    font-size: 0.875em;
+    z-index: 1100;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    font-family: "Rijksoverheid Sans", sans-serif;
+    line-height: 1.4;
+}
+
+.tooltip::after {
+    content: '';
+    position: absolute;
+    bottom: -0.4em;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 0.4em 0.4em 0;
+    border-style: solid;
+    border-color: #154273 transparent transparent;
+}
+
+.choices__button {
+    content: '\00d7';
+}
+
+.info-label:after {
+    padding-left: 0.5em;
+    content: '\00d7';
+    display: inline-block;
+    cursor: pointer;
+}
+
+.info {
+    background-color: #e5f1f9;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.button {
+    transition: color 150ms ease-in-out, outline-offset 150ms ease-in-out;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    display: inline-block;
+    margin: 0 .5em .5em 0;
+    max-width: 100%;
+    padding: .75em;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    user-select: none;
+    vertical-align: middle;
+    word-break: break-word;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: .25em;
+    border-color: #154273;
+    color: #154273;
+    text-decoration: none;
+}
+
+.button:hover {
+    transition: color 150ms ease-in-out, outline-offset 150ms ease-in-out;
+    appearance: none;
+    border: 1px solid #e6e6e6;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 .5em .5em 0;
+    max-width: 100%;
+    padding: .75em;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    user-select: none;
+    vertical-align: middle;
+    word-break: break-word;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: .25em;
+    border-color: #154273;
+    outline: 0;
+    box-shadow: 0 0 .75em rgba(21, 66, 115, .4);
+    background-color: #fff;
+    color: #154273;
+    text-decoration: none;
+}
+
+.button--primary {
+    display: inline-block;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 .5em .5em 0;
+    max-width: 100%;
+    padding: .75em;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    user-select: none;
+    vertical-align: middle;
+    word-break: break-word;
+    cursor: pointer;
+    background-color: #154273;
+    border: 1px solid transparent;
+    font-size: 1em;
+    border-radius: .25em;
+    border-color: #154273;
+    color: #fff;
+}
+
+.button--primary:hover {
+    display: inline-block;
+    line-height: 1;
+    margin: 0 .5em .5em 0;
+    max-width: 100%;
+    padding: .75em;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    user-select: none;
+    vertical-align: middle;
+    word-break: break-word;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-size: 1em;
+    border-radius: .25em;
+    border-color: #154273;
+    outline: 0;
+    box-shadow: 0 0 .75em rgba(21,66,115,.4);
+    background-color: #10345c;
+    color: #fff;
+}
+
+.input-text {
+    -webkit-font-smoothing: antialiased;
+    --swiper-theme-color: #007aff;
+    box-sizing: inherit;
+    background: #fff;
+    line-height: 1.5;
+    font-family: inherit;
+    border: 1px solid #154273;
+    color: #154273;
+    border-radius: .25em;
+    font-size: 1em;
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: .6em .8em;
+}
+
+.input-text:focus {
+    -webkit-font-smoothing: antialiased;
+    --swiper-theme-color: #007aff;
+    box-sizing: inherit;
+    box-shadow: 0 0 0 2px #000 !important;
+    outline: 1px solid #fff;
+    outline-offset: 2px;
+    background: #fff;
+    line-height: 1.5;
+    font-family: inherit;
+    border: 1px solid #154273;
+    color: #154273;
+    border-radius: .25em;
+    font-size: 1em;
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: .6em .8em;
+}
+
+.input-select {
+    -webkit-font-smoothing: antialiased;
+    --swiper-theme-color: #007aff;
+    box-sizing: inherit;
+    background: #fff;
+    border: 1px solid #154273;
+    line-height: 1.5;
+    font-family: inherit;
+    padding: .409em .5em;
+    border-radius: .5em;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    height: 2.5em;
+}
+
+.input-select:focus {
+    -webkit-font-smoothing: antialiased;
+    --swiper-theme-color: #007aff;
+    box-sizing: inherit;
+    background: #fff;
+    border: 1px solid #154273;
+    line-height: 1.5;
+    font-family: inherit;
+    padding: .409em .5em;
+    border-radius: .5em;
+    font-size: 1em;
+    box-shadow: 0 0 0 2px #000 !important;
+    outline: 1px solid #fff;
+    outline-offset: 2px;
+    display: block;
+    width: 100%;
+    height: 2.5em;
+}
+
+/* Disabled state for select that matches design system */
+.input-select:disabled {
+    background-color: #f8f9fa;
+    border: 1px solid #b2d7ee;
+    color: #154273;
+    cursor: not-allowed;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.input-select:disabled:hover,
+.input-select:disabled:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: #b2d7ee;
+}
+
+.input-checkbox {
+    font-family: "Rijksoverheid Sans",sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    --swiper-theme-color: #007aff;
+    color: #154273;
+    /*font-size: 1em;*/
+    box-sizing: inherit;
+    margin-bottom: .5em;
+}
+
+.checkbox__input {
+    -webkit-font-smoothing: antialiased;
+    --swiper-theme-color: #007aff;
+    box-sizing: inherit;
+    position: absolute;
+    opacity: 0;
+}
+
+/* Disabled state for checkbox that matches design system */
+.checkbox__input:disabled + label {
+    opacity: 0.5;
+    cursor: not-allowed;
+    color: #154273;
+}
+
+.checkbox__input:disabled + label:before {
+    background-color: #f8f9fa;
+    border-color: #b2d7ee;
+}
+
+.checkbox__input:disabled:checked + label:before {
+    background-color: #b2d7ee !important;
+    opacity: 0.5;
+}
+
+.checkbox__label {
+    font-family: "Rijksoverheid Sans",sans-serif;
+    color: #154273;
+    font-size: 1em;
+    box-sizing: inherit;
+    display: inline-block;
+    position: relative;
+    padding: 0 0 0 2em;
+    line-height: inherit;
+}
+
+.checkbox__label:before {
+    background: #fff;
+    border-radius: .25em;
+    border: 1px solid #154273;
+    content: "";
+    display: inline-block;
+    height: 1.325em;
+    margin-right: .5em;
+    vertical-align: middle;
+    width: 1.325em;
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+
+.checkbox__input:checked+input+label:before, .checkbox__input:checked+label:before {
+    background-color: #154273 !important;
+    background-image: url(images/icon-checkbox-white.svg);
+}
+
+.form__row {
+    font-family: "Rijksoverheid Sans",sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    --swiper-theme-color: #007aff;
+    color: #154273;
+    font-size: 1em;
+    text-align: left;
+    box-sizing: inherit;
+    margin-bottom: 1em;
+    position: relative;
+    clear: both;
+}
+
+/* Added hidden state for form rows */
+.form__row[aria-hidden="true"] {
+    display: none;
+}
+
+.form__label {
+    font-family: "Rijksoverheid Sans",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    --swiper-theme-color: #007aff;
+    color: #154273;
+    text-align: left;
+    box-sizing: inherit;
+    font-size: 1em;
+    margin-bottom: .25em;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 1em;
+    padding-right: 4em;
+}
+
+.display-none {
+    display: none !important;
+}
+
+/* Modal is not implemented in NLDS yet, so we implement it here. */
+.minbzk-modal {
+    /* Underlay covers entire screen. */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    /* Change to appropriate color from NLDS. */
+    background-color: rgba(0 0 0 / 50%);
+    z-index: 1000;
+
+    /* Flexbox centers the .modal-content vertically and horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* Animate when opening */
+    animation-name: fade-in;
+    animation-duration: 150ms;
+    animation-timing-function: ease;
+}
+
+/* Cluster Form Modal */
+.cluster-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: none;
+}
+
+.cluster-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1001;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    display: none;
+}
+
+.cluster-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+.cluster-modal-header h3 {
+    margin: 0;
+    color: #154273;
+}
+
+.close-cluster-modal {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #5a5a5a;
+}
+
+.close-cluster-modal:hover {
+    color: #154273;
+}
+
+/* Spinner */
+.cluster-spinner-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.cluster-spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top: 4px solid #154273;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 1rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.cluster-spinner-text {
+    color: #154273;
+    font-weight: 600;
+}
+
+/* Result section */
+.cluster-result-container {
+    display: none;
+    padding: 1rem;
+    background-color: #f5f7fa;
+    border-radius: 0.3rem;
+    border-left: 4px solid #4caf50;
+}
+
+.cluster-result-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.cluster-result-header h4 {
+    margin: 0;
+    color: #4caf50;
+}
+
+.cluster-result-icon {
+    margin-right: 0.5rem;
+    color: #4caf50;
+}
+
+.cluster-result-details {
+    margin-bottom: 1.5rem;
+}
+
+.cluster-detail-row {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.cluster-detail-label {
+    font-weight: 600;
+    width: 150px;
+    color: #555;
+}
+
+.cluster-detail-value {
+    flex: 1;
+}
+
+.cluster-code-block {
+    background-color: #f0f0f0;
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+    font-family: monospace;
+    font-size: 0.5rem;
+    white-space: pre-wrap;
+    margin-bottom: 1rem;
+    border-left: 3px solid #154273;
+}
+
+.cluster-result-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+/* Authentication styles */
+.auth-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.auth-header h4 {
+    color: #154273;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.auth-header p {
+    color: #666;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.auth-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.auth-button {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    background-color: #f5f7fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.auth-button:hover {
+    background-color: #e9f0f8;
+    border-color: #b2d7ee;
+}
+
+.auth-icon {
+    font-size: 1.2rem;
+    margin-right: 0.8rem;
+}
+
+.auth-text {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Cost estimation styles */
+.cost-estimation-container {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background-color: #f5f7fa;
+    border-radius: 0.3rem;
+    border-left: 4px solid #154273;
+}
+
+.cost-estimation-container h4 {
+    margin: 0 0 0.8rem 0;
+    color: #154273;
+    font-size: 0.9rem;
+}
+
+.cost-details {
+    font-size: 0.85rem;
+}
+
+.cost-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+.cost-label {
+    color: #555;
+}
+
+.cost-value {
+    font-weight: 600;
+    color: #154273;
+}
+
+.cost-info {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.info-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    background-color: #154273;
+    color: white;
+    font-size: 0.7em;
+    margin-right: 0.5em;
+    font-style: normal;
+}
+
+.minbzk-modal > .modal-underlay {
+    /* underlay takes up the entire viewport. This is only
+	required if you want to click to dismiss the popup */
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.model-content-auto-size {
+    width: auto !important;
+    height: auto !important;
+}
+
+.modal-content {
+    overflow: auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content-close {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    z-index: 1000;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.modal-content-container {
+    overflow: hidden;
+    position: relative;
+
+    /* Position visible dialog near the top of the window */
+    margin-top: 5vh;
+
+    transition: height 0.3s ease, width 0.3s ease;
+
+    /* Sizing for visible dialog */
+    width: 80%;
+    height: 80%;
+
+    /* Display properties for visible dialog */
+    border: solid 1px #999;
+    border-radius: 1em;
+
+    /* Change to appropriate color from NLDS. */
+    box-shadow: 0 0 1em 0 rgba(0 0 0 / 30%);
+    background-color: #FFFFFF;
+    padding: 1em;
+
+    /* Animate when opening */
+    animation-name: zoom-in;
+    animation-duration: 150ms;
+    animation-timing-function: ease;
+}
