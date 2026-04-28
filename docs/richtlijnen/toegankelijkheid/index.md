@@ -60,7 +60,7 @@ Ontwikkelen & ontwerpen
     - **Zorg voor ondertiteling en transcripties** – [Voor alle audio- en video-inhoud](https://www.digitoegankelijk.nl/aan-de-slag/tips/audio-en-video).
     - **Bouw compatibel met hulpapparatuur** – Test met screenreaders zoals [NVDA](https://webaim.org/resources/shortcuts/nvda){:target="_blank"}, [JAWS](https://webaim.org/resources/shortcuts/jaws){:target="_blank"} en [VoiceOver (Mac)](https://webaim.org/articles/voiceover/){:target="_blank"}.
     - **Gebruik het [NL Design System](https://nldesignsystem.nl/){:target="_blank"}** – Componenten zijn al getest op toegankelijkheid.
-    - **Vermijd PDF's** – Gebruik bij voorkeur HTML; zijn PDF's onvermijdelijk, gebruik dan toegankelijke standaarden (bijv. [NLDoc](https://nldoc.nl){:target="_blank"}).
+    - **Vermijd PDF's** – Gebruik bij voorkeur HTML; zijn PDF's onvermijdelijk, gebruik dan toegankelijke standaarden (bijv. [NLDoc](https://gitlab.com/logius/nldoc){:target="_blank"}).
 
 Inkopen van toegankelijke technologie
 ??? expander "Praktische tips"
