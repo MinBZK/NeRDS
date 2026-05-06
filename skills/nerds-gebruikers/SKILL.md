@@ -1,6 +1,6 @@
 ---
 name: nerds-gebruikers
-description: "Gebruik deze skill wanneer de gebruiker vraagt over 'gebruikersbehoeften', 'user needs', 'gebruikersonderzoek', 'user research', 'gebruikersgericht ontwerpen', 'persona', 'klantreis', 'customer journey', 'UX onderzoek', 'gebruikercentraal', of advies wil over het vaststellen van gebruikersbehoeften bij digitale overheidssystemen."
+description: "Gebruikersbehoeften en -onderzoek bij digitale overheidssystemen: user research, persona's, klantreis (customer journey), gebruikergericht ontwerpen."
 metadata:
   created-with-ai: "true"
   created-with-model: claude-opus-4-20250514

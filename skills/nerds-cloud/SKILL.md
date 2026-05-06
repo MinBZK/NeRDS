@@ -1,6 +1,6 @@
 ---
 name: nerds-cloud
-description: "Gebruik deze skill wanneer de gebruiker vraagt over 'cloud', 'cloudstrategie', 'soevereine cloud', 'digitale soevereiniteit', 'cloud-native', 'Infrastructure as Code', 'IaC', 'FinOps', 'multi-cloud', 'hybride cloud', 'SRE', 'Kubernetes', 'exit-strategie cloud', 'cloud overheid', of advies wil over cloudoplossingen bij de overheid."
+description: "Cloud bij de overheid: cloudstrategie, soevereine cloud, IaC, FinOps, multi-cloud, hybride cloud, SRE, Kubernetes, exit-strategie."
 metadata:
   created-with-ai: "true"
   created-with-model: claude-opus-4-20250514

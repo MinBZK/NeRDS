@@ -1,6 +1,6 @@
 ---
 name: nerds-integratie
-description: "Gebruik deze skill wanneer de gebruiker vraagt over 'integratie', 'systeemintegratie', 'legacy', 'API integratie', 'middleware', 'microservices', 'Digikoppeling', 'FSC', 'Common Ground', 'Haven', 'koppelvlak', 'ESB', of advies wil over het integreren van technologie bij de overheid."
+description: "Systeemintegratie bij de overheid: API's, middleware, microservices, legacy, Digikoppeling, FSC, Common Ground, Haven, koppelvlakken, ESB."
 metadata:
   created-with-ai: "true"
   created-with-model: claude-opus-4-20250514

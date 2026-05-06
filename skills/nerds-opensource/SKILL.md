@@ -1,6 +1,6 @@
 ---
 name: nerds-opensource
-description: "Gebruik deze skill wanneer de gebruiker vraagt over 'open source', 'EUPL', 'publieke code', 'open-tenzij', 'publieke repository', 'open source licentie', 'CONTRIBUTING.md', 'Code of Conduct', 'secrets management', 'transparant werken', 'code publiceren', of advies wil over open source werken bij de overheid."
+description: "Open source werken bij de overheid: EUPL, publieke code, open-tenzij, licenties, CONTRIBUTING.md, Code of Conduct, secrets management."
 metadata:
   created-with-ai: "true"
   created-with-model: claude-opus-4-20250514

@@ -1,6 +1,6 @@
 ---
 name: nerds-algoritmen
-description: "Gebruik deze skill wanneer de gebruiker vraagt over 'algoritmen', 'AI', 'kunstmatige intelligentie', 'AI-verordening', 'AI Act', 'algoritmeregister', 'bias', 'discriminatie door AI', 'transparantie algoritmen', 'uitlegbaarheid', 'menselijk toezicht', 'IAMA', 'impact assessment', of advies wil over verantwoord gebruik van algoritmen bij de overheid."
+description: "Verantwoord gebruik van algoritmen en AI bij de overheid: AI-verordening (AI Act), algoritmeregister, IAMA, bias, uitlegbaarheid, menselijk toezicht."
 metadata:
   created-with-ai: "true"
   created-with-model: claude-opus-4-20250514

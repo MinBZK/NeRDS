@@ -1,6 +1,6 @@
 ---
 name: nerds-veiligheid
-description: "Gebruik deze skill wanneer de gebruiker vraagt over 'beveiliging', 'security', 'informatiebeveiliging', 'cybersecurity', 'BIO', 'Baseline Informatiebeveiliging', 'penetratietest', 'vulnerability', 'kwetsbaarheid', 'versleuteling', 'encryption', 'beveiligingsincident', of advies wil over het beveiligen van digitale overheidssystemen."
+description: "Informatiebeveiliging bij de overheid: BIO (Baseline Informatiebeveiliging), penetratietesten, kwetsbaarheden, versleuteling, beveiligingsincidenten."
 metadata:
   created-with-ai: "true"
   created-with-model: claude-opus-4-20250514

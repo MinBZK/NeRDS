@@ -1,6 +1,6 @@
 ---
 name: nerds
-description: "Overzicht van de Nederlandse Richtlijn Digitale Systemen (NeRDS). Gebruik deze skill wanneer de gebruiker vraagt over 'NeRDS', 'Nederlandse Richtlijn Digitale Systemen', 'richtlijnen digitale systemen', 'welke richtlijnen zijn er', 'richtlijnen overzicht', 'digitale overheid richtlijnen', of een vraag heeft die niet duidelijk bij een specifieke richtlijn past."
+description: "Nederlandse Richtlijn Digitale Systemen (NeRDS): 13 richtlijnen voor ontwerpen, ontwikkelen en inkopen van digitale overheidssystemen."
 metadata:
   created-with-ai: "true"
   created-with-model: claude-opus-4-20250514
