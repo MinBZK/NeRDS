@@ -1,6 +1,6 @@
 ---
 name: nerds-samenwerking
-description: "Gebruik deze skill wanneer de gebruiker vraagt over 'samenwerking', 'hergebruik', 'delen', 'kennisdeling', 'Common Ground', 'dubbel werk voorkomen', 'componenten hergebruiken', of advies wil over samenwerken en hergebruiken bij digitale overheidssystemen."
+description: "Samenwerken en hergebruiken bij de overheid: kennisdeling, componenten hergebruiken, Common Ground, dubbel werk voorkomen."
 metadata:
   created-with-ai: "true"
   created-with-model: claude-opus-4-20250514

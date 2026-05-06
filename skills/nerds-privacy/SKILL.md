@@ -1,6 +1,6 @@
 ---
 name: nerds-privacy
-description: "Gebruik deze skill wanneer de gebruiker vraagt over 'privacy', 'AVG', 'GDPR', 'DPIA', 'gegevensbescherming', 'persoonsgegevens', 'privacy by design', 'dataminimalisatie', 'verwerkingsregister', 'datalekken', 'Autoriteit Persoonsgegevens', of advies wil over privacy bij digitale overheidssystemen."
+description: "Privacy bij de overheid: AVG/GDPR, DPIA, persoonsgegevens, privacy by design, dataminimalisatie, verwerkingsregister, datalekken, Autoriteit Persoonsgegevens."
 metadata:
   created-with-ai: "true"
   created-with-model: claude-opus-4-20250514

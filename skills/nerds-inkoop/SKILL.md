@@ -1,6 +1,6 @@
 ---
 name: nerds-inkoop
-description: "Gebruik deze skill wanneer de gebruiker vraagt over 'inkoop', 'aanbesteding', 'inkoopstrategie', 'vendor lock-in', 'leveranciersselectie', 'PIANOo', 'total cost of ownership', 'TCO', 'marktconsultatie', 'aanbestedingsregels', of advies wil over het inkopen van technologie bij de overheid."
+description: "Inkoop van technologie bij de overheid: aanbesteding, inkoopstrategie, vendor lock-in, leveranciersselectie, PIANOo, TCO, marktconsultatie."
 metadata:
   created-with-ai: "true"
   created-with-model: claude-opus-4-20250514

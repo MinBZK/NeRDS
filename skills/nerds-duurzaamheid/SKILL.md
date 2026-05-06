@@ -1,6 +1,6 @@
 ---
 name: nerds-duurzaamheid
-description: "Gebruik deze skill wanneer de gebruiker vraagt over 'duurzaamheid', 'green IT', 'green coding', 'energieverbruik ICT', 'CO2 footprint', 'circulair', 'MVI', 'maatschappelijk verantwoord inkopen', 'duurzame hosting', 'groene datacenters', of advies wil over het verduurzamen van technologie bij de overheid."
+description: "Duurzame ICT bij de overheid: green IT, green coding, energieverbruik, CO2-footprint, circulair, MVI (maatschappelijk verantwoord inkopen), groene datacenters."
 metadata:
   created-with-ai: "true"
   created-with-model: claude-opus-4-20250514

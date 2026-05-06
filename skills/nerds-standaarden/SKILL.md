@@ -1,6 +1,6 @@
 ---
 name: nerds-standaarden
-description: "Gebruik deze skill wanneer de gebruiker vraagt over 'open standaarden', 'interoperabiliteit', 'Forum Standaardisatie', 'pas-toe-of-leg-uit', 'vendor lock-in', 'standaardisatie', of advies wil over het gebruik van open standaarden bij digitale overheidssystemen."
+description: "Open standaarden bij de overheid: Forum Standaardisatie, pas-toe-of-leg-uit, interoperabiliteit, voorkómen van vendor lock-in."
 metadata:
   created-with-ai: "true"
   created-with-model: claude-opus-4-20250514

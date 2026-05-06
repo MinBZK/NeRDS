@@ -1,6 +1,6 @@
 ---
 name: nerds-data
-description: "Gebruik deze skill wanneer de gebruiker vraagt over 'data', 'datamanagement', 'datakwaliteit', 'open data', 'datagedreven', 'data governance', 'metadata', 'datadeling', 'data bij de bron', of advies wil over het effectief gebruiken van data bij de overheid."
+description: "Datamanagement bij de overheid: datakwaliteit, data governance, open data, datadeling, metadata, data bij de bron, datagedreven werken."
 metadata:
   created-with-ai: "true"
   created-with-model: claude-opus-4-20250514

@@ -1,6 +1,6 @@
 ---
 name: nerds-toegankelijkheid
-description: "Gebruik deze skill wanneer de gebruiker vraagt over 'toegankelijkheid', 'inclusie', 'WCAG', 'a11y', 'accessibility', 'screenreader', 'toetsenbordnavigatie', 'kleurcontrast', 'EN 301 549', 'digitoegankelijk', 'NL Design System', 'alt tekst', 'inclusief ontwerpen', of advies wil over het toegankelijk maken van digitale overheidssystemen."
+description: "Digitale toegankelijkheid bij de overheid: WCAG, a11y, EN 301 549, screenreader, toetsenbordnavigatie, kleurcontrast, NL Design System, inclusief ontwerpen."
 metadata:
   created-with-ai: "true"
   created-with-model: claude-opus-4-20250514
