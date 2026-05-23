@@ -321,7 +321,7 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "5. Hanteer ee
 - [Google SRE Book](https://sre.google/books/) - Site Reliability Engineering principes
 - [GitOps Principles](https://opengitops.dev/) - GitOps standaarden en best practices
 - [NORA (Nederlandse Overheids Referentie Architectuur)](https://www.noraonline.nl/wiki/Cloud_computing) - Architectuurprincipes overheid
-- [Onderzoek cloudgebruik en ondersteuning gemeenten](https://gce.scgemeenten.nl/project/onderzoek-cloudgebruik-en-ondersteuning-gemeenten/) - Onderzoek naar cloudgebruik door Nederlandse gemeenten
+- [Onderzoek cloudgebruik en ondersteuning gemeenten](https://vng.nl/nieuws/ggi-cloud-expertisecentrum-helpt-gemeentelijke-transitie) - Onderzoek naar cloudgebruik door Nederlandse gemeenten
 - [Rijk ging zonder afwegingen de cloud in](https://www.rekenkamer.nl/actueel/nieuws/2025/01/15/rijk-ging-zonder-afwegingen-de-cloud-in) - Rekenkamer rapport over cloudgebruik door de Rijksoverheid
 - [PCI DSS (Payment Card Industry Data Security Standard)](https://www.pcisecuritystandards.org/) - Payment Card Industry Data Security Standard
 
