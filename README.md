@@ -49,6 +49,15 @@ Dit bouwt de website en controleert of elk component, attribuut, icoon en elke C
 designsysteem, en of er niets is verdwenen uit wat een pagina kan (links, formuliervelden, knoppen).
 Heb je bewust iets weggehaald of toegevoegd, leg dat dan vast met `uv run python scripts/check_site.py --update`.
 
+De toegankelijkheid controleer je met:
+
+```bash
+just a11y
+```
+
+Dit bouwt de website en test elke pagina met pa11y-ci tegen WCAG 2.1 AA, met twee engines (HTML_CodeSniffer en axe).
+Dezelfde controle draait op elke pull request. Je hebt er Node en Google Chrome voor nodig.
+
 ## Vragen?
 
 Maak een [Issue](https://github.com/MinBZK/NeRDS/issues) aan op GitHub. Of stuur een e-mail naar

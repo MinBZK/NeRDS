@@ -1,0 +1,42 @@
+name: Toegankelijkheid
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  a11y:
+    name: Toegankelijkheidspoort (WCAG 2.1 AA)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install site dependencies
+        run: pip install -r requirements.txt
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: tools/a11y/package-lock.json
+
+      # Zonder install-scripts downloadt puppeteer geen eigen browser; de poort
+      # gebruikt de Chrome die al op de runner staat.
+      - name: Install pa11y-ci
+        working-directory: tools/a11y
+        run: npm ci --ignore-scripts
+
+      - name: Bouw de website en controleer elke pagina
+        run: python scripts/check_a11y.py

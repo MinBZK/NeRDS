@@ -15,3 +15,6 @@ site
 
 # Downloaded design system package
 .cache/
+
+# Tools for the accessibility gate
+tools/a11y/node_modules/
