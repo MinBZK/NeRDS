@@ -99,6 +99,25 @@ def on_page_content(html, page, config, files):
 
     html = re.sub(pattern, replace_block, html, flags=re.DOTALL)
 
+    # A placeholder on its own, outside a "Direct aan de slag" block, becomes
+    # the cards without the box around them.
+    def replace_placeholder(match):
+        attributes = match.group('attributes')
+        richtlijn_match = re.search(r'data-richtlijn="([^"]+)"', attributes)
+        fase_match = re.search(r'data-fase="([^"]+)"', attributes)
+        filtered_actions = _filter_actions(
+            registry_data['actions'],
+            richtlijn_match.group(1) if richtlijn_match else None,
+            fase_match.group(1) if fase_match else None
+        )
+        if not filtered_actions:
+            return ''
+        return f'''<nldd-collection layout="grid" item-width="240px" gap="12"{attributes}>
+{_generate_action_cards_html(filtered_actions)}
+</nldd-collection>'''
+
+    html = re.sub(r'<div class="action-cards"(?P<attributes>[^>]*)></div>', replace_placeholder, html)
+
     return html
 
 

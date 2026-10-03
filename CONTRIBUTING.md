@@ -137,12 +137,22 @@ Voor bijdragen aan de NeRDS heb je een lokale ontwikkelomgeving nodig:
 3. **Bekijk je wijzigingen**
    Open [http://localhost:8000](http://localhost:8000) in je browser
 
+4. **Controleer je wijzigingen**
+
+   ```bash
+   uv run python scripts/check_site.py
+   ```
+
+   Dit bouwt de website en controleert de opmaak tegen het designsysteem. Pas je het thema in `src/theme` aan, draai dan ook `just a11y` voor de toegankelijkheidscontrole (WCAG 2.1 AA). Beide controles draaien ook op elke pull request.
+
 ### Wil je een nieuwe pagina aanmaken?
 
 In het [mkdocs.yml](https://github.com/MinBZK/NeRDS/blob/main/mkdocs.yml) bestand staan de settings voor deze website.
 In richtlijn hoef je hier niets aan aan te passen, maar als je een nieuwe pagina wilt aanmaken kan het nodig zijn om hier een aanpassing in te doen.
 Onderdeel van deze settings is namelijk de navigatie voor de site (welke pagina's zijn zichtbaar, en welke pagina's vallen daaronder). Dit staat in de nav: sectie.
 Indien je een nieuwe pagina wilt toevoegen, is het vaak nodig deze wijziging ook door te voeren in het [mkdocs.yml](https://github.com/MinBZK/NeRDS/blob/main/mkdocs.yml) bestand.
+
+Een nieuwe richtlijn krijgt bovenaan de pagina een `title`, een `summary` en een `icon`. De kaarten op de startpagina en op het overzicht van richtlijnen worden daaruit opgebouwd. Voor `icon` kies je een naam uit de [iconen van het NLDD Designsysteem](https://nederlandsedigitaledienst.github.io/design-system/); een naam die niet bestaat laat de controle hierboven falen.
 
 ## Richtlijnen voor bijdragen
 
