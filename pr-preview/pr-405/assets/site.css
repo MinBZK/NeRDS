@@ -81,9 +81,3 @@ nldd-rich-text details.expander > :last-child:not(summary) {
 .cluster-progress {
 	min-height: 12rem;
 }
-
-/* A component sets its own display on :host, which beats the browser's rule
-   for the hidden attribute. */
-[hidden] {
-	display: none !important;
-}
