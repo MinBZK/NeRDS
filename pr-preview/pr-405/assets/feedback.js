@@ -128,7 +128,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // bubbles to the component.
   form.addEventListener('submit', (event) => {
     event.preventDefault();
-    if (form.querySelector('input[name="website"]').value) return;
     if (!validate()) return;
 
     const data = collect();
