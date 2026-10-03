@@ -35,6 +35,18 @@
   <nldd-page>
     {% include "partials/header.html" %}
 
+    {#- The top bar renders in a shadow root, so without JavaScript there is no navigation. #}
+    <noscript>
+      <nldd-rich-text>
+        <p>Deze website werkt het best met JavaScript. Zonder JavaScript navigeer je met deze links:</p>
+        <ul>
+          {%- for item in nav %}
+          <li><a href="{{ ((item.children | first).url if item.children else item.url) | url }}">{{ item.title | e }}</a></li>
+          {%- endfor %}
+        </ul>
+      </nldd-rich-text>
+    </noscript>
+
     {%- block content %}
     {%- if page and page.is_homepage %}
     {{ page.content }}

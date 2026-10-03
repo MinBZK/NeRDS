@@ -130,7 +130,7 @@ def _generate_guideline_cards(page, config, files, heading_level):
         icon = escape(str(front_matter.get("icon", "file-text")))
         summary = escape(str(front_matter.get("summary", "")))
         cards.append(
-            f'''  <nldd-card href="{escape(url)}">
+            f'''  <nldd-card href="{escape(url)}" accessible-label="{escape(title)}">
     <nldd-container padding="16" gap="8">
       <nldd-icon icon="{icon}" size="32" color="lintblauw"></nldd-icon>
       <nldd-title size="5" heading-level="{heading_level}" text="{escape(title)}"></nldd-title>
