@@ -1,0 +1,25 @@
+<nldd-skip-link slot="header">
+  <nldd-top-navigation-bar
+    logo-title="Ministerie van Binnenlandse Zaken en Koninkrijksrelaties"
+    logo-href="{{ nav.homepage.url | url if nav.homepage else base_url }}"
+    website-title="Nederlandse Richtlijn Digitale Systemen"
+    website-href="{{ nav.homepage.url | url if nav.homepage else base_url }}"
+  >
+    <nldd-menu-bar slot="global">
+      {%- for item in nav %}
+      {%- if item.children %}
+      <nldd-menu-bar-item text="{{ item.title | e }}" href="{{ (item.children | first).url | url }}"{% if item.active %} current{% endif %}></nldd-menu-bar-item>
+      {%- else %}
+      <nldd-menu-bar-item text="{{ item.title | e }}" href="{{ item.url | url }}"{% if item.active %} current{% endif %}></nldd-menu-bar-item>
+      {%- endif %}
+      {%- endfor %}
+    </nldd-menu-bar>
+    <nldd-menu-bar slot="utility">
+      <nldd-menu-bar-item id="search-open" text="Zoeken" icon="search" haspopup="dialog"></nldd-menu-bar-item>
+      <nldd-menu-bar-item id="feedback-open" text="Feedback" icon="message-rectangle-text" haspopup="dialog"></nldd-menu-bar-item>
+      {%- if config.repo_url %}
+      <nldd-menu-bar-item text="GitHub" icon="git-branch" href="{{ config.repo_url }}"></nldd-menu-bar-item>
+      {%- endif %}
+    </nldd-menu-bar>
+  </nldd-top-navigation-bar>
+</nldd-skip-link>

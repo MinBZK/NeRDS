@@ -114,7 +114,7 @@ Bijvoorbeeld omdat je verschillende wijzigingsvoorstellen wilt doen? Je kan ook 
 We werken met [Markdown](https://www.markdownguide.org/basic-syntax/) bestanden.
 Dit is bestandsformaat voor platte tekstbestanden en wordt door veel verschillende tools ondersteund. Dit maakt het eenvoudig om versiebeheer op de NeRDS toe te passen.
 
-Daarnaast maken gebruik van [mkdocs](https://www.mkdocs.org/) en [material for mkdocs](https://squidfunk.github.io/mkdocs-material/) om de informatie op een interactieve wijze inzichtelijk te maken op de website van [de NeRDS](https://minbzk.github.io/NeRDS/).
+Daarnaast maken gebruik van [mkdocs](https://www.mkdocs.org/) en het [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system) om de informatie op een interactieve wijze inzichtelijk te maken op de website van [de NeRDS](https://minbzk.github.io/NeRDS/).
 
 ## Ontwikkelomgeving opzetten
 
@@ -125,11 +125,7 @@ Voor bijdragen aan de NeRDS heb je een lokale ontwikkelomgeving nodig:
 1. **Installeer dependencies**
 
    ```bash
-   # Standaard versie (publiek toegankelijk)
    uv pip install -r requirements.txt
-
-   # Of productie versie (MinBZK organisatie)
-   uv pip install -r requirements-prod.txt
    ```
 
 2. **Start de development server**

@@ -12,3 +12,6 @@ site
 
 .Rproj.user
 /tmp-site/
+
+# Downloaded design system package
+.cache/

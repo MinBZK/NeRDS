@@ -91,7 +91,7 @@ The `action-registry-schema.json` defines the exact structure. You can validate 
 
 ## Technical details
 
-- **Hook**: `src/overrides/hooks/action_registry.py`
+- **Hook**: `src/hooks/action_registry.py`
 - **Hook trigger**: Runs on every page build (`on_page_content`)
 - **Pattern matching**: Finds and replaces `<div class="action-cards"></div>`
 - **Form components**: Special handling for form-type actions with custom JavaScript

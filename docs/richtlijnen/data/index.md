@@ -1,6 +1,7 @@
 ---
 title: "10. Maak beter gebruik van data"
 summary: Gebruik data effectiever door je technologie, infrastructuur en processen te verbeteren.
+icon: database
 relations:
   - algoritmen
   - privacy
@@ -28,7 +29,7 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
 
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+    <div class="warning-banner">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 

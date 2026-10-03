@@ -21,6 +21,24 @@ jobs:
       - name: Controleer plugin sync
         run: python3 scripts/generate_plugin.py --check
 
+  check-site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Bouw de website en controleer tegen het designsysteem
+        run: python scripts/check_site.py
+
   check-links:
     runs-on: ubuntu-latest
     steps:

@@ -1,6 +1,7 @@
 ---
 title: "12. Definieer je inkoopstrategie"
 summary: Je inkoopstrategie moet laten zien dat je commerciële en technologische aspecten hebt overwogen.
+icon: shopping-cart
 relations:
   - duurzaamheid
   - cloud
@@ -28,7 +29,7 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
 
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+    <div class="warning-banner">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 

@@ -1,6 +1,7 @@
 ---
 title: "3. Werk transparant en gebruik open source"
 summary: Publiceer je code en gebruik open source software om transparantie, flexibiliteit en verantwoording te verbeteren.
+icon: git-branch
 relations:
   - open-standaarden
   - samenwerking
@@ -24,7 +25,7 @@ Door open en transparant te werken en open source software te omarmen, draag je 
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
 
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+    <div class="warning-banner">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 

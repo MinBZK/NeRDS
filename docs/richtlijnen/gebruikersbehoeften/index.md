@@ -1,6 +1,7 @@
 ---
 title: "1. Stel gebruikersbehoeften vast"
 summary: Begrijp je gebruikers en hun behoeften. Ontwikkel kennis over je gebruikers en wat dat betekent voor je technologieproject.
+icon: users
 relations:
   - toegankelijkheid
   - privacy
@@ -23,7 +24,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
 
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+    <div class="warning-banner">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 

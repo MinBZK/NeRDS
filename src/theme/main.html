@@ -1,0 +1,68 @@
+{#- The page shell: Rijksoverheid top bar, content, footer and the overlays. -#}
+{%- set section = namespace(item=none) -%}
+{%- for item in nav if item.active and item.children -%}
+  {%- set section.item = item -%}
+{%- endfor -%}
+<!doctype html>
+<html lang="{{ config.theme.language or 'nl' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page and page.title and not page.is_homepage %}{{ page.title | striptags }} - {% endif %}{{ config.site_name }}</title>
+  <meta name="description" content="{{ (page.meta.summary if page and page.meta and page.meta.summary else config.site_description) | e }}">
+  {%- if page and page.canonical_url %}
+  <link rel="canonical" href="{{ page.canonical_url }}">
+  {%- endif %}
+  <link rel="icon" type="image/svg+xml" href="{{ 'assets/nldd/favicon.svg' | url }}">
+  <link rel="apple-touch-icon" href="{{ 'assets/nldd/touch-icon.png' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/nldd/nldd.css' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/site.css' | url }}">
+  {%- for path in config.extra_css %}
+  <link rel="stylesheet" href="{{ path | url }}">
+  {%- endfor %}
+  <script defer src="{{ 'assets/nldd/nldd.min.js' | url }}"></script>
+  <script>var base_url = {{ base_url | tojson }};</script>
+  <script defer src="{{ 'assets/site.js' | url }}"></script>
+  <script defer src="{{ 'assets/search.js' | url }}"></script>
+  <script defer src="{{ 'assets/feedback.js' | url }}"></script>
+  {#- The search plugin adds its own front end; search.js replaces it. #}
+  {%- for script in config.extra_javascript if not (script | string).startswith('search/') %}
+  {{ script | script_tag }}
+  {%- endfor %}
+</head>
+<body>
+<nldd-app-view>
+  <nldd-page>
+    {% include "partials/header.html" %}
+
+    {%- block content %}
+    {%- if page and page.is_homepage %}
+    {{ page.content }}
+    {%- elif section.item %}
+    <nldd-sidebar-section id="content-section" sidebar-label="{{ section.item.title | e }}">
+      <nldd-container slot="sidebar" padding="16" gap="24">
+        {% include "partials/sidenav.html" %}
+      </nldd-container>
+      <div class="sidebar-trigger">
+        <nldd-button id="sidebar-open" variant="secondary" size="sm" start-icon="sidebar-left" popup-type="dialog" text="{{ section.item.title | e }}"></nldd-button>
+      </div>
+      {% include "partials/article.html" %}
+    </nldd-sidebar-section>
+    {%- else %}
+    <nldd-simple-section>
+      {% include "partials/article.html" %}
+    </nldd-simple-section>
+    {%- endif %}
+    {%- endblock %}
+
+    {% include "partials/footer.html" %}
+  </nldd-page>
+</nldd-app-view>
+{% include "partials/search.html" %}
+{% include "partials/feedback.html" %}
+{%- if page and 'id="open-cluster-form"' in page.content %}
+{% include "partials/cluster-form.html" %}
+<script defer src="{{ 'assets/cluster-form.js' | url }}"></script>
+{%- endif %}
+</body>
+</html>
