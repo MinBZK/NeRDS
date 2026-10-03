@@ -283,14 +283,22 @@ Dit is bestandsformaat voor platte tekstbestanden en wordt door veel verschillen
 </ol>
 <nldd-code-viewer language="bash">uv run mkdocs serve</nldd-code-viewer>
 <ol>
-<li><strong>Bekijk je wijzigingen</strong>
-   Open <a href="http://localhost:8000">http://localhost:8000</a> in je browser</li>
+<li>
+<p><strong>Bekijk je wijzigingen</strong>
+   Open <a href="http://localhost:8000">http://localhost:8000</a> in je browser</p>
+</li>
+<li>
+<p><strong>Controleer je wijzigingen</strong></p>
+</li>
 </ol>
+<nldd-code-viewer language="bash">uv run python scripts/check_site.py</nldd-code-viewer>
+<p>Dit bouwt de website en controleert de opmaak tegen het designsysteem. Pas je het thema in <code>src/theme</code> aan, draai dan ook <code>just a11y</code> voor de toegankelijkheidscontrole (WCAG 2.1 AA). Beide controles draaien ook op elke pull request.</p>
 <h3 id="wil-je-een-nieuwe-pagina-aanmaken">Wil je een nieuwe pagina aanmaken?</h3>
 <p>In het <a href="https://github.com/MinBZK/NeRDS/blob/main/mkdocs.yml">mkdocs.yml</a> bestand staan de settings voor deze website.
 In richtlijn hoef je hier niets aan aan te passen, maar als je een nieuwe pagina wilt aanmaken kan het nodig zijn om hier een aanpassing in te doen.
 Onderdeel van deze settings is namelijk de navigatie voor de site (welke pagina's zijn zichtbaar, en welke pagina's vallen daaronder). Dit staat in de nav: sectie.
 Indien je een nieuwe pagina wilt toevoegen, is het vaak nodig deze wijziging ook door te voeren in het <a href="https://github.com/MinBZK/NeRDS/blob/main/mkdocs.yml">mkdocs.yml</a> bestand.</p>
+<p>Een nieuwe richtlijn krijgt bovenaan de pagina een <code>title</code>, een <code>summary</code> en een <code>icon</code>. De kaarten op de startpagina en op het overzicht van richtlijnen worden daaruit opgebouwd. Voor <code>icon</code> kies je een naam uit de <a href="https://nederlandsedigitaledienst.github.io/design-system/">iconen van het NLDD Designsysteem</a>; een naam die niet bestaat laat de controle hierboven falen.</p>
 <h2 id="richtlijnen-voor-bijdragen">Richtlijnen voor bijdragen</h2>
 <h3 id="inhoud-schrijven">Inhoud schrijven</h3>
 <ul>
@@ -343,7 +351,7 @@ Indien je een nieuwe pagina wilt toevoegen, is het vaak nodig deze wijziging ook
 </nldd-rich-text>
 <nldd-spacer size="32"></nldd-spacer>
 <nldd-container layout="wrap" gap="16" vertical-alignment="center">
-  <nldd-text size="sm" color="secondary">Laatst bijgewerkt: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="3 oktober 2026 17:52:36 CEST">3 oktober 2026</span></nldd-text>
+  <nldd-text size="sm" color="secondary">Laatst bijgewerkt: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="3 oktober 2026 20:27:45 CEST">3 oktober 2026</span></nldd-text>
   <nldd-link size="sm" href="https://github.com/MinBZK/NeRDS/edit/main/docs/Over-NeRDS/CONTRIBUTING.md" start-icon="pencil" text="Bewerk deze pagina op GitHub"></nldd-link>
 </nldd-container>
 <nldd-spacer size="24"></nldd-spacer>
