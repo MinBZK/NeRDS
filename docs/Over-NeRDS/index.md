@@ -1,6 +1,6 @@
 ---
 title: Over de Nederlandse Richtlijn Digitale Systemen
-summary: De Nederlandse Richtlijn Digitale Systemen is een open source website van het Ministerie van Binnenlandse Zaken.
+summary: De Nederlandse Richtlijn Digitale Systemen is een open source website van de Nederlandse Digitale Dienst.
 hide:
     - navigation
 ---
@@ -19,8 +19,8 @@ De informatie is bedoeld voor medewerkers, ambtenaren, van de rijksoverheid, pro
 
 ## Informatie van de overheid
 
-De Nederlandse Richtlijn Digitale Systemen is een website van het Ministerie van Binnenlandse Zaken en
-Koninkrijksrelaties. Het Bureau Architectuur Digitale Overheid (BADO) stelt de informatie samen.
+De Nederlandse Richtlijn Digitale Systemen is een website van de
+[Nederlandse Digitale Dienst](https://digitaledienst.overheid.nl/), onderdeel van het Ministerie van Economische Zaken en Klimaat. Het Bureau Architectuur Digitale Overheid (BADO) stelt de informatie samen.
 
 ## Kernrichtlijnen
 

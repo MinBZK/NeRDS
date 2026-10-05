@@ -1,5 +1,5 @@
 site_name: "NeRDS: Nederlandse Richtlijn Digitale Systemen 0.1"
-site_description: De Nederlandse Richtlijn Digitale Systemen van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
+site_description: De Nederlandse Richtlijn Digitale Systemen van de Nederlandse Digitale Dienst
 
 theme:
   name: null
@@ -77,8 +77,8 @@ plugins:
       collapse_single_pages: true
 
 # Link naar GitHub repo
-repo_url: https://github.com/MinBZK/NeRDS
-site_url: https://minbzk.github.io/NeRDS/
+repo_url: https://github.com/NederlandseDigitaleDienst/NeRDS
+site_url: https://nederlandsedigitaledienst.github.io/NeRDS/
 edit_uri: edit/main/docs/
 
 

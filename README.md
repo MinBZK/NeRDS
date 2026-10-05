@@ -1,6 +1,6 @@
 # Nederlandse Richtlijn Digitale Systemen
 
-Het [Ministerie van Binnenlandse Zaken en Koninkrijksrelaties](https://github.com/MinBZK) ontwikkelt de Nederlandse
+De [Nederlandse Digitale Dienst](https://github.com/NederlandseDigitaleDienst) ontwikkelt de Nederlandse
 Richtlijn Digitale Systemen (NeRDS) op een open manier via Github.
 De Nederlandse Richtlijn Digitale Systemen is een set standaarden, richtlijnen en praktische hulpmiddelen (tools) voor het
 verantwoord ontwerpen, ontwikkelen en inkopen van digitale systemen binnen de Nederlandse overheid.
@@ -13,7 +13,7 @@ Deze bestanden worden inzichtelijk gemaakt met behulp van [MkDocs](https://www.m
 en vormgegeven met het [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system) in de Rijkshuisstijl.
 
 De Nederlandse Richtlijn Digitale Systemen kun je bekijken op
-[https://minbzk.github.io/NeRDS](https://minbzk.github.io/NeRDS/).
+[https://nederlandsedigitaledienst.github.io/NeRDS](https://nederlandsedigitaledienst.github.io/NeRDS/).
 
 ## Hoe kun je bijdragen?
 
@@ -60,5 +60,5 @@ Dezelfde controle draait op elke pull request. Je hebt er Node en Google Chrome 
 
 ## Vragen?
 
-Maak een [Issue](https://github.com/MinBZK/NeRDS/issues) aan op GitHub. Of stuur een e-mail naar
+Maak een [Issue](https://github.com/NederlandseDigitaleDienst/NeRDS/issues) aan op GitHub. Of stuur een e-mail naar
 [bureau.architectuur@minbzk.nl](mailto:bureau.architectuur@minbzk.nl).

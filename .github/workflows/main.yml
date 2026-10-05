@@ -8,6 +8,10 @@ on:
     tags:
       - '*'
 
+# De deploy pusht de gebouwde site naar de branch gh-pages.
+permissions:
+  contents: write
+
 jobs:
   deploy-main:
     name: deploy main

@@ -2,7 +2,7 @@
 // as a prefilled GitHub issue; nothing is sent from the page itself.
 
 const FEEDBACK_EMAIL = 'bureau.architectuur@minbzk.nl';
-const FEEDBACK_REPOSITORY = 'https://github.com/MinBZK/NeRDS';
+const FEEDBACK_REPOSITORY = 'https://github.com/NederlandseDigitaleDienst/NeRDS';
 const FEEDBACK_TYPES = {
   bug_report: { label: 'Fout/Bug', prefix: '[Bug] ', template: 'bug-report.md' },
   feature_request: { label: 'Voorstel', prefix: '[Voorstel] ', template: 'feature-request.md' },
