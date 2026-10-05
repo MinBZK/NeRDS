@@ -2088,6 +2088,15 @@
 	--semantics-buttons-neutral-transparent-is-hovered-content-secondary-color: light-dark(var(--primitives-color-neutral-550), var(--primitives-color-neutral-650));
 	--semantics-buttons-neutral-transparent-is-active-content-color: var(--primitives-color-neutral-1000);
 	--semantics-buttons-neutral-transparent-is-active-content-secondary-color: light-dark(var(--primitives-color-neutral-550), var(--primitives-color-neutral-650));
+	--semantics-buttons-neutral-transparent-is-selected-background-color: var(--semantics-buttons-neutral-tinted-is-selected-background-color);
+	--semantics-buttons-neutral-transparent-is-selected-highlight-border-color: var(--semantics-buttons-neutral-tinted-is-selected-highlight-border-color);
+	--semantics-buttons-neutral-transparent-is-selected-content-color: var(--semantics-buttons-neutral-tinted-is-selected-content-color);
+	--semantics-buttons-neutral-transparent-is-selected-is-hovered-background-color: var(--semantics-buttons-neutral-tinted-is-selected-is-hovered-background-color);
+	--semantics-buttons-neutral-transparent-is-selected-is-hovered-highlight-border-color: var(--semantics-buttons-neutral-tinted-is-selected-is-hovered-highlight-border-color);
+	--semantics-buttons-neutral-transparent-is-selected-is-hovered-content-color: var(--semantics-buttons-neutral-tinted-is-selected-is-hovered-content-color);
+	--semantics-buttons-neutral-transparent-is-selected-is-active-background-color: var(--semantics-buttons-neutral-tinted-is-selected-is-active-background-color);
+	--semantics-buttons-neutral-transparent-is-selected-is-active-highlight-border-color: var(--semantics-buttons-neutral-tinted-is-selected-is-active-highlight-border-color);
+	--semantics-buttons-neutral-transparent-is-selected-is-active-content-color: var(--semantics-buttons-neutral-tinted-is-selected-is-active-content-color);
 
 	--semantics-buttons-accent-filled-background-color: light-dark(var(--primitives-color-accent-750), var(--primitives-color-accent-650));
 	--semantics-buttons-accent-filled-content-color: var(--primitives-color-accent-0);
@@ -2121,6 +2130,15 @@
 	--semantics-buttons-accent-transparent-is-hovered-content-secondary-color: light-dark(var(--primitives-color-accent-550), var(--primitives-color-accent-650));
 	--semantics-buttons-accent-transparent-is-active-content-color: light-dark(var(--primitives-color-accent-850), var(--primitives-color-accent-750));
 	--semantics-buttons-accent-transparent-is-active-content-secondary-color: light-dark(var(--primitives-color-accent-550), var(--primitives-color-accent-650));
+	--semantics-buttons-accent-transparent-is-selected-background-color: var(--semantics-buttons-neutral-tinted-is-selected-background-color);
+	--semantics-buttons-accent-transparent-is-selected-highlight-border-color: var(--semantics-buttons-neutral-tinted-is-selected-highlight-border-color);
+	--semantics-buttons-accent-transparent-is-selected-content-color: var(--semantics-buttons-neutral-tinted-is-selected-content-color);
+	--semantics-buttons-accent-transparent-is-selected-is-hovered-background-color: var(--semantics-buttons-neutral-tinted-is-selected-is-hovered-background-color);
+	--semantics-buttons-accent-transparent-is-selected-is-hovered-highlight-border-color: var(--semantics-buttons-neutral-tinted-is-selected-is-hovered-highlight-border-color);
+	--semantics-buttons-accent-transparent-is-selected-is-hovered-content-color: var(--semantics-buttons-neutral-tinted-is-selected-is-hovered-content-color);
+	--semantics-buttons-accent-transparent-is-selected-is-active-background-color: var(--semantics-buttons-neutral-tinted-is-selected-is-active-background-color);
+	--semantics-buttons-accent-transparent-is-selected-is-active-highlight-border-color: var(--semantics-buttons-neutral-tinted-is-selected-is-active-highlight-border-color);
+	--semantics-buttons-accent-transparent-is-selected-is-active-content-color: var(--semantics-buttons-neutral-tinted-is-selected-is-active-content-color);
 
 	--semantics-buttons-critical-tinted-background-color: light-dark(var(--primitives-color-critical-75), var(--primitives-color-critical-150));
 	--semantics-buttons-critical-tinted-content-color: light-dark(var(--primitives-color-critical-600), var(--primitives-color-critical-700));
@@ -2166,51 +2184,13 @@
 	--semantics-buttons-inherit-tinted-content-color: currentColor;
 	--semantics-buttons-inherit-tinted-content-secondary-color: var(--semantics-buttons-inherit-tinted-content-color);
 	--semantics-buttons-inherit-tinted-highlight-border-color: color-mix(in oklab, var(--semantics-content-contrast-color) 10%, transparent);
-	--semantics-buttons-inherit-tinted-is-hovered-background-color: color-mix(in oklab, var(--semantics-content-contrast-color) 25%, transparent);
-	--semantics-buttons-inherit-tinted-is-hovered-content-color: var(--semantics-buttons-inherit-tinted-content-color);
-	--semantics-buttons-inherit-tinted-is-hovered-content-secondary-color: var(--semantics-buttons-inherit-tinted-content-secondary-color);
-	--semantics-buttons-inherit-tinted-is-hovered-highlight-border-color: color-mix(in oklab, var(--semantics-content-contrast-color) 10%, transparent);
-	--semantics-buttons-inherit-tinted-is-active-background-color: color-mix(in oklab, var(--semantics-content-contrast-color) 30%, transparent);
-	--semantics-buttons-inherit-tinted-is-active-content-color: var(--semantics-buttons-inherit-tinted-content-color);
-	--semantics-buttons-inherit-tinted-is-active-content-secondary-color: var(--semantics-buttons-inherit-tinted-content-secondary-color);
-	--semantics-buttons-inherit-tinted-is-active-highlight-border-color: color-mix(in oklab, var(--semantics-content-contrast-color) 10%, transparent);
-	--semantics-buttons-inherit-tinted-is-expanded-background-color: color-mix(in oklab, var(--semantics-content-contrast-color) 30%, transparent);
-	--semantics-buttons-inherit-tinted-is-expanded-content-color: var(--semantics-buttons-inherit-tinted-content-color);
-	--semantics-buttons-inherit-tinted-is-expanded-content-secondary-color: var(--semantics-buttons-inherit-tinted-content-secondary-color);
-	--semantics-buttons-inherit-tinted-is-expanded-highlight-border-color: color-mix(in oklab, var(--semantics-content-contrast-color) 10%, transparent);
-	--semantics-buttons-inherit-tinted-is-expanded-is-hovered-background-color: color-mix(in oklab, var(--semantics-content-contrast-color) 35%, transparent);
-	--semantics-buttons-inherit-tinted-is-expanded-is-hovered-content-color: var(--semantics-buttons-inherit-tinted-content-color);
-	--semantics-buttons-inherit-tinted-is-expanded-is-hovered-content-secondary-color: var(--semantics-buttons-inherit-tinted-content-secondary-color);
-	--semantics-buttons-inherit-tinted-is-expanded-is-hovered-highlight-border-color: color-mix(in oklab, var(--semantics-content-contrast-color) 10%, transparent);
-	--semantics-buttons-inherit-tinted-is-expanded-is-active-background-color: color-mix(in oklab, var(--semantics-content-contrast-color) 40%, transparent);
-	--semantics-buttons-inherit-tinted-is-expanded-is-active-content-color: var(--semantics-buttons-inherit-tinted-content-color);
-	--semantics-buttons-inherit-tinted-is-expanded-is-active-content-secondary-color: var(--semantics-buttons-inherit-tinted-content-secondary-color);
-	--semantics-buttons-inherit-tinted-is-expanded-is-active-highlight-border-color: color-mix(in oklab, var(--semantics-content-contrast-color) 10%, transparent);
+	--semantics-buttons-inherit-tinted-divider-color: color-mix(in oklab, currentColor 35%, transparent);
 
 	--semantics-buttons-inherit-filled-background-color: currentColor;
 	--semantics-buttons-inherit-filled-content-color: var(--semantics-content-contrast-color);
 	--semantics-buttons-inherit-filled-content-secondary-color: currentColor;
 	--semantics-buttons-inherit-filled-highlight-border-color: currentColor;
-	--semantics-buttons-inherit-filled-is-hovered-background-color: color-mix(in oklab, currentColor 92%, transparent);
-	--semantics-buttons-inherit-filled-is-hovered-highlight-border-color: currentColor;
-	--semantics-buttons-inherit-filled-is-hovered-content-color: var(--semantics-buttons-inherit-filled-content-color);
-	--semantics-buttons-inherit-filled-is-hovered-content-secondary-color: var(--semantics-buttons-inherit-filled-content-secondary-color);
-	--semantics-buttons-inherit-filled-is-active-background-color: color-mix(in oklab, currentColor 85%, transparent);
-	--semantics-buttons-inherit-filled-is-active-highlight-border-color: currentColor;
-	--semantics-buttons-inherit-filled-is-active-content-color: var(--semantics-buttons-inherit-filled-content-color);
-	--semantics-buttons-inherit-filled-is-active-content-secondary-color: var(--semantics-buttons-inherit-filled-content-secondary-color);
-	--semantics-buttons-inherit-filled-is-expanded-background-color: color-mix(in oklab, currentColor 85%, transparent);
-	--semantics-buttons-inherit-filled-is-expanded-highlight-border-color: currentColor;
-	--semantics-buttons-inherit-filled-is-expanded-content-color: var(--semantics-buttons-inherit-filled-content-color);
-	--semantics-buttons-inherit-filled-is-expanded-content-secondary-color: var(--semantics-buttons-inherit-filled-content-secondary-color);
-	--semantics-buttons-inherit-filled-is-expanded-is-hovered-background-color: color-mix(in oklab, currentColor 80%, transparent);
-	--semantics-buttons-inherit-filled-is-expanded-is-hovered-highlight-border-color: currentColor;
-	--semantics-buttons-inherit-filled-is-expanded-is-hovered-content-color: var(--semantics-buttons-inherit-filled-content-color);
-	--semantics-buttons-inherit-filled-is-expanded-is-hovered-content-secondary-color: var(--semantics-buttons-inherit-filled-content-secondary-color);
-	--semantics-buttons-inherit-filled-is-expanded-is-active-background-color: color-mix(in oklab, currentColor 75%, transparent);
-	--semantics-buttons-inherit-filled-is-expanded-is-active-highlight-border-color: currentColor;
-	--semantics-buttons-inherit-filled-is-expanded-is-active-content-color: var(--semantics-buttons-inherit-filled-content-color);
-	--semantics-buttons-inherit-filled-is-expanded-is-active-content-secondary-color: var(--semantics-buttons-inherit-filled-content-secondary-color);
+	--semantics-buttons-inherit-filled-divider-color: color-mix(in oklab, var(--semantics-content-contrast-color) 25%, transparent);
 
 	/* ## Input fields */
 
@@ -2229,8 +2209,8 @@
 	--semantics-input-fields-is-autofill-content-color: light-dark(var(--primitives-color-mark-800), var(--primitives-color-mark-200));
 
 	--semantics-input-fields-xs-text-font: var(--primitives-font-body-xs-regular-flat);
-	/* Font for the invisible native <select>: Safari derives the option popup size from this,
-	   and iOS Safari auto-zooms inputs below 16px — so this must stay >= 16px. */
+	/* Font for an xs <select> on touch: iOS Safari auto-zooms inputs below 16px,
+	   so this must stay >= 16px. */
 	--semantics-input-fields-native-select-font: var(--primitives-font-body-sm-regular-snug);
 	--semantics-input-fields-sm-text-font: var(--primitives-font-body-sm-regular-flat);
 	--semantics-input-fields-sm-mask-font: 400 var(--primitives-font-size-90)/var(--primitives-line-height-flat) Verdana, system-ui;
@@ -2352,6 +2332,14 @@
 	--components-card-highlight-border-width: var(--semantics-surfaces-border-width);
 	--components-card-highlight-border-color: var(--semantics-surfaces-base-border-color);
 	--components-card-tinted-highlight-border-color: var(--semantics-surfaces-tinted-border-color);
+	--components-card-is-hovered-background-color: light-dark(var(--primitives-color-neutral-25), var(--primitives-color-neutral-150));
+	--components-card-is-hovered-highlight-border-color: light-dark(var(--primitives-color-neutral-100), var(--primitives-color-neutral-250));
+	--components-card-is-active-background-color: light-dark(var(--primitives-color-neutral-50), var(--primitives-color-neutral-200));
+	--components-card-is-active-highlight-border-color: light-dark(var(--primitives-color-neutral-150), var(--primitives-color-neutral-300));
+	--components-card-tinted-is-hovered-background-color: light-dark(var(--primitives-color-neutral-50), var(--primitives-color-neutral-100));
+	--components-card-tinted-is-hovered-highlight-border-color: light-dark(var(--primitives-color-neutral-100), var(--primitives-color-neutral-250));
+	--components-card-tinted-is-active-background-color: light-dark(var(--primitives-color-neutral-75), var(--primitives-color-neutral-150));
+	--components-card-tinted-is-active-highlight-border-color: light-dark(var(--primitives-color-neutral-150), var(--primitives-color-neutral-300));
 
 	/* ## Checkbox */
 
@@ -2908,7 +2896,7 @@ nldd-rich-text *:focus:not(:focus-visible) {
 nldd-rich-text :is(h1, h2, h3, h4, h5, h6) {
 	margin-top: var(--_spacing);
 	margin-bottom: 0;
-	text-wrap: pretty;
+	text-wrap: balance;
 }
 
 
@@ -3023,6 +3011,7 @@ nldd-rich-text p {
 	   at narrow (mobile) widths. break-word (not anywhere) leaves the grid
 	   min-content size alone, so the main column stays intact. */
 	overflow-wrap: break-word;
+	text-wrap: pretty;
 }
 
 
@@ -3069,6 +3058,7 @@ nldd-rich-text li {
 	padding: 0;
 	/* Zelfde vangnet als p: lange strings breken i.p.v. overlopen. */
 	overflow-wrap: break-word;
+	text-wrap: pretty;
 }
 
 nldd-rich-text li > * + * {
@@ -3102,6 +3092,7 @@ nldd-rich-text dt {
 
 nldd-rich-text dd {
 	margin-inline: 0;
+	text-wrap: pretty;
 
 	@container (min-width: 641px) {
 		grid-column: 2;
@@ -3258,6 +3249,7 @@ nldd-rich-text blockquote {
 	padding-inline: var(--semantics-blockquotes-md-spacing);
 	border-left: var(--semantics-blockquotes-border);
 	font: var(--semantics-blockquotes-md-quote-font);
+	text-wrap: pretty;
 
 	@container (max-width: 640px) {
 		gap: calc(var(--semantics-blockquotes-sm-spacing) / 2);

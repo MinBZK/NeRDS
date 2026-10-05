@@ -96,7 +96,7 @@
 </nldd-container>
       </nldd-container>
       <div class="sidebar-trigger">
-        <nldd-button id="sidebar-open" variant="secondary" size="sm" start-icon="sidebar-left" popup-type="dialog" text="Over NeRDS"></nldd-button>
+        <nldd-button id="sidebar-open" appearance="secondary" size="sm" start-icon="sidebar-left" popup-type="dialog" text="Over NeRDS"></nldd-button>
       </div>
       <nldd-rich-text id="content">
   <h1 id="copyright">Copyright</h1>
@@ -128,8 +128,8 @@
 <nldd-divider></nldd-divider>
 <nldd-spacer size="24"></nldd-spacer>
 <nav class="page-navigation" aria-label="Vorige en volgende pagina">
-  <nldd-button variant="secondary" start-icon="arrow-left" href="../privacy/" text="Privacy" accessible-label="Vorige: Privacy"></nldd-button>
-  <nldd-button variant="secondary" end-icon="arrow-right" href="../cookies/" text="Cookies" accessible-label="Volgende: Cookies"></nldd-button>
+  <nldd-button appearance="secondary" start-icon="arrow-left" href="../privacy/" text="Privacy" accessible-label="Vorige: Privacy"></nldd-button>
+  <nldd-button appearance="secondary" end-icon="arrow-right" href="../cookies/" text="Cookies" accessible-label="Volgende: Cookies"></nldd-button>
 </nav>
     </nldd-sidebar-section>
 
@@ -172,7 +172,7 @@
     <nldd-top-title-bar slot="header" text="Zoeken" heading-level="2" dismiss-text="Sluit"></nldd-top-title-bar>
     <nldd-container padding="16" gap="16">
       <nldd-search-field id="search-query" name="query" placeholder="Zoek in de NeRDS"></nldd-search-field>
-      <nldd-list id="search-results" variant="box-tinted" accessible-label="Zoekresultaten">
+      <nldd-list id="search-results" appearance="box-tinted" accessible-label="Zoekresultaten">
         <nldd-inline-dialog slot="empty" icon="search" text="Typ om te zoeken" supporting-text="Je zoekt in alle richtlijnen en pagina's."></nldd-inline-dialog>
       </nldd-list>
     </nldd-container>
@@ -234,11 +234,11 @@
             <nldd-text-field type="url" name="related_docs[]" placeholder="nerds.nl/..."></nldd-text-field>
           </nldd-form-field>
         </div>
-        <nldd-button id="feedback-add-link" variant="neutral-tinted" size="sm" start-icon="plus" text="Link toevoegen"></nldd-button>
+        <nldd-button id="feedback-add-link" appearance="neutral-tinted" size="sm" start-icon="plus" text="Link toevoegen"></nldd-button>
         <nldd-form-actions>
           <nldd-button-group>
-            <nldd-button id="feedback-submit" variant="primary" type="submit" text="Via e-mail"></nldd-button>
-            <nldd-button id="feedback-github" variant="secondary" text="Via GitHub Issues"></nldd-button>
+            <nldd-button id="feedback-submit" appearance="primary" type="submit" text="Via e-mail"></nldd-button>
+            <nldd-button id="feedback-github" appearance="secondary" text="Via GitHub Issues"></nldd-button>
           </nldd-button-group>
         </nldd-form-actions>
       </nldd-form>

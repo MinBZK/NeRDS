@@ -131,7 +131,7 @@
 </nldd-container>
       </nldd-container>
       <div class="sidebar-trigger">
-        <nldd-button id="sidebar-open" variant="secondary" size="sm" start-icon="sidebar-left" popup-type="dialog" text="Richtlijnen"></nldd-button>
+        <nldd-button id="sidebar-open" appearance="secondary" size="sm" start-icon="sidebar-left" popup-type="dialog" text="Richtlijnen"></nldd-button>
       </div>
       <nldd-rich-text id="content">
   <h1 id="4-gebruik-open-standaarden">4. Gebruik open standaarden</h1>
@@ -161,7 +161,7 @@
           <nldd-rich-text><p>Nederlandse API strategie</p></nldd-rich-text>
         </nldd-container>
         <nldd-container slot="footer" padding="16">
-          <nldd-button variant="secondary" size="sm" href="https://docs.geostandaarden.nl/api/API-Strategie/" target="_blank" end-icon="external-link" text="Bekijken" accessible-label="Bekijken: API Standaarden"></nldd-button>
+          <nldd-button appearance="secondary" size="sm" href="https://docs.geostandaarden.nl/api/API-Strategie/" target="_blank" end-icon="external-link" text="Bekijken" accessible-label="Bekijken: API Standaarden"></nldd-button>
         </nldd-container>
       </nldd-card>
       <nldd-card>
@@ -172,7 +172,7 @@
           <nldd-rich-text><p>Bepaal welke standaarden van toepassing zijn</p></nldd-rich-text>
         </nldd-container>
         <nldd-container slot="footer" padding="16">
-          <nldd-button variant="secondary" size="sm" href="https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden" target="_blank" end-icon="external-link" text="Starten" accessible-label="Starten: Beslisboom Open Standaarden"></nldd-button>
+          <nldd-button appearance="secondary" size="sm" href="https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden" target="_blank" end-icon="external-link" text="Starten" accessible-label="Starten: Beslisboom Open Standaarden"></nldd-button>
         </nldd-container>
       </nldd-card>
       <nldd-card>
@@ -183,7 +183,7 @@
           <nldd-rich-text><p>Overzicht van overheids-API&#x27;s</p></nldd-rich-text>
         </nldd-container>
         <nldd-container slot="footer" padding="16">
-          <nldd-button variant="secondary" size="sm" href="https://apis.developer.overheid.nl/apis" target="_blank" end-icon="external-link" text="Ontdekken" accessible-label="Ontdekken: Developer Overheid API&#x27;s"></nldd-button>
+          <nldd-button appearance="secondary" size="sm" href="https://apis.developer.overheid.nl/apis" target="_blank" end-icon="external-link" text="Ontdekken" accessible-label="Ontdekken: Developer Overheid API&#x27;s"></nldd-button>
         </nldd-container>
       </nldd-card>
       <nldd-card>
@@ -194,7 +194,7 @@
           <nldd-rich-text><p>Centrale standaardendatabase</p></nldd-rich-text>
         </nldd-container>
         <nldd-container slot="footer" padding="16">
-          <nldd-button variant="secondary" size="sm" disabled text="Zoeken" accessible-label="Zoeken: Standaardenregister"></nldd-button>
+          <nldd-button appearance="secondary" size="sm" disabled text="Zoeken" accessible-label="Zoeken: Standaardenregister"></nldd-button>
         </nldd-container>
       </nldd-card>
     </nldd-collection>
@@ -222,8 +222,8 @@
 <nldd-divider></nldd-divider>
 <nldd-spacer size="24"></nldd-spacer>
 <nav class="page-navigation" aria-label="Vorige en volgende pagina">
-  <nldd-button variant="secondary" start-icon="arrow-left" href="../open-source/fases/" text="Wanneer doe je wat?" accessible-label="Vorige: Wanneer doe je wat?"></nldd-button>
-  <nldd-button variant="secondary" end-icon="arrow-right" href="../cloud/" text="5. Hanteer een cloud-gedreven strategie" accessible-label="Volgende: 5. Hanteer een cloud-gedreven strategie"></nldd-button>
+  <nldd-button appearance="secondary" start-icon="arrow-left" href="../open-source/fases/" text="Wanneer doe je wat?" accessible-label="Vorige: Wanneer doe je wat?"></nldd-button>
+  <nldd-button appearance="secondary" end-icon="arrow-right" href="../cloud/" text="5. Hanteer een cloud-gedreven strategie" accessible-label="Volgende: 5. Hanteer een cloud-gedreven strategie"></nldd-button>
 </nav>
     </nldd-sidebar-section>
 
@@ -266,7 +266,7 @@
     <nldd-top-title-bar slot="header" text="Zoeken" heading-level="2" dismiss-text="Sluit"></nldd-top-title-bar>
     <nldd-container padding="16" gap="16">
       <nldd-search-field id="search-query" name="query" placeholder="Zoek in de NeRDS"></nldd-search-field>
-      <nldd-list id="search-results" variant="box-tinted" accessible-label="Zoekresultaten">
+      <nldd-list id="search-results" appearance="box-tinted" accessible-label="Zoekresultaten">
         <nldd-inline-dialog slot="empty" icon="search" text="Typ om te zoeken" supporting-text="Je zoekt in alle richtlijnen en pagina's."></nldd-inline-dialog>
       </nldd-list>
     </nldd-container>
@@ -328,11 +328,11 @@
             <nldd-text-field type="url" name="related_docs[]" placeholder="nerds.nl/..."></nldd-text-field>
           </nldd-form-field>
         </div>
-        <nldd-button id="feedback-add-link" variant="neutral-tinted" size="sm" start-icon="plus" text="Link toevoegen"></nldd-button>
+        <nldd-button id="feedback-add-link" appearance="neutral-tinted" size="sm" start-icon="plus" text="Link toevoegen"></nldd-button>
         <nldd-form-actions>
           <nldd-button-group>
-            <nldd-button id="feedback-submit" variant="primary" type="submit" text="Via e-mail"></nldd-button>
-            <nldd-button id="feedback-github" variant="secondary" text="Via GitHub Issues"></nldd-button>
+            <nldd-button id="feedback-submit" appearance="primary" type="submit" text="Via e-mail"></nldd-button>
+            <nldd-button id="feedback-github" appearance="secondary" text="Via GitHub Issues"></nldd-button>
           </nldd-button-group>
         </nldd-form-actions>
       </nldd-form>
