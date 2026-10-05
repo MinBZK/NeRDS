@@ -122,17 +122,15 @@ Daarnaast maken gebruik van [mkdocs](https://www.mkdocs.org/) en het [NLDD Desig
 
 Voor bijdragen aan de NeRDS heb je een lokale ontwikkelomgeving nodig:
 
-1. **Installeer dependencies**
-
-   ```bash
-   uv pip install -r requirements.txt
-   ```
+1. **Installeer [uv](https://docs.astral.sh/uv/)**
 
 2. **Start de development server**
 
    ```bash
    uv run mkdocs serve
    ```
+
+   uv installeert bij de eerste keer zelf de juiste Python en de afhankelijkheden.
 
 3. **Bekijk je wijzigingen**
    Open [http://localhost:8000](http://localhost:8000) in je browser

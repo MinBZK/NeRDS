@@ -38,7 +38,7 @@ repos:
         additional_dependencies: [pyyaml, jsonschema]
       - id: check-site
         name: Build the site and check it against the design system
-        entry: python scripts/check_site.py
+        entry: uv run python scripts/check_site.py
         language: system
         files: ^(docs/|src/|mkdocs\.yml|nldd-design-system\.json|scripts/(check_|behavior_))
         pass_filenames: false

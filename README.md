@@ -23,18 +23,13 @@ Digitale Systemen.
 
 ### Lokaal ontwikkelen
 
-Het Nederlandse Richtlijn Digitale Systemen project kan lokaal met behulp van [Python](https://www.python.org/) worden
-gedraaid. Installeer hiervoor de benodigde packages met [uv](https://github.com/astral-sh/uv):
-
-```bash
-uv pip install -r requirements.txt
-```
-
-Vervolgens kun je een preview van de Nederlandse Richtlijn Digitale Systemen bekijken:
+Je hebt alleen [uv](https://docs.astral.sh/uv/) nodig. Een preview van de website start je met:
 
 ```bash
 uv run mkdocs serve
 ```
+
+uv installeert bij de eerste keer zelf de juiste Python en de afhankelijkheden uit `pyproject.toml` en `uv.lock`.
 
 De website gebruikt de web components van het NLDD Designsysteem. De versie staat vast in
 `nldd-design-system.json`. Bij de eerste build wordt dat pakket eenmalig gedownload naar `.cache/nldd/`.
