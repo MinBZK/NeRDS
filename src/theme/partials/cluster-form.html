@@ -13,14 +13,14 @@
       <nldd-container id="auth-container" gap="16">
         <nldd-title size="4" heading-level="3" text="Authenticatie vereist" supporting-text="Log in om een Kubernetes cluster aan te maken"></nldd-title>
         <nldd-button-group orientation="vertical">
-          <nldd-button id="sso-login" variant="secondary" start-icon="lock" text="SSO Rijksoverheid"></nldd-button>
-          <nldd-button id="yubikey-login" variant="secondary" start-icon="key" text="YubiKey"></nldd-button>
-          <nldd-button id="cert-login" variant="secondary" start-icon="certificate" text="PKIoverheid Certificaat"></nldd-button>
+          <nldd-button id="sso-login" appearance="secondary" start-icon="lock" text="SSO Rijksoverheid"></nldd-button>
+          <nldd-button id="yubikey-login" appearance="secondary" start-icon="key" text="YubiKey"></nldd-button>
+          <nldd-button id="cert-login" appearance="secondary" start-icon="certificate" text="PKIoverheid Certificaat"></nldd-button>
         </nldd-button-group>
       </nldd-container>
 
       <nldd-container id="form-container" gap="16" hidden>
-        <nldd-button id="back-to-auth" variant="neutral-transparent" size="sm" start-icon="arrow-left" text="Terug"></nldd-button>
+        <nldd-button id="back-to-auth" appearance="neutral-transparent" size="sm" start-icon="arrow-left" text="Terug"></nldd-button>
         <nldd-form id="create-cluster-form">
           <nldd-form-field label="Organisatie">
             <nldd-dropdown>
@@ -87,7 +87,7 @@
           <nldd-box id="cost-estimation">
             <nldd-container padding="16" gap="8">
               <nldd-title size="5" heading-level="3" text="Geschatte kosten" supporting-text="Deze kosten zijn een schatting en kunnen variëren op basis van daadwerkelijk gebruik."></nldd-title>
-              <nldd-list variant="box-base" accessible-label="Geschatte kosten">
+              <nldd-list appearance="box-base" accessible-label="Geschatte kosten">
                 <nldd-list-item>
                   <nldd-text-cell text="Maandelijkse kosten"></nldd-text-cell>
                   <nldd-text-cell id="monthly-cost" width="fit-content" horizontal-alignment="right" text="€0,00"></nldd-text-cell>
@@ -101,7 +101,7 @@
           </nldd-box>
           <nldd-form-actions>
             <nldd-button-group>
-              <nldd-button variant="primary" type="submit" text="Cluster aanmaken"></nldd-button>
+              <nldd-button appearance="primary" type="submit" text="Cluster aanmaken"></nldd-button>
             </nldd-button-group>
           </nldd-form-actions>
         </nldd-form>
@@ -113,7 +113,7 @@
 
       <nldd-container id="result-container" gap="16" hidden>
         <nldd-inline-dialog variant="success" heading-level="3" text="Cluster succesvol aangemaakt!"></nldd-inline-dialog>
-        <nldd-list variant="box-tinted" accessible-label="Gegevens van het cluster">
+        <nldd-list appearance="box-tinted" accessible-label="Gegevens van het cluster">
           {%- for id, label in [
             ('result-cluster-name', 'Cluster naam'),
             ('result-organization', 'Organisatie'),
@@ -134,7 +134,7 @@
         </nldd-list>
         <nldd-title size="5" heading-level="3" text="Aan de slag met je cluster"></nldd-title>
         <nldd-code-viewer id="kubectl-instructions" language="bash"></nldd-code-viewer>
-        <nldd-button id="reset-cluster-form" variant="secondary" text="Nog een cluster aanmaken"></nldd-button>
+        <nldd-button id="reset-cluster-form" appearance="secondary" text="Nog een cluster aanmaken"></nldd-button>
       </nldd-container>
 
     </nldd-container>

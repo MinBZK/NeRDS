@@ -19,8 +19,8 @@ hide:
   </nldd-rich-text>
   <nldd-spacer size="24"></nldd-spacer>
   <nldd-button-group>
-    <nldd-button variant="inherit-filled" href="richtlijnen/" text="Bekijk alle richtlijnen"></nldd-button>
-    <nldd-button variant="inherit-tinted" href="Over-NeRDS/" text="Over de NeRDS"></nldd-button>
+    <nldd-button appearance="inherit-filled" href="richtlijnen/" text="Bekijk alle richtlijnen"></nldd-button>
+    <nldd-button appearance="inherit-tinted" href="Over-NeRDS/" text="Over de NeRDS"></nldd-button>
   </nldd-button-group>
 </nldd-hero>
 
@@ -62,7 +62,7 @@ hide:
   <nldd-title size="2" heading-level="2" text="Aan de slag met NeRDS" supporting-text="De NeRDS-richtlijnen helpen je bij het maken van doeltreffende, veilige en gebruikersgerichte technologie."></nldd-title>
   <nldd-spacer size="16"></nldd-spacer>
   <nldd-button-group>
-    <nldd-button variant="primary" href="https://github.com/NederlandseDigitaleDienst/NeRDS" text="Bekijk op GitHub"></nldd-button>
-    <nldd-button variant="secondary" href="Over-NeRDS/CONTRIBUTING/" text="Draag bij aan NeRDS"></nldd-button>
+    <nldd-button appearance="primary" href="https://github.com/NederlandseDigitaleDienst/NeRDS" text="Bekijk op GitHub"></nldd-button>
+    <nldd-button appearance="secondary" href="Over-NeRDS/CONTRIBUTING/" text="Draag bij aan NeRDS"></nldd-button>
   </nldd-button-group>
 </nldd-simple-section>

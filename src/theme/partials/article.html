@@ -19,10 +19,10 @@
 <nldd-spacer size="24"></nldd-spacer>
 <nav class="page-navigation" aria-label="Vorige en volgende pagina">
   {%- if page.previous_page %}
-  <nldd-button variant="secondary" start-icon="arrow-left" href="{{ page.previous_page.url | url }}" text="{{ page.previous_page.title | striptags | e }}" accessible-label="Vorige: {{ page.previous_page.title | striptags | e }}"></nldd-button>
+  <nldd-button appearance="secondary" start-icon="arrow-left" href="{{ page.previous_page.url | url }}" text="{{ page.previous_page.title | striptags | e }}" accessible-label="Vorige: {{ page.previous_page.title | striptags | e }}"></nldd-button>
   {%- endif %}
   {%- if page.next_page %}
-  <nldd-button variant="secondary" end-icon="arrow-right" href="{{ page.next_page.url | url }}" text="{{ page.next_page.title | striptags | e }}" accessible-label="Volgende: {{ page.next_page.title | striptags | e }}"></nldd-button>
+  <nldd-button appearance="secondary" end-icon="arrow-right" href="{{ page.next_page.url | url }}" text="{{ page.next_page.title | striptags | e }}" accessible-label="Volgende: {{ page.next_page.title | striptags | e }}"></nldd-button>
   {%- endif %}
 </nav>
 {%- endif %}
