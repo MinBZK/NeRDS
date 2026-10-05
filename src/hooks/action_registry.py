@@ -284,16 +284,16 @@ def _generate_button_html(action):
     if action_type == 'form' and component:
         if component == 'kubernetes-cluster-form':
             return (
-                f'<nldd-button id="open-cluster-form" variant="secondary" size="sm" '
+                f'<nldd-button id="open-cluster-form" appearance="secondary" size="sm" '
                 f'popup-type="dialog" text="{action_label}" {label}></nldd-button>'
             )
 
     # For actions without a source
     if not source:
-        return f'<nldd-button variant="secondary" size="sm" disabled text="{action_label}" {label}></nldd-button>'
+        return f'<nldd-button appearance="secondary" size="sm" disabled text="{action_label}" {label}></nldd-button>'
 
     # For actions with a source
     return (
-        f'<nldd-button variant="secondary" size="sm" href="{escape(source)}" target="_blank" '
+        f'<nldd-button appearance="secondary" size="sm" href="{escape(source)}" target="_blank" '
         f'end-icon="external-link" text="{action_label}" {label}></nldd-button>'
     )

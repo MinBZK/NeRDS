@@ -47,7 +47,7 @@ nldd-rich-text ul.checklist > li > span {
 }
 
 /* Collapsible tips. The design system has no disclosure component for
-   running text (checked against 0.8.93), so this is a native details. */
+   running text (checked against 0.8.94), so this is a native details. */
 nldd-rich-text details.expander {
 	/* Rich text shrinkwraps what it does not know; this reads at the text measure. */
 	grid-column: main;
@@ -80,14 +80,4 @@ nldd-rich-text details.expander > :last-child:not(summary) {
 /* The activity indicator fills its parent, so the parent needs a height. */
 .cluster-progress {
 	min-height: 12rem;
-}
-
-/* A card that is a link shows no hover state of its own (nldd-card 0.8.93
-   has a focus ring and a pointer cursor, nothing on hover). Until the
-   component does, the border the card already draws takes the accent color. */
-@media (hover: hover) {
-	nldd-card[href]:hover {
-		--components-card-highlight-border-color: var(--semantics-content-accent-color);
-		--components-card-highlight-border-width: var(--primitives-border-width-regular);
-	}
 }

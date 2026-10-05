@@ -31,8 +31,6 @@ THEME_ASSETS = REPO_ROOT / "src" / "theme" / "assets"
 GLOBAL_ATTRIBUTES = {"id", "class", "slot", "hidden", "role", "tabindex", "lang", "title", "name"}
 GLOBAL_ATTRIBUTE_PREFIXES = ("data-", "aria-")
 ICON_ATTRIBUTES = {"icon", "start-icon", "end-icon"}
-# Slots the component renders that custom-elements.json of 0.8.93 does not list.
-UNDOCUMENTED_SLOTS = {"nldd-top-navigation-bar": {"global", "utility"}}
 # Classes owned by a plugin that brings no stylesheet of its own.
 EXTERNAL_CLASSES = {"git-revision-date-localized-plugin", "git-revision-date-localized-plugin-date"}
 # Class and id prefixes of the previous theme. A prefix ends in a dash so a
@@ -54,8 +52,7 @@ def load_package():
                 continue
             elements[tag] = {
                 "attributes": {item["name"] for item in declaration.get("attributes", [])},
-                "slots": {item["name"] for item in declaration.get("slots", [])}
-                | UNDOCUMENTED_SLOTS.get(tag, set()),
+                "slots": {item["name"] for item in declaration.get("slots", [])},
             }
     icon_dir = package / "components" / "content" / "icon"
     icons = set(re.findall(r"^\s*\['([a-z0-9-]+)',", (icon_dir / "icon-registry.js").read_text(encoding="utf-8"), re.M))

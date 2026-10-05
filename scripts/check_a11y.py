@@ -66,10 +66,6 @@ def pa11y_config(urls: list[str]) -> dict:
         # slotted into a component, where axe cannot sample the background
         # through the shadow boundary. Those stay visible as warnings.
         "levelCapWhenNeedsReview": "warning",
-        # The scroll container inside nldd-code-viewer is not keyboard
-        # focusable (scrollable-region-focusable), measured on 0.8.93. That is
-        # for the design system to fix, so the subtree is left out here.
-        "hideElements": "nldd-code-viewer",
         # HTML_CodeSniffer looks for a native submit button in the form. The
         # submit button of an nldd-form is an nldd-button with type="submit":
         # form-associated, keyboard operable, and inside a shadow root where
