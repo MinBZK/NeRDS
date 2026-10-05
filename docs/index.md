@@ -54,7 +54,7 @@ hide:
 </nldd-one-half-one-half-section>
 
 <nldd-simple-section background="tinted">
-  <nldd-title slot="header" size="2" heading-level="2" text="NeRDS richtlijnen" supporting-text="Deze 14 richtlijnen van de NeRDS helpen je bij het verantwoord ontwikkelen van digitale systemen."></nldd-title>
+  <nldd-title slot="header" size="2" heading-level="2" text="NeRDS richtlijnen" supporting-text="Deze 13 richtlijnen van de NeRDS helpen je bij het verantwoord ontwikkelen van digitale systemen."></nldd-title>
   <div class="richtlijnen-cards" data-heading-level="3"></div>
 </nldd-simple-section>
 

@@ -201,6 +201,8 @@ def _generate_action_cards_html(actions):
     """
     # The status is a state the registry keeps, so it is a badge. The text
     # carries the meaning; the color only supports it.
+    # It sits above the title, not beside it: beside it the badge takes width
+    # from the title, and a long name then breaks in the middle of a word.
     status_colors = {
         'beschikbaar': 'success',
         'ontwikkeling': 'warning',
@@ -217,7 +219,7 @@ def _generate_action_cards_html(actions):
         card_html = f'''      <nldd-card>
         <nldd-container padding="16" gap="8">
           <nldd-title size="5" heading-level="4" text="{escape(action.get('name', ''))}">
-            <nldd-badge slot="end" size="sm" color="{color}" text="{escape(status)}"></nldd-badge>
+            <nldd-badge slot="overline" size="sm" color="{color}" text="{escape(status)}"></nldd-badge>
           </nldd-title>
           <nldd-rich-text><p>{escape(action.get('description', ''))}</p></nldd-rich-text>
         </nldd-container>

@@ -81,3 +81,13 @@ nldd-rich-text details.expander > :last-child:not(summary) {
 .cluster-progress {
 	min-height: 12rem;
 }
+
+/* A card that is a link shows no hover state of its own (nldd-card 0.8.93
+   has a focus ring and a pointer cursor, nothing on hover). Until the
+   component does, the border the card already draws takes the accent color. */
+@media (hover: hover) {
+	nldd-card[href]:hover {
+		--components-card-highlight-border-color: var(--semantics-content-accent-color);
+		--components-card-highlight-border-width: var(--primitives-border-width-regular);
+	}
+}
