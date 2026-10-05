@@ -13,7 +13,7 @@ jobs:
   validate-plugin:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
       - name: Valideer plugin.json
         run: python3 -c "import json; json.load(open('.plugin/plugin.json'))"
@@ -24,12 +24,12 @@ jobs:
   check-site:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: '3.12'
 
@@ -43,7 +43,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       # Excluded URLs:
       # - rijksportaal.overheid-i.nl: Internal government portal
@@ -55,7 +55,7 @@ jobs:
       #   rijksoverheid.nl, wetten.overheid.nl, dutchcloudcommunity.nl
       - name: Link Checker
         id: lychee
-        uses: lycheeverse/lychee-action@v2.8.0
+        uses: lycheeverse/lychee-action@v2.9.0
         with:
           # Target specific files and improve the arguments
           args: >-
