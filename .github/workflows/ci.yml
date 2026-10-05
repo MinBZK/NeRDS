@@ -21,6 +21,24 @@ jobs:
       - name: Controleer plugin sync
         run: python3 scripts/generate_plugin.py --check
 
+  check-site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Bouw de website en controleer tegen het designsysteem
+        run: python scripts/check_site.py
+
   check-links:
     runs-on: ubuntu-latest
     steps:
@@ -73,39 +91,3 @@ jobs:
           title: Broken links detected
           content-filepath: ./lychee/out.md
           labels: broken-links
-
-  accessibility-tests:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: '18'
-
-      - name: Install Pa11y tools
-        run: npm install -g pa11y-ci
-
-      - name: Test all pages with sitemap
-        run: |
-          mkdir -p reports
-          pa11y-ci --sitemap https://minbzk.github.io/NeRDS/sitemap.xml \
-                    --reporter json \
-                    --output reports/a11y-report.json || echo "Issues found"
-
-      - name: Upload results
-        if: always()
-        uses: actions/upload-artifact@v7
-        with:
-          name: accessibility-reports
-          path: reports/
-          retention-days: 7
-
-      - name: Create issue on failure
-        if: failure() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
-        uses: peter-evans/create-issue-from-file@v6
-        with:
-          title: Accessibility issues detected across site
-          content-filepath: ./reports/a11y-report.json
-          labels: accessibility

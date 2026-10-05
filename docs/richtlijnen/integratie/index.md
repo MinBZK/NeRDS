@@ -1,6 +1,7 @@
 ---
 title: "9. Integreer en pas technologie aan"
 summary: Je technologie moet werken met bestaande technologieën, processen en infrastructuur in je organisatie.
+icon: puzzle-piece
 relations:
   - open-standaarden
   - samenwerking
@@ -26,7 +27,7 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
 
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+    <div class="warning-banner">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 

@@ -52,6 +52,12 @@ jobs:
         if: github.event.action != 'closed'
         run: uv run mkdocs build
 
+      - name: Controleer de website tegen het designsysteem
+        if: github.event.action != 'closed'
+        run: |
+          uv run python scripts/check_nldd.py ./site
+          uv run python scripts/behavior_surface.py check ./site scripts/behavior-surface.json
+
       - uses: actions/upload-artifact@v7
         if: github.event.action != 'closed'
         with:

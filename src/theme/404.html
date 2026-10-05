@@ -1,0 +1,14 @@
+{% extends "main.html" %}
+{% block content %}
+<nldd-simple-section>
+  <nldd-inline-dialog
+    size="lg"
+    icon="signpost"
+    heading-level="1"
+    text="Deze pagina bestaat niet"
+    supporting-text="De pagina is verplaatst of verwijderd, of het adres klopt niet."
+  >
+    <nldd-button slot="actions" variant="primary" href="{{ nav.homepage.url | url }}" text="Naar de startpagina"></nldd-button>
+  </nldd-inline-dialog>
+</nldd-simple-section>
+{% endblock %}

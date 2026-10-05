@@ -1,0 +1,63 @@
+<nldd-sheet id="feedback-sheet" placement="right" width="480px">
+  <nldd-page>
+    <nldd-top-title-bar slot="header" text="Feedback geven" heading-level="2" dismiss-text="Sluit"></nldd-top-title-bar>
+    <nldd-container padding="16" gap="16">
+      <nldd-rich-text>
+        <p>Helpt u ons door uw feedback te delen? We gebruiken dit om NeRDS te verbeteren. U kunt feedback geven via e-mail of via GitHub Issues.</p>
+      </nldd-rich-text>
+      <nldd-banner id="feedback-success" variant="success" text="Bedankt voor uw feedback!" hidden></nldd-banner>
+      <nldd-form id="feedback-form">
+        <nldd-form-field label="Welke richtlijn betreft dit?" optional>
+          <nldd-dropdown>
+            <select id="feedback-guideline" name="feedback_guideline">
+              <option value="">Alle richtlijnen</option>
+              <option value="0">Over de NeRDS in het algemeen</option>
+              {%- for item in nav if item.title == 'Richtlijnen' %}
+              {%- for child in item.children %}
+              {%- set number = child.title.split('.')[0] %}
+              {%- if number.isdigit() %}
+              {%- set target = (child.children | first) if child.children else child %}
+              <option value="{{ number }}" data-slug="{{ target.url.split('/')[1] }}">{{ child.title | e }}</option>
+              {%- endif %}
+              {%- endfor %}
+              {%- endfor %}
+            </select>
+          </nldd-dropdown>
+        </nldd-form-field>
+        <nldd-form-field label="Soort feedback">
+          <nldd-dropdown>
+            <select id="feedback-type" name="feedback_type" required>
+              <option value="">Selecteer</option>
+              <option value="bug_report">Fout</option>
+              <option value="feature_request">Voorstel</option>
+              <option value="general_feedback">Feedback</option>
+              <option value="question">Vraag</option>
+            </select>
+          </nldd-dropdown>
+          <nldd-validation-list>
+            <nldd-validation-item id="feedback-type-required" required>Een soort feedback is nodig.</nldd-validation-item>
+          </nldd-validation-list>
+        </nldd-form-field>
+        <nldd-form-field label="Uw feedback">
+          <nldd-multi-line-text-field id="feedback-text" name="feedback_text" rows="4" required minlength="10" maxlength="5000"></nldd-multi-line-text-field>
+          <nldd-validation-list>
+            <nldd-validation-item id="feedback-text-minlength" minlength="10" required>Minimaal 10 tekens.</nldd-validation-item>
+            <nldd-validation-item id="feedback-text-maxlength" maxlength="5000">Maximaal 5000 tekens.</nldd-validation-item>
+          </nldd-validation-list>
+        </nldd-form-field>
+        <div id="feedback-related-docs-container">
+          <nldd-form-field label="Link naar een relevant document" optional>
+            <nldd-text-field type="url" name="related_docs[]" placeholder="nerds.nl/..."></nldd-text-field>
+          </nldd-form-field>
+        </div>
+        <nldd-button id="feedback-add-link" variant="neutral-tinted" size="sm" start-icon="plus" text="Link toevoegen"></nldd-button>
+        <nldd-form-actions>
+          <nldd-button-group>
+            <nldd-button id="feedback-submit" variant="primary" type="submit" text="Via e-mail"></nldd-button>
+            <nldd-button id="feedback-github" variant="secondary" text="Via GitHub Issues"></nldd-button>
+          </nldd-button-group>
+        </nldd-form-actions>
+      </nldd-form>
+    </nldd-container>
+  </nldd-page>
+</nldd-sheet>

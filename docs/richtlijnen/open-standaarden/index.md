@@ -1,6 +1,7 @@
 ---
 title: "4. Gebruik open standaarden"
 summary: Bouw technologie die open standaarden gebruikt om ervoor te zorgen dat je technologie werkt en communiceert met andere technologie.
+icon: seal-check-mark
 relations:
   - integratie
   - toegankelijkheid
@@ -29,7 +30,7 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
 
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+    <div class="warning-banner">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
