@@ -9,6 +9,11 @@ on:
 
 concurrency: preview-${{ github.ref }}
 
+# De preview komt op de branch gh-pages en de link in een reactie op de PR.
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   deploy:
     name: deploy PR
