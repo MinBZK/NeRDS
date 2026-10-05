@@ -28,7 +28,7 @@ def on_post_build(config: MkDocsConfig) -> None:
     os.makedirs(well_known_dir, exist_ok=True)
 
     ncsc_security_txt_url = "https://www.ncsc.nl/.well-known/security.txt"
-    canonical_url = "https://minbzk.github.io/NeRDS/.well-known/security.txt"
+    canonical_url = "https://nederlandsedigitaledienst.github.io/NeRDS/.well-known/security.txt"
 
     # Try to fetch NCSC security.txt
     security_txt_content = _fetch_ncsc_security_txt(

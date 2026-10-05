@@ -45,7 +45,7 @@ We kijken uit naar alle bijdragen! 🎉
 ## Code of Conduct
 
 Dit project en iedereen die eraan deelneemt, valt onder de
-[Code of Conduct](https://github.com/MinBZK/NeRDS?tab=coc-ov-file#readme).
+[Code of Conduct](https://github.com/NederlandseDigitaleDienst/NeRDS?tab=coc-ov-file#readme).
 Door deel te nemen, wordt van je verwacht dat je je aan deze code houdt. Meld onacceptabel gedrag
 aan **[bureau.architectuur@minbzk.nl](mailto:bureau.architectuur@minbzk.nl)**.
 
@@ -53,9 +53,9 @@ aan **[bureau.architectuur@minbzk.nl](mailto:bureau.architectuur@minbzk.nl)**.
 
 ### Maak een issue aan
 
-Voordat je een [Issues](https://github.com/MinBZK/NeRDS/issues) gaat aanmaken, kan je bekijken of jouw vraag al tussen de bestaande [Issues](https://github.com/MinBZK/NeRDS/issues) staat. Wellicht staat er al een issue tussen die jou vraag kan beantwoorden.
+Voordat je een [Issues](https://github.com/NederlandseDigitaleDienst/NeRDS/issues) gaat aanmaken, kan je bekijken of jouw vraag al tussen de bestaande [Issues](https://github.com/NederlandseDigitaleDienst/NeRDS/issues) staat. Wellicht staat er al een issue tussen die jou vraag kan beantwoorden.
 
-Als je jouw vraag nog steeds wilt stellen, kan je een [Issue](https://github.com/MinBZK/NeRDS/issues) aanmaken.
+Als je jouw vraag nog steeds wilt stellen, kan je een [Issue](https://github.com/NederlandseDigitaleDienst/NeRDS/issues) aanmaken.
 
 1. Gebruik daarvoor de knop new issue.
 2. Formuleer je vraag of opmerking en geef een heldere toelichting.
@@ -68,11 +68,11 @@ Je kan je vragen ook altijd stellen door een mail te sturen naar **[bureau.archi
 
 ## Ik wil een fout of bug melden
 
-Heb je een foutje gevonden in de NeRDS? Dan kan je deze melden door een [Issue](https://github.com/MinBZK/NeRDS/issues) aan te maken.
+Heb je een foutje gevonden in de NeRDS? Dan kan je deze melden door een [Issue](https://github.com/NederlandseDigitaleDienst/NeRDS/issues) aan te maken.
 
-Voordat je een [Issues](https://github.com/MinBZK/NeRDS/issues) gaat aanmaken, kan je bekijken of jouw gevonden fout al tussen de bestaande [Issues](https://github.com/MinBZK/NeRDS/issues) staat.
+Voordat je een [Issues](https://github.com/NederlandseDigitaleDienst/NeRDS/issues) gaat aanmaken, kan je bekijken of jouw gevonden fout al tussen de bestaande [Issues](https://github.com/NederlandseDigitaleDienst/NeRDS/issues) staat.
 
-Als je de gevonden fout nog steeds wilt melden, kan je een [Issue](https://github.com/MinBZK/NeRDS/issues) aanmaken.
+Als je de gevonden fout nog steeds wilt melden, kan je een [Issue](https://github.com/NederlandseDigitaleDienst/NeRDS/issues) aanmaken.
 
 1. Gebruik daarvoor de knop new issue.
 2. Beschrijf de fout duidelijk en geef een heldere toelichting. Voeg waar mogelijk een screenshot toe.
@@ -86,17 +86,17 @@ Als je de gevonden fout nog steeds wilt melden, kan je een [Issue](https://githu
 
 Heb je een suggestie of wil je een verbetering voorstellen? Dat kan gaan om een compleet nieuwe functionaliteit van de site of om kleine verbeteringen. Het volgen van onderstaande instructie helpt het team van de NeRDS om je suggestie te begrijpen en gerelateerde suggesties te vinden.
 
-Je kan een suggestie doen door een [Issue](https://github.com/MinBZK/NeRDS/issues) aan te maken of door een Pull Request te maken.
+Je kan een suggestie doen door een [Issue](https://github.com/NederlandseDigitaleDienst/NeRDS/issues) aan te maken of door een Pull Request te maken.
 
 ### Voordat je een suggestie gaat maken
 
-- Voordat je een suggestie gaat maken, kan je bekijken of jouw suggestie al tussen de bestaande [Issues](https://github.com/MinBZK/NeRDS/issues) staat. Wellicht bestaat er al een issue die jouw suggestie beschrijft, en zijn we er al mee bezig.
+- Voordat je een suggestie gaat maken, kan je bekijken of jouw suggestie al tussen de bestaande [Issues](https://github.com/NederlandseDigitaleDienst/NeRDS/issues) staat. Wellicht bestaat er al een issue die jouw suggestie beschrijft, en zijn we er al mee bezig.
 - Zoek uit of jouw idee past binnen het doel en de scope van het project. Wat zijn de voordelen van deze functionaliteit of toevoeging? Het is aan jou om het team van de NeRDS en de community te overtuigen dat dit een nuttige toevoeging is aan de NeRDS. Houd in gedachten dat we functionaliteiten willen die nuttig zijn
 voor de meerderheid van onze gebruikers en niet slechts voor een kleine groep.
 
 ### Een issue aanmaken
 
-Als je jouw suggestie nog steeds wilt doen, kan je een [Issue](https://github.com/MinBZK/NeRDS/issues) aanmaken.
+Als je jouw suggestie nog steeds wilt doen, kan je een [Issue](https://github.com/NederlandseDigitaleDienst/NeRDS/issues) aanmaken.
 
 1. Gebruik daarvoor de knop new issue.
 2. Beschrijf duidelijk jouw suggestie en geef een heldere toelichting en onderbouwing waarom dit een goede toevoeging zal zijn aan de NeRDS
@@ -114,7 +114,7 @@ Bijvoorbeeld omdat je verschillende wijzigingsvoorstellen wilt doen? Je kan ook 
 We werken met [Markdown](https://www.markdownguide.org/basic-syntax/) bestanden.
 Dit is bestandsformaat voor platte tekstbestanden en wordt door veel verschillende tools ondersteund. Dit maakt het eenvoudig om versiebeheer op de NeRDS toe te passen.
 
-Daarnaast maken gebruik van [mkdocs](https://www.mkdocs.org/) en het [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system) om de informatie op een interactieve wijze inzichtelijk te maken op de website van [de NeRDS](https://minbzk.github.io/NeRDS/).
+Daarnaast maken gebruik van [mkdocs](https://www.mkdocs.org/) en het [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system) om de informatie op een interactieve wijze inzichtelijk te maken op de website van [de NeRDS](https://nederlandsedigitaledienst.github.io/NeRDS/).
 
 ## Ontwikkelomgeving opzetten
 
@@ -147,10 +147,10 @@ Voor bijdragen aan de NeRDS heb je een lokale ontwikkelomgeving nodig:
 
 ### Wil je een nieuwe pagina aanmaken?
 
-In het [mkdocs.yml](https://github.com/MinBZK/NeRDS/blob/main/mkdocs.yml) bestand staan de settings voor deze website.
+In het [mkdocs.yml](https://github.com/NederlandseDigitaleDienst/NeRDS/blob/main/mkdocs.yml) bestand staan de settings voor deze website.
 In richtlijn hoef je hier niets aan aan te passen, maar als je een nieuwe pagina wilt aanmaken kan het nodig zijn om hier een aanpassing in te doen.
 Onderdeel van deze settings is namelijk de navigatie voor de site (welke pagina's zijn zichtbaar, en welke pagina's vallen daaronder). Dit staat in de nav: sectie.
-Indien je een nieuwe pagina wilt toevoegen, is het vaak nodig deze wijziging ook door te voeren in het [mkdocs.yml](https://github.com/MinBZK/NeRDS/blob/main/mkdocs.yml) bestand.
+Indien je een nieuwe pagina wilt toevoegen, is het vaak nodig deze wijziging ook door te voeren in het [mkdocs.yml](https://github.com/NederlandseDigitaleDienst/NeRDS/blob/main/mkdocs.yml) bestand.
 
 Een nieuwe richtlijn krijgt bovenaan de pagina een `title`, een `summary` en een `icon`. De kaarten op de startpagina en op het overzicht van richtlijnen worden daaruit opgebouwd. Voor `icon` kies je een naam uit de [iconen van het NLDD Designsysteem](https://nederlandsedigitaledienst.github.io/design-system/); een naam die niet bestaat laat de controle hierboven falen.
 

@@ -5,7 +5,7 @@ title: Privacy
 
 # Privacy
 
-Je privacy is belangrijk voor ons. Hier leggen we uit welke gegevens we verzamelen, waarom we dat doen en hoe we goed met je gegevens omgaan. Deze verklaring geldt voor de verwerking van gegevens door het ministerie van Binnenlandse Zaken en Koninkrijksrelaties op deze website.
+Je privacy is belangrijk voor ons. Hier leggen we uit welke gegevens we verzamelen, waarom we dat doen en hoe we goed met je gegevens omgaan. Deze verklaring geldt voor de verwerking van gegevens door de Nederlandse Digitale Dienst, onderdeel van het Ministerie van Economische Zaken en Klimaat, op deze website.
 
 ## Welke gegevens verzamelen wij?
 
