@@ -30,7 +30,7 @@ jobs:
         run: |
           sed -i 's/development/${{ steps.get_commit_hash.outputs.commit_hash }}/g' docs/version.md
 
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
 
       - name: Deploy
         run: uv run --locked mkdocs gh-deploy --force
