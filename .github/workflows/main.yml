@@ -30,20 +30,7 @@ jobs:
         run: |
           sed -i 's/development/${{ steps.get_commit_hash.outputs.commit_hash }}/g' docs/version.md
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: '3.12'
-
-      - name: Install uv
-        run: |
-          curl -LsSf https://astral.sh/uv/install.sh | sh
-          echo "$HOME/.uv/bin" >> $GITHUB_PATH
-
-      - name: install dependencies
-        run: |
-          uv venv
-          uv pip install -r requirements.txt
+      - uses: astral-sh/setup-uv@v10
 
       - name: Deploy
-        run: uv run mkdocs gh-deploy --force
+        run: uv run --locked mkdocs gh-deploy --force

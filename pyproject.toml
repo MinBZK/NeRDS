@@ -4,4 +4,16 @@ version = "0.1.0"
 description = "Nederlandse Richtlijn Digitale Systemen"
 readme = "README.md"
 requires-python = ">=3.12.0"
-dependencies = []
+dependencies = [
+    # MkDocs 2 drops the plugin and theme system this site is built on.
+    "mkdocs>=1.6.1,<2",
+    "mkdocs-awesome-pages-plugin>=2.10.1",
+    "mkdocs-git-revision-date-localized-plugin>=1.5.1",
+    "pymdown-extensions>=10.21",
+    "pyyaml>=6.0.3",
+    "jsonschema>=4.26.0",
+]
+
+[tool.uv]
+# A website, not a Python package: there is nothing to build or install.
+package = false

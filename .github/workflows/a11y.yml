@@ -20,13 +20,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: '3.12'
-
-      - name: Install site dependencies
-        run: pip install -r requirements.txt
+      - uses: astral-sh/setup-uv@v10
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
@@ -42,4 +36,4 @@ jobs:
         run: npm ci --ignore-scripts
 
       - name: Bouw de website en controleer elke pagina
-        run: python scripts/check_a11y.py
+        run: uv run --locked python scripts/check_a11y.py
