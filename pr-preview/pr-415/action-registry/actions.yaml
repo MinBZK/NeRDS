@@ -603,11 +603,11 @@ actions:
   - id: nldd-designsysteem
     name: NLDD Designsysteem
     source: https://github.com/NederlandseDigitaleDienst/design-system
-    description: "Web components in de Rijkshuisstijl, met skills waarmee een AI-codeerassistent ermee bouwt"
+    description: "Toegankelijke web components in de Rijkshuisstijl, met skills voor AI-codeerassistenten"
     richtlijn: [gebruikersbehoeften, toegankelijkheid]
     fase: [ontwerp, bouw]
     type: tool
-    action: Ontdekken
+    action: Gebruiken
     date_added: 06-10-2026
     status: ontwikkeling
   - id: nl-design-system-wcag
