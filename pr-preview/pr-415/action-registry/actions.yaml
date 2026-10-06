@@ -603,7 +603,7 @@ actions:
   - id: nldd-designsysteem
     name: NLDD Designsysteem
     source: https://github.com/NederlandseDigitaleDienst/design-system
-    description: "Web components in de Rijkshuisstijl, met vijf skills waarmee een AI-codeerassistent ermee bouwt"
+    description: "Web components in de Rijkshuisstijl, met skills waarmee een AI-codeerassistent ermee bouwt"
     richtlijn: [gebruikersbehoeften, toegankelijkheid]
     fase: [ontwerp, bouw]
     type: tool
