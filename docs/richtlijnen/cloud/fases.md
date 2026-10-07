@@ -1,6 +1,6 @@
 ---
-title: "Fases en gewenste uitkomsten 5. Hanteer een cloud-gedreven strategie"
-summary: Cloud-gedreven werken is een doorlopend proces. Hieronder staat per fase wat je doet.
+title: "Fases en gewenste uitkomsten 5. Gebruik cloud bewust en houd de regie"
+summary: Bewust cloudgebruik is een doorlopend proces. Hieronder staat per fase wat je doet.
 relations:
   - cloud
   - veiligheid
@@ -9,7 +9,7 @@ relations:
 
 ## Wanneer doe je wat?
 
-Het hanteren van een cloud-gedreven strategie vraagt om gefaseerd handelen: van de keuze waar je systeem draait tot het jaarlijks toetsen van je exitplan. Deze pagina beschrijft per fase van ontwerpen, ontwikkelen en inkopen welke stappen je zet en welke uitkomsten je mag verwachten.
+Bewust cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je systeem draait tot het jaarlijks toetsen van je exitplan. Deze pagina beschrijft per fase van ontwerpen, ontwikkelen en inkopen welke stappen je zet en welke uitkomsten je mag verwachten.
 
 ### 1. Verkenningsfase
 
@@ -125,7 +125,7 @@ Het hanteren van een cloud-gedreven strategie vraagt om gefaseerd handelen: van 
 
 - [FinOps Foundation](https://www.finops.org/){:target="_blank"} principes toegepast voor kostenoptimalisatie
 - Disaster recovery tests uitgevoerd
-- Bevindingen gedeeld binnen de overheid (zie [Cloud Communities](./index.md#Communities))
+- Bevindingen gedeeld binnen de overheid (zie [Cloud Communities](./index.md#communities-en-trainingen))
 - Prestaties gemeten met SLO's/SLI's
 - Organisatie transformatie gemonitord: ontwikkelen teams nieuwe vaardigheden?
 - Periodiek nagegaan of er een Europees of soeverein alternatief is voor wat je buiten Europa afneemt
