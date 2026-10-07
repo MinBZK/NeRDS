@@ -110,6 +110,6 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
 
 ## Gerelateerde richtlijnen
 
-- [5. Gebruik cloud bewust en houd de regie](../cloud/index.md)
+- [5. Gebruik cloud verantwoord en blijf wendbaar](../cloud/index.md)
 - [8. Deel, hergebruik en werk samen](../samenwerking/index.md)
 - [12. Definieer je inkoopstrategie](../inkoop/index.md)

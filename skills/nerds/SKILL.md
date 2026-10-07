@@ -18,7 +18,7 @@ Lees [richtlijnen.md](richtlijnen.md) voor het volledige overzicht van alle 13 r
 |`/nerds-toegankelijkheid`|2. Zorg voor toegankelijkheid en inclusie|
 |`/nerds-opensource`|3. Werk transparant en gebruik open source|
 |`/nerds-standaarden`|4. Gebruik open standaarden|
-|`/nerds-cloud`|5. Gebruik cloud bewust en houd de regie|
+|`/nerds-cloud`|5. Gebruik cloud verantwoord en blijf wendbaar|
 |`/nerds-veiligheid`|6. Maak veilige systemen|
 |`/nerds-privacy`|7. Maak privacy integraal|
 |`/nerds-samenwerking`|8. Deel, hergebruik en werk samen|

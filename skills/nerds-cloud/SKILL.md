@@ -8,7 +8,7 @@ metadata:
   status: concept
 ---
 
-# NeRDS Richtlijn 5: Gebruik cloud bewust en houd de regie
+# NeRDS Richtlijn 5: Gebruik cloud verantwoord en blijf wendbaar
 
 Lees [richtlijn.md](richtlijn.md) voor bewezen praktijken en hulpmiddelen, en [fases.md](fases.md) voor implementatie per fase.
 

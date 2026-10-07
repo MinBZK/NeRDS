@@ -1,5 +1,5 @@
 ---
-title: "5. Gebruik cloud bewust en houd de regie"
+title: "5. Gebruik cloud verantwoord en blijf wendbaar"
 summary: Kies bewust waar je systeem draait en houd zelf de zeggenschap over je data en je infrastructuur.
 icon: cloud
 relations:
@@ -9,9 +9,9 @@ relations:
   - inkoop
 ---
 
-# 5. Gebruik cloud bewust en houd de regie
+# 5. Gebruik cloud verantwoord en blijf wendbaar
 
-Kies bij elk nieuw of te vernieuwen systeem bewust waar het draait en wie daar zeggenschap over heeft. Cloud biedt de overheid voordelen en het gebruik is toegestaan, binnen kaders. Het [Rijksbrede Cloudbeleid 2026](https://www.tweedekamer.nl/downloads/document?id=2026D35295){:target="_blank"} raadt een generiek "cloud-tenzij"-beleid af, en het kabinet heeft zijn voorkeur uitgesproken voor een [soevereine overheidscloud](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z15306&did=2026D34379){:target="_blank"}.
+Kies bij elk nieuw of te vernieuwen systeem bewust waar het draait en wie daar zeggenschap over heeft. Ontwerp zo dat je kunt overstappen als de leverancier, het aanbod of het beleid verandert. Cloud biedt de overheid voordelen en het gebruik is toegestaan, binnen kaders. Het [Rijksbrede Cloudbeleid 2026](https://www.tweedekamer.nl/downloads/document?id=2026D35295){:target="_blank"} raadt een generiek "cloud-tenzij"-beleid af, en het kabinet heeft zijn voorkeur uitgesproken voor een [soevereine overheidscloud](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z15306&did=2026D34379){:target="_blank"}.
 
 ## Waarom is het belangrijk?
 
