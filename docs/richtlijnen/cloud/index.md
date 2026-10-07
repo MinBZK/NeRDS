@@ -37,15 +37,16 @@ Bij materieel cloudgebruik (voor de kerntaak van je organisatie, of bij grootsch
 Voor al het cloudgebruik geldt:
 
 - opslag en verwerking binnen de EER en Zwitserland, versleuteld, met het sleutelbeheer bij voorkeur in eigen hand;
-- e-mail, documenten en bijzondere persoonsgegevens bij voorkeur niet in de publieke cloud;
+- e-mail en documenten niet in de publieke cloud, behalve onder drie voorwaarden waaronder akkoord van de minister;
+- bijzondere persoonsgegevens bij voorkeur niet in de publieke cloud;
 - geen publieke cloud voor staatsgeheim gerubriceerde informatie, TBB-niveau 1 tot en met 3 en de brondata van basisregistraties;
-- kritieke en essentiële entiteiten krijgen het advies om voor hun primaire proces geen leverancier te gebruiken die onder een jurisdictie buiten de EU of de EER valt.
+- kritieke en essentiële entiteiten krijgen het advies om voor hun primaire proces geen leverancier te gebruiken die (deels) onder een jurisdictie buiten de EU of de EER valt.
 
 Bestaand gebruik heeft een overgangstermijn van vier jaar. Het exitplan moet er binnen twaalf maanden zijn.
 
 ### Soevereine overheidscloud
 
-Het kabinet sprak op 1 juli 2026 zijn [voorkeur](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z15306&did=2026D34379){:target="_blank"} uit voor een nieuwe soevereine overheidsclouddienst onder centrale regie, gebouwd op open source en waar mogelijk gehuisvest in de overheidsdatacenters. Financiering en leveringsorganisatie zijn nog niet uitgewerkt. De proof of concept is een doorbraaktraject van de [Nederlandse Digitale Dienst](https://digitaledienst.overheid.nl/){:target="_blank"} en draait op [Fundament](https://docs.fundament.projects.digilab.network/){:target="_blank"}, een open source platform met openbare documentatie en broncode.
+Het kabinet sprak op 1 juli 2026 zijn [voorkeur](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z15306&did=2026D34379){:target="_blank"} uit voor een nieuwe soevereine overheidsclouddienst onder centrale regie, gebouwd op open source en waar mogelijk gehuisvest in de overheidsdatacenters. Sinds 31 augustus 2026 ligt [Het Ontwerp](https://www.digitaleoverheid.nl/nieuws-nds/nds-cloud-mijlpaal-publicatie-van-het-ontwerp/){:target="_blank"} van de clouddienst voor openbare review. Governance, bekostiging en inkoop volgen later. De proof of concept is een doorbraaktraject van de [Nederlandse Digitale Dienst](https://digitaledienst.overheid.nl/){:target="_blank"} en draait op [Fundament](https://docs.fundament.projects.digilab.network/){:target="_blank"}, een open source platform met openbare documentatie en broncode.
 
 ### Gemeenten
 
