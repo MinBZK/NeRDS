@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact en bijdragen - NeRDS: Nederlandse Richtlijn Digitale Systemen 0.1</title>
+  <meta name="description" content="De Nederlandse Richtlijn Digitale Systemen van de Nederlandse Digitale Dienst">
+  <link rel="canonical" href="https://nederlandsedigitaledienst.github.io/NeRDS/pr-preview/pr-419/Over-NeRDS/CONTRIBUTING/">
+  <link rel="icon" type="image/svg+xml" href="../../assets/nldd/favicon.svg">
+  <link rel="apple-touch-icon" href="../../assets/nldd/touch-icon.png">
+  <link rel="stylesheet" href="../../assets/nldd/nldd.css">
+  <link rel="stylesheet" href="../../assets/site.css">
+  <script defer src="../../assets/nldd/nldd.min.js"></script>
+  <script>var base_url = "../..";</script>
+  <script defer src="../../assets/site.js"></script>
+  <script defer src="../../assets/search.js"></script>
+  <script defer src="../../assets/feedback.js"></script>
+</head>
+<body>
+<nldd-app-view>
+  <nldd-page>
+    <nldd-skip-link slot="header">
+  <nldd-top-navigation-bar
+    logo-title="Nederlandse Digitale Dienst"
+    logo-subtitle="Ministerie van Economische Zaken en Klimaat"
+    logo-href="../.."
+    website-title="Nederlandse Richtlijn Digitale Systemen"
+    website-href="../.."
+  >
+    <nldd-menu-bar slot="global">
+      <nldd-menu-bar-item text="Home" href="../.."></nldd-menu-bar-item>
+      <nldd-menu-bar-item text="Richtlijnen" href="../../richtlijnen/"></nldd-menu-bar-item>
+      <nldd-menu-bar-item text="Over NeRDS" href="../" current></nldd-menu-bar-item>
+    </nldd-menu-bar>
+    <nldd-menu-bar slot="utility">
+      <nldd-menu-bar-item id="search-open" text="Zoeken" icon="search" content-priority="icon" haspopup="dialog"></nldd-menu-bar-item>
+      <nldd-menu-bar-item id="feedback-open" text="Feedback" icon="message-rectangle-text" content-priority="icon" haspopup="dialog"></nldd-menu-bar-item>
+      <nldd-menu-bar-item text="GitHub" icon="git-branch" content-priority="icon" href="https://github.com/NederlandseDigitaleDienst/NeRDS"></nldd-menu-bar-item>
+    </nldd-menu-bar>
+  </nldd-top-navigation-bar>
+</nldd-skip-link>
+    <noscript>
+      <nldd-rich-text>
+        <p>Deze website werkt het best met JavaScript. Zonder JavaScript navigeer je met deze links:</p>
+        <ul>
+          <li><a href="../..">Home</a></li>
+          <li><a href="../../richtlijnen/">Richtlijnen</a></li>
+          <li><a href="../">Over NeRDS</a></li>
+        </ul>
+      </nldd-rich-text>
+    </noscript>
+    <nldd-sidebar-section id="content-section" sidebar-label="Over NeRDS">
+      <nldd-container slot="sidebar" padding="16" gap="24">
+        <nldd-list type="navigation" aria-label="Over NeRDS">
+  <nldd-list-item href="../">
+    <nldd-text-cell text="Over de Nederlandse Richtlijn Digitale Systemen"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="./" current>
+    <nldd-text-cell text="Contact en bijdragen"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../toegankelijkheid/">
+    <nldd-text-cell text="Toegankelijkheid"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../privacy/">
+    <nldd-text-cell text="Privacy"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../copyright/">
+    <nldd-text-cell text="Copyright"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../cookies/">
+    <nldd-text-cell text="Cookies"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../kwetsbaarheid-melden/">
+    <nldd-text-cell text="Kwetsbaarheid melden"></nldd-text-cell>
+  </nldd-list-item>
+</nldd-list>
+<nldd-container gap="8">
+  <nldd-title size="6" text="Op deze pagina"></nldd-title>
+  <nldd-list type="navigation" aria-label="Op deze pagina">
+    <nldd-list-item href="#opmerking">
+      <nldd-text-cell size="sm" text="Opmerking"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#inhoudsopgave">
+      <nldd-text-cell size="sm" text="Inhoudsopgave"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#voor-je-begint">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Voor je begint"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#manieren-om-bij-te-dragen">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Manieren om bij te dragen"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#ontwikkeling">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Ontwikkeling"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#technische-richtlijnen">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Technische richtlijnen"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#code-of-conduct">
+      <nldd-text-cell size="sm" text="Code of Conduct"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#ik-heb-een-vraag">
+      <nldd-text-cell size="sm" text="Ik heb een vraag"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#maak-een-issue-aan">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Maak een issue aan"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#stel-een-vraag-via-mail">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Stel een vraag via mail"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#ik-wil-een-fout-of-bug-melden">
+      <nldd-text-cell size="sm" text="Ik wil een fout of bug melden"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#ik-wil-een-verbetering-voorstellen">
+      <nldd-text-cell size="sm" text="Ik wil een verbetering voorstellen"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#voordat-je-een-suggestie-gaat-maken">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Voordat je een suggestie gaat maken"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#een-issue-aanmaken">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Een issue aanmaken"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#een-pull-request-maken">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Een pull-request maken"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#hoe-we-werken-op-github">
+      <nldd-text-cell size="sm" text="Hoe we werken op Github"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#ontwikkelomgeving-opzetten">
+      <nldd-text-cell size="sm" text="Ontwikkelomgeving opzetten"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#uitgebreide-ontwikkelomgeving">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Uitgebreide ontwikkelomgeving"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#wil-je-een-nieuwe-pagina-aanmaken">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Wil je een nieuwe pagina aanmaken?"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#richtlijnen-voor-bijdragen">
+      <nldd-text-cell size="sm" text="Richtlijnen voor bijdragen"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#inhoud-schrijven">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Inhoud schrijven"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#afbeeldingen-en-media">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Afbeeldingen en media"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#branching-strategie">
+      <nldd-text-cell size="sm" text="Branching strategie"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#versioning">
+      <nldd-text-cell size="sm" text="Versioning"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#versioning-schema">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Versioning schema"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#handmatige-versioning">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Handmatige versioning"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#voor-contributors">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Voor contributors"></nldd-text-cell>
+    </nldd-list-item>
+  </nldd-list>
+</nldd-container>
+      </nldd-container>
+      <div class="sidebar-trigger">
+        <nldd-button id="sidebar-open" appearance="secondary" size="sm" start-icon="sidebar-left" popup-type="dialog" text="Over NeRDS"></nldd-button>
+      </div>
+      <nldd-rich-text id="content">
+  <h1 id="bijdragen-aan-de-nederlandse-richtlijn-digitale-systemen">Bijdragen aan de Nederlandse Richtlijn Digitale Systemen</h1>
+<p>Allereerst, bedankt dat je de tijd hebt genomen om een bijdrage te leveren! ❤️</p>
+<p>We waarderen alle soorten bijdragen enorm. Zie die <a href="#inhoudsopgave">Inhoudsopgave</a> voor verschillende manieren waarop je kan bijdragen aan de Nederlandse Richtlijn Digitale Systemen (NeRDS).
+Zorg ervoor dat je de relevante hoofdstukken even leest voordat je een bijdrage levert.
+Het zal het voor het team van de NeRDS een stuk makkelijker maken en de ervaring voor alle betrokkenen soepeler laten verlopen.
+We kijken uit naar alle bijdragen! 🎉</p>
+<blockquote>
+<h2 id="opmerking">Opmerking</h2>
+<p>Het ontwikkelen van de NeRDS via GitHub is een bewuste keuze voor transparantie en samenwerking.
+We werken systematisch aan verschillende bouwblokken en prioriteren deze op basis van waarde en urgentie.
+Hierdoor kan het voorkomen dat reacties op suggesties of toevoegingen enige tijd vergen, vooral bij onderwerpen die later op de planning staan.
+We waarderen alle bijdragen en streven ernaar om feedback zo snel mogelijk te verwerken.</p>
+</blockquote>
+<h2 id="inhoudsopgave">Inhoudsopgave</h2>
+<h3 id="voor-je-begint">Voor je begint</h3>
+<ul>
+<li><a href="#code-of-conduct">Code of Conduct</a></li>
+<li><a href="#ik-heb-een-vraag">Ik heb een vraag</a></li>
+</ul>
+<h3 id="manieren-om-bij-te-dragen">Manieren om bij te dragen</h3>
+<ul>
+<li><a href="#ik-wil-een-fout-of-bug-melden">Ik wil een fout of bug melden</a></li>
+<li><a href="#ik-wil-een-verbetering-voorstellen">Ik wil een verbetering voorstellen</a></li>
+</ul>
+<h3 id="ontwikkeling">Ontwikkeling</h3>
+<ul>
+<li><a href="#hoe-we-werken-op-github">Hoe we werken op GitHub</a></li>
+<li><a href="#ontwikkelomgeving-opzetten">Ontwikkelomgeving opzetten</a></li>
+<li><a href="#richtlijnen-voor-bijdragen">Richtlijnen voor bijdragen</a></li>
+</ul>
+<h3 id="technische-richtlijnen">Technische richtlijnen</h3>
+<ul>
+<li><a href="#branching-strategie">Branching strategie</a></li>
+<li><a href="#versioning">Versioning</a></li>
+</ul>
+<h2 id="code-of-conduct">Code of Conduct</h2>
+<p>Dit project en iedereen die eraan deelneemt, valt onder de
+<a href="https://github.com/NederlandseDigitaleDienst/NeRDS?tab=coc-ov-file#readme">Code of Conduct</a>.
+Door deel te nemen, wordt van je verwacht dat je je aan deze code houdt. Meld onacceptabel gedrag
+aan <strong><a href="mailto:bureau.architectuur@minbzk.nl">bureau.architectuur@minbzk.nl</a></strong>.</p>
+<h2 id="ik-heb-een-vraag">Ik heb een vraag</h2>
+<h3 id="maak-een-issue-aan">Maak een issue aan</h3>
+<p>Voordat je een <a href="https://github.com/NederlandseDigitaleDienst/NeRDS/issues">Issues</a> gaat aanmaken, kan je bekijken of jouw vraag al tussen de bestaande <a href="https://github.com/NederlandseDigitaleDienst/NeRDS/issues">Issues</a> staat. Wellicht staat er al een issue tussen die jou vraag kan beantwoorden.</p>
+<p>Als je jouw vraag nog steeds wilt stellen, kan je een <a href="https://github.com/NederlandseDigitaleDienst/NeRDS/issues">Issue</a> aanmaken.</p>
+<ol>
+<li>Gebruik daarvoor de knop new issue.</li>
+<li>Formuleer je vraag of opmerking en geef een heldere toelichting.</li>
+<li>Anderen kunnen nu opmerkingen toevoegen aan jouw issue.</li>
+<li>Het team van de NeRDS zal deze issue labelen als <code>question</code> en pakt jouw issue zo snel mogelijk op. Mogelijk neemt het team van de NeRDS contact op voor een verduidelijking of een oplossing.</li>
+</ol>
+<h3 id="stel-een-vraag-via-mail">Stel een vraag via mail</h3>
+<p>Je kan je vragen ook altijd stellen door een mail te sturen naar <strong><a href="mailto:bureau.architectuur@minbzk.nl">bureau.architectuur@minbzk.nl</a></strong>.</p>
+<h2 id="ik-wil-een-fout-of-bug-melden">Ik wil een fout of bug melden</h2>
+<p>Heb je een foutje gevonden in de NeRDS? Dan kan je deze melden door een <a href="https://github.com/NederlandseDigitaleDienst/NeRDS/issues">Issue</a> aan te maken.</p>
+<p>Voordat je een <a href="https://github.com/NederlandseDigitaleDienst/NeRDS/issues">Issues</a> gaat aanmaken, kan je bekijken of jouw gevonden fout al tussen de bestaande <a href="https://github.com/NederlandseDigitaleDienst/NeRDS/issues">Issues</a> staat.</p>
+<p>Als je de gevonden fout nog steeds wilt melden, kan je een <a href="https://github.com/NederlandseDigitaleDienst/NeRDS/issues">Issue</a> aanmaken.</p>
+<ol>
+<li>Gebruik daarvoor de knop new issue.</li>
+<li>Beschrijf de fout duidelijk en geef een heldere toelichting. Voeg waar mogelijk een screenshot toe.</li>
+<li>Het team van de NeRDS zal deze issue labelen als <code>bug</code> en pakt jouw issue zo snel mogelijk op. Mogelijk neemt het team van de NeRDS contact op voor een verduidelijking of een oplossing.</li>
+</ol>
+<h2 id="ik-wil-een-verbetering-voorstellen">Ik wil een verbetering voorstellen</h2>
+<blockquote>
+<h4 id="ter-kennisgeving">Ter kennisgeving</h4>
+<p>Wanneer je bijdraagt aan dit project, moet je ermee akkoord gaan dat je 100% van de inhoud hebt geschreven, dat je de benodigde rechten op de inhoud hebt en dat de inhoud die je bijdraagt mag worden geleverd onder de Code of Conduct.</p>
+</blockquote>
+<p>Heb je een suggestie of wil je een verbetering voorstellen? Dat kan gaan om een compleet nieuwe functionaliteit van de site of om kleine verbeteringen. Het volgen van onderstaande instructie helpt het team van de NeRDS om je suggestie te begrijpen en gerelateerde suggesties te vinden.</p>
+<p>Je kan een suggestie doen door een <a href="https://github.com/NederlandseDigitaleDienst/NeRDS/issues">Issue</a> aan te maken of door een Pull Request te maken.</p>
+<h3 id="voordat-je-een-suggestie-gaat-maken">Voordat je een suggestie gaat maken</h3>
+<ul>
+<li>Voordat je een suggestie gaat maken, kan je bekijken of jouw suggestie al tussen de bestaande <a href="https://github.com/NederlandseDigitaleDienst/NeRDS/issues">Issues</a> staat. Wellicht bestaat er al een issue die jouw suggestie beschrijft, en zijn we er al mee bezig.</li>
+<li>Zoek uit of jouw idee past binnen het doel en de scope van het project. Wat zijn de voordelen van deze functionaliteit of toevoeging? Het is aan jou om het team van de NeRDS en de community te overtuigen dat dit een nuttige toevoeging is aan de NeRDS. Houd in gedachten dat we functionaliteiten willen die nuttig zijn
+voor de meerderheid van onze gebruikers en niet slechts voor een kleine groep.</li>
+</ul>
+<h3 id="een-issue-aanmaken">Een issue aanmaken</h3>
+<p>Als je jouw suggestie nog steeds wilt doen, kan je een <a href="https://github.com/NederlandseDigitaleDienst/NeRDS/issues">Issue</a> aanmaken.</p>
+<ol>
+<li>Gebruik daarvoor de knop new issue.</li>
+<li>Beschrijf duidelijk jouw suggestie en geef een heldere toelichting en onderbouwing waarom dit een goede toevoeging zal zijn aan de NeRDS</li>
+<li>Het team van de NeRDS zal deze issue labelen als <code>enhancement</code> en pakt jouw issue zo snel mogelijk op. Mogelijk neemt het team van de NeRDS contact op voor een verduidelijking of een oplossing.</li>
+</ol>
+<blockquote>
+<p>Afhankelijk van de complexiteit en het onderwerp van jouw suggestie kan het even duren voordat deze wordt opgepakt door het team van de NeRDS.</p>
+</blockquote>
+<h3 id="een-pull-request-maken">Een pull-request maken</h3>
+<p>Kun je niet uit de voeten met de issues?
+Bijvoorbeeld omdat je verschillende wijzigingsvoorstellen wilt doen? Je kan ook gebruik maken van een <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks">Fork en een Pull Request</a>.</p>
+<h2 id="hoe-we-werken-op-github">Hoe we werken op Github</h2>
+<p>We werken met <a href="https://www.markdownguide.org/basic-syntax/">Markdown</a> bestanden.
+Dit is bestandsformaat voor platte tekstbestanden en wordt door veel verschillende tools ondersteund. Dit maakt het eenvoudig om versiebeheer op de NeRDS toe te passen.</p>
+<p>Daarnaast maken gebruik van <a href="https://www.mkdocs.org/">mkdocs</a> en het <a href="https://github.com/NederlandseDigitaleDienst/design-system">NLDD Designsysteem</a> om de informatie op een interactieve wijze inzichtelijk te maken op de website van <a href="https://nederlandsedigitaledienst.github.io/NeRDS/">de NeRDS</a>.</p>
+<h2 id="ontwikkelomgeving-opzetten">Ontwikkelomgeving opzetten</h2>
+<h3 id="uitgebreide-ontwikkelomgeving">Uitgebreide ontwikkelomgeving</h3>
+<p>Voor bijdragen aan de NeRDS heb je een lokale ontwikkelomgeving nodig:</p>
+<ol>
+<li>
+<p><strong>Installeer <a href="https://docs.astral.sh/uv/">uv</a></strong></p>
+</li>
+<li>
+<p><strong>Start de development server</strong></p>
+</li>
+</ol>
+<nldd-code-viewer language="bash">uv run mkdocs serve</nldd-code-viewer>
+<p>uv installeert bij de eerste keer zelf de juiste Python en de afhankelijkheden.</p>
+<ol>
+<li>
+<p><strong>Bekijk je wijzigingen</strong>
+   Open <a href="http://localhost:8000">http://localhost:8000</a> in je browser</p>
+</li>
+<li>
+<p><strong>Controleer je wijzigingen</strong></p>
+</li>
+</ol>
+<nldd-code-viewer language="bash">uv run python scripts/check_site.py</nldd-code-viewer>
+<p>Dit bouwt de website en controleert de opmaak tegen het designsysteem. Pas je het thema in <code>src/theme</code> aan, draai dan ook <code>just a11y</code> voor de toegankelijkheidscontrole (WCAG 2.1 AA). Beide controles draaien ook op elke pull request.</p>
+<h3 id="wil-je-een-nieuwe-pagina-aanmaken">Wil je een nieuwe pagina aanmaken?</h3>
+<p>In het <a href="https://github.com/NederlandseDigitaleDienst/NeRDS/blob/main/mkdocs.yml">mkdocs.yml</a> bestand staan de settings voor deze website.
+In richtlijn hoef je hier niets aan aan te passen, maar als je een nieuwe pagina wilt aanmaken kan het nodig zijn om hier een aanpassing in te doen.
+Onderdeel van deze settings is namelijk de navigatie voor de site (welke pagina's zijn zichtbaar, en welke pagina's vallen daaronder). Dit staat in de nav: sectie.
+Indien je een nieuwe pagina wilt toevoegen, is het vaak nodig deze wijziging ook door te voeren in het <a href="https://github.com/NederlandseDigitaleDienst/NeRDS/blob/main/mkdocs.yml">mkdocs.yml</a> bestand.</p>
+<p>Een nieuwe richtlijn krijgt bovenaan de pagina een <code>title</code>, een <code>summary</code> en een <code>icon</code>. De kaarten op de startpagina en op het overzicht van richtlijnen worden daaruit opgebouwd. Voor <code>icon</code> kies je een naam uit de <a href="https://nederlandsedigitaledienst.github.io/design-system/">iconen van het NLDD Designsysteem</a>; een naam die niet bestaat laat de controle hierboven falen.</p>
+<h2 id="richtlijnen-voor-bijdragen">Richtlijnen voor bijdragen</h2>
+<h3 id="inhoud-schrijven">Inhoud schrijven</h3>
+<ul>
+<li><strong>Taal</strong>: Schrijf in correct Nederlands</li>
+<li><strong>Tone of voice</strong>: Formeel maar toegankelijk, passend bij overheidsstandaarden</li>
+<li><strong>Structuur</strong>: Gebruik duidelijke kopjes en bullet points</li>
+<li><strong>Lengte</strong>: Houd artikelen beknopt en to-the-point</li>
+<li><strong>Bronnen</strong>: Verwijs naar officiële bronnen en standaarden waar relevant</li>
+</ul>
+<h3 id="afbeeldingen-en-media">Afbeeldingen en media</h3>
+<ul>
+<li>Plaats afbeeldingen in de juiste <code>assets/</code> map</li>
+<li>Gebruik beschrijvende bestandsnamen</li>
+<li>Voeg altijd alt-tekst toe voor toegankelijkheid</li>
+</ul>
+<h2 id="branching-strategie">Branching strategie</h2>
+<p>Gebruik kebab-case, houd de namen kort maar beschrijvend en vermijd speciale karakters. Branch types:</p>
+<ul>
+<li><strong>main</strong>: Productie-ready code</li>
+<li><strong>feat/beschrijving</strong>: Nieuwe functionaliteit</li>
+<li><strong>fix/beschrijving</strong>: Bug fixes</li>
+<li><strong>docs/beschrijving</strong>: Documentatie updates</li>
+</ul>
+<h2 id="versioning">Versioning</h2>
+<p>De NeRDS gebruikt semantic versioning voor releases:</p>
+<h3 id="versioning-schema">Versioning schema</h3>
+<nldd-code-viewer language="bash">major.minor.patch</nldd-code-viewer>
+<ul>
+<li><strong>Major</strong> (x.0.0): Grote veranderingen of herstructureringen</li>
+<li><strong>Minor</strong> (0.x.0): Nieuwe functionaliteiten en inhoud toevoegingen</li>
+<li><strong>Patch</strong> (0.0.x): Bug fixes en kleine verbeteringen</li>
+</ul>
+<h3 id="handmatige-versioning">Handmatige versioning</h3>
+<p>Versies worden handmatig beheerd door het NeRDS team:</p>
+<ul>
+<li><strong>Wanneer</strong>: Bij belangrijke releases of milestones</li>
+<li><strong>Hoe</strong>: Het team bepaalt op basis van de wijzigingen welk versienummer verhoogd wordt</li>
+<li><strong>Format</strong>: Volgt semantic versioning (major.minor.patch)</li>
+</ul>
+<h3 id="voor-contributors">Voor contributors</h3>
+<p>Als contributor hoef je je geen zorgen te maken over versioning:</p>
+<ul>
+<li>Alle versies worden handmatig beheerd door het NeRDS team</li>
+<li>Focus op duidelijke commit messages en PR beschrijvingen</li>
+<li>Het team bepaalt of wijzigingen een patch, minor of major versie vereisen</li>
+</ul>
+<blockquote>
+<p><strong>Tip</strong>: Door duidelijke commit messages te schrijven help je het team om te bepalen welk versienummer verhoogd moet worden.</p>
+</blockquote>
+</nldd-rich-text>
+<nldd-spacer size="32"></nldd-spacer>
+<nldd-container layout="wrap" gap="16" vertical-alignment="center">
+  <nldd-text size="sm" color="secondary">Laatst bijgewerkt: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="5 oktober 2026 20:21:55 CEST">5 oktober 2026</span></nldd-text>
+  <nldd-link size="sm" href="https://github.com/NederlandseDigitaleDienst/NeRDS/edit/main/docs/Over-NeRDS/CONTRIBUTING.md" start-icon="pencil" text="Bewerk deze pagina op GitHub"></nldd-link>
+</nldd-container>
+<nldd-spacer size="24"></nldd-spacer>
+<nldd-divider></nldd-divider>
+<nldd-spacer size="24"></nldd-spacer>
+<nav class="page-navigation" aria-label="Vorige en volgende pagina">
+  <nldd-button appearance="secondary" start-icon="arrow-left" href="../" text="Over de Nederlandse Richtlijn Digitale Systemen" accessible-label="Vorige: Over de Nederlandse Richtlijn Digitale Systemen"></nldd-button>
+  <nldd-button appearance="secondary" end-icon="arrow-right" href="../toegankelijkheid/" text="Toegankelijkheid" accessible-label="Volgende: Toegankelijkheid"></nldd-button>
+</nav>
+    </nldd-sidebar-section>
+
+    <nldd-page-footer slot="footer">
+  <nldd-breadcrumbs slot="breadcrumbs">
+    <nldd-breadcrumbs-item href="../.." text="Home"></nldd-breadcrumbs-item>
+    <nldd-breadcrumbs-item href="../" text="Over NeRDS"></nldd-breadcrumbs-item>
+    <nldd-breadcrumbs-item current text="Contact en bijdragen"></nldd-breadcrumbs-item>
+  </nldd-breadcrumbs>
+  <nldd-container layout="grid" padding-block="24" gap="24">
+    <nldd-container gap="8">
+      <nldd-title size="5" heading-level="2" text="Over deze site"></nldd-title>
+      <nldd-link size="sm" href="../" text="Over NeRDS"></nldd-link>
+      <nldd-link size="sm" href="./#ik-heb-een-vraag" text="Contact"></nldd-link>
+      <nldd-link size="sm" href="https://github.com/NederlandseDigitaleDienst/NeRDS/releases" target="_blank" end-icon="external-link" text="Releasenotes op GitHub"></nldd-link>
+    </nldd-container>
+    <nldd-container gap="8">
+      <nldd-title size="5" heading-level="2" text="Service"></nldd-title>
+      <nldd-link size="sm" href="../copyright/" text="Copyright"></nldd-link>
+      <nldd-link size="sm" href="../kwetsbaarheid-melden/" text="Kwetsbaarheid melden"></nldd-link>
+    </nldd-container>
+    <nldd-container gap="8">
+      <nldd-title size="5" heading-level="2" text="Overheid"></nldd-title>
+      <nldd-link size="sm" href="https://overheid.nl/" target="_blank" end-icon="external-link" text="Overheid.nl"></nldd-link>
+      <nldd-link size="sm" href="https://www.rijksoverheid.nl/" target="_blank" end-icon="external-link" text="Rijksoverheid.nl"></nldd-link>
+      <nldd-link size="sm" href="https://www.digitaleoverheid.nl/" target="_blank" end-icon="external-link" text="Digitale Overheid"></nldd-link>
+    </nldd-container>
+  </nldd-container>
+  <nldd-page-footer-legal-bar slot="legal-bar">
+    <nldd-page-footer-legal-bar-item slot="start" href="https://digitaledienst.overheid.nl/" text="Nederlandse Digitale Dienst"></nldd-page-footer-legal-bar-item>
+    <nldd-page-footer-legal-bar-item slot="end" href="../privacy/" text="Privacy"></nldd-page-footer-legal-bar-item>
+    <nldd-page-footer-legal-bar-item slot="end" href="../cookies/" text="Cookies"></nldd-page-footer-legal-bar-item>
+    <nldd-page-footer-legal-bar-item slot="end" href="../toegankelijkheid/" text="Toegankelijkheid"></nldd-page-footer-legal-bar-item>
+  </nldd-page-footer-legal-bar>
+</nldd-page-footer>
+  </nldd-page>
+</nldd-app-view>
+<nldd-sheet id="search-sheet" placement="right" width="480px">
+  <nldd-page>
+    <nldd-top-title-bar slot="header" text="Zoeken" heading-level="2" dismiss-text="Sluit"></nldd-top-title-bar>
+    <nldd-container padding="16" gap="16">
+      <nldd-search-field id="search-query" name="query" placeholder="Zoek in de NeRDS"></nldd-search-field>
+      <nldd-list id="search-results" appearance="box-tinted" accessible-label="Zoekresultaten">
+        <nldd-inline-dialog slot="empty" icon="search" text="Typ om te zoeken" supporting-text="Je zoekt in alle richtlijnen en pagina's."></nldd-inline-dialog>
+      </nldd-list>
+    </nldd-container>
+  </nldd-page>
+</nldd-sheet>
+<nldd-sheet id="feedback-sheet" placement="right" width="480px">
+  <nldd-page>
+    <nldd-top-title-bar slot="header" text="Feedback geven" heading-level="2" dismiss-text="Sluit"></nldd-top-title-bar>
+    <nldd-container padding="16" gap="16">
+      <nldd-rich-text>
+        <p>Helpt u ons door uw feedback te delen? We gebruiken dit om NeRDS te verbeteren. U kunt feedback geven via e-mail of via GitHub Issues.</p>
+      </nldd-rich-text>
+      <nldd-banner id="feedback-success" variant="success" text="Bedankt voor uw feedback!" hidden></nldd-banner>
+      <nldd-form id="feedback-form">
+        <nldd-form-field label="Welke richtlijn betreft dit?" optional>
+          <nldd-dropdown>
+            <select id="feedback-guideline" name="feedback_guideline">
+              <option value="">Alle richtlijnen</option>
+              <option value="0">Over de NeRDS in het algemeen</option>
+              <option value="1" data-slug="gebruikersbehoeften">1. Gebruikersbehoeften</option>
+              <option value="2" data-slug="toegankelijkheid">2. Toegankelijkheid</option>
+              <option value="3" data-slug="open-source">3. Open Source</option>
+              <option value="4" data-slug="open-standaarden">4. Open Standaarden</option>
+              <option value="5" data-slug="cloud">5. Cloud</option>
+              <option value="6" data-slug="veiligheid">6. Veiligheid</option>
+              <option value="7" data-slug="privacy">7. Privacy</option>
+              <option value="8" data-slug="samenwerking">8. Samenwerking</option>
+              <option value="9" data-slug="integratie">9. Integratie</option>
+              <option value="10" data-slug="data">10. Data</option>
+              <option value="11" data-slug="algoritmen">11. Algoritmen</option>
+              <option value="12" data-slug="inkoop">12. Inkoopstrategie</option>
+              <option value="13" data-slug="duurzaamheid">13. Duurzaamheid</option>
+            </select>
+          </nldd-dropdown>
+        </nldd-form-field>
+        <nldd-form-field label="Soort feedback">
+          <nldd-dropdown>
+            <select id="feedback-type" name="feedback_type" required>
+              <option value="">Selecteer</option>
+              <option value="bug_report">Fout</option>
+              <option value="feature_request">Voorstel</option>
+              <option value="general_feedback">Feedback</option>
+              <option value="question">Vraag</option>
+            </select>
+          </nldd-dropdown>
+          <nldd-validation-list>
+            <nldd-validation-item id="feedback-type-required" required>Een soort feedback is nodig.</nldd-validation-item>
+          </nldd-validation-list>
+        </nldd-form-field>
+        <nldd-form-field label="Uw feedback">
+          <nldd-multi-line-text-field id="feedback-text" name="feedback_text" rows="4" required minlength="10" maxlength="5000"></nldd-multi-line-text-field>
+          <nldd-validation-list>
+            <nldd-validation-item id="feedback-text-minlength" minlength="10" required>Minimaal 10 tekens.</nldd-validation-item>
+            <nldd-validation-item id="feedback-text-maxlength" maxlength="5000">Maximaal 5000 tekens.</nldd-validation-item>
+          </nldd-validation-list>
+        </nldd-form-field>
+        <div id="feedback-related-docs-container">
+          <nldd-form-field label="Link naar een relevant document" optional>
+            <nldd-text-field type="url" name="related_docs[]" placeholder="nerds.nl/..."></nldd-text-field>
+          </nldd-form-field>
+        </div>
+        <nldd-button id="feedback-add-link" appearance="neutral-tinted" size="sm" start-icon="plus" text="Link toevoegen"></nldd-button>
+        <nldd-form-actions>
+          <nldd-button-group>
+            <nldd-button id="feedback-submit" appearance="primary" type="submit" text="Via e-mail"></nldd-button>
+            <nldd-button id="feedback-github" appearance="secondary" text="Via GitHub Issues"></nldd-button>
+          </nldd-button-group>
+        </nldd-form-actions>
+      </nldd-form>
+    </nldd-container>
+  </nldd-page>
+</nldd-sheet>
+</body>
+</html>
