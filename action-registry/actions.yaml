@@ -63,16 +63,6 @@ actions:
     action: Verkennen
     date_added: 08-12-2025
     status: beschikbaar
-  - id: azure-bio-compliancy
-    name: Azure Bio-Compliancy
-    source: https://github.com/Azure/Bio-Compliancy
-    description: "Cloud compliance voor overheidsorganisaties"
-    richtlijn: cloud
-    fase: [ontwerp, bouw]
-    type: tool
-    action: Ontdekken
-    date_added: 08-12-2025
-    status: beschikbaar
   - id: cloud-assessment
     name: Cloud Assessment
     source: null
@@ -185,15 +175,15 @@ actions:
     date_added: 19-12-2025
     status: beschikbaar
   - id: overheidscloud
-    name: Overheidscloud
-    source: null
-    description: "Soevereine cloud voor overheidsorganisaties"
+    name: Fundament
+    source: https://docs.fundament.projects.digilab.network/
+    description: "Open source platform waarop de proef met de soevereine overheidscloud draait"
     richtlijn: cloud
     fase: [verkenning, ontwerp]
     type: tool
-    action: Aanvragen
+    action: Ontdekken
     date_added: 08-12-2025
-    status: concept
+    status: ontwikkeling
   - id: datacheck
     name: Datacheck
     source: null
