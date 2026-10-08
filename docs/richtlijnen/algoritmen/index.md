@@ -1,6 +1,7 @@
 ---
 title: "11. Pas algoritmen verantwoord toe"
 summary: Zorg voor transparante, eerlijke en verantwoorde toepassing van algoritmen en AI-systemen.
+icon: sparkles
 relations:
   - data
   - veiligheid
@@ -30,7 +31,7 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
 
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+    <div class="warning-banner">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 

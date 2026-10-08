@@ -1,0 +1,28 @@
+<nldd-rich-text id="content">
+  {%- if '<h1' not in page.content %}
+  <h1>{{ page.meta.title or page.title }}</h1>
+  {%- endif %}
+  {{ page.content }}
+</nldd-rich-text>
+<nldd-spacer size="32"></nldd-spacer>
+<nldd-container layout="wrap" gap="16" vertical-alignment="center">
+  {%- if page.meta.git_revision_date_localized %}
+  <nldd-text size="sm" color="secondary">Laatst bijgewerkt: {{ page.meta.git_revision_date_localized }}</nldd-text>
+  {%- endif %}
+  {%- if page.edit_url %}
+  <nldd-link size="sm" href="{{ page.edit_url }}" start-icon="pencil" text="Bewerk deze pagina op GitHub"></nldd-link>
+  {%- endif %}
+</nldd-container>
+{%- if page.previous_page or page.next_page %}
+<nldd-spacer size="24"></nldd-spacer>
+<nldd-divider></nldd-divider>
+<nldd-spacer size="24"></nldd-spacer>
+<nav class="page-navigation" aria-label="Vorige en volgende pagina">
+  {%- if page.previous_page %}
+  <nldd-button appearance="secondary" start-icon="arrow-left" href="{{ page.previous_page.url | url }}" text="{{ page.previous_page.title | striptags | e }}" accessible-label="Vorige: {{ page.previous_page.title | striptags | e }}"></nldd-button>
+  {%- endif %}
+  {%- if page.next_page %}
+  <nldd-button appearance="secondary" end-icon="arrow-right" href="{{ page.next_page.url | url }}" text="{{ page.next_page.title | striptags | e }}" accessible-label="Volgende: {{ page.next_page.title | striptags | e }}"></nldd-button>
+  {%- endif %}
+</nav>
+{%- endif %}

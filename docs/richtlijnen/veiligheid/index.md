@@ -1,6 +1,7 @@
 ---
 title: "6. Maak veilige systemen"
 summary: Houd systemen en gegevens veilig met het juiste beveiligingsniveau.
+icon: shield-lock
 relations:
   - privacy
   - data
@@ -30,7 +31,7 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
 
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+    <div class="warning-banner">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
@@ -49,4 +50,4 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
 
 - [7. Maak privacy integraal](../privacy/index.md)
 - [10. Maak beter gebruik van data](../data/index.md)
-- [5. Hanteer een cloud-gedreven strategie](../cloud/index.md)
+- [5. Gebruik cloud verantwoord en blijf wendbaar](../cloud/index.md)

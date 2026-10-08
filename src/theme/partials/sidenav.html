@@ -1,0 +1,43 @@
+{#- Navigation of the current section, and the headings of the current page. -#}
+<nldd-list type="navigation" aria-label="{{ section.item.title | e }}">
+  {%- for item in section.item.children %}
+  {%- if item.children %}
+  {%- set index = item.children | first %}
+  <nldd-list-item href="{{ index.url | url }}"{% if index.active %} current{% endif %}>
+    <nldd-text-cell text="{{ item.title | e }}"></nldd-text-cell>
+  </nldd-list-item>
+  {%- for child in item.children[1:] %}
+  <nldd-list-item href="{{ child.url | url }}"{% if child.active %} current{% endif %}>
+    <nldd-spacer-cell size="16"></nldd-spacer-cell>
+    <nldd-text-cell size="sm" text="{{ child.title | e }}"></nldd-text-cell>
+  </nldd-list-item>
+  {%- endfor %}
+  {%- else %}
+  <nldd-list-item href="{{ item.url | url }}"{% if item.active %} current{% endif %}>
+    <nldd-text-cell text="{{ item.title | e }}"></nldd-text-cell>
+  </nldd-list-item>
+  {%- endif %}
+  {%- endfor %}
+</nldd-list>
+{%- set headings = page.toc.items %}
+{%- if headings | length == 1 and headings[0].level == 1 %}
+  {%- set headings = headings[0].children %}
+{%- endif %}
+{%- if headings and not (page.meta.hide and 'toc' in page.meta.hide) %}
+<nldd-container gap="8">
+  <nldd-title size="6" text="Op deze pagina"></nldd-title>
+  <nldd-list type="navigation" aria-label="Op deze pagina">
+    {%- for heading in headings %}
+    <nldd-list-item href="{{ heading.url }}">
+      <nldd-text-cell size="sm" text="{{ heading.title | striptags | e }}"></nldd-text-cell>
+    </nldd-list-item>
+    {%- for subheading in heading.children %}
+    <nldd-list-item href="{{ subheading.url }}">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="{{ subheading.title | striptags | e }}"></nldd-text-cell>
+    </nldd-list-item>
+    {%- endfor %}
+    {%- endfor %}
+  </nldd-list>
+</nldd-container>
+{%- endif %}

@@ -1,8 +1,6 @@
-[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-brightgreen?logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
-
 # Nederlandse Richtlijn Digitale Systemen
 
-Het [Ministerie van Binnenlandse Zaken en Koninkrijksrelaties](https://github.com/MinBZK) ontwikkelt de Nederlandse
+De [Nederlandse Digitale Dienst](https://github.com/NederlandseDigitaleDienst) ontwikkelt de Nederlandse
 Richtlijn Digitale Systemen (NeRDS) op een open manier via Github.
 De Nederlandse Richtlijn Digitale Systemen is een set standaarden, richtlijnen en praktische hulpmiddelen (tools) voor het
 verantwoord ontwerpen, ontwikkelen en inkopen van digitale systemen binnen de Nederlandse overheid.
@@ -12,10 +10,10 @@ Richtlijn Digitale Systemen wordt uitgewerkt in verschillende Markdown bestanden
 tekstbestanden), welke je terug kan vinden in de map
 [docs](docs).
 Deze bestanden worden inzichtelijk gemaakt met behulp van [MkDocs](https://www.mkdocs.org/)
-en [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+en vormgegeven met het [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system) in de Rijkshuisstijl.
 
 De Nederlandse Richtlijn Digitale Systemen kun je bekijken op
-[https://minbzk.github.io/NeRDS](https://minbzk.github.io/NeRDS/).
+[https://nederlandsedigitaledienst.github.io/NeRDS](https://nederlandsedigitaledienst.github.io/NeRDS/).
 
 ## Hoe kun je bijdragen?
 
@@ -25,39 +23,37 @@ Digitale Systemen.
 
 ### Lokaal ontwikkelen
 
-Het Nederlandse Richtlijn Digitale Systemen project kan lokaal met behulp van [Python](https://www.python.org/) worden
-gedraaid. Installeer hiervoor de benodigde packages met [uv](https://github.com/astral-sh/uv):
-
-```bash
-uv pip install -r requirements.txt
-```
-
-Als je onderdeel bent van de [MinBZK organisatie](https://github.com/orgs/MinBZK/people) op GitHub, dan kun je ook de
-productie versie installeren:
-
-```bash
-uv pip install -r requirements-prod.txt
-```
-
-Vervolgens kun je een preview van de Nederlandse Richtlijn Digitale Systemen bekijken:
+Je hebt alleen [uv](https://docs.astral.sh/uv/) nodig. Een preview van de website start je met:
 
 ```bash
 uv run mkdocs serve
 ```
 
-Het verschil tussen de twee versies is dat de Nederlandse Richtlijn Digitale Systemen gebruik maakt van de
-[insiders versie](https://squidfunk.github.io/mkdocs-material/insiders/) van
-[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). De insiders versie is een gesponsorde versie en
-bevat een aantal extra functionaliteiten. Hoewel deze versie onder een open source licentie beschikbaar is, vragen de
-ontwikkelaars van Material for MkDocs in de aanvullende
-[fair use policy](https://squidfunk.github.io/mkdocs-material/license/#fair-use-policy) om het niet publiek
-te delen. Wij realiseren ons dat hierdoor niet iedereen de versie van de Nederlandse Richtlijn Digitale Systemen,
-inclusief alle functionaliteiten, op een eigen omgeving kan draaien. Om lokaal testen van mensen die geen toegang hebben
-tot de betaalde versie mogelijk te maken, zit in `requirements.txt` de publiek
-toegangelijke [mkdocs-material](https://pypi.org/project/mkdocs-material/) Python package met beperkte functionaliteit.
-In deze versie werken de navigatie broodkruimels niet.
+uv installeert bij de eerste keer zelf de juiste Python en de afhankelijkheden uit `pyproject.toml` en `uv.lock`.
+
+De website gebruikt de web components van het NLDD Designsysteem. De versie staat vast in
+`nldd-design-system.json`. Bij de eerste build wordt dat pakket eenmalig gedownload naar `.cache/nldd/`.
+
+Controleer een wijziging aan het thema of aan de inhoud met:
+
+```bash
+uv run python scripts/check_site.py
+```
+
+Dit bouwt de website en controleert of elk component, attribuut, icoon en elke CSS-variabele bestaat in het
+designsysteem, en of er niets is verdwenen uit wat een pagina kan (links, formuliervelden, knoppen).
+Heb je bewust iets weggehaald of toegevoegd, leg dat dan vast met `uv run python scripts/check_site.py --update`.
+
+De toegankelijkheid controleer je met:
+
+```bash
+just a11y
+```
+
+Dit bouwt de website en test elke pagina met pa11y-ci tegen WCAG 2.1 AA, met twee engines (HTML_CodeSniffer en axe).
+Dezelfde controle draait op elke pull request. Je hebt er Node en Google Chrome voor nodig.
 
 ## Vragen?
 
-Maak een [Issue](https://github.com/MinBZK/NeRDS/issues) aan op GitHub. Of stuur een e-mail naar
+Maak een [Issue](https://github.com/NederlandseDigitaleDienst/NeRDS/issues) aan op GitHub. Of stuur een e-mail naar
 [bureau.architectuur@minbzk.nl](mailto:bureau.architectuur@minbzk.nl).

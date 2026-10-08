@@ -1,3 +1,8 @@
+# check-site builds the site, which needs the project dependencies and the
+# network. pre-commit.ci has neither; the check-site job in CI covers it.
+ci:
+  skip: [check-site]
+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
@@ -31,3 +36,9 @@ repos:
         files: ^docs/action-registry/actions\.yaml$
         pass_filenames: false
         additional_dependencies: [pyyaml, jsonschema]
+      - id: check-site
+        name: Build the site and check it against the design system
+        entry: uv run python scripts/check_site.py
+        language: system
+        files: ^(docs/|src/|mkdocs\.yml|nldd-design-system\.json|scripts/(check_|behavior_))
+        pass_filenames: false

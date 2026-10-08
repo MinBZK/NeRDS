@@ -1,0 +1,15 @@
+{
+  "name": "nerds-a11y",
+  "private": true,
+  "description": "Accessibility gate for the built site: pa11y-ci with the htmlcs and axe runners.",
+  "//overrides.pa11y-ci": "pa11y-ci 4.1.1 pins pa11y ^9 and puppeteer ^24, whose browser download still unpacks with extract-zip (GHSA-7pqw-9j4j-h8q3, GHSA-jmr9-qjv8-65gv, no fixed release). pa11y 10 is on puppeteer 25. Drop this override once pa11y-ci itself depends on pa11y 10.",
+  "devDependencies": {
+    "pa11y-ci": "^4.1.1"
+  },
+  "overrides": {
+    "pa11y-ci": {
+      "pa11y": "^10.0.0",
+      "puppeteer": "^25.12.0"
+    }
+  }
+}

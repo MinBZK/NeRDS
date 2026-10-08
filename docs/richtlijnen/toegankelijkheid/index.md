@@ -1,6 +1,7 @@
 ---
 title: "2. Zorg voor toegankelijkheid en inclusie"
 summary: Zorg ervoor dat je technologie, infrastructuur en systemen toegankelijk en inclusief zijn voor alle gebruikers.
+icon: accessibility
 relations:
   - gebruikersbehoeften
   - open-standaarden
@@ -23,7 +24,7 @@ Door toegankelijkheid vanaf het begin in te bouwen in je digitale systemen, zorg
 <div class="direct-aan-de-slag">
     <h3>Direct aan de slag</h3>
 
-    <div class="warning-banner" style="background-color: #fff3e0; padding: 0.5rem; border-left: 3px solid #ff9800; margin-bottom: 0.8rem;">
+    <div class="warning-banner">
         <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
@@ -60,7 +61,8 @@ Ontwikkelen & ontwerpen
     - **Zorg voor ondertiteling en transcripties** – [Voor alle audio- en video-inhoud](https://www.digitoegankelijk.nl/aan-de-slag/tips/audio-en-video).
     - **Bouw compatibel met hulpapparatuur** – Test met screenreaders zoals [NVDA](https://webaim.org/resources/shortcuts/nvda){:target="_blank"}, [JAWS](https://webaim.org/resources/shortcuts/jaws){:target="_blank"} en [VoiceOver (Mac)](https://webaim.org/articles/voiceover/){:target="_blank"}.
     - **Gebruik het [NL Design System](https://nldesignsystem.nl/){:target="_blank"}** – Componenten zijn al getest op toegankelijkheid.
-    - **Vermijd PDF's** – Gebruik bij voorkeur HTML; zijn PDF's onvermijdelijk, gebruik dan toegankelijke standaarden (bijv. [NLDoc](https://nldoc.nl){:target="_blank"}).
+    - **Bouw je in de Rijkshuisstijl? Gebruik het [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system){:target="_blank"}** – De web components leveren de juiste ARIA, toetsenbordbediening, focusring en kleurcontrast volgens WCAG 2.1 AA. Met de [skills voor Claude Code en Cursor](https://github.com/NederlandseDigitaleDienst/ai-plugins){:target="_blank"} weet een AI-codeerassistent wat het systeem regelt en wat je zelf nog moet doen.
+    - **Vermijd PDF's** – Gebruik bij voorkeur HTML; zijn PDF's onvermijdelijk, gebruik dan toegankelijke standaarden (bijv. [PDF/UA](https://www.forumstandaardisatie.nl/open-standaarden/pdfua){:target="_blank"}).
 
 Inkopen van toegankelijke technologie
 ??? expander "Praktische tips"
@@ -93,6 +95,7 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "2. Zorg voor 
 
 - [Overlay factsheet](https://overlayfactsheet.com/nl/) - Een factsheet van technologieën die bedoeld zijn om de toegankelijkheid van een website te verbeteren. Ze passen externe broncode toe (meestal JavaScript) om verbeteringen aan te brengen in de front-endcode van de website.
 - [Inclusive Components](https://inclusive-components.design/#components) - Een patronen bibliotheek met een focus op inclusief design. In aanvulling op [NLDS Componenten](https://nldesignsystem.nl/componenten/).
+- [Toegankelijkheid in het NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system/blob/main/docs/accessibility.md) - De patronen per component en een testgids. De [skills](https://github.com/NederlandseDigitaleDienst/ai-plugins#installeren) installeer je als plugin `nldd-design-system`.
 - [Basistoegankelijk](https://basistoegankelijk.nl) - Basistoegankelijk meet, beoordeelt en publiceert de digitale toegankelijkheid op basis van WCAG metingen van alle sites van de overheid, zorg, onderwijs en vitaal. In aanvulling op [Dashboard DigiToegankelijk](https://dashboard.digitoegankelijk.nl/) waar overheden zelf hun toegankelijkheidsverklaring aanleveren.
 - [Handreiking Mobiele app Ontwikkeling en Beheer versie 5.0](https://www.noraonline.nl/images/noraonline/9/94/Handreiking_appontwikkeling_en_beheer_5.0.pdf) - Hoofdstuk 8.3 geeft concrete best practices voor verschillende beperkingen voor de ontwikkeling van Mobiele Apps
 - [Kennisbank Digitoegankelijk](https://kennisbank.digitoegankelijk.nl) - Praktische tips over digitale toegankelijkheid

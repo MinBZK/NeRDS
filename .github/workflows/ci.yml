@@ -21,6 +21,18 @@ jobs:
       - name: Controleer plugin sync
         run: python3 scripts/generate_plugin.py --check
 
+  check-site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
+
+      - name: Bouw de website en controleer tegen het designsysteem
+        run: uv run --locked python scripts/check_site.py
+
   check-links:
     runs-on: ubuntu-latest
     steps:
@@ -34,7 +46,10 @@ jobs:
       # - Sites blocking automated link checkers (415/connection refused):
       #   gebruikercentraal.nl, nldesignsystem.nl, digitaleoverheid.nl,
       #   gebruikersonderzoeken.nl, digitoegankelijk.nl, usmwiki.com,
-      #   rijksoverheid.nl, wetten.overheid.nl, dutchcloudcommunity.nl
+      #   rijksoverheid.nl, wetten.overheid.nl, dutchcloudcommunity.nl,
+      #   zoek.officielebekendmakingen.nl (403 for CI runners, works for users)
+      #   www.tweedekamer.nl (503 for CI runners, works for users)
+      # - producingoss.com: unreachable since 2026-10-06, re-enable once it is back
       - name: Link Checker
         id: lychee
         uses: lycheeverse/lychee-action@v2.8.0
@@ -58,6 +73,9 @@ jobs:
             --exclude "https://www\.digitaleoverheid\.nl/.*"
             --exclude "https://www\.rijksoverheid\.nl/.*"
             --exclude "https://wetten\.overheid\.nl/.*"
+            --exclude "https://zoek\.officielebekendmakingen\.nl/.*"
+            --exclude "https://www\.tweedekamer\.nl/.*"
+            --exclude "https://producingoss\.com/.*"
             '**/*.yaml'
             '**/*.md'
             '**/*.ts'
@@ -73,39 +91,3 @@ jobs:
           title: Broken links detected
           content-filepath: ./lychee/out.md
           labels: broken-links
-
-  accessibility-tests:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: '18'
-
-      - name: Install Pa11y tools
-        run: npm install -g pa11y-ci
-
-      - name: Test all pages with sitemap
-        run: |
-          mkdir -p reports
-          pa11y-ci --sitemap https://minbzk.github.io/NeRDS/sitemap.xml \
-                    --reporter json \
-                    --output reports/a11y-report.json || echo "Issues found"
-
-      - name: Upload results
-        if: always()
-        uses: actions/upload-artifact@v7
-        with:
-          name: accessibility-reports
-          path: reports/
-          retention-days: 7
-
-      - name: Create issue on failure
-        if: failure() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
-        uses: peter-evans/create-issue-from-file@v6
-        with:
-          title: Accessibility issues detected across site
-          content-filepath: ./reports/a11y-report.json
-          labels: accessibility
