@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1. Stel gebruikersbehoeften vast - NeRDS: Nederlandse Richtlijn Digitale Systemen 0.1</title>
+  <meta name="description" content="Begrijp je gebruikers en hun behoeften. Ontwikkel kennis over je gebruikers en wat dat betekent voor je technologieproject.">
+  <link rel="canonical" href="https://nederlandsedigitaledienst.github.io/NeRDS/pr-preview/pr-421/richtlijnen/gebruikersbehoeften/">
+  <link rel="icon" type="image/svg+xml" href="../../assets/nldd/favicon.svg">
+  <link rel="apple-touch-icon" href="../../assets/nldd/touch-icon.png">
+  <link rel="stylesheet" href="../../assets/nldd/nldd.css">
+  <link rel="stylesheet" href="../../assets/site.css">
+  <script defer src="../../assets/nldd/nldd.min.js"></script>
+  <script>var base_url = "../..";</script>
+  <script defer src="../../assets/site.js"></script>
+  <script defer src="../../assets/search.js"></script>
+  <script defer src="../../assets/feedback.js"></script>
+</head>
+<body>
+<nldd-app-view>
+  <nldd-page>
+    <nldd-skip-link slot="header">
+  <nldd-top-navigation-bar
+    logo-title="Nederlandse Digitale Dienst"
+    logo-subtitle="Ministerie van Economische Zaken en Klimaat"
+    logo-href="../.."
+    website-title="Nederlandse Richtlijn Digitale Systemen"
+    website-href="../.."
+  >
+    <nldd-menu-bar slot="global">
+      <nldd-menu-bar-item text="Home" href="../.."></nldd-menu-bar-item>
+      <nldd-menu-bar-item text="Richtlijnen" href="../" current></nldd-menu-bar-item>
+      <nldd-menu-bar-item text="Over NeRDS" href="../../Over-NeRDS/"></nldd-menu-bar-item>
+    </nldd-menu-bar>
+    <nldd-menu-bar slot="utility">
+      <nldd-menu-bar-item id="search-open" text="Zoeken" icon="search" content-priority="icon" haspopup="dialog"></nldd-menu-bar-item>
+      <nldd-menu-bar-item id="feedback-open" text="Feedback" icon="message-rectangle-text" content-priority="icon" haspopup="dialog"></nldd-menu-bar-item>
+      <nldd-menu-bar-item text="GitHub" icon="git-branch" content-priority="icon" href="https://github.com/NederlandseDigitaleDienst/NeRDS"></nldd-menu-bar-item>
+    </nldd-menu-bar>
+  </nldd-top-navigation-bar>
+</nldd-skip-link>
+    <noscript>
+      <nldd-rich-text>
+        <p>Deze website werkt het best met JavaScript. Zonder JavaScript navigeer je met deze links:</p>
+        <ul>
+          <li><a href="../..">Home</a></li>
+          <li><a href="../">Richtlijnen</a></li>
+          <li><a href="../../Over-NeRDS/">Over NeRDS</a></li>
+        </ul>
+      </nldd-rich-text>
+    </noscript>
+    <nldd-sidebar-section id="content-section" sidebar-label="Richtlijnen">
+      <nldd-container slot="sidebar" padding="16" gap="24">
+        <nldd-list type="navigation" aria-label="Richtlijnen">
+  <nldd-list-item href="../">
+    <nldd-text-cell text="Overzicht"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="./" current>
+    <nldd-text-cell text="1. Gebruikersbehoeften"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="fases/">
+    <nldd-spacer-cell size="16"></nldd-spacer-cell>
+    <nldd-text-cell size="sm" text="Wanneer doe je wat?"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../toegankelijkheid/">
+    <nldd-text-cell text="2. Toegankelijkheid"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../toegankelijkheid/fases/">
+    <nldd-spacer-cell size="16"></nldd-spacer-cell>
+    <nldd-text-cell size="sm" text="Wanneer doe je wat?"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../open-source/">
+    <nldd-text-cell text="3. Open Source"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../open-source/fases/">
+    <nldd-spacer-cell size="16"></nldd-spacer-cell>
+    <nldd-text-cell size="sm" text="Wanneer doe je wat?"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../open-standaarden/">
+    <nldd-text-cell text="4. Open Standaarden"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../cloud/">
+    <nldd-text-cell text="5. Cloud"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../cloud/fases/">
+    <nldd-spacer-cell size="16"></nldd-spacer-cell>
+    <nldd-text-cell size="sm" text="Wanneer doe je wat?"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../veiligheid/">
+    <nldd-text-cell text="6. Veiligheid"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../privacy/">
+    <nldd-text-cell text="7. Privacy"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../samenwerking/">
+    <nldd-text-cell text="8. Samenwerking"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../integratie/">
+    <nldd-text-cell text="9. Integratie"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../data/">
+    <nldd-text-cell text="10. Data"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../algoritmen/">
+    <nldd-text-cell text="11. Algoritmen"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../inkoop/">
+    <nldd-text-cell text="12. Inkoopstrategie"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../duurzaamheid/">
+    <nldd-text-cell text="13. Duurzaamheid"></nldd-text-cell>
+  </nldd-list-item>
+</nldd-list>
+<nldd-container gap="8">
+  <nldd-title size="6" text="Op deze pagina"></nldd-title>
+  <nldd-list type="navigation" aria-label="Op deze pagina">
+    <nldd-list-item href="#waarom-is-het-belangrijk">
+      <nldd-text-cell size="sm" text="Waarom is het belangrijk?"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#hoe-pas-je-het-toe">
+      <nldd-text-cell size="sm" text="Hoe pas je het toe?"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#bewezen-praktijken">
+      <nldd-text-cell size="sm" text="Bewezen praktijken"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#1-begrijpen">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="1. Begrijpen"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#2-ontwikkelen-ontwerpen-en-inkopen">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="2. Ontwikkelen, ontwerpen en inkopen"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#3-testen-meten-en-verbeteren">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="3. Testen, meten en verbeteren"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#implementatie-per-fase">
+      <nldd-text-cell size="sm" text="Implementatie per fase"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#gerelateerde-hulpmiddelen">
+      <nldd-text-cell size="sm" text="Gerelateerde hulpmiddelen"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#gerelateerde-richtlijnen">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Gerelateerde richtlijnen"></nldd-text-cell>
+    </nldd-list-item>
+  </nldd-list>
+</nldd-container>
+      </nldd-container>
+      <div class="sidebar-trigger">
+        <nldd-button id="sidebar-open" appearance="secondary" size="sm" start-icon="sidebar-left" popup-type="dialog" text="Richtlijnen"></nldd-button>
+      </div>
+      <nldd-rich-text id="content">
+  <h1 id="1-stel-gebruikersbehoeften-vast">1. Stel gebruikersbehoeften vast</h1>
+<p>Om digitale systemen te ontwerpen, ontwikkelen en inkopen die effectief zijn, moet je je gebruikers en hun behoeften begrijpen. Dit geldt vooral wanneer je door een uitgavecontroleproces gaat.</p>
+<h2 id="waarom-is-het-belangrijk">Waarom is het belangrijk?</h2>
+<ul>
+<li><strong>Verhoog adoptie en verbeter dienstverlening</strong>: gebruikers omarmen systemen die hun werkelijke problemen oplossen.</li>
+<li><strong>Voorkom kostbare fouten</strong>: achteraf aanpassen kost meer tijd en geld dan het vanaf het begin goed doen.</li>
+<li><strong>Ondersteun interne en externe afstemming</strong>: zonder gedeeld begrip van gebruikersbehoeften werken teams langs elkaar heen en ontstaat er wantrouwen bij burgers.</li>
+</ul>
+<p>Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling en -implementatie bij overheidsdiensten verhoog je de acceptatie en effectiviteit van digitale overheidsdiensten terwijl je het vertrouwen tussen burger en overheid versterkt.</p>
+<h2 id="hoe-pas-je-het-toe">Hoe pas je het toe?</h2>
+<nldd-box data-width="main">
+  <nldd-container padding="16" gap="16">
+    <nldd-title size="4" heading-level="3" text="Direct aan de slag"></nldd-title>
+    <nldd-banner variant="warning" size="sm" text="Work in Progress" supporting-text="De onderstaande functionaliteit is nog in ontwikkeling."></nldd-banner>
+    <nldd-collection layout="grid" item-width="240px" gap="12" data-richtlijn="gebruikersbehoeften">
+      <nldd-card>
+        <nldd-container padding="16" gap="8">
+          <nldd-title size="5" heading-level="4" text="Stappenplan gebruikersonderzoek">
+            <nldd-badge slot="overline" size="sm" color="success" text="beschikbaar"></nldd-badge>
+          </nldd-title>
+          <nldd-rich-text><p>Een praktisch stappenplan voor het uitvoeren van gebruikersonderzoek</p></nldd-rich-text>
+        </nldd-container>
+        <nldd-container slot="footer" padding="16">
+          <nldd-button appearance="secondary" size="sm" href="https://gebruikersonderzoeken.nl/docs/onderzoek-doen/" target="_blank" end-icon="external-link" text="Bekijken" accessible-label="Bekijken: Stappenplan gebruikersonderzoek"></nldd-button>
+        </nldd-container>
+      </nldd-card>
+      <nldd-card>
+        <nldd-container padding="16" gap="8">
+          <nldd-title size="5" heading-level="4" text="Toestemmingsformulier gebruikersonderzoek">
+            <nldd-badge slot="overline" size="sm" color="success" text="beschikbaar"></nldd-badge>
+          </nldd-title>
+          <nldd-rich-text><p>Een voorbeeld toestemmingsformulier voor gebruikersonderzoek</p></nldd-rich-text>
+        </nldd-container>
+        <nldd-container slot="footer" padding="16">
+          <nldd-button appearance="secondary" size="sm" href="https://gebruikersonderzoeken.nl/docs/onderzoek-doen/toestemmingsformulier/" target="_blank" end-icon="external-link" text="Bekijken" accessible-label="Bekijken: Toestemmingsformulier gebruikersonderzoek"></nldd-button>
+        </nldd-container>
+      </nldd-card>
+      <nldd-card>
+        <nldd-container padding="16" gap="8">
+          <nldd-title size="5" heading-level="4" text="CX-Volwassenheidsscan">
+            <nldd-badge slot="overline" size="sm" color="success" text="beschikbaar"></nldd-badge>
+          </nldd-title>
+          <nldd-rich-text><p>Handboek voor het transformeren naar klantgedreven werken</p></nldd-rich-text>
+        </nldd-container>
+        <nldd-container slot="footer" padding="16">
+          <nldd-button appearance="secondary" size="sm" href="https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/07/Handboek-voor-het-uitvoeren-van-een-CV-Volwassenheidsscan.pdf" target="_blank" end-icon="external-link" text="Gebruiken" accessible-label="Gebruiken: CX-Volwassenheidsscan"></nldd-button>
+        </nldd-container>
+      </nldd-card>
+      <nldd-card>
+        <nldd-container padding="16" gap="8">
+          <nldd-title size="5" heading-level="4" text="Gebruikersonderzoeken.nl">
+            <nldd-badge slot="overline" size="sm" color="success" text="beschikbaar"></nldd-badge>
+          </nldd-title>
+          <nldd-rich-text><p>Leer van andere onderzoeken en deel je bevindingen</p></nldd-rich-text>
+        </nldd-container>
+        <nldd-container slot="footer" padding="16">
+          <nldd-button appearance="secondary" size="sm" href="https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken/" target="_blank" end-icon="external-link" text="Bekijken" accessible-label="Bekijken: Gebruikersonderzoeken.nl"></nldd-button>
+        </nldd-container>
+      </nldd-card>
+      <nldd-card>
+        <nldd-container padding="16" gap="8">
+          <nldd-title size="5" heading-level="4" text="Meethuis voor dienstverlening">
+            <nldd-badge slot="overline" size="sm" color="success" text="beschikbaar"></nldd-badge>
+          </nldd-title>
+          <nldd-rich-text><p>Voor het maken van een meethuis voor dienstverlening</p></nldd-rich-text>
+        </nldd-container>
+        <nldd-container slot="footer" padding="16">
+          <nldd-button appearance="secondary" size="sm" href="https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/04/Meethuis-Handboek-2025-v2.pdf" target="_blank" end-icon="external-link" text="Gebruiken" accessible-label="Gebruiken: Meethuis voor dienstverlening"></nldd-button>
+        </nldd-container>
+      </nldd-card>
+      <nldd-card>
+        <nldd-container padding="16" gap="8">
+          <nldd-title size="5" heading-level="4" text="Toolkit Taal">
+            <nldd-badge slot="overline" size="sm" color="success" text="beschikbaar"></nldd-badge>
+          </nldd-title>
+          <nldd-rich-text><p>Richtlijnen voor tekst en beeldtaal in overheidscommunicatie</p></nldd-rich-text>
+        </nldd-container>
+        <nldd-container slot="footer" padding="16">
+          <nldd-button appearance="secondary" size="sm" href="https://toolkittaal.gebruikercentraal.nl/richtlijnen/" target="_blank" end-icon="external-link" text="Gebruiken" accessible-label="Gebruiken: Toolkit Taal"></nldd-button>
+        </nldd-container>
+      </nldd-card>
+      <nldd-card>
+        <nldd-container padding="16" gap="8">
+          <nldd-title size="5" heading-level="4" text="Optimaal Digitaal Tipkaarten">
+            <nldd-badge slot="overline" size="sm" color="success" text="beschikbaar"></nldd-badge>
+          </nldd-title>
+          <nldd-rich-text><p>Praktische tips voor digitale dienstverlening</p></nldd-rich-text>
+        </nldd-container>
+        <nldd-container slot="footer" padding="16">
+          <nldd-button appearance="secondary" size="sm" href="https://optimaaldigitaal.gebruikercentraal.nl/tipkaarten/overzicht-van-alle-tips/" target="_blank" end-icon="external-link" text="Bekijken" accessible-label="Bekijken: Optimaal Digitaal Tipkaarten"></nldd-button>
+        </nldd-container>
+      </nldd-card>
+      <nldd-card>
+        <nldd-container padding="16" gap="8">
+          <nldd-title size="5" heading-level="4" text="NL Design System">
+            <nldd-badge slot="overline" size="sm" color="success" text="beschikbaar"></nldd-badge>
+          </nldd-title>
+          <nldd-rich-text><p>Samen bouwen aan gebruiksvriendelijke overheidswebsites</p></nldd-rich-text>
+        </nldd-container>
+        <nldd-container slot="footer" padding="16">
+          <nldd-button appearance="secondary" size="sm" href="https://www.nldesignsystem.nl" target="_blank" end-icon="external-link" text="Ontdekken" accessible-label="Ontdekken: NL Design System"></nldd-button>
+        </nldd-container>
+      </nldd-card>
+      <nldd-card>
+        <nldd-container padding="16" gap="8">
+          <nldd-title size="5" heading-level="4" text="NLDD Designsysteem">
+            <nldd-badge slot="overline" size="sm" color="warning" text="ontwikkeling"></nldd-badge>
+          </nldd-title>
+          <nldd-rich-text><p>Toegankelijke web components in de Rijkshuisstijl, met skills voor AI-codeerassistenten</p></nldd-rich-text>
+        </nldd-container>
+        <nldd-container slot="footer" padding="16">
+          <nldd-button appearance="secondary" size="sm" href="https://github.com/NederlandseDigitaleDienst/design-system" target="_blank" end-icon="external-link" text="Gebruiken" accessible-label="Gebruiken: NLDD Designsysteem"></nldd-button>
+        </nldd-container>
+      </nldd-card>
+      <nldd-card>
+        <nldd-container padding="16" gap="8">
+          <nldd-title size="5" heading-level="4" text="Expertreview Gebruikersbehoefte">
+            <nldd-badge slot="overline" size="sm" color="success" text="beschikbaar"></nldd-badge>
+          </nldd-title>
+          <nldd-rich-text><p>Een expertreview gebruiksvriendelijkheid laten uitvoeren</p></nldd-rich-text>
+        </nldd-container>
+        <nldd-container slot="footer" padding="16">
+          <nldd-button appearance="secondary" size="sm" href="https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/aanvragen-expertreview/" target="_blank" end-icon="external-link" text="Uitvoeren" accessible-label="Uitvoeren: Expertreview Gebruikersbehoefte"></nldd-button>
+        </nldd-container>
+      </nldd-card>
+    </nldd-collection>
+  </nldd-container>
+</nldd-box>
+</div>
+<h2 id="bewezen-praktijken">Bewezen praktijken</h2>
+<h3 id="1-begrijpen">1. Begrijpen</h3>
+<p>Start bij het probleem in kaart te brengen, niet bij de oplossing. Dit voorkomt middeltjes-denken. Trek er vroeg UX-ontwerpers bij om echt te begrijpen wat er speelt: welke emoties ervaren mensen, hoe gedragen ze zich, in welke situatie zitten ze. Zorg dat iedereen in het team dit snapt, inclusief de bestuurders. Pas als je dit gedeelde beeld hebt, kun je effectief ontwerpen, ontwikkelen en/of inkopen.</p>
+<details class="expander">
+<summary>Praktische tips</summary>
+<ul>
+<li><strong>Geen aannames</strong> - Baseer bevindingen op werkelijke data van gebruikers, niet op veronderstelde behoeften.</li>
+<li><strong>Begin met het doel</strong> - Zorg dat je onderzoeksmethode aansluit bij wat je werkelijk moet leren voordat je een plan maakt: <a href="https://www.gebruikercentraal.nl/gebruikersonderzoek-zo-begin-je-gewoon/" target="_blank">Zo begin je gewoon</a>.</li>
+<li><strong>Ga naar de gebruiker toe</strong> - Observeer gebruikers in hun eigen omgeving en context om hun werkelijke situatie te begrijpen.</li>
+<li><strong>Houd het simpel</strong> - Kies voor eenvoudige onderzoeksmethoden zoals interviews, observatie of vragenlijsten omdat complexe methoden implementatie kunnen vertragen.</li>
+<li><strong>Laat stakeholders meekijken</strong> - Zorg dat stakeholders (bijvoorbeeld bestuurders) onderzoek mee volgen zodat iedereen dezelfde gebruikersinzichten heeft.</li>
+<li><strong>Creëer draagvlak</strong> - Zorg voor overeenstemming binnen het team over gebruikersbehoeften voordat je begint met ontwikkelen. Zie <a href="https://www.gebruikercentraal.nl/videopagina/draagvlak-in-jouw-organisatie-direct-duidelijk-tour/" target="_blank">Draagvlak in jouw organisatie</a>.</li>
+</ul>
+</details>
+<h3 id="2-ontwikkelen-ontwerpen-en-inkopen">2. Ontwikkelen, ontwerpen en inkopen</h3>
+<p>Vertaal de inzichten naar ontwerpen: wireframes, prototypes, klantreizen. Test deze met gebruikers voordat je bouwt. Ontwerp voor het gehele spectrum aan gebruikers, met aandacht voor toegankelijkheid en inclusie. Dit is geen keuze, maar een vereiste. Inwoners, burgers en ondernemers hebben vaak geen andere keuze dan jouw digitale systeem te gebruiken.</p>
+<details class="expander">
+<summary>Praktische tips</summary>
+<ul>
+<li><strong>Zorg ervoor dat jouw digitale systeem het gehele probleem van de gebruiker oplost</strong> - Los niet enkel een deelaspect op. Dit betekent vaak samenwerking met andere teams en het integreren met bestaande systemen. Zie hiervoor de richtlijnen <a href="../samenwerking/">Deel, hergebruik en werk samen</a> en <a href="../integratie/">Integreer en pas technologie aan</a>.</li>
+<li><strong>Denk inclusief</strong> - Zorg dat je ontwerp toegankelijk is voor gebruikers met verschillende achtergronden en beperkingen (zie de richtlijn <a href="../toegankelijkheid/">Zorg voor toegankelijkheid en inclusie</a>). Gebruikers mogen niet vergeten of uitgesloten worden in het ontwerpproces.</li>
+<li><strong>Hou rekening met privacy</strong> - Bij het verzamelen van gebruikersgegevens moet je voldoen aan de AVG. Vraag alleen wat nodig is, informeer gebruikers over het doel, en beveilig de data goed. Zie de hierboven het Toestemmingsformulier en de NeRDS richtlijn <a href="../privacy/">Maak privacy integraal</a>.</li>
+<li><strong>Test alternatieven</strong> - Evalueer verschillende oplossingen (bijvoorbeeld twee verschillende interfaces) met gebruikers in plaats van slechts één voorstel.</li>
+<li><strong>Blijf flexibel</strong> - Pas je onderzoeksmethode aan naarmate je meer leert.</li>
+<li><strong>Neem gebruikersbehoefte mee in het inkoopproces</strong> - Zie de richtlijn <a href="../inkoop/">Definieer je inkoopstrategie</a>.</li>
+</ul>
+</details>
+<h3 id="3-testen-meten-en-verbeteren">3. Testen, meten en verbeteren</h3>
+<p>Meet doorlopend hoe gebruikers je digitale systeem ervaren. Verzamel feedback, leer daarvan en verbeter stapsgewijs. Gebruikersbehoeften verschuiven, dus blijf aanpassen. Door gebruikersonderzoek structureel in te bedden, zie je of je digitale systeem daadwerkelijk gebruikersgericht werkt.</p>
+<details class="expander">
+<summary>Praktische tips</summary>
+<ul>
+<li><strong>Blijf itereren</strong> - Digitale systemen staan nooit op zichzelf en vereisen continue verbetering.</li>
+<li><strong>Maak het structureel</strong> - Borg gebruikersonderzoek in je proces vanaf het begin, niet als laatste stap. Maak het onderdeel van je definition of done.</li>
+<li><strong>Deel resultaten</strong> - Publiceer inzichten op <a href="https://gebruikersonderzoeken.nl" target="_blank">gebruikersonderzoeken.nl</a> zodat andere organisaties ervan kunnen leren.</li>
+<li><strong>Valideer je oplossing</strong> - Doe een expertreview op je digitale systeem via het <a href="https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/" target="_blank">expert panel gebruiksvriendelijkheid van Gebruiker Centraal</a>.</li>
+</ul>
+</details>
+<h2 id="implementatie-per-fase">Implementatie per fase</h2>
+<p>Zie <a href="fases/">Implementatie en gewenste uitkomsten per fase voor richtlijn "1. Stel gebruikersbehoeften vast"</a>.</p>
+<h2 id="gerelateerde-hulpmiddelen">Gerelateerde hulpmiddelen</h2>
+<h4 id="naslagwerk">Naslagwerk</h4>
+<ul>
+<li><a href="https://www.gebruikercentraal.nl/overheidsbreed-meethuis-voor-dienstverlening/">Overheidsbreed meethuis voor dienstverlening</a> - Naast het handboek dat hierboven bij 'direct aan de slag' staat vermeld, vind je op de website van Gebruiker Centraal ook een meethuis-canvas, voorbeeldvragenlijsten en begeleiding</li>
+<li><a href="https://usmwiki.com/index.php/Main_Page">Universeel Service Management</a> - International framework voor servicemanagement</li>
+<li><a href="https://www.gebruikercentraal.nl/instrumenten/inclusief-onderzoek-doen/">Inclusief onderzoek doen</a> - Richtlijnen voor inclusief gebruikersonderzoek</li>
+<li><a href="https://www.noraonline.nl/images/noraonline/9/94/Handreiking_appontwikkeling_en_beheer_5.0.pdf">Handreiking Mobiele app Ontwikkeling en Beheer versie 5.0</a> - Hoofdstuk 8: "De gebruiker staat centraal"</li>
+<li><a href="https://www.gebruikercentraal.nl/meedoen/community-omnichannel/de-startgids-doelmatig-geintegreerd-klantbeeld-dgkb/">Startgids Doelmatig Geïntegreerd Klantbeeld (DGKB)</a> - Samenhangend beeld van de klant opbouwen</li>
+<li><a href="https://www.communicatierijk.nl/documenten/2016/11/10/van-den-haag-centraal-naar-gebruiker-centraal">Van Den Haag Centraal naar Gebruiker Centraal (2016)</a> - Onderzoeksmethoden en voorbeelden om de gebruiker te leren kennen</li>
+</ul>
+<h4 id="beleid-wetten-en-standaarden">Beleid, wetten en standaarden</h4>
+<ul>
+<li><a href="https://www.nen.nl/iso-11367-2025-en-334528">ISO 11367 Excellente dienstverlening</a> - Principes en model voor publieke dienstverlening. Voor rijksambtenaren kunnen ISO-normen <a href="https://www.lees-rijk.nl/user/login?destination=search">hier</a> worden geraadpleegd.</li>
+<li><a href="https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/">Digitale inclusie</a> - Overheidsrichtlijnen voor digitale toegankelijkheid</li>
+</ul>
+<h4 id="communities">Communities</h4>
+<ul>
+<li><a href="https://www.gebruikercentraal.nl">Gebruiker Centraal</a></li>
+<li><a href="https://nldesignsystem.nl/community/">NL Design System</a></li>
+</ul>
+<h4 id="trainingen">Trainingen</h4>
+<ul>
+<li><a href="https://www.gebruikercentraal.nl/evenementen/">Training Gebruikersonderzoek</a> - Vakinhoudelijke sessies en bijeenkomsten van Gebruiker Centraal</li>
+<li><a href="https://www.gebruikercentraal.nl/hulpmiddelen/klantreizen-bij-de-overheid/">Training en Coaching over klantreizen bij de overheid</a> - Voor het in kaart brengen van klantreizen.</li>
+</ul>
+<h4 id="boeken">Boeken</h4>
+<ul>
+<li><strong>Outside In</strong> - Harley Manning, Kerry Bodine - Zes pijlers van Customer Experience</li>
+<li><strong>Customer Understanding</strong> - Annette Franz - Diepgaand begrijpen van gebruikers, emoties en behoeften</li>
+<li><strong>The Mom Test</strong> - Rob Fitzpatrick - Echte gebruikersinzichten verzamelen</li>
+</ul>
+<h3 id="gerelateerde-richtlijnen">Gerelateerde richtlijnen</h3>
+<ul>
+<li><a href="../toegankelijkheid/">2. Zorg voor toegankelijkheid en inclusie</a></li>
+<li><a href="../privacy/">7. Maak privacy integraal</a></li>
+</ul>
+</nldd-rich-text>
+<nldd-spacer size="32"></nldd-spacer>
+<nldd-container layout="wrap" gap="16" vertical-alignment="center">
+  <nldd-text size="sm" color="secondary">Laatst bijgewerkt: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="5 oktober 2026 17:04:14 CEST">5 oktober 2026</span></nldd-text>
+  <nldd-link size="sm" href="https://github.com/NederlandseDigitaleDienst/NeRDS/edit/main/docs/richtlijnen/gebruikersbehoeften/index.md" start-icon="pencil" text="Bewerk deze pagina op GitHub"></nldd-link>
+</nldd-container>
+<nldd-spacer size="24"></nldd-spacer>
+<nldd-divider></nldd-divider>
+<nldd-spacer size="24"></nldd-spacer>
+<nav class="page-navigation" aria-label="Vorige en volgende pagina">
+  <nldd-button appearance="secondary" start-icon="arrow-left" href="../" text="Overzicht" accessible-label="Vorige: Overzicht"></nldd-button>
+  <nldd-button appearance="secondary" end-icon="arrow-right" href="fases/" text="Wanneer doe je wat?" accessible-label="Volgende: Wanneer doe je wat?"></nldd-button>
+</nav>
+    </nldd-sidebar-section>
+
+    <nldd-page-footer slot="footer">
+  <nldd-breadcrumbs slot="breadcrumbs">
+    <nldd-breadcrumbs-item href="../.." text="Home"></nldd-breadcrumbs-item>
+    <nldd-breadcrumbs-item href="../" text="Richtlijnen"></nldd-breadcrumbs-item>
+    <nldd-breadcrumbs-item current text="1. Stel gebruikersbehoeften vast"></nldd-breadcrumbs-item>
+  </nldd-breadcrumbs>
+  <nldd-container layout="grid" padding-block="24" gap="24">
+    <nldd-container gap="8">
+      <nldd-title size="5" heading-level="2" text="Over deze site"></nldd-title>
+      <nldd-link size="sm" href="../../Over-NeRDS/" text="Over NeRDS"></nldd-link>
+      <nldd-link size="sm" href="../../Over-NeRDS/CONTRIBUTING/#ik-heb-een-vraag" text="Contact"></nldd-link>
+      <nldd-link size="sm" href="https://github.com/NederlandseDigitaleDienst/NeRDS/releases" target="_blank" end-icon="external-link" text="Releasenotes op GitHub"></nldd-link>
+    </nldd-container>
+    <nldd-container gap="8">
+      <nldd-title size="5" heading-level="2" text="Service"></nldd-title>
+      <nldd-link size="sm" href="../../Over-NeRDS/copyright/" text="Copyright"></nldd-link>
+      <nldd-link size="sm" href="../../Over-NeRDS/kwetsbaarheid-melden/" text="Kwetsbaarheid melden"></nldd-link>
+    </nldd-container>
+    <nldd-container gap="8">
+      <nldd-title size="5" heading-level="2" text="Overheid"></nldd-title>
+      <nldd-link size="sm" href="https://overheid.nl/" target="_blank" end-icon="external-link" text="Overheid.nl"></nldd-link>
+      <nldd-link size="sm" href="https://www.rijksoverheid.nl/" target="_blank" end-icon="external-link" text="Rijksoverheid.nl"></nldd-link>
+      <nldd-link size="sm" href="https://www.digitaleoverheid.nl/" target="_blank" end-icon="external-link" text="Digitale Overheid"></nldd-link>
+    </nldd-container>
+  </nldd-container>
+  <nldd-page-footer-legal-bar slot="legal-bar">
+    <nldd-page-footer-legal-bar-item slot="start" href="https://digitaledienst.overheid.nl/" text="Nederlandse Digitale Dienst"></nldd-page-footer-legal-bar-item>
+    <nldd-page-footer-legal-bar-item slot="end" href="../../Over-NeRDS/privacy/" text="Privacy"></nldd-page-footer-legal-bar-item>
+    <nldd-page-footer-legal-bar-item slot="end" href="../../Over-NeRDS/cookies/" text="Cookies"></nldd-page-footer-legal-bar-item>
+    <nldd-page-footer-legal-bar-item slot="end" href="../../Over-NeRDS/toegankelijkheid/" text="Toegankelijkheid"></nldd-page-footer-legal-bar-item>
+  </nldd-page-footer-legal-bar>
+</nldd-page-footer>
+  </nldd-page>
+</nldd-app-view>
+<nldd-sheet id="search-sheet" placement="right" width="480px">
+  <nldd-page>
+    <nldd-top-title-bar slot="header" text="Zoeken" heading-level="2" dismiss-text="Sluit"></nldd-top-title-bar>
+    <nldd-container padding="16" gap="16">
+      <nldd-search-field id="search-query" name="query" placeholder="Zoek in de NeRDS"></nldd-search-field>
+      <nldd-list id="search-results" appearance="box-tinted" accessible-label="Zoekresultaten">
+        <nldd-inline-dialog slot="empty" icon="search" text="Typ om te zoeken" supporting-text="Je zoekt in alle richtlijnen en pagina's."></nldd-inline-dialog>
+      </nldd-list>
+    </nldd-container>
+  </nldd-page>
+</nldd-sheet>
+<nldd-sheet id="feedback-sheet" placement="right" width="480px">
+  <nldd-page>
+    <nldd-top-title-bar slot="header" text="Feedback geven" heading-level="2" dismiss-text="Sluit"></nldd-top-title-bar>
+    <nldd-container padding="16" gap="16">
+      <nldd-rich-text>
+        <p>Helpt u ons door uw feedback te delen? We gebruiken dit om NeRDS te verbeteren. U kunt feedback geven via e-mail of via GitHub Issues.</p>
+      </nldd-rich-text>
+      <nldd-banner id="feedback-success" variant="success" text="Bedankt voor uw feedback!" hidden></nldd-banner>
+      <nldd-form id="feedback-form">
+        <nldd-form-field label="Welke richtlijn betreft dit?" optional>
+          <nldd-dropdown>
+            <select id="feedback-guideline" name="feedback_guideline">
+              <option value="">Alle richtlijnen</option>
+              <option value="0">Over de NeRDS in het algemeen</option>
+              <option value="1" data-slug="gebruikersbehoeften">1. Gebruikersbehoeften</option>
+              <option value="2" data-slug="toegankelijkheid">2. Toegankelijkheid</option>
+              <option value="3" data-slug="open-source">3. Open Source</option>
+              <option value="4" data-slug="open-standaarden">4. Open Standaarden</option>
+              <option value="5" data-slug="cloud">5. Cloud</option>
+              <option value="6" data-slug="veiligheid">6. Veiligheid</option>
+              <option value="7" data-slug="privacy">7. Privacy</option>
+              <option value="8" data-slug="samenwerking">8. Samenwerking</option>
+              <option value="9" data-slug="integratie">9. Integratie</option>
+              <option value="10" data-slug="data">10. Data</option>
+              <option value="11" data-slug="algoritmen">11. Algoritmen</option>
+              <option value="12" data-slug="inkoop">12. Inkoopstrategie</option>
+              <option value="13" data-slug="duurzaamheid">13. Duurzaamheid</option>
+            </select>
+          </nldd-dropdown>
+        </nldd-form-field>
+        <nldd-form-field label="Soort feedback">
+          <nldd-dropdown>
+            <select id="feedback-type" name="feedback_type" required>
+              <option value="">Selecteer</option>
+              <option value="bug_report">Fout</option>
+              <option value="feature_request">Voorstel</option>
+              <option value="general_feedback">Feedback</option>
+              <option value="question">Vraag</option>
+            </select>
+          </nldd-dropdown>
+          <nldd-validation-list>
+            <nldd-validation-item id="feedback-type-required" required>Een soort feedback is nodig.</nldd-validation-item>
+          </nldd-validation-list>
+        </nldd-form-field>
+        <nldd-form-field label="Uw feedback">
+          <nldd-multi-line-text-field id="feedback-text" name="feedback_text" rows="4" required minlength="10" maxlength="5000"></nldd-multi-line-text-field>
+          <nldd-validation-list>
+            <nldd-validation-item id="feedback-text-minlength" minlength="10" required>Minimaal 10 tekens.</nldd-validation-item>
+            <nldd-validation-item id="feedback-text-maxlength" maxlength="5000">Maximaal 5000 tekens.</nldd-validation-item>
+          </nldd-validation-list>
+        </nldd-form-field>
+        <div id="feedback-related-docs-container">
+          <nldd-form-field label="Link naar een relevant document" optional>
+            <nldd-text-field type="url" name="related_docs[]" placeholder="nerds.nl/..."></nldd-text-field>
+          </nldd-form-field>
+        </div>
+        <nldd-button id="feedback-add-link" appearance="neutral-tinted" size="sm" start-icon="plus" text="Link toevoegen"></nldd-button>
+        <nldd-form-actions>
+          <nldd-button-group>
+            <nldd-button id="feedback-submit" appearance="primary" type="submit" text="Via e-mail"></nldd-button>
+            <nldd-button id="feedback-github" appearance="secondary" text="Via GitHub Issues"></nldd-button>
+          </nldd-button-group>
+        </nldd-form-actions>
+      </nldd-form>
+    </nldd-container>
+  </nldd-page>
+</nldd-sheet>
+</body>
+</html>
