@@ -44,12 +44,12 @@ jobs:
       # - rijkscloud.nl: Restricted API access
       # - bio-overheid.nl/ico-wizard: Returns 403 for automated checkers but works for users
       # - Sites blocking automated link checkers (415/connection refused):
-      #   gebruikercentraal.nl, nldesignsystem.nl, digitaleoverheid.nl,
-      #   gebruikersonderzoeken.nl, digitoegankelijk.nl, usmwiki.com,
-      #   rijksoverheid.nl, wetten.overheid.nl, dutchcloudcommunity.nl,
-      #   zoek.officielebekendmakingen.nl (403 for CI runners, works for users)
-      #   www.tweedekamer.nl (503 for CI runners, works for users)
-      # - producingoss.com: unreachable since 2026-10-06, re-enable once it is back
+      #   gebruikercentraal.nl, nldesignsystem.nl, gebruikersonderzoeken.nl,
+      #   digitoegankelijk.nl, usmwiki.com, dutchcloudcommunity.nl
+      # - Government sources (tweedekamer.nl, officielebekendmakingen.nl,
+      #   rijksoverheid.nl, digitaleoverheid.nl, wetten.overheid.nl) are skipped
+      #   here and checked in the next step, which tolerates a refused runner
+      #   but still fails on a page that is gone.
       - name: Link Checker
         id: lychee
         uses: lycheeverse/lychee-action@v2.9.0
@@ -75,7 +75,6 @@ jobs:
             --exclude "https://wetten\.overheid\.nl/.*"
             --exclude "https://zoek\.officielebekendmakingen\.nl/.*"
             --exclude "https://www\.tweedekamer\.nl/.*"
-            --exclude "https://producingoss\.com/.*"
             '**/*.yaml'
             '**/*.md'
             '**/*.ts'
@@ -83,11 +82,44 @@ jobs:
           # Output file for creating issues
           output: ./lychee/out.md
 
+      # These sites sometimes answer a CI runner with 403, 429 or 503 while the
+      # page works for visitors. Those statuses pass, a 404 or 410 fails, so a
+      # policy document that moved or disappeared is still caught.
+      - name: Link Checker (government sources)
+        id: lychee-government
+        if: ${{ !cancelled() }}
+        uses: lycheeverse/lychee-action@v2.9.0
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --max-retries 3
+            --accept "100..=103,200..=299,403,429,503"
+            --exclude ".*"
+            --include "https://www\.tweedekamer\.nl/.*"
+            --include "https://zoek\.officielebekendmakingen\.nl/.*"
+            --include "https://www\.rijksoverheid\.nl/.*"
+            --include "https://www\.digitaleoverheid\.nl/.*"
+            --include "https://wetten\.overheid\.nl/.*"
+            '**/*.yaml'
+            '**/*.md'
+            '**/*.ts'
+            '**/*.vue'
+          output: ./lychee/out-government.md
+
       # Only create an issue when broken links are found AND running on schedule/manual
       - name: Create Issue (Only on schedule or manual run)
-        if: ${{ failure() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}
+        if: ${{ failure() && steps.lychee.outcome == 'failure' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}
         uses: peter-evans/create-issue-from-file@v6
         with:
           title: Broken links detected
           content-filepath: ./lychee/out.md
+          labels: broken-links
+
+      - name: Create Issue for government sources (Only on schedule or manual run)
+        if: ${{ failure() && steps.lychee-government.outcome == 'failure' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: Broken links to government sources detected
+          content-filepath: ./lychee/out-government.md
           labels: broken-links
