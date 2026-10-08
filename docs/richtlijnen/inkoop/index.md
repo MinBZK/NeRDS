@@ -47,5 +47,5 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
 ### Gerelateerde richtlijnen
 
 - [13. Maak je technologie duurzaam](../duurzaamheid/index.md)
-- [5. Hanteer een cloud-gedreven strategie](../cloud/index.md)
+- [5. Gebruik cloud verantwoord en blijf wendbaar](../cloud/index.md)
 - [3. Werk transparant en gebruik open source](../open-source/index.md)

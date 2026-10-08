@@ -50,4 +50,4 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
 
 - [7. Maak privacy integraal](../privacy/index.md)
 - [10. Maak beter gebruik van data](../data/index.md)
-- [5. Hanteer een cloud-gedreven strategie](../cloud/index.md)
+- [5. Gebruik cloud verantwoord en blijf wendbaar](../cloud/index.md)

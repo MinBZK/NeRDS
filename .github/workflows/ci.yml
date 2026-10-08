@@ -46,7 +46,10 @@ jobs:
       # - Sites blocking automated link checkers (415/connection refused):
       #   gebruikercentraal.nl, nldesignsystem.nl, digitaleoverheid.nl,
       #   gebruikersonderzoeken.nl, digitoegankelijk.nl, usmwiki.com,
-      #   rijksoverheid.nl, wetten.overheid.nl, dutchcloudcommunity.nl
+      #   rijksoverheid.nl, wetten.overheid.nl, dutchcloudcommunity.nl,
+      #   zoek.officielebekendmakingen.nl (403 for CI runners, works for users)
+      #   www.tweedekamer.nl (503 for CI runners, works for users)
+      # - producingoss.com: unreachable since 2026-10-06, re-enable once it is back
       - name: Link Checker
         id: lychee
         uses: lycheeverse/lychee-action@v2.8.0
@@ -70,6 +73,9 @@ jobs:
             --exclude "https://www\.digitaleoverheid\.nl/.*"
             --exclude "https://www\.rijksoverheid\.nl/.*"
             --exclude "https://wetten\.overheid\.nl/.*"
+            --exclude "https://zoek\.officielebekendmakingen\.nl/.*"
+            --exclude "https://www\.tweedekamer\.nl/.*"
+            --exclude "https://producingoss\.com/.*"
             '**/*.yaml'
             '**/*.md'
             '**/*.ts'
