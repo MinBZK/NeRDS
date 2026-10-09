@@ -90,7 +90,7 @@ Deze fases zijn gebaseerd op de best practices uit agile ontwikkelmethoden en de
 ## Versies
 
 Dit is versie {{ version }} van de Nederlandse Richtlijn Digitale Systemen (NeRDS).
-De richtlijn, deze website en de plugin voor AI-assistenten delen dat versienummer.
+Deze website en de plugin voor AI-assistenten dragen hetzelfde versienummer.
 De eerste versie verscheen op 21 maart 2025.
 
 Wat er per versie is veranderd lees je op de pagina [Versies](versies.md).

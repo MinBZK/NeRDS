@@ -50,6 +50,9 @@ jobs:
   build:
     name: Site en image bouwen
     needs: release
+    # Ook als de release-job faalt: een storing in de release-tooling mag een
+    # gewone wijziging niet van de site houden. De run wordt dan wel rood.
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
@@ -70,13 +73,16 @@ jobs:
 
       - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
 
+      # NERDS_BUILD geeft de hook src/hooks/site_version.py dezelfde waarde als
+      # de image-tag hieronder, zodat de pagina 'Huidige versie' en het image
+      # niet uiteen kunnen lopen.
       - name: Site bouwen
+        env:
+          NERDS_BUILD: ${{ steps.get_commit_hash.outputs.commit_hash }}
         run: uv run --locked mkdocs build
 
-      # De image-tag is de uitvoer van git describe, dezelfde die de hook
-      # src/hooks/version.py als build op de pagina 'Huidige versie' zet. Een
-      # nieuwe tag verandert de pod-spec en forceert zo een rollout, wat
-      # 'latest' niet doet.
+      # De image-tag is de uitvoer van git describe. Een nieuwe tag verandert
+      # de pod-spec en forceert zo een rollout, wat 'latest' niet doet.
       - name: Image-tag bepalen
         id: image
         env:
@@ -98,6 +104,9 @@ jobs:
   deploy:
     name: Uitrollen naar ZAD
     needs: build
+    # Expliciet op de build: de standaardvoorwaarde kijkt ook naar de
+    # release-job eerder in de keten.
+    if: ${{ !cancelled() && needs.build.result == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:

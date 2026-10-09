@@ -7,8 +7,12 @@ to the version on a release, and further along (v0.3.1-4-gabc1234) when main has
 moved on since.
 
 Markdown can use two placeholders, `{{ version }}` and `{{ build }}`.
+
+Not named version.py: release-please's Python strategy rewrites files of that
+name as if they held a `__version__`.
 """
 
+import os
 import subprocess
 import tomllib
 from pathlib import Path
@@ -24,7 +28,12 @@ def read_version() -> str:
 
 
 def read_build(version: str) -> str:
-    """Falls back on the version where there is no git or no tag to describe from."""
+    """
+    The deploy workflow passes NERDS_BUILD, the same value it tags the image
+    with. Elsewhere git says it, and without git or a tag the version does.
+    """
+    if os.environ.get("NERDS_BUILD"):
+        return os.environ["NERDS_BUILD"]
     try:
         described = subprocess.run(
             ["git", "describe", "--tags"],

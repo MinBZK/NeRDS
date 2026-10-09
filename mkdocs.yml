@@ -88,4 +88,4 @@ hooks:
   - src/hooks/security_txt.py
   - src/hooks/action_registry.py
   - src/hooks/nldd_content.py
-  - src/hooks/version.py
+  - src/hooks/site_version.py

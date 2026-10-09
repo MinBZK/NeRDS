@@ -1,6 +1,6 @@
 # Versies
 
-Hier staat per versie wat er aan de NeRDS is veranderd. De richtlijn, de website en de plugin voor AI-assistenten delen één versienummer.
+Hier staat per versie wat er aan de NeRDS is veranderd. De website en de plugin voor AI-assistenten dragen hetzelfde versienummer als de richtlijn.
 
 ## [0.2.0](https://github.com/NederlandseDigitaleDienst/NeRDS/compare/v0.1.1...v0.2.0) (2026-10-06)
 

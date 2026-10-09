@@ -179,11 +179,11 @@ Gebruik kebab-case, houd de namen kort maar beschrijvend en vermijd speciale kar
 
 ## Versies en releases
 
-De richtlijn, de website en de plugin voor AI-assistenten delen één versienummer, in de vorm `major.minor.patch`. Dat nummer staat in `pyproject.toml`. Je wijzigt het niet met de hand.
+De NeRDS heeft één versienummer, in de vorm `major.minor.patch`. De website en de plugin voor AI-assistenten dragen hetzelfde nummer als de richtlijn. Dat nummer staat in `pyproject.toml`. Je wijzigt het niet met de hand.
 
 ### De titel van je pull request
 
-De titel van een pull request wordt bij het mergen de commit op `main`, en komt in het overzicht van versies op de website (onder "Over NeRDS"). Begin de titel met een van deze drie voorvoegsels:
+Een pull request gaat als één commit naar `main` (squash), met de titel van de pull request als titel. Die titel komt in het overzicht van versies op de website (onder "Over NeRDS"). Begin de titel met een van deze drie voorvoegsels:
 
 - `feat:` voor een nieuwe richtlijn, een inhoudelijk gewijzigde richtlijn of een nieuwe functie van de website of de plugin. De volgende versie krijgt een hoger middelste cijfer.
 - `fix:` voor een correctie: een typfout, een dode link, een fout in de website. De volgende versie krijgt een hoger laatste cijfer.

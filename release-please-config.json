@@ -6,17 +6,38 @@
     ".": {
       "release-type": "python",
       "package-name": "nrds",
-      "release-as": "0.3.1",
       "changelog-path": "CHANGELOG.md",
       "changelog-sections": [
-        { "type": "feat", "section": "Nieuw" },
-        { "type": "fix", "section": "Verbeterd" }
+        {
+          "type": "feat",
+          "section": "Nieuw"
+        },
+        {
+          "type": "fix",
+          "section": "Verbeterd"
+        }
       ],
       "extra-files": [
-        { "type": "json", "path": ".plugin/plugin.json", "jsonpath": "$.version" },
-        { "type": "json", "path": ".claude-plugin/plugin.json", "jsonpath": "$.version" },
-        { "type": "json", "path": ".cursor-plugin/plugin.json", "jsonpath": "$.version" },
-        { "type": "toml", "path": "uv.lock", "jsonpath": "$.package[?(@.name=='nrds')].version" }
+        {
+          "type": "json",
+          "path": ".plugin/plugin.json",
+          "jsonpath": "$.version"
+        },
+        {
+          "type": "json",
+          "path": ".claude-plugin/plugin.json",
+          "jsonpath": "$.version"
+        },
+        {
+          "type": "json",
+          "path": ".cursor-plugin/plugin.json",
+          "jsonpath": "$.version"
+        },
+        {
+          "type": "toml",
+          "path": "uv.lock",
+          "jsonpath": "$.package[?(@.name.value=='nrds')].version"
+        }
       ]
     }
   }
