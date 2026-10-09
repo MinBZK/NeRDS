@@ -55,9 +55,18 @@ Bij het sluiten van de PR gaan de deployment, de reactie en de images
 - `security-headers.conf` zet HSTS, de Content-Security-Policy en de overige
   beveiligingsheaders.
 
-De CSP staat geen inline scripts toe. Een `<script>` met code erin, of een
-`onclick` in de HTML, werkt lokaal met `mkdocs serve` en doet op de site niets.
-Zet code in een bestand onder `src/theme/assets/`.
+De CSP bepaalt wat een pagina mag laden, en de browser handhaaft dat zonder
+melding op de pagina. Twee dingen werken daardoor lokaal met `mkdocs serve` en
+niet op de site:
+
+- Een `<script>` met code erin of een `onclick` in de HTML. Zet code in een
+  bestand onder `src/theme/assets/`.
+- Een afbeelding, video of iframe van een ander adres. Zet het bestand in de
+  repository, of voeg de herkomst toe aan de CSP in `security-headers.conf`.
+
+`scripts/check_csp.py` leest dezelfde policy en legt de gebouwde site ernaast.
+De check draait mee in `just check`, in pre-commit en in CI, en faalt op alles
+wat de browser zou blokkeren.
 
 Lokaal testen:
 
