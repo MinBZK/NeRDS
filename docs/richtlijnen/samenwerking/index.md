@@ -34,7 +34,6 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
     </div>
 
     <div class="action-cards" data-richtlijn="samenwerking"></div>
-    </div>
 </div>
 
 ## Gerelateerde hulpmiddelen

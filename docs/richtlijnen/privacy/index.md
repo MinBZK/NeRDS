@@ -35,7 +35,6 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     </div>
 
     <div class="action-cards" data-richtlijn="privacy"></div>
-    </div>
 </div>
 
 ## Gerelateerde hulpmiddelen

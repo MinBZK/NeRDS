@@ -34,7 +34,6 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
     </div>
 
     <div class="action-cards" data-richtlijn="duurzaamheid"></div>
-    </div>
 </div>
 
 #### 1. Planning en ontwerp

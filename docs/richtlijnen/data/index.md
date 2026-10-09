@@ -34,7 +34,6 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
     </div>
 
     <div class="action-cards" data-richtlijn="data"></div>
-    </div>
 </div>
 
 ## Gerelateerde hulpmiddelen

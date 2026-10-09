@@ -29,7 +29,6 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
     </div>
 
     <div class="action-cards" data-richtlijn="gebruikersbehoeften"></div>
-    </div>
 </div>
 
 ## Bewezen praktijken

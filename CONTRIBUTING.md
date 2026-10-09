@@ -162,6 +162,12 @@ Een nieuwe richtlijn krijgt bovenaan de pagina een `title`, een `summary` en een
 - **Lengte**: Houd artikelen beknopt en to-the-point
 - **Bronnen**: Verwijs naar officiële bronnen en standaarden waar relevant
 
+### De richtlijnen in de plugin
+
+De plugin voor AI-assistenten bevat per richtlijn een kopie van de tekst, in `skills/<naam>/richtlijn.md` en `fases.md`. Die bestanden wijzig je niet zelf. Je wijzigt de richtlijn in `docs/richtlijnen/`, en het script `scripts/generate_plugin.py` maakt de kopie opnieuw.
+
+Met [pre-commit](https://pre-commit.com/) gebeurt dat vanzelf bij je commit. Zonder pre-commit draai je `just plugin`. Een controle op de pull request faalt als de kopie achterloopt.
+
 ### Afbeeldingen en media
 
 - Plaats afbeeldingen in de juiste `assets/` map
