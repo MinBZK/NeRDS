@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const results = document.getElementById('search-results');
   if (!sheet || !opener || !field || !results) return;
 
+  // Without a trailing slash: on the 404 page of a site at the domain root the
+  // base is "/", and "//search/worker.js" would point at another host.
+  const base_url = (document.documentElement.dataset.baseUrl || '.').replace(/\/+$/, '');
   const emptyState = results.querySelector('[slot="empty"]');
   let worker = null;
   let ready = false;

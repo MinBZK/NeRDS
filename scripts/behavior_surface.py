@@ -34,7 +34,6 @@ HANDLER_ATTRIBUTES = {"onclick", "onchange", "oninput", "onsubmit"}
 # nldd-form-field creates these ids itself to tie a field to its label.
 WIRING_ID_SUFFIXES = ("-label", "-help", "-error")
 CALL = re.compile(r"([A-Za-z_$][\w$.]*)\s*\(")
-BASE_URL = re.compile(r'var base_url = "([^"]*)"')
 
 
 def normalize_url(url: str) -> str:
@@ -55,6 +54,8 @@ class SurfaceParser(HTMLParser):
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         values = {name: (value or "") for name, value in attrs}
+        if tag == "html":
+            self.base_url = values.get("data-base-url", "")
         for name, value in values.items():
             if not value:
                 continue
@@ -71,11 +72,6 @@ class SurfaceParser(HTMLParser):
         if element_id and not element_id.endswith(WIRING_ID_SUFFIXES):
             if not element_id.startswith("__"):
                 self.ids.add(element_id)
-
-    def handle_data(self, data: str) -> None:
-        match = BASE_URL.search(data)
-        if match:
-            self.base_url = match.group(1)
 
     def relative_destinations(self) -> set[str]:
         """

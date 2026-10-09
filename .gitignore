@@ -16,5 +16,8 @@ site
 # Downloaded design system package
 .cache/
 
+# zadctl keeps the project's API key here
+.env.zadctl
+
 # Tools for the accessibility gate
 tools/a11y/node_modules/
