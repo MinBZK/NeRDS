@@ -1,0 +1,89 @@
+<!-- Gegenereerd uit docs/richtlijnen/integratie/index.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+
+# 9. Integreer en pas technologie aan
+
+Nieuwe technologische oplossingen moeten naadloos integreren met bestaande systemen, processen en infrastructuur. Door zorgvuldige integratie verminder je complexiteit, verhoog je acceptatie en maximaliseer je de waarde van zowel nieuwe als bestaande investeringen.
+
+## Waarom is het belangrijk?
+
+- **Continuïteit**: Voorkom verstoring van kritieke diensten
+- **Kosteneffectiviteit**: Benut bestaande investeringen optimaal
+- **Gebruikservaring**: Creëer een samenhangende ervaring voor eindgebruikers
+- **Datastromen**: Zorg voor consistente en betrouwbare gegevensuitwisseling
+- **Complexiteitsreductie**: Verminder de beheerslast van gefragmenteerde systemen
+- **Risicovermindering**: Verlaag de kans op projectfalen door geleidelijke implementatie
+
+Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en effectief digitaal landschap creëren dat waarde levert aan gebruikers en organisaties, terwijl het bestaande investeringen respecteert en toekomstige innovatie ondersteunt.
+
+## Hoe pas je het toe?
+
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards" data-richtlijn="integratie"></div>
+    </div>
+</div>
+
+### Integratie-aanpak
+
+1. **Ken je landschap**: Inventariseer bestaande systemen, processen en datastromen
+2. **Identificeer integratiepunten**: Bepaal waar nieuwe systemen moeten aansluiten
+3. **Evalueer impact**: Beoordeel de gevolgen van veranderingen op het geheel
+4. **Kies passende patronen**: Selecteer de juiste integratiemethoden en -technologieën
+5. **Plan gefaseerd**: Implementeer veranderingen geleidelijk om risico's te beperken
+6. **Test end-to-end**: Valideer de volledige integratie, niet alleen individuele componenten
+7. **Monitor prestaties**: Blijf integratiepunten bewaken op effectiviteit en efficiëntie
+
+### Integratiepatronen en -technologieën
+
+- **API's**: Application Programming Interfaces voor gestructureerde gegevensuitwisseling
+- **Middleware**: Software die verschillende applicaties verbindt
+- **Enterprise Service Bus (ESB)**: Centraal communicatiekanaal tussen systemen
+- **Microservices**: Modulaire architectuur die flexibele integratie ondersteunt
+- **ETL-processen**: Extract, Transform, Load voor databewegingen
+- **Event-driven architectuur**: Systemen communiceren via gebeurtenissen
+- **Hybride cloud**: Combinatie van on-premise en cloud-oplossingen
+
+### Uitdagingen en oplossingen
+
+- **Legacy systemen**: Ontwikkel adaptors of wrappers voor oudere technologie
+- **Dataformaten**: Gebruik standaarden en transformaties voor compatibiliteit
+- **Verschillende snelheden**: Implementeer bimodale IT om innovatie en stabiliteit te balanceren
+- **Beveiligingsgrenzen**: Ontwikkel veilige integratiepunten tussen verschillende beveiligingszones
+- **Organizational silos**: Bevorder samenwerking tussen afdelingen en teams
+
+### Best practices voor succesvolle integratie
+
+- **Gemeenschappelijke standaarden**: Bevorder het gebruik van open standaarden
+- **Loose coupling**: Minimaliseer directe afhankelijkheden tussen systemen
+- **Documentatie**: Houd architectuurdiagrammen en integratiepunten actueel
+- **Testen en monitoring**: Controleer regelmatig integratiepunten op werking
+- **Governance**: Ontwikkel richtlijnen voor het toevoegen van nieuwe systemen
+- **Change management**: Coördineer veranderingen over meerdere systemen heen
+
+### Overwegingen voor toekomstbestendigheid
+
+- Voorzie uitbreidbaarheid voor toekomstige integraties
+- Documenteer interfaces en datamodellen grondig
+- Ontwikkel strategieën voor migratie en uitfasering
+- Blijf open standaarden volgen voor langetermijncompatibiliteit
+- Evalueer regelmatig het technologielandschap op efficiëntie en effectiviteit
+
+## Gerelateerde standaarden
+
+- **[Common Ground](https://commonground.nl/)**: Een nieuwe informatiekundige visie voor moderne gegevensuitwisseling binnen de overheid. Common Ground werkt met herbruikbare componenten en het richtlijn van 'data bij de bron' om silovorming tegen te gaan en flexibele, modulaire IT-oplossingen te realiseren.
+
+- **[Federatieve Service Connectiviteit (FSC)](https://fsc-standaard.nl/)**: Een standaard voor een API-gateway met federatieve authenticatie. FSC beveiligt de verbindingen tussen partijen via wederzijdse digitale contracten en maakt veilige, gecontroleerde data-uitwisseling mogelijk.
+
+- **[Digikoppeling](https://www.logius.nl/diensten/digikoppeling)**: De standaard voor elektronisch berichtenverkeer tussen overheidsorganisaties. Digikoppeling beschrijft hoe gegevens veilig kunnen worden uitgewisseld, ongeacht het achterliggende systeem.
+
+- **[Haven](https://haven.commonground.nl/)**: Een standaard voor platformonafhankelijke cloudhosting, speciaal ontworpen voor het gemakkelijk herbruikbaar maken van applicaties tussen overheidsorganisaties.
+
+## Gerelateerde richtlijnen
+
+- [4. Gebruik open standaarden](https://nerds.digitaledienst.overheid.nl/richtlijnen/open-standaarden/)
+- [8. Deel, hergebruik en werk samen](https://nerds.digitaledienst.overheid.nl/richtlijnen/samenwerking/)

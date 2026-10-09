@@ -26,6 +26,15 @@ repos:
         exclude: ^(CHANGELOG\.md|docs/Over-NeRDS/versies\.md)$
   - repo: local
     hooks:
+      # Rewrites the guideline text in skills/ from docs/richtlijnen/. A
+      # commit that changes a guideline stops once, with the regenerated
+      # files ready to add.
+      - id: generate-plugin
+        name: Generate the plugin files and the skills from docs/richtlijnen
+        entry: python scripts/generate_plugin.py
+        language: python
+        files: ^(docs/richtlijnen/|skills/|\.plugin/|mkdocs\.yml$|scripts/generate_plugin\.py$)
+        pass_filenames: false
       - id: validate-richtlijnen
         name: Validate NeRDS richtlijn files
         entry: python scripts/validate_richtlijn.py

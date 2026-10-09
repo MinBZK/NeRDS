@@ -10,7 +10,7 @@ metadata:
 
 # NeRDS Richtlijn 4: Gebruik open standaarden
 
-Lees [de richtlijn](../../docs/richtlijnen/open-standaarden/index.md) voor de volledige richtlijn en hulpmiddelen.
+Lees [richtlijn.md](richtlijn.md) voor de volledige richtlijn en hulpmiddelen.
 
 Tip: de plugin `logius-standaarden` bevat gedetailleerde skills over specifieke standaarden (API Design Rules, Digikoppeling, OAuth NL, etc.). Installeer met: `claude plugin install logius-standaarden@overheid-plugins` (vereist marketplace: `claude plugin marketplace add MinBZK/overheid-claude-plugins`).
 

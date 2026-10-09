@@ -10,7 +10,7 @@ metadata:
 
 # NeRDS Richtlijn 2: Zorg voor toegankelijkheid en inclusie
 
-Lees [de richtlijn](../../docs/richtlijnen/toegankelijkheid/index.md) voor bewezen praktijken en hulpmiddelen, en [de fases](../../docs/richtlijnen/toegankelijkheid/fases.md) voor implementatie per fase.
+Lees [richtlijn.md](richtlijn.md) voor bewezen praktijken en hulpmiddelen, en [fases.md](fases.md) voor implementatie per fase.
 
 Gerelateerde richtlijnen: `/nerds-gebruikers`, `/nerds-standaarden`
 

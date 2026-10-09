@@ -10,7 +10,7 @@ metadata:
 
 # Nederlandse Richtlijn Digitale Systemen (NeRDS) - Overzicht
 
-De tabel hieronder is het overzicht van alle 13 richtlijnen. Routeer de gebruiker naar de juiste `/nerds-*` skill bij een domein-specifieke vraag.
+Lees [richtlijnen.md](richtlijnen.md) voor het volledige overzicht van alle 13 richtlijnen. Routeer de gebruiker naar de juiste `/nerds-*` skill bij een domein-specifieke vraag.
 
 |Skill|Richtlijn|
 |---|---|

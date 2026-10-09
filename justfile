@@ -23,3 +23,7 @@ image-build:
 # Serve the image on http://localhost:8081, read-only like on the cluster
 image-run: image-build
     docker run --rm --read-only --tmpfs /tmp -p 8081:8080 nerds-site:local
+
+# Regenerate the plugin manifests and the guideline text in skills/ from docs/richtlijnen
+plugin:
+    python3 scripts/generate_plugin.py

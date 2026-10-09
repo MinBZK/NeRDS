@@ -10,6 +10,6 @@ metadata:
 
 # NeRDS Richtlijn 3: Werk transparant en gebruik open source
 
-Lees [de richtlijn](../../docs/richtlijnen/open-source/index.md) voor bewezen praktijken en hulpmiddelen, en [de fases](../../docs/richtlijnen/open-source/fases.md) voor implementatie per fase.
+Lees [richtlijn.md](richtlijn.md) voor bewezen praktijken en hulpmiddelen, en [fases.md](fases.md) voor implementatie per fase.
 
 Gerelateerde richtlijnen: `/nerds-standaarden`, `/nerds-veiligheid`, `/nerds-samenwerking`

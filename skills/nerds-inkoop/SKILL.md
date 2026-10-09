@@ -10,6 +10,6 @@ metadata:
 
 # NeRDS Richtlijn 12: Definieer je inkoopstrategie
 
-Lees [de richtlijn](../../docs/richtlijnen/inkoop/index.md) voor de volledige richtlijn en hulpmiddelen.
+Lees [richtlijn.md](richtlijn.md) voor de volledige richtlijn en hulpmiddelen.
 
 Gerelateerde richtlijnen: `/nerds-duurzaamheid`, `/nerds-cloud`, `/nerds-opensource`

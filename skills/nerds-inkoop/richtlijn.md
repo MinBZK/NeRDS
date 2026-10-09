@@ -1,0 +1,43 @@
+<!-- Gegenereerd uit docs/richtlijnen/inkoop/index.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+
+# 12. Definieer je inkoopstrategie
+
+Een goed doordachte inkoopstrategie voor technologie zorgt ervoor dat je organisatie de juiste oplossingen verwerft tegen de beste waarde, met oog voor zowel huidige behoeften als toekomstige ontwikkelingen.
+
+## Waarom is het belangrijk?
+
+- **Waarde voor belastinggeld**: Zorg voor kosteneffectieve investeringen
+- **Vermijd vendor lock-in**: Behoud flexibiliteit en keuzevrijheid
+- **Risicobeheer**: Identificeer en beperk commerciële en technische risico's
+- **Innovatie stimuleren**: Creëer ruimte voor nieuwe oplossingen en aanbieders
+- **Duurzaamheid**: Overweeg milieu- en sociale impact van aankopen
+- **Strategische afstemming**: Zorg dat aankopen organisatiedoelen ondersteunen
+- **Wet- en regelgeving**: Voldoe aan aanbestedingsregels en andere regelgeving
+
+Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie betere beslissingen te nemen, risico's te beheersen en waarde te creëren op zowel korte als lange termijn.
+
+## Hoe pas je het toe?
+
+<div class="direct-aan-de-slag">
+    <h3>Direct aan de slag</h3>
+
+    <div class="warning-banner">
+        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+    </div>
+
+    <div class="action-cards" data-richtlijn="inkoop"></div>
+    </div>
+</div>
+
+## Gerelateerde hulpmiddelen
+
+#### Beleid, wetten en standaarden
+
+- [PIANOo - Expertisecentrum Aanbesteden](https://www.pianoo.nl/) - Kenniscentrum voor inkoop en aanbesteding bij de overheid
+- [Aanbestedingswet 2012](https://wetten.overheid.nl/BWBR0032203/) - Wettelijk kader voor overheidsinkoopprocessen
+
+### Gerelateerde richtlijnen
+
+- [13. Maak je technologie duurzaam](https://nerds.digitaledienst.overheid.nl/richtlijnen/duurzaamheid/)
+- [5. Gebruik cloud verantwoord en blijf wendbaar](https://nerds.digitaledienst.overheid.nl/richtlijnen/cloud/)
+- [3. Werk transparant en gebruik open source](https://nerds.digitaledienst.overheid.nl/richtlijnen/open-source/)

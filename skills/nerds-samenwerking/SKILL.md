@@ -10,6 +10,6 @@ metadata:
 
 # NeRDS Richtlijn 8: Deel, hergebruik en werk samen
 
-Lees [de richtlijn](../../docs/richtlijnen/samenwerking/index.md) voor de volledige richtlijn en hulpmiddelen.
+Lees [richtlijn.md](richtlijn.md) voor de volledige richtlijn en hulpmiddelen.
 
 Gerelateerde richtlijnen: `/nerds-opensource`, `/nerds-integratie`, `/nerds-duurzaamheid`
