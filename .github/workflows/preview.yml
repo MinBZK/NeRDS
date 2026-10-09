@@ -74,6 +74,7 @@ jobs:
       - name: Controleer de website tegen het designsysteem
         run: |
           uv run --locked python scripts/check_nldd.py ./site
+          uv run --locked python scripts/check_csp.py ./site
           uv run --locked python scripts/behavior_surface.py check ./site scripts/behavior-surface.json
 
       - name: Preview weren uit zoekmachines
