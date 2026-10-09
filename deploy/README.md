@@ -24,6 +24,28 @@ De laatste stap van de workflow vergelijkt het adres dat ZAD teruggeeft met
 `site_url`. MkDocs zet dat adres in de canonical van elke pagina, dus een site
 die ergens anders uitkomt hoort de workflow te laten falen.
 
+## Preview per pull request
+
+`.github/workflows/preview.yml` zet elke pull request op een eigen
+ZAD-deployment `pr-<nummer>`, met hetzelfde image, dezelfde nginx-config en
+dezelfde CSP als productie. De link komt in een reactie op de PR. Het adres
+heeft het ZAD-formaat `deployment-project`:
+
+```text
+pr-<nummer>-nerds-9sr.rig.prd1.gn2.quattro.rijksapps.nl
+```
+
+De workflow bouwt de site met dat adres als `site_url` en faalt als ZAD een
+ander adres teruggeeft. In het image staat een `robots.txt` die zoekmachines
+weert.
+
+Een pull request uit een fork of van Dependabot krijgt geen preview: die heeft
+geen toegang tot de secrets. De site wordt dan wel gebouwd en gecontroleerd, en
+staat als artifact bij de run.
+
+Bij het sluiten van de PR gaan de deployment, de reactie en de images
+`pr-<nummer>-<sha>` weg.
+
 ## Het image
 
 - `nginx.conf` serveert de site op poort 8080, met de 404-pagina uit de build
