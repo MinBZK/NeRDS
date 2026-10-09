@@ -21,7 +21,6 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
 **Direct aan de slag**
 
 - [Developer Overheid](https://developer.overheid.nl/): Communities voor overheidsontwikkelaars
-- GovHub: Centrale hub voor overheidscomponenten (status: concept)
 - [NL Design System](https://www.nldesignsystem.nl): Samen bouwen aan gebruiksvriendelijke overheidswebsites
 </div>
 

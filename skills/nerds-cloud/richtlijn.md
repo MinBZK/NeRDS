@@ -52,12 +52,9 @@ Het [EU Cloud Sovereignty Framework](https://commission.europa.eu/document/09579
 **Direct aan de slag**
 
 - [Volwassenheidsmodel Digitale Autonomie](https://digitaleautonomie.pleio.nl/project/view/be08e155-19a1-4ac3-bddb-cc31a352f088/volwassenheidsmodel): Beoordeel zelf de digitale autonomie van uw organisatieprocessen (status: ontwikkeling)
-- Cloud Assessment: Beoordeel uw cloudgereedheid (status: concept)
-- Beslisboom Cloud: Helpt bij het kiezen van de juiste cloudoplossing (status: concept)
 - [Fundament](https://docs.fundament.projects.digilab.network/): Open source platform waarop de proef met de soevereine overheidscloud draait (status: ontwikkeling)
 - [Pre-scan DPIA & DPIA Formulier](https://minbzk.github.io/par-dpia-form/): Online formulier voor gegevensbeschermingseffectbeoordeling
 - [Haven](https://haven.commonground.nl/): Platformonafhankelijke cloudhosting
-- Kubernetes Service: Beheerde K8s met compliance (status: demo)
 
 ## Bewezen praktijken
 

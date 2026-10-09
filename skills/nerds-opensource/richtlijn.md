@@ -23,7 +23,6 @@ Door open en transparant te werken en open source software te omarmen, draag je 
 - [Standaard voor publieke code](https://www.standaardvoorpubliekecode.nl/): Richtlijnen voor het ontwikkelen en beheren van software en beleid
 - [Handreiking publieke waarde bij ICT-aanbesteding](https://www.pianoo.nl/nl/handreiking-publieke-waarden-en-rechten-bij-aanbesteden-van-ict): Stappenplan voor het maken van bewuste keuzes rondom publieke waarde en rechten
 - [Licentieadvies](https://opensourcewerken.nl/page/view/677bb847-79b5-42b2-8a63-e7bb2e074530/softwarelicenties): Copyleft: CC BY-SA, GPLv3, AGPLv3 of EUPL-1.2. Permissive: Apache 2.0, MIT, BSD-0-clause
-- Code.gov.nl: Publiceer uw code en vind overheidsprojecten (status: concept)
 
 ## Bewezen praktijken
 

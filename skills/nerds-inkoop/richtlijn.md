@@ -24,7 +24,6 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
 - [Algoritmekader](https://minbzk.github.io/Algoritmekader/onderwerpen/publieke-inkoop/): Richtlijn voor inkoop van verantwoorde algoritmes
 - [Inkoopkompas](https://www.pianoo.nl/nl/sectoren/ict): Kennisplatform voor ICT-inkoop
 - [MVI-criteria](https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria): Criteria voor duurzaam inkopen
-- TCO Calculator: Bereken Total Cost of Ownership (status: ontwikkeling)
 - [Handreiking IT Sourcing](https://www.digitaleoverheid.nl/rijksbrede-it-sourcingstrategie/dossier-documenten/rijksbrede-handreiking-it-sourcing/): Handreiking voor IT-sourcing binnen de Rijksoverheid
 </div>
 

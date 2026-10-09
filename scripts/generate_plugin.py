@@ -217,6 +217,10 @@ def action_lists(text: str) -> str:
         selected = hook._filter_actions(
             list(actions()), guideline.group(1) if guideline else None, phase.group(1) if phase else None
         )
+        # Only what exists. The registry also holds ideas and demo items
+        # without an address; on the site a badge and a notice mark those, but
+        # an assistant reading a plain list would recommend them as tools.
+        selected = [action for action in selected if action.get("source")]
         if not selected:
             return ""
         heading = match.groupdict().get("heading")
@@ -226,9 +230,7 @@ def action_lists(text: str) -> str:
         for action in hook._sort_actions_by_fase(selected):
             status = action.get("status", "beschikbaar")
             suffix = "" if status == "beschikbaar" else f" (status: {status})"
-            # An action that is still a concept may have no address yet.
-            name = f"[{action['name']}]({action['source']})" if action.get("source") else action["name"]
-            lines.append(f"- {name}: {action.get('description', '')}{suffix}")
+            lines.append(f"- [{action['name']}]({action['source']}): {action.get('description', '')}{suffix}")
         return "\n".join(lines)
 
     text = ACTION_BLOCK.sub(render, text)

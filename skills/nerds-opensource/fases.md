@@ -98,7 +98,6 @@ Onderhoud de code en gemeenschap actief en zorg voor snelle security responses.
 **Direct aan de slag**
 
 - [Opensourcewerken](https://developer.overheid.nl/communities/open-source-werken): Community of practice omtrent open source werken (status: ontwikkeling)
-- Code.gov.nl: Publiceer uw code en vind overheidsprojecten (status: concept)
 
 **Gewenste uitkomsten:**
 

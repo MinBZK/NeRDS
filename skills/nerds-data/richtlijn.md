@@ -19,7 +19,6 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
 
 **Direct aan de slag**
 
-- Datacheck: Tool voor datakwaliteitscontrole (status: ontwikkeling)
 - [Open Data](https://data.overheid.nl/): Het open dataportaal van de overheid
 - [Synthetische Data](https://digilab.overheid.nl/projecten/synthetische-datageneratie/): Genereer veilige testdata (status: concept)
 </div>

@@ -22,7 +22,6 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
 
 - [Web Sustainability Guidelines](https://www.w3.org/TR/web-sustainability-guidelines/): Richtlijnen voor duurzame webontwikkeling
 - [CO2-calculator](https://www.metenvanduurzaamheid.nl/overzicht-tools/monitoring-als-tool-voor-bedrijven-en-organisaties/co2-prestatieladder-en-co2-calculator): Bereken de CO2-impact van uw IT (status: concept)
-- Green Coding: Best practices voor duurzame software (status: ontwikkeling)
 - [ICT MVI-criteria](https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria): Duurzaamheidscriteria voor ICT-inkoop
 </div>
 
