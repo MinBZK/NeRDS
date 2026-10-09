@@ -40,7 +40,7 @@ We kijken uit naar alle bijdragen! 🎉
 ### Technische richtlijnen
 
 - [Branching strategie](#branching-strategie)
-- [Versioning](#versioning)
+- [Versies en releases](#versies-en-releases)
 
 ## Code of Conduct
 
@@ -177,34 +177,26 @@ Gebruik kebab-case, houd de namen kort maar beschrijvend en vermijd speciale kar
 - **fix/beschrijving**: Bug fixes
 - **docs/beschrijving**: Documentatie updates
 
-## Versioning
+## Versies en releases
 
-De NeRDS gebruikt semantic versioning voor releases:
+De NeRDS heeft één versienummer, in de vorm `major.minor.patch`. De website en de plugin voor AI-assistenten dragen hetzelfde nummer als de richtlijn. Dat nummer staat in `pyproject.toml`. Je wijzigt het niet met de hand.
 
-### Versioning schema
+### De titel van je pull request
 
-```bash
-major.minor.patch
-```
+Een pull request gaat als één commit naar `main` (squash), met de titel van de pull request als titel. Die titel komt in het overzicht van versies op de website (onder "Over NeRDS"). Begin de titel met een van deze drie voorvoegsels:
 
-- **Major** (x.0.0): Grote veranderingen of herstructureringen
-- **Minor** (0.x.0): Nieuwe functionaliteiten en inhoud toevoegingen
-- **Patch** (0.0.x): Bug fixes en kleine verbeteringen
+- `feat:` voor een nieuwe richtlijn, een inhoudelijk gewijzigde richtlijn of een nieuwe functie van de website of de plugin. De volgende versie krijgt een hoger middelste cijfer.
+- `fix:` voor een correctie: een typfout, een dode link, een fout in de website. De volgende versie krijgt een hoger laatste cijfer.
+- `chore:` voor onderhoud waar een lezer niets van merkt, zoals een update van een afhankelijkheid. Dit komt niet in het overzicht.
 
-### Handmatige versioning
+Schrijf de rest van de titel zo dat een lezer van de richtlijn hem begrijpt. Bijvoorbeeld: `feat: cloud-richtlijn in lijn met het cloudbeleid van 2026`.
 
-Versies worden handmatig beheerd door het NeRDS team:
+Een controle op de pull request weigert een titel zonder voorvoegsel.
 
-- **Wanneer**: Bij belangrijke releases of milestones
-- **Hoe**: Het team bepaalt op basis van de wijzigingen welk versienummer verhoogd wordt
-- **Format**: Volgt semantic versioning (major.minor.patch)
+### Een versie uitbrengen
 
-### Voor contributors
+Dit doet het NeRDS-team. Op GitHub staat steeds één pull request open met de naam "release", die [release-please](https://github.com/googleapis/release-please) bijhoudt. Daarin staan het volgende versienummer en de regels voor het overzicht van versies, opgebouwd uit de titels sinds de vorige versie.
 
-Als contributor hoef je je geen zorgen te maken over versioning:
+Het team brengt een versie uit door die pull request te mergen. De tag, de release op GitHub en de uitrol van de website volgen vanzelf. De plugin krijgt hetzelfde nummer, zodat wie hem heeft geïnstalleerd de nieuwe inhoud ontvangt.
 
-- Alle versies worden handmatig beheerd door het NeRDS team
-- Focus op duidelijke commit messages en PR beschrijvingen
-- Het team bepaalt of wijzigingen een patch, minor of major versie vereisen
-
-> **Tip**: Door duidelijke commit messages te schrijven help je het team om te bepalen welk versienummer verhoogd moet worden.
+Tussen twee versies kan de website al wijzigingen tonen die nog niet zijn uitgebracht. De pagina [Huidige versie](https://nerds.digitaledienst.overheid.nl/version/) laat zien welke build er precies draait.

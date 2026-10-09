@@ -12,9 +12,11 @@ Usage:
 import copy
 import json
 import sys
+import tomllib
 from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
+PYPROJECT_PATH = ROOT_DIR / "pyproject.toml"
 SOURCE_PATH = ROOT_DIR / ".plugin" / "plugin.json"
 CLAUDE_PATH = ROOT_DIR / ".claude-plugin" / "plugin.json"
 CURSOR_PATH = ROOT_DIR / ".cursor-plugin" / "plugin.json"
@@ -92,6 +94,20 @@ def check_sync(source_data: dict) -> bool:
     return all_synced
 
 
+def check_version(source_data: dict) -> bool:
+    """The plugin shares its version with the project; release-please raises both."""
+    with open(PYPROJECT_PATH, "rb") as f:
+        project_version = tomllib.load(f)["project"]["version"]
+    if source_data.get("version") != project_version:
+        print(
+            f"FOUT: versie in {SOURCE_PATH.relative_to(ROOT_DIR)} is {source_data.get('version')}, "
+            f"in pyproject.toml {project_version}"
+        )
+        return False
+    print(f"OK: versie {project_version} gelijk aan pyproject.toml")
+    return True
+
+
 def main() -> None:
     if not SOURCE_PATH.exists():
         print(f"FOUT: {SOURCE_PATH} niet gevonden")
@@ -100,12 +116,16 @@ def main() -> None:
     source_data = load_source()
 
     if "--check" in sys.argv:
-        if check_sync(source_data):
+        synced = check_sync(source_data)
+        same_version = check_version(source_data)
+        if not synced:
+            print("\nNiet in sync. Draai: python scripts/generate_plugin.py")
+        if not same_version:
+            print("\nHet versienummer wijzig je niet met de hand: release-please doet dat in de release-PR.")
+        if synced and same_version:
             print("\nAlle platform-bestanden zijn in sync")
             sys.exit(0)
-        else:
-            print("\nNiet in sync. Draai: python scripts/generate_plugin.py")
-            sys.exit(1)
+        sys.exit(1)
     else:
         generate_all(source_data)
         print("\nAlle platform-bestanden gegenereerd")

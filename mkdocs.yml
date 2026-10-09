@@ -1,4 +1,4 @@
-site_name: "NeRDS: Nederlandse Richtlijn Digitale Systemen 0.1"
+site_name: "NeRDS: Nederlandse Richtlijn Digitale Systemen"
 site_description: De Nederlandse Richtlijn Digitale Systemen van de Nederlandse Digitale Dienst
 
 theme:
@@ -36,6 +36,7 @@ nav:
   - Over NeRDS:
       - Over-NeRDS/index.md
       - Contact en bijdragen: Over-NeRDS/CONTRIBUTING.md
+      - Versies: Over-NeRDS/versies.md
       - Toegankelijkheid: Over-NeRDS/toegankelijkheid.md
       - Privacy: Over-NeRDS/privacy.md
       - Copyright: Over-NeRDS/copyright.md
@@ -87,3 +88,4 @@ hooks:
   - src/hooks/security_txt.py
   - src/hooks/action_registry.py
   - src/hooks/nldd_content.py
+  - src/hooks/site_version.py

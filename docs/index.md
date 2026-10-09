@@ -11,7 +11,7 @@ hide:
 </nldd-simple-section>
 
 <nldd-hero main-background="lintblauw" main-width="full">
-  <nldd-title color="inherit" size="1" heading-level="1" overline="Versie 0.1" text="Nederlandse Richtlijn Digitale Systemen (NeRDS)"></nldd-title>
+  <nldd-title color="inherit" size="1" heading-level="1" overline="Versie {{ version }}" text="Nederlandse Richtlijn Digitale Systemen (NeRDS)"></nldd-title>
   <nldd-spacer size="16"></nldd-spacer>
   <nldd-rich-text color="inherit">
     <p>Een set standaarden, richtlijnen en praktische hulpmiddelen voor het verantwoord ontwerpen, ontwikkelen en inkopen van digitale systemen binnen de Nederlandse overheid.</p>

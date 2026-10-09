@@ -8,6 +8,9 @@ updates:
       time: "10:00"
       timezone: "Europe/Amsterdam"
     open-pull-requests-limit: 5
+    # release-please reads the titles on main; an update is maintenance.
+    commit-message:
+      prefix: "chore"
     reviewers:
       - "anneschuth"
     groups:
@@ -24,6 +27,9 @@ updates:
       time: "10:00"
       timezone: "Europe/Amsterdam"
     open-pull-requests-limit: 5
+    # release-please reads the titles on main; an update is maintenance.
+    commit-message:
+      prefix: "chore"
     reviewers:
       - "anneschuth"
 
@@ -35,6 +41,9 @@ updates:
       time: "10:00"
       timezone: "Europe/Amsterdam"
     open-pull-requests-limit: 5
+    # release-please reads the titles on main; an update is maintenance.
+    commit-message:
+      prefix: "chore"
     reviewers:
       - "anneschuth"
     groups:

@@ -1,17 +1,15 @@
 name: Website bouwen en uitrollen naar ZAD
 
-# Bij elke push naar main: bouw de site, zet hem in een nginx-image op GHCR en
-# rol dat image uit op ZAD. Zie deploy/README.md.
+# Bij elke push naar main: werk de release-PR bij of breng de release uit, bouw
+# de site, zet hem in een nginx-image op GHCR en rol dat image uit op ZAD. Zie
+# deploy/README.md.
 
 on:
   push:
     branches:
       - main
-    tags:
-      - 'v*'
   # Handmatig starten kan vanaf elke branch, maar de environment 'productie'
-  # laat alleen main en v-tags toe. Vanaf een andere branch stopt de run bij
-  # de uitrol.
+  # laat alleen main toe. Vanaf een andere branch stopt de run bij de uitrol.
   workflow_dispatch:
 
 # Uitrollen op volgorde: een oudere run mag een nieuwere niet inhalen.
@@ -27,8 +25,34 @@ permissions:
   contents: read
 
 jobs:
+  # release-please houdt een release-PR open met de volgende versie en de
+  # changelog. Is die PR net gemerged, dan maakt deze job de tag en de
+  # GitHub-release. De build wacht hierop, zodat git describe de nieuwe tag
+  # ziet en image-tag en versiepagina het releasenummer krijgen.
+  release:
+    name: Release bijwerken of uitbrengen
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      # Tag en GitHub-release aanmaken, en naar de branch van de release-PR pushen.
+      contents: write
+      # De release-PR openen en bijwerken.
+      pull-requests: write
+    steps:
+      # De stap en niet de job is voorwaardelijk: een overgeslagen job zou de
+      # build en de uitrol die erop wachten ook overslaan.
+      - uses: googleapis/release-please-action@45996ed1f6d02564a971a2fa1b5860e934307cf7  # v5.0.0
+        if: github.ref == 'refs/heads/main'
+        with:
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json
+
   build:
     name: Site en image bouwen
+    needs: release
+    # Ook als de release-job faalt: een storing in de release-tooling mag een
+    # gewone wijziging niet van de site houden. De run wordt dan wel rood.
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
@@ -47,20 +71,18 @@ jobs:
         run: |
           echo "commit_hash=$(git describe --tags)" >> "$GITHUB_OUTPUT"
 
-      - name: inject version
-        run: |
-          sed -i 's/development/${{ steps.get_commit_hash.outputs.commit_hash }}/g' docs/version.md
-
       - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
 
+      # NERDS_BUILD geeft de hook src/hooks/site_version.py dezelfde waarde als
+      # de image-tag hieronder, zodat de pagina 'Huidige versie' en het image
+      # niet uiteen kunnen lopen.
       - name: Site bouwen
+        env:
+          NERDS_BUILD: ${{ steps.get_commit_hash.outputs.commit_hash }}
         run: uv run --locked mkdocs build
 
-      # De image-tag is de versie uit git describe, dezelfde die op de pagina
-      # 'Huidige versie' staat. Een nieuwe tag verandert de pod-spec en forceert
-      # zo een rollout, wat 'latest' niet doet. Een commit-hash volstaat niet:
-      # een release-tag staat op een commit die al is uitgerold, en zou dan
-      # dezelfde image-tag krijgen en dus niets uitrollen.
+      # De image-tag is de uitvoer van git describe. Een nieuwe tag verandert
+      # de pod-spec en forceert zo een rollout, wat 'latest' niet doet.
       - name: Image-tag bepalen
         id: image
         env:
@@ -82,6 +104,9 @@ jobs:
   deploy:
     name: Uitrollen naar ZAD
     needs: build
+    # Expliciet op de build: de standaardvoorwaarde kijkt ook naar de
+    # release-job eerder in de keten.
+    if: ${{ !cancelled() && needs.build.result == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:

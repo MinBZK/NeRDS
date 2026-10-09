@@ -1,0 +1,34 @@
+name: PR-titel
+
+# De titel van een pull request wordt bij het mergen de commit-titel op main.
+# release-please leest daaruit of een wijziging in de volgende versie hoort
+# (feat, fix) en neemt hem over in de changelog. Zie CONTRIBUTING.md.
+
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - reopened
+      - synchronize
+
+permissions:
+  # De action leest alleen de titel van de pull request.
+  pull-requests: read
+
+jobs:
+  titel:
+    name: Titel volgt conventional commits
+    # Dependabot en pre-commit.ci kiezen hun eigen titels.
+    if: github.event.pull_request.user.type != 'Bot'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50  # v6.1.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          types: |
+            feat
+            fix
+            chore
