@@ -72,8 +72,7 @@ ACTION_HOOK_PATH = ROOT_DIR / "src" / "hooks" / "action_registry.py"
 # optional notice around the placeholder, and a placeholder on its own.
 ACTION_BLOCK = re.compile(
     r'<div class="direct-aan-de-slag">\s*<h3>(?P<heading>.*?)</h3>.*?'
-    # One closing tag or more: several guidelines close the block twice.
-    r'<div class="action-cards"(?P<attributes>[^>]*)></div>(?:\s*</div>)+',
+    r'<div class="action-cards"(?P<attributes>[^>]*)></div>\s*</div>',
     re.DOTALL,
 )
 ACTION_PLACEHOLDER = re.compile(r'<div class="action-cards"(?P<attributes>[^>]*)></div>')

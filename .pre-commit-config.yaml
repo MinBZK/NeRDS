@@ -45,7 +45,8 @@ repos:
       - id: validate-richtlijnen
         name: Validate NeRDS richtlijn files
         entry: python scripts/validate_richtlijn.py
-        language: system
+        # Not `system`: a Mac has no `python` on the PATH, only `python3`.
+        language: python
         files: ^docs/richtlijnen/.*/index\.md$
         pass_filenames: false
       - id: validate-actions

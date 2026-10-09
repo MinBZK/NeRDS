@@ -36,7 +36,6 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
     </div>
 
     <div class="action-cards" data-richtlijn="algoritmen"></div>
-    </div>
 </div>
 
 ## Gerelateerde hulpmiddelen

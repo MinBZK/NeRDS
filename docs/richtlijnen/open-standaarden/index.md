@@ -35,7 +35,6 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
     </div>
 
     <div class="action-cards" data-richtlijn="open-standaarden"></div>
-    </div>
 </div>
 
 ## Gerelateerde standaarden

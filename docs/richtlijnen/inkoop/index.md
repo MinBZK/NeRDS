@@ -34,7 +34,6 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
     </div>
 
     <div class="action-cards" data-richtlijn="inkoop"></div>
-    </div>
 </div>
 
 ## Gerelateerde hulpmiddelen

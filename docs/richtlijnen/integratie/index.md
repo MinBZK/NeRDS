@@ -32,7 +32,6 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
     </div>
 
     <div class="action-cards" data-richtlijn="integratie"></div>
-    </div>
 </div>
 
 ### Integratie-aanpak

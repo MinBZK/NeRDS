@@ -36,7 +36,6 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
     </div>
 
     <div class="action-cards" data-richtlijn="veiligheid"></div>
-    </div>
 </div>
 
 ## Gerelateerde hulpmiddelen
