@@ -114,7 +114,7 @@ Bijvoorbeeld omdat je verschillende wijzigingsvoorstellen wilt doen? Je kan ook 
 We werken met [Markdown](https://www.markdownguide.org/basic-syntax/) bestanden.
 Dit is bestandsformaat voor platte tekstbestanden en wordt door veel verschillende tools ondersteund. Dit maakt het eenvoudig om versiebeheer op de NeRDS toe te passen.
 
-Daarnaast maken gebruik van [mkdocs](https://www.mkdocs.org/) en het [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system) om de informatie op een interactieve wijze inzichtelijk te maken op de website van [de NeRDS](https://nederlandsedigitaledienst.github.io/NeRDS/).
+Daarnaast maken gebruik van [mkdocs](https://www.mkdocs.org/) en het [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system) om de informatie op een interactieve wijze inzichtelijk te maken op de website van [de NeRDS](https://nerds.digitaledienst.overheid.nl/).
 
 ## Ontwikkelomgeving opzetten
 
