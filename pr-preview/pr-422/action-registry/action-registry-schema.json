@@ -1,0 +1,143 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "NeRDS Action Registry Schema",
+    "description": "Schema definition for the NeRDS Action Registry (actions.yaml)",
+    "type": "object",
+    "required": ["actions"],
+    "properties": {
+      "actions": {
+        "type": "array",
+        "description": "Array of all available actions",
+        "items": {
+          "type": "object",
+          "required": ["id", "name", "description", "richtlijn", "type", "action", "date_added", "status"],
+          "properties": {
+            "id": {
+              "type": "string",
+              "description": "Unique identifier for the action (kebab-case)"
+            },
+            "name": {
+              "type": "string",
+              "description": "Display name of the action"
+            },
+            "source": {
+              "type": ["string", "null"],
+              "description": "URL or external link to the action resource. null if not available"
+            },
+            "description": {
+              "type": "string",
+              "description": "Short description of what the action provides"
+            },
+            "richtlijn": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "gebruikersbehoeften",
+                    "toegankelijkheid",
+                    "open-source",
+                    "open-standaarden",
+                    "cloud",
+                    "veiligheid",
+                    "privacy",
+                    "samenwerking",
+                    "integratie",
+                    "data",
+                    "algoritmen",
+                    "inkoop",
+                    "duurzaamheid"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "gebruikersbehoeften",
+                      "toegankelijkheid",
+                      "open-source",
+                      "open-standaarden",
+                      "cloud",
+                      "veiligheid",
+                      "privacy",
+                      "samenwerking",
+                      "integratie",
+                      "data",
+                      "algoritmen",
+                      "inkoop",
+                      "duurzaamheid"
+                    ]
+                  },
+                  "minItems": 1
+                }
+              ],
+              "description": "Guideline category this action belongs to (can be string or array)"
+            },
+            "type": {
+              "type": "string",
+              "description": "Category type of the action",
+              "enum": ["beleid", "register", "tool", "handleiding", "form"]
+            },
+            "action": {
+              "type": "string",
+              "description": "Action label/button text",
+              "enum": [
+                "Verkennen",
+                "Registreren",
+                "Starten",
+                "Aanmaken",
+                "Bekijken",
+                "Aanvragen",
+                "Leren",
+                "Ontdekken",
+                "Scannen",
+                "Gebruiken",
+                "Testen",
+                "Downloaden",
+                "Deelnemen",
+                "Toepassen",
+                "Berekenen",
+                "Zoeken",
+                "Publiceren",
+                "Invullen",
+                "Uitvoeren"
+              ]
+            },
+            "fase": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "enum": ["verkenning", "ontwerp", "bouw", "productie", "live"]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": ["verkenning", "ontwerp", "bouw", "productie", "live"]
+                  },
+                  "minItems": 1
+                }
+              ],
+              "description": "Optional fase(s) this action applies to (recommended for gebruikersbehoeften, toegankelijkheid, open-source, cloud)"
+            },
+            "date_added": {
+              "type": "string",
+              "description": "Date when the action was added (DD-MM-YYYY format)",
+              "pattern": "^\\d{2}-\\d{2}-\\d{4}$"
+            },
+            "status": {
+              "type": "string",
+              "description": "Current status/availability of the action",
+              "enum": ["beschikbaar", "concept", "ontwikkeling", "demo"]
+            },
+            "component": {
+              "type": "string",
+              "description": "Optional component identifier for form-type actions"
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "additionalProperties": false
+   }

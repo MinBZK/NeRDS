@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="nl" data-base-url="../..">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>4. Open Standaarden - NeRDS: Nederlandse Richtlijn Digitale Systemen 0.1</title>
+  <meta name="description" content="Bouw technologie die open standaarden gebruikt om ervoor te zorgen dat je technologie werkt en communiceert met andere technologie.">
+  <link rel="canonical" href="https://nederlandsedigitaledienst.github.io/NeRDS/pr-preview/pr-422/richtlijnen/open-standaarden/">
+  <link rel="icon" type="image/svg+xml" href="../../assets/nldd/favicon.svg">
+  <link rel="apple-touch-icon" href="../../assets/nldd/touch-icon.png">
+  <link rel="stylesheet" href="../../assets/nldd/nldd.css">
+  <link rel="stylesheet" href="../../assets/site.css">
+  <script defer src="../../assets/nldd/nldd.min.js"></script>
+  <script defer src="../../assets/site.js"></script>
+  <script defer src="../../assets/search.js"></script>
+  <script defer src="../../assets/feedback.js"></script>
+</head>
+<body>
+<nldd-app-view>
+  <nldd-page>
+    <nldd-skip-link slot="header">
+  <nldd-top-navigation-bar
+    logo-title="Nederlandse Digitale Dienst"
+    logo-subtitle="Ministerie van Economische Zaken en Klimaat"
+    logo-href="../.."
+    website-title="Nederlandse Richtlijn Digitale Systemen"
+    website-href="../.."
+  >
+    <nldd-menu-bar slot="global">
+      <nldd-menu-bar-item text="Home" href="../.."></nldd-menu-bar-item>
+      <nldd-menu-bar-item text="Richtlijnen" href="../" current></nldd-menu-bar-item>
+      <nldd-menu-bar-item text="Over NeRDS" href="../../Over-NeRDS/"></nldd-menu-bar-item>
+    </nldd-menu-bar>
+    <nldd-menu-bar slot="utility">
+      <nldd-menu-bar-item id="search-open" text="Zoeken" icon="search" content-priority="icon" haspopup="dialog"></nldd-menu-bar-item>
+      <nldd-menu-bar-item id="feedback-open" text="Feedback" icon="message-rectangle-text" content-priority="icon" haspopup="dialog"></nldd-menu-bar-item>
+      <nldd-menu-bar-item text="GitHub" icon="git-branch" content-priority="icon" href="https://github.com/NederlandseDigitaleDienst/NeRDS"></nldd-menu-bar-item>
+    </nldd-menu-bar>
+  </nldd-top-navigation-bar>
+</nldd-skip-link>
+    <noscript>
+      <nldd-rich-text>
+        <p>Deze website werkt het best met JavaScript. Zonder JavaScript navigeer je met deze links:</p>
+        <ul>
+          <li><a href="../..">Home</a></li>
+          <li><a href="../">Richtlijnen</a></li>
+          <li><a href="../../Over-NeRDS/">Over NeRDS</a></li>
+        </ul>
+      </nldd-rich-text>
+    </noscript>
+    <nldd-sidebar-section id="content-section" sidebar-label="Richtlijnen">
+      <nldd-container slot="sidebar" padding="16" gap="24">
+        <nldd-list type="navigation" aria-label="Richtlijnen">
+  <nldd-list-item href="../">
+    <nldd-text-cell text="Overzicht"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../gebruikersbehoeften/">
+    <nldd-text-cell text="1. Gebruikersbehoeften"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../gebruikersbehoeften/fases/">
+    <nldd-spacer-cell size="16"></nldd-spacer-cell>
+    <nldd-text-cell size="sm" text="Wanneer doe je wat?"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../toegankelijkheid/">
+    <nldd-text-cell text="2. Toegankelijkheid"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../toegankelijkheid/fases/">
+    <nldd-spacer-cell size="16"></nldd-spacer-cell>
+    <nldd-text-cell size="sm" text="Wanneer doe je wat?"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../open-source/">
+    <nldd-text-cell text="3. Open Source"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../open-source/fases/">
+    <nldd-spacer-cell size="16"></nldd-spacer-cell>
+    <nldd-text-cell size="sm" text="Wanneer doe je wat?"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="./" current>
+    <nldd-text-cell text="4. Open Standaarden"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../cloud/">
+    <nldd-text-cell text="5. Cloud"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../cloud/fases/">
+    <nldd-spacer-cell size="16"></nldd-spacer-cell>
+    <nldd-text-cell size="sm" text="Wanneer doe je wat?"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../veiligheid/">
+    <nldd-text-cell text="6. Veiligheid"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../privacy/">
+    <nldd-text-cell text="7. Privacy"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../samenwerking/">
+    <nldd-text-cell text="8. Samenwerking"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../integratie/">
+    <nldd-text-cell text="9. Integratie"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../data/">
+    <nldd-text-cell text="10. Data"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../algoritmen/">
+    <nldd-text-cell text="11. Algoritmen"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../inkoop/">
+    <nldd-text-cell text="12. Inkoopstrategie"></nldd-text-cell>
+  </nldd-list-item>
+  <nldd-list-item href="../duurzaamheid/">
+    <nldd-text-cell text="13. Duurzaamheid"></nldd-text-cell>
+  </nldd-list-item>
+</nldd-list>
+<nldd-container gap="8">
+  <nldd-title size="6" text="Op deze pagina"></nldd-title>
+  <nldd-list type="navigation" aria-label="Op deze pagina">
+    <nldd-list-item href="#waarom-is-het-belangrijk">
+      <nldd-text-cell size="sm" text="Waarom is het belangrijk?"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#hoe-pas-je-het-toe">
+      <nldd-text-cell size="sm" text="Hoe pas je het toe?"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#gerelateerde-standaarden">
+      <nldd-text-cell size="sm" text="Gerelateerde standaarden"></nldd-text-cell>
+    </nldd-list-item>
+    <nldd-list-item href="#gerelateerde-richtlijnen">
+      <nldd-spacer-cell size="16"></nldd-spacer-cell>
+      <nldd-text-cell size="sm" color="secondary" text="Gerelateerde richtlijnen"></nldd-text-cell>
+    </nldd-list-item>
+  </nldd-list>
+</nldd-container>
+      </nldd-container>
+      <div class="sidebar-trigger">
+        <nldd-button id="sidebar-open" appearance="secondary" size="sm" start-icon="sidebar-left" popup-type="dialog" text="Richtlijnen"></nldd-button>
+      </div>
+      <nldd-rich-text id="content">
+  <h1 id="4-gebruik-open-standaarden">4. Gebruik open standaarden</h1>
+<p>Open standaarden zijn gemeenschappelijke regels die gebruikers in staat stellen compatibele en consistente producten, processen en diensten te creëren. Ze worden open ontworpen, zijn openbaar beschikbaar en meestal gratis of tegen lage kosten te gebruiken. Open standaarden zijn specificaties voor het uitvoeren van specifieke taken of functies.</p>
+<h2 id="waarom-is-het-belangrijk">Waarom is het belangrijk?</h2>
+<ul>
+<li><strong>Interoperabiliteit</strong>: Systemen kunnen naadloos met elkaar communiceren</li>
+<li><strong>Kosteneffectiviteit</strong>: Hergebruik bestaande middelen in plaats van opnieuw te ontwikkelen</li>
+<li><strong>Vermijd vendor lock-in</strong>: Voorkom afhankelijkheid van specifieke leveranciers of technologieën</li>
+<li><strong>Duurzaamheid</strong>: Verleng de levensduur van systemen en gegevens</li>
+<li><strong>Transparantie:</strong> Bevorder openheid van overheidssystemen</li>
+<li><strong>Innovatie</strong>: Maak het gemakkelijker om nieuwe diensten te ontwikkelen en te integreren</li>
+<li><strong>Toegankelijkheid</strong>: Zorg ervoor dat informatie breed beschikbaar en bruikbaar is</li>
+</ul>
+<p>Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, flexibele en duurzame digitale overheidsinfrastructuur die effectief kan communiceren met andere systemen.</p>
+<h2 id="hoe-pas-je-het-toe">Hoe pas je het toe?</h2>
+<nldd-box data-width="main">
+  <nldd-container padding="16" gap="16">
+    <nldd-title size="4" heading-level="3" text="Direct aan de slag"></nldd-title>
+    <nldd-banner variant="warning" size="sm" text="Work in Progress" supporting-text="De onderstaande functionaliteit is nog in ontwikkeling."></nldd-banner>
+    <nldd-collection layout="grid" item-width="240px" gap="12" data-richtlijn="open-standaarden">
+      <nldd-card>
+        <nldd-container padding="16" gap="8">
+          <nldd-title size="5" heading-level="4" text="API Standaarden">
+            <nldd-badge slot="overline" size="sm" color="success" text="beschikbaar"></nldd-badge>
+          </nldd-title>
+          <nldd-rich-text><p>Nederlandse API strategie</p></nldd-rich-text>
+        </nldd-container>
+        <nldd-container slot="footer" padding="16">
+          <nldd-button appearance="secondary" size="sm" href="https://docs.geostandaarden.nl/api/API-Strategie/" target="_blank" end-icon="external-link" text="Bekijken" accessible-label="Bekijken: API Standaarden"></nldd-button>
+        </nldd-container>
+      </nldd-card>
+      <nldd-card>
+        <nldd-container padding="16" gap="8">
+          <nldd-title size="5" heading-level="4" text="Beslisboom Open Standaarden">
+            <nldd-badge slot="overline" size="sm" color="success" text="beschikbaar"></nldd-badge>
+          </nldd-title>
+          <nldd-rich-text><p>Bepaal welke standaarden van toepassing zijn</p></nldd-rich-text>
+        </nldd-container>
+        <nldd-container slot="footer" padding="16">
+          <nldd-button appearance="secondary" size="sm" href="https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden" target="_blank" end-icon="external-link" text="Starten" accessible-label="Starten: Beslisboom Open Standaarden"></nldd-button>
+        </nldd-container>
+      </nldd-card>
+      <nldd-card>
+        <nldd-container padding="16" gap="8">
+          <nldd-title size="5" heading-level="4" text="Developer Overheid API&#x27;s">
+            <nldd-badge slot="overline" size="sm" color="success" text="beschikbaar"></nldd-badge>
+          </nldd-title>
+          <nldd-rich-text><p>Overzicht van overheids-API&#x27;s</p></nldd-rich-text>
+        </nldd-container>
+        <nldd-container slot="footer" padding="16">
+          <nldd-button appearance="secondary" size="sm" href="https://apis.developer.overheid.nl/apis" target="_blank" end-icon="external-link" text="Ontdekken" accessible-label="Ontdekken: Developer Overheid API&#x27;s"></nldd-button>
+        </nldd-container>
+      </nldd-card>
+      <nldd-card>
+        <nldd-container padding="16" gap="8">
+          <nldd-title size="5" heading-level="4" text="Standaardenregister">
+            <nldd-badge slot="overline" size="sm" color="warning" text="ontwikkeling"></nldd-badge>
+          </nldd-title>
+          <nldd-rich-text><p>Centrale standaardendatabase</p></nldd-rich-text>
+        </nldd-container>
+        <nldd-container slot="footer" padding="16">
+          <nldd-button appearance="secondary" size="sm" disabled text="Zoeken" accessible-label="Zoeken: Standaardenregister"></nldd-button>
+        </nldd-container>
+      </nldd-card>
+    </nldd-collection>
+  </nldd-container>
+</nldd-box>
+</div>
+<h2 id="gerelateerde-standaarden">Gerelateerde standaarden</h2>
+<ul>
+<li><a href="https://www.forumstandaardisatie.nl/open-standaarden" target="_blank">Forum Standaardisatie - Lijst open standaarden</a> - De 'pas toe of leg uit'-lijst van verplichte open standaarden voor de overheid</li>
+<li><a href="https://wetten.overheid.nl/BWBR0024717/2008-11-23" target="_blank">Instructie Rijksdienst bij aanschaf ICT-diensten of ICT-producten</a> - Verplichte instructie voor gebruik van open standaarden bij ICT-aanschaf</li>
+</ul>
+<h3 id="gerelateerde-richtlijnen">Gerelateerde richtlijnen</h3>
+<ul>
+<li><a href="../integratie/">9. Integreer technologie</a></li>
+<li><a href="../toegankelijkheid/">2. Maak het toegankelijk</a></li>
+<li><a href="../open-source/">3. Werk transparant en gebruik open source</a></li>
+</ul>
+</nldd-rich-text>
+<nldd-spacer size="32"></nldd-spacer>
+<nldd-container layout="wrap" gap="16" vertical-alignment="center">
+  <nldd-text size="sm" color="secondary">Laatst bijgewerkt: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="5 oktober 2026 17:04:14 CEST">5 oktober 2026</span></nldd-text>
+  <nldd-link size="sm" href="https://github.com/NederlandseDigitaleDienst/NeRDS/edit/main/docs/richtlijnen/open-standaarden/index.md" start-icon="pencil" text="Bewerk deze pagina op GitHub"></nldd-link>
+</nldd-container>
+<nldd-spacer size="24"></nldd-spacer>
+<nldd-divider></nldd-divider>
+<nldd-spacer size="24"></nldd-spacer>
+<nav class="page-navigation" aria-label="Vorige en volgende pagina">
+  <nldd-button appearance="secondary" start-icon="arrow-left" href="../open-source/fases/" text="Wanneer doe je wat?" accessible-label="Vorige: Wanneer doe je wat?"></nldd-button>
+  <nldd-button appearance="secondary" end-icon="arrow-right" href="../cloud/" text="5. Gebruik cloud verantwoord en blijf wendbaar" accessible-label="Volgende: 5. Gebruik cloud verantwoord en blijf wendbaar"></nldd-button>
+</nav>
+    </nldd-sidebar-section>
+
+    <nldd-page-footer slot="footer">
+  <nldd-breadcrumbs slot="breadcrumbs">
+    <nldd-breadcrumbs-item href="../.." text="Home"></nldd-breadcrumbs-item>
+    <nldd-breadcrumbs-item href="../" text="Richtlijnen"></nldd-breadcrumbs-item>
+    <nldd-breadcrumbs-item current text="4. Open Standaarden"></nldd-breadcrumbs-item>
+  </nldd-breadcrumbs>
+  <nldd-container layout="grid" padding-block="24" gap="24">
+    <nldd-container gap="8">
+      <nldd-title size="5" heading-level="2" text="Over deze site"></nldd-title>
+      <nldd-link size="sm" href="../../Over-NeRDS/" text="Over NeRDS"></nldd-link>
+      <nldd-link size="sm" href="../../Over-NeRDS/CONTRIBUTING/#ik-heb-een-vraag" text="Contact"></nldd-link>
+      <nldd-link size="sm" href="https://github.com/NederlandseDigitaleDienst/NeRDS/releases" target="_blank" end-icon="external-link" text="Releasenotes op GitHub"></nldd-link>
+    </nldd-container>
+    <nldd-container gap="8">
+      <nldd-title size="5" heading-level="2" text="Service"></nldd-title>
+      <nldd-link size="sm" href="../../Over-NeRDS/copyright/" text="Copyright"></nldd-link>
+      <nldd-link size="sm" href="../../Over-NeRDS/kwetsbaarheid-melden/" text="Kwetsbaarheid melden"></nldd-link>
+    </nldd-container>
+    <nldd-container gap="8">
+      <nldd-title size="5" heading-level="2" text="Overheid"></nldd-title>
+      <nldd-link size="sm" href="https://overheid.nl/" target="_blank" end-icon="external-link" text="Overheid.nl"></nldd-link>
+      <nldd-link size="sm" href="https://www.rijksoverheid.nl/" target="_blank" end-icon="external-link" text="Rijksoverheid.nl"></nldd-link>
+      <nldd-link size="sm" href="https://www.digitaleoverheid.nl/" target="_blank" end-icon="external-link" text="Digitale Overheid"></nldd-link>
+    </nldd-container>
+  </nldd-container>
+  <nldd-page-footer-legal-bar slot="legal-bar">
+    <nldd-page-footer-legal-bar-item slot="start" href="https://digitaledienst.overheid.nl/" text="Nederlandse Digitale Dienst"></nldd-page-footer-legal-bar-item>
+    <nldd-page-footer-legal-bar-item slot="end" href="../../Over-NeRDS/privacy/" text="Privacy"></nldd-page-footer-legal-bar-item>
+    <nldd-page-footer-legal-bar-item slot="end" href="../../Over-NeRDS/cookies/" text="Cookies"></nldd-page-footer-legal-bar-item>
+    <nldd-page-footer-legal-bar-item slot="end" href="../../Over-NeRDS/toegankelijkheid/" text="Toegankelijkheid"></nldd-page-footer-legal-bar-item>
+  </nldd-page-footer-legal-bar>
+</nldd-page-footer>
+  </nldd-page>
+</nldd-app-view>
+<nldd-sheet id="search-sheet" placement="right" width="480px">
+  <nldd-page>
+    <nldd-top-title-bar slot="header" text="Zoeken" heading-level="2" dismiss-text="Sluit"></nldd-top-title-bar>
+    <nldd-container padding="16" gap="16">
+      <nldd-search-field id="search-query" name="query" placeholder="Zoek in de NeRDS"></nldd-search-field>
+      <nldd-list id="search-results" appearance="box-tinted" accessible-label="Zoekresultaten">
+        <nldd-inline-dialog slot="empty" icon="search" text="Typ om te zoeken" supporting-text="Je zoekt in alle richtlijnen en pagina's."></nldd-inline-dialog>
+      </nldd-list>
+    </nldd-container>
+  </nldd-page>
+</nldd-sheet>
+<nldd-sheet id="feedback-sheet" placement="right" width="480px">
+  <nldd-page>
+    <nldd-top-title-bar slot="header" text="Feedback geven" heading-level="2" dismiss-text="Sluit"></nldd-top-title-bar>
+    <nldd-container padding="16" gap="16">
+      <nldd-rich-text>
+        <p>Helpt u ons door uw feedback te delen? We gebruiken dit om NeRDS te verbeteren. U kunt feedback geven via e-mail of via GitHub Issues.</p>
+      </nldd-rich-text>
+      <nldd-banner id="feedback-success" variant="success" text="Bedankt voor uw feedback!" hidden></nldd-banner>
+      <nldd-form id="feedback-form">
+        <nldd-form-field label="Welke richtlijn betreft dit?" optional>
+          <nldd-dropdown>
+            <select id="feedback-guideline" name="feedback_guideline">
+              <option value="">Alle richtlijnen</option>
+              <option value="0">Over de NeRDS in het algemeen</option>
+              <option value="1" data-slug="gebruikersbehoeften">1. Gebruikersbehoeften</option>
+              <option value="2" data-slug="toegankelijkheid">2. Toegankelijkheid</option>
+              <option value="3" data-slug="open-source">3. Open Source</option>
+              <option value="4" data-slug="open-standaarden">4. Open Standaarden</option>
+              <option value="5" data-slug="cloud">5. Cloud</option>
+              <option value="6" data-slug="veiligheid">6. Veiligheid</option>
+              <option value="7" data-slug="privacy">7. Privacy</option>
+              <option value="8" data-slug="samenwerking">8. Samenwerking</option>
+              <option value="9" data-slug="integratie">9. Integratie</option>
+              <option value="10" data-slug="data">10. Data</option>
+              <option value="11" data-slug="algoritmen">11. Algoritmen</option>
+              <option value="12" data-slug="inkoop">12. Inkoopstrategie</option>
+              <option value="13" data-slug="duurzaamheid">13. Duurzaamheid</option>
+            </select>
+          </nldd-dropdown>
+        </nldd-form-field>
+        <nldd-form-field label="Soort feedback">
+          <nldd-dropdown>
+            <select id="feedback-type" name="feedback_type" required>
+              <option value="">Selecteer</option>
+              <option value="bug_report">Fout</option>
+              <option value="feature_request">Voorstel</option>
+              <option value="general_feedback">Feedback</option>
+              <option value="question">Vraag</option>
+            </select>
+          </nldd-dropdown>
+          <nldd-validation-list>
+            <nldd-validation-item id="feedback-type-required" required>Een soort feedback is nodig.</nldd-validation-item>
+          </nldd-validation-list>
+        </nldd-form-field>
+        <nldd-form-field label="Uw feedback">
+          <nldd-multi-line-text-field id="feedback-text" name="feedback_text" rows="4" required minlength="10" maxlength="5000"></nldd-multi-line-text-field>
+          <nldd-validation-list>
+            <nldd-validation-item id="feedback-text-minlength" minlength="10" required>Minimaal 10 tekens.</nldd-validation-item>
+            <nldd-validation-item id="feedback-text-maxlength" maxlength="5000">Maximaal 5000 tekens.</nldd-validation-item>
+          </nldd-validation-list>
+        </nldd-form-field>
+        <div id="feedback-related-docs-container">
+          <nldd-form-field label="Link naar een relevant document" optional>
+            <nldd-text-field type="url" name="related_docs[]" placeholder="nerds.nl/..."></nldd-text-field>
+          </nldd-form-field>
+        </div>
+        <nldd-button id="feedback-add-link" appearance="neutral-tinted" size="sm" start-icon="plus" text="Link toevoegen"></nldd-button>
+        <nldd-form-actions>
+          <nldd-button-group>
+            <nldd-button id="feedback-submit" appearance="primary" type="submit" text="Via e-mail"></nldd-button>
+            <nldd-button id="feedback-github" appearance="secondary" text="Via GitHub Issues"></nldd-button>
+          </nldd-button-group>
+        </nldd-form-actions>
+      </nldd-form>
+    </nldd-container>
+  </nldd-page>
+</nldd-sheet>
+</body>
+</html>
