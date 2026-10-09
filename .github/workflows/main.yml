@@ -8,7 +8,10 @@ on:
     branches:
       - main
     tags:
-      - '*'
+      - 'v*'
+  # Handmatig starten kan vanaf elke branch, maar de environment 'productie'
+  # laat alleen main en v-tags toe. Vanaf een andere branch stopt de run bij
+  # de uitrol.
   workflow_dispatch:
 
 # Uitrollen op volgorde: een oudere run mag een nieuwere niet inhalen.

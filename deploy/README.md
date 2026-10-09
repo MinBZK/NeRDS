@@ -6,7 +6,8 @@ gebouwde site erin.
 
 ## Hoe het werkt
 
-`.github/workflows/main.yml` draait bij elke push naar `main` en bij elke tag.
+`.github/workflows/main.yml` draait bij elke push naar `main` en bij elke tag
+die met `v` begint.
 De workflow bouwt de site met `mkdocs build`, bouwt daar met
 `deploy/Dockerfile` een image omheen en pusht dat naar
 `ghcr.io/nederlandsedigitaledienst/nerds:<versie>`. Daarna rolt de
@@ -23,6 +24,16 @@ staat die al draait.
 De laatste stap van de workflow vergelijkt het adres dat ZAD teruggeeft met
 `site_url`. MkDocs zet dat adres in de canonical van elke pagina, dus een site
 die ergens anders uitkomt hoort de workflow te laten falen.
+
+De GitHub-environment `productie` laat alleen de branch `main` en tags `v*`
+toe. De workflow is ook handmatig te starten, en vanaf een andere branch
+weigert GitHub dan de uitrol-job. Die regel staat onder Settings,
+Environments en niet in de workflow, omdat een branch de workflow zelf kan
+aanpassen.
+
+Dit beschermt tegen een vergissing. Wie schrijfrechten op de repository heeft,
+kan in een eigen workflow nog steeds bij het secret `ZAD_API_KEY`; dat is nodig
+voor de previews.
 
 ## Preview per pull request
 
