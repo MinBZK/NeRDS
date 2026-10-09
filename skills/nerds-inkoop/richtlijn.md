@@ -1,1 +1,0 @@
-../../docs/richtlijnen/inkoop/index.md

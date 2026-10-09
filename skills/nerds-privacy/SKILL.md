@@ -10,6 +10,6 @@ metadata:
 
 # NeRDS Richtlijn 7: Maak privacy integraal
 
-Lees [richtlijn.md](richtlijn.md) voor de volledige richtlijn en hulpmiddelen.
+Lees [de richtlijn](../../docs/richtlijnen/privacy/index.md) voor de volledige richtlijn en hulpmiddelen.
 
 Gerelateerde richtlijnen: `/nerds-veiligheid`, `/nerds-data`, `/nerds-algoritmen`, `/nerds-gebruikers`

@@ -10,6 +10,6 @@ metadata:
 
 # NeRDS Richtlijn 1: Stel gebruikersbehoeften vast
 
-Lees [richtlijn.md](richtlijn.md) voor bewezen praktijken en hulpmiddelen, en [fases.md](fases.md) voor implementatie per fase.
+Lees [de richtlijn](../../docs/richtlijnen/gebruikersbehoeften/index.md) voor bewezen praktijken en hulpmiddelen, en [de fases](../../docs/richtlijnen/gebruikersbehoeften/fases.md) voor implementatie per fase.
 
 Gerelateerde richtlijnen: `/nerds-toegankelijkheid`, `/nerds-privacy`

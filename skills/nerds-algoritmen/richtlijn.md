@@ -1,1 +1,0 @@
-../../docs/richtlijnen/algoritmen/index.md

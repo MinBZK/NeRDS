@@ -10,6 +10,6 @@ metadata:
 
 # NeRDS Richtlijn 11: Pas algoritmen verantwoord toe
 
-Lees [richtlijn.md](richtlijn.md) voor de volledige richtlijn en hulpmiddelen.
+Lees [de richtlijn](../../docs/richtlijnen/algoritmen/index.md) voor de volledige richtlijn en hulpmiddelen.
 
 Gerelateerde richtlijnen: `/nerds-data`, `/nerds-veiligheid`, `/nerds-privacy`, `/nerds-gebruikers`

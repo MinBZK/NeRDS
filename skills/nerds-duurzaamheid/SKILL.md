@@ -10,6 +10,6 @@ metadata:
 
 # NeRDS Richtlijn 13: Maak je technologie duurzaam
 
-Lees [richtlijn.md](richtlijn.md) voor de volledige richtlijn en hulpmiddelen.
+Lees [de richtlijn](../../docs/richtlijnen/duurzaamheid/index.md) voor de volledige richtlijn en hulpmiddelen.
 
 Gerelateerde richtlijnen: `/nerds-cloud`, `/nerds-samenwerking`, `/nerds-inkoop`

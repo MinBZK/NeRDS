@@ -11,11 +11,15 @@ Usage:
 
 import copy
 import json
+import re
 import sys
 import tomllib
 from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
+SKILLS_DIR = ROOT_DIR / "skills"
+# Markdown links to a local file: not a URL, not an anchor.
+LOCAL_LINK = re.compile(r"\]\((?!https?://|#|mailto:)([^)#\s]+)")
 PYPROJECT_PATH = ROOT_DIR / "pyproject.toml"
 SOURCE_PATH = ROOT_DIR / ".plugin" / "plugin.json"
 CLAUDE_PATH = ROOT_DIR / ".claude-plugin" / "plugin.json"
@@ -108,6 +112,29 @@ def check_version(source_data: dict) -> bool:
     return True
 
 
+def check_skills() -> bool:
+    """
+    A skill points at its guideline in docs/ with a relative link; the plugin
+    is the whole repository, so that file is there. A symlink instead would
+    arrive as a one-line text file on a Windows checkout, where git has
+    symlinks off by default.
+    """
+    ok = True
+    for path in sorted(SKILLS_DIR.rglob("*")):
+        if path.is_symlink():
+            print(f"FOUT: {path.relative_to(ROOT_DIR)} is een symlink; verwijs in SKILL.md naar het bestand zelf")
+            ok = False
+    for skill in sorted(SKILLS_DIR.glob("*/SKILL.md")):
+        for target in LOCAL_LINK.findall(skill.read_text(encoding="utf-8")):
+            resolved = (skill.parent / target).resolve()
+            if not resolved.is_file() or ROOT_DIR not in resolved.parents:
+                print(f"FOUT: {skill.relative_to(ROOT_DIR)} verwijst naar {target}, dat niet bestaat in de repository")
+                ok = False
+    if ok:
+        print("OK: skills verwijzen naar bestaande bestanden, zonder symlinks")
+    return ok
+
+
 def main() -> None:
     if not SOURCE_PATH.exists():
         print(f"FOUT: {SOURCE_PATH} niet gevonden")
@@ -118,11 +145,12 @@ def main() -> None:
     if "--check" in sys.argv:
         synced = check_sync(source_data)
         same_version = check_version(source_data)
+        skills_ok = check_skills()
         if not synced:
             print("\nNiet in sync. Draai: python scripts/generate_plugin.py")
         if not same_version:
             print("\nHet versienummer wijzig je niet met de hand: release-please doet dat in de release-PR.")
-        if synced and same_version:
+        if synced and same_version and skills_ok:
             print("\nAlle platform-bestanden zijn in sync")
             sys.exit(0)
         sys.exit(1)

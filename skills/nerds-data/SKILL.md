@@ -10,6 +10,6 @@ metadata:
 
 # NeRDS Richtlijn 10: Maak beter gebruik van data
 
-Lees [richtlijn.md](richtlijn.md) voor de volledige richtlijn en hulpmiddelen.
+Lees [de richtlijn](../../docs/richtlijnen/data/index.md) voor de volledige richtlijn en hulpmiddelen.
 
 Gerelateerde richtlijnen: `/nerds-algoritmen`, `/nerds-privacy`, `/nerds-veiligheid`, `/nerds-standaarden`

@@ -1,1 +1,0 @@
-../../docs/richtlijnen/duurzaamheid/index.md

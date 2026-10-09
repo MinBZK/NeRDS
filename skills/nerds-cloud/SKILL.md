@@ -10,6 +10,6 @@ metadata:
 
 # NeRDS Richtlijn 5: Gebruik cloud verantwoord en blijf wendbaar
 
-Lees [richtlijn.md](richtlijn.md) voor bewezen praktijken en hulpmiddelen, en [fases.md](fases.md) voor implementatie per fase.
+Lees [de richtlijn](../../docs/richtlijnen/cloud/index.md) voor bewezen praktijken en hulpmiddelen, en [de fases](../../docs/richtlijnen/cloud/fases.md) voor implementatie per fase.
 
 Gerelateerde richtlijnen: `/nerds-veiligheid`, `/nerds-privacy`, `/nerds-inkoop`, `/nerds-duurzaamheid`

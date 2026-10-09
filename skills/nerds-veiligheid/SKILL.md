@@ -10,6 +10,6 @@ metadata:
 
 # NeRDS Richtlijn 6: Maak veilige systemen
 
-Lees [richtlijn.md](richtlijn.md) voor de volledige richtlijn en hulpmiddelen.
+Lees [de richtlijn](../../docs/richtlijnen/veiligheid/index.md) voor de volledige richtlijn en hulpmiddelen.
 
 Gerelateerde richtlijnen: `/nerds-privacy`, `/nerds-data`, `/nerds-algoritmen`, `/nerds-cloud`

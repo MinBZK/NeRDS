@@ -1,1 +1,0 @@
-../../docs/richtlijnen/toegankelijkheid/index.md
