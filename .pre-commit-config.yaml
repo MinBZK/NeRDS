@@ -21,6 +21,9 @@ repos:
     hooks:
       - id: markdownlint
         args: [--fix]
+        # release-please writes the changelog in its own style; the page
+        # Versies on the site is a symlink to it.
+        exclude: ^(CHANGELOG\.md|docs/Over-NeRDS/versies\.md)$
   - repo: local
     hooks:
       - id: validate-richtlijnen

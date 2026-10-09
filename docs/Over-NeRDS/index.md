@@ -87,12 +87,13 @@ De Nederlandse Richtlijn Digitale Systemen structureert de ontwikkeling van digi
 
 Deze fases zijn gebaseerd op de best practices uit agile ontwikkelmethoden en de GDS (Government Digital Service) service standard. Per richtlijn vind je bij "Wanneer doe je wat?" specifieke aanbevelingen en hulpmiddelen die relevant zijn voor elke fase.
 
-## Versie 0.1
+## Versies
 
-Versie 0.1 is de eerste versie van de Nederlandse Richtlijn Digitale Systemen (NeRDS).
-Deze versie verscheen op 21 maart 2025.
+Dit is versie {{ version }} van de Nederlandse Richtlijn Digitale Systemen (NeRDS).
+De richtlijn, deze website en de plugin voor AI-assistenten delen dat versienummer.
+De eerste versie verscheen op 21 maart 2025.
 
-In deze eerste versie ligt de nadruk op het opzetten van een raamwerk waarop we verder kunnen bouwen.
+Wat er per versie is veranderd lees je op de pagina [Versies](versies.md).
 
 ## Iedereen mag meedenken
 

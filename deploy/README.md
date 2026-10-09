@@ -6,27 +6,31 @@ gebouwde site erin.
 
 ## Hoe het werkt
 
-`.github/workflows/main.yml` draait bij elke push naar `main` en bij elke tag
-die met `v` begint.
+`.github/workflows/main.yml` draait bij elke push naar `main`.
 De workflow bouwt de site met `mkdocs build`, bouwt daar met
 `deploy/Dockerfile` een image omheen en pusht dat naar
-`ghcr.io/nederlandsedigitaledienst/nerds:<versie>`. Daarna rolt de
+`ghcr.io/nederlandsedigitaledienst/nerds:<build>`. Daarna rolt de
 action `RijksICTGilde/zad-actions/deploy` dat image uit op de deployment
 `productie`.
 
-De image-tag is de uitvoer van `git describe --tags`, dezelfde versie die op de
-pagina "Huidige versie" staat: `v0.2.0-7-g6767e213` voor een commit op `main`,
-`v0.3.0` voor een release. Een nieuwe tag verandert de pod-spec, en alleen dan
-start ZAD een nieuwe pod; met `latest` gebeurt dat niet. Een commit-hash als
-tag zou bij een release niets uitrollen, omdat de release-tag op een commit
-staat die al draait.
+De eerste job van de workflow is release-please. Die houdt een release-PR bij
+met het volgende versienummer en de changelog. Is die PR net gemerged, dan
+maakt de job de tag en de GitHub-release, en pas daarna start de build. Een
+release ontstaat alleen zo: de workflow reageert niet op een tag die iemand
+met de hand pusht. Hoe het team een versie uitbrengt staat in
+`CONTRIBUTING.md`.
+
+De image-tag is de uitvoer van `git describe --tags`, dezelfde build die op de
+pagina "Huidige versie" staat: `v0.3.1` in de run die een release uitbrengt,
+`v0.3.1-4-gabc1234` voor een latere commit op `main`. Een nieuwe tag verandert
+de pod-spec, en alleen dan start ZAD een nieuwe pod; met `latest` gebeurt dat
+niet.
 
 De laatste stap van de workflow vergelijkt het adres dat ZAD teruggeeft met
 `site_url`. MkDocs zet dat adres in de canonical van elke pagina, dus een site
 die ergens anders uitkomt hoort de workflow te laten falen.
 
-De GitHub-environment `productie` laat alleen de branch `main` en tags `v*`
-toe. De workflow is ook handmatig te starten, en vanaf een andere branch
+De GitHub-environment `productie` laat alleen de branch `main` toe. De workflow is ook handmatig te starten, en vanaf een andere branch
 weigert GitHub dan de uitrol-job. Die regel staat onder Settings,
 Environments en niet in de workflow, omdat een branch de workflow zelf kan
 aanpassen.

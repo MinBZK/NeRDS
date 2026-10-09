@@ -42,15 +42,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: get tag
-        id: get_commit_hash
-        run: |
-          echo "commit_hash=$(git describe --tags)" >> "$GITHUB_OUTPUT"
-
-      - name: inject version
-        run: |
-          sed -i 's/development/${{ steps.get_commit_hash.outputs.commit_hash }}/g' docs/version.md
-
       # mkdocs zet site_url in elke canonical, dus het adres moet vooraf bekend
       # zijn; de deploy-stap pint hetzelfde formaat.
       - name: Preview-URL bepalen
