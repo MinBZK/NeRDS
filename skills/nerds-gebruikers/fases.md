@@ -47,7 +47,7 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 
 - [ ] Je hebt ten minste één ontwerp of prototype getest met een breed scala aan gebruikers, waaronder mensen met beperkte digitale toegang en mensen met verschillende visuele, auditieve, motorische en cognitieve beperkingen
 - [ ] Er zijn testresultaten verzameld die leiden tot aantoonbare aanpassingen
-- [ ] Er is inzicht in eventuele [toegankelijkheidsproblemen](https://nerds.digitaledienst.overheid.nl/richtlijnen/toegankelijkheid/), inclusief concrete en toepasbare aanbevelingen om deze op te lossen.
+- [ ] Er is inzicht in eventuele toegankelijkheidsproblemen (skill `/nerds-toegankelijkheid`), inclusief concrete en toepasbare aanbevelingen om deze op te lossen.
 
 ---
 

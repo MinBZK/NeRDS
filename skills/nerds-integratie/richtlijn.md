@@ -85,5 +85,5 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
 
 ## Gerelateerde richtlijnen
 
-- [4. Gebruik open standaarden](https://nerds.digitaledienst.overheid.nl/richtlijnen/open-standaarden/)
-- [8. Deel, hergebruik en werk samen](https://nerds.digitaledienst.overheid.nl/richtlijnen/samenwerking/)
+- 4. Gebruik open standaarden (skill `/nerds-standaarden`)
+- 8. Deel, hergebruik en werk samen (skill `/nerds-samenwerking`)

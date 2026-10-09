@@ -49,7 +49,7 @@ Ontwikkelen & ontwerpen
     - **Schrijf een goede README** - Leg uit wat de code doet, hoe je het installeert en hoe je kunt bijdragen. Zie voorbeelden bij [MinBZK](https://github.com/MinBZK) en [Gemeente Amsterdam](https://github.com/amsterdam) repositories.
     - **Maak een CONTRIBUTING.md** - Geef duidelijke richtlijnen voor externe bijdragen. Zie [Developer.overheid.nl](https://developer.overheid.nl/kennisbank/open-source/standaarden/contributing-md#wat-neem-je-erin-op) voor hoe je dat kan doen.
     - **Creëer een veilige en inclusieve omgeving voor contributors** - Definieer een [Code of Conduct](https://developer.overheid.nl/kennisbank/open-source/standaarden/code-of-conduct-md).
-    - **Gebruik [open standaarden](https://www.forumstandaardisatie.nl/open-standaarden)** - Zorg dat je architectuur interoperabel is (zie [Gebruik open standaarden](https://nerds.digitaledienst.overheid.nl/richtlijnen/open-standaarden/)).
+    - **Gebruik [open standaarden](https://www.forumstandaardisatie.nl/open-standaarden)** - Zorg dat je architectuur interoperabel is (zie Gebruik open standaarden (skill `/nerds-standaarden`)).
     - **Documenteer ontwerpbeslissingen** - Leg vast waarom je bepaalde technologiekeuzes maakt. Gebruik hiervoor bijvoorbeeld een [Architectural Decision Record van Gov UK](https://www.gov.uk/government/publications/architectural-decision-record-framework/architectural-decision-record-framework).
 
 Inkopen
@@ -108,6 +108,6 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "3. Werk trans
 
 ## Gerelateerde richtlijnen
 
-- [4. Gebruik open standaarden](https://nerds.digitaledienst.overheid.nl/richtlijnen/open-standaarden/)
-- [6. Maak veilige systemen](https://nerds.digitaledienst.overheid.nl/richtlijnen/veiligheid/)
-- [8. Deel, hergebruik en werk samen](https://nerds.digitaledienst.overheid.nl/richtlijnen/samenwerking/)
+- 4. Gebruik open standaarden (skill `/nerds-standaarden`)
+- 6. Maak veilige systemen (skill `/nerds-veiligheid`)
+- 8. Deel, hergebruik en werk samen (skill `/nerds-samenwerking`)

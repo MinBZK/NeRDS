@@ -38,6 +38,6 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
 
 ### Gerelateerde richtlijnen
 
-- [13. Maak je technologie duurzaam](https://nerds.digitaledienst.overheid.nl/richtlijnen/duurzaamheid/)
-- [5. Gebruik cloud verantwoord en blijf wendbaar](https://nerds.digitaledienst.overheid.nl/richtlijnen/cloud/)
-- [3. Werk transparant en gebruik open source](https://nerds.digitaledienst.overheid.nl/richtlijnen/open-source/)
+- 13. Maak je technologie duurzaam (skill `/nerds-duurzaamheid`)
+- 5. Gebruik cloud verantwoord en blijf wendbaar (skill `/nerds-cloud`)
+- 3. Werk transparant en gebruik open source (skill `/nerds-opensource`)

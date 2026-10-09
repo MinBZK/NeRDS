@@ -79,7 +79,7 @@ Verantwoord cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je syst
 **Gewenste uitkomsten:**
 
 - [ ] Je hebt beveiliging geïmplementeerd (IAM, encryption, netwerksegmentatie)
-- [ ] Je hebt secrets management ingericht (zie de richtlijn [3. Werk transparant en gebruik open source](https://nerds.digitaledienst.overheid.nl/richtlijnen/open-source/))
+- [ ] Je hebt secrets management ingericht (zie de richtlijn 3. Werk transparant en gebruik open source (skill `/nerds-opensource`))
 - [ ] Je hebt monitoring en logging actief om jouw cloudomgeving te observeren
 - [ ] Je hebt je cloudoplossing getest op prestaties en beveiliging
 - [ ] Je hebt compliance gevalideerd en voldoet aan de verplichte regelgeving

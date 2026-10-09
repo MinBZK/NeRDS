@@ -44,12 +44,12 @@ Start bij het probleem in kaart te brengen, niet bij de oplossing. Dit voorkomt 
 Vertaal de inzichten naar ontwerpen: wireframes, prototypes, klantreizen. Test deze met gebruikers voordat je bouwt. Ontwerp voor het gehele spectrum aan gebruikers, met aandacht voor toegankelijkheid en inclusie. Dit is geen keuze, maar een vereiste. Inwoners, burgers en ondernemers hebben vaak geen andere keuze dan jouw digitale systeem te gebruiken.
 
 ??? expander "Praktische tips"
-    - **Zorg ervoor dat jouw digitale systeem het gehele probleem van de gebruiker oplost** - Los niet enkel een deelaspect op. Dit betekent vaak samenwerking met andere teams en het integreren met bestaande systemen. Zie hiervoor de richtlijnen [Deel, hergebruik en werk samen](https://nerds.digitaledienst.overheid.nl/richtlijnen/samenwerking/) en [Integreer en pas technologie aan](https://nerds.digitaledienst.overheid.nl/richtlijnen/integratie/).
-    - **Denk inclusief** - Zorg dat je ontwerp toegankelijk is voor gebruikers met verschillende achtergronden en beperkingen (zie de richtlijn [Zorg voor toegankelijkheid en inclusie](https://nerds.digitaledienst.overheid.nl/richtlijnen/toegankelijkheid/)). Gebruikers mogen niet vergeten of uitgesloten worden in het ontwerpproces.
-    - **Hou rekening met privacy** - Bij het verzamelen van gebruikersgegevens moet je voldoen aan de AVG. Vraag alleen wat nodig is, informeer gebruikers over het doel, en beveilig de data goed. Zie de hierboven het Toestemmingsformulier en de NeRDS richtlijn [Maak privacy integraal](https://nerds.digitaledienst.overheid.nl/richtlijnen/privacy/).
+    - **Zorg ervoor dat jouw digitale systeem het gehele probleem van de gebruiker oplost** - Los niet enkel een deelaspect op. Dit betekent vaak samenwerking met andere teams en het integreren met bestaande systemen. Zie hiervoor de richtlijnen Deel, hergebruik en werk samen (skill `/nerds-samenwerking`) en Integreer en pas technologie aan (skill `/nerds-integratie`).
+    - **Denk inclusief** - Zorg dat je ontwerp toegankelijk is voor gebruikers met verschillende achtergronden en beperkingen (zie de richtlijn Zorg voor toegankelijkheid en inclusie (skill `/nerds-toegankelijkheid`)). Gebruikers mogen niet vergeten of uitgesloten worden in het ontwerpproces.
+    - **Hou rekening met privacy** - Bij het verzamelen van gebruikersgegevens moet je voldoen aan de AVG. Vraag alleen wat nodig is, informeer gebruikers over het doel, en beveilig de data goed. Zie de hierboven het Toestemmingsformulier en de NeRDS richtlijn Maak privacy integraal (skill `/nerds-privacy`).
     - **Test alternatieven** - Evalueer verschillende oplossingen (bijvoorbeeld twee verschillende interfaces) met gebruikers in plaats van slechts één voorstel.
     - **Blijf flexibel** - Pas je onderzoeksmethode aan naarmate je meer leert.
-    - **Neem gebruikersbehoefte mee in het inkoopproces** - Zie de richtlijn [Definieer je inkoopstrategie](https://nerds.digitaledienst.overheid.nl/richtlijnen/inkoop/).
+    - **Neem gebruikersbehoefte mee in het inkoopproces** - Zie de richtlijn Definieer je inkoopstrategie (skill `/nerds-inkoop`).
 
 ### 3. Testen, meten en verbeteren
 
@@ -99,5 +99,5 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "1. Stel gebru
 
 ### Gerelateerde richtlijnen
 
-- [2. Zorg voor toegankelijkheid en inclusie](https://nerds.digitaledienst.overheid.nl/richtlijnen/toegankelijkheid/)
-- [7. Maak privacy integraal](https://nerds.digitaledienst.overheid.nl/richtlijnen/privacy/)
+- 2. Zorg voor toegankelijkheid en inclusie (skill `/nerds-toegankelijkheid`)
+- 7. Maak privacy integraal (skill `/nerds-privacy`)

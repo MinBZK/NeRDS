@@ -38,6 +38,6 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
 
 ### Gerelateerde richtlijnen
 
-- [3. Werk transparant en gebruik open source](https://nerds.digitaledienst.overheid.nl/richtlijnen/open-source/)
-- [9. Integreer technologie](https://nerds.digitaledienst.overheid.nl/richtlijnen/integratie/)
-- [13. Maak je technologie duurzaam](https://nerds.digitaledienst.overheid.nl/richtlijnen/duurzaamheid/)
+- 3. Werk transparant en gebruik open source (skill `/nerds-opensource`)
+- 9. Integreer technologie (skill `/nerds-integratie`)
+- 13. Maak je technologie duurzaam (skill `/nerds-duurzaamheid`)

@@ -77,7 +77,7 @@ Begin bij wat je functioneel wilt bereiken; cloud is een middel. Hoe gevoelig je
 
 ### 2. Ontwikkelen, ontwerpen en inkopen
 
-Koppel applicatie en data los van het onderliggende platform, zodat je kunt verhuizen als dat nodig is. Open source en open standaarden zijn daarvoor de basis (zie [Werk transparant en gebruik open source](https://nerds.digitaledienst.overheid.nl/richtlijnen/open-source/)).
+Koppel applicatie en data los van het onderliggende platform, zodat je kunt verhuizen als dat nodig is. Open source en open standaarden zijn daarvoor de basis (zie Werk transparant en gebruik open source (skill `/nerds-opensource`)).
 
 Ontwikkelen & ontwerpen
 ??? expander "Praktische tips"
@@ -88,7 +88,7 @@ Ontwikkelen & ontwerpen
     - **Houd identity in eigen hand** - Wie de identiteiten beheert, heeft de sleutel tot alles.
     - **Ontwerp op falen** - Definieer SLO's en SLI's en ga ervan uit dat systemen uitvallen. Zie het [Google SRE Book](https://sre.google/books/).
     - **Bouw kennis op in je eigen organisatie** - Zorg dat eigen mensen het platform begrijpen en kunnen bedienen.
-    - **Beveilig en borg privacy vanaf het ontwerp** - Zie [Maak veilige systemen](https://nerds.digitaledienst.overheid.nl/richtlijnen/veiligheid/) en [Maak privacy integraal](https://nerds.digitaledienst.overheid.nl/richtlijnen/privacy/).
+    - **Beveilig en borg privacy vanaf het ontwerp** - Zie Maak veilige systemen (skill `/nerds-veiligheid`) en Maak privacy integraal (skill `/nerds-privacy`).
 
 Inkopen
 ??? expander "Praktische tips"
@@ -98,7 +98,7 @@ Inkopen
     - **Leg de exit contractueel vast** - Regel de overdracht van data en applicaties bij beëindiging en de vernietiging daarna.
     - **Vergelijk de totale kosten** - Reken migratie, training, dataverkeer naar buiten en exit mee, en reken ook het alternatief in een overheidsdatacenter door.
     - **Stel dezelfde eisen aan jezelf** - Wat je van een leverancier vraagt, geldt ook voor je eigen organisatie.
-    - **Controleer compliance en duurzaamheid** - Vraag naar certificeringen en energieverbruik (zie [Maak je technologie duurzaam](https://nerds.digitaledienst.overheid.nl/richtlijnen/duurzaamheid/)).
+    - **Controleer compliance en duurzaamheid** - Vraag naar certificeringen en energieverbruik (zie Maak je technologie duurzaam (skill `/nerds-duurzaamheid`)).
 
 ### 3. Testen, meten en verbeteren
 
@@ -149,7 +149,7 @@ Zie [Implementatie en gewenste uitkomsten per fase](fases.md).
 
 ### Gerelateerde richtlijnen
 
-- [6. Maak veilige systemen](https://nerds.digitaledienst.overheid.nl/richtlijnen/veiligheid/)
-- [7. Maak privacy integraal](https://nerds.digitaledienst.overheid.nl/richtlijnen/privacy/)
-- [12. Definieer je inkoopstrategie](https://nerds.digitaledienst.overheid.nl/richtlijnen/inkoop/)
-- [13. Maak je technologie duurzaam](https://nerds.digitaledienst.overheid.nl/richtlijnen/duurzaamheid/)
+- 6. Maak veilige systemen (skill `/nerds-veiligheid`)
+- 7. Maak privacy integraal (skill `/nerds-privacy`)
+- 12. Definieer je inkoopstrategie (skill `/nerds-inkoop`)
+- 13. Maak je technologie duurzaam (skill `/nerds-duurzaamheid`)

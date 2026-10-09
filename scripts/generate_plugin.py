@@ -55,7 +55,8 @@ OVERVIEW_PATH = SKILLS_DIR / "nerds" / "richtlijnen.md"
 FRONT_MATTER = re.compile(r"\A---\n(.*?)\n---\n+", re.DOTALL)
 ATTRIBUTE_LIST = re.compile(r"\{:[^}]*\}")
 # A Markdown link to another page of the site: a relative path ending in .md.
-PAGE_LINK = re.compile(r"\]\((?!https?://|#|mailto:)([^)#\s]*\.md)(#[^)\s]*)?\)")
+PAGE_LINK = re.compile(r"\[([^\]]+)\]\((?!https?://|#|mailto:)([^)#\s]*\.md)(#[^)\s]*)?\)")
+GUIDELINE_SKILLS = {guideline: skill for skill, guideline in SKILL_GUIDELINES.items()}
 
 
 def load_source() -> dict:
@@ -167,16 +168,23 @@ def skill_text(source: Path, guideline: str) -> str:
     The guideline as a skill reads it: without the front matter and the
     attribute lists that only MkDocs understands, and with links that work
     from inside the skill folder.
+
+    A link to another guideline becomes the name of that guideline's skill:
+    inside the plugin the other guideline is installed too, so there is no
+    reason to send the reader to the website for it.
     """
     base = site_url()
 
     def relink(match: re.Match) -> str:
-        target = (source.parent / match.group(1)).resolve().relative_to(GUIDELINES_DIR)
-        anchor = match.group(2) or ""
+        label = match.group(1)
+        target = (source.parent / match.group(2)).resolve().relative_to(GUIDELINES_DIR)
+        anchor = match.group(3) or ""
         if target.parent.name == guideline and target.name in SKILL_FILES:
-            return f"]({SKILL_FILES[target.name]}{anchor})"
+            return f"[{label}]({SKILL_FILES[target.name]}{anchor})"
+        if target.parent.name in GUIDELINE_SKILLS:
+            return f"{label} (skill `/{GUIDELINE_SKILLS[target.parent.name]}`)"
         page = target.parent.as_posix() if target.name == "index.md" else target.with_suffix("").as_posix()
-        return f"]({base}richtlijnen/{page}/{anchor})"
+        return f"[{label}]({base}richtlijnen/{page}/{anchor})"
 
     body = FRONT_MATTER.sub("", source.read_text(encoding="utf-8"), count=1)
     body = PAGE_LINK.sub(relink, ATTRIBUTE_LIST.sub("", body))

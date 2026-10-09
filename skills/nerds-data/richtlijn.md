@@ -37,6 +37,6 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
 
 ### Gerelateerde richtlijnen
 
-- [11. Pas algoritmen verantwoord toe](https://nerds.digitaledienst.overheid.nl/richtlijnen/algoritmen/)
-- [7. Maak privacy integraal](https://nerds.digitaledienst.overheid.nl/richtlijnen/privacy/)
-- [4. Gebruik open standaarden](https://nerds.digitaledienst.overheid.nl/richtlijnen/open-standaarden/)
+- 11. Pas algoritmen verantwoord toe (skill `/nerds-algoritmen`)
+- 7. Maak privacy integraal (skill `/nerds-privacy`)
+- 4. Gebruik open standaarden (skill `/nerds-standaarden`)

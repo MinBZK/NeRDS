@@ -32,7 +32,7 @@ Toegankelijkheid en inclusie zijn geen toevoeging, maar een uitgangspunt. Denk v
 
 ??? expander "Praktische tips"
     - **Begin in de verkenningsfase** – Neem inclusie en toegankelijkheid mee vanaf het begin van de ontwikkeling van het digitale systeem. Zie hierboven [Inclusief ontwerpen](#hoe-pas-je-het-toe).
-    - **Start met onderzoek** – Betrek gebruikers met verschillende beperkingen vanaf het begin bij je [gebruikersonderzoek](https://nerds.digitaledienst.overheid.nl/richtlijnen/gebruikersbehoeften/).
+    - **Start met onderzoek** – Betrek gebruikers met verschillende beperkingen vanaf het begin bij je gebruikersonderzoek (skill `/nerds-gebruikers`).
     - **Denk breed** – Toegankelijkheid gaat verder dan screenreaders: denk aan kleurcontrast, eenvoudige taal, toetsenbordnavigatie en verschillende invoermethoden.
     - **Maak het concreet** – Gebruik [inclusieve persona's](https://toolkitinclusie.gebruikercentraal.nl/methode/personas/) om ontwerpkeuzes te toetsen.
     - **Werk samen** – Betrek toegankelijkheidsexperts vroeg in het ontwerpproces.
@@ -107,5 +107,5 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "2. Zorg voor 
 
 ### Gerelateerde richtlijnen
 
-- [1. Stel gebruikersbehoeften vast](https://nerds.digitaledienst.overheid.nl/richtlijnen/gebruikersbehoeften/)
-- [4. Gebruik open standaarden](https://nerds.digitaledienst.overheid.nl/richtlijnen/open-standaarden/)
+- 1. Stel gebruikersbehoeften vast (skill `/nerds-gebruikers`)
+- 4. Gebruik open standaarden (skill `/nerds-standaarden`)

@@ -36,6 +36,6 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
 
 ### Gerelateerde richtlijnen
 
-- [9. Integreer technologie](https://nerds.digitaledienst.overheid.nl/richtlijnen/integratie/)
-- [2. Maak het toegankelijk](https://nerds.digitaledienst.overheid.nl/richtlijnen/toegankelijkheid/)
-- [3. Werk transparant en gebruik open source](https://nerds.digitaledienst.overheid.nl/richtlijnen/open-source/)
+- 9. Integreer technologie (skill `/nerds-integratie`)
+- 2. Maak het toegankelijk (skill `/nerds-toegankelijkheid`)
+- 3. Werk transparant en gebruik open source (skill `/nerds-opensource`)

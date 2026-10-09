@@ -39,6 +39,6 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
 
 ### Gerelateerde richtlijnen
 
-- [7. Maak privacy integraal](https://nerds.digitaledienst.overheid.nl/richtlijnen/privacy/)
-- [10. Maak beter gebruik van data](https://nerds.digitaledienst.overheid.nl/richtlijnen/data/)
-- [5. Gebruik cloud verantwoord en blijf wendbaar](https://nerds.digitaledienst.overheid.nl/richtlijnen/cloud/)
+- 7. Maak privacy integraal (skill `/nerds-privacy`)
+- 10. Maak beter gebruik van data (skill `/nerds-data`)
+- 5. Gebruik cloud verantwoord en blijf wendbaar (skill `/nerds-cloud`)

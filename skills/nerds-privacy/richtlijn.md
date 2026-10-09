@@ -39,6 +39,6 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
 
 ### Gerelateerde richtlijnen
 
-- [6. Maak veilige systemen](https://nerds.digitaledienst.overheid.nl/richtlijnen/veiligheid/)
-- [10. Maak beter gebruik van data](https://nerds.digitaledienst.overheid.nl/richtlijnen/data/)
-- [11. Pas algoritmen verantwoord toe](https://nerds.digitaledienst.overheid.nl/richtlijnen/algoritmen/)
+- 6. Maak veilige systemen (skill `/nerds-veiligheid`)
+- 10. Maak beter gebruik van data (skill `/nerds-data`)
+- 11. Pas algoritmen verantwoord toe (skill `/nerds-algoritmen`)

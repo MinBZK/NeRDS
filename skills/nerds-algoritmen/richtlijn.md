@@ -40,6 +40,6 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
 
 ### Gerelateerde richtlijnen
 
-- [7. Maak privacy integraal](https://nerds.digitaledienst.overheid.nl/richtlijnen/privacy/)
-- [6. Maak veilige systemen](https://nerds.digitaledienst.overheid.nl/richtlijnen/veiligheid/)
-- [10. Maak beter gebruik van data](https://nerds.digitaledienst.overheid.nl/richtlijnen/data/)
+- 7. Maak privacy integraal (skill `/nerds-privacy`)
+- 6. Maak veilige systemen (skill `/nerds-veiligheid`)
+- 10. Maak beter gebruik van data (skill `/nerds-data`)

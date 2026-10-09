@@ -102,6 +102,6 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
 
 ## Gerelateerde richtlijnen
 
-- [5. Gebruik cloud verantwoord en blijf wendbaar](https://nerds.digitaledienst.overheid.nl/richtlijnen/cloud/)
-- [8. Deel, hergebruik en werk samen](https://nerds.digitaledienst.overheid.nl/richtlijnen/samenwerking/)
-- [12. Definieer je inkoopstrategie](https://nerds.digitaledienst.overheid.nl/richtlijnen/inkoop/)
+- 5. Gebruik cloud verantwoord en blijf wendbaar (skill `/nerds-cloud`)
+- 8. Deel, hergebruik en werk samen (skill `/nerds-samenwerking`)
+- 12. Definieer je inkoopstrategie (skill `/nerds-inkoop`)
