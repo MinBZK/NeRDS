@@ -15,6 +15,18 @@ updates:
         patterns:
           - "*"
 
+  # The nginx base image of the website, in deploy/Dockerfile.
+  - package-ecosystem: "docker"
+    directory: "/deploy"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+      time: "10:00"
+      timezone: "Europe/Amsterdam"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "anneschuth"
+
   - package-ecosystem: "uv"
     directory: "/"
     schedule:

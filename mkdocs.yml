@@ -78,7 +78,7 @@ plugins:
 
 # Link naar GitHub repo
 repo_url: https://github.com/NederlandseDigitaleDienst/NeRDS
-site_url: https://nederlandsedigitaledienst.github.io/NeRDS/
+site_url: https://nerds.digitaledienst.overheid.nl/
 edit_uri: edit/main/docs/
 
 

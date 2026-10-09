@@ -4,7 +4,8 @@
   {%- set section.item = item -%}
 {%- endfor -%}
 <!doctype html>
-<html lang="{{ config.theme.language or 'nl' }}">
+{#- data-base-url instead of an inline script: the Content-Security-Policy allows no inline scripts. #}
+<html lang="{{ config.theme.language or 'nl' }}" data-base-url="{{ base_url | e }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +22,6 @@
   <link rel="stylesheet" href="{{ path | url }}">
   {%- endfor %}
   <script defer src="{{ 'assets/nldd/nldd.min.js' | url }}"></script>
-  <script>var base_url = {{ base_url | tojson }};</script>
   <script defer src="{{ 'assets/site.js' | url }}"></script>
   <script defer src="{{ 'assets/search.js' | url }}"></script>
   <script defer src="{{ 'assets/feedback.js' | url }}"></script>

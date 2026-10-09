@@ -1,21 +1,39 @@
-name: Publish mkdocs via GitHub Pages
+name: Website bouwen en uitrollen naar ZAD
+
+# Bij elke push naar main: bouw de site, zet hem in een nginx-image op GHCR en
+# rol dat image uit op ZAD. Zie deploy/README.md.
 
 on:
   push:
     branches:
       - main
-      - development
     tags:
       - '*'
+  workflow_dispatch:
 
-# De deploy pusht de gebouwde site naar de branch gh-pages.
+# Uitrollen op volgorde: een oudere run mag een nieuwere niet inhalen.
+concurrency:
+  group: deploy-productie
+  cancel-in-progress: false
+
+env:
+  IMAGE: ghcr.io/nederlandsedigitaledienst/nerds
+  SITE_URL: https://nerds.digitaledienst.overheid.nl
+
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  deploy-main:
-    name: deploy main
+  build:
+    name: Site en image bouwen
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      # Het image gaat naar GHCR.
+      packages: write
+    outputs:
+      image: ${{ steps.image.outputs.image }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -32,5 +50,67 @@ jobs:
 
       - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
 
-      - name: Deploy
-        run: uv run --locked mkdocs gh-deploy --force
+      - name: Site bouwen
+        run: uv run --locked mkdocs build
+
+      # De image-tag is de versie uit git describe, dezelfde die op de pagina
+      # 'Huidige versie' staat. Een nieuwe tag verandert de pod-spec en forceert
+      # zo een rollout, wat 'latest' niet doet. Een commit-hash volstaat niet:
+      # een release-tag staat op een commit die al is uitgerold, en zou dan
+      # dezelfde image-tag krijgen en dus niets uitrollen.
+      - name: Image-tag bepalen
+        id: image
+        env:
+          VERSION: ${{ steps.get_commit_hash.outputs.commit_hash }}
+        run: echo "image=${IMAGE}:${VERSION}" >> "$GITHUB_OUTPUT"
+
+      - name: Inloggen op GHCR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: echo "${GH_TOKEN}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
+
+      - name: Image bouwen en pushen
+        env:
+          IMAGE_TAG: ${{ steps.image.outputs.image }}
+        run: |
+          docker build -f deploy/Dockerfile -t "${IMAGE_TAG}" .
+          docker push "${IMAGE_TAG}"
+
+  deploy:
+    name: Uitrollen naar ZAD
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      # De deploy-action registreert een GitHub-deployment op de environment.
+      deployments: write
+    environment:
+      name: productie
+      url: ${{ env.SITE_URL }}
+    steps:
+      - id: deploy
+        uses: RijksICTGilde/zad-actions/deploy@b844c76eba3502b40a19be868cdf0586e322f4b8  # v4.1.0
+        with:
+          # API-key van het ZAD-project.
+          api-key: ${{ secrets.ZAD_API_KEY }}
+          project-id: ${{ vars.ZAD_PROJECT_ID }}
+          deployment-name: productie
+          component: website
+          image: ${{ needs.build.outputs.image }}
+          # Samen het webadres: nerds.digitaledienst.overheid.nl.
+          domain-format: subdomain
+          subdomain: nerds
+          base-domain: digitaledienst.overheid.nl
+          wait-for-ready: 'true'
+          health-endpoint: /healthz
+
+      # mkdocs bakt site_url in elke canonical, dus het adres moet kloppen.
+      - name: URL controleren
+        env:
+          GEKREGEN: ${{ steps.deploy.outputs.url }}
+        run: |
+          if [ "${SITE_URL%/}" != "${GEKREGEN%/}" ]; then
+            echo "::error::ZAD rolde uit op ${GEKREGEN}, verwacht was ${SITE_URL}"
+            exit 1
+          fi

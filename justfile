@@ -14,3 +14,12 @@ update-surface:
 a11y:
     cd tools/a11y && npm ci --ignore-scripts
     uv run python scripts/check_a11y.py
+
+# Build the site and the nginx image that serves it on ZAD
+image-build:
+    uv run mkdocs build
+    docker build -f deploy/Dockerfile -t nerds-site:local .
+
+# Serve the image on http://localhost:8081, read-only like on the cluster
+image-run: image-build
+    docker run --rm --read-only --tmpfs /tmp -p 8081:8080 nerds-site:local
