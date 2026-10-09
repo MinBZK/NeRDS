@@ -13,7 +13,7 @@ Deze bestanden worden inzichtelijk gemaakt met behulp van [MkDocs](https://www.m
 en vormgegeven met het [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system) in de Rijkshuisstijl.
 
 De Nederlandse Richtlijn Digitale Systemen kun je bekijken op
-[https://nederlandsedigitaledienst.github.io/NeRDS](https://nederlandsedigitaledienst.github.io/NeRDS/).
+[https://nerds.digitaledienst.overheid.nl](https://nerds.digitaledienst.overheid.nl/).
 
 ## Hoe kun je bijdragen?
 
