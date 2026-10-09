@@ -24,7 +24,6 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
 - [BIO Wizard](https://bio-overheid.nl/ico-wizard): Bepaal verplichte beveiligingsmaatregelen
 - [Internet.nl](https://internet.nl/): Test veiligheid van je website of e-mail
 - [OpenKAT](https://github.com/SSC-ICT-Innovatie/nl-kat-coordination): Open source security tooling
-</div>
 
 ## Gerelateerde hulpmiddelen
 

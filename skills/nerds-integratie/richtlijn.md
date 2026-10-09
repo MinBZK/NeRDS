@@ -22,7 +22,6 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
 - [Common Ground](https://commonground.nl/): Visie voor moderne gegevensuitwisseling
 - [FSC](https://fsc-standaard.nl/): Open source gegevensuitwisselingssysteem
 - [Haven](https://haven.commonground.nl/): Platformonafhankelijke cloudhosting
-</div>
 
 ### Integratie-aanpak
 

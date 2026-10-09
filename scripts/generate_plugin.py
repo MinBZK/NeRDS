@@ -72,13 +72,16 @@ ACTION_HOOK_PATH = ROOT_DIR / "src" / "hooks" / "action_registry.py"
 # optional notice around the placeholder, and a placeholder on its own.
 ACTION_BLOCK = re.compile(
     r'<div class="direct-aan-de-slag">\s*<h3>(?P<heading>.*?)</h3>.*?'
-    r'<div class="action-cards"(?P<attributes>[^>]*)></div>\s*</div>',
+    # One closing tag or more: several guidelines close the block twice.
+    r'<div class="action-cards"(?P<attributes>[^>]*)></div>(?:\s*</div>)+',
     re.DOTALL,
 )
 ACTION_PLACEHOLDER = re.compile(r'<div class="action-cards"(?P<attributes>[^>]*)></div>')
 ADMONITION = re.compile(r'^(?:!!!|\?\?\?\+?) \S+ "([^"]*)"\s*$')
 # What must not survive in a skill: syntax only the site's build understands.
-MKDOCS_ONLY = re.compile(r"^(?:!!!|\?\?\?).*$|<div\b[^>]*>|<nldd-[a-z-]+|\{:[^}]*\}|\{\{[^}]*\}\}", re.MULTILINE)
+MKDOCS_ONLY = re.compile(
+    r"^(?:!!!|\?\?\?).*$|</?(?:div|h[1-6]|span|strong|nldd-[a-z-]+)\b[^>]*>|\{:[^}]*\}|\{\{[^}]*\}\}", re.MULTILINE
+)
 
 
 def load_source() -> dict:

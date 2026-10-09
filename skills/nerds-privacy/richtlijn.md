@@ -23,7 +23,6 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
 - [Pre-scan DPIA & DPIA Formulier](https://minbzk.github.io/par-dpia-form/): Online formulier voor gegevensbeschermingseffectbeoordeling
 - [DPIA-model](https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia): Model voor gegevensbeschermingseffectbeoordeling
 - [NICPET Tools](https://nicpet.pleio.nl/): Privacy-bevorderende technologieën (status: ontwikkeling)
-</div>
 
 ## Gerelateerde hulpmiddelen
 

@@ -22,7 +22,6 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
 
 - [Developer Overheid](https://developer.overheid.nl/): Communities voor overheidsontwikkelaars
 - [NL Design System](https://www.nldesignsystem.nl): Samen bouwen aan gebruiksvriendelijke overheidswebsites
-</div>
 
 ## Gerelateerde hulpmiddelen
 

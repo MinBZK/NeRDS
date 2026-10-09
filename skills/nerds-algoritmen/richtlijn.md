@@ -27,7 +27,6 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
 - [Beslishulp AI-verordening](https://algoritmes.rijksapp.nl/beslishulp-ai-verordening): Bepaal direct welke voorschriften gelden
 - [LLM Benchmark](https://github.com/MinBZK/llm-benchmark): Benchmark voor taalmodellen (LLMs)
 - [Unsupervised Biasdetection Tool](https://algorithmaudit.eu/technical-tools/bdt/): Een statistisch hulpmiddel dat groepen identificeert waar een algoritme afwijkende prestaties laat zien
-</div>
 
 ## Gerelateerde hulpmiddelen
 

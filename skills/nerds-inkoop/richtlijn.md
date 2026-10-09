@@ -25,7 +25,6 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
 - [Inkoopkompas](https://www.pianoo.nl/nl/sectoren/ict): Kennisplatform voor ICT-inkoop
 - [MVI-criteria](https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria): Criteria voor duurzaam inkopen
 - [Handreiking IT Sourcing](https://www.digitaleoverheid.nl/rijksbrede-it-sourcingstrategie/dossier-documenten/rijksbrede-handreiking-it-sourcing/): Handreiking voor IT-sourcing binnen de Rijksoverheid
-</div>
 
 ## Gerelateerde hulpmiddelen
 

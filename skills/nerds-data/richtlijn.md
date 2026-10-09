@@ -21,7 +21,6 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
 
 - [Open Data](https://data.overheid.nl/): Het open dataportaal van de overheid
 - [Synthetische Data](https://digilab.overheid.nl/projecten/synthetische-datageneratie/): Genereer veilige testdata (status: concept)
-</div>
 
 ## Gerelateerde hulpmiddelen
 

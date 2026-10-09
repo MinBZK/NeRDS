@@ -26,7 +26,6 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
 - [NL Design System](https://www.nldesignsystem.nl): Samen bouwen aan gebruiksvriendelijke overheidswebsites
 - [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system): Toegankelijke web components in de Rijkshuisstijl, met skills voor AI-codeerassistenten (status: ontwikkeling)
 - [Expertreview Gebruikersbehoefte](https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/aanvragen-expertreview/): Een expertreview gebruiksvriendelijkheid laten uitvoeren
-</div>
 
 ## Bewezen praktijken
 
