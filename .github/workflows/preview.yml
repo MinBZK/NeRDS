@@ -1,4 +1,8 @@
-name: Deploy PR preview
+name: Preview-omgeving
+
+# Elke pull request krijgt een eigen ZAD-deployment pr-<nummer>. Zie
+# deploy/README.md.
+
 on:
   pull_request:
     types:
@@ -7,17 +11,32 @@ on:
       - synchronize
       - closed
 
-concurrency: preview-${{ github.ref }}
+concurrency:
+  group: preview-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 
-# De preview komt op de branch gh-pages en de link in een reactie op de PR.
+env:
+  IMAGE: ghcr.io/nederlandsedigitaledienst/nerds
+  PROJECT_ID: ${{ vars.ZAD_PROJECT_ID }}
+  BASE_DOMAIN: rig.prd1.gn2.quattro.rijksapps.nl
+
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
 
 jobs:
-  deploy:
-    name: deploy PR
+  build:
+    name: Site en image bouwen
+    if: github.event.action != 'closed'
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      # Het image gaat naar GHCR.
+      packages: write
+    outputs:
+      image: ${{ steps.image.outputs.image }}
+      url: ${{ steps.url.outputs.url }}
+      deployable: ${{ steps.deployable.outputs.deployable }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -32,31 +51,153 @@ jobs:
         run: |
           sed -i 's/development/${{ steps.get_commit_hash.outputs.commit_hash }}/g' docs/version.md
 
-      - name: Add url
+      # mkdocs zet site_url in elke canonical, dus het adres moet vooraf bekend
+      # zijn; de deploy-stap pint hetzelfde formaat.
+      - name: Preview-URL bepalen
+        id: url
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
-          echo "site_url: https://nederlandsedigitaledienst.github.io/NeRDS/pr-preview/pr-${{github.event.number}}" >> mkdocs.yml
+          echo "url=https://pr-${PR_NUMBER}-${PROJECT_ID}.${BASE_DOMAIN}" >> "$GITHUB_OUTPUT"
+
+      - name: Site op de preview-URL zetten
+        env:
+          PREVIEW_URL: ${{ steps.url.outputs.url }}
+        run: |
+          sed -i "s#^site_url: .*#site_url: ${PREVIEW_URL}/#" mkdocs.yml
 
       - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
-        if: github.event.action != 'closed'
 
       - name: build preview
-        if: github.event.action != 'closed'
         run: uv run --locked mkdocs build
 
       - name: Controleer de website tegen het designsysteem
-        if: github.event.action != 'closed'
         run: |
           uv run --locked python scripts/check_nldd.py ./site
           uv run --locked python scripts/behavior_surface.py check ./site scripts/behavior-surface.json
 
+      - name: Preview weren uit zoekmachines
+        run: |
+          printf 'User-agent: *\nDisallow: /\n' > site/robots.txt
+
       - uses: actions/upload-artifact@v7
-        if: github.event.action != 'closed'
         with:
           name: NeRDSWebsite-${{github.event.number}}
           path: ./site/
 
-      - name: Deploy preview
-        if: github.event.pull_request.head.repo.full_name == github.repository && github.actor != 'dependabot[bot]'
-        uses: rossjrw/pr-preview-action@v1
+      # Een fork of Dependabot krijgt geen secrets en mag niet naar GHCR
+      # pushen; daar blijft het bij de build en het artifact hierboven.
+      - name: Bepalen of deze PR een preview krijgt
+        id: deployable
+        env:
+          SAME_REPO: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
+          AUTHOR_TYPE: ${{ github.event.pull_request.user.type }}
+        run: |
+          if [ "${SAME_REPO}" = "true" ] && [ "${AUTHOR_TYPE}" != "Bot" ]; then
+            echo "deployable=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "deployable=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Eén tag per commit: een nieuwe tag verandert de pod-spec en forceert zo
+      # een rollout.
+      - name: Image-tag bepalen
+        id: image
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: echo "image=${IMAGE}:pr-${PR_NUMBER}-${HEAD_SHA::7}" >> "$GITHUB_OUTPUT"
+
+      - name: Inloggen op GHCR
+        if: steps.deployable.outputs.deployable == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: echo "${GH_TOKEN}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
+
+      - name: Image bouwen en pushen
+        if: steps.deployable.outputs.deployable == 'true'
+        env:
+          IMAGE_TAG: ${{ steps.image.outputs.image }}
+        run: |
+          docker build -f deploy/Dockerfile -t "${IMAGE_TAG}" .
+          docker push "${IMAGE_TAG}"
+
+  deploy:
+    name: Uitrollen naar ZAD
+    needs: build
+    if: needs.build.outputs.deployable == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      # De link naar de preview komt in een reactie op de PR.
+      pull-requests: write
+      # De deploy-action registreert een GitHub-deployment op de environment.
+      deployments: write
+    environment:
+      name: pr-${{ github.event.pull_request.number }}
+      url: ${{ steps.deploy.outputs.url }}
+    steps:
+      - id: deploy
+        uses: RijksICTGilde/zad-actions/deploy@b844c76eba3502b40a19be868cdf0586e322f4b8  # v4.1.0
         with:
-          source-dir: ./site/
+          # API-key van het ZAD-project.
+          api-key: ${{ secrets.ZAD_API_KEY }}
+          project-id: ${{ env.PROJECT_ID }}
+          deployment-name: pr-${{ github.event.pull_request.number }}
+          component: website
+          image: ${{ needs.build.outputs.image }}
+          # Niet weghalen: 'Preview-URL bepalen' stelt de URL op dit formaat op,
+          # en die staat als canonical in de gebouwde HTML.
+          domain-format: deployment-project
+          comment-on-pr: 'true'
+          wait-for-ready: 'true'
+          health-endpoint: /healthz
+
+      - name: URL controleren
+        env:
+          VERWACHT: ${{ needs.build.outputs.url }}
+          GEKREGEN: ${{ steps.deploy.outputs.url }}
+        run: |
+          if [ "${VERWACHT%/}" != "${GEKREGEN%/}" ]; then
+            echo "::error::Preview-URL wijkt af: gebouwd op ${VERWACHT}, uitgerold op ${GEKREGEN}"
+            exit 1
+          fi
+
+  cleanup:
+    name: Preview opruimen
+    if: >-
+      github.event.action == 'closed' &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      github.event.pull_request.user.type != 'Bot'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pull-requests: write
+      deployments: write
+      # De images van deze PR gaan weg uit GHCR.
+      packages: write
+    steps:
+      - uses: RijksICTGilde/zad-actions/cleanup@b844c76eba3502b40a19be868cdf0586e322f4b8  # v4.1.0
+        with:
+          api-key: ${{ secrets.ZAD_API_KEY }}
+          project-id: ${{ env.PROJECT_ID }}
+          deployment-name: pr-${{ github.event.pull_request.number }}
+          # delete-github-env vraagt een github-admin-token dat deze repo niet heeft.
+          delete-github-deployments: 'true'
+          delete-pr-comment: 'true'
+
+      # Elke push gaf een eigen image-tag pr-<nummer>-<sha>. Alleen versies
+      # waarvan elke tag bij deze PR hoort gaan weg, zodat een image dat ook
+      # een productietag draagt blijft staan.
+      - name: Images van deze PR verwijderen
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PREFIX: pr-${{ github.event.pull_request.number }}-
+        run: |
+          gh api --paginate "/orgs/${GITHUB_REPOSITORY_OWNER}/packages/container/nerds/versions" \
+            --jq ".[] | select((.metadata.container.tags | length) > 0 and all(.metadata.container.tags[]; startswith(\"${PREFIX}\"))) | .id" \
+            | while read -r id; do
+                gh api -X DELETE "/orgs/${GITHUB_REPOSITORY_OWNER}/packages/container/nerds/versions/${id}" || true
+              done
