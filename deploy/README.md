@@ -50,6 +50,9 @@ zie je daar en niet met `curl`.
 
 - Project `nerds-9sr`, deployment `productie`, component `website` op poort
   8080 met de service `publish-on-web`.
+- Health check op de component: `http`, poort 8080, liveness en readiness
+  allebei op `/healthz`. Gezet met
+  `zadctl service config set health-check --component website`.
 - Webadres: formaat `subdomain`, subdomein `nerds`, basisdomein
   `digitaledienst.overheid.nl`. De workflow geeft die drie bij elke uitrol mee.
 - Een eigen domein moet per project door het ZAD-team worden goedgekeurd. Tot
