@@ -9,12 +9,16 @@ gebouwde site erin.
 `.github/workflows/main.yml` draait bij elke push naar `main` en bij elke tag.
 De workflow bouwt de site met `mkdocs build`, bouwt daar met
 `deploy/Dockerfile` een image omheen en pusht dat naar
-`ghcr.io/nederlandsedigitaledienst/nerds:<korte commit-hash>`. Daarna rolt de
+`ghcr.io/nederlandsedigitaledienst/nerds:<versie>`. Daarna rolt de
 action `RijksICTGilde/zad-actions/deploy` dat image uit op de deployment
 `productie`.
 
-Elke commit krijgt een eigen image-tag. Een nieuwe tag verandert de pod-spec,
-en alleen dan start ZAD een nieuwe pod; met `latest` gebeurt dat niet.
+De image-tag is de uitvoer van `git describe --tags`, dezelfde versie die op de
+pagina "Huidige versie" staat: `v0.2.0-7-g6767e213` voor een commit op `main`,
+`v0.3.0` voor een release. Een nieuwe tag verandert de pod-spec, en alleen dan
+start ZAD een nieuwe pod; met `latest` gebeurt dat niet. Een commit-hash als
+tag zou bij een release niets uitrollen, omdat de release-tag op een commit
+staat die al draait.
 
 De laatste stap van de workflow vergelijkt het adres dat ZAD teruggeeft met
 `site_url`. MkDocs zet dat adres in de canonical van elke pagina, dus een site

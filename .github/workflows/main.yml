@@ -53,11 +53,16 @@ jobs:
       - name: Site bouwen
         run: uv run --locked mkdocs build
 
-      # Eén tag per commit: een nieuwe tag verandert de pod-spec en forceert zo
-      # een rollout, wat 'latest' niet doet.
+      # De image-tag is de versie uit git describe, dezelfde die op de pagina
+      # 'Huidige versie' staat. Een nieuwe tag verandert de pod-spec en forceert
+      # zo een rollout, wat 'latest' niet doet. Een commit-hash volstaat niet:
+      # een release-tag staat op een commit die al is uitgerold, en zou dan
+      # dezelfde image-tag krijgen en dus niets uitrollen.
       - name: Image-tag bepalen
         id: image
-        run: echo "image=${IMAGE}:$(git rev-parse --short HEAD)" >> "$GITHUB_OUTPUT"
+        env:
+          VERSION: ${{ steps.get_commit_hash.outputs.commit_hash }}
+        run: echo "image=${IMAGE}:${VERSION}" >> "$GITHUB_OUTPUT"
 
       - name: Inloggen op GHCR
         env:
