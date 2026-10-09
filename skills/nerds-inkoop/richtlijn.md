@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit docs/richtlijnen/inkoop/index.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit docs/richtlijnen/inkoop/index.md. Wijzig dat bestand en draai: just plugin -->
 
 # 12. Definieer je inkoopstrategie
 
@@ -18,15 +18,14 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
 
 ## Hoe pas je het toe?
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+**Direct aan de slag**
 
-    <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-
-    <div class="action-cards" data-richtlijn="inkoop"></div>
-    </div>
+- [Volwassenheidsmodel Digitale Autonomie](https://digitaleautonomie.pleio.nl/project/view/be08e155-19a1-4ac3-bddb-cc31a352f088/volwassenheidsmodel): Beoordeel zelf de digitale autonomie van uw organisatieprocessen (status: ontwikkeling)
+- [Algoritmekader](https://minbzk.github.io/Algoritmekader/onderwerpen/publieke-inkoop/): Richtlijn voor inkoop van verantwoorde algoritmes
+- [Inkoopkompas](https://www.pianoo.nl/nl/sectoren/ict): Kennisplatform voor ICT-inkoop
+- [MVI-criteria](https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria): Criteria voor duurzaam inkopen
+- TCO Calculator: Bereken Total Cost of Ownership (status: ontwikkeling)
+- [Handreiking IT Sourcing](https://www.digitaleoverheid.nl/rijksbrede-it-sourcingstrategie/dossier-documenten/rijksbrede-handreiking-it-sourcing/): Handreiking voor IT-sourcing binnen de Rijksoverheid
 </div>
 
 ## Gerelateerde hulpmiddelen

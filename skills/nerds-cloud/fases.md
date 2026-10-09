@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit docs/richtlijnen/cloud/fases.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit docs/richtlijnen/cloud/fases.md. Wijzig dat bestand en draai: just plugin -->
 
 ## Wanneer doe je wat?
 
@@ -6,13 +6,17 @@ Verantwoord cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je syst
 
 ### 1. Verkenningsfase
 
-!!! info "Doel"
-    Bepaal wat je systeem nodig heeft aan soevereiniteit en kies op basis daarvan waar het kan draaien.
+**Doel**
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
-    <div class="action-cards" data-richtlijn="cloud" data-fase="verkenning"></div>
-</div>
+Bepaal wat je systeem nodig heeft aan soevereiniteit en kies op basis daarvan waar het kan draaien.
+
+**Direct aan de slag**
+
+- [Volwassenheidsmodel Digitale Autonomie](https://digitaleautonomie.pleio.nl/project/view/be08e155-19a1-4ac3-bddb-cc31a352f088/volwassenheidsmodel): Beoordeel zelf de digitale autonomie van uw organisatieprocessen (status: ontwikkeling)
+- Cloud Assessment: Beoordeel uw cloudgereedheid (status: concept)
+- Beslisboom Cloud: Helpt bij het kiezen van de juiste cloudoplossing (status: concept)
+- [Fundament](https://docs.fundament.projects.digilab.network/): Open source platform waarop de proef met de soevereine overheidscloud draait (status: ontwikkeling)
+- [Pre-scan DPIA & DPIA Formulier](https://minbzk.github.io/par-dpia-form/): Online formulier voor gegevensbeschermingseffectbeoordeling
 
 **Gewenste uitkomsten:**
 
@@ -36,13 +40,14 @@ Verantwoord cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je syst
 
 ### 2. Ontwerpfase (Alpha)
 
-!!! info "Doel"
-    Ontwerp je cloudarchitectuur met aandacht voor beveiliging, soevereiniteit en exit-strategie.
+**Doel**
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
-    <div class="action-cards" data-richtlijn="cloud" data-fase="ontwerp"></div>
-</div>
+Ontwerp je cloudarchitectuur met aandacht voor beveiliging, soevereiniteit en exit-strategie.
+
+**Direct aan de slag**
+
+- [Fundament](https://docs.fundament.projects.digilab.network/): Open source platform waarop de proef met de soevereine overheidscloud draait (status: ontwikkeling)
+- [Haven](https://haven.commonground.nl/): Platformonafhankelijke cloudhosting
 
 **Gewenste uitkomsten:**
 
@@ -68,13 +73,14 @@ Verantwoord cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je syst
 
 ### 3. Bouwfase (Beta)
 
-!!! info "Doel"
-    Bouw en test je cloudomgeving met aandacht voor beveiliging, kostenbeheersing en prestaties.
+**Doel**
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
-    <div class="action-cards" data-richtlijn="cloud" data-fase="bouw"></div>
-</div>
+Bouw en test je cloudomgeving met aandacht voor beveiliging, kostenbeheersing en prestaties.
+
+**Direct aan de slag**
+
+- [Haven](https://haven.commonground.nl/): Platformonafhankelijke cloudhosting
+- Kubernetes Service: Beheerde K8s met compliance (status: demo)
 
 **Gewenste uitkomsten:**
 
@@ -98,13 +104,9 @@ Verantwoord cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je syst
 
 ### 4. Productie
 
-!!! info "Doel"
-    Monitor, optimaliseer en beveilig je cloudomgeving continu.
+**Doel**
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
-    <div class="action-cards" data-richtlijn="cloud" data-fase="productie"></div>
-</div>
+Monitor, optimaliseer en beveilig je cloudomgeving continu.
 
 **Gewenste uitkomsten:**
 

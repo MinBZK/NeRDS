@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit docs/richtlijnen/veiligheid/index.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit docs/richtlijnen/veiligheid/index.md. Wijzig dat bestand en draai: just plugin -->
 
 # 6. Maak veilige systemen
 
@@ -19,15 +19,11 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
 
 ## Hoe pas je het toe?
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+**Direct aan de slag**
 
-    <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-
-    <div class="action-cards" data-richtlijn="veiligheid"></div>
-    </div>
+- [BIO Wizard](https://bio-overheid.nl/ico-wizard): Bepaal verplichte beveiligingsmaatregelen
+- [Internet.nl](https://internet.nl/): Test veiligheid van je website of e-mail
+- [OpenKAT](https://github.com/SSC-ICT-Innovatie/nl-kat-coordination): Open source security tooling
 </div>
 
 ## Gerelateerde hulpmiddelen

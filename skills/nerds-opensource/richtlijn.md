@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit docs/richtlijnen/open-source/index.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit docs/richtlijnen/open-source/index.md. Wijzig dat bestand en draai: just plugin -->
 
 # 3. Werk transparant en gebruik open source
 
@@ -14,15 +14,16 @@ Door open en transparant te werken en open source software te omarmen, draag je 
 
 ## Hoe pas je het toe?
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+**Direct aan de slag**
 
-    <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-
-    <div class="action-cards" data-richtlijn="open-source"></div>
-</div>
+- [Ambitieladder opensourcewerken](https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/): Helpt projectteams concrete afspraken te maken over opensourcewerken
+- [Open Stad](https://openstad.org/): Open source platform voor participatie en samenwerking
+- [Opensourcewerken](https://opensourcewerken.nl): Kennis en community voor open source werken bij de overheid
+- [Opensourcewerken](https://developer.overheid.nl/communities/open-source-werken): Community of practice omtrent open source werken (status: ontwikkeling)
+- [Standaard voor publieke code](https://www.standaardvoorpubliekecode.nl/): Richtlijnen voor het ontwikkelen en beheren van software en beleid
+- [Handreiking publieke waarde bij ICT-aanbesteding](https://www.pianoo.nl/nl/handreiking-publieke-waarden-en-rechten-bij-aanbesteden-van-ict): Stappenplan voor het maken van bewuste keuzes rondom publieke waarde en rechten
+- [Licentieadvies](https://opensourcewerken.nl/page/view/677bb847-79b5-42b2-8a63-e7bb2e074530/softwarelicenties): Copyleft: CC BY-SA, GPLv3, AGPLv3 of EUPL-1.2. Permissive: Apache 2.0, MIT, BSD-0-clause
+- Code.gov.nl: Publiceer uw code en vind overheidsprojecten (status: concept)
 
 ## Bewezen praktijken
 
@@ -30,51 +31,57 @@ Door open en transparant te werken en open source software te omarmen, draag je 
 
 Start met verkennen van bestaande open source oplossingen voordat je zelf iets bouwt. Evalueer of open source past bij je project en begrijp het [open-tenzij beleid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/open-source/beleid/): je code moet open zijn, tenzij er zwaarwegende redenen zijn om dit niet te doen (zoals staatsgeheimen of fraudepreventie). Dit principe van transparantie versterkt het vertrouwen in de overheid.
 
-??? expander "Praktische tips"
-    - **Onderzoek eerst of hergebruik mogelijk is** - Zoek naar bestaande open source oplossingen die je probleem al oplossen. Verken repositories op [developer.overheid.nl](https://oss.developer.overheid.nl/).
-    - **Begrijp welke afspraken er in het team gemaakt moeten worden** - Verken de [Open source ambitieladder](https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/).
-    - **Evalueer total cost of ownership** - Kijk naar alle kosten: implementatie, migratie, training en onderhoud.
-    - **Test met prototypes** - Bouw kleine prototypes om technische aannames te valideren.
-    - **Betrek de community** - Leg contact met [open source gemeenschappen](#gerelateerde-hulpmiddelen) voor advies.
+**Praktische tips**
+
+- **Onderzoek eerst of hergebruik mogelijk is** - Zoek naar bestaande open source oplossingen die je probleem al oplossen. Verken repositories op [developer.overheid.nl](https://oss.developer.overheid.nl/).
+- **Begrijp welke afspraken er in het team gemaakt moeten worden** - Verken de [Open source ambitieladder](https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/).
+- **Evalueer total cost of ownership** - Kijk naar alle kosten: implementatie, migratie, training en onderhoud.
+- **Test met prototypes** - Bouw kleine prototypes om technische aannames te valideren.
+- **Betrek de community** - Leg contact met [open source gemeenschappen](#gerelateerde-hulpmiddelen) voor advies.
 
 ### 2. Ontwikkelen, ontwerpen en inkopen
 
 Werk open vanaf dag 1: begin met een publieke repository vanaf het start van je project. Dit voorkomt kostbare retrofitting en bevordert incrementele security improvements. Kies een geschikte open source licentie (bij voorkeur EUPL-1.2 voor overheidscode).
 
 Ontwikkelen & ontwerpen
-??? expander "Praktische tips"
-    - **Start met een publieke repository** - Begin vanaf dag 1 met een publieke GitHub of GitLab repository.
-    - **Kies EUPL-1.2 licentie** - De aanbevolen licentie voor Nederlandse overheidscode. Zie [licentieadvies](https://opensourcewerken.nl/page/view/677bb847-79b5-42b2-8a63-e7bb2e074530/softwarelicenties) voor meer informatie.
-    - **Gebruik secrets management** - Sla wachtwoorden, API-keys en credentials op in een apart systeem en nooit in de code zelf (bijv. HashiCorp Vault, Azure Key Vault).
-    - **Schrijf een goede README** - Leg uit wat de code doet, hoe je het installeert en hoe je kunt bijdragen. Zie voorbeelden bij [MinBZK](https://github.com/MinBZK) en [Gemeente Amsterdam](https://github.com/amsterdam) repositories.
-    - **Maak een CONTRIBUTING.md** - Geef duidelijke richtlijnen voor externe bijdragen. Zie [Developer.overheid.nl](https://developer.overheid.nl/kennisbank/open-source/standaarden/contributing-md#wat-neem-je-erin-op) voor hoe je dat kan doen.
-    - **Creëer een veilige en inclusieve omgeving voor contributors** - Definieer een [Code of Conduct](https://developer.overheid.nl/kennisbank/open-source/standaarden/code-of-conduct-md).
-    - **Gebruik [open standaarden](https://www.forumstandaardisatie.nl/open-standaarden)** - Zorg dat je architectuur interoperabel is (zie Gebruik open standaarden (skill `/nerds-standaarden`)).
-    - **Documenteer ontwerpbeslissingen** - Leg vast waarom je bepaalde technologiekeuzes maakt. Gebruik hiervoor bijvoorbeeld een [Architectural Decision Record van Gov UK](https://www.gov.uk/government/publications/architectural-decision-record-framework/architectural-decision-record-framework).
+
+**Praktische tips**
+
+- **Start met een publieke repository** - Begin vanaf dag 1 met een publieke GitHub of GitLab repository.
+- **Kies EUPL-1.2 licentie** - De aanbevolen licentie voor Nederlandse overheidscode. Zie [licentieadvies](https://opensourcewerken.nl/page/view/677bb847-79b5-42b2-8a63-e7bb2e074530/softwarelicenties) voor meer informatie.
+- **Gebruik secrets management** - Sla wachtwoorden, API-keys en credentials op in een apart systeem en nooit in de code zelf (bijv. HashiCorp Vault, Azure Key Vault).
+- **Schrijf een goede README** - Leg uit wat de code doet, hoe je het installeert en hoe je kunt bijdragen. Zie voorbeelden bij [MinBZK](https://github.com/MinBZK) en [Gemeente Amsterdam](https://github.com/amsterdam) repositories.
+- **Maak een CONTRIBUTING.md** - Geef duidelijke richtlijnen voor externe bijdragen. Zie [Developer.overheid.nl](https://developer.overheid.nl/kennisbank/open-source/standaarden/contributing-md#wat-neem-je-erin-op) voor hoe je dat kan doen.
+- **Creëer een veilige en inclusieve omgeving voor contributors** - Definieer een [Code of Conduct](https://developer.overheid.nl/kennisbank/open-source/standaarden/code-of-conduct-md).
+- **Gebruik [open standaarden](https://www.forumstandaardisatie.nl/open-standaarden)** - Zorg dat je architectuur interoperabel is (zie Gebruik open standaarden (skill `/nerds-standaarden`)).
+- **Documenteer ontwerpbeslissingen** - Leg vast waarom je bepaalde technologiekeuzes maakt. Gebruik hiervoor bijvoorbeeld een [Architectural Decision Record van Gov UK](https://www.gov.uk/government/publications/architectural-decision-record-framework/architectural-decision-record-framework).
 
 Inkopen
-??? expander "Praktische tips"
-    - **Neem Standaarden op in de inkoopvoorwaarde** - Zie de [Instructie Rijksdienst bij aanschaf ICT-diensten of ICT-producten](https://wetten.overheid.nl/BWBR0024717/2008-11-23) en [Opensource Gereedschapskist voor het aanbesteden van standaardsoftware VWS](https://minvws.opensourcewerken.nl/open-source-gereedschapskist-voor-het-aanbesteden-van-standaardsoftware/).
-    - **Controleer de maturiteit** - Is het project actief onderhouden en stabiel?
-    - **Evalueer de community** - Is er een actieve gemeenschap of commerciële ondersteuning?
-    - **Check de veiligheid** - Bekijk de security geschiedenis en updatefrequentie.
-    - **Beoordeel vendor lock-in risico's** - Vermijd afhankelijkheid van één leverancier en zorg voor een exit-strategie.
-    - **Begrijp de licentie** - Zorg dat je de verplichtingen kent. Zie [licentieadvies](https://opensourcewerken.nl/page/view/677bb847-79b5-42b2-8a63-e7bb2e074530/softwarelicenties).
-    - **Vraag naar gebruikerservaringen** - Gebruiken andere overheidsorganisaties dit al? Vraag het op [Developer Overheid](https://developer.overheid.nl/).
+
+**Praktische tips**
+
+- **Neem Standaarden op in de inkoopvoorwaarde** - Zie de [Instructie Rijksdienst bij aanschaf ICT-diensten of ICT-producten](https://wetten.overheid.nl/BWBR0024717/2008-11-23) en [Opensource Gereedschapskist voor het aanbesteden van standaardsoftware VWS](https://minvws.opensourcewerken.nl/open-source-gereedschapskist-voor-het-aanbesteden-van-standaardsoftware/).
+- **Controleer de maturiteit** - Is het project actief onderhouden en stabiel?
+- **Evalueer de community** - Is er een actieve gemeenschap of commerciële ondersteuning?
+- **Check de veiligheid** - Bekijk de security geschiedenis en updatefrequentie.
+- **Beoordeel vendor lock-in risico's** - Vermijd afhankelijkheid van één leverancier en zorg voor een exit-strategie.
+- **Begrijp de licentie** - Zorg dat je de verplichtingen kent. Zie [licentieadvies](https://opensourcewerken.nl/page/view/677bb847-79b5-42b2-8a63-e7bb2e074530/softwarelicenties).
+- **Vraag naar gebruikerservaringen** - Gebruiken andere overheidsorganisaties dit al? Vraag het op [Developer Overheid](https://developer.overheid.nl/).
 
 ### 3. Testen, meten en verbeteren
 
 Onderhoud je open source project actief: Reageer snel op security issues, monitor dependencies op kwetsbaarheden en wees transparant over je onderhoudsniveau. Open source publiceren is een langetermijncommitment, alloceer voldoende resources voor community management.
 
-??? expander "Praktische tips"
-    - **Review code op secrets** - Scan regelmatig op hard-coded wachtwoorden en credentials.
-    - **Monitor security advisories** - Volg CVE's (Common Vulnerabilities and Exposures) en security updates voor je dependencies. Zoals [dependabot](https://github.com/dependabot).
-    - **Reageer snel op security issues** - Patch kritieke kwetsbaarheden binnen 24-48 uur.
-    - **Test installeerbaarheid** - Doe regelmatig een fresh clone test met een nieuwe gebruiker.
-    - **Communiceer onderhoudsniveau** - Wees duidelijk over of het digitale systeem "actively maintained", "maintenance mode" of "archived" is.
-    - **Gebruik Semantic Versioning** - Versies in [major.minor.patch](https://semver.org/) formaat voor duidelijkheid.
-    - **Draag bij aan upstream** - Geef terug aan projecten waar je van afhankelijk bent.
-    - **Deel je bevindingen** - Publiceer blogposts en presentaties over je ervaringen. Deel kennis via de [opensourcewerken community](https://developer.overheid.nl/communities/open-source-werken).
+**Praktische tips**
+
+- **Review code op secrets** - Scan regelmatig op hard-coded wachtwoorden en credentials.
+- **Monitor security advisories** - Volg CVE's (Common Vulnerabilities and Exposures) en security updates voor je dependencies. Zoals [dependabot](https://github.com/dependabot).
+- **Reageer snel op security issues** - Patch kritieke kwetsbaarheden binnen 24-48 uur.
+- **Test installeerbaarheid** - Doe regelmatig een fresh clone test met een nieuwe gebruiker.
+- **Communiceer onderhoudsniveau** - Wees duidelijk over of het digitale systeem "actively maintained", "maintenance mode" of "archived" is.
+- **Gebruik Semantic Versioning** - Versies in [major.minor.patch](https://semver.org/) formaat voor duidelijkheid.
+- **Draag bij aan upstream** - Geef terug aan projecten waar je van afhankelijk bent.
+- **Deel je bevindingen** - Publiceer blogposts en presentaties over je ervaringen. Deel kennis via de [opensourcewerken community](https://developer.overheid.nl/communities/open-source-werken).
 
 ## Implementatie per fase
 

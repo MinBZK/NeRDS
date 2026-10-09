@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit docs/richtlijnen/open-source/fases.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit docs/richtlijnen/open-source/fases.md. Wijzig dat bestand en draai: just plugin -->
 
 ## Wanneer doe je wat?
 
@@ -6,13 +6,16 @@ Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande
 
 ### 1. Verkenningsfase
 
-!!! info "Doel"
-    Onderzoek of open source past bij je project en verken beschikbare oplossingen.
+**Doel**
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
-    <div class="action-cards" data-richtlijn="open-source" data-fase="verkenning"></div>
-</div>
+Onderzoek of open source past bij je project en verken beschikbare oplossingen.
+
+**Direct aan de slag**
+
+- [Ambitieladder opensourcewerken](https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/): Helpt projectteams concrete afspraken te maken over opensourcewerken
+- [Open Stad](https://openstad.org/): Open source platform voor participatie en samenwerking
+- [Opensourcewerken](https://opensourcewerken.nl): Kennis en community voor open source werken bij de overheid
+- [Opensourcewerken](https://developer.overheid.nl/communities/open-source-werken): Community of practice omtrent open source werken (status: ontwikkeling)
 
 **Gewenste uitkomsten:**
 
@@ -31,13 +34,17 @@ Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande
 
 ### 2. Ontwerpfase (Alpha)
 
-!!! info "Doel"
-    Maak beslissingen over het gebruiken en publiceren van open-source code
+**Doel**
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
-    <div class="action-cards" data-richtlijn="open-source" data-fase="ontwerp"></div>
-</div>
+Maak beslissingen over het gebruiken en publiceren van open-source code
+
+**Direct aan de slag**
+
+- [Ambitieladder opensourcewerken](https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/): Helpt projectteams concrete afspraken te maken over opensourcewerken
+- [Opensourcewerken](https://opensourcewerken.nl): Kennis en community voor open source werken bij de overheid
+- [Standaard voor publieke code](https://www.standaardvoorpubliekecode.nl/): Richtlijnen voor het ontwikkelen en beheren van software en beleid
+- [Handreiking publieke waarde bij ICT-aanbesteding](https://www.pianoo.nl/nl/handreiking-publieke-waarden-en-rechten-bij-aanbesteden-van-ict): Stappenplan voor het maken van bewuste keuzes rondom publieke waarde en rechten
+- [Licentieadvies](https://opensourcewerken.nl/page/view/677bb847-79b5-42b2-8a63-e7bb2e074530/softwarelicenties): Copyleft: CC BY-SA, GPLv3, AGPLv3 of EUPL-1.2. Permissive: Apache 2.0, MIT, BSD-0-clause
 
 **Gewenste uitkomsten:**
 
@@ -59,13 +66,13 @@ Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande
 
 ### 3. Bouwfase (Beta)
 
-!!! info "Doel"
-    Bouw de dienst in de open repository en zorg dat code klaar is voor hergebruik door anderen.
+**Doel**
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
-    <div class="action-cards" data-richtlijn="open-source" data-fase="bouw"></div>
-</div>
+Bouw de dienst in de open repository en zorg dat code klaar is voor hergebruik door anderen.
+
+**Direct aan de slag**
+
+- [Standaard voor publieke code](https://www.standaardvoorpubliekecode.nl/): Richtlijnen voor het ontwikkelen en beheren van software en beleid
 
 **Gewenste uitkomsten:**
 
@@ -84,13 +91,14 @@ Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande
 
 ### 4. Productie
 
-!!! info "Doel"
-    Onderhoud de code en gemeenschap actief en zorg voor snelle security responses.
+**Doel**
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
-    <div class="action-cards" data-richtlijn="open-source" data-fase="productie"></div>
-</div>
+Onderhoud de code en gemeenschap actief en zorg voor snelle security responses.
+
+**Direct aan de slag**
+
+- [Opensourcewerken](https://developer.overheid.nl/communities/open-source-werken): Community of practice omtrent open source werken (status: ontwikkeling)
+- Code.gov.nl: Publiceer uw code en vind overheidsprojecten (status: concept)
 
 **Gewenste uitkomsten:**
 

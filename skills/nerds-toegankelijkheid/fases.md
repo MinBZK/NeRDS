@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit docs/richtlijnen/toegankelijkheid/fases.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit docs/richtlijnen/toegankelijkheid/fases.md. Wijzig dat bestand en draai: just plugin -->
 
 ## Wanneer doe je wat?
 
@@ -6,14 +6,16 @@ Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van o
 
 ### 1. Verkenningsfase
 
-!!! info "Doel"
-    Begrijp toegankelijkheidseisen en de behoeften van gebruikers met diverse achtergronden en beperkingen.
+**Doel**
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+Begrijp toegankelijkheidseisen en de behoeften van gebruikers met diverse achtergronden en beperkingen.
 
-    <div class="action-cards" data-richtlijn="toegankelijkheid" data-fase="verkenning"></div>
-</div>
+**Direct aan de slag**
+
+- [Gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl/docs/thema/toegankelijkheid/): Leer van andere toegankelijkheidsonderzoeken en deel je bevindingen
+- [Dashboard DigiToegankelijk](https://dashboard.digitoegankelijk.nl/): Check toegankelijkheid overheidswebsites
+- [Stappenplan Inclusief Ontwerpen](https://toolkitinclusie.gebruikercentraal.nl/inclusief-ontwerpen/stappenplan/): Stappenplan voor inclusief ontwerp van Gebruiker Centraal
+- [WCAG 2.1 Uitleg](https://nldesignsystem.nl/wcag/): Praktische uitleg en voorbeelden WCAG 2.1 (NLDS)
 
 **Gewenste uitkomsten:**
 
@@ -32,14 +34,18 @@ Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van o
 
 ### 2. Ontwerpfase (Alpha)
 
-!!! info "Doel"
-    Ontwerp toegankelijke en inclusieve oplossingen die voor iedereen werken.
+**Doel**
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+Ontwerp toegankelijke en inclusieve oplossingen die voor iedereen werken.
 
-    <div class="action-cards" data-richtlijn="toegankelijkheid" data-fase="ontwerp"></div>
-</div>
+**Direct aan de slag**
+
+- [Stappenplan Inclusief Ontwerpen](https://toolkitinclusie.gebruikercentraal.nl/inclusief-ontwerpen/stappenplan/): Stappenplan voor inclusief ontwerp van Gebruiker Centraal
+- [WCAG 2.1 Uitleg](https://nldesignsystem.nl/wcag/): Praktische uitleg en voorbeelden WCAG 2.1 (NLDS)
+- [Toolkit Taal](https://toolkittaal.gebruikercentraal.nl/richtlijnen/): Richtlijnen voor tekst en beeldtaal in overheidscommunicatie
+- [Is het B1?](https://ishetb1.nl/): Controleer of je tekst op B1-niveau is geschreven
+- [NL Design System](https://nldesignsystem.nl): Toegankelijke componenten
+- [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system): Toegankelijke web components in de Rijkshuisstijl, met skills voor AI-codeerassistenten (status: ontwikkeling)
 
 **Gewenste uitkomsten:**
 
@@ -51,14 +57,20 @@ Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van o
 
 ### 3. Bouwfase (Beta)
 
-!!! info "Doel"
-    Bouw en test je dienst op toegankelijkheid en inclusie in productie.
+**Doel**
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+Bouw en test je dienst op toegankelijkheid en inclusie in productie.
 
-    <div class="action-cards" data-richtlijn="toegankelijkheid" data-fase="bouw"></div>
-</div>
+**Direct aan de slag**
+
+- [Toolkit Taal](https://toolkittaal.gebruikercentraal.nl/richtlijnen/): Richtlijnen voor tekst en beeldtaal in overheidscommunicatie
+- [Is het B1?](https://ishetb1.nl/): Controleer of je tekst op B1-niveau is geschreven
+- [NL Design System](https://nldesignsystem.nl): Toegankelijke componenten
+- [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system): Toegankelijke web components in de Rijkshuisstijl, met skills voor AI-codeerassistenten (status: ontwikkeling)
+- [PDF Checker](https://pdfchecker.nl/): Controleer de toegankelijkheid van PDF-documenten
+- [NLDoc](https://www.digitoegankelijk.nl/nieuws/nldoc-opensource-beschikbaar): API's om documenten om te zetten naar toegankelijke, WCAG 2.x-compliant HTML
+- [Toegankelijkheidsscan](https://www.w3.org/WAI/test-evaluate/tools/list/): Test uw webpagina's op toegankelijkheid
+- [WCAG-EM Reporter](https://gitlab.com/digilab.overheid.nl/ecosystem/wcag-em-reporter): Tool voor het maken van toegankelijkheidsrapporten
 
 **Gewenste uitkomsten:**
 
@@ -78,14 +90,15 @@ Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van o
 
 ### 4. Productie
 
-!!! info "Doel"
-    Monitor en verbeter toegankelijkheid en inclusie continu.
+**Doel**
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+Monitor en verbeter toegankelijkheid en inclusie continu.
 
-    <div class="action-cards" data-richtlijn="toegankelijkheid" data-fase="productie"></div>
-</div>
+**Direct aan de slag**
+
+- [Gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl/docs/thema/toegankelijkheid/): Leer van andere toegankelijkheidsonderzoeken en deel je bevindingen
+- [WCAG-EM Reporter](https://gitlab.com/digilab.overheid.nl/ecosystem/wcag-em-reporter): Tool voor het maken van toegankelijkheidsrapporten
+- [Toegankelijkheidsverklaring](https://www.toegankelijkheidsverklaring.nl/): Invulassistent voor toegankelijkheidsverklaringen
 
 **Gewenste uitkomsten:**
 

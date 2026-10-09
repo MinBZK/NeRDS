@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit docs/richtlijnen/algoritmen/index.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit docs/richtlijnen/algoritmen/index.md. Wijzig dat bestand en draai: just plugin -->
 
 # 11. Pas algoritmen verantwoord toe
 
@@ -19,15 +19,14 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
 
 ## Hoe pas je het toe?
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+**Direct aan de slag**
 
-    <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-
-    <div class="action-cards" data-richtlijn="algoritmen"></div>
-    </div>
+- [Algoritme Management Toolkit](https://amt.rijksapp.nl/): Register voor risicovolle algoritmen
+- [Algoritmekader](https://minbzk.github.io/Algoritmekader/): Richtlijnen voor verantwoord algoritmebeheer
+- [Algoritmeregister](https://algoritmes.overheid.nl/nl): Registreer je (impactvolle) algoritme in het nationale register
+- [Beslishulp AI-verordening](https://algoritmes.rijksapp.nl/beslishulp-ai-verordening): Bepaal direct welke voorschriften gelden
+- [LLM Benchmark](https://github.com/MinBZK/llm-benchmark): Benchmark voor taalmodellen (LLMs)
+- [Unsupervised Biasdetection Tool](https://algorithmaudit.eu/technical-tools/bdt/): Een statistisch hulpmiddel dat groepen identificeert waar een algoritme afwijkende prestaties laat zien
 </div>
 
 ## Gerelateerde hulpmiddelen

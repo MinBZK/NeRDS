@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit docs/richtlijnen/gebruikersbehoeften/index.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit docs/richtlijnen/gebruikersbehoeften/index.md. Wijzig dat bestand en draai: just plugin -->
 
 # 1. Stel gebruikersbehoeften vast
 
@@ -14,15 +14,18 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
 
 ## Hoe pas je het toe?
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+**Direct aan de slag**
 
-    <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-
-    <div class="action-cards" data-richtlijn="gebruikersbehoeften"></div>
-    </div>
+- [Stappenplan gebruikersonderzoek](https://gebruikersonderzoeken.nl/docs/onderzoek-doen/): Een praktisch stappenplan voor het uitvoeren van gebruikersonderzoek
+- [Toestemmingsformulier gebruikersonderzoek](https://gebruikersonderzoeken.nl/docs/onderzoek-doen/toestemmingsformulier/): Een voorbeeld toestemmingsformulier voor gebruikersonderzoek
+- [CX-Volwassenheidsscan](https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/07/Handboek-voor-het-uitvoeren-van-een-CV-Volwassenheidsscan.pdf): Handboek voor het transformeren naar klantgedreven werken
+- [Gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken/): Leer van andere onderzoeken en deel je bevindingen
+- [Meethuis voor dienstverlening](https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/04/Meethuis-Handboek-2025-v2.pdf): Voor het maken van een meethuis voor dienstverlening
+- [Toolkit Taal](https://toolkittaal.gebruikercentraal.nl/richtlijnen/): Richtlijnen voor tekst en beeldtaal in overheidscommunicatie
+- [Optimaal Digitaal Tipkaarten](https://optimaaldigitaal.gebruikercentraal.nl/tipkaarten/overzicht-van-alle-tips/): Praktische tips voor digitale dienstverlening
+- [NL Design System](https://www.nldesignsystem.nl): Samen bouwen aan gebruiksvriendelijke overheidswebsites
+- [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system): Toegankelijke web components in de Rijkshuisstijl, met skills voor AI-codeerassistenten (status: ontwikkeling)
+- [Expertreview Gebruikersbehoefte](https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/aanvragen-expertreview/): Een expertreview gebruiksvriendelijkheid laten uitvoeren
 </div>
 
 ## Bewezen praktijken
@@ -31,35 +34,38 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
 
 Start bij het probleem in kaart te brengen, niet bij de oplossing. Dit voorkomt middeltjes-denken. Trek er vroeg UX-ontwerpers bij om echt te begrijpen wat er speelt: welke emoties ervaren mensen, hoe gedragen ze zich, in welke situatie zitten ze. Zorg dat iedereen in het team dit snapt, inclusief de bestuurders. Pas als je dit gedeelde beeld hebt, kun je effectief ontwerpen, ontwikkelen en/of inkopen.
 
-??? expander "Praktische tips"
-    - **Geen aannames** - Baseer bevindingen op werkelijke data van gebruikers, niet op veronderstelde behoeften.
-    - **Begin met het doel** - Zorg dat je onderzoeksmethode aansluit bij wat je werkelijk moet leren voordat je een plan maakt: [Zo begin je gewoon](https://www.gebruikercentraal.nl/gebruikersonderzoek-zo-begin-je-gewoon/).
-    - **Ga naar de gebruiker toe** - Observeer gebruikers in hun eigen omgeving en context om hun werkelijke situatie te begrijpen.
-    - **Houd het simpel** - Kies voor eenvoudige onderzoeksmethoden zoals interviews, observatie of vragenlijsten omdat complexe methoden implementatie kunnen vertragen.
-    - **Laat stakeholders meekijken** - Zorg dat stakeholders (bijvoorbeeld bestuurders) onderzoek mee volgen zodat iedereen dezelfde gebruikersinzichten heeft.
-    - **Creëer draagvlak** - Zorg voor overeenstemming binnen het team over gebruikersbehoeften voordat je begint met ontwikkelen. Zie [Draagvlak in jouw organisatie](https://www.gebruikercentraal.nl/videopagina/draagvlak-in-jouw-organisatie-direct-duidelijk-tour/).
+**Praktische tips**
+
+- **Geen aannames** - Baseer bevindingen op werkelijke data van gebruikers, niet op veronderstelde behoeften.
+- **Begin met het doel** - Zorg dat je onderzoeksmethode aansluit bij wat je werkelijk moet leren voordat je een plan maakt: [Zo begin je gewoon](https://www.gebruikercentraal.nl/gebruikersonderzoek-zo-begin-je-gewoon/).
+- **Ga naar de gebruiker toe** - Observeer gebruikers in hun eigen omgeving en context om hun werkelijke situatie te begrijpen.
+- **Houd het simpel** - Kies voor eenvoudige onderzoeksmethoden zoals interviews, observatie of vragenlijsten omdat complexe methoden implementatie kunnen vertragen.
+- **Laat stakeholders meekijken** - Zorg dat stakeholders (bijvoorbeeld bestuurders) onderzoek mee volgen zodat iedereen dezelfde gebruikersinzichten heeft.
+- **Creëer draagvlak** - Zorg voor overeenstemming binnen het team over gebruikersbehoeften voordat je begint met ontwikkelen. Zie [Draagvlak in jouw organisatie](https://www.gebruikercentraal.nl/videopagina/draagvlak-in-jouw-organisatie-direct-duidelijk-tour/).
 
 ### 2. Ontwikkelen, ontwerpen en inkopen
 
 Vertaal de inzichten naar ontwerpen: wireframes, prototypes, klantreizen. Test deze met gebruikers voordat je bouwt. Ontwerp voor het gehele spectrum aan gebruikers, met aandacht voor toegankelijkheid en inclusie. Dit is geen keuze, maar een vereiste. Inwoners, burgers en ondernemers hebben vaak geen andere keuze dan jouw digitale systeem te gebruiken.
 
-??? expander "Praktische tips"
-    - **Zorg ervoor dat jouw digitale systeem het gehele probleem van de gebruiker oplost** - Los niet enkel een deelaspect op. Dit betekent vaak samenwerking met andere teams en het integreren met bestaande systemen. Zie hiervoor de richtlijnen Deel, hergebruik en werk samen (skill `/nerds-samenwerking`) en Integreer en pas technologie aan (skill `/nerds-integratie`).
-    - **Denk inclusief** - Zorg dat je ontwerp toegankelijk is voor gebruikers met verschillende achtergronden en beperkingen (zie de richtlijn Zorg voor toegankelijkheid en inclusie (skill `/nerds-toegankelijkheid`)). Gebruikers mogen niet vergeten of uitgesloten worden in het ontwerpproces.
-    - **Hou rekening met privacy** - Bij het verzamelen van gebruikersgegevens moet je voldoen aan de AVG. Vraag alleen wat nodig is, informeer gebruikers over het doel, en beveilig de data goed. Zie de hierboven het Toestemmingsformulier en de NeRDS richtlijn Maak privacy integraal (skill `/nerds-privacy`).
-    - **Test alternatieven** - Evalueer verschillende oplossingen (bijvoorbeeld twee verschillende interfaces) met gebruikers in plaats van slechts één voorstel.
-    - **Blijf flexibel** - Pas je onderzoeksmethode aan naarmate je meer leert.
-    - **Neem gebruikersbehoefte mee in het inkoopproces** - Zie de richtlijn Definieer je inkoopstrategie (skill `/nerds-inkoop`).
+**Praktische tips**
+
+- **Zorg ervoor dat jouw digitale systeem het gehele probleem van de gebruiker oplost** - Los niet enkel een deelaspect op. Dit betekent vaak samenwerking met andere teams en het integreren met bestaande systemen. Zie hiervoor de richtlijnen Deel, hergebruik en werk samen (skill `/nerds-samenwerking`) en Integreer en pas technologie aan (skill `/nerds-integratie`).
+- **Denk inclusief** - Zorg dat je ontwerp toegankelijk is voor gebruikers met verschillende achtergronden en beperkingen (zie de richtlijn Zorg voor toegankelijkheid en inclusie (skill `/nerds-toegankelijkheid`)). Gebruikers mogen niet vergeten of uitgesloten worden in het ontwerpproces.
+- **Hou rekening met privacy** - Bij het verzamelen van gebruikersgegevens moet je voldoen aan de AVG. Vraag alleen wat nodig is, informeer gebruikers over het doel, en beveilig de data goed. Zie de hierboven het Toestemmingsformulier en de NeRDS richtlijn Maak privacy integraal (skill `/nerds-privacy`).
+- **Test alternatieven** - Evalueer verschillende oplossingen (bijvoorbeeld twee verschillende interfaces) met gebruikers in plaats van slechts één voorstel.
+- **Blijf flexibel** - Pas je onderzoeksmethode aan naarmate je meer leert.
+- **Neem gebruikersbehoefte mee in het inkoopproces** - Zie de richtlijn Definieer je inkoopstrategie (skill `/nerds-inkoop`).
 
 ### 3. Testen, meten en verbeteren
 
 Meet doorlopend hoe gebruikers je digitale systeem ervaren. Verzamel feedback, leer daarvan en verbeter stapsgewijs. Gebruikersbehoeften verschuiven, dus blijf aanpassen. Door gebruikersonderzoek structureel in te bedden, zie je of je digitale systeem daadwerkelijk gebruikersgericht werkt.
 
-??? expander "Praktische tips"
-    - **Blijf itereren** - Digitale systemen staan nooit op zichzelf en vereisen continue verbetering.
-    - **Maak het structureel** - Borg gebruikersonderzoek in je proces vanaf het begin, niet als laatste stap. Maak het onderdeel van je definition of done.
-    - **Deel resultaten** - Publiceer inzichten op [gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl) zodat andere organisaties ervan kunnen leren.
-    - **Valideer je oplossing** - Doe een expertreview op je digitale systeem via het [expert panel gebruiksvriendelijkheid van Gebruiker Centraal](https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/).
+**Praktische tips**
+
+- **Blijf itereren** - Digitale systemen staan nooit op zichzelf en vereisen continue verbetering.
+- **Maak het structureel** - Borg gebruikersonderzoek in je proces vanaf het begin, niet als laatste stap. Maak het onderdeel van je definition of done.
+- **Deel resultaten** - Publiceer inzichten op [gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl) zodat andere organisaties ervan kunnen leren.
+- **Valideer je oplossing** - Doe een expertreview op je digitale systeem via het [expert panel gebruiksvriendelijkheid van Gebruiker Centraal](https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/).
 
 ## Implementatie per fase
 

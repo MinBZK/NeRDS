@@ -18,8 +18,11 @@ jobs:
       - name: Valideer plugin.json
         run: python3 -c "import json; json.load(open('.plugin/plugin.json'))"
 
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
+
+      # Met uv, omdat het script het actieregister (YAML) leest.
       - name: Controleer plugin sync
-        run: python3 scripts/generate_plugin.py --check
+        run: uv run --locked python scripts/generate_plugin.py --check
 
   check-site:
     runs-on: ubuntu-latest

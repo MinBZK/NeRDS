@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit docs/richtlijnen/integratie/index.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit docs/richtlijnen/integratie/index.md. Wijzig dat bestand en draai: just plugin -->
 
 # 9. Integreer en pas technologie aan
 
@@ -17,15 +17,11 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
 
 ## Hoe pas je het toe?
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+**Direct aan de slag**
 
-    <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-
-    <div class="action-cards" data-richtlijn="integratie"></div>
-    </div>
+- [Common Ground](https://commonground.nl/): Visie voor moderne gegevensuitwisseling
+- [FSC](https://fsc-standaard.nl/): Open source gegevensuitwisselingssysteem
+- [Haven](https://haven.commonground.nl/): Platformonafhankelijke cloudhosting
 </div>
 
 ### Integratie-aanpak

@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit docs/richtlijnen/open-standaarden/index.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit docs/richtlijnen/open-standaarden/index.md. Wijzig dat bestand en draai: just plugin -->
 
 # 4. Gebruik open standaarden
 
@@ -18,15 +18,12 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
 
 ## Hoe pas je het toe?
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+**Direct aan de slag**
 
-    <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-
-    <div class="action-cards" data-richtlijn="open-standaarden"></div>
-    </div>
+- [API Standaarden](https://docs.geostandaarden.nl/api/API-Strategie/): Nederlandse API strategie
+- [Beslisboom Open Standaarden](https://www.forumstandaardisatie.nl/beslisboom/beslisboom-open-standaarden): Bepaal welke standaarden van toepassing zijn
+- [Developer Overheid API's](https://apis.developer.overheid.nl/apis): Overzicht van overheids-API's
+- Standaardenregister: Centrale standaardendatabase (status: ontwikkeling)
 </div>
 
 ## Gerelateerde standaarden

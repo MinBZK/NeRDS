@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit docs/richtlijnen/cloud/index.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit docs/richtlijnen/cloud/index.md. Wijzig dat bestand en draai: just plugin -->
 
 # 5. Gebruik cloud verantwoord en blijf wendbaar
 
@@ -49,15 +49,15 @@ Het [EU Cloud Sovereignty Framework](https://commission.europa.eu/document/09579
 
 ## Hoe pas je het toe?
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+**Direct aan de slag**
 
-    <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-
-    <div class="action-cards" data-richtlijn="cloud"></div>
-</div>
+- [Volwassenheidsmodel Digitale Autonomie](https://digitaleautonomie.pleio.nl/project/view/be08e155-19a1-4ac3-bddb-cc31a352f088/volwassenheidsmodel): Beoordeel zelf de digitale autonomie van uw organisatieprocessen (status: ontwikkeling)
+- Cloud Assessment: Beoordeel uw cloudgereedheid (status: concept)
+- Beslisboom Cloud: Helpt bij het kiezen van de juiste cloudoplossing (status: concept)
+- [Fundament](https://docs.fundament.projects.digilab.network/): Open source platform waarop de proef met de soevereine overheidscloud draait (status: ontwikkeling)
+- [Pre-scan DPIA & DPIA Formulier](https://minbzk.github.io/par-dpia-form/): Online formulier voor gegevensbeschermingseffectbeoordeling
+- [Haven](https://haven.commonground.nl/): Platformonafhankelijke cloudhosting
+- Kubernetes Service: Beheerde K8s met compliance (status: demo)
 
 ## Bewezen praktijken
 
@@ -65,52 +65,58 @@ Het [EU Cloud Sovereignty Framework](https://commission.europa.eu/document/09579
 
 Begin bij wat je functioneel wilt bereiken; cloud is een middel. Hoe gevoelig je gegevens zijn en hoe kritiek je processen, bepaalt waar je systeem mag draaien.
 
-??? expander "Praktische tips"
-    - **Start met de behoefte** - Formuleer wat je functioneel wilt bereiken voordat je over technologie nadenkt.
-    - **Geen cloud-tenzij** - Leg in je cloudstrategie vast wanneer cloud de voorkeur heeft, welke voordelen je verwacht en hoe je die borgt.
-    - **Classificeer je toepassing en data** - Ga uit van BIV-eisen of TBB-niveau. Gemeenten gebruiken de soevereiniteitsniveaus uit de [VNG-handreiking](https://vng.nl/sites/default/files/2026-07/handreiking-cloud-voor-gemeenten.pdf).
-    - **Voer de risicoanalyse uit** - Met een [DPIA](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia) en waar nodig een [DTIA](https://www.autoriteitpersoonsgegevens.nl/themas/internationaal/doorgifte-binnen-en-buiten-de-eer/doorgifte-persoonsgegevens-buiten-de-eer). Leg het restrisico vast en laat het formeel accepteren.
-    - **Beoordeel de jurisdictie, niet alleen de locatie** - Vraag onder welk recht de leverancier en het moederbedrijf vallen.
-    - **Kijk ook naar wat de overheid zelf biedt** - Weeg je keuze af tegen een overheidsdatacenter of een gedeelde overheidsvoorziening, en volg de ontwikkeling van [Fundament](https://docs.fundament.projects.digilab.network/).
-    - **Vermijd lift-en-shift** - Migreren zonder passende architectuur levert zelden de verwachte voordelen op en wel nieuwe risico's.
-    - **Vertel het verhaal** - Leg bestuurders uit welke continuïteitsrisico's je ziet en welke keuze je daarom maakt.
+**Praktische tips**
+
+- **Start met de behoefte** - Formuleer wat je functioneel wilt bereiken voordat je over technologie nadenkt.
+- **Geen cloud-tenzij** - Leg in je cloudstrategie vast wanneer cloud de voorkeur heeft, welke voordelen je verwacht en hoe je die borgt.
+- **Classificeer je toepassing en data** - Ga uit van BIV-eisen of TBB-niveau. Gemeenten gebruiken de soevereiniteitsniveaus uit de [VNG-handreiking](https://vng.nl/sites/default/files/2026-07/handreiking-cloud-voor-gemeenten.pdf).
+- **Voer de risicoanalyse uit** - Met een [DPIA](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia) en waar nodig een [DTIA](https://www.autoriteitpersoonsgegevens.nl/themas/internationaal/doorgifte-binnen-en-buiten-de-eer/doorgifte-persoonsgegevens-buiten-de-eer). Leg het restrisico vast en laat het formeel accepteren.
+- **Beoordeel de jurisdictie, niet alleen de locatie** - Vraag onder welk recht de leverancier en het moederbedrijf vallen.
+- **Kijk ook naar wat de overheid zelf biedt** - Weeg je keuze af tegen een overheidsdatacenter of een gedeelde overheidsvoorziening, en volg de ontwikkeling van [Fundament](https://docs.fundament.projects.digilab.network/).
+- **Vermijd lift-en-shift** - Migreren zonder passende architectuur levert zelden de verwachte voordelen op en wel nieuwe risico's.
+- **Vertel het verhaal** - Leg bestuurders uit welke continuïteitsrisico's je ziet en welke keuze je daarom maakt.
 
 ### 2. Ontwikkelen, ontwerpen en inkopen
 
 Koppel applicatie en data los van het onderliggende platform, zodat je kunt verhuizen als dat nodig is. Open source en open standaarden zijn daarvoor de basis (zie Werk transparant en gebruik open source (skill `/nerds-opensource`)).
 
 Ontwikkelen & ontwerpen
-??? expander "Praktische tips"
-    - **Bouw op open source en open standaarden** - Kies componenten die op meerdere platformen draaien, zoals [Kubernetes](https://kubernetes.io/) volgens de [Haven-standaard](https://haven.commonground.nl/). Isoleer diensten die maar bij één leverancier bestaan achter een eigen interface.
-    - **Ontwerp je exit vanaf dag één** - Dek een geplande overstap en een onverwachte uitval af, met een back-up buiten de cloudomgeving van dezelfde leverancier.
-    - **Zet je infrastructuur in code** - Met Infrastructure as Code, bijvoorbeeld [OpenTofu](https://opentofu.org/), en [GitOps](https://opengitops.dev/) bouw je een omgeving elders opnieuw op.
-    - **Versleutel en beheer je eigen sleutels** - Bewaar ook wachtwoorden en certificaten buiten je code, bijvoorbeeld met [OpenBao](https://openbao.org/).
-    - **Houd identity in eigen hand** - Wie de identiteiten beheert, heeft de sleutel tot alles.
-    - **Ontwerp op falen** - Definieer SLO's en SLI's en ga ervan uit dat systemen uitvallen. Zie het [Google SRE Book](https://sre.google/books/).
-    - **Bouw kennis op in je eigen organisatie** - Zorg dat eigen mensen het platform begrijpen en kunnen bedienen.
-    - **Beveilig en borg privacy vanaf het ontwerp** - Zie Maak veilige systemen (skill `/nerds-veiligheid`) en Maak privacy integraal (skill `/nerds-privacy`).
+
+**Praktische tips**
+
+- **Bouw op open source en open standaarden** - Kies componenten die op meerdere platformen draaien, zoals [Kubernetes](https://kubernetes.io/) volgens de [Haven-standaard](https://haven.commonground.nl/). Isoleer diensten die maar bij één leverancier bestaan achter een eigen interface.
+- **Ontwerp je exit vanaf dag één** - Dek een geplande overstap en een onverwachte uitval af, met een back-up buiten de cloudomgeving van dezelfde leverancier.
+- **Zet je infrastructuur in code** - Met Infrastructure as Code, bijvoorbeeld [OpenTofu](https://opentofu.org/), en [GitOps](https://opengitops.dev/) bouw je een omgeving elders opnieuw op.
+- **Versleutel en beheer je eigen sleutels** - Bewaar ook wachtwoorden en certificaten buiten je code, bijvoorbeeld met [OpenBao](https://openbao.org/).
+- **Houd identity in eigen hand** - Wie de identiteiten beheert, heeft de sleutel tot alles.
+- **Ontwerp op falen** - Definieer SLO's en SLI's en ga ervan uit dat systemen uitvallen. Zie het [Google SRE Book](https://sre.google/books/).
+- **Bouw kennis op in je eigen organisatie** - Zorg dat eigen mensen het platform begrijpen en kunnen bedienen.
+- **Beveilig en borg privacy vanaf het ontwerp** - Zie Maak veilige systemen (skill `/nerds-veiligheid`) en Maak privacy integraal (skill `/nerds-privacy`).
 
 Inkopen
-??? expander "Praktische tips"
-    - **Volg het cloudbeleid** - Meld materieel cloudgebruik vooraf bij CISO Rijk. Wijk je af van het beleid, meld dat dan vooraf bij CIO Rijk.
-    - **Kies soeverein of Europees waar het kan** - Leg bij een niet-Europese leverancier vast hoe je eruit komt.
-    - **Stel soevereiniteitseisen** - Vraag naar eigendom, toepasselijk recht, de locatie van data en beheer, en wat er gebeurt bij een overname. Met de SEAL-niveaus vergelijk je de antwoorden.
-    - **Leg de exit contractueel vast** - Regel de overdracht van data en applicaties bij beëindiging en de vernietiging daarna.
-    - **Vergelijk de totale kosten** - Reken migratie, training, dataverkeer naar buiten en exit mee, en reken ook het alternatief in een overheidsdatacenter door.
-    - **Stel dezelfde eisen aan jezelf** - Wat je van een leverancier vraagt, geldt ook voor je eigen organisatie.
-    - **Controleer compliance en duurzaamheid** - Vraag naar certificeringen en energieverbruik (zie Maak je technologie duurzaam (skill `/nerds-duurzaamheid`)).
+
+**Praktische tips**
+
+- **Volg het cloudbeleid** - Meld materieel cloudgebruik vooraf bij CISO Rijk. Wijk je af van het beleid, meld dat dan vooraf bij CIO Rijk.
+- **Kies soeverein of Europees waar het kan** - Leg bij een niet-Europese leverancier vast hoe je eruit komt.
+- **Stel soevereiniteitseisen** - Vraag naar eigendom, toepasselijk recht, de locatie van data en beheer, en wat er gebeurt bij een overname. Met de SEAL-niveaus vergelijk je de antwoorden.
+- **Leg de exit contractueel vast** - Regel de overdracht van data en applicaties bij beëindiging en de vernietiging daarna.
+- **Vergelijk de totale kosten** - Reken migratie, training, dataverkeer naar buiten en exit mee, en reken ook het alternatief in een overheidsdatacenter door.
+- **Stel dezelfde eisen aan jezelf** - Wat je van een leverancier vraagt, geldt ook voor je eigen organisatie.
+- **Controleer compliance en duurzaamheid** - Vraag naar certificeringen en energieverbruik (zie Maak je technologie duurzaam (skill `/nerds-duurzaamheid`)).
 
 ### 3. Testen, meten en verbeteren
 
 Een exitplan dat nooit is geoefend, is een aanname. Het aanbod en het beleid veranderen snel, dus herijk ook je keuze voor het platform.
 
-??? expander "Praktische tips"
-    - **Oefen je exit en je herstel** - Test de overstap, de noodprocedure en je back-ups, ook voor het geval dat de hele cloudomgeving onbereikbaar is.
-    - **Houd je cloudgebruik bij** - Registreer welke diensten je voor welke verwerkingen gebruikt en bij welke leverancier.
-    - **Herijk je afhankelijkheden** - Kijk periodiek of er een Europees of soeverein alternatief is gekomen, en of eigenaarschap of jurisdictie van je leverancier is veranderd.
-    - **Beheers de kosten** - Stel budgetlimieten in en betrek finance en engineering bij cloudbeslissingen. Zie de [FinOps Foundation](https://www.finops.org/).
-    - **Monitor beveiliging en prestaties** - Bewaak je omgeving, meet tegen je SLO's en voer regelmatig audits uit.
-    - **Deel wat je leert** - Publiceer ervaringen binnen de overheid.
+**Praktische tips**
+
+- **Oefen je exit en je herstel** - Test de overstap, de noodprocedure en je back-ups, ook voor het geval dat de hele cloudomgeving onbereikbaar is.
+- **Houd je cloudgebruik bij** - Registreer welke diensten je voor welke verwerkingen gebruikt en bij welke leverancier.
+- **Herijk je afhankelijkheden** - Kijk periodiek of er een Europees of soeverein alternatief is gekomen, en of eigenaarschap of jurisdictie van je leverancier is veranderd.
+- **Beheers de kosten** - Stel budgetlimieten in en betrek finance en engineering bij cloudbeslissingen. Zie de [FinOps Foundation](https://www.finops.org/).
+- **Monitor beveiliging en prestaties** - Bewaak je omgeving, meet tegen je SLO's en voer regelmatig audits uit.
+- **Deel wat je leert** - Publiceer ervaringen binnen de overheid.
 
 ## Implementatie per fase
 

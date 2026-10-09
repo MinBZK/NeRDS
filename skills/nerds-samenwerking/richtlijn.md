@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit docs/richtlijnen/samenwerking/index.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit docs/richtlijnen/samenwerking/index.md. Wijzig dat bestand en draai: just plugin -->
 
 # 8. Deel, hergebruik en werk samen
 
@@ -18,15 +18,11 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
 
 ## Hoe pas je het toe?
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+**Direct aan de slag**
 
-    <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-
-    <div class="action-cards" data-richtlijn="samenwerking"></div>
-    </div>
+- [Developer Overheid](https://developer.overheid.nl/): Communities voor overheidsontwikkelaars
+- GovHub: Centrale hub voor overheidscomponenten (status: concept)
+- [NL Design System](https://www.nldesignsystem.nl): Samen bouwen aan gebruiksvriendelijke overheidswebsites
 </div>
 
 ## Gerelateerde hulpmiddelen

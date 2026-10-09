@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit docs/richtlijnen/privacy/index.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit docs/richtlijnen/privacy/index.md. Wijzig dat bestand en draai: just plugin -->
 
 # 7. Maak privacy integraal
 
@@ -18,15 +18,12 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
 
 ## Hoe pas je het toe?
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+**Direct aan de slag**
 
-    <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-
-    <div class="action-cards" data-richtlijn="privacy"></div>
-    </div>
+- [Pre-scan DPIA & DPIA Formulier](https://minbzk.github.io/par-dpia-form/): Online formulier voor gegevensbeschermingseffectbeoordeling
+- [DPIA-model](https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia): Model voor gegevensbeschermingseffectbeoordeling
+- [NICPET Tools](https://nicpet.pleio.nl/): Privacy-bevorderende technologieën (status: ontwikkeling)
+- Privacy Check: Geautomatiseerde privacycheck (status: concept)
 </div>
 
 ## Gerelateerde hulpmiddelen

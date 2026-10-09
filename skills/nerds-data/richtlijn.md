@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit docs/richtlijnen/data/index.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit docs/richtlijnen/data/index.md. Wijzig dat bestand en draai: just plugin -->
 
 # 10. Maak beter gebruik van data
 
@@ -17,15 +17,11 @@ Door data effectiever te gebruiken, kunnen overheidsorganisaties betere diensten
 
 ## Hoe pas je het toe?
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+**Direct aan de slag**
 
-    <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-
-    <div class="action-cards" data-richtlijn="data"></div>
-    </div>
+- Datacheck: Tool voor datakwaliteitscontrole (status: ontwikkeling)
+- [Open Data](https://data.overheid.nl/): Het open dataportaal van de overheid
+- [Synthetische Data](https://digilab.overheid.nl/projecten/synthetische-datageneratie/): Genereer veilige testdata (status: concept)
 </div>
 
 ## Gerelateerde hulpmiddelen

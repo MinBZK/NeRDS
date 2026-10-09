@@ -7,8 +7,12 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:
+      # Not on the guideline text in skills/: generate_plugin.py writes those
+      # files, and a fixer that changes them would undo itself on the next run.
       - id: end-of-file-fixer
+        exclude: &generated ^skills/[^/]+/(richtlijn|fases|richtlijnen)\.md$
       - id: trailing-whitespace
+        exclude: *generated
       - id: check-yaml
         exclude: mkdocs.yml
       - id: check-json
@@ -23,7 +27,8 @@ repos:
         args: [--fix]
         # release-please writes the changelog in its own style; the page
         # Versies on the site is a symlink to it.
-        exclude: ^(CHANGELOG\.md|docs/Over-NeRDS/versies\.md)$
+        # Nor on the guideline text in skills/, see above; its source is linted.
+        exclude: ^(CHANGELOG\.md|docs/Over-NeRDS/versies\.md|skills/[^/]+/(richtlijn|fases|richtlijnen)\.md)$
   - repo: local
     hooks:
       # Rewrites the guideline text in skills/ from docs/richtlijnen/. A
@@ -33,8 +38,10 @@ repos:
         name: Generate the plugin files and the skills from docs/richtlijnen
         entry: python scripts/generate_plugin.py
         language: python
-        files: ^(docs/richtlijnen/|skills/|\.plugin/|mkdocs\.yml$|scripts/generate_plugin\.py$)
+        files: ^(docs/richtlijnen/|docs/action-registry/|skills/|\.plugin/|mkdocs\.yml$|scripts/generate_plugin\.py$|src/hooks/action_registry\.py$)
         pass_filenames: false
+        # For the action registry, which the script reads through the site hook.
+        additional_dependencies: [pyyaml]
       - id: validate-richtlijnen
         name: Validate NeRDS richtlijn files
         entry: python scripts/validate_richtlijn.py

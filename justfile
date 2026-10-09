@@ -26,4 +26,4 @@ image-run: image-build
 
 # Regenerate the plugin manifests and the guideline text in skills/ from docs/richtlijnen
 plugin:
-    python3 scripts/generate_plugin.py
+    uv run python scripts/generate_plugin.py

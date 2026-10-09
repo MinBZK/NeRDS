@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit docs/richtlijnen/gebruikersbehoeften/fases.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit docs/richtlijnen/gebruikersbehoeften/fases.md. Wijzig dat bestand en draai: just plugin -->
 
 ## Wanneer doe je wat?
 
@@ -6,14 +6,17 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 
 ### 1. Verkenningsfase
 
-!!! info "Doel"
-    Begrijp het gehele probleem en de gebruikers voordat je oplossingen bedenkt.
+**Doel**
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+Begrijp het gehele probleem en de gebruikers voordat je oplossingen bedenkt.
 
-    <div class="action-cards" data-richtlijn="gebruikersbehoeften" data-fase="verkenning"></div>
-</div>
+**Direct aan de slag**
+
+- [Stappenplan gebruikersonderzoek](https://gebruikersonderzoeken.nl/docs/onderzoek-doen/): Een praktisch stappenplan voor het uitvoeren van gebruikersonderzoek
+- [Toestemmingsformulier gebruikersonderzoek](https://gebruikersonderzoeken.nl/docs/onderzoek-doen/toestemmingsformulier/): Een voorbeeld toestemmingsformulier voor gebruikersonderzoek
+- [CX-Volwassenheidsscan](https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/07/Handboek-voor-het-uitvoeren-van-een-CV-Volwassenheidsscan.pdf): Handboek voor het transformeren naar klantgedreven werken
+- [Gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken/): Leer van andere onderzoeken en deel je bevindingen
+- [Meethuis voor dienstverlening](https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/04/Meethuis-Handboek-2025-v2.pdf): Voor het maken van een meethuis voor dienstverlening
 
 **Gewenste uitkomsten:**
 
@@ -34,14 +37,16 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 
 ### 2. Ontwerpfase (Alpha)
 
-!!! info "Doel"
-    Test of je oplossingsrichting het probleem oplost.
+**Doel**
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+Test of je oplossingsrichting het probleem oplost.
 
-    <div class="action-cards" data-richtlijn="gebruikersbehoeften" data-fase="ontwerp"></div>
-</div>
+**Direct aan de slag**
+
+- [Toolkit Taal](https://toolkittaal.gebruikercentraal.nl/richtlijnen/): Richtlijnen voor tekst en beeldtaal in overheidscommunicatie
+- [Optimaal Digitaal Tipkaarten](https://optimaaldigitaal.gebruikercentraal.nl/tipkaarten/overzicht-van-alle-tips/): Praktische tips voor digitale dienstverlening
+- [NL Design System](https://www.nldesignsystem.nl): Samen bouwen aan gebruiksvriendelijke overheidswebsites
+- [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system): Toegankelijke web components in de Rijkshuisstijl, met skills voor AI-codeerassistenten (status: ontwikkeling)
 
 **Gewenste uitkomsten:**
 
@@ -53,14 +58,17 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 
 ### 3. Bouwfase (Beta)
 
-!!! info "Doel"
-    Bouw en test je dienst in productie.
+**Doel**
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+Bouw en test je dienst in productie.
 
-    <div class="action-cards" data-richtlijn="gebruikersbehoeften" data-fase="bouw"></div>
-</div>
+**Direct aan de slag**
+
+- [Toolkit Taal](https://toolkittaal.gebruikercentraal.nl/richtlijnen/): Richtlijnen voor tekst en beeldtaal in overheidscommunicatie
+- [Optimaal Digitaal Tipkaarten](https://optimaaldigitaal.gebruikercentraal.nl/tipkaarten/overzicht-van-alle-tips/): Praktische tips voor digitale dienstverlening
+- [NL Design System](https://www.nldesignsystem.nl): Samen bouwen aan gebruiksvriendelijke overheidswebsites
+- [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system): Toegankelijke web components in de Rijkshuisstijl, met skills voor AI-codeerassistenten (status: ontwikkeling)
+- [Expertreview Gebruikersbehoefte](https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/aanvragen-expertreview/): Een expertreview gebruiksvriendelijkheid laten uitvoeren
 
 **Gewenste uitkomsten:**
 
@@ -73,14 +81,13 @@ Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase va
 
 ### 4. Productie
 
-!!! info "Doel"
-    Blijf verbeteren en aanpassen aan veranderende behoeften.
+**Doel**
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+Blijf verbeteren en aanpassen aan veranderende behoeften.
 
-    <div class="action-cards" data-richtlijn="gebruikersbehoeften" data-fase="productie"></div>
-</div>
+**Direct aan de slag**
+
+- [Gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken/): Leer van andere onderzoeken en deel je bevindingen
 
 **Gewenste uitkomsten:**
 

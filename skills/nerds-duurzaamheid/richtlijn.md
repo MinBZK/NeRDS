@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit docs/richtlijnen/duurzaamheid/index.md. Wijzig dat bestand en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit docs/richtlijnen/duurzaamheid/index.md. Wijzig dat bestand en draai: just plugin -->
 
 # 13. Maak je technologie duurzaam
 
@@ -18,15 +18,12 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
 
 ## Hoe pas je het toe?
 
-<div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+**Direct aan de slag**
 
-    <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
-    </div>
-
-    <div class="action-cards" data-richtlijn="duurzaamheid"></div>
-    </div>
+- [Web Sustainability Guidelines](https://www.w3.org/TR/web-sustainability-guidelines/): Richtlijnen voor duurzame webontwikkeling
+- [CO2-calculator](https://www.metenvanduurzaamheid.nl/overzicht-tools/monitoring-als-tool-voor-bedrijven-en-organisaties/co2-prestatieladder-en-co2-calculator): Bereken de CO2-impact van uw IT (status: concept)
+- Green Coding: Best practices voor duurzame software (status: ontwikkeling)
+- [ICT MVI-criteria](https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria): Duurzaamheidscriteria voor ICT-inkoop
 </div>
 
 #### 1. Planning en ontwerp

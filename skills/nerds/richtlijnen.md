@@ -1,4 +1,4 @@
-<!-- Gegenereerd uit de front matter in docs/richtlijnen/. Wijzig die bestanden en draai: python scripts/generate_plugin.py -->
+<!-- Gegenereerd uit de front matter in docs/richtlijnen/. Wijzig die bestanden en draai: just plugin -->
 
 # De richtlijnen van de NeRDS
 
