@@ -1,0 +1,62 @@
+# Machine-leesbare metadata volgens de publiccode.yml-standaard, voor de
+# open-sourcecatalogus op developer.overheid.nl.
+
+publiccodeYmlVersion: "0.7"
+
+name: Nederlandse Richtlijn Digitale Systemen
+url: "https://github.com/NederlandseDigitaleDienst/NeRDS"
+landingURL: "https://nerds.digitaledienst.overheid.nl"
+
+softwareType: standalone/web
+developmentStatus: beta
+
+platforms:
+  - web
+
+categories:
+  - knowledge-management
+
+description:
+  nl:
+    shortDescription: >-
+      Richtlijnen en praktische hulpmiddelen voor het verantwoord ontwerpen,
+      ontwikkelen en inkopen van digitale systemen bij de overheid.
+    longDescription: >-
+      De Nederlandse Richtlijn Digitale Systemen (NeRDS) is een set
+      standaarden, richtlijnen en praktische hulpmiddelen voor het verantwoord
+      ontwerpen, ontwikkelen en inkopen van digitale systemen binnen de
+      Nederlandse overheid. De Nederlandse Digitale Dienst ontwikkelt de
+      richtlijn in het open op GitHub, zodat iedereen kan meelezen en een
+      wijziging kan voorstellen.
+
+      De inhoud staat in Markdown-bestanden in de map docs. MkDocs maakt
+      daar een website van, vormgegeven met het NLDD Designsysteem in de
+      Rijkshuisstijl. Elke pull request wordt getest op toegankelijkheid
+      tegen WCAG 2.1 AA. De repository levert de richtlijnen ook als skills
+      voor AI-assistenten zoals Claude Code en Cursor.
+    features:
+      - Richtlijnen met bewezen praktijken per fase
+      - Website in de Rijkshuisstijl
+      - Skills voor AI-assistenten
+      - Geautomatiseerde toegankelijkheidstest
+
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: Nederlandse Digitale Dienst
+
+maintenance:
+  type: internal
+  contacts:
+    - name: Nederlandse Digitale Dienst
+      email: bureau.architectuur@minbzk.nl
+
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - nl
+
+intendedAudience:
+  countries:
+    - NL
+  scope:
+    - government
