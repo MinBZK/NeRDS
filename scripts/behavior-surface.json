@@ -563,6 +563,7 @@
       "#020-2026-10-06",
       "#031-2026-10-09",
       "#032-2026-10-09",
+      "#033-2026-10-10",
       "#content",
       "#inhoud",
       "#inhoud_1",
@@ -572,6 +573,7 @@
       "#plugin-voor-ai-assistenten",
       "#verbeterd",
       "#verbeterd_1",
+      "#verbeterd_2",
       "#website",
       "#website_1",
       "#website_2",
@@ -588,14 +590,19 @@
       "https://digitaledienst.overheid.nl/",
       "https://github.com/NederlandseDigitaleDienst/NeRDS",
       "https://github.com/NederlandseDigitaleDienst/NeRDS/commit/15f2c431df7d5bc85162d43166f27bce15fc5294",
+      "https://github.com/NederlandseDigitaleDienst/NeRDS/commit/30e4a4158bf3a9a6ef1b9a7d01ea6dac9cf9bcc1",
       "https://github.com/NederlandseDigitaleDienst/NeRDS/commit/463ca448c1b9c5a4b8fb1b1b205193670705cd62",
+      "https://github.com/NederlandseDigitaleDienst/NeRDS/commit/a11cb132a7a33f76d90f8e64cdafd65c971a25b3",
       "https://github.com/NederlandseDigitaleDienst/NeRDS/compare/v0.1.0...v0.1.1",
       "https://github.com/NederlandseDigitaleDienst/NeRDS/compare/v0.1.1...v0.2.0",
       "https://github.com/NederlandseDigitaleDienst/NeRDS/compare/v0.2.0...v0.3.1",
       "https://github.com/NederlandseDigitaleDienst/NeRDS/compare/v0.3.1...v0.3.2",
+      "https://github.com/NederlandseDigitaleDienst/NeRDS/compare/v0.3.2...v0.3.3",
       "https://github.com/NederlandseDigitaleDienst/NeRDS/edit/main/docs/Over-NeRDS/versies.md",
       "https://github.com/NederlandseDigitaleDienst/NeRDS/issues/429",
       "https://github.com/NederlandseDigitaleDienst/NeRDS/issues/431",
+      "https://github.com/NederlandseDigitaleDienst/NeRDS/issues/434",
+      "https://github.com/NederlandseDigitaleDienst/NeRDS/issues/435",
       "https://github.com/NederlandseDigitaleDienst/NeRDS/releases/tag/v0.1.0",
       "https://overheid.nl/",
       "https://www.digitaleoverheid.nl/",
@@ -616,6 +623,7 @@
       "020-2026-10-06",
       "031-2026-10-09",
       "032-2026-10-09",
+      "033-2026-10-10",
       "content",
       "content-section",
       "feedback-add-link",
@@ -646,6 +654,7 @@
       "sidebar-open",
       "verbeterd",
       "verbeterd_1",
+      "verbeterd_2",
       "versies",
       "website",
       "website_1",
@@ -812,7 +821,7 @@
       "#3-bouwfase-beta",
       "#4-productie",
       "#content",
-      "#wanneer-doe-je-wat",
+      "#fases-en-gewenste-uitkomsten",
       "../",
       "../#communities-en-trainingen",
       "../../",
@@ -896,6 +905,7 @@
       "content-section",
       "cost-estimation",
       "create-cluster-form",
+      "fases-en-gewenste-uitkomsten",
       "feedback-add-link",
       "feedback-errors",
       "feedback-form",
@@ -944,7 +954,6 @@
       "spinner",
       "spinner-indicator",
       "sso-login",
-      "wanneer-doe-je-wat",
       "yearly-cost",
       "yubikey-login"
     ]
@@ -1323,7 +1332,7 @@
       "#3-bouwfase-beta",
       "#4-productie",
       "#content",
-      "#wanneer-doe-je-wat",
+      "#fases-en-gewenste-uitkomsten",
       "../",
       "../../",
       "../../..",
@@ -1384,6 +1393,7 @@
       "aanvullend-indien-passend",
       "content",
       "content-section",
+      "fases-en-gewenste-uitkomsten",
       "feedback-add-link",
       "feedback-errors",
       "feedback-form",
@@ -1407,8 +1417,7 @@
       "search-query",
       "search-results",
       "search-sheet",
-      "sidebar-open",
-      "wanneer-doe-je-wat"
+      "sidebar-open"
     ]
   },
   "richtlijnen/gebruikersbehoeften/index.html": {
@@ -1796,7 +1805,7 @@
       "#3-bouwfase-beta",
       "#4-productie",
       "#content",
-      "#wanneer-doe-je-wat",
+      "#fases-en-gewenste-uitkomsten",
       "../",
       "../../",
       "../../..",
@@ -1860,6 +1869,7 @@
       "aanvullend-indien-passend_3",
       "content",
       "content-section",
+      "fases-en-gewenste-uitkomsten",
       "feedback-add-link",
       "feedback-errors",
       "feedback-form",
@@ -1883,8 +1893,7 @@
       "search-query",
       "search-results",
       "search-sheet",
-      "sidebar-open",
-      "wanneer-doe-je-wat"
+      "sidebar-open"
     ]
   },
   "richtlijnen/open-source/index.html": {
@@ -2273,7 +2282,7 @@
       "#3-bouwfase-beta",
       "#4-productie",
       "#content",
-      "#wanneer-doe-je-wat",
+      "#fases-en-gewenste-uitkomsten",
       "../",
       "../../",
       "../../..",
@@ -2339,6 +2348,7 @@
       "aanvullend-indien-passend_2",
       "content",
       "content-section",
+      "fases-en-gewenste-uitkomsten",
       "feedback-add-link",
       "feedback-errors",
       "feedback-form",
@@ -2362,8 +2372,7 @@
       "search-query",
       "search-results",
       "search-sheet",
-      "sidebar-open",
-      "wanneer-doe-je-wat"
+      "sidebar-open"
     ]
   },
   "richtlijnen/toegankelijkheid/index.html": {

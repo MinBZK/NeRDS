@@ -1,12 +1,12 @@
 ---
-title: "Fases en gewenste uitkomsten 1. Stel gebruikersbehoeften vast"
+title: "Gebruikersbehoeften: wanneer doe je wat?"
 summary: Gebruikersonderzoek is een doorlopend proces. Hieronder staat per fase wat je doet.
 relations:
   - gebruikersonderzoek
 ---
 
 
-## Wanneer doe je wat?
+## Fases en gewenste uitkomsten
 
 Gebruikersonderzoek is een doorlopend proces. Deze pagina beschrijft per fase van ontwerpen, ontwikkelen en inkopen hoe je gebruikersonderzoek inzet en welke uitkomsten je mag verwachten.
 

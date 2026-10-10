@@ -1,6 +1,6 @@
 <!-- Gegenereerd uit docs/richtlijnen/toegankelijkheid/fases.md. Wijzig dat bestand en draai: just plugin -->
 
-## Wanneer doe je wat?
+## Fases en gewenste uitkomsten
 
 Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van ontwerpen, ontwikkelen en inkopen hoe je toegankelijkheid en inclusie borgt en welke uitkomsten je mag verwachten.
 

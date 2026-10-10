@@ -1,6 +1,6 @@
 <!-- Gegenereerd uit docs/richtlijnen/open-source/fases.md. Wijzig dat bestand en draai: just plugin -->
 
-## Wanneer doe je wat?
+## Fases en gewenste uitkomsten
 
 Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande oplossingen tot het actief onderhouden van open source gemeenschappen. Deze pagina beschrijft per fase van ontwerpen, ontwikkelen en inkopen welke stappen je zet en welke uitkomsten je mag verwachten.
 

@@ -29,6 +29,16 @@ nldd-sidebar-section[collapsed] .sidebar-trigger {
 	gap: var(--primitives-space-12);
 }
 
+/* Text for a screen reader only: part of the name, not of what you see. */
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip-path: inset(50%);
+	white-space: nowrap;
+}
+
 /* The link groups in the footer are lists, so a screen reader says how many
    links each group has. They keep the look of a column of links. */
 .footer-links {

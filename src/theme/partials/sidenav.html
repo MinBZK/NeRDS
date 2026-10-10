@@ -9,7 +9,15 @@
   {%- for child in item.children[1:] %}
   <nldd-list-item href="{{ child.url | url }}"{% if child.active %} current{% endif %}>
     <nldd-spacer-cell size="16"></nldd-spacer-cell>
+    {#- A page under a guideline is named "Cloud: wanneer doe je wat?". Under
+        its guideline the menu shows only the second part; the first part stays
+        in the name a screen reader reads, so four links do not sound alike. -#}
+    {%- set name = child.title.split(': ', 1) %}
+    {%- if name | length == 2 %}
+    <nldd-text-cell size="sm"><span class="visually-hidden">{{ name[0] | e }}: </span>{{ name[1] | capitalize | e }}</nldd-text-cell>
+    {%- else %}
     <nldd-text-cell size="sm" text="{{ child.title | e }}"></nldd-text-cell>
+    {%- endif %}
   </nldd-list-item>
   {%- endfor %}
   {%- else %}

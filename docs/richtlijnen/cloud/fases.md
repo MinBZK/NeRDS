@@ -1,5 +1,5 @@
 ---
-title: "Fases en gewenste uitkomsten 5. Gebruik cloud verantwoord en blijf wendbaar"
+title: "Cloud: wanneer doe je wat?"
 summary: Verantwoord cloudgebruik is een doorlopend proces. Hieronder staat per fase wat je doet.
 relations:
   - cloud
@@ -7,7 +7,7 @@ relations:
   - privacy
 ---
 
-## Wanneer doe je wat?
+## Fases en gewenste uitkomsten
 
 Verantwoord cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je systeem draait tot het jaarlijks toetsen van je exitplan. Deze pagina beschrijft per fase van ontwerpen, ontwikkelen en inkopen welke stappen je zet en welke uitkomsten je mag verwachten.
 
