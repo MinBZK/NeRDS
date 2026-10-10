@@ -1,4 +1,6 @@
-<nldd-skip-link slot="header">
+{#- With an href the skip link is a real link to the content. Without one the
+    component focuses its next sibling, which here is the noscript block. -#}
+<nldd-skip-link slot="header" href="#content" text="Ga direct naar de inhoud">
   <nldd-top-navigation-bar
     logo-title="Nederlandse Digitale Dienst"
     logo-subtitle="Ministerie van Economische Zaken en Klimaat"
@@ -16,9 +18,10 @@
       {%- endfor %}
     </nldd-menu-bar>
     <nldd-menu-bar slot="utility">
-      <nldd-menu-bar-item id="search-open" text="Zoeken" icon="search" content-priority="icon" haspopup="dialog"></nldd-menu-bar-item>
-      <nldd-menu-bar-item id="feedback-open" text="Feedback" icon="message-rectangle-text" content-priority="icon" haspopup="dialog"></nldd-menu-bar-item>
+      <nldd-menu-bar-item id="search-open" text="Zoeken" icon="search" content-priority="text" haspopup="dialog"></nldd-menu-bar-item>
+      <nldd-menu-bar-item id="feedback-open" text="Feedback" icon="message-rectangle-text" content-priority="text" haspopup="dialog"></nldd-menu-bar-item>
       {%- if config.repo_url %}
+      {#- Icon first here: three words do not fit beside the menu button at 320 pixels. #}
       <nldd-menu-bar-item text="GitHub" icon="git-branch" content-priority="icon" href="{{ config.repo_url }}"></nldd-menu-bar-item>
       {%- endif %}
     </nldd-menu-bar>

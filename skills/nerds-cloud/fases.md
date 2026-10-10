@@ -16,7 +16,7 @@ Bepaal wat je systeem nodig heeft aan soevereiniteit en kies op basis daarvan wa
 - [Fundament](https://docs.fundament.projects.digilab.network/): Open source platform waarop de proef met de soevereine overheidscloud draait (status: ontwikkeling)
 - [Pre-scan DPIA & DPIA Formulier](https://minbzk.github.io/par-dpia-form/): Online formulier voor gegevensbeschermingseffectbeoordeling
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt een heldere behoeftestelling die beschrijft wat je functioneel wilt bereiken inclusief of cloud geschikt is voor je digitale systeem
 - [ ] Je rol (maker of inkoper) is bepaald en bepalend voor je sourcing-strategie
@@ -25,7 +25,7 @@ Bepaal wat je systeem nodig heeft aan soevereiniteit en kies op basis daarvan wa
 - [ ] Je hebt je toepassing en data geclassificeerd (BIV-eisen of TBB-niveau) en weet welk beschermingsniveau nodig is
 - [ ] Je hebt de opties afgewogen (overheidsdatacenter of gedeelde overheidsvoorziening, Europese leverancier, publieke cloud) en weet onder welke jurisdictie elke leverancier valt
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Workload definitie: bepaal compute, storage, netwerk en piekmomenten
 - Onderzoek naar cloudgebruik door andere overheidsorganisaties
@@ -47,7 +47,7 @@ Ontwerp je cloudarchitectuur met aandacht voor beveiliging, soevereiniteit en ex
 - [Fundament](https://docs.fundament.projects.digilab.network/): Open source platform waarop de proef met de soevereine overheidscloud draait (status: ontwikkeling)
 - [Haven](https://haven.commonground.nl/): Platformonafhankelijke cloudhosting
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt een cloudarchitectuur ontworpen die cloud-native en portabel is
 - [ ] Je hebt een platform of leverancier gekozen die past bij het soevereiniteitsniveau dat je nodig hebt
@@ -57,7 +57,7 @@ Ontwerp je cloudarchitectuur met aandacht voor beveiliging, soevereiniteit en ex
 - [ ] Je hebt een secrets management strategie bepaald
 - [ ] Je architectuur gebruikt open standaarden waar mogelijk om vendor lock-in te beperken
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Infrastructure as Code (IaC) strategie bepaald
 - Identity en access management architectuur ontworpen
@@ -79,7 +79,7 @@ Bouw en test je cloudomgeving met aandacht voor beveiliging, kostenbeheersing en
 
 - [Haven](https://haven.commonground.nl/): Platformonafhankelijke cloudhosting
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt beveiliging geïmplementeerd (IAM, encryption, netwerksegmentatie)
 - [ ] Je hebt secrets management ingericht (zie de richtlijn 3. Werk transparant en gebruik open source (skill `/nerds-opensource`))
@@ -88,7 +88,7 @@ Bouw en test je cloudomgeving met aandacht voor beveiliging, kostenbeheersing en
 - [ ] Je hebt compliance gevalideerd en voldoet aan de verplichte regelgeving
 - [ ] Je hebt materieel cloudgebruik vóór de implementatie gemeld bij CISO Rijk (Rijksoverheid)
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Cloudomgeving gebouwd met IaC/GitOps
 - Kostenbewaking ingesteld met budgetlimieten
@@ -105,7 +105,7 @@ Bouw en test je cloudomgeving met aandacht voor beveiliging, kostenbeheersing en
 
 Monitor, optimaliseer en beveilig je cloudomgeving continu.
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt security monitoring actief en reageert proactief op bedreigingen
 - [ ] Je voert regelmatig compliance checks uit en blijft voldoen aan regelgeving
@@ -113,7 +113,7 @@ Monitor, optimaliseer en beveilig je cloudomgeving continu.
 - [ ] Je toetst je exitplan en beoordeelt het elk jaar op actualiteit
 - [ ] Je houdt bij welke clouddiensten je voor welke verwerkingen gebruikt en bij welke leverancier
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - [FinOps Foundation](https://www.finops.org/) principes toegepast voor kostenoptimalisatie
 - Disaster recovery tests uitgevoerd

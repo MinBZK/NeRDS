@@ -18,7 +18,7 @@ Begrijp het gehele probleem en de gebruikers voordat je oplossingen bedenkt.
 - [Gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken/): Leer van andere onderzoeken en deel je bevindingen
 - [Meethuis voor dienstverlening](https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2025/04/Meethuis-Handboek-2025-v2.pdf): Voor het maken van een meethuis voor dienstverlening
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt met echte gebruikers gesproken over hun huidige situatie en behoeften
 - [ ] Je hebt bestaande informatie (zoals vragen, klachten of gebruiks(web)data) gebruikt
@@ -26,7 +26,7 @@ Begrijp het gehele probleem en de gebruikers voordat je oplossingen bedenkt.
 - [ ] Inzichten zijn vastgelegd en gedeeld binnen het team en met bestuurders
 - [ ] Indien nodig, heb je een toestemmingsformulier gebruikt en rekening gehouden met privacy (AVG)
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Interviews en focusgroepen met meerdere doelgroepen
 - Persona's en/of klantreizen
@@ -48,7 +48,7 @@ Test of je oplossingsrichting het probleem oplost.
 - [NL Design System](https://www.nldesignsystem.nl): Samen bouwen aan gebruiksvriendelijke overheidswebsites
 - [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system): Toegankelijke web components in de Rijkshuisstijl, met skills voor AI-codeerassistenten (status: ontwikkeling)
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt ten minste één ontwerp of prototype getest met een breed scala aan gebruikers, waaronder mensen met beperkte digitale toegang en mensen met verschillende visuele, auditieve, motorische en cognitieve beperkingen
 - [ ] Er zijn testresultaten verzameld die leiden tot aantoonbare aanpassingen
@@ -70,7 +70,7 @@ Bouw en test je dienst in productie.
 - [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system): Toegankelijke web components in de Rijkshuisstijl, met skills voor AI-codeerassistenten (status: ontwikkeling)
 - [Expertreview Gebruikersbehoefte](https://www.gebruikercentraal.nl/hulpmiddelen/expertpanel-gebruiksvriendelijkheid/aanvragen-expertreview/): Een expertreview gebruiksvriendelijkheid laten uitvoeren
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je dienst is getest met echte gebruikers in productie
 - [ ] Alle eindgebruikers kunnen de dienst gebruiken
@@ -89,7 +89,7 @@ Blijf verbeteren en aanpassen aan veranderende behoeften.
 
 - [Gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl/docs/onderzoek-bekijken/): Leer van andere onderzoeken en deel je bevindingen
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je meet gebruikerservaring structureel
 - [ ] Je dienst past zich aan veranderende behoeften aan waardoor deze effectief en relevant blijft

@@ -16,18 +16,18 @@ Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande
     Onderzoek of open source past bij je project en verken beschikbare oplossingen.
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+    <h4>Direct aan de slag</h4>
     <div class="action-cards" data-richtlijn="open-source" data-fase="verkenning"></div>
 </div>
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt onderzocht welke open source alternatieven er bestaan
 - [ ] Je hebt total cost of ownership en vendor lock-in risico geëvalueerd
 - [ ] Je begrijpt het open-tenzij beleid en hoe dit op jouw project van toepassing is
 - [ ] Je hebt contact gelegd met relevante open source gemeenschappen
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Onderzoek hergebruik door andere overheidsorganisaties
 - Voer een security assessment uit op kandidaat-oplossingen
@@ -41,11 +41,11 @@ Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande
     Maak beslissingen over het gebruiken en publiceren van open-source code
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+    <h4>Direct aan de slag</h4>
     <div class="action-cards" data-richtlijn="open-source" data-fase="ontwerp"></div>
 </div>
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt bepaald of je project onder het [open-tenzij beleid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/open-source/beleid/) valt (uitgangspunt: ja, tenzij het gaat om onaangekondigde beleidsmaatregelen, beveiligingsfuncties zoals fraudepreventie, of staatsgeheimen, en je hebt dit goed gemotiveerd)
 - [ ] Je hebt een publieke repository aangemaakt
@@ -54,7 +54,7 @@ Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande
 - [ ] Je hebt een keuze gemaakt hoe te documenteren en dit gekoppeld aan je publieke repository
 - [ ] Afspraken over opensourcewerken zijn gemaakt binnen het team (gebruik de Ambitieladder)
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Stel een governance-model op voor bijdragen en onderhoud
 - Maak een CONTRIBUTING.md en Code of Conduct
@@ -69,18 +69,18 @@ Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande
     Bouw de dienst in de open repository en zorg dat code klaar is voor hergebruik door anderen.
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+    <h4>Direct aan de slag</h4>
     <div class="action-cards" data-richtlijn="open-source" data-fase="bouw"></div>
 </div>
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt een README.md met installatie-instructies
 - [ ] Je hebt bestaande code gereviewd op kwetsbaarheden en hard-coded secrets
 - [ ] De code is getest op installeerbaarheid door externe developers
 - [ ] CI/CD pipelines zijn ingericht voor automatisch testen
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Voeg documentatie toe over architectuur en ontwerpbeslissingen
 - Richt dependency management in met automatische security updates
@@ -94,11 +94,11 @@ Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande
     Onderhoud de code en gemeenschap actief en zorg voor snelle security responses.
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+    <h4>Direct aan de slag</h4>
     <div class="action-cards" data-richtlijn="open-source" data-fase="productie"></div>
 </div>
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je code is gepubliceerd op een publiek platform (code.overheid.nl zodra beschikbaar)
 - [ ] Je hebt een onderhoudsniveau gecommuniceerd
@@ -107,7 +107,7 @@ Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande
 - [ ] Je reageert tijdig op issues en pull requests
 - [ ] Inzichten en learnings worden gedeeld met de opensourcewerken community
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Onderhoud een publieke issue list voor transparantie
 - Draag bij aan upstream projecten

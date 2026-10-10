@@ -8,6 +8,11 @@ theme:
   static_templates:
     - 404.html
 
+# The action registry is data for the hooks and the plugin. Its two Markdown
+# files are notes for maintainers, not pages: nothing on the site links to them.
+exclude_docs: |
+  /action-registry/*.md
+
 nav:
   - Home: index.md
   - Richtlijnen:

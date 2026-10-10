@@ -17,13 +17,13 @@ Begrijp toegankelijkheidseisen en de behoeften van gebruikers met diverse achter
 - [Stappenplan Inclusief Ontwerpen](https://toolkitinclusie.gebruikercentraal.nl/inclusief-ontwerpen/stappenplan/): Stappenplan voor inclusief ontwerp van Gebruiker Centraal
 - [WCAG 2.1 Uitleg](https://nldesignsystem.nl/wcag/): Praktische uitleg en voorbeelden WCAG 2.1 (NLDS)
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt inzicht in wettelijke toegankelijkheidseisen (WCAG 2.1, EN 301 549)
 - [ ] Je begrijpt de behoeften van diverse gebruikersgroepen, inclusief mensen met visuele, auditieve, motorische en cognitieve beperkingen
 - [ ] Het team begrijpt het belang van toegankelijkheid en inclusie en hoe ze er aan kunnen voldoen
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Onderzoek naar bestaande toegankelijkheidsproblemen in vergelijkbare diensten
 - Interviews met gebruikers met diverse beperkingen en achtergronden
@@ -47,7 +47,7 @@ Ontwerp toegankelijke en inclusieve oplossingen die voor iedereen werken.
 - [NL Design System](https://nldesignsystem.nl): Toegankelijke componenten
 - [NLDD Designsysteem](https://github.com/NederlandseDigitaleDienst/design-system): Toegankelijke web components in de Rijkshuisstijl, met skills voor AI-codeerassistenten (status: ontwikkeling)
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt ontwerpen gemaakt volgens toegankelijkheidsprincipes (WCAG 2.1)
 - [ ] Je hebt prototypes getest met gebruikers met diverse beperkingen
@@ -72,14 +72,14 @@ Bouw en test je dienst op toegankelijkheid en inclusie in productie.
 - [Toegankelijkheidsscan](https://www.w3.org/WAI/test-evaluate/tools/list/): Test uw webpagina's op toegankelijkheid
 - [WCAG-EM Reporter](https://gitlab.com/digilab.overheid.nl/ecosystem/wcag-em-reporter): Tool voor het maken van toegankelijkheidsrapporten
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je dienst voldoet aan WCAG 2.1 niveau AA
 - [ ] De content is beschikbaar in B1-Nederlands
 - [ ] Geautomatiseerde toegankelijkheidstests zijn uitgevoerd en problemen zijn opgelost
 - [ ] Gebruikerstests met mensen met beperkingen zijn succesvol afgerond
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Gelinkte PDF-documenten zijn toegankelijk gemaakt
 - Video's hebben ondertiteling en audiodescriptie
@@ -100,14 +100,14 @@ Monitor en verbeter toegankelijkheid en inclusie continu.
 - [WCAG-EM Reporter](https://gitlab.com/digilab.overheid.nl/ecosystem/wcag-em-reporter): Tool voor het maken van toegankelijkheidsrapporten
 - [Toegankelijkheidsverklaring](https://www.toegankelijkheidsverklaring.nl/): Invulassistent voor toegankelijkheidsverklaringen
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt een toegankelijkheidsverklaring gepubliceerd
 - [ ] Periodieke toegankelijkheidsscans worden uitgevoerd
 - [ ] Feedback over toegankelijkheid wordt structureel verzameld en verwerkt
 - [ ] Het team blijft op de hoogte van nieuwe toegankelijkheidseisen
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Jaarlijkse toegankelijkheidsaudits
 - Training voor nieuwe teamleden

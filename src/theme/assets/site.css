@@ -29,6 +29,30 @@ nldd-sidebar-section[collapsed] .sidebar-trigger {
 	gap: var(--primitives-space-12);
 }
 
+/* The link groups in the footer are lists, so a screen reader says how many
+   links each group has. They keep the look of a column of links. */
+.footer-links {
+	display: flex;
+	flex-direction: column;
+	gap: var(--primitives-space-8);
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* A long word in the page title breaks instead of pushing the page wider
+   than a narrow screen. */
+nldd-rich-text h1 {
+	overflow-wrap: anywhere;
+	hyphens: auto;
+}
+
+/* A link around an image is an inline box around a block: its focus ring
+   collapses to a line. As a block of its own the ring goes around the image. */
+nldd-rich-text a:has(> img) {
+	display: inline-block;
+}
+
 /* A checklist is a list of outcomes to tick off; the items are not submitted. */
 nldd-rich-text ul.checklist {
 	list-style: none;

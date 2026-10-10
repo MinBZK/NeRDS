@@ -16,18 +16,18 @@ Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van o
     Begrijp toegankelijkheidseisen en de behoeften van gebruikers met diverse achtergronden en beperkingen.
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+    <h4>Direct aan de slag</h4>
 
     <div class="action-cards" data-richtlijn="toegankelijkheid" data-fase="verkenning"></div>
 </div>
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt inzicht in wettelijke toegankelijkheidseisen (WCAG 2.1, EN 301 549)
 - [ ] Je begrijpt de behoeften van diverse gebruikersgroepen, inclusief mensen met visuele, auditieve, motorische en cognitieve beperkingen
 - [ ] Het team begrijpt het belang van toegankelijkheid en inclusie en hoe ze er aan kunnen voldoen
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Onderzoek naar bestaande toegankelijkheidsproblemen in vergelijkbare diensten
 - Interviews met gebruikers met diverse beperkingen en achtergronden
@@ -42,12 +42,12 @@ Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van o
     Ontwerp toegankelijke en inclusieve oplossingen die voor iedereen werken.
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+    <h4>Direct aan de slag</h4>
 
     <div class="action-cards" data-richtlijn="toegankelijkheid" data-fase="ontwerp"></div>
 </div>
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt ontwerpen gemaakt volgens toegankelijkheidsprincipes (WCAG 2.1)
 - [ ] Je hebt prototypes getest met gebruikers met diverse beperkingen
@@ -61,19 +61,19 @@ Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van o
     Bouw en test je dienst op toegankelijkheid en inclusie in productie.
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+    <h4>Direct aan de slag</h4>
 
     <div class="action-cards" data-richtlijn="toegankelijkheid" data-fase="bouw"></div>
 </div>
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je dienst voldoet aan WCAG 2.1 niveau AA
 - [ ] De content is beschikbaar in B1-Nederlands
 - [ ] Geautomatiseerde toegankelijkheidstests zijn uitgevoerd en problemen zijn opgelost
 - [ ] Gebruikerstests met mensen met beperkingen zijn succesvol afgerond
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Gelinkte PDF-documenten zijn toegankelijk gemaakt
 - Video's hebben ondertiteling en audiodescriptie
@@ -88,19 +88,19 @@ Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van o
     Monitor en verbeter toegankelijkheid en inclusie continu.
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+    <h4>Direct aan de slag</h4>
 
     <div class="action-cards" data-richtlijn="toegankelijkheid" data-fase="productie"></div>
 </div>
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt een toegankelijkheidsverklaring gepubliceerd
 - [ ] Periodieke toegankelijkheidsscans worden uitgevoerd
 - [ ] Feedback over toegankelijkheid wordt structureel verzameld en verwerkt
 - [ ] Het team blijft op de hoogte van nieuwe toegankelijkheidseisen
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Jaarlijkse toegankelijkheidsaudits
 - Training voor nieuwe teamleden

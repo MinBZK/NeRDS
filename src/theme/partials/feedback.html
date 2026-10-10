@@ -6,6 +6,8 @@
         <p>Helpt u ons door uw feedback te delen? We gebruiken dit om NeRDS te verbeteren. U kunt feedback geven via e-mail of via GitHub Issues.</p>
       </nldd-rich-text>
       <nldd-banner id="feedback-success" variant="success" text="Bedankt voor uw feedback!" hidden></nldd-banner>
+      {#- In the DOM from the start, so that a screen reader reads it out when it appears. #}
+      <nldd-banner id="feedback-errors" variant="critical" role="alert" text="Uw feedback is nog niet verstuurd" hidden></nldd-banner>
       <nldd-form id="feedback-form">
         <nldd-form-field label="Welke richtlijn betreft dit?" optional>
           <nldd-dropdown>
@@ -41,13 +43,17 @@
         <nldd-form-field label="Uw feedback">
           <nldd-multi-line-text-field id="feedback-text" name="feedback_text" rows="4" required minlength="10" maxlength="5000"></nldd-multi-line-text-field>
           <nldd-validation-list>
-            <nldd-validation-item id="feedback-text-minlength" minlength="10" required>Minimaal 10 tekens.</nldd-validation-item>
+            <nldd-validation-item id="feedback-text-minlength" minlength="10" required hint>Minimaal 10 tekens.</nldd-validation-item>
             <nldd-validation-item id="feedback-text-maxlength" maxlength="5000">Maximaal 5000 tekens.</nldd-validation-item>
           </nldd-validation-list>
         </nldd-form-field>
         <div id="feedback-related-docs-container">
           <nldd-form-field label="Link naar een relevant document" optional>
-            <nldd-text-field type="url" name="related_docs[]" placeholder="nerds.nl/..."></nldd-text-field>
+            {#- Not type="url": the browser then rejects an address without https://, which feedback.js accepts and completes. #}
+            <nldd-text-field keyboard="url" name="related_docs[]" no-spellcheck></nldd-text-field>
+            <nldd-validation-list>
+              <nldd-validation-item match="^\S+\.\S+$" hint>Een webadres zonder spaties, bijvoorbeeld https://www.rijksoverheid.nl/onderwerpen.</nldd-validation-item>
+            </nldd-validation-list>
           </nldd-form-field>
         </div>
         <nldd-button id="feedback-add-link" appearance="neutral-tinted" size="sm" start-icon="plus" text="Link toevoegen"></nldd-button>

@@ -9,7 +9,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page and page.title and not page.is_homepage %}{{ page.title | striptags }} - {% endif %}{{ config.site_name }}</title>
+  <title>{% block title %}{% if page and page.title and not page.is_homepage %}{{ page.title | striptags }} - {% endif %}{% endblock %}{{ config.site_name }}</title>
   <meta name="description" content="{{ (page.meta.summary if page and page.meta and page.meta.summary else config.site_description) | e }}">
   {%- if page and page.canonical_url %}
   <link rel="canonical" href="{{ page.canonical_url }}">
