@@ -1,12 +1,12 @@
 ---
-title: "Fases en gewenste uitkomsten 3. Werk transparant en gebruik open source"
+title: "Open source: wanneer doe je wat?"
 summary: Open source werken is een doorlopend proces. Hieronder staat per fase wat je doet.
 relations:
   - open-source
 ---
 
 
-## Wanneer doe je wat?
+## Fases en gewenste uitkomsten
 
 Open source werken vraagt om gefaseerd handelen: van het verkennen van bestaande oplossingen tot het actief onderhouden van open source gemeenschappen. Deze pagina beschrijft per fase van ontwerpen, ontwikkelen en inkopen welke stappen je zet en welke uitkomsten je mag verwachten.
 

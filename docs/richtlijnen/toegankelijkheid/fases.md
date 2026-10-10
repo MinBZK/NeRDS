@@ -1,12 +1,12 @@
 ---
-title: "Fases en gewenste uitkomsten 2. Zorg voor toegankelijkheid en inclusie"
+title: "Toegankelijkheid: wanneer doe je wat?"
 summary: Toegankelijkheid en inclusie is een doorlopend proces. Hieronder staat per fase wat je doet.
 relations:
   - toegankelijkheid
 ---
 
 
-## Wanneer doe je wat?
+## Fases en gewenste uitkomsten
 
 Toegankelijkheid is een doorlopend proces. Deze pagina beschrijft per fase van ontwerpen, ontwikkelen en inkopen hoe je toegankelijkheid en inclusie borgt en welke uitkomsten je mag verwachten.
 

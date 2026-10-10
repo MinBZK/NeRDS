@@ -1,6 +1,6 @@
 <!-- Gegenereerd uit docs/richtlijnen/cloud/fases.md. Wijzig dat bestand en draai: just plugin -->
 
-## Wanneer doe je wat?
+## Fases en gewenste uitkomsten
 
 Verantwoord cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je systeem draait tot het jaarlijks toetsen van je exitplan. Deze pagina beschrijft per fase van ontwerpen, ontwikkelen en inkopen welke stappen je zet en welke uitkomsten je mag verwachten.
 
