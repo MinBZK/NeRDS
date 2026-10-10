@@ -10,7 +10,7 @@ hide:
   <nldd-banner variant="warning" dismissible text="In ontwikkeling" supporting-text="De NeRDS zijn nog in ontwikkeling. Bijdragen? Gebruik de knop Feedback bovenaan de pagina."></nldd-banner>
 </nldd-simple-section>
 
-<nldd-hero main-background="lintblauw" main-width="full">
+<nldd-hero id="content" main-background="lintblauw" main-width="full">
   <nldd-title color="inherit" size="1" heading-level="1" overline="Versie {{ version }}" text="Nederlandse Richtlijn Digitale Systemen (NeRDS)"></nldd-title>
   <nldd-spacer size="16"></nldd-spacer>
   <nldd-rich-text color="inherit">
@@ -32,7 +32,7 @@ hide:
     </nldd-rich-text>
     <nldd-box>
       <nldd-container padding="16" gap="4">
-        <nldd-title size="6" text="Ontwikkeling"></nldd-title>
+        <nldd-title size="6" heading-level="3" text="Ontwikkeling"></nldd-title>
         <nldd-rich-text>
           <p>Voor de richtlijnen <a href="richtlijnen/gebruikersbehoeften/">Gebruikersbehoeften</a>, <a href="richtlijnen/toegankelijkheid/">Toegankelijkheid en inclusie</a>, <a href="richtlijnen/open-source/">Open source</a> en <a href="richtlijnen/cloud/">Cloud</a> hebben we al een eerste expert sessie gehouden. Hierdoor zijn deze richtlijnen al verder uitgewerkt. We zijn van plan deze aanpak verder uit te rollen naar de andere onderwerpen.</p>
         </nldd-rich-text>

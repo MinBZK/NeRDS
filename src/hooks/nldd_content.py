@@ -32,6 +32,9 @@ CODE_BLOCK = re.compile(
     r'<pre[^>]*><code(?: class="language-(?P<language>[\w-]+)")?>(?P<code>.*?)</code></pre>',
     flags=re.DOTALL,
 )
+HEADING = re.compile(r'<h(?P<level>[1-6])(?: id="(?P<id>[^"]*)")?[^>]*>')
+# A checklist directly under a heading: that heading names the list.
+LABELLED_CHECKLIST = re.compile(r'(?P<heading></h[1-6]>\s*)<ul class="checklist">')
 GUIDELINE_CARDS = re.compile(r'<div class="richtlijnen-cards"(?: data-heading-level="(?P<level>[2-6])")?></div>')
 
 
@@ -66,6 +69,7 @@ def on_page_content(html, page, config, files):
     html = ADMONITION.sub(_replace_admonition, html)
     html = TASK_ITEM.sub(_replace_task_item, html)
     html = html.replace('<ul class="task-list">', '<ul class="checklist">')
+    html = LABELLED_CHECKLIST.sub(_label_checklist, html)
     html = CODE_BLOCK.sub(_replace_code_block, html)
     html = GUIDELINE_CARDS.sub(
         lambda match: _generate_guideline_cards(page, config, files, match.group("level") or "2"), html
@@ -90,12 +94,33 @@ def _replace_admonition(match):
             f"<nldd-rich-text>{body}</nldd-rich-text></nldd-banner>"
         )
 
+    # The title is a heading one level below the section the box sits in, so
+    # it shows up in the outline instead of reading as a loose paragraph.
+    levels = [int(found.group("level")) for found in HEADING.finditer(match.string, 0, match.start())]
+    level = min((levels[-1] if levels else 1) + 1, 6)
+
     return (
         '<nldd-box data-width="main"><nldd-container padding="16" gap="4">'
-        f'<nldd-title size="6" text="{title}"></nldd-title>'
+        f'<nldd-title size="6" heading-level="{level}" text="{title}"></nldd-title>'
         f"<nldd-rich-text>{body}</nldd-rich-text>"
         "</nldd-container></nldd-box>"
     )
+
+
+def _label_checklist(match):
+    """
+    Name a checklist after the heading above it and the section that heading is in.
+
+    Two phases on one page both have a list "Gewenste uitkomsten"; with the
+    phase in the name a screen reader says which one this is.
+    """
+    headings = [found for found in HEADING.finditer(match.string, 0, match.start()) if found.group("id")]
+    if not headings:
+        return match.group(0)
+    own = headings[-1]
+    parents = [found for found in headings if found.group("level") < own.group("level")]
+    ids = ([parents[-1].group("id")] if parents else []) + [own.group("id")]
+    return f'{match.group("heading")}<ul class="checklist" aria-labelledby="{" ".join(ids)}">'
 
 
 def _replace_task_item(match):

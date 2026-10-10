@@ -17,11 +17,11 @@ Verantwoord cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je syst
     Bepaal wat je systeem nodig heeft aan soevereiniteit en kies op basis daarvan waar het kan draaien.
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+    <h4>Direct aan de slag</h4>
     <div class="action-cards" data-richtlijn="cloud" data-fase="verkenning"></div>
 </div>
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt een heldere behoeftestelling die beschrijft wat je functioneel wilt bereiken inclusief of cloud geschikt is voor je digitale systeem
 - [ ] Je rol (maker of inkoper) is bepaald en bepalend voor je sourcing-strategie
@@ -30,7 +30,7 @@ Verantwoord cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je syst
 - [ ] Je hebt je toepassing en data geclassificeerd (BIV-eisen of TBB-niveau) en weet welk beschermingsniveau nodig is
 - [ ] Je hebt de opties afgewogen (overheidsdatacenter of gedeelde overheidsvoorziening, Europese leverancier, publieke cloud) en weet onder welke jurisdictie elke leverancier valt
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Workload definitie: bepaal compute, storage, netwerk en piekmomenten
 - Onderzoek naar cloudgebruik door andere overheidsorganisaties
@@ -47,11 +47,11 @@ Verantwoord cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je syst
     Ontwerp je cloudarchitectuur met aandacht voor beveiliging, soevereiniteit en exit-strategie.
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+    <h4>Direct aan de slag</h4>
     <div class="action-cards" data-richtlijn="cloud" data-fase="ontwerp"></div>
 </div>
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt een cloudarchitectuur ontworpen die cloud-native en portabel is
 - [ ] Je hebt een platform of leverancier gekozen die past bij het soevereiniteitsniveau dat je nodig hebt
@@ -61,7 +61,7 @@ Verantwoord cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je syst
 - [ ] Je hebt een secrets management strategie bepaald
 - [ ] Je architectuur gebruikt open standaarden waar mogelijk om vendor lock-in te beperken
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Infrastructure as Code (IaC) strategie bepaald
 - Identity en access management architectuur ontworpen
@@ -79,11 +79,11 @@ Verantwoord cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je syst
     Bouw en test je cloudomgeving met aandacht voor beveiliging, kostenbeheersing en prestaties.
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+    <h4>Direct aan de slag</h4>
     <div class="action-cards" data-richtlijn="cloud" data-fase="bouw"></div>
 </div>
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt beveiliging geïmplementeerd (IAM, encryption, netwerksegmentatie)
 - [ ] Je hebt secrets management ingericht (zie de richtlijn [3. Werk transparant en gebruik open source](../open-source/index.md))
@@ -92,7 +92,7 @@ Verantwoord cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je syst
 - [ ] Je hebt compliance gevalideerd en voldoet aan de verplichte regelgeving
 - [ ] Je hebt materieel cloudgebruik vóór de implementatie gemeld bij CISO Rijk (Rijksoverheid)
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Cloudomgeving gebouwd met IaC/GitOps
 - Kostenbewaking ingesteld met budgetlimieten
@@ -109,11 +109,11 @@ Verantwoord cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je syst
     Monitor, optimaliseer en beveilig je cloudomgeving continu.
 
 <div class="direct-aan-de-slag">
-    <h3>Direct aan de slag</h3>
+    <h4>Direct aan de slag</h4>
     <div class="action-cards" data-richtlijn="cloud" data-fase="productie"></div>
 </div>
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt security monitoring actief en reageert proactief op bedreigingen
 - [ ] Je voert regelmatig compliance checks uit en blijft voldoen aan regelgeving
@@ -121,7 +121,7 @@ Verantwoord cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je syst
 - [ ] Je toetst je exitplan en beoordeelt het elk jaar op actualiteit
 - [ ] Je houdt bij welke clouddiensten je voor welke verwerkingen gebruikt en bij welke leverancier
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - [FinOps Foundation](https://www.finops.org/){:target="_blank"} principes toegepast voor kostenoptimalisatie
 - Disaster recovery tests uitgevoerd

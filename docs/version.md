@@ -1,4 +1,5 @@
 ---
+title: Huidige versie
 ---
 
 # Huidige versie

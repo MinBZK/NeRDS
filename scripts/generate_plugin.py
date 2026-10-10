@@ -71,7 +71,7 @@ ACTION_HOOK_PATH = ROOT_DIR / "src" / "hooks" / "action_registry.py"
 # The same two shapes the hook looks for: a block with a heading and an
 # optional notice around the placeholder, and a placeholder on its own.
 ACTION_BLOCK = re.compile(
-    r'<div class="direct-aan-de-slag">\s*<h3>(?P<heading>.*?)</h3>.*?'
+    r'<div class="direct-aan-de-slag">\s*<h(?P<level>[34])>(?P<heading>.*?)</h(?P=level)>.*?'
     r'<div class="action-cards"(?P<attributes>[^>]*)></div>\s*</div>',
     re.DOTALL,
 )

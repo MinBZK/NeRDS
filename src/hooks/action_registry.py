@@ -63,9 +63,11 @@ def on_page_content(html, page, config, files):
     # A "Direct aan de slag" block is a div with a heading, an optional notice
     # and an empty action-cards placeholder that carries the filters:
     # <div class="action-cards" data-richtlijn="..." data-fase="..."></div>
-    # Both data-richtlijn and data-fase are optional.
+    # Both data-richtlijn and data-fase are optional. The heading is an h3
+    # under a page section and an h4 under a phase, so the block is part of
+    # what it sits in; the card titles go one level below it.
     pattern = (
-        r'<div class="direct-aan-de-slag">\s*<h3>(?P<heading>.*?)</h3>(?P<notice>.*?)'
+        r'<div class="direct-aan-de-slag">\s*<h(?P<level>[34])>(?P<heading>.*?)</h(?P=level)>(?P<notice>.*?)'
         r'<div class="action-cards"(?P<attributes>[^>]*)></div>\s*</div>'
     )
 
@@ -88,11 +90,13 @@ def on_page_content(html, page, config, files):
         if not filtered_actions:
             return ''
 
+        level = int(match.group('level'))
+
         return f'''<nldd-box data-width="main">
   <nldd-container padding="16" gap="16">
-    <nldd-title size="4" heading-level="3" text="{escape(_plain_text(match.group('heading')))}"></nldd-title>
+    <nldd-title size="4" heading-level="{level}" text="{escape(_plain_text(match.group('heading')))}"></nldd-title>
 {_generate_notice_html(match.group('notice'))}    <nldd-collection layout="grid" item-width="240px" gap="12"{attributes}>
-{_generate_action_cards_html(filtered_actions)}
+{_generate_action_cards_html(filtered_actions, level + 1)}
     </nldd-collection>
   </nldd-container>
 </nldd-box>'''
@@ -195,14 +199,16 @@ def _filter_actions(actions, richtlijn_filter=None, fase_filter=None):
     return filtered
 
 
-def _generate_action_cards_html(actions):
+def _generate_action_cards_html(actions, heading_level=4):
     """
     Generate a card per action.
     """
     # The status is a state the registry keeps, so it is a badge. The text
     # carries the meaning; the color only supports it.
-    # It sits above the title, not beside it: beside it the badge takes width
+    # It sits below the title, not beside it: beside it the badge takes width
     # from the title, and a long name then breaks in the middle of a word.
+    # Not above it either: then the status comes before the heading in the
+    # DOM, and whoever jumps from heading to heading never hears it.
     status_colors = {
         'beschikbaar': 'success',
         'ontwikkeling': 'warning',
@@ -218,8 +224,8 @@ def _generate_action_cards_html(actions):
 
         card_html = f'''      <nldd-card>
         <nldd-container padding="16" gap="8">
-          <nldd-title size="5" heading-level="4" text="{escape(action.get('name', ''))}">
-            <nldd-badge slot="overline" size="sm" color="{color}" text="{escape(status)}"></nldd-badge>
+          <nldd-title size="5" heading-level="{heading_level}" text="{escape(action.get('name', ''))}">
+            <nldd-badge slot="supporting-text" size="sm" color="{color}" text="{escape(status)}"></nldd-badge>
           </nldd-title>
           <nldd-rich-text><p>{escape(action.get('description', ''))}</p></nldd-rich-text>
         </nldd-container>

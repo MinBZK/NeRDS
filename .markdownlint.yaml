@@ -5,6 +5,11 @@ default: true
 # Disable line length check (MD013)
 MD013: false
 
+# The same heading may return under another parent: every phase has its own
+# "Gewenste uitkomsten"
+MD024:
+  siblings_only: true
+
 # Allow multiple h1 headings
 MD025: false
 

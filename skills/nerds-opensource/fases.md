@@ -17,14 +17,14 @@ Onderzoek of open source past bij je project en verken beschikbare oplossingen.
 - [Opensourcewerken](https://opensourcewerken.nl): Kennis en community voor open source werken bij de overheid
 - [Opensourcewerken](https://developer.overheid.nl/communities/open-source-werken): Community of practice omtrent open source werken (status: ontwikkeling)
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt onderzocht welke open source alternatieven er bestaan
 - [ ] Je hebt total cost of ownership en vendor lock-in risico geëvalueerd
 - [ ] Je begrijpt het open-tenzij beleid en hoe dit op jouw project van toepassing is
 - [ ] Je hebt contact gelegd met relevante open source gemeenschappen
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Onderzoek hergebruik door andere overheidsorganisaties
 - Voer een security assessment uit op kandidaat-oplossingen
@@ -46,7 +46,7 @@ Maak beslissingen over het gebruiken en publiceren van open-source code
 - [Handreiking publieke waarde bij ICT-aanbesteding](https://www.pianoo.nl/nl/handreiking-publieke-waarden-en-rechten-bij-aanbesteden-van-ict): Stappenplan voor het maken van bewuste keuzes rondom publieke waarde en rechten
 - [Licentieadvies](https://opensourcewerken.nl/page/view/677bb847-79b5-42b2-8a63-e7bb2e074530/softwarelicenties): Copyleft: CC BY-SA, GPLv3, AGPLv3 of EUPL-1.2. Permissive: Apache 2.0, MIT, BSD-0-clause
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt bepaald of je project onder het [open-tenzij beleid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/open-source/beleid/) valt (uitgangspunt: ja, tenzij het gaat om onaangekondigde beleidsmaatregelen, beveiligingsfuncties zoals fraudepreventie, of staatsgeheimen, en je hebt dit goed gemotiveerd)
 - [ ] Je hebt een publieke repository aangemaakt
@@ -55,7 +55,7 @@ Maak beslissingen over het gebruiken en publiceren van open-source code
 - [ ] Je hebt een keuze gemaakt hoe te documenteren en dit gekoppeld aan je publieke repository
 - [ ] Afspraken over opensourcewerken zijn gemaakt binnen het team (gebruik de Ambitieladder)
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Stel een governance-model op voor bijdragen en onderhoud
 - Maak een CONTRIBUTING.md en Code of Conduct
@@ -74,14 +74,14 @@ Bouw de dienst in de open repository en zorg dat code klaar is voor hergebruik d
 
 - [Standaard voor publieke code](https://www.standaardvoorpubliekecode.nl/): Richtlijnen voor het ontwikkelen en beheren van software en beleid
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je hebt een README.md met installatie-instructies
 - [ ] Je hebt bestaande code gereviewd op kwetsbaarheden en hard-coded secrets
 - [ ] De code is getest op installeerbaarheid door externe developers
 - [ ] CI/CD pipelines zijn ingericht voor automatisch testen
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Voeg documentatie toe over architectuur en ontwerpbeslissingen
 - Richt dependency management in met automatische security updates
@@ -99,7 +99,7 @@ Onderhoud de code en gemeenschap actief en zorg voor snelle security responses.
 
 - [Opensourcewerken](https://developer.overheid.nl/communities/open-source-werken): Community of practice omtrent open source werken (status: ontwikkeling)
 
-**Gewenste uitkomsten:**
+#### Gewenste uitkomsten
 
 - [ ] Je code is gepubliceerd op een publiek platform (code.overheid.nl zodra beschikbaar)
 - [ ] Je hebt een onderhoudsniveau gecommuniceerd
@@ -108,7 +108,7 @@ Onderhoud de code en gemeenschap actief en zorg voor snelle security responses.
 - [ ] Je reageert tijdig op issues en pull requests
 - [ ] Inzichten en learnings worden gedeeld met de opensourcewerken community
 
-**Aanvullend (indien passend):**
+#### Aanvullend (indien passend)
 
 - Onderhoud een publieke issue list voor transparantie
 - Draag bij aan upstream projecten

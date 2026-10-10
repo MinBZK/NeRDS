@@ -21,9 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const text = document.getElementById('feedback-text');
   const links = document.getElementById('feedback-related-docs-container');
   const success = document.getElementById('feedback-success');
+  const errors = document.getElementById('feedback-errors');
 
   opener.addEventListener('click', () => {
     success.hidden = true;
+    errors.hidden = true;
     selectCurrentGuideline();
     sheet.show();
   });
@@ -38,10 +40,16 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   document.getElementById('feedback-add-link').addEventListener('click', () => {
+    // A copy of the first field, without what that field holds: its value and
+    // a verdict on that value.
     const field = links.firstElementChild.cloneNode(true);
-    field.querySelector('nldd-text-field').value = '';
+    const input = field.querySelector('nldd-text-field');
+    input.value = '';
+    input.invalid = false;
+    field.querySelector('nldd-validation-list').removeAttribute('judging');
+    field.querySelectorAll('nldd-validation-item').forEach((item) => item.removeAttribute('unmet'));
     links.append(field);
-    field.querySelector('nldd-text-field').focus();
+    input.focus();
   });
 
   function normalizeUrl(url) {
@@ -57,26 +65,52 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Marks what does not hold and moves focus to the first field that fails.
+  // Marks what does not hold, names every failing field in one message and
+  // moves focus to the first of them. Focus lands on one field only; the
+  // message is what tells a screen reader user about the others.
   function validate() {
     const failing = [];
+    const messages = [];
     const feedback = (text.value || '').trim();
 
     type.closest('nldd-dropdown').invalid = !type.value;
-    if (!type.value) failing.push(type);
+    if (!type.value) {
+      failing.push(type);
+      messages.push('Soort feedback: kies een soort.');
+    }
 
     text.invalid = feedback.length < 10 || text.value.length > 5000;
-    if (text.invalid) failing.push(text);
+    if (text.invalid) {
+      failing.push(text);
+      messages.push(`Uw feedback: ${feedback.length < 10 ? 'minimaal 10 tekens' : 'maximaal 5000 tekens'}.`);
+    }
 
     links.querySelectorAll('nldd-text-field').forEach((field) => {
       const value = (field.value || '').trim();
       field.invalid = value !== '' && !isValidUrl(value);
-      if (field.invalid) failing.push(field);
+      if (field.invalid) {
+        failing.push(field);
+        messages.push('Link naar een relevant document: vul een webadres in, bijvoorbeeld https://www.rijksoverheid.nl/onderwerpen.');
+      }
     });
 
+    errors.setAttribute('supporting-text', [...new Set(messages)].join(' '));
+    errors.hidden = failing.length === 0;
     if (failing.length) failing[0].focus();
     return failing.length === 0;
   }
+
+  // The browser rejects an empty required field before the submit event, so
+  // the submit handler never runs. `invalid` does not bubble; capture it.
+  let judging = false;
+  form.addEventListener('invalid', () => {
+    if (judging) return;
+    judging = true;
+    queueMicrotask(() => {
+      validate();
+      judging = false;
+    });
+  }, true);
 
   function collect() {
     const selected = guideline.selectedOptions[0];
@@ -120,6 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
     text.value = '';
     while (links.children.length > 1) links.lastElementChild.remove();
     links.querySelector('nldd-text-field').value = '';
+    errors.hidden = true;
     success.setAttribute('supporting-text', message);
     success.hidden = false;
   }
