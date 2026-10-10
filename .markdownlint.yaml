@@ -25,8 +25,5 @@ MD036: false
 # Don't enforce first line in file should be a top level heading
 MD041: false
 
-# Allow heading level increments greater than 1
-MD001: false
-
 # Allow blank lines inside blockquotes
 MD028: false

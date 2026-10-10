@@ -27,12 +27,12 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
 
 ## Gerelateerde hulpmiddelen
 
-#### Beleid, wetten en standaarden
+### Beleid, wetten en standaarden
 
 - [BIO (Baseline Informatiebeveiliging Overheid)](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/bio-en-ensia/) - Het verplichte normenkader voor informatiebeveiliging bij de overheid
 - [NCSC (Nationaal Cyber Security Centrum)](https://www.ncsc.nl/) - Beveiligingsadviezen en dreigingsinformatie voor de overheid
 
-### Gerelateerde richtlijnen
+## Gerelateerde richtlijnen
 
 - 7. Maak privacy integraal (skill `/nerds-privacy`)
 - 10. Maak beter gebruik van data (skill `/nerds-data`)

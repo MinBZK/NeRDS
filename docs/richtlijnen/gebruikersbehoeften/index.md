@@ -25,7 +25,7 @@ Door een gebruikersgerichte benadering toe te passen van technologieontwikkeling
     <h3>Direct aan de slag</h3>
 
     <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+        <strong>In ontwikkeling:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
     <div class="action-cards" data-richtlijn="gebruikersbehoeften"></div>
@@ -69,11 +69,11 @@ Meet doorlopend hoe gebruikers je digitale systeem ervaren. Verzamel feedback, l
 
 ## Implementatie per fase
 
-Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "1. Stel gebruikersbehoeften vast"](fases.md).
+Zie [Gebruikersbehoeften: wanneer doe je wat?](fases.md).
 
 ## Gerelateerde hulpmiddelen
 
-#### Naslagwerk
+### Naslagwerk
 
 - [Overheidsbreed meethuis voor dienstverlening](https://www.gebruikercentraal.nl/overheidsbreed-meethuis-voor-dienstverlening/) - Naast het handboek dat hierboven bij 'direct aan de slag' staat vermeld, vind je op de website van Gebruiker Centraal ook een meethuis-canvas, voorbeeldvragenlijsten en begeleiding
 - [Universeel Service Management](https://usmwiki.com/index.php/Main_Page) - International framework voor servicemanagement
@@ -82,28 +82,28 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "1. Stel gebru
 - [Startgids Doelmatig Geïntegreerd Klantbeeld (DGKB)](https://www.gebruikercentraal.nl/meedoen/community-omnichannel/de-startgids-doelmatig-geintegreerd-klantbeeld-dgkb/) - Samenhangend beeld van de klant opbouwen
 - [Van Den Haag Centraal naar Gebruiker Centraal (2016)](https://www.communicatierijk.nl/documenten/2016/11/10/van-den-haag-centraal-naar-gebruiker-centraal) - Onderzoeksmethoden en voorbeelden om de gebruiker te leren kennen
 
-#### Beleid, wetten en standaarden
+### Beleid, wetten en standaarden
 
 - [ISO 11367 Excellente dienstverlening](https://www.nen.nl/iso-11367-2025-en-334528) - Principes en model voor publieke dienstverlening. Voor rijksambtenaren kunnen ISO-normen [hier](https://www.lees-rijk.nl/user/login?destination=search) worden geraadpleegd.
 - [Digitale inclusie](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/) - Overheidsrichtlijnen voor digitale toegankelijkheid
 
-#### Communities
+### Communities
 
 - [Gebruiker Centraal](https://www.gebruikercentraal.nl)
 - [NL Design System](https://nldesignsystem.nl/community/)
 
-#### Trainingen
+### Trainingen
 
 - [Training Gebruikersonderzoek](https://www.gebruikercentraal.nl/evenementen/) - Vakinhoudelijke sessies en bijeenkomsten van Gebruiker Centraal
 - [Training en Coaching over klantreizen bij de overheid](https://www.gebruikercentraal.nl/hulpmiddelen/klantreizen-bij-de-overheid/) - Voor het in kaart brengen van klantreizen.
 
-#### Boeken
+### Boeken
 
-- **Outside In** - Harley Manning, Kerry Bodine - Zes pijlers van Customer Experience
-- **Customer Understanding** - Annette Franz - Diepgaand begrijpen van gebruikers, emoties en behoeften
-- **The Mom Test** - Rob Fitzpatrick - Echte gebruikersinzichten verzamelen
+- **Outside In**{: lang="en" } - Harley Manning, Kerry Bodine - Zes pijlers van Customer Experience
+- **Customer Understanding**{: lang="en" } - Annette Franz - Diepgaand begrijpen van gebruikers, emoties en behoeften
+- **The Mom Test**{: lang="en" } - Rob Fitzpatrick - Echte gebruikersinzichten verzamelen
 
-### Gerelateerde richtlijnen
+## Gerelateerde richtlijnen
 
 - [2. Zorg voor toegankelijkheid en inclusie](../toegankelijkheid/index.md)
 - [7. Maak privacy integraal](../privacy/index.md)

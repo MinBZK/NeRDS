@@ -25,12 +25,12 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
 
 ## Gerelateerde hulpmiddelen
 
-#### Communities
+### Communities
 
 - [Common Ground](https://developer.overheid.nl/communities/common-ground) - Gemeenten werken samen aan herbruikbare softwarecomponenten en standaarden
 - [Developer Overheid](https://developer.overheid.nl/) - Platform voor kennisdeling en samenwerking tussen overheidsontwikkelaars
 
-### Gerelateerde richtlijnen
+## Gerelateerde richtlijnen
 
 - 3. Werk transparant en gebruik open source (skill `/nerds-opensource`)
 - 9. Integreer technologie (skill `/nerds-integratie`)

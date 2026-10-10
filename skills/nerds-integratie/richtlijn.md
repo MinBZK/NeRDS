@@ -49,7 +49,7 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
 - **Dataformaten**: Gebruik standaarden en transformaties voor compatibiliteit
 - **Verschillende snelheden**: Implementeer bimodale IT om innovatie en stabiliteit te balanceren
 - **Beveiligingsgrenzen**: Ontwikkel veilige integratiepunten tussen verschillende beveiligingszones
-- **Organizational silos**: Bevorder samenwerking tussen afdelingen en teams
+- **Organisatorische silo's**: Bevorder samenwerking tussen afdelingen en teams
 
 ### Best practices voor succesvolle integratie
 

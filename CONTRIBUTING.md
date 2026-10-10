@@ -12,7 +12,7 @@ Zorg ervoor dat je de relevante hoofdstukken even leest voordat je een bijdrage 
 Het zal het voor het team van de NeRDS een stuk makkelijker maken en de ervaring voor alle betrokkenen soepeler laten verlopen.
 We kijken uit naar alle bijdragen! 🎉
 
-> ## Opmerking
+> **Opmerking**
 >
 > Het ontwikkelen van de NeRDS via GitHub is een bewuste keuze voor transparantie en samenwerking.
 > We werken systematisch aan verschillende bouwblokken en prioriteren deze op basis van waarde en urgentie.
@@ -45,7 +45,7 @@ We kijken uit naar alle bijdragen! 🎉
 ## Code of Conduct
 
 Dit project en iedereen die eraan deelneemt, valt onder de
-[Code of Conduct](https://github.com/NederlandseDigitaleDienst/NeRDS?tab=coc-ov-file#readme).
+[Code of Conduct op GitHub](https://github.com/NederlandseDigitaleDienst/NeRDS?tab=coc-ov-file#readme).
 Door deel te nemen, wordt van je verwacht dat je je aan deze code houdt. Meld onacceptabel gedrag
 aan **[bureau.architectuur@minbzk.nl](mailto:bureau.architectuur@minbzk.nl)**.
 
@@ -80,7 +80,7 @@ Als je de gevonden fout nog steeds wilt melden, kan je een [Issue](https://githu
 
 ## Ik wil een verbetering voorstellen
 
-> #### Ter kennisgeving
+> **Ter kennisgeving**
 >
 > Wanneer je bijdraagt aan dit project, moet je ermee akkoord gaan dat je 100% van de inhoud hebt geschreven, dat je de benodigde rechten op de inhoud hebt en dat de inhoud die je bijdraagt mag worden geleverd onder de Code of Conduct.
 
@@ -161,6 +161,14 @@ Een nieuwe richtlijn krijgt bovenaan de pagina een `title`, een `summary` en een
 - **Structuur**: Gebruik duidelijke kopjes en bullet points
 - **Lengte**: Houd artikelen beknopt en to-the-point
 - **Bronnen**: Verwijs naar officiële bronnen en standaarden waar relevant
+
+### Toegankelijk schrijven
+
+Wie een schermlezer gebruikt, springt van kop naar kop en vraagt een lijst met links op. Daarom:
+
+- **Koppen**: Maak van een tussenkopje een echte kop (`###`), geen vetgedrukte regel. Sla geen niveau over: onder `##` komt `###`. De controle op je pull request faalt op een overgeslagen niveau.
+- **Links**: Geef een link een tekst die het doel noemt, ook los van de zin eromheen. Twee links met dezelfde tekst gaan naar dezelfde plek, en één plek heeft overal dezelfde naam. Schrijf dus niet "hier" of "voorkeur", maar "Kamerbrief over de soevereine overheidscloud". Zet bij een bestand het soort erbij: "(pdf)".
+- **Andere taal**: Zet bij een Engelse titel of zin `{: lang="en" }` direct achter de link of de vetgedrukte tekst, bijvoorbeeld `**The Mom Test**{: lang="en" }`. Een voorleesprogramma spreekt het dan Engels uit. Ingeburgerde woorden als "open source" hebben dit niet nodig.
 
 ### De richtlijnen in de plugin
 

@@ -30,7 +30,7 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
     <h3>Direct aan de slag</h3>
 
     <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+        <strong>In ontwikkeling:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
     <div class="action-cards" data-richtlijn="inkoop"></div>
@@ -38,12 +38,12 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
 
 ## Gerelateerde hulpmiddelen
 
-#### Beleid, wetten en standaarden
+### Beleid, wetten en standaarden
 
 - [PIANOo - Expertisecentrum Aanbesteden](https://www.pianoo.nl/){:target="_blank"} - Kenniscentrum voor inkoop en aanbesteding bij de overheid
 - [Aanbestedingswet 2012](https://wetten.overheid.nl/BWBR0032203/){:target="_blank"} - Wettelijk kader voor overheidsinkoopprocessen
 
-### Gerelateerde richtlijnen
+## Gerelateerde richtlijnen
 
 - [13. Maak je technologie duurzaam](../duurzaamheid/index.md)
 - [5. Gebruik cloud verantwoord en blijf wendbaar](../cloud/index.md)

@@ -24,14 +24,14 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
 - [CO2-calculator](https://www.metenvanduurzaamheid.nl/overzicht-tools/monitoring-als-tool-voor-bedrijven-en-organisaties/co2-prestatieladder-en-co2-calculator): Bereken de CO2-impact van uw IT (status: concept)
 - [ICT MVI-criteria](https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria): Duurzaamheidscriteria voor ICT-inkoop
 
-#### 1. Planning en ontwerp
+### 1. Planning en ontwerp
 
 - Neem duurzaamheidseisen op in programma's van eisen
 - Overweeg de milieu-impact bij het vergelijken van alternatieven
 - Ontwerp voor energiezuinigheid en lange levensduur
 - Denk na over de end-of-life fase vanaf het begin
 
-#### 2. Inkoop en productie
+### 2. Inkoop en productie
 
 - Neem duurzaamheidscriteria op in aanbestedingen
 - Beoordeel leveranciers op hun milieubeleid en prestaties
@@ -39,14 +39,14 @@ Door technologische duurzaamheid te prioriteren, kunnen overheidsorganisaties hu
 - Selecteer leveranciers met terugname- en recyclingprogramma's
 - Raadpleeg [PIANOo's MVI-criteria voor ICT](https://www.pianoo.nl/nl/themas/maatschappelijk-verantwoord-inkopen/productgroepen-en-mvi-criteria) voor specifieke richtlijnen bij aanbestedingen
 
-#### 3. Gebruik en beheer
+### 3. Gebruik en beheer
 
 - Optimaliseer energiegebruik van hardware en software
 - Implementeer energiebesparende instellingen
 - Monitor en rapporteer over energieverbruik
 - Train gebruikers in duurzaam gebruik van technologie
 
-#### 4. Einde levensduur
+### 4. Einde levensduur
 
 - Maximaliseer hergebruik van apparatuur
 - Zorg voor verantwoorde recycling

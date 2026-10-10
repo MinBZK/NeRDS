@@ -32,7 +32,7 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
     <h3>Direct aan de slag</h3>
 
     <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+        <strong>In ontwikkeling:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
     <div class="action-cards" data-richtlijn="veiligheid"></div>
@@ -40,12 +40,12 @@ Door beveiliging serieus te nemen en het te integreren in alle aspecten van tech
 
 ## Gerelateerde hulpmiddelen
 
-#### Beleid, wetten en standaarden
+### Beleid, wetten en standaarden
 
 - [BIO (Baseline Informatiebeveiliging Overheid)](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/bio-en-ensia/){:target="_blank"} - Het verplichte normenkader voor informatiebeveiliging bij de overheid
 - [NCSC (Nationaal Cyber Security Centrum)](https://www.ncsc.nl/){:target="_blank"} - Beveiligingsadviezen en dreigingsinformatie voor de overheid
 
-### Gerelateerde richtlijnen
+## Gerelateerde richtlijnen
 
 - [7. Maak privacy integraal](../privacy/index.md)
 - [10. Maak beter gebruik van data](../data/index.md)

@@ -74,7 +74,7 @@ Deze aanpak zorgt ervoor dat we:
 - Toch alle relevante perspectieven meenemen
 - Effectief kunnen itereren en verbeteren op basis van praktijkervaringen
 
-Niet eens met een richtlijn? Dat mag! Geef feedback via onze [contributierichtlijnen](CONTRIBUTING.md) en help ons de richtlijn te verbeteren.
+Niet eens met een richtlijn? Dat mag! Geef feedback via [Contact en bijdragen](CONTRIBUTING.md) en help ons de richtlijn te verbeteren.
 
 ## Fases van digitale ontwikkeling
 
@@ -85,15 +85,15 @@ De Nederlandse Richtlijn Digitale Systemen structureert de ontwikkeling van digi
 3. **Bouwfase (Beta)**: Bouw een werkende versie van de dienst en test deze met echte gebruikers.
 4. **Productie**: Breng de dienst in productie en blijf monitoren, testen en verbeteren.
 
-Deze fases zijn gebaseerd op de best practices uit agile ontwikkelmethoden en de GDS (Government Digital Service) service standard. Per richtlijn vind je bij "Wanneer doe je wat?" specifieke aanbevelingen en hulpmiddelen die relevant zijn voor elke fase.
+Deze fases zijn gebaseerd op de best practices uit agile ontwikkelmethoden en de GDS (Government Digital Service) service standard. Per richtlijn vind je op de pagina "Wanneer doe je wat?" specifieke aanbevelingen en hulpmiddelen die relevant zijn voor elke fase.
 
-## Versies
+## Huidige versie
 
 Dit is versie {{ version }} van de Nederlandse Richtlijn Digitale Systemen (NeRDS).
 Deze website en de plugin voor AI-assistenten dragen hetzelfde versienummer.
 De eerste versie verscheen op 21 maart 2025.
 
-Wat er per versie is veranderd lees je op de pagina [Versies](versies.md).
+Wat er per versie is veranderd lees je op de pagina [Versies](versies.md). Welke build er nu draait staat op de pagina [Huidige versie](../version.md).
 
 ## Iedereen mag meedenken
 
@@ -101,5 +101,5 @@ De informatie en tools in de Nederlandse Richtlijn Digitale Systemen komen open 
 iedereen kan meekijken en zijn mening mag geven, of een voorstel mag doen - zowel voor de inhoud als voor de
 ontwikkeling van nieuwe hulpmiddelen:
 
-- Geef je [vraag of wijziging](CONTRIBUTING.md) door.
+- Geef je vraag of wijziging door via [Contact en bijdragen](CONTRIBUTING.md).
 - Draag bij aan de ontwikkeling van praktische tools.

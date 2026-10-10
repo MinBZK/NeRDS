@@ -26,7 +26,7 @@ Door open en transparant te werken en open source software te omarmen, draag je 
     <h3>Direct aan de slag</h3>
 
     <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+        <strong>In ontwikkeling:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
     <div class="action-cards" data-richtlijn="open-source"></div>
@@ -86,33 +86,33 @@ Onderhoud je open source project actief: Reageer snel op security issues, monito
 
 ## Implementatie per fase
 
-Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "3. Werk transparant en gebruik open source"](fases.md).
+Zie [Open source: wanneer doe je wat?](fases.md).
 
 ## Gerelateerde hulpmiddelen
 
-#### Naslagwerk
+### Naslagwerk
 
-- [Git commit guidelines](https://ec.europa.eu/component-library/v1.14.2/ec/docs/conventions/git/) - Europese richtlijnen voor het maken van commit messages.
+- [Git commit guidelines](https://ec.europa.eu/component-library/v1.14.2/ec/docs/conventions/git/){: lang="en" } - Europese richtlijnen voor het maken van commit messages.
 - [Developer Amsterdam](http://developers.amsterdam) -
-- [Service Manual 'Making source code open and reusable'](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable) - Vanuit GOV UK.
+- [Service Manual 'Making source code open and reusable'](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable){: lang="en" } - Vanuit GOV UK.
 
-#### Beleid, wetten en standaarden
+### Beleid, wetten en standaarden
 
 - [Beleid Opensourcewerken - Digitale Overheid](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/open-source/beleid/) - Het officiële open-tenzij beleid van de Nederlandse overheid
 - [Instructie Rijksdienst bij aanschaf ICT-diensten of ICT-producten](https://wetten.overheid.nl/BWBR0024717/2008-11-23) - Officiële instructie die open standaarden voorschrijft bij ICT-aanschaf
 - [EUPL-1.2 Licentie](https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12) - European Union Public Licence, aanbevolen voor overheidscode
 - [Softwarelicenties - Opensourcewerken](https://opensourcewerken.nl/page/view/677bb847-79b5-42b2-8a63-e7bb2e074530/softwarelicenties) - Overzicht van open source licenties en overwegingen
 
-#### Communities
+### Communities
 
 - [Opensourcewerken community](https://developer.overheid.nl/communities/open-source-werken) - Community van het Ministerie van Binnenlandse Zaken voor praktische kennis, een forum om ervaringen te delen en informatie over relevante regelgeving
 - [Code for NL](https://developer.overheid.nl/communities/code-for-nl) - Code for NL is een netwerk van developers, designers en andere experts die samenwerken aan digitale toepassingen voor een open, eerlijke en inclusieve samenleving.
 - [Common Ground](https://developer.overheid.nl/communities/common-ground) - Gemeenten werken samen met een community van betrokkenen partijen aan bouwstenen, zoals softwaretoepassingen, technische componenten of standaarden voor gegevensuitwisseling.
 
-#### Boeken
+### Boeken
 
-- **Platformland** - Richard Pope - An anatomy of next-generation public sevices
-- **[Producing Opensource Software](https://producingoss.com/)** - Karl Fogel - About the human side of open source development.
+- **Platformland** - Richard Pope - *An anatomy of next-generation public services*{: lang="en" }
+- **[Producing Opensource Software](https://producingoss.com/)**{: lang="en" } - Karl Fogel - *About the human side of open source development.*{: lang="en" }
 
 ## Gerelateerde richtlijnen
 

@@ -29,7 +29,7 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
 - [Forum Standaardisatie - Lijst open standaarden](https://www.forumstandaardisatie.nl/open-standaarden) - De 'pas toe of leg uit'-lijst van verplichte open standaarden voor de overheid
 - [Instructie Rijksdienst bij aanschaf ICT-diensten of ICT-producten](https://wetten.overheid.nl/BWBR0024717/2008-11-23) - Verplichte instructie voor gebruik van open standaarden bij ICT-aanschaf
 
-### Gerelateerde richtlijnen
+## Gerelateerde richtlijnen
 
 - 9. Integreer technologie (skill `/nerds-integratie`)
 - 2. Maak het toegankelijk (skill `/nerds-toegankelijkheid`)

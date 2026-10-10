@@ -31,7 +31,7 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
     <h3>Direct aan de slag</h3>
 
     <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+        <strong>In ontwikkeling:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
     <div class="action-cards" data-richtlijn="open-standaarden"></div>
@@ -42,7 +42,7 @@ Door open standaarden te gebruiken, draag je bij aan een meer geïntegreerde, fl
 - [Forum Standaardisatie - Lijst open standaarden](https://www.forumstandaardisatie.nl/open-standaarden){:target="_blank"} - De 'pas toe of leg uit'-lijst van verplichte open standaarden voor de overheid
 - [Instructie Rijksdienst bij aanschaf ICT-diensten of ICT-producten](https://wetten.overheid.nl/BWBR0024717/2008-11-23){:target="_blank"} - Verplichte instructie voor gebruik van open standaarden bij ICT-aanschaf
 
-### Gerelateerde richtlijnen
+## Gerelateerde richtlijnen
 
 - [9. Integreer technologie](../integratie/index.md)
 - [2. Maak het toegankelijk](../toegankelijkheid/index.md)
