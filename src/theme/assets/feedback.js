@@ -40,10 +40,16 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   document.getElementById('feedback-add-link').addEventListener('click', () => {
+    // A copy of the first field, without what that field holds: its value and
+    // a verdict on that value.
     const field = links.firstElementChild.cloneNode(true);
-    field.querySelector('nldd-text-field').value = '';
+    const input = field.querySelector('nldd-text-field');
+    input.value = '';
+    input.invalid = false;
+    field.querySelector('nldd-validation-list').removeAttribute('judging');
+    field.querySelectorAll('nldd-validation-item').forEach((item) => item.removeAttribute('unmet'));
     links.append(field);
-    field.querySelector('nldd-text-field').focus();
+    input.focus();
   });
 
   function normalizeUrl(url) {
