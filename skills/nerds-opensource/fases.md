@@ -14,8 +14,8 @@ Onderzoek of open source past bij je project en verken beschikbare oplossingen.
 
 - [Ambitieladder opensourcewerken](https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/): Helpt projectteams concrete afspraken te maken over opensourcewerken
 - [Open Stad](https://openstad.org/): Open source platform voor participatie en samenwerking
-- [Opensourcewerken](https://opensourcewerken.nl): Kennis en community voor open source werken bij de overheid
-- [Opensourcewerken](https://developer.overheid.nl/communities/open-source-werken): Community of practice omtrent open source werken (status: ontwikkeling)
+- [Opensourcewerken.nl](https://opensourcewerken.nl): Kennis en community voor open source werken bij de overheid
+- [Community Opensourcewerken](https://developer.overheid.nl/communities/open-source-werken): Community of practice omtrent open source werken (status: ontwikkeling)
 
 #### Gewenste uitkomsten
 
@@ -41,7 +41,7 @@ Maak beslissingen over het gebruiken en publiceren van open-source code
 **Direct aan de slag**
 
 - [Ambitieladder opensourcewerken](https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/): Helpt projectteams concrete afspraken te maken over opensourcewerken
-- [Opensourcewerken](https://opensourcewerken.nl): Kennis en community voor open source werken bij de overheid
+- [Opensourcewerken.nl](https://opensourcewerken.nl): Kennis en community voor open source werken bij de overheid
 - [Standaard voor publieke code](https://www.standaardvoorpubliekecode.nl/): Richtlijnen voor het ontwikkelen en beheren van software en beleid
 - [Handreiking publieke waarde bij ICT-aanbesteding](https://www.pianoo.nl/nl/handreiking-publieke-waarden-en-rechten-bij-aanbesteden-van-ict): Stappenplan voor het maken van bewuste keuzes rondom publieke waarde en rechten
 - [Licentieadvies](https://opensourcewerken.nl/page/view/677bb847-79b5-42b2-8a63-e7bb2e074530/softwarelicenties): Copyleft: CC BY-SA, GPLv3, AGPLv3 of EUPL-1.2. Permissive: Apache 2.0, MIT, BSD-0-clause
@@ -97,7 +97,7 @@ Onderhoud de code en gemeenschap actief en zorg voor snelle security responses.
 
 **Direct aan de slag**
 
-- [Opensourcewerken](https://developer.overheid.nl/communities/open-source-werken): Community of practice omtrent open source werken (status: ontwikkeling)
+- [Community Opensourcewerken](https://developer.overheid.nl/communities/open-source-werken): Community of practice omtrent open source werken (status: ontwikkeling)
 
 #### Gewenste uitkomsten
 

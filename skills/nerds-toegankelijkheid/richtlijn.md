@@ -92,11 +92,11 @@ Test systemen met echte gebruikers, inclusief mensen met verschillende beperking
 
 ## Implementatie per fase
 
-Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "2. Zorg voor toegankelijkheid en inclusie"](fases.md).
+Zie [Toegankelijkheid: wanneer doe je wat?](fases.md).
 
 ## Gerelateerde hulpmiddelen
 
-#### Naslagwerk
+### Naslagwerk
 
 - [Overlay factsheet](https://overlayfactsheet.com/nl/) - Een factsheet van technologieën die bedoeld zijn om de toegankelijkheid van een website te verbeteren. Ze passen externe broncode toe (meestal JavaScript) om verbeteringen aan te brengen in de front-endcode van de website.
 - [Inclusive Components](https://inclusive-components.design/#components) - Een patronen bibliotheek met een focus op inclusief design. In aanvulling op [NLDS Componenten](https://nldesignsystem.nl/componenten/).
@@ -105,19 +105,19 @@ Zie [Implementatie en gewenste uitkomsten per fase voor richtlijn "2. Zorg voor 
 - [Handreiking Mobiele app Ontwikkeling en Beheer versie 5.0](https://www.noraonline.nl/images/noraonline/9/94/Handreiking_appontwikkeling_en_beheer_5.0.pdf) - Hoofdstuk 8.3 geeft concrete best practices voor verschillende beperkingen voor de ontwikkeling van Mobiele Apps
 - [Kennisbank Digitoegankelijk](https://kennisbank.digitoegankelijk.nl) - Praktische tips over digitale toegankelijkheid
 
-#### Beleid, wetten en standaarden
+### Beleid, wetten en standaarden
 
 - [Web Content Accessibility Guidelines (WCAG 2.2)](https://www.w3.org/TR/WCAG22/) - Wereldwijde technische standaard voor digitale toegankelijkheid
 - [EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) - Europese norm voor hardware/niet-web software
 - [Tijdelijk besluit digitale toegankelijkheid overheid](https://wetten.overheid.nl/BWBR0040936/2018-07-01) - Overheidssites moeten voldoen aan toegankelijkheidseisen zoals vastgelegd in EN 301 549/WCAG 2.1 en daarover verantwoordelijkheid moeten afleggen in een gepubliceerde toegankelijkheidsverklaring.
 
-#### Communities
+### Communities
 
 - [Gebruiker Centraal](https://www.gebruikercentraal.nl)
 - [DigiToegankelijk](https://www.digitoegankelijk.nl/aan-de-slag/digitoegankelijk-community)
 - [a11y project](https://www.a11yproject.com) - Het A11Y-project is een door de gemeenschap gedreven initiatief om digitale toegankelijkheid te vergemakkelijken.
 
-### Gerelateerde richtlijnen
+## Gerelateerde richtlijnen
 
 - 1. Stel gebruikersbehoeften vast (skill `/nerds-gebruikers`)
 - 4. Gebruik open standaarden (skill `/nerds-standaarden`)

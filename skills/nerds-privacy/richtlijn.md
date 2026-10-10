@@ -26,13 +26,13 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
 
 ## Gerelateerde hulpmiddelen
 
-#### Beleid, wetten en standaarden
+### Beleid, wetten en standaarden
 
 - [Algemene Verordening Gegevensbescherming (AVG)](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/privacy-en-persoonsgegevens/privacywetgeving) - De Europese privacywetgeving
 - [Autoriteit Persoonsgegevens](https://autoriteitpersoonsgegevens.nl/) - Toezichthouder op de bescherming van persoonsgegevens
 - [DPIA (Data Protection Impact Assessment)](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia) - Verplichte privacytoets voor hoog-risico verwerkingen
 
-### Gerelateerde richtlijnen
+## Gerelateerde richtlijnen
 
 - 6. Maak veilige systemen (skill `/nerds-veiligheid`)
 - 10. Maak beter gebruik van data (skill `/nerds-data`)

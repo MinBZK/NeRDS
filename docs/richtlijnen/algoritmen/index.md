@@ -32,7 +32,7 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
     <h3>Direct aan de slag</h3>
 
     <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+        <strong>In ontwikkeling:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
     <div class="action-cards" data-richtlijn="algoritmen"></div>
@@ -40,13 +40,13 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
 
 ## Gerelateerde hulpmiddelen
 
-#### Beleid, wetten en standaarden
+### Beleid, wetten en standaarden
 
 - [AI-verordening (EU AI Act)](https://artificialintelligenceact.eu/){:target="_blank"} - Europese wetgeving voor verantwoord gebruik van AI-systemen
 - [Algoritmeregister](https://algoritmes.overheid.nl/){:target="_blank"} - Overzicht van algoritmen die de Nederlandse overheid gebruikt
 - [IAMA (Impact Assessment Mensenrechten en Algoritmes)](https://minbzk.github.io/Algoritmekader/voldoen-aan-wetten-en-regels/hulpmiddelen/IAMA/){:target="_blank"} - Instrument voor het beoordelen van mensenrechtenimpact van algoritmen
 
-### Gerelateerde richtlijnen
+## Gerelateerde richtlijnen
 
 - [7. Maak privacy integraal](../privacy/index.md)
 - [6. Maak veilige systemen](../veiligheid/index.md)

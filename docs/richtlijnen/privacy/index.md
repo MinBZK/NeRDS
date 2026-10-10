@@ -31,7 +31,7 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
     <h3>Direct aan de slag</h3>
 
     <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+        <strong>In ontwikkeling:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
     <div class="action-cards" data-richtlijn="privacy"></div>
@@ -39,13 +39,13 @@ Door privacy integraal te maken in het ontwerpproces van digitale systemen, vold
 
 ## Gerelateerde hulpmiddelen
 
-#### Beleid, wetten en standaarden
+### Beleid, wetten en standaarden
 
 - [Algemene Verordening Gegevensbescherming (AVG)](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/privacy-en-persoonsgegevens/privacywetgeving){:target="_blank"} - De Europese privacywetgeving
 - [Autoriteit Persoonsgegevens](https://autoriteitpersoonsgegevens.nl/){:target="_blank"} - Toezichthouder op de bescherming van persoonsgegevens
 - [DPIA (Data Protection Impact Assessment)](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia){:target="_blank"} - Verplichte privacytoets voor hoog-risico verwerkingen
 
-### Gerelateerde richtlijnen
+## Gerelateerde richtlijnen
 
 - [6. Maak veilige systemen](../veiligheid/index.md)
 - [10. Maak beter gebruik van data](../data/index.md)

@@ -2,7 +2,7 @@
 """
 Build the site and run every check on the result.
 
-    check_site.py            build, then check markup, tokens, classes, the CSP and behavior
+    check_site.py            build, then check markup, tokens, classes, the CSP, the outline and behavior
     check_site.py --update   build, then record the behavior surface as the new reference
 
 Pre-commit and CI both run this file, so they cannot drift apart.
@@ -37,6 +37,7 @@ def main() -> int:
         results = [
             run(str(SCRIPTS / "check_nldd.py"), site_dir),
             run(str(SCRIPTS / "check_csp.py"), site_dir),
+            run(str(SCRIPTS / "check_outline.py"), site_dir),
             run(str(SCRIPTS / "behavior_surface.py"), "check", site_dir, str(SURFACE)),
         ]
     return 1 if any(results) else 0

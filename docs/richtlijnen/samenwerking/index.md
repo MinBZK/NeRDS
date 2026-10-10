@@ -30,7 +30,7 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
     <h3>Direct aan de slag</h3>
 
     <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+        <strong>In ontwikkeling:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
     <div class="action-cards" data-richtlijn="samenwerking"></div>
@@ -38,12 +38,12 @@ Door actief samen te werken, kennis te delen en bestaande oplossingen te hergebr
 
 ## Gerelateerde hulpmiddelen
 
-#### Communities
+### Communities
 
 - [Common Ground](https://developer.overheid.nl/communities/common-ground){:target="_blank"} - Gemeenten werken samen aan herbruikbare softwarecomponenten en standaarden
 - [Developer Overheid](https://developer.overheid.nl/){:target="_blank"} - Platform voor kennisdeling en samenwerking tussen overheidsontwikkelaars
 
-### Gerelateerde richtlijnen
+## Gerelateerde richtlijnen
 
 - [3. Werk transparant en gebruik open source](../open-source/index.md)
 - [9. Integreer technologie](../integratie/index.md)

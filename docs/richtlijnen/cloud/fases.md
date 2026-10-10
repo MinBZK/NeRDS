@@ -25,7 +25,7 @@ Verantwoord cloudgebruik vraagt om gefaseerd handelen: van de keuze waar je syst
 
 - [ ] Je hebt een heldere behoeftestelling die beschrijft wat je functioneel wilt bereiken inclusief of cloud geschikt is voor je digitale systeem
 - [ ] Je rol (maker of inkoper) is bepaald en bepalend voor je sourcing-strategie
-- [ ] Je weet welk kader voor je geldt: het [Rijksbrede Cloudbeleid 2026](https://www.tweedekamer.nl/downloads/document?id=2026D35295) of, voor gemeenten, de [VNG-handreiking](https://vng.nl/sites/default/files/2026-07/handreiking-cloud-voor-gemeenten.pdf)
+- [ ] Je weet welk kader voor je geldt: het [Rijksbrede Cloudbeleid 2026](https://www.tweedekamer.nl/downloads/document?id=2026D35295) of, voor gemeenten, de [VNG-handreiking Eisen aan gemeentelijke Cloudvoorzieningen (pdf)](https://vng.nl/sites/default/files/2026-07/handreiking-cloud-voor-gemeenten.pdf)
 - [ ] Je hebt een integrale risicobeoordeling met DPIA/DTIA uitgevoerd volgens het [Implementatiekader risicoafweging](https://open.overheid.nl/documenten/ronl-734f947ec6465e4f75a56bed82fe64a1135f71a8/pdf)
 - [ ] Je hebt je toepassing en data geclassificeerd (BIV-eisen of TBB-niveau) en weet welk beschermingsniveau nodig is
 - [ ] Je hebt de opties afgewogen (overheidsdatacenter of gedeelde overheidsvoorziening, Europese leverancier, publieke cloud) en weet onder welke jurisdictie elke leverancier valt

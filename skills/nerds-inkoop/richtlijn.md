@@ -28,12 +28,12 @@ Een goed gedefinieerde inkoopstrategie voor technologie helpt je organisatie bet
 
 ## Gerelateerde hulpmiddelen
 
-#### Beleid, wetten en standaarden
+### Beleid, wetten en standaarden
 
 - [PIANOo - Expertisecentrum Aanbesteden](https://www.pianoo.nl/) - Kenniscentrum voor inkoop en aanbesteding bij de overheid
 - [Aanbestedingswet 2012](https://wetten.overheid.nl/BWBR0032203/) - Wettelijk kader voor overheidsinkoopprocessen
 
-### Gerelateerde richtlijnen
+## Gerelateerde richtlijnen
 
 - 13. Maak je technologie duurzaam (skill `/nerds-duurzaamheid`)
 - 5. Gebruik cloud verantwoord en blijf wendbaar (skill `/nerds-cloud`)

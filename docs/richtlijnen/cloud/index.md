@@ -11,7 +11,7 @@ relations:
 
 # 5. Gebruik cloud verantwoord en blijf wendbaar
 
-Kies bij elk nieuw of te vernieuwen systeem bewust waar het draait en wie daar zeggenschap over heeft. Ontwerp zo dat je kunt overstappen als de leverancier, het aanbod of het beleid verandert. Cloud biedt de overheid voordelen en het gebruik is toegestaan, binnen kaders. Het [Rijksbrede Cloudbeleid 2026](https://www.tweedekamer.nl/downloads/document?id=2026D35295){:target="_blank"} raadt een generiek "cloud-tenzij"-beleid af, en het kabinet heeft zijn voorkeur uitgesproken voor een [soevereine overheidscloud](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z15306&did=2026D34379){:target="_blank"}.
+Kies bij elk nieuw of te vernieuwen systeem bewust waar het draait en wie daar zeggenschap over heeft. Ontwerp zo dat je kunt overstappen als de leverancier, het aanbod of het beleid verandert. Cloud biedt de overheid voordelen en het gebruik is toegestaan, binnen kaders. Het [Rijksbrede Cloudbeleid 2026](https://www.tweedekamer.nl/downloads/document?id=2026D35295){:target="_blank"} raadt een generiek "cloud-tenzij"-beleid af, en het kabinet heeft in de [Kamerbrief Verkenning soevereine overheidscloud](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z15306&did=2026D34379){:target="_blank"} zijn voorkeur uitgesproken voor een soevereine overheidscloud.
 
 ## Waarom is het belangrijk?
 
@@ -46,11 +46,11 @@ Bestaand gebruik heeft een overgangstermijn van vier jaar. Het exitplan moet er 
 
 ### Soevereine overheidscloud
 
-Het kabinet sprak op 1 juli 2026 zijn [voorkeur](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z15306&did=2026D34379){:target="_blank"} uit voor een nieuwe soevereine overheidsclouddienst onder centrale regie, gebouwd op open source en waar mogelijk gehuisvest in de overheidsdatacenters. Sinds 31 augustus 2026 ligt [Het Ontwerp](https://www.digitaleoverheid.nl/nieuws-nds/nds-cloud-mijlpaal-publicatie-van-het-ontwerp/){:target="_blank"} van de clouddienst voor openbare review. Governance, bekostiging en inkoop volgen later. De proof of concept is een doorbraaktraject van de [Nederlandse Digitale Dienst](https://digitaledienst.overheid.nl/){:target="_blank"} en draait op [Fundament](https://docs.fundament.projects.digilab.network/){:target="_blank"}, een open source platform met openbare documentatie en broncode.
+Het kabinet sprak op 1 juli 2026 in de [Kamerbrief Verkenning soevereine overheidscloud](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z15306&did=2026D34379){:target="_blank"} zijn voorkeur uit voor een nieuwe soevereine overheidsclouddienst onder centrale regie, gebouwd op open source en waar mogelijk gehuisvest in de overheidsdatacenters. Sinds 31 augustus 2026 ligt [Het Ontwerp](https://www.digitaleoverheid.nl/nieuws-nds/nds-cloud-mijlpaal-publicatie-van-het-ontwerp/){:target="_blank"} van de clouddienst voor openbare review. Governance, bekostiging en inkoop volgen later. De proof of concept is een doorbraaktraject van de [Nederlandse Digitale Dienst](https://digitaledienst.overheid.nl/){:target="_blank"} en draait op [Fundament](https://docs.fundament.projects.digilab.network/){:target="_blank"}, een open source platform met openbare documentatie en broncode.
 
 ### Gemeenten
 
-De VNG-handreiking [Eisen aan gemeentelijke Cloudvoorzieningen](https://vng.nl/nieuws/nieuwe-handreiking-helpt-bij-inkoop-clouddiensten){:target="_blank"} hanteert "EU-by-design": niet-Europese leveranciers alleen als een volwaardig Europees alternatief ontbreekt, en dan tijdelijk. De handreiking bevat een programma van eisen voor aanbestedingen.
+De [VNG-handreiking Eisen aan gemeentelijke Cloudvoorzieningen (pdf)](https://vng.nl/sites/default/files/2026-07/handreiking-cloud-voor-gemeenten.pdf){:target="_blank"} hanteert "EU-by-design": niet-Europese leveranciers alleen als een volwaardig Europees alternatief ontbreekt, en dan tijdelijk. De handreiking bevat een programma van eisen voor aanbestedingen.
 
 ### Europa
 
@@ -62,7 +62,7 @@ Het [EU Cloud Sovereignty Framework](https://commission.europa.eu/document/09579
     <h3>Direct aan de slag</h3>
 
     <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+        <strong>In ontwikkeling:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
     <div class="action-cards" data-richtlijn="cloud"></div>
@@ -77,7 +77,7 @@ Begin bij wat je functioneel wilt bereiken; cloud is een middel. Hoe gevoelig je
 ??? expander "Praktische tips"
     - **Start met de behoefte** - Formuleer wat je functioneel wilt bereiken voordat je over technologie nadenkt.
     - **Geen cloud-tenzij** - Leg in je cloudstrategie vast wanneer cloud de voorkeur heeft, welke voordelen je verwacht en hoe je die borgt.
-    - **Classificeer je toepassing en data** - Ga uit van BIV-eisen of TBB-niveau. Gemeenten gebruiken de soevereiniteitsniveaus uit de [VNG-handreiking](https://vng.nl/sites/default/files/2026-07/handreiking-cloud-voor-gemeenten.pdf){:target="_blank"}.
+    - **Classificeer je toepassing en data** - Ga uit van BIV-eisen of TBB-niveau. Gemeenten gebruiken de soevereiniteitsniveaus uit de [VNG-handreiking Eisen aan gemeentelijke Cloudvoorzieningen (pdf)](https://vng.nl/sites/default/files/2026-07/handreiking-cloud-voor-gemeenten.pdf){:target="_blank"}.
     - **Voer de risicoanalyse uit** - Met een [DPIA](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia){:target="_blank"} en waar nodig een [DTIA](https://www.autoriteitpersoonsgegevens.nl/themas/internationaal/doorgifte-binnen-en-buiten-de-eer/doorgifte-persoonsgegevens-buiten-de-eer){:target="_blank"}. Leg het restrisico vast en laat het formeel accepteren.
     - **Beoordeel de jurisdictie, niet alleen de locatie** - Vraag onder welk recht de leverancier en het moederbedrijf vallen.
     - **Kijk ook naar wat de overheid zelf biedt** - Weeg je keuze af tegen een overheidsdatacenter of een gedeelde overheidsvoorziening, en volg de ontwikkeling van [Fundament](https://docs.fundament.projects.digilab.network/){:target="_blank"}.
@@ -123,22 +123,22 @@ Een exitplan dat nooit is geoefend, is een aanname. Het aanbod en het beleid ver
 
 ## Implementatie per fase
 
-Zie [Implementatie en gewenste uitkomsten per fase](fases.md).
+Zie [Cloud: wanneer doe je wat?](fases.md).
 
 ## Gerelateerde hulpmiddelen
 
-#### Beleid en kaders
+### Beleid en kaders
 
 - [Herziening Rijksbreed Cloudbeleid 2026](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z15738&did=2026D35294) - Kamerbrief van 3 juli 2026, met het [beleidsdocument](https://www.tweedekamer.nl/downloads/document?id=2026D35295)
-- [Verkenning soevereine overheidscloud](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z15306&did=2026D34379) - Kamerbrief van 1 juli 2026
+- [Kamerbrief Verkenning soevereine overheidscloud](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z15306&did=2026D34379) - 1 juli 2026
 - [Implementatiekader risicoafweging](https://open.overheid.nl/documenten/ronl-734f947ec6465e4f75a56bed82fe64a1135f71a8/pdf) - Kader voor de risicoafweging bij cloudgebruik
-- [Eisen aan gemeentelijke Cloudvoorzieningen](https://vng.nl/sites/default/files/2026-07/handreiking-cloud-voor-gemeenten.pdf) - VNG-handreiking met programma van eisen
+- [VNG-handreiking Eisen aan gemeentelijke Cloudvoorzieningen (pdf)](https://vng.nl/sites/default/files/2026-07/handreiking-cloud-voor-gemeenten.pdf) - met programma van eisen
 - [EU Cloud Sovereignty Framework](https://commission.europa.eu/document/09579818-64a6-4dd5-9577-446ab6219113_en) - Europese soevereiniteitsniveaus SEAL-0 tot en met SEAL-4
 - [Nederlandse Digitaliseringsstrategie (NDS) prioriteit Cloud](https://www.digitaleoverheid.nl/nederlandse-digitaliseringsstrategie-nds/6-prioriteiten-voor-een-overheid/prioriteit-1-cloud/){:target="_blank"}
 - [Visie digitale autonomie en soevereiniteit van de overheid](https://www.rijksoverheid.nl/documenten/rapporten/2025/12/18/bijlage-2-visie-digitale-autonomie-en-soevereiniteit-van-de-overheid) - Rijksbrede visie
 - [BIO (Baseline Informatiebeveiliging Overheid)](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/bio-en-ensia/) - Beveiligingsnormen overheid
 
-#### Naslagwerk
+### Naslagwerk
 
 - [Fundament](https://docs.fundament.projects.digilab.network/) - Open source platform waarop de proef met de soevereine overheidscloud draait
 - [Haven](https://haven.commonground.nl/) - Standaard voor platformonafhankelijke cloudhosting op Kubernetes
@@ -147,7 +147,7 @@ Zie [Implementatie en gewenste uitkomsten per fase](fases.md).
 - [NORA](https://www.noraonline.nl/wiki/Cloud_computing) - Architectuurprincipes overheid
 - [Cloud Native Computing Foundation](https://www.cncf.io/) - Open source projecten voor cloud-native werken
 
-#### Communities en trainingen
+### Communities en trainingen
 
 - [Nederlandse Digitale Dienst](https://digitaledienst.overheid.nl/) - Werkt met overheidsorganisaties aan doorbraakprojecten, waaronder de soevereine overheidscloud
 - [Common Ground](https://developer.overheid.nl/communities/common-ground) - Gemeenten werken samen aan herbruikbare bouwstenen
@@ -156,7 +156,7 @@ Zie [Implementatie en gewenste uitkomsten per fase](fases.md).
 - [RADIO](https://www.it-academieoverheid.nl/onderwerpen/c/cloud-computing/cursussen-cloud) - Cloudtrainingen voor rijksambtenaren
 - [Linux Foundation Training](https://training.linuxfoundation.org/resources/) - Cursussen over Kubernetes en cloud-native
 
-### Gerelateerde richtlijnen
+## Gerelateerde richtlijnen
 
 - [6. Maak veilige systemen](../veiligheid/index.md){:target="_blank"}
 - [7. Maak privacy integraal](../privacy/index.md){:target="_blank"}

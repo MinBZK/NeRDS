@@ -28,7 +28,7 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
     <h3>Direct aan de slag</h3>
 
     <div class="warning-banner">
-        <strong>Work in Progress:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
+        <strong>In ontwikkeling:</strong> De onderstaande functionaliteit is nog in ontwikkeling.
     </div>
 
     <div class="action-cards" data-richtlijn="integratie"></div>
@@ -60,7 +60,7 @@ Door zorgvuldige integratie en aanpassing van technologie kun je een coherent en
 - **Dataformaten**: Gebruik standaarden en transformaties voor compatibiliteit
 - **Verschillende snelheden**: Implementeer bimodale IT om innovatie en stabiliteit te balanceren
 - **Beveiligingsgrenzen**: Ontwikkel veilige integratiepunten tussen verschillende beveiligingszones
-- **Organizational silos**: Bevorder samenwerking tussen afdelingen en teams
+- **Organisatorische silo's**: Bevorder samenwerking tussen afdelingen en teams
 
 ### Best practices voor succesvolle integratie
 

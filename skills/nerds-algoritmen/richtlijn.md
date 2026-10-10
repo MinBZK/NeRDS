@@ -30,13 +30,13 @@ Door algoritmen verantwoord toe te passen, zorgen overheidsorganisaties ervoor d
 
 ## Gerelateerde hulpmiddelen
 
-#### Beleid, wetten en standaarden
+### Beleid, wetten en standaarden
 
 - [AI-verordening (EU AI Act)](https://artificialintelligenceact.eu/) - Europese wetgeving voor verantwoord gebruik van AI-systemen
 - [Algoritmeregister](https://algoritmes.overheid.nl/) - Overzicht van algoritmen die de Nederlandse overheid gebruikt
 - [IAMA (Impact Assessment Mensenrechten en Algoritmes)](https://minbzk.github.io/Algoritmekader/voldoen-aan-wetten-en-regels/hulpmiddelen/IAMA/) - Instrument voor het beoordelen van mensenrechtenimpact van algoritmen
 
-### Gerelateerde richtlijnen
+## Gerelateerde richtlijnen
 
 - 7. Maak privacy integraal (skill `/nerds-privacy`)
 - 6. Maak veilige systemen (skill `/nerds-veiligheid`)

@@ -12,7 +12,8 @@
   ],
   "required_headers": [
     "Waarom is het belangrijk?",
-    "Hoe pas je het toe?"
+    "Hoe pas je het toe?",
+    "Gerelateerde richtlijnen"
   ],
   "conditional_headers": [
     "Gerelateerde hulpmiddelen",
